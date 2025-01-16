@@ -1,0 +1,349 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-ggplot2 >=3.0.0",
+    "r-gtable"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-patchwork-1.1.1-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/patchwork/DESCRIPTION",
+    "lib/R/library/patchwork/INDEX",
+    "lib/R/library/patchwork/LICENSE",
+    "lib/R/library/patchwork/Meta/Rd.rds",
+    "lib/R/library/patchwork/Meta/features.rds",
+    "lib/R/library/patchwork/Meta/hsearch.rds",
+    "lib/R/library/patchwork/Meta/links.rds",
+    "lib/R/library/patchwork/Meta/nsInfo.rds",
+    "lib/R/library/patchwork/Meta/package.rds",
+    "lib/R/library/patchwork/Meta/vignette.rds",
+    "lib/R/library/patchwork/NAMESPACE",
+    "lib/R/library/patchwork/NEWS.md",
+    "lib/R/library/patchwork/R/patchwork",
+    "lib/R/library/patchwork/R/patchwork.rdb",
+    "lib/R/library/patchwork/R/patchwork.rdx",
+    "lib/R/library/patchwork/doc/index.html",
+    "lib/R/library/patchwork/doc/patchwork.R",
+    "lib/R/library/patchwork/doc/patchwork.Rmd",
+    "lib/R/library/patchwork/doc/patchwork.html",
+    "lib/R/library/patchwork/help/AnIndex",
+    "lib/R/library/patchwork/help/aliases.rds",
+    "lib/R/library/patchwork/help/figures/README-example-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-10-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-11-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-2-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-3-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-4-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-5-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-6-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-7-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-8-1.png",
+    "lib/R/library/patchwork/help/figures/README-unnamed-chunk-9-1.png",
+    "lib/R/library/patchwork/help/figures/logo.png",
+    "lib/R/library/patchwork/help/figures/logo.svg",
+    "lib/R/library/patchwork/help/patchwork.rdb",
+    "lib/R/library/patchwork/help/patchwork.rdx",
+    "lib/R/library/patchwork/help/paths.rds",
+    "lib/R/library/patchwork/html/00Index.html",
+    "lib/R/library/patchwork/html/R.css"
+  ],
+  "fn": "r-patchwork-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-patchwork-1.1.1-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "ac2052d55f1a4aaa4cc43058c81bd98d",
+  "name": "r-patchwork",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-patchwork-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/patchwork/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "dd463d6ac7a64f2da40dd2aa54e82f29bf528d2a7f7fb0e7b69edc28e7bfc175",
+        "sha256_in_prefix": "dd463d6ac7a64f2da40dd2aa54e82f29bf528d2a7f7fb0e7b69edc28e7bfc175",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/patchwork/INDEX",
+        "path_type": "hardlink",
+        "sha256": "cd8831be064bccae2de5a92b2cb4223954cbd793a5f02016eedaf4ab552100ad",
+        "sha256_in_prefix": "cd8831be064bccae2de5a92b2cb4223954cbd793a5f02016eedaf4ab552100ad",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "lib/R/library/patchwork/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1923917f4721017e793b05d15f55f85138d1e58fe43a19e0b6c466b72bd4655d",
+        "sha256_in_prefix": "1923917f4721017e793b05d15f55f85138d1e58fe43a19e0b6c466b72bd4655d",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "570a4ffdebf6576420c9f917e307f45f77f0c2d39fb357120c4b377e3392b0e8",
+        "sha256_in_prefix": "570a4ffdebf6576420c9f917e307f45f77f0c2d39fb357120c4b377e3392b0e8",
+        "size_in_bytes": 860
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "d91ab8c060b17bfa6ca2c92f2d07afa7cefa6d0f3a32fe15a188b791c0cd2e81",
+        "sha256_in_prefix": "d91ab8c060b17bfa6ca2c92f2d07afa7cefa6d0f3a32fe15a188b791c0cd2e81",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "b999af5c903cd7004060e93402e6292acf240ea85c7de6e6fe1e796a0e3b8a65",
+        "sha256_in_prefix": "b999af5c903cd7004060e93402e6292acf240ea85c7de6e6fe1e796a0e3b8a65",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "8eb89f2747a5654f832ee68d06ee58fc03e1658eab0e43003f3cbbdef9e545ad",
+        "sha256_in_prefix": "8eb89f2747a5654f832ee68d06ee58fc03e1658eab0e43003f3cbbdef9e545ad",
+        "size_in_bytes": 1139
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "49e3019fb6b5f87cdd1f2ad4f602f487c7bf9c6620f9cf2f2dabd22855411a14",
+        "sha256_in_prefix": "49e3019fb6b5f87cdd1f2ad4f602f487c7bf9c6620f9cf2f2dabd22855411a14",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "lib/R/library/patchwork/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "cb14a8a6a3c832d857520645fda338a4ad631a827889233d7203ece81c5872c2",
+        "sha256_in_prefix": "cb14a8a6a3c832d857520645fda338a4ad631a827889233d7203ece81c5872c2",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/R/library/patchwork/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c0a0e95be63bf2cefe0888dd98cef1222cca717633b28f03f0bcf11669d870fe",
+        "sha256_in_prefix": "c0a0e95be63bf2cefe0888dd98cef1222cca717633b28f03f0bcf11669d870fe",
+        "size_in_bytes": 3910
+      },
+      {
+        "_path": "lib/R/library/patchwork/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "faa079d98ed1cef4595f3caef6f89e5fc20ad601d2e7fc6dd361ba6203fdec00",
+        "sha256_in_prefix": "faa079d98ed1cef4595f3caef6f89e5fc20ad601d2e7fc6dd361ba6203fdec00",
+        "size_in_bytes": 2096
+      },
+      {
+        "_path": "lib/R/library/patchwork/R/patchwork",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/patchwork/R/patchwork.rdb",
+        "path_type": "hardlink",
+        "sha256": "a6517094cfabc4e8f0c3ee97be389658ff8d46a1cf10635fe46da266d4b5a39a",
+        "sha256_in_prefix": "a6517094cfabc4e8f0c3ee97be389658ff8d46a1cf10635fe46da266d4b5a39a",
+        "size_in_bytes": 135476
+      },
+      {
+        "_path": "lib/R/library/patchwork/R/patchwork.rdx",
+        "path_type": "hardlink",
+        "sha256": "c0837a0018ffc454b1e52ae3cfbdda669f01872b8dad1b3380f093e66288006d",
+        "sha256_in_prefix": "c0837a0018ffc454b1e52ae3cfbdda669f01872b8dad1b3380f093e66288006d",
+        "size_in_bytes": 2095
+      },
+      {
+        "_path": "lib/R/library/patchwork/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "a9abf6c2103e946fb6dd217deacd74015935e816ce4b5a81975106eef976f5d0",
+        "sha256_in_prefix": "a9abf6c2103e946fb6dd217deacd74015935e816ce4b5a81975106eef976f5d0",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "lib/R/library/patchwork/doc/patchwork.R",
+        "path_type": "hardlink",
+        "sha256": "fdcd1d6018d02392ae3829c4b1f32c1f05c132dd07e5e216430549c40cceb0c6",
+        "sha256_in_prefix": "fdcd1d6018d02392ae3829c4b1f32c1f05c132dd07e5e216430549c40cceb0c6",
+        "size_in_bytes": 1653
+      },
+      {
+        "_path": "lib/R/library/patchwork/doc/patchwork.Rmd",
+        "path_type": "hardlink",
+        "sha256": "70ed6f11aab1c175970dd52b7a43151a560ec0d47585a90e59fb74c7499c28c9",
+        "sha256_in_prefix": "70ed6f11aab1c175970dd52b7a43151a560ec0d47585a90e59fb74c7499c28c9",
+        "size_in_bytes": 3834
+      },
+      {
+        "_path": "lib/R/library/patchwork/doc/patchwork.html",
+        "path_type": "hardlink",
+        "sha256": "32c7136acf2ad0de7386342616723059617fdb85c7162a9cde3d33818d1f36c3",
+        "sha256_in_prefix": "32c7136acf2ad0de7386342616723059617fdb85c7162a9cde3d33818d1f36c3",
+        "size_in_bytes": 412220
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b52fdb74f6a99bcfa2bd9e414288f96239f2b60539ed01b343854b213199e38c",
+        "sha256_in_prefix": "b52fdb74f6a99bcfa2bd9e414288f96239f2b60539ed01b343854b213199e38c",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5cee7ffbdaa701216fafbefa30cef16c603dd3a271143589555949a10d7f9bf9",
+        "sha256_in_prefix": "5cee7ffbdaa701216fafbefa30cef16c603dd3a271143589555949a10d7f9bf9",
+        "size_in_bytes": 301
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-example-1.png",
+        "path_type": "hardlink",
+        "sha256": "169a7d64de2ce714c884717f306419e6705927c64eeda854b17978dcc5182076",
+        "sha256_in_prefix": "169a7d64de2ce714c884717f306419e6705927c64eeda854b17978dcc5182076",
+        "size_in_bytes": 28688
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-10-1.png",
+        "path_type": "hardlink",
+        "sha256": "57d75ddaae7a5a32cbc4d6e4f5122d571f21e8eb8caae066a3b61bce1b1336e0",
+        "sha256_in_prefix": "57d75ddaae7a5a32cbc4d6e4f5122d571f21e8eb8caae066a3b61bce1b1336e0",
+        "size_in_bytes": 46887
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-11-1.png",
+        "path_type": "hardlink",
+        "sha256": "193932051272f11cd6228e07f250eb8249029afbb3c5aec1efc1f6150432768d",
+        "sha256_in_prefix": "193932051272f11cd6228e07f250eb8249029afbb3c5aec1efc1f6150432768d",
+        "size_in_bytes": 47795
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-2-1.png",
+        "path_type": "hardlink",
+        "sha256": "202d8ad9fd62f44f63076197d34903c8732cfbe656b7fba37093f9033cdb41ec",
+        "sha256_in_prefix": "202d8ad9fd62f44f63076197d34903c8732cfbe656b7fba37093f9033cdb41ec",
+        "size_in_bytes": 44491
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-3-1.png",
+        "path_type": "hardlink",
+        "sha256": "416cc2e14be3cda48712b47ff65ee9d0417bebd14dcf5c9c2cea124b9ae574a1",
+        "sha256_in_prefix": "416cc2e14be3cda48712b47ff65ee9d0417bebd14dcf5c9c2cea124b9ae574a1",
+        "size_in_bytes": 29824
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-4-1.png",
+        "path_type": "hardlink",
+        "sha256": "985c606f9f0f6c3bbace5d79b219f1ae84b72cfcf9ffcb797544bda34befc86f",
+        "sha256_in_prefix": "985c606f9f0f6c3bbace5d79b219f1ae84b72cfcf9ffcb797544bda34befc86f",
+        "size_in_bytes": 27623
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-5-1.png",
+        "path_type": "hardlink",
+        "sha256": "ba19e57bf8d94b11c1c12465c33a194a47fa3bfc2d628efcc0b20c822606430c",
+        "sha256_in_prefix": "ba19e57bf8d94b11c1c12465c33a194a47fa3bfc2d628efcc0b20c822606430c",
+        "size_in_bytes": 43738
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-6-1.png",
+        "path_type": "hardlink",
+        "sha256": "19d28a3086d327ccc37ec42edc36090a8c5086c3996201e0592097e2503e85ab",
+        "sha256_in_prefix": "19d28a3086d327ccc37ec42edc36090a8c5086c3996201e0592097e2503e85ab",
+        "size_in_bytes": 31069
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-7-1.png",
+        "path_type": "hardlink",
+        "sha256": "c343dd6320fecf3ba753b8c3155b467ee7f2d34b66833099c762d23c266b05d4",
+        "sha256_in_prefix": "c343dd6320fecf3ba753b8c3155b467ee7f2d34b66833099c762d23c266b05d4",
+        "size_in_bytes": 43212
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-8-1.png",
+        "path_type": "hardlink",
+        "sha256": "6f5486f68fc75b38bdbb2ec49fca78ccdda9ef858566fe7239385d919666b4ba",
+        "sha256_in_prefix": "6f5486f68fc75b38bdbb2ec49fca78ccdda9ef858566fe7239385d919666b4ba",
+        "size_in_bytes": 45280
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/README-unnamed-chunk-9-1.png",
+        "path_type": "hardlink",
+        "sha256": "8a0b05e7c2804ee113f3e76dbcff060f4067ef2201b6001dd66f213b41560e86",
+        "sha256_in_prefix": "8a0b05e7c2804ee113f3e76dbcff060f4067ef2201b6001dd66f213b41560e86",
+        "size_in_bytes": 44434
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "1c8ce0e6fabae3cdc7663bf53eb5d3aa21ae251e434c0a43cd031be1c3c85253",
+        "sha256_in_prefix": "1c8ce0e6fabae3cdc7663bf53eb5d3aa21ae251e434c0a43cd031be1c3c85253",
+        "size_in_bytes": 106346
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/figures/logo.svg",
+        "path_type": "hardlink",
+        "sha256": "f20bbb06095a776aaf7ec8c74a05c76af3261adddf6637a1ef734f6945a940f3",
+        "sha256_in_prefix": "f20bbb06095a776aaf7ec8c74a05c76af3261adddf6637a1ef734f6945a940f3",
+        "size_in_bytes": 2987035
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/patchwork.rdb",
+        "path_type": "hardlink",
+        "sha256": "da6875797c6ff8d2488b3b1f870c0981716051692ec120b0f0ea002ca4767852",
+        "sha256_in_prefix": "da6875797c6ff8d2488b3b1f870c0981716051692ec120b0f0ea002ca4767852",
+        "size_in_bytes": 40480
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/patchwork.rdx",
+        "path_type": "hardlink",
+        "sha256": "ab854136ba7d44aa6691270ac29979e8b72ec35a8bd8a7e2fba86437d360fa1f",
+        "sha256_in_prefix": "ab854136ba7d44aa6691270ac29979e8b72ec35a8bd8a7e2fba86437d360fa1f",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "lib/R/library/patchwork/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "5cfe26cad287f2ab2c31f50e863cd70dc6abff5bb649e0b8d6fe3f0ea0295e71",
+        "sha256_in_prefix": "5cfe26cad287f2ab2c31f50e863cd70dc6abff5bb649e0b8d6fe3f0ea0295e71",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/patchwork/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "27fae9c4d62aaec6e5abf1847a7f8c2ff6403b048bebedac4f26b7715b3c993e",
+        "sha256_in_prefix": "27fae9c4d62aaec6e5abf1847a7f8c2ff6403b048bebedac4f26b7715b3c993e",
+        "size_in_bytes": 3485
+      },
+      {
+        "_path": "lib/R/library/patchwork/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1951326a5822117ae55228d166757c471aa51b7107ab58d4f0be9486d4242a9e",
+  "size": 3239077,
+  "subdir": "noarch",
+  "timestamp": 1608203266000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-patchwork-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "version": "1.1.1"
+}

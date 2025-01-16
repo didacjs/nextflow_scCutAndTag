@@ -1,0 +1,888 @@
+{
+  "build": "pyh7cba7a3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "simplejson",
+    "argcomplete >=1.9.4",
+    "argh >=0.26.2",
+    "pyfaidx >=0.5.5.2"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/gffutils-0.13-pyh7cba7a3_0",
+  "files": [
+    "bin/gffutils-cli",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/LICENSE",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/METADATA",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/RECORD",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/WHEEL",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/gffutils-0.13.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/gffutils/__init__.py",
+    "lib/python3.6/site-packages/gffutils/attributes.py",
+    "lib/python3.6/site-packages/gffutils/bins.py",
+    "lib/python3.6/site-packages/gffutils/biopython_integration.py",
+    "lib/python3.6/site-packages/gffutils/constants.py",
+    "lib/python3.6/site-packages/gffutils/convert.py",
+    "lib/python3.6/site-packages/gffutils/create.py",
+    "lib/python3.6/site-packages/gffutils/exceptions.py",
+    "lib/python3.6/site-packages/gffutils/feature.py",
+    "lib/python3.6/site-packages/gffutils/gffwriter.py",
+    "lib/python3.6/site-packages/gffutils/helpers.py",
+    "lib/python3.6/site-packages/gffutils/inspect.py",
+    "lib/python3.6/site-packages/gffutils/interface.py",
+    "lib/python3.6/site-packages/gffutils/iterators.py",
+    "lib/python3.6/site-packages/gffutils/merge_criteria.py",
+    "lib/python3.6/site-packages/gffutils/parser.py",
+    "lib/python3.6/site-packages/gffutils/pybedtools_integration.py",
+    "lib/python3.6/site-packages/gffutils/scripts/gffutils-flybase-convert.py",
+    "lib/python3.6/site-packages/gffutils/test/__init__.py",
+    "lib/python3.6/site-packages/gffutils/test/attr_test_cases.py",
+    "lib/python3.6/site-packages/gffutils/test/conftest.py",
+    "lib/python3.6/site-packages/gffutils/test/data/F3-unique-3.v2.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/FBgn0031208.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/FBgn0031208.gtf",
+    "lib/python3.6/site-packages/gffutils/test/data/FBgn0031208.gtf.db",
+    "lib/python3.6/site-packages/gffutils/test/data/Saccharomyces_cerevisiae.R64-1-1.83.5000_gene_ids.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/Saccharomyces_cerevisiae.R64-1-1.83.5000_transcript_ids.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/Saccharomyces_cerevisiae.R64-1-1.83.chromsizes.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/c_elegans_WS199_ann_gff.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/c_elegans_WS199_dna_shortened.fa",
+    "lib/python3.6/site-packages/gffutils/test/data/c_elegans_WS199_shortened_gff.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/dm6-chr2L.fa",
+    "lib/python3.6/site-packages/gffutils/test/data/dm6-chr2L.fa.fai",
+    "lib/python3.6/site-packages/gffutils/test/data/dmel-all-no-analysis-r5.49_50k_lines.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/download-large-annotation-files.sh",
+    "lib/python3.6/site-packages/gffutils/test/data/ensembl_gtf.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/gencode-v19.gtf",
+    "lib/python3.6/site-packages/gffutils/test/data/gencode.vM8.5000_gene_ids.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/gencode.vM8.5000_transcript_ids.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/gencode.vM8.chromsizes.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/gff_example1.gff3",
+    "lib/python3.6/site-packages/gffutils/test/data/gff_example1.gff3.gz",
+    "lib/python3.6/site-packages/gffutils/test/data/glimmer_nokeyval.gff3",
+    "lib/python3.6/site-packages/gffutils/test/data/gms2_example.gff3",
+    "lib/python3.6/site-packages/gffutils/test/data/hybrid1.gff3",
+    "lib/python3.6/site-packages/gffutils/test/data/intro_docs_example.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/issue167.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/issue174.gtf",
+    "lib/python3.6/site-packages/gffutils/test/data/issue_197.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/jgi_gff2.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/keep-order-test.gtf",
+    "lib/python3.6/site-packages/gffutils/test/data/keyval_sep_in_attrs.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/mouse_extra_comma.gff3",
+    "lib/python3.6/site-packages/gffutils/test/data/ncbi_gff3.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/nonascii",
+    "lib/python3.6/site-packages/gffutils/test/data/random-chr.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/sharr.gtf",
+    "lib/python3.6/site-packages/gffutils/test/data/synthetic.gff3",
+    "lib/python3.6/site-packages/gffutils/test/data/unsanitized.gff",
+    "lib/python3.6/site-packages/gffutils/test/data/wormbase_gff2.txt",
+    "lib/python3.6/site-packages/gffutils/test/data/wormbase_gff2_alt.txt",
+    "lib/python3.6/site-packages/gffutils/test/expected.py",
+    "lib/python3.6/site-packages/gffutils/test/feature_test.py",
+    "lib/python3.6/site-packages/gffutils/test/helpers_test.py",
+    "lib/python3.6/site-packages/gffutils/test/parser_test.py",
+    "lib/python3.6/site-packages/gffutils/test/performance_evaluation.py",
+    "lib/python3.6/site-packages/gffutils/test/synth_test_base.py",
+    "lib/python3.6/site-packages/gffutils/test/test_1.py",
+    "lib/python3.6/site-packages/gffutils/test/test_biopython_integration.py",
+    "lib/python3.6/site-packages/gffutils/test/test_cli.py",
+    "lib/python3.6/site-packages/gffutils/test/test_issues.py",
+    "lib/python3.6/site-packages/gffutils/test/test_iterators.py",
+    "lib/python3.6/site-packages/gffutils/test/test_merge.py",
+    "lib/python3.6/site-packages/gffutils/test/test_merge_all.py",
+    "lib/python3.6/site-packages/gffutils/version.py",
+    "lib/python3.6/site-packages/gffutils/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/attributes.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/bins.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/biopython_integration.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/constants.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/convert.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/create.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/exceptions.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/feature.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/gffwriter.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/helpers.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/inspect.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/interface.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/iterators.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/merge_criteria.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/pybedtools_integration.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/scripts/__pycache__/gffutils-flybase-convert.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/attr_test_cases.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/conftest.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/expected.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/feature_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/helpers_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/parser_test.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/performance_evaluation.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/synth_test_base.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_1.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_biopython_integration.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_cli.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_issues.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_iterators.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_merge.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/test/__pycache__/test_merge_all.cpython-36.pyc",
+    "lib/python3.6/site-packages/gffutils/__pycache__/version.cpython-36.pyc"
+  ],
+  "fn": "gffutils-0.13-pyh7cba7a3_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/gffutils-0.13-pyh7cba7a3_0",
+    "type": 1
+  },
+  "md5": "a860b6913c0ccc1ea4f18a7fe4450d86",
+  "name": "gffutils",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/gffutils-0.13-pyh7cba7a3_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/gffutils-cli",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/gffutils_1713032375036/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "5d0930b583b8255cc94f067866fb999b6021dd50f6ed153f59baf12f1ad9ae95",
+        "sha256_in_prefix": "9913b83e98bb1860a5d49747140faac19d46b54c82393d4cebe7936388c95331",
+        "size_in_bytes": 10744
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "21a7a0ad046320a2fae845ef12cc26a83519f38fc266b15ab0185fdf056a8fd0",
+        "sha256_in_prefix": "21a7a0ad046320a2fae845ef12cc26a83519f38fc266b15ab0185fdf056a8fd0",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f6cac13be7d2859d7a306cadbaf305a2fd7ef559e9ebad42d2d13162f0691271",
+        "sha256_in_prefix": "f6cac13be7d2859d7a306cadbaf305a2fd7ef559e9ebad42d2d13162f0691271",
+        "size_in_bytes": 1499
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "655fbff1309c0ab2c10beb3b11edb9effc4701fee06cd63c0f5e2830e31a6019",
+        "sha256_in_prefix": "655fbff1309c0ab2c10beb3b11edb9effc4701fee06cd63c0f5e2830e31a6019",
+        "size_in_bytes": 9542
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "2001dd5190558bf503343f89f25027b9e84783d2d31c6f2d776a0d3a63efb1f3",
+        "sha256_in_prefix": "2001dd5190558bf503343f89f25027b9e84783d2d31c6f2d776a0d3a63efb1f3",
+        "size_in_bytes": 82
+      },
+      {
+        "_path": "site-packages/gffutils-0.13.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d8056ef37f64d4abf07bb348dff441b4ca082f7a34eb447824709cd6e8b90fc9",
+        "sha256_in_prefix": "d8056ef37f64d4abf07bb348dff441b4ca082f7a34eb447824709cd6e8b90fc9",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/gffutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3ef31f71ac4cf5d5579ec28b3d8b486d8c36ebba1fee329ef4381f5a0f762f90",
+        "sha256_in_prefix": "3ef31f71ac4cf5d5579ec28b3d8b486d8c36ebba1fee329ef4381f5a0f762f90",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "site-packages/gffutils/attributes.py",
+        "path_type": "hardlink",
+        "sha256": "de371b713f8b84084e7cfed606d4b16b787a1b03cb9a25ccdf367a4355c57058",
+        "sha256_in_prefix": "de371b713f8b84084e7cfed606d4b16b787a1b03cb9a25ccdf367a4355c57058",
+        "size_in_bytes": 2821
+      },
+      {
+        "_path": "site-packages/gffutils/bins.py",
+        "path_type": "hardlink",
+        "sha256": "35e08b23acc7f7694043340a3d550cfd6e3d981b6be6bb06f4ca414e0141d87c",
+        "sha256_in_prefix": "35e08b23acc7f7694043340a3d550cfd6e3d981b6be6bb06f4ca414e0141d87c",
+        "size_in_bytes": 7789
+      },
+      {
+        "_path": "site-packages/gffutils/biopython_integration.py",
+        "path_type": "hardlink",
+        "sha256": "3e6ce0a229536e2c7dff628c3f783f22fc77a2342a36b2878a7e74b422eeaa79",
+        "sha256_in_prefix": "3e6ce0a229536e2c7dff628c3f783f22fc77a2342a36b2878a7e74b422eeaa79",
+        "size_in_bytes": 2662
+      },
+      {
+        "_path": "site-packages/gffutils/constants.py",
+        "path_type": "hardlink",
+        "sha256": "5061927ea69ab5b8d8fc5c4f68e68bd6cc0b2ee632d6628e6147bc190dd1c735",
+        "sha256_in_prefix": "5061927ea69ab5b8d8fc5c4f68e68bd6cc0b2ee632d6628e6147bc190dd1c735",
+        "size_in_bytes": 3142
+      },
+      {
+        "_path": "site-packages/gffutils/convert.py",
+        "path_type": "hardlink",
+        "sha256": "666cba7926715dd3dc6669d0db6a5da70fe4661585b5d601ab632f1f5a74b6df",
+        "sha256_in_prefix": "666cba7926715dd3dc6669d0db6a5da70fe4661585b5d601ab632f1f5a74b6df",
+        "size_in_bytes": 1364
+      },
+      {
+        "_path": "site-packages/gffutils/create.py",
+        "path_type": "hardlink",
+        "sha256": "054ecaee4aa3f2fedd8c67c2b8e0bda861663e1758b522ab999e403d591af55f",
+        "sha256_in_prefix": "054ecaee4aa3f2fedd8c67c2b8e0bda861663e1758b522ab999e403d591af55f",
+        "size_in_bytes": 54302
+      },
+      {
+        "_path": "site-packages/gffutils/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "492c3b347ed041c930db35a0615ef368dc906787caef647a8c43e487c2b6b049",
+        "sha256_in_prefix": "492c3b347ed041c930db35a0615ef368dc906787caef647a8c43e487c2b6b049",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "site-packages/gffutils/feature.py",
+        "path_type": "hardlink",
+        "sha256": "98e6b03f818c9b0fd1664efc3d566f66a3b11bb0e7413a1c9fefcfacfdc1d9dd",
+        "sha256_in_prefix": "98e6b03f818c9b0fd1664efc3d566f66a3b11bb0e7413a1c9fefcfacfdc1d9dd",
+        "size_in_bytes": 14430
+      },
+      {
+        "_path": "site-packages/gffutils/gffwriter.py",
+        "path_type": "hardlink",
+        "sha256": "6d978247d1d8baa2f384d2e3af14e1cc5da9f1bfd9b838c76fcae0137a000434",
+        "sha256_in_prefix": "6d978247d1d8baa2f384d2e3af14e1cc5da9f1bfd9b838c76fcae0137a000434",
+        "size_in_bytes": 5923
+      },
+      {
+        "_path": "site-packages/gffutils/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "95cf03075c2ce4c075e7ec7649306283ad90bd3515a42579eb23fbce07983cd9",
+        "sha256_in_prefix": "95cf03075c2ce4c075e7ec7649306283ad90bd3515a42579eb23fbce07983cd9",
+        "size_in_bytes": 18679
+      },
+      {
+        "_path": "site-packages/gffutils/inspect.py",
+        "path_type": "hardlink",
+        "sha256": "c4255aae729e46c29ca6230c7e3ac08f9c3791d5613e692630889438be148c1a",
+        "sha256_in_prefix": "c4255aae729e46c29ca6230c7e3ac08f9c3791d5613e692630889438be148c1a",
+        "size_in_bytes": 2915
+      },
+      {
+        "_path": "site-packages/gffutils/interface.py",
+        "path_type": "hardlink",
+        "sha256": "4aa9223bc8219623842d4bcf174ca810f01c794a642a90858fd9237e0802ae99",
+        "sha256_in_prefix": "4aa9223bc8219623842d4bcf174ca810f01c794a642a90858fd9237e0802ae99",
+        "size_in_bytes": 69828
+      },
+      {
+        "_path": "site-packages/gffutils/iterators.py",
+        "path_type": "hardlink",
+        "sha256": "5f9b26504018ee62ef926e2cc08e1d967bbfd9a15abdb6a301396e921dfc1218",
+        "sha256_in_prefix": "5f9b26504018ee62ef926e2cc08e1d967bbfd9a15abdb6a301396e921dfc1218",
+        "size_in_bytes": 9663
+      },
+      {
+        "_path": "site-packages/gffutils/merge_criteria.py",
+        "path_type": "hardlink",
+        "sha256": "0bb8054d1cb81d37e35d1c43aa7ddd87017820ffdd243a2ad0b4cf89a49bd528",
+        "sha256_in_prefix": "0bb8054d1cb81d37e35d1c43aa7ddd87017820ffdd243a2ad0b4cf89a49bd528",
+        "size_in_bytes": 1383
+      },
+      {
+        "_path": "site-packages/gffutils/parser.py",
+        "path_type": "hardlink",
+        "sha256": "bf91077e6fc43f72e5d2ca364882b84433fa1ac2bd583df10d2a5898b1edb6fc",
+        "sha256_in_prefix": "bf91077e6fc43f72e5d2ca364882b84433fa1ac2bd583df10d2a5898b1edb6fc",
+        "size_in_bytes": 12248
+      },
+      {
+        "_path": "site-packages/gffutils/pybedtools_integration.py",
+        "path_type": "hardlink",
+        "sha256": "e152d24bfff365c65922eaf3a6894a36be79aa47722d34bf6161b17bb13ec5be",
+        "sha256_in_prefix": "e152d24bfff365c65922eaf3a6894a36be79aa47722d34bf6161b17bb13ec5be",
+        "size_in_bytes": 8532
+      },
+      {
+        "_path": "site-packages/gffutils/scripts/gffutils-flybase-convert.py",
+        "path_type": "hardlink",
+        "sha256": "0f274f38316fffd10c326030b6008b0d6ff92708e8a5205279dbd4d5f33ce696",
+        "sha256_in_prefix": "0f274f38316fffd10c326030b6008b0d6ff92708e8a5205279dbd4d5f33ce696",
+        "size_in_bytes": 6947
+      },
+      {
+        "_path": "site-packages/gffutils/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/gffutils/test/attr_test_cases.py",
+        "path_type": "hardlink",
+        "sha256": "e0907ba8ff90c5a190befe98125a9d3cd0f72c47c631a12156eb017b54e35e35",
+        "sha256_in_prefix": "e0907ba8ff90c5a190befe98125a9d3cd0f72c47c631a12156eb017b54e35e35",
+        "size_in_bytes": 6202
+      },
+      {
+        "_path": "site-packages/gffutils/test/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "5ccfe484e49c9b23078d67d5fc9726bcbaeeb26b87be3099cc1a7dd4b65bd132",
+        "sha256_in_prefix": "5ccfe484e49c9b23078d67d5fc9726bcbaeeb26b87be3099cc1a7dd4b65bd132",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/F3-unique-3.v2.gff",
+        "path_type": "hardlink",
+        "sha256": "ede57da8162f25fe419ba1ab9e5c362b3363cb72d78f00aa9af2e8293b6636f0",
+        "sha256_in_prefix": "ede57da8162f25fe419ba1ab9e5c362b3363cb72d78f00aa9af2e8293b6636f0",
+        "size_in_bytes": 17518
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/FBgn0031208.gff",
+        "path_type": "hardlink",
+        "sha256": "7c8885843368799bfeeaf7750ebabd69d9eceeba2da9a67f07c900e71c22babf",
+        "sha256_in_prefix": "7c8885843368799bfeeaf7750ebabd69d9eceeba2da9a67f07c900e71c22babf",
+        "size_in_bytes": 5991
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/FBgn0031208.gtf",
+        "path_type": "hardlink",
+        "sha256": "ed83bf6e0d1e3708935e7b075ff14fec8ef6f43def04a26c45e25f003c28becb",
+        "sha256_in_prefix": "ed83bf6e0d1e3708935e7b075ff14fec8ef6f43def04a26c45e25f003c28becb",
+        "size_in_bytes": 5983
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/FBgn0031208.gtf.db",
+        "path_type": "hardlink",
+        "sha256": "0d39a5826fa932a3ec8e20ad8ccb77349a180f03871bcab418d82344f42bb01f",
+        "sha256_in_prefix": "0d39a5826fa932a3ec8e20ad8ccb77349a180f03871bcab418d82344f42bb01f",
+        "size_in_bytes": 69632
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/Saccharomyces_cerevisiae.R64-1-1.83.5000_gene_ids.txt",
+        "path_type": "hardlink",
+        "sha256": "26781cc3df58d92f0dff05119d1bd667d03ef50f3a1975405f72af6f7443eb09",
+        "sha256_in_prefix": "26781cc3df58d92f0dff05119d1bd667d03ef50f3a1975405f72af6f7443eb09",
+        "size_in_bytes": 65996
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/Saccharomyces_cerevisiae.R64-1-1.83.5000_transcript_ids.txt",
+        "path_type": "hardlink",
+        "sha256": "9ceee0eb264f6b9b5b0bfa5c70323aaed74a823f109ee7990b09f92c44626abf",
+        "sha256_in_prefix": "9ceee0eb264f6b9b5b0bfa5c70323aaed74a823f109ee7990b09f92c44626abf",
+        "size_in_bytes": 96019
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/Saccharomyces_cerevisiae.R64-1-1.83.chromsizes.txt",
+        "path_type": "hardlink",
+        "sha256": "976293307a2b330adb35b509a0c86948204ad5e86508e43fb6fe9f11d6c59cac",
+        "sha256_in_prefix": "976293307a2b330adb35b509a0c86948204ad5e86508e43fb6fe9f11d6c59cac",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/c_elegans_WS199_ann_gff.txt",
+        "path_type": "hardlink",
+        "sha256": "7bf125538d2c7dfdfb690825a1eea50f66495c4ab68b06fb2407acfba94e61a3",
+        "sha256_in_prefix": "7bf125538d2c7dfdfb690825a1eea50f66495c4ab68b06fb2407acfba94e61a3",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/c_elegans_WS199_dna_shortened.fa",
+        "path_type": "hardlink",
+        "sha256": "91b571c181ca1096b83b55c1b0060357808048ca997964aa8653069e73718650",
+        "sha256_in_prefix": "91b571c181ca1096b83b55c1b0060357808048ca997964aa8653069e73718650",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/c_elegans_WS199_shortened_gff.txt",
+        "path_type": "hardlink",
+        "sha256": "5bc1c53690f615b2772bd2e53ec8efc3a28a9e5b5e106996162f068308f5fa6e",
+        "sha256_in_prefix": "5bc1c53690f615b2772bd2e53ec8efc3a28a9e5b5e106996162f068308f5fa6e",
+        "size_in_bytes": 18098
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/dm6-chr2L.fa",
+        "path_type": "hardlink",
+        "sha256": "9f4b42dd318c6cc7e7c66884a2a5ad66c392bf8a61236fef382b3fff3e473ccb",
+        "sha256_in_prefix": "9f4b42dd318c6cc7e7c66884a2a5ad66c392bf8a61236fef382b3fff3e473ccb",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/dm6-chr2L.fa.fai",
+        "path_type": "hardlink",
+        "sha256": "b3aac7745fd0e015ccff70a05806fff4369457e4b904b90a9c40a3a706562aed",
+        "sha256_in_prefix": "b3aac7745fd0e015ccff70a05806fff4369457e4b904b90a9c40a3a706562aed",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/dmel-all-no-analysis-r5.49_50k_lines.gff",
+        "path_type": "hardlink",
+        "sha256": "e623f34bc1e52e17728dc838d6c9fe322159541607ebcc1a9480f4fb33f28193",
+        "sha256_in_prefix": "e623f34bc1e52e17728dc838d6c9fe322159541607ebcc1a9480f4fb33f28193",
+        "size_in_bytes": 9023416
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/download-large-annotation-files.sh",
+        "path_type": "hardlink",
+        "sha256": "98356a5916f4565f604073d0f802d0126ef6dafc46d0a909af1ff7c87d5d1d4b",
+        "sha256_in_prefix": "98356a5916f4565f604073d0f802d0126ef6dafc46d0a909af1ff7c87d5d1d4b",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/ensembl_gtf.txt",
+        "path_type": "hardlink",
+        "sha256": "062488e19955928f16893f2cdbc88b1e114e61215733c0136210050afb701656",
+        "sha256_in_prefix": "062488e19955928f16893f2cdbc88b1e114e61215733c0136210050afb701656",
+        "size_in_bytes": 5416
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gencode-v19.gtf",
+        "path_type": "hardlink",
+        "sha256": "f8c63af656163d6fd2b40f0ec10a3bfb1861a3a80ab2e23860347241b841cefd",
+        "sha256_in_prefix": "f8c63af656163d6fd2b40f0ec10a3bfb1861a3a80ab2e23860347241b841cefd",
+        "size_in_bytes": 8407
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gencode.vM8.5000_gene_ids.txt",
+        "path_type": "hardlink",
+        "sha256": "d30a2e555974a537af411f77989d91f530c4dd43a66f4f383eeecc557b6ca181",
+        "sha256_in_prefix": "d30a2e555974a537af411f77989d91f530c4dd43a66f4f383eeecc557b6ca181",
+        "size_in_bytes": 106130
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gencode.vM8.5000_transcript_ids.txt",
+        "path_type": "hardlink",
+        "sha256": "4aecbd3161859f8c49f71a94690fa01da89011e8215731ec22090bd2fff6a41d",
+        "sha256_in_prefix": "4aecbd3161859f8c49f71a94690fa01da89011e8215731ec22090bd2fff6a41d",
+        "size_in_bytes": 105353
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gencode.vM8.chromsizes.txt",
+        "path_type": "hardlink",
+        "sha256": "ce1607c1cd50cf2b0afe996c8df4e117959e554646d9756f9a1585d092a8ee0e",
+        "sha256_in_prefix": "ce1607c1cd50cf2b0afe996c8df4e117959e554646d9756f9a1585d092a8ee0e",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gff_example1.gff3",
+        "path_type": "hardlink",
+        "sha256": "55dae4e53bcf9fb664ae1f94ee67493ad33de6f9543635441be3e17f344b4600",
+        "sha256_in_prefix": "55dae4e53bcf9fb664ae1f94ee67493ad33de6f9543635441be3e17f344b4600",
+        "size_in_bytes": 1793
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gff_example1.gff3.gz",
+        "path_type": "hardlink",
+        "sha256": "5f1bbe93b342b61083cc05da4a1a64f7e7d27faa60dc7368131af6d41319e18d",
+        "sha256_in_prefix": "5f1bbe93b342b61083cc05da4a1a64f7e7d27faa60dc7368131af6d41319e18d",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/glimmer_nokeyval.gff3",
+        "path_type": "hardlink",
+        "sha256": "a06522230d7456ef42462faf2e6b357e6229be2257a0eb0c23429e6e3dd07e4f",
+        "sha256_in_prefix": "a06522230d7456ef42462faf2e6b357e6229be2257a0eb0c23429e6e3dd07e4f",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/gms2_example.gff3",
+        "path_type": "hardlink",
+        "sha256": "bc3acb788daa7abfebe4adb21d06990be593626f78eba999a5e0c83f29a15a65",
+        "sha256_in_prefix": "bc3acb788daa7abfebe4adb21d06990be593626f78eba999a5e0c83f29a15a65",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/hybrid1.gff3",
+        "path_type": "hardlink",
+        "sha256": "9b792fd6a45ab665b9418bccb8cab69dec4489867980187f7ebebc3faee35faa",
+        "sha256_in_prefix": "9b792fd6a45ab665b9418bccb8cab69dec4489867980187f7ebebc3faee35faa",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/intro_docs_example.gff",
+        "path_type": "hardlink",
+        "sha256": "c62bcabc27e2885470af39f274174eda2695a94e9fc9da9c0817a69ff12108ea",
+        "sha256_in_prefix": "c62bcabc27e2885470af39f274174eda2695a94e9fc9da9c0817a69ff12108ea",
+        "size_in_bytes": 3016
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/issue167.gff",
+        "path_type": "hardlink",
+        "sha256": "4a805cf5b4b63bb558b8d79ed2cf2da89713dfc33f7667c3993937e5455eb13e",
+        "sha256_in_prefix": "4a805cf5b4b63bb558b8d79ed2cf2da89713dfc33f7667c3993937e5455eb13e",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/issue174.gtf",
+        "path_type": "hardlink",
+        "sha256": "57a56bf1352cab68e3ff879d0c3a4974be7882ee3775d24aa3fb07e0dfc42c9e",
+        "sha256_in_prefix": "57a56bf1352cab68e3ff879d0c3a4974be7882ee3775d24aa3fb07e0dfc42c9e",
+        "size_in_bytes": 7507
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/issue_197.gff",
+        "path_type": "hardlink",
+        "sha256": "ae5993c07e1820510907de425a482ceae48488ab4e77384abf4e8bb03ab1c557",
+        "sha256_in_prefix": "ae5993c07e1820510907de425a482ceae48488ab4e77384abf4e8bb03ab1c557",
+        "size_in_bytes": 2001
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/jgi_gff2.txt",
+        "path_type": "hardlink",
+        "sha256": "4d2e2951b7ad7908248c0564d7d57d55bdcbfa5273ac984a372ce3963ad1c733",
+        "sha256_in_prefix": "4d2e2951b7ad7908248c0564d7d57d55bdcbfa5273ac984a372ce3963ad1c733",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/keep-order-test.gtf",
+        "path_type": "hardlink",
+        "sha256": "22709094c2517da027c9490df794e53d9832522ee6fbdae87132d1daa830bcee",
+        "sha256_in_prefix": "22709094c2517da027c9490df794e53d9832522ee6fbdae87132d1daa830bcee",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/keyval_sep_in_attrs.gff",
+        "path_type": "hardlink",
+        "sha256": "a9284ff06e5f52a6ca91c3d29a59534170274e1fb28cefbc39112c76bbd9ce6a",
+        "sha256_in_prefix": "a9284ff06e5f52a6ca91c3d29a59534170274e1fb28cefbc39112c76bbd9ce6a",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/mouse_extra_comma.gff3",
+        "path_type": "hardlink",
+        "sha256": "f95043957394a327fd28ae16db5f9718aeeccf299ad839b7bcf8ca3b216cf067",
+        "sha256_in_prefix": "f95043957394a327fd28ae16db5f9718aeeccf299ad839b7bcf8ca3b216cf067",
+        "size_in_bytes": 1326
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/ncbi_gff3.txt",
+        "path_type": "hardlink",
+        "sha256": "23260c3ceb4c3d59ce3f2e9f7813dcfa398b80626d8ce2a0556138ad906f902f",
+        "sha256_in_prefix": "23260c3ceb4c3d59ce3f2e9f7813dcfa398b80626d8ce2a0556138ad906f902f",
+        "size_in_bytes": 5600
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/nonascii",
+        "path_type": "hardlink",
+        "sha256": "6a96749ecc5a535af3a621970e001327b62e6b2d4e69c4c724bba65d3b17e2e4",
+        "sha256_in_prefix": "6a96749ecc5a535af3a621970e001327b62e6b2d4e69c4c724bba65d3b17e2e4",
+        "size_in_bytes": 6569
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/random-chr.gff",
+        "path_type": "hardlink",
+        "sha256": "ba44644d2fc8997e33a16d083cb506b9d74256e5c111cadbeb8600a90dcc80dc",
+        "sha256_in_prefix": "ba44644d2fc8997e33a16d083cb506b9d74256e5c111cadbeb8600a90dcc80dc",
+        "size_in_bytes": 1732
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/sharr.gtf",
+        "path_type": "hardlink",
+        "sha256": "e07078ca412a258aa3d8cf167d9df231731e626781c08c2b33c192d5df409bcc",
+        "sha256_in_prefix": "e07078ca412a258aa3d8cf167d9df231731e626781c08c2b33c192d5df409bcc",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/synthetic.gff3",
+        "path_type": "hardlink",
+        "sha256": "3c033c5183dd0f49c995c3fbbd09dbed5a2fbfcf60301759a32c9d4127fbcf52",
+        "sha256_in_prefix": "3c033c5183dd0f49c995c3fbbd09dbed5a2fbfcf60301759a32c9d4127fbcf52",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/unsanitized.gff",
+        "path_type": "hardlink",
+        "sha256": "6c6ac70dde5276a81f9bd4f8bce0c3ec4effcbd6475969a2ca89b2548b444cba",
+        "sha256_in_prefix": "6c6ac70dde5276a81f9bd4f8bce0c3ec4effcbd6475969a2ca89b2548b444cba",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/wormbase_gff2.txt",
+        "path_type": "hardlink",
+        "sha256": "70f3cf8a6edf4fce86e72615a7716c09ab963cbf37110b9afe364e231e58ff04",
+        "sha256_in_prefix": "70f3cf8a6edf4fce86e72615a7716c09ab963cbf37110b9afe364e231e58ff04",
+        "size_in_bytes": 6560
+      },
+      {
+        "_path": "site-packages/gffutils/test/data/wormbase_gff2_alt.txt",
+        "path_type": "hardlink",
+        "sha256": "20c6e783f342c88af084e009b4c4d02702730543b3d7175ea378080f7dc661d6",
+        "sha256_in_prefix": "20c6e783f342c88af084e009b4c4d02702730543b3d7175ea378080f7dc661d6",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "site-packages/gffutils/test/expected.py",
+        "path_type": "hardlink",
+        "sha256": "b475398525487dd8b81d7ec917864e98a72da7ecca2a09af217c64d7ac441093",
+        "sha256_in_prefix": "b475398525487dd8b81d7ec917864e98a72da7ecca2a09af217c64d7ac441093",
+        "size_in_bytes": 4630
+      },
+      {
+        "_path": "site-packages/gffutils/test/feature_test.py",
+        "path_type": "hardlink",
+        "sha256": "6154eb092f7c42ac17d7d28282b7ceb78ea856ab950cfe75f57f42d8e83c094a",
+        "sha256_in_prefix": "6154eb092f7c42ac17d7d28282b7ceb78ea856ab950cfe75f57f42d8e83c094a",
+        "size_in_bytes": 5759
+      },
+      {
+        "_path": "site-packages/gffutils/test/helpers_test.py",
+        "path_type": "hardlink",
+        "sha256": "091cd06890f33826f3ec00e8966b6fe861ee1c37badb6f08a3f007c946b01a7e",
+        "sha256_in_prefix": "091cd06890f33826f3ec00e8966b6fe861ee1c37badb6f08a3f007c946b01a7e",
+        "size_in_bytes": 1436
+      },
+      {
+        "_path": "site-packages/gffutils/test/parser_test.py",
+        "path_type": "hardlink",
+        "sha256": "7b77c8fe5ebed1b3a2c8e2e07ef30c56f02a8437b96f460caa45bfae7b6090c1",
+        "sha256_in_prefix": "7b77c8fe5ebed1b3a2c8e2e07ef30c56f02a8437b96f460caa45bfae7b6090c1",
+        "size_in_bytes": 4732
+      },
+      {
+        "_path": "site-packages/gffutils/test/performance_evaluation.py",
+        "path_type": "hardlink",
+        "sha256": "732cb0269af0d4963361eef039558d101e2dc4397c73a26e68bf7e45695051f0",
+        "sha256_in_prefix": "732cb0269af0d4963361eef039558d101e2dc4397c73a26e68bf7e45695051f0",
+        "size_in_bytes": 7230
+      },
+      {
+        "_path": "site-packages/gffutils/test/synth_test_base.py",
+        "path_type": "hardlink",
+        "sha256": "6b2dc2b1b5f3af5009a89cc383053d9ce78d00f263a28626befb095a4233128b",
+        "sha256_in_prefix": "6b2dc2b1b5f3af5009a89cc383053d9ce78d00f263a28626befb095a4233128b",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_1.py",
+        "path_type": "hardlink",
+        "sha256": "f142d66ea139f4268ba2e463b2c537bbaa811817183453a5fe8d5ba52a1b11c1",
+        "sha256_in_prefix": "f142d66ea139f4268ba2e463b2c537bbaa811817183453a5fe8d5ba52a1b11c1",
+        "size_in_bytes": 45234
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_biopython_integration.py",
+        "path_type": "hardlink",
+        "sha256": "7d101befdc7a4bce24182de9cd1e5efbe44077d348942f0e0578190daf452244",
+        "sha256_in_prefix": "7d101befdc7a4bce24182de9cd1e5efbe44077d348942f0e0578190daf452244",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_cli.py",
+        "path_type": "hardlink",
+        "sha256": "1fd29a587dbfdec6c29af2cbc31684bbedd7bb7021e9d6ffb19fe085bdd46c64",
+        "sha256_in_prefix": "1fd29a587dbfdec6c29af2cbc31684bbedd7bb7021e9d6ffb19fe085bdd46c64",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_issues.py",
+        "path_type": "hardlink",
+        "sha256": "ef3a20abb94d7b404d261acb318dab26f72d28516ea089a6ace24381ab14f5dd",
+        "sha256_in_prefix": "ef3a20abb94d7b404d261acb318dab26f72d28516ea089a6ace24381ab14f5dd",
+        "size_in_bytes": 22850
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_iterators.py",
+        "path_type": "hardlink",
+        "sha256": "dfe36036f0b50d49648924d968f5700f2b344517984f63f059c2573bbc89af17",
+        "sha256_in_prefix": "dfe36036f0b50d49648924d968f5700f2b344517984f63f059c2573bbc89af17",
+        "size_in_bytes": 2313
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_merge.py",
+        "path_type": "hardlink",
+        "sha256": "0338ec2e39b5b050caa635da160de1491e089d7e6040ddfa6faff9eb6343106d",
+        "sha256_in_prefix": "0338ec2e39b5b050caa635da160de1491e089d7e6040ddfa6faff9eb6343106d",
+        "size_in_bytes": 6746
+      },
+      {
+        "_path": "site-packages/gffutils/test/test_merge_all.py",
+        "path_type": "hardlink",
+        "sha256": "063522e7d49e292bd66baccedceb84d5fff472ee08b3ee9cd2ffb55056521c69",
+        "sha256_in_prefix": "063522e7d49e292bd66baccedceb84d5fff472ee08b3ee9cd2ffb55056521c69",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "site-packages/gffutils/version.py",
+        "path_type": "hardlink",
+        "sha256": "a84a0c9dc618f128dfae7bdcbbf04a0364aa0b15da73270e10ccbcc84dec4301",
+        "sha256_in_prefix": "a84a0c9dc618f128dfae7bdcbbf04a0364aa0b15da73270e10ccbcc84dec4301",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/attributes.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/bins.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/biopython_integration.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/constants.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/convert.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/create.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/exceptions.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/feature.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/gffwriter.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/helpers.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/inspect.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/interface.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/iterators.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/merge_criteria.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/parser.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/pybedtools_integration.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/scripts/__pycache__/gffutils-flybase-convert.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/attr_test_cases.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/conftest.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/expected.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/feature_test.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/helpers_test.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/parser_test.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/performance_evaluation.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/synth_test_base.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_1.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_biopython_integration.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_cli.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_issues.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_iterators.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_merge.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/test/__pycache__/test_merge_all.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/gffutils/__pycache__/version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e2bdf246bc45ef07946914e3e9ddfcd1517f32150817fd5e09560a9e756eaff5",
+  "size": 1256148,
+  "subdir": "noarch",
+  "timestamp": 1713032654000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/gffutils-0.13-pyh7cba7a3_0.tar.bz2",
+  "version": "0.13"
+}

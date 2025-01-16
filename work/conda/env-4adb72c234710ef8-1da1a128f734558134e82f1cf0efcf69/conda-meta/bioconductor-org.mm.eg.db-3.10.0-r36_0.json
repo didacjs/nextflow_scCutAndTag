@@ -1,0 +1,53 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-org.mm.eg.db-3.10.0-r36_0",
+  "files": [
+    "bin/.bioconductor-org.mm.eg.db-post-link.sh",
+    "bin/.bioconductor-org.mm.eg.db-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-org.mm.eg.db-3.10.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-org.mm.eg.db-3.10.0-r36_0",
+    "type": 1
+  },
+  "md5": "5246bb08df8aaee569aa3736da9ed662",
+  "name": "bioconductor-org.mm.eg.db",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-org.mm.eg.db-3.10.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-org.mm.eg.db-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "c47281a6dafad00ec123957dd72fef2bfb529af398368381a215dfd8afc7a5d3",
+        "sha256_in_prefix": "c47281a6dafad00ec123957dd72fef2bfb529af398368381a215dfd8afc7a5d3",
+        "size_in_bytes": 1312
+      },
+      {
+        "_path": "bin/.bioconductor-org.mm.eg.db-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "4e82c6353c0d16ab99f148f94201c5d94215947b2ffe062c867f92cde6644c03",
+        "sha256_in_prefix": "4e82c6353c0d16ab99f148f94201c5d94215947b2ffe062c867f92cde6644c03",
+        "size_in_bytes": 59
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-org.mm.eg.db",
+  "sha256": "fbd86ece54d02e0f9dd6d76032ed1ae640fcf6d916b13c5b2c8ac88f3ea83b09",
+  "size": 6885,
+  "subdir": "noarch",
+  "timestamp": 1572737114000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-org.mm.eg.db-3.10.0-r36_0.tar.bz2",
+  "version": "3.10.0"
+}

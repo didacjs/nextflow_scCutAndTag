@@ -1,0 +1,1728 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-base64enc",
+    "r-crosstalk",
+    "r-data.table",
+    "r-digest",
+    "r-dplyr",
+    "r-ggplot2 >=3.0.0",
+    "r-hexbin",
+    "r-htmltools >=0.3.6",
+    "r-htmlwidgets >=1.3",
+    "r-httr",
+    "r-jsonlite >=1.6",
+    "r-lazyeval >=0.2.0",
+    "r-magrittr",
+    "r-promises",
+    "r-purrr",
+    "r-rcolorbrewer",
+    "r-rlang",
+    "r-scales",
+    "r-tibble",
+    "r-tidyr",
+    "r-viridislite"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-plotly-4.9.3-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/plotly/CITATION",
+    "lib/R/library/plotly/DESCRIPTION",
+    "lib/R/library/plotly/INDEX",
+    "lib/R/library/plotly/LICENSE",
+    "lib/R/library/plotly/Meta/Rd.rds",
+    "lib/R/library/plotly/Meta/data.rds",
+    "lib/R/library/plotly/Meta/demo.rds",
+    "lib/R/library/plotly/Meta/features.rds",
+    "lib/R/library/plotly/Meta/hsearch.rds",
+    "lib/R/library/plotly/Meta/links.rds",
+    "lib/R/library/plotly/Meta/nsInfo.rds",
+    "lib/R/library/plotly/Meta/package.rds",
+    "lib/R/library/plotly/NAMESPACE",
+    "lib/R/library/plotly/NEWS.md",
+    "lib/R/library/plotly/R/plotly",
+    "lib/R/library/plotly/R/plotly.rdb",
+    "lib/R/library/plotly/R/plotly.rdx",
+    "lib/R/library/plotly/R/sysdata.rdb",
+    "lib/R/library/plotly/R/sysdata.rdx",
+    "lib/R/library/plotly/data/Rdata.rdb",
+    "lib/R/library/plotly/data/Rdata.rds",
+    "lib/R/library/plotly/data/Rdata.rdx",
+    "lib/R/library/plotly/demo/animation-tour-USArrests.R",
+    "lib/R/library/plotly/demo/animation-tour-basic.R",
+    "lib/R/library/plotly/demo/crosstalk-filter-dynamic-axis.R",
+    "lib/R/library/plotly/demo/crosstalk-filter-lines.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-binned-target-a.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-binned-target-b.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-binned-target-c.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-epl-2.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-epl.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-ggpairs.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-ggplotly.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-intro.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-leaflet.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-pipeline.R",
+    "lib/R/library/plotly/demo/crosstalk-highlight-subplot.R",
+    "lib/R/library/plotly/demo/custom-javascript.R",
+    "lib/R/library/plotly/demo/rotate.R",
+    "lib/R/library/plotly/demo/sf-dt.R",
+    "lib/R/library/plotly/demo/sf-geo.R",
+    "lib/R/library/plotly/demo/sf-ggplot2.R",
+    "lib/R/library/plotly/demo/sf-mapbox-data.R",
+    "lib/R/library/plotly/demo/sf-mapbox-layout.R",
+    "lib/R/library/plotly/demo/sf-mapbox-style.R",
+    "lib/R/library/plotly/demo/sf-plotly-3D-globe.R",
+    "lib/R/library/plotly/demo/sf-plotly-storms.R",
+    "lib/R/library/plotly/demo/ternary.R",
+    "lib/R/library/plotly/docker/Dockerfile.vtest",
+    "lib/R/library/plotly/docker/README.md",
+    "lib/R/library/plotly/docs.R",
+    "lib/R/library/plotly/examples/rmd/MathJax/index.Rmd",
+    "lib/R/library/plotly/examples/rmd/flexdashboard/index.Rmd",
+    "lib/R/library/plotly/examples/rmd/onRenderHover/index.Rmd",
+    "lib/R/library/plotly/examples/rmd/printing/index.Rmd",
+    "lib/R/library/plotly/examples/shiny/DT/app.R",
+    "lib/R/library/plotly/examples/shiny/Diamonds/server.R",
+    "lib/R/library/plotly/examples/shiny/Diamonds/ui.R",
+    "lib/R/library/plotly/examples/shiny/MathJax/app.R",
+    "lib/R/library/plotly/examples/shiny/Movies/server.R",
+    "lib/R/library/plotly/examples/shiny/Movies/ui.R",
+    "lib/R/library/plotly/examples/shiny/UN_Advanced/Data/UN_IdealPoints.csv",
+    "lib/R/library/plotly/examples/shiny/UN_Advanced/global.R",
+    "lib/R/library/plotly/examples/shiny/UN_Advanced/server.R",
+    "lib/R/library/plotly/examples/shiny/UN_Advanced/ui.R",
+    "lib/R/library/plotly/examples/shiny/UN_Simple/Data/UN_IdealPoints.csv",
+    "lib/R/library/plotly/examples/shiny/UN_Simple/global.R",
+    "lib/R/library/plotly/examples/shiny/UN_Simple/server.R",
+    "lib/R/library/plotly/examples/shiny/UN_Simple/ui.R",
+    "lib/R/library/plotly/examples/shiny/async/app.R",
+    "lib/R/library/plotly/examples/shiny/basic/DESCRIPTION",
+    "lib/R/library/plotly/examples/shiny/crossfilter/app.R",
+    "lib/R/library/plotly/examples/shiny/crossfilter_compare/app.R",
+    "lib/R/library/plotly/examples/shiny/crossfilter_kde/app.R",
+    "lib/R/library/plotly/examples/shiny/crossfilter_scatter/app.R",
+    "lib/R/library/plotly/examples/shiny/drag_brush/app.R",
+    "lib/R/library/plotly/examples/shiny/drag_lines/app.R",
+    "lib/R/library/plotly/examples/shiny/drag_markers/app.R",
+    "lib/R/library/plotly/examples/shiny/drill_down/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data/DESCRIPTION",
+    "lib/R/library/plotly/examples/shiny/event_data/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/001.json",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/001.png",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/002.json",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/002.png",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/003.json",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/003.png",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/004.json",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/004.png",
+    "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest.R",
+    "lib/R/library/plotly/examples/shiny/event_data_3D/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_annotation/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_click/DESCRIPTION",
+    "lib/R/library/plotly/examples/shiny/event_data_click/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_click_map/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_legends/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_modules/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_parcoords/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_persist/app.R",
+    "lib/R/library/plotly/examples/shiny/event_data_select/app.R",
+    "lib/R/library/plotly/examples/shiny/event_priority/app.R",
+    "lib/R/library/plotly/examples/shiny/ggplotly_sizing/app.R",
+    "lib/R/library/plotly/examples/shiny/lmGadget/app.R",
+    "lib/R/library/plotly/examples/shiny/proxy_mapbox/app.R",
+    "lib/R/library/plotly/examples/shiny/proxy_relayout/app.R",
+    "lib/R/library/plotly/examples/shiny/proxy_restyle_canada/app.R",
+    "lib/R/library/plotly/examples/shiny/proxy_restyle_economics/app.R",
+    "lib/R/library/plotly/examples/shiny/stream/app.R",
+    "lib/R/library/plotly/help/AnIndex",
+    "lib/R/library/plotly/help/aliases.rds",
+    "lib/R/library/plotly/help/figures/plotly.png",
+    "lib/R/library/plotly/help/figures/plotly.svg",
+    "lib/R/library/plotly/help/paths.rds",
+    "lib/R/library/plotly/help/plotly.rdb",
+    "lib/R/library/plotly/help/plotly.rdx",
+    "lib/R/library/plotly/html/00Index.html",
+    "lib/R/library/plotly/html/R.css",
+    "lib/R/library/plotly/htmlwidgets/lib/colourpicker/LICENSE",
+    "lib/R/library/plotly/htmlwidgets/lib/colourpicker/colourpicker.min.css",
+    "lib/R/library/plotly/htmlwidgets/lib/colourpicker/colourpicker.min.js",
+    "lib/R/library/plotly/htmlwidgets/lib/mathjax/cdn.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/LICENSE",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/af.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/am.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ar-dz.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ar-eg.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ar.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/az.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/bg.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/bs.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ca.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/cs.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/cy.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/da.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/de-ch.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/de.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/el.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/eo.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/es-ar.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/es-pe.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/es.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/et.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/eu.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fa.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fi.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fo.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fr-ch.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fr.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/gl.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/gu.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/he.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hi-in.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hr.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hu.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hy.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/id.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/is.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/it.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ja.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ka.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/km.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ko.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/lt.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/lv.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/me-me.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/me.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/mk.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ml.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ms.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/mt.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/nl-be.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/nl.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/no.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pa.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pl.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pt-br.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pt-pt.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/rm.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ro.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ru.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sk.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sl.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sq.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sr-sr.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sr.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sv.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sw.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ta.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/th.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/tr.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/tt.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/uk.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ur.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/vi.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/zh-cn.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/zh-hk.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/zh-tw.js",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/plotly-htmlwidgets.css",
+    "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/plotly-latest.min.js",
+    "lib/R/library/plotly/htmlwidgets/lib/selectize/selectize.bootstrap3.css",
+    "lib/R/library/plotly/htmlwidgets/lib/selectize/selectize.min.js",
+    "lib/R/library/plotly/htmlwidgets/lib/setprototypeof/LICENSE",
+    "lib/R/library/plotly/htmlwidgets/lib/setprototypeof/setprototypeof.js",
+    "lib/R/library/plotly/htmlwidgets/lib/typedarray/LICENSE",
+    "lib/R/library/plotly/htmlwidgets/lib/typedarray/typedarray.min.js",
+    "lib/R/library/plotly/htmlwidgets/plotly.js",
+    "lib/R/library/plotly/htmlwidgets/plotly.yaml",
+    "lib/R/library/plotly/plotlyjs.R",
+    "lib/R/library/plotly/stars.R"
+  ],
+  "fn": "r-plotly-4.9.3-r36hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-plotly-4.9.3-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "9152f59f9ceade6bb41c7a90acec1905",
+  "name": "r-plotly",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-plotly-4.9.3-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/plotly/CITATION",
+        "path_type": "hardlink",
+        "sha256": "9ac97dc007fa9dde56c0a9f0262f014e46dcd5e85b89e5c73102fce11e72d19b",
+        "sha256_in_prefix": "9ac97dc007fa9dde56c0a9f0262f014e46dcd5e85b89e5c73102fce11e72d19b",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "lib/R/library/plotly/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "cc6bd8b3a3a670b0291344f10c0f27f68e32e94338154939fdde22171c9e0816",
+        "sha256_in_prefix": "cc6bd8b3a3a670b0291344f10c0f27f68e32e94338154939fdde22171c9e0816",
+        "size_in_bytes": 2592
+      },
+      {
+        "_path": "lib/R/library/plotly/INDEX",
+        "path_type": "hardlink",
+        "sha256": "cf71a8b0b5535432ec8335ca67e628da06dff32c150625d53f6f3a6968a9f424",
+        "sha256_in_prefix": "cf71a8b0b5535432ec8335ca67e628da06dff32c150625d53f6f3a6968a9f424",
+        "size_in_bytes": 4166
+      },
+      {
+        "_path": "lib/R/library/plotly/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfd2748fd42eeb7fe09b20c9acfa6dce7336d846519b5eb694723249465bdab1",
+        "sha256_in_prefix": "cfd2748fd42eeb7fe09b20c9acfa6dce7336d846519b5eb694723249465bdab1",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e03330a6a46cf17c67914303a95324671abbef8e078666f10eb47c7165e63b98",
+        "sha256_in_prefix": "e03330a6a46cf17c67914303a95324671abbef8e078666f10eb47c7165e63b98",
+        "size_in_bytes": 3019
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "a3c5c0c3814660f022fa586d1d602848764bdaa5767195967165a774f7e42906",
+        "sha256_in_prefix": "a3c5c0c3814660f022fa586d1d602848764bdaa5767195967165a774f7e42906",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "7cf65f7fcafa30f5dd1d6feb67b44759a345f849602cc98c8cba8984e6d17f1a",
+        "sha256_in_prefix": "7cf65f7fcafa30f5dd1d6feb67b44759a345f849602cc98c8cba8984e6d17f1a",
+        "size_in_bytes": 924
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "25b4fc335b1697adcba63ff3b2de2c647ab4ce45806214048d58ebd3a088f815",
+        "sha256_in_prefix": "25b4fc335b1697adcba63ff3b2de2c647ab4ce45806214048d58ebd3a088f815",
+        "size_in_bytes": 2828
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "49a2bba556ed13c84ff7f1fbedab339a81631746e67efe7720fa09a89be05f9c",
+        "sha256_in_prefix": "49a2bba556ed13c84ff7f1fbedab339a81631746e67efe7720fa09a89be05f9c",
+        "size_in_bytes": 1545
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "760eb1b3bd84cb593994d52d187f2c48dd1105dd18a11adefdc855f09bc3e9f0",
+        "sha256_in_prefix": "760eb1b3bd84cb593994d52d187f2c48dd1105dd18a11adefdc855f09bc3e9f0",
+        "size_in_bytes": 2077
+      },
+      {
+        "_path": "lib/R/library/plotly/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7b7ff342005b86b4b0fa0b9b4a64000c4c13ae8c93d263b2229516876a13c5fe",
+        "sha256_in_prefix": "7b7ff342005b86b4b0fa0b9b4a64000c4c13ae8c93d263b2229516876a13c5fe",
+        "size_in_bytes": 2086
+      },
+      {
+        "_path": "lib/R/library/plotly/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "c9f4de31b3f1c5a4d7ada2ad757b3d238a618d3fed113000f190b7720032f8ee",
+        "sha256_in_prefix": "c9f4de31b3f1c5a4d7ada2ad757b3d238a618d3fed113000f190b7720032f8ee",
+        "size_in_bytes": 6628
+      },
+      {
+        "_path": "lib/R/library/plotly/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "acef08edc3848aebc3d1a99c9b1569fd110a6b37066f827e7a6292a561ff2720",
+        "sha256_in_prefix": "acef08edc3848aebc3d1a99c9b1569fd110a6b37066f827e7a6292a561ff2720",
+        "size_in_bytes": 58558
+      },
+      {
+        "_path": "lib/R/library/plotly/R/plotly",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/plotly/R/plotly.rdb",
+        "path_type": "hardlink",
+        "sha256": "98ec96bc0580efd7b087ee6872617c1b057c9782bcb1a980aa2690c853d5f087",
+        "sha256_in_prefix": "98ec96bc0580efd7b087ee6872617c1b057c9782bcb1a980aa2690c853d5f087",
+        "size_in_bytes": 480483
+      },
+      {
+        "_path": "lib/R/library/plotly/R/plotly.rdx",
+        "path_type": "hardlink",
+        "sha256": "8b430e9851d6bccc9bfae9674c3873f953f6cb2ef962ae8f7645a01fc502d4a5",
+        "sha256_in_prefix": "8b430e9851d6bccc9bfae9674c3873f953f6cb2ef962ae8f7645a01fc502d4a5",
+        "size_in_bytes": 5585
+      },
+      {
+        "_path": "lib/R/library/plotly/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "0f29d0ac7587ac06d0f439c3ea92706bf4153dc1d4c72be6790943e76a44b639",
+        "sha256_in_prefix": "0f29d0ac7587ac06d0f439c3ea92706bf4153dc1d4c72be6790943e76a44b639",
+        "size_in_bytes": 476033
+      },
+      {
+        "_path": "lib/R/library/plotly/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "d076d21e7dc51961b560b1bf833df5341864336867be137d9fa54a425dc059fd",
+        "sha256_in_prefix": "d076d21e7dc51961b560b1bf833df5341864336867be137d9fa54a425dc059fd",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/plotly/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "60233765f7c74ad9e59ccd32a68cd7dc8d40af854710c80e5443322ceebd55df",
+        "sha256_in_prefix": "60233765f7c74ad9e59ccd32a68cd7dc8d40af854710c80e5443322ceebd55df",
+        "size_in_bytes": 505781
+      },
+      {
+        "_path": "lib/R/library/plotly/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "5cce6443d47151a46962d97ace9691feb226df64e0fc9b3c6da63c7beb141a89",
+        "sha256_in_prefix": "5cce6443d47151a46962d97ace9691feb226df64e0fc9b3c6da63c7beb141a89",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "lib/R/library/plotly/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "f3c18bc2c18ae3c80fe529cd779cc7b5322f67172c5ffa6436c692a7985cfad8",
+        "sha256_in_prefix": "f3c18bc2c18ae3c80fe529cd779cc7b5322f67172c5ffa6436c692a7985cfad8",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/animation-tour-USArrests.R",
+        "path_type": "hardlink",
+        "sha256": "af9d9807ec2d44b848dab9ab9c5e38c6babbd78aceab0f5113fb444a94c47122",
+        "sha256_in_prefix": "af9d9807ec2d44b848dab9ab9c5e38c6babbd78aceab0f5113fb444a94c47122",
+        "size_in_bytes": 2268
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/animation-tour-basic.R",
+        "path_type": "hardlink",
+        "sha256": "463e706d166a2ff96e1f4e970f63fb81724733ddf39cc6e2b426d5d126ef8706",
+        "sha256_in_prefix": "463e706d166a2ff96e1f4e970f63fb81724733ddf39cc6e2b426d5d126ef8706",
+        "size_in_bytes": 1350
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-filter-dynamic-axis.R",
+        "path_type": "hardlink",
+        "sha256": "6769e6e4ae7ccfed2217bf2e88a52cee7a3ddfa100d71c810b71295811a56797",
+        "sha256_in_prefix": "6769e6e4ae7ccfed2217bf2e88a52cee7a3ddfa100d71c810b71295811a56797",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-filter-lines.R",
+        "path_type": "hardlink",
+        "sha256": "75a5f932725923f20970ecdde7bda433a7660130822ea062b723303343320f4f",
+        "sha256_in_prefix": "75a5f932725923f20970ecdde7bda433a7660130822ea062b723303343320f4f",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-binned-target-a.R",
+        "path_type": "hardlink",
+        "sha256": "27c8e67e174d19203c96da7a05d24d4279bd4a32590e314380e5f674e2821ba8",
+        "sha256_in_prefix": "27c8e67e174d19203c96da7a05d24d4279bd4a32590e314380e5f674e2821ba8",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-binned-target-b.R",
+        "path_type": "hardlink",
+        "sha256": "19cadb23780259ec08f9b2ab9f84af87229f60fa9ee3d1e5721d31f666722f34",
+        "sha256_in_prefix": "19cadb23780259ec08f9b2ab9f84af87229f60fa9ee3d1e5721d31f666722f34",
+        "size_in_bytes": 765
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-binned-target-c.R",
+        "path_type": "hardlink",
+        "sha256": "d7be245ecc054e7e4e91ac137f2c42f527e540b48981da64d05ced8c74edbdf1",
+        "sha256_in_prefix": "d7be245ecc054e7e4e91ac137f2c42f527e540b48981da64d05ced8c74edbdf1",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-epl-2.R",
+        "path_type": "hardlink",
+        "sha256": "8a40319ee45052e858f046430133df4e95618118c949695e07bcdab4a0c09397",
+        "sha256_in_prefix": "8a40319ee45052e858f046430133df4e95618118c949695e07bcdab4a0c09397",
+        "size_in_bytes": 1208
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-epl.R",
+        "path_type": "hardlink",
+        "sha256": "502cadb39ae86282cea9804a39d599674265d8c9f9c94c050e5799b9361a1099",
+        "sha256_in_prefix": "502cadb39ae86282cea9804a39d599674265d8c9f9c94c050e5799b9361a1099",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-ggpairs.R",
+        "path_type": "hardlink",
+        "sha256": "cca0b63a23017cd327c9d2e7dfe6bc4cd550a775a6fe10e0336c57a469dd3122",
+        "sha256_in_prefix": "cca0b63a23017cd327c9d2e7dfe6bc4cd550a775a6fe10e0336c57a469dd3122",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-ggplotly.R",
+        "path_type": "hardlink",
+        "sha256": "47dfcb3b56a78dc962bfaf5774b5af9292c48c7a28517d332718e1bf7e75f141",
+        "sha256_in_prefix": "47dfcb3b56a78dc962bfaf5774b5af9292c48c7a28517d332718e1bf7e75f141",
+        "size_in_bytes": 989
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-intro.R",
+        "path_type": "hardlink",
+        "sha256": "99d35a9fb471b03b8e9b0cf53623544edc270f50bb95e429f8c7f03994ab3927",
+        "sha256_in_prefix": "99d35a9fb471b03b8e9b0cf53623544edc270f50bb95e429f8c7f03994ab3927",
+        "size_in_bytes": 2957
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-leaflet.R",
+        "path_type": "hardlink",
+        "sha256": "c33829a0d1f986fd5de997932f13929827613cf75888cb32041db19a3bb3dc29",
+        "sha256_in_prefix": "c33829a0d1f986fd5de997932f13929827613cf75888cb32041db19a3bb3dc29",
+        "size_in_bytes": 434
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-pipeline.R",
+        "path_type": "hardlink",
+        "sha256": "0d6c5a3c82cba1e3cf1703fd8ddfb9d5417b07853079319a4338bcac02dd187e",
+        "sha256_in_prefix": "0d6c5a3c82cba1e3cf1703fd8ddfb9d5417b07853079319a4338bcac02dd187e",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/crosstalk-highlight-subplot.R",
+        "path_type": "hardlink",
+        "sha256": "50385dbf90235acdc7a8e7aa7890e85dbf1e7e6aa2efbc08b47f6c95d8239345",
+        "sha256_in_prefix": "50385dbf90235acdc7a8e7aa7890e85dbf1e7e6aa2efbc08b47f6c95d8239345",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/custom-javascript.R",
+        "path_type": "hardlink",
+        "sha256": "e7df94908ab38ac11063b918cb3e37f035c28b8a4e1f69082fb07c1466ef7906",
+        "sha256_in_prefix": "e7df94908ab38ac11063b918cb3e37f035c28b8a4e1f69082fb07c1466ef7906",
+        "size_in_bytes": 2036
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/rotate.R",
+        "path_type": "hardlink",
+        "sha256": "6d9ca78d8a2d84d4fb3a2caef849e63b3e605a11942e15efb67c48701e24b187",
+        "sha256_in_prefix": "6d9ca78d8a2d84d4fb3a2caef849e63b3e605a11942e15efb67c48701e24b187",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-dt.R",
+        "path_type": "hardlink",
+        "sha256": "b712b6aad8cc04a875b053aa9a755ea82df289106d641e4409ca05eb596fbeff",
+        "sha256_in_prefix": "b712b6aad8cc04a875b053aa9a755ea82df289106d641e4409ca05eb596fbeff",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-geo.R",
+        "path_type": "hardlink",
+        "sha256": "3bdb32a9f29ea64e5c8a8abff3a1eeb99ffb999b8e92cb0311bb5b2614f72f03",
+        "sha256_in_prefix": "3bdb32a9f29ea64e5c8a8abff3a1eeb99ffb999b8e92cb0311bb5b2614f72f03",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-ggplot2.R",
+        "path_type": "hardlink",
+        "sha256": "9532ecd9ef6d9a642e11479d00f4e9063f2cc87c565b6e867ba9fa4f9e36c777",
+        "sha256_in_prefix": "9532ecd9ef6d9a642e11479d00f4e9063f2cc87c565b6e867ba9fa4f9e36c777",
+        "size_in_bytes": 1030
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-mapbox-data.R",
+        "path_type": "hardlink",
+        "sha256": "99d83b1a450777b217a63b6433d42e0e58df25a0a5c4db904ba0bfbd650286c2",
+        "sha256_in_prefix": "99d83b1a450777b217a63b6433d42e0e58df25a0a5c4db904ba0bfbd650286c2",
+        "size_in_bytes": 1126
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-mapbox-layout.R",
+        "path_type": "hardlink",
+        "sha256": "d2f1060a13fa08c230fc8f317a37981b2728f1c3cde1eb2b8fe89ab6891c3a77",
+        "sha256_in_prefix": "d2f1060a13fa08c230fc8f317a37981b2728f1c3cde1eb2b8fe89ab6891c3a77",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-mapbox-style.R",
+        "path_type": "hardlink",
+        "sha256": "3ca0f5256c822338ae040bc1b914c8aeece73413e7308ef8611bb25a44db0521",
+        "sha256_in_prefix": "3ca0f5256c822338ae040bc1b914c8aeece73413e7308ef8611bb25a44db0521",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-plotly-3D-globe.R",
+        "path_type": "hardlink",
+        "sha256": "8d3deaab2fb0fc4e6928f962ee194abc10fd109bf05e343263109f0b8f753aa5",
+        "sha256_in_prefix": "8d3deaab2fb0fc4e6928f962ee194abc10fd109bf05e343263109f0b8f753aa5",
+        "size_in_bytes": 4096
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/sf-plotly-storms.R",
+        "path_type": "hardlink",
+        "sha256": "1bc1bc88938c9c67f4e40a910054f122f8151fb668807b300e4587345681a716",
+        "sha256_in_prefix": "1bc1bc88938c9c67f4e40a910054f122f8151fb668807b300e4587345681a716",
+        "size_in_bytes": 1501
+      },
+      {
+        "_path": "lib/R/library/plotly/demo/ternary.R",
+        "path_type": "hardlink",
+        "sha256": "7e953da94cc6aa2a08708ba15927366879ca30b01f7f4b7833953a1963de0cbb",
+        "sha256_in_prefix": "7e953da94cc6aa2a08708ba15927366879ca30b01f7f4b7833953a1963de0cbb",
+        "size_in_bytes": 1475
+      },
+      {
+        "_path": "lib/R/library/plotly/docker/Dockerfile.vtest",
+        "path_type": "hardlink",
+        "sha256": "25c7fd0fc89f457d998af1a533dd92123d33911dcf972c9325e3dec0c74b3a9c",
+        "sha256_in_prefix": "25c7fd0fc89f457d998af1a533dd92123d33911dcf972c9325e3dec0c74b3a9c",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "lib/R/library/plotly/docker/README.md",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/plotly/docs.R",
+        "path_type": "hardlink",
+        "sha256": "42972be2577abb5b82ef24df8a28a8639d905e93ae7ebe8e937ea903acdd5f58",
+        "sha256_in_prefix": "42972be2577abb5b82ef24df8a28a8639d905e93ae7ebe8e937ea903acdd5f58",
+        "size_in_bytes": 36385
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/rmd/MathJax/index.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7796f279a62f7e1e97da94438812418145c5e4bc92e95bb0d634d1fece3ddda3",
+        "sha256_in_prefix": "7796f279a62f7e1e97da94438812418145c5e4bc92e95bb0d634d1fece3ddda3",
+        "size_in_bytes": 1015
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/rmd/flexdashboard/index.Rmd",
+        "path_type": "hardlink",
+        "sha256": "88ca0cb9aa1186590463de3f0da970063037fcc42d384524e9e0ef1ee6880fd4",
+        "sha256_in_prefix": "88ca0cb9aa1186590463de3f0da970063037fcc42d384524e9e0ef1ee6880fd4",
+        "size_in_bytes": 2701
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/rmd/onRenderHover/index.Rmd",
+        "path_type": "hardlink",
+        "sha256": "9bd5e675314517d7946be4978c7d497bfae6c4abaa058f4a496912a3319b203a",
+        "sha256_in_prefix": "9bd5e675314517d7946be4978c7d497bfae6c4abaa058f4a496912a3319b203a",
+        "size_in_bytes": 1403
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/rmd/printing/index.Rmd",
+        "path_type": "hardlink",
+        "sha256": "a984384acd197e6c72af136ab59ade44bf802f8da3bee76fd02277cfa8f461ea",
+        "sha256_in_prefix": "a984384acd197e6c72af136ab59ade44bf802f8da3bee76fd02277cfa8f461ea",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/DT/app.R",
+        "path_type": "hardlink",
+        "sha256": "83eeac23dd1f82fb5332c817b4e4528b3f3512f0f5c2dc50fe6c1fc1e309713e",
+        "sha256_in_prefix": "83eeac23dd1f82fb5332c817b4e4528b3f3512f0f5c2dc50fe6c1fc1e309713e",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/Diamonds/server.R",
+        "path_type": "hardlink",
+        "sha256": "786fbfeb8cc7d09cddb509463bc3429565a79952f4284270196187da494de018",
+        "sha256_in_prefix": "786fbfeb8cc7d09cddb509463bc3429565a79952f4284270196187da494de018",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/Diamonds/ui.R",
+        "path_type": "hardlink",
+        "sha256": "1afad068000a6dbc6a207d5d6c543f5dbabd511f154103088faf2131d548d0a3",
+        "sha256_in_prefix": "1afad068000a6dbc6a207d5d6c543f5dbabd511f154103088faf2131d548d0a3",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/MathJax/app.R",
+        "path_type": "hardlink",
+        "sha256": "425c8b294512212782538477af006fe7828a4f6ea155c5f47bf8a7048c53da09",
+        "sha256_in_prefix": "425c8b294512212782538477af006fe7828a4f6ea155c5f47bf8a7048c53da09",
+        "size_in_bytes": 1049
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/Movies/server.R",
+        "path_type": "hardlink",
+        "sha256": "d4da3489ec2c61d541ffcf2b21c0af47f7a8de755a6ecb39092459554613c8d7",
+        "sha256_in_prefix": "d4da3489ec2c61d541ffcf2b21c0af47f7a8de755a6ecb39092459554613c8d7",
+        "size_in_bytes": 698
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/Movies/ui.R",
+        "path_type": "hardlink",
+        "sha256": "a0edfde46bc3de9f76951dc255b4aa9f51566817230189faf6b6c21678daceaa",
+        "sha256_in_prefix": "a0edfde46bc3de9f76951dc255b4aa9f51566817230189faf6b6c21678daceaa",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Advanced/Data/UN_IdealPoints.csv",
+        "path_type": "hardlink",
+        "sha256": "eed3fce08bd2ba498fd4cc813377744f478fa3579fa1d6b9a829e24f09d85f34",
+        "sha256_in_prefix": "eed3fce08bd2ba498fd4cc813377744f478fa3579fa1d6b9a829e24f09d85f34",
+        "size_in_bytes": 236849
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Advanced/global.R",
+        "path_type": "hardlink",
+        "sha256": "ddb8b0e1f3ed5df9e5066fa8eca79cbe2a20ca44a4fd038392ed28900226c63a",
+        "sha256_in_prefix": "ddb8b0e1f3ed5df9e5066fa8eca79cbe2a20ca44a4fd038392ed28900226c63a",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Advanced/server.R",
+        "path_type": "hardlink",
+        "sha256": "10a0b071b0062f653d117b2635f9859590c3ccecd88dc7b68a8035604765a1d0",
+        "sha256_in_prefix": "10a0b071b0062f653d117b2635f9859590c3ccecd88dc7b68a8035604765a1d0",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Advanced/ui.R",
+        "path_type": "hardlink",
+        "sha256": "41703f90452dc3a0c3934c777fc16a07b74c6876684147b5bf4f581f23d2fa6f",
+        "sha256_in_prefix": "41703f90452dc3a0c3934c777fc16a07b74c6876684147b5bf4f581f23d2fa6f",
+        "size_in_bytes": 897
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Simple/Data/UN_IdealPoints.csv",
+        "path_type": "hardlink",
+        "sha256": "b09258bd5fe0bee0859342fb4899d90bf23679d4f4c5632ed32c008e1081a3ca",
+        "sha256_in_prefix": "b09258bd5fe0bee0859342fb4899d90bf23679d4f4c5632ed32c008e1081a3ca",
+        "size_in_bytes": 6087
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Simple/global.R",
+        "path_type": "hardlink",
+        "sha256": "ddb8b0e1f3ed5df9e5066fa8eca79cbe2a20ca44a4fd038392ed28900226c63a",
+        "sha256_in_prefix": "ddb8b0e1f3ed5df9e5066fa8eca79cbe2a20ca44a4fd038392ed28900226c63a",
+        "size_in_bytes": 67
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Simple/server.R",
+        "path_type": "hardlink",
+        "sha256": "d0e6a04bda29715d020606a2162f39038e8a2e8a2d870862f65142c0c5aec0cd",
+        "sha256_in_prefix": "d0e6a04bda29715d020606a2162f39038e8a2e8a2d870862f65142c0c5aec0cd",
+        "size_in_bytes": 542
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/UN_Simple/ui.R",
+        "path_type": "hardlink",
+        "sha256": "968058c5c4fd5213b261565ad9e61c2c4cbaa9ddfe4399dffc747368d550c61b",
+        "sha256_in_prefix": "968058c5c4fd5213b261565ad9e61c2c4cbaa9ddfe4399dffc747368d550c61b",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/async/app.R",
+        "path_type": "hardlink",
+        "sha256": "20a630e3a7cb3be34916efe67dc3ec10bb54737f5a93a7090f14581dcf237bca",
+        "sha256_in_prefix": "20a630e3a7cb3be34916efe67dc3ec10bb54737f5a93a7090f14581dcf237bca",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/basic/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d45bd74fcf58bbab49e2e8665818884be491f7095e1bffcd02ca7b437a737225",
+        "sha256_in_prefix": "d45bd74fcf58bbab49e2e8665818884be491f7095e1bffcd02ca7b437a737225",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/crossfilter/app.R",
+        "path_type": "hardlink",
+        "sha256": "26571a61495c42ee629d731cc2be18ffbf6331a82e3bc63548322e23a76f2be6",
+        "sha256_in_prefix": "26571a61495c42ee629d731cc2be18ffbf6331a82e3bc63548322e23a76f2be6",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/crossfilter_compare/app.R",
+        "path_type": "hardlink",
+        "sha256": "0cf85993c7feb090120d099f7fd686a18545654d456b02a1b0d19fe9f6bdebbf",
+        "sha256_in_prefix": "0cf85993c7feb090120d099f7fd686a18545654d456b02a1b0d19fe9f6bdebbf",
+        "size_in_bytes": 3993
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/crossfilter_kde/app.R",
+        "path_type": "hardlink",
+        "sha256": "e667803099994c34a6ddf6ce6b6ead70c213225d0a9b0bf377dcbedc79e70b84",
+        "sha256_in_prefix": "e667803099994c34a6ddf6ce6b6ead70c213225d0a9b0bf377dcbedc79e70b84",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/crossfilter_scatter/app.R",
+        "path_type": "hardlink",
+        "sha256": "8d4207a1f253eeb543a933e2df9db16780d1be7607f99eb42f660809869d7cc2",
+        "sha256_in_prefix": "8d4207a1f253eeb543a933e2df9db16780d1be7607f99eb42f660809869d7cc2",
+        "size_in_bytes": 883
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/drag_brush/app.R",
+        "path_type": "hardlink",
+        "sha256": "edf2f8d0daa06b896c13f5a830f0068d65ad77ce9f04861e88bfb94cc694db65",
+        "sha256_in_prefix": "edf2f8d0daa06b896c13f5a830f0068d65ad77ce9f04861e88bfb94cc694db65",
+        "size_in_bytes": 3668
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/drag_lines/app.R",
+        "path_type": "hardlink",
+        "sha256": "1008f856e8cb03a303301113e801f775c3b64f3b4885a137183fd42b9c26e407",
+        "sha256_in_prefix": "1008f856e8cb03a303301113e801f775c3b64f3b4885a137183fd42b9c26e407",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/drag_markers/app.R",
+        "path_type": "hardlink",
+        "sha256": "377a51b05889e8d32a9bed7d240ebca7f7cfcf3f467634bb6636db042250a3f3",
+        "sha256_in_prefix": "377a51b05889e8d32a9bed7d240ebca7f7cfcf3f467634bb6636db042250a3f3",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/drill_down/app.R",
+        "path_type": "hardlink",
+        "sha256": "e622765d08373fa1309210909301062cf9a5b96dc40bcb2fedeabcbfc0bec865",
+        "sha256_in_prefix": "e622765d08373fa1309210909301062cf9a5b96dc40bcb2fedeabcbfc0bec865",
+        "size_in_bytes": 4399
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "de59cedcfd979ec56910be07ce3a7e850c9e4f9c6c95d896dc8d00045acb7a35",
+        "sha256_in_prefix": "de59cedcfd979ec56910be07ce3a7e850c9e4f9c6c95d896dc8d00045acb7a35",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/app.R",
+        "path_type": "hardlink",
+        "sha256": "fcf72e05cbcffeeae195458a5c41763d525282b9639b34a027fd677558d9cff4",
+        "sha256_in_prefix": "fcf72e05cbcffeeae195458a5c41763d525282b9639b34a027fd677558d9cff4",
+        "size_in_bytes": 1790
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/001.json",
+        "path_type": "hardlink",
+        "sha256": "49c03056b55cf2a0de6830f648cff312a8e5681b5a57b915c5d7d66ef241982d",
+        "sha256_in_prefix": "49c03056b55cf2a0de6830f648cff312a8e5681b5a57b915c5d7d66ef241982d",
+        "size_in_bytes": 13291
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/001.png",
+        "path_type": "hardlink",
+        "sha256": "38ac2efc18e971ea8ba6cbdfd5a5b6eff62b0d4cfe4ea673dbd42674a2c3fbd9",
+        "sha256_in_prefix": "38ac2efc18e971ea8ba6cbdfd5a5b6eff62b0d4cfe4ea673dbd42674a2c3fbd9",
+        "size_in_bytes": 54578
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/002.json",
+        "path_type": "hardlink",
+        "sha256": "3d533d19b6aa8f9b93b7bd6837c06446012d967fed18387a8fab8effba8d33c9",
+        "sha256_in_prefix": "3d533d19b6aa8f9b93b7bd6837c06446012d967fed18387a8fab8effba8d33c9",
+        "size_in_bytes": 13795
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/002.png",
+        "path_type": "hardlink",
+        "sha256": "f34ce2ce9df96eb3470c9ece89da114f7596c0af03e0f2d76b02accd6f344e39",
+        "sha256_in_prefix": "f34ce2ce9df96eb3470c9ece89da114f7596c0af03e0f2d76b02accd6f344e39",
+        "size_in_bytes": 56300
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/003.json",
+        "path_type": "hardlink",
+        "sha256": "07532c7e27593575862fecc7c70811bc8bb63f525e18d672befd9aba8086e8e0",
+        "sha256_in_prefix": "07532c7e27593575862fecc7c70811bc8bb63f525e18d672befd9aba8086e8e0",
+        "size_in_bytes": 14341
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/003.png",
+        "path_type": "hardlink",
+        "sha256": "da2fcdaf49eb9203d87264a7145aa2005076f2f9a8a1714d1240105432d10828",
+        "sha256_in_prefix": "da2fcdaf49eb9203d87264a7145aa2005076f2f9a8a1714d1240105432d10828",
+        "size_in_bytes": 62233
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/004.json",
+        "path_type": "hardlink",
+        "sha256": "54fb23079f405faef5e0297d0dbd5c02af0df938e9cf34aec34f56ca0c7f6a19",
+        "sha256_in_prefix": "54fb23079f405faef5e0297d0dbd5c02af0df938e9cf34aec34f56ca0c7f6a19",
+        "size_in_bytes": 13830
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest-expected/004.png",
+        "path_type": "hardlink",
+        "sha256": "38ac2efc18e971ea8ba6cbdfd5a5b6eff62b0d4cfe4ea673dbd42674a2c3fbd9",
+        "sha256_in_prefix": "38ac2efc18e971ea8ba6cbdfd5a5b6eff62b0d4cfe4ea673dbd42674a2c3fbd9",
+        "size_in_bytes": 54578
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data/tests/shinytest/mytest.R",
+        "path_type": "hardlink",
+        "sha256": "d9e6691c6be7db10576abc2c463e24c0bec359878858aca32ae5980265d1c555",
+        "sha256_in_prefix": "d9e6691c6be7db10576abc2c463e24c0bec359878858aca32ae5980265d1c555",
+        "size_in_bytes": 2595
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_3D/app.R",
+        "path_type": "hardlink",
+        "sha256": "f252998c1c3c7f03a21cb9f64c55115f0c316cf162bf0aee540ec176f7dc2e5d",
+        "sha256_in_prefix": "f252998c1c3c7f03a21cb9f64c55115f0c316cf162bf0aee540ec176f7dc2e5d",
+        "size_in_bytes": 1219
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_annotation/app.R",
+        "path_type": "hardlink",
+        "sha256": "507adfdd75f452f6cbaa361850cc3d37f7c371dde87d040b47f7a33218b69d28",
+        "sha256_in_prefix": "507adfdd75f452f6cbaa361850cc3d37f7c371dde87d040b47f7a33218b69d28",
+        "size_in_bytes": 649
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_click/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "de59cedcfd979ec56910be07ce3a7e850c9e4f9c6c95d896dc8d00045acb7a35",
+        "sha256_in_prefix": "de59cedcfd979ec56910be07ce3a7e850c9e4f9c6c95d896dc8d00045acb7a35",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_click/app.R",
+        "path_type": "hardlink",
+        "sha256": "3d684070a2510fa021ce9b5ffe164aa66fa9b8370528f1f8e3391f4330d583b6",
+        "sha256_in_prefix": "3d684070a2510fa021ce9b5ffe164aa66fa9b8370528f1f8e3391f4330d583b6",
+        "size_in_bytes": 1527
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_click_map/app.R",
+        "path_type": "hardlink",
+        "sha256": "2c2219dc5c3f446a94fa16b06596754f424a320855603524fa41f5e95b0e8a19",
+        "sha256_in_prefix": "2c2219dc5c3f446a94fa16b06596754f424a320855603524fa41f5e95b0e8a19",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_legends/app.R",
+        "path_type": "hardlink",
+        "sha256": "2cbaff9e6081469c6c33b57bb05283556c566ea042a650daeb6ea7ee36dceded",
+        "sha256_in_prefix": "2cbaff9e6081469c6c33b57bb05283556c566ea042a650daeb6ea7ee36dceded",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_modules/app.R",
+        "path_type": "hardlink",
+        "sha256": "272329010649356f39c1b05d6e0186f99820f8ca6172620392ac609141b05260",
+        "sha256_in_prefix": "272329010649356f39c1b05d6e0186f99820f8ca6172620392ac609141b05260",
+        "size_in_bytes": 1102
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_parcoords/app.R",
+        "path_type": "hardlink",
+        "sha256": "d2e2caac61acda552dc690e3f641c87657e0e5c1661f4e62605814915b1779a8",
+        "sha256_in_prefix": "d2e2caac61acda552dc690e3f641c87657e0e5c1661f4e62605814915b1779a8",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_persist/app.R",
+        "path_type": "hardlink",
+        "sha256": "06190019dbdf6de13adc330f41cc86ce538df04ac585845b738182acc943b174",
+        "sha256_in_prefix": "06190019dbdf6de13adc330f41cc86ce538df04ac585845b738182acc943b174",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_data_select/app.R",
+        "path_type": "hardlink",
+        "sha256": "69858f271f33660219578e8d8620ab5ba5fb2723851836c0fa273f23e2bf5f84",
+        "sha256_in_prefix": "69858f271f33660219578e8d8620ab5ba5fb2723851836c0fa273f23e2bf5f84",
+        "size_in_bytes": 2640
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/event_priority/app.R",
+        "path_type": "hardlink",
+        "sha256": "9868a28f303eda8b4dd03f65d83657dc00a88dd37b825e7871fd2daccfb17526",
+        "sha256_in_prefix": "9868a28f303eda8b4dd03f65d83657dc00a88dd37b825e7871fd2daccfb17526",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/ggplotly_sizing/app.R",
+        "path_type": "hardlink",
+        "sha256": "f7d448fcb86af09f0db191dc389fa589ef4bf6d7b4c3ae8aa062385de7feaa4a",
+        "sha256_in_prefix": "f7d448fcb86af09f0db191dc389fa589ef4bf6d7b4c3ae8aa062385de7feaa4a",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/lmGadget/app.R",
+        "path_type": "hardlink",
+        "sha256": "006b8d963d4c08dcf6ed487d9eb90806cb228c2831d0a9b53bc6aae23a90d360",
+        "sha256_in_prefix": "006b8d963d4c08dcf6ed487d9eb90806cb228c2831d0a9b53bc6aae23a90d360",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/proxy_mapbox/app.R",
+        "path_type": "hardlink",
+        "sha256": "8636d4f46ab35a96e9e728ced32af30e04996b26a99148cdfc1ee8c80a3ca707",
+        "sha256_in_prefix": "8636d4f46ab35a96e9e728ced32af30e04996b26a99148cdfc1ee8c80a3ca707",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/proxy_relayout/app.R",
+        "path_type": "hardlink",
+        "sha256": "4999bb1188b5afcad8e5687f04b30379bcb37be4d11a3df7af54226d3f353a0a",
+        "sha256_in_prefix": "4999bb1188b5afcad8e5687f04b30379bcb37be4d11a3df7af54226d3f353a0a",
+        "size_in_bytes": 1317
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/proxy_restyle_canada/app.R",
+        "path_type": "hardlink",
+        "sha256": "d322a95d4d613cfc175cf4e3d548ececed55b049bd6918a1b18c40be3180db61",
+        "sha256_in_prefix": "d322a95d4d613cfc175cf4e3d548ececed55b049bd6918a1b18c40be3180db61",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/proxy_restyle_economics/app.R",
+        "path_type": "hardlink",
+        "sha256": "ee53f94c9ffc078890f012b2b4bfb50504beb3493b7b65a00d0e0e7eec31fcf6",
+        "sha256_in_prefix": "ee53f94c9ffc078890f012b2b4bfb50504beb3493b7b65a00d0e0e7eec31fcf6",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "lib/R/library/plotly/examples/shiny/stream/app.R",
+        "path_type": "hardlink",
+        "sha256": "4e396c1ad43252a7d840b1399df677a97a0fe85807c8074e67530da3fc91d0eb",
+        "sha256_in_prefix": "4e396c1ad43252a7d840b1399df677a97a0fe85807c8074e67530da3fc91d0eb",
+        "size_in_bytes": 1373
+      },
+      {
+        "_path": "lib/R/library/plotly/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "244f82c223c17e7dd9dcedbad4dafef35d0627c1e1b686989fc88e96486cfbfd",
+        "sha256_in_prefix": "244f82c223c17e7dd9dcedbad4dafef35d0627c1e1b686989fc88e96486cfbfd",
+        "size_in_bytes": 3438
+      },
+      {
+        "_path": "lib/R/library/plotly/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c557dbf76c34038075a3d10603e10a78f15ae5b2b5fd0b9f433e53003a5a661a",
+        "sha256_in_prefix": "c557dbf76c34038075a3d10603e10a78f15ae5b2b5fd0b9f433e53003a5a661a",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "lib/R/library/plotly/help/figures/plotly.png",
+        "path_type": "hardlink",
+        "sha256": "e7c7b60fdb412dc2d3a914de7dedb2d1d066512f4ffbbd751b9c39c9a70dd563",
+        "sha256_in_prefix": "e7c7b60fdb412dc2d3a914de7dedb2d1d066512f4ffbbd751b9c39c9a70dd563",
+        "size_in_bytes": 331999
+      },
+      {
+        "_path": "lib/R/library/plotly/help/figures/plotly.svg",
+        "path_type": "hardlink",
+        "sha256": "d9ebd78ba825105899197a865c42e67744e1fbff2f2ec3c2f8ab570f385ff12b",
+        "sha256_in_prefix": "d9ebd78ba825105899197a865c42e67744e1fbff2f2ec3c2f8ab570f385ff12b",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "lib/R/library/plotly/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3ef913ba66e1bf50ef9abe9f4ab4dd3e8975402252b320022c9b5dadf421f5f1",
+        "sha256_in_prefix": "3ef913ba66e1bf50ef9abe9f4ab4dd3e8975402252b320022c9b5dadf421f5f1",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "lib/R/library/plotly/help/plotly.rdb",
+        "path_type": "hardlink",
+        "sha256": "202c3e818cef61303d152672fbe1de165bc754fcd50cc810983c86c3d64f5dc4",
+        "sha256_in_prefix": "202c3e818cef61303d152672fbe1de165bc754fcd50cc810983c86c3d64f5dc4",
+        "size_in_bytes": 148420
+      },
+      {
+        "_path": "lib/R/library/plotly/help/plotly.rdx",
+        "path_type": "hardlink",
+        "sha256": "3cf835b5ed4dbe6344815b4eefa5877e9fb698c92fff38d93c39d377bd65d6cc",
+        "sha256_in_prefix": "3cf835b5ed4dbe6344815b4eefa5877e9fb698c92fff38d93c39d377bd65d6cc",
+        "size_in_bytes": 1661
+      },
+      {
+        "_path": "lib/R/library/plotly/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "df9db821ecbad5f9e9d3ccda4b38fb86dc127c44750d7c22c67e9e81841df533",
+        "sha256_in_prefix": "df9db821ecbad5f9e9d3ccda4b38fb86dc127c44750d7c22c67e9e81841df533",
+        "size_in_bytes": 18753
+      },
+      {
+        "_path": "lib/R/library/plotly/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/colourpicker/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "92cb020e28eb1fa3fb21e1ae8bb9ad4f8ed1388b8ffccaaa438a92b256fe8c7a",
+        "sha256_in_prefix": "92cb020e28eb1fa3fb21e1ae8bb9ad4f8ed1388b8ffccaaa438a92b256fe8c7a",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/colourpicker/colourpicker.min.css",
+        "path_type": "hardlink",
+        "sha256": "9c8341cad1761903197670dd23ee881016bf759416f0741752ba68465e7f09a2",
+        "sha256_in_prefix": "9c8341cad1761903197670dd23ee881016bf759416f0741752ba68465e7f09a2",
+        "size_in_bytes": 22042
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/colourpicker/colourpicker.min.js",
+        "path_type": "hardlink",
+        "sha256": "bfda28dd9e323f619a4798a798930b1a4f5dad50b6e1c96abf9b7490b30ef038",
+        "sha256_in_prefix": "bfda28dd9e323f619a4798a798930b1a4f5dad50b6e1c96abf9b7490b30ef038",
+        "size_in_bytes": 22347
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/mathjax/cdn.js",
+        "path_type": "hardlink",
+        "sha256": "805cfc35319689cdd6dc332906ac7a45467d4c58b8404ab0cc886601be0d8d84",
+        "sha256_in_prefix": "805cfc35319689cdd6dc332906ac7a45467d4c58b8404ab0cc886601be0d8d84",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "d2fc53bed9f2d5f1f9acc5facc090a61791cc476ff3d7e97ca3286907e9bdedc",
+        "sha256_in_prefix": "d2fc53bed9f2d5f1f9acc5facc090a61791cc476ff3d7e97ca3286907e9bdedc",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/af.js",
+        "path_type": "hardlink",
+        "sha256": "46a23f81ff44b76da82a1bae32b4b75a9b4051038288b8e964363726c33a60f9",
+        "sha256_in_prefix": "46a23f81ff44b76da82a1bae32b4b75a9b4051038288b8e964363726c33a60f9",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/am.js",
+        "path_type": "hardlink",
+        "sha256": "82e25a550a01ea283979b221d6b67647c58c5f01ce01c439fdbe8521da38bc5a",
+        "sha256_in_prefix": "82e25a550a01ea283979b221d6b67647c58c5f01ce01c439fdbe8521da38bc5a",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ar-dz.js",
+        "path_type": "hardlink",
+        "sha256": "780eba720cabe2358c6597be9ba070d65e8c16d385e80ed16228d0e675729ed9",
+        "sha256_in_prefix": "780eba720cabe2358c6597be9ba070d65e8c16d385e80ed16228d0e675729ed9",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ar-eg.js",
+        "path_type": "hardlink",
+        "sha256": "2f36d9b3d11cb022ac5fe7fb044c85ab0846dd374a5a630bf15397e3ce20718c",
+        "sha256_in_prefix": "2f36d9b3d11cb022ac5fe7fb044c85ab0846dd374a5a630bf15397e3ce20718c",
+        "size_in_bytes": 1223
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ar.js",
+        "path_type": "hardlink",
+        "sha256": "6a1f66da687960cf97e22a343b18deeee0914d3dabc042dfbaa4dcda9b23d3e0",
+        "sha256_in_prefix": "6a1f66da687960cf97e22a343b18deeee0914d3dabc042dfbaa4dcda9b23d3e0",
+        "size_in_bytes": 1386
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/az.js",
+        "path_type": "hardlink",
+        "sha256": "99adea83a62998c8803cbb38b7d1e5a992fd9ed62be0fbf8000e45c61f074f08",
+        "sha256_in_prefix": "99adea83a62998c8803cbb38b7d1e5a992fd9ed62be0fbf8000e45c61f074f08",
+        "size_in_bytes": 677
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/bg.js",
+        "path_type": "hardlink",
+        "sha256": "ff1839e1fe79f796e42632c09a96c32729115ae9c442171801701c0f3b57ede4",
+        "sha256_in_prefix": "ff1839e1fe79f796e42632c09a96c32729115ae9c442171801701c0f3b57ede4",
+        "size_in_bytes": 1421
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/bs.js",
+        "path_type": "hardlink",
+        "sha256": "0b2f5bbd4db856ccbf45348a93e6c33e0f45054b338c0911465177b737793b15",
+        "sha256_in_prefix": "0b2f5bbd4db856ccbf45348a93e6c33e0f45054b338c0911465177b737793b15",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ca.js",
+        "path_type": "hardlink",
+        "sha256": "d5a94dd0eb891669fac58fadb777c61aed090022dd09183da52530b9be02152e",
+        "sha256_in_prefix": "d5a94dd0eb891669fac58fadb777c61aed090022dd09183da52530b9be02152e",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/cs.js",
+        "path_type": "hardlink",
+        "sha256": "ab1b69e329ab3c67702ef36474ccd202dcd64b6844d86b5c796d81dade3581f4",
+        "sha256_in_prefix": "ab1b69e329ab3c67702ef36474ccd202dcd64b6844d86b5c796d81dade3581f4",
+        "size_in_bytes": 3716
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/cy.js",
+        "path_type": "hardlink",
+        "sha256": "b6b6918e90ea16b445bd2232576de462ab31bfb9284027e65112114a86bcef8b",
+        "sha256_in_prefix": "b6b6918e90ea16b445bd2232576de462ab31bfb9284027e65112114a86bcef8b",
+        "size_in_bytes": 3077
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/da.js",
+        "path_type": "hardlink",
+        "sha256": "da443dbdf2a49a5eed570bb1ac04cf26a6699523b16b3a934ac82e474826c384",
+        "sha256_in_prefix": "da443dbdf2a49a5eed570bb1ac04cf26a6699523b16b3a934ac82e474826c384",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/de-ch.js",
+        "path_type": "hardlink",
+        "sha256": "9ac9893fad654c6adb53bdc19ebce8392a4b2e84c2bf8cf79d8f41ecc4bde0db",
+        "sha256_in_prefix": "9ac9893fad654c6adb53bdc19ebce8392a4b2e84c2bf8cf79d8f41ecc4bde0db",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/de.js",
+        "path_type": "hardlink",
+        "sha256": "d3611076889ff4e8891ca1984beb4f3d960c60de6263d2e910c50409cd8f24d2",
+        "sha256_in_prefix": "d3611076889ff4e8891ca1984beb4f3d960c60de6263d2e910c50409cd8f24d2",
+        "size_in_bytes": 3219
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/el.js",
+        "path_type": "hardlink",
+        "sha256": "66435caaa9be65abc60c95825ca2c580749a0d4f17f1f56f92a4449899c47f73",
+        "sha256_in_prefix": "66435caaa9be65abc60c95825ca2c580749a0d4f17f1f56f92a4449899c47f73",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/eo.js",
+        "path_type": "hardlink",
+        "sha256": "ea857e2fc36ba24f1a242e74b825ca9f5f8219fed679d1165db46b8e3d584296",
+        "sha256_in_prefix": "ea857e2fc36ba24f1a242e74b825ca9f5f8219fed679d1165db46b8e3d584296",
+        "size_in_bytes": 586
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/es-ar.js",
+        "path_type": "hardlink",
+        "sha256": "308b2297a624132e9be542a78fbb241c9ebb28d4c74d81d593b9009cc31de732",
+        "sha256_in_prefix": "308b2297a624132e9be542a78fbb241c9ebb28d4c74d81d593b9009cc31de732",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/es-pe.js",
+        "path_type": "hardlink",
+        "sha256": "82f97bea4f13712ff0f9791b51d0e3705635b98f1d9b9552bff6804b38c67d86",
+        "sha256_in_prefix": "82f97bea4f13712ff0f9791b51d0e3705635b98f1d9b9552bff6804b38c67d86",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/es.js",
+        "path_type": "hardlink",
+        "sha256": "a6bb92f2fdd81d6ba4147489462e5536d68d2a03296267a133ccf5593ee594aa",
+        "sha256_in_prefix": "a6bb92f2fdd81d6ba4147489462e5536d68d2a03296267a133ccf5593ee594aa",
+        "size_in_bytes": 3235
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/et.js",
+        "path_type": "hardlink",
+        "sha256": "4e997545b2d3432da9ee36a78d54795abbf998d5fc404ff55ba6554cefacc711",
+        "sha256_in_prefix": "4e997545b2d3432da9ee36a78d54795abbf998d5fc404ff55ba6554cefacc711",
+        "size_in_bytes": 621
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/eu.js",
+        "path_type": "hardlink",
+        "sha256": "2e6f4bac4a0f8c1c0ccfec328d7adb6edcb9261e8a3dc6034267d801a6ad31a0",
+        "sha256_in_prefix": "2e6f4bac4a0f8c1c0ccfec328d7adb6edcb9261e8a3dc6034267d801a6ad31a0",
+        "size_in_bytes": 570
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fa.js",
+        "path_type": "hardlink",
+        "sha256": "07d617a0f34b85ef5175a411b0d30b4fc60e42875e46e57c65da52f4f69eb6f1",
+        "sha256_in_prefix": "07d617a0f34b85ef5175a411b0d30b4fc60e42875e46e57c65da52f4f69eb6f1",
+        "size_in_bytes": 1010
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fi.js",
+        "path_type": "hardlink",
+        "sha256": "bdf9e15c5953efaa8f88c1535090e88431e2375c91777dfd658a37fa28b8a736",
+        "sha256_in_prefix": "bdf9e15c5953efaa8f88c1535090e88431e2375c91777dfd658a37fa28b8a736",
+        "size_in_bytes": 3191
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fo.js",
+        "path_type": "hardlink",
+        "sha256": "21ed7a6a1343afd9f94f3cc182aee231b097648a2f9ed805aa22fccdaaf47145",
+        "sha256_in_prefix": "21ed7a6a1343afd9f94f3cc182aee231b097648a2f9ed805aa22fccdaaf47145",
+        "size_in_bytes": 592
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fr-ch.js",
+        "path_type": "hardlink",
+        "sha256": "31bc47118bc1c5bc9ae9a27dce4f7b74d89ddd17da7f3789b19d4d7ed89e9809",
+        "sha256_in_prefix": "31bc47118bc1c5bc9ae9a27dce4f7b74d89ddd17da7f3789b19d4d7ed89e9809",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/fr.js",
+        "path_type": "hardlink",
+        "sha256": "16daa3b3fd225b9a88c8d6f63c79b71e7d9d4295fa77da3344c5cf1888673d26",
+        "sha256_in_prefix": "16daa3b3fd225b9a88c8d6f63c79b71e7d9d4295fa77da3344c5cf1888673d26",
+        "size_in_bytes": 3431
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/gl.js",
+        "path_type": "hardlink",
+        "sha256": "2e0351db88563c7d24bacca881969dc4618bdcdc62292f1d631249c201752c1a",
+        "sha256_in_prefix": "2e0351db88563c7d24bacca881969dc4618bdcdc62292f1d631249c201752c1a",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/gu.js",
+        "path_type": "hardlink",
+        "sha256": "d5933cfb0ad421c47d9e96a6cfa87ab39a7cff755abfa12aa405964616558674",
+        "sha256_in_prefix": "d5933cfb0ad421c47d9e96a6cfa87ab39a7cff755abfa12aa405964616558674",
+        "size_in_bytes": 1577
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/he.js",
+        "path_type": "hardlink",
+        "sha256": "c28425ae5d9090bb5be00352a66efa5eed8a9cb0e950764d93dd64605635a821",
+        "sha256_in_prefix": "c28425ae5d9090bb5be00352a66efa5eed8a9cb0e950764d93dd64605635a821",
+        "size_in_bytes": 986
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hi-in.js",
+        "path_type": "hardlink",
+        "sha256": "31ce515771ca1283ab7f442334094d6749233d7e5b52b72ce09764b8f89b84de",
+        "sha256_in_prefix": "31ce515771ca1283ab7f442334094d6749233d7e5b52b72ce09764b8f89b84de",
+        "size_in_bytes": 1413
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hr.js",
+        "path_type": "hardlink",
+        "sha256": "3a0047ce3aae7cb13121c2adc977ffd8aeab6f53766317a138ebc45317c7e5a8",
+        "sha256_in_prefix": "3a0047ce3aae7cb13121c2adc977ffd8aeab6f53766317a138ebc45317c7e5a8",
+        "size_in_bytes": 593
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hu.js",
+        "path_type": "hardlink",
+        "sha256": "8ca05e8bd0feab422959a9fd27df629ac3120992872e613ac6166d23a7e59889",
+        "sha256_in_prefix": "8ca05e8bd0feab422959a9fd27df629ac3120992872e613ac6166d23a7e59889",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/hy.js",
+        "path_type": "hardlink",
+        "sha256": "ae9212584ef0dcd1c245bec1143f90a3c6674b716e1594c7d34451f0032d41e2",
+        "sha256_in_prefix": "ae9212584ef0dcd1c245bec1143f90a3c6674b716e1594c7d34451f0032d41e2",
+        "size_in_bytes": 1595
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/id.js",
+        "path_type": "hardlink",
+        "sha256": "96a26095dc8450700409f671d96bd8e89002393c24dfa43379da551299a3f801",
+        "sha256_in_prefix": "96a26095dc8450700409f671d96bd8e89002393c24dfa43379da551299a3f801",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/is.js",
+        "path_type": "hardlink",
+        "sha256": "b1837271cecbcaef43c96b353cbc07c3fe553ecb2ab4877dbf45caac25aecc8d",
+        "sha256_in_prefix": "b1837271cecbcaef43c96b353cbc07c3fe553ecb2ab4877dbf45caac25aecc8d",
+        "size_in_bytes": 653
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/it.js",
+        "path_type": "hardlink",
+        "sha256": "f1e5ddc948fabcd6f6841f1e6c664faa2db2c8fc1a0a01650a660d7bee8eabc3",
+        "sha256_in_prefix": "f1e5ddc948fabcd6f6841f1e6c664faa2db2c8fc1a0a01650a660d7bee8eabc3",
+        "size_in_bytes": 3296
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ja.js",
+        "path_type": "hardlink",
+        "sha256": "ed23def860969c907ee5c54a6f5d2baddbff4078ac61dc09904779aae7330453",
+        "sha256_in_prefix": "ed23def860969c907ee5c54a6f5d2baddbff4078ac61dc09904779aae7330453",
+        "size_in_bytes": 5177
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ka.js",
+        "path_type": "hardlink",
+        "sha256": "810513b75b1e04d6eb910eab99c1f7b5524e42f62fecd2c90bfb37cd22a01bd3",
+        "sha256_in_prefix": "810513b75b1e04d6eb910eab99c1f7b5524e42f62fecd2c90bfb37cd22a01bd3",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/km.js",
+        "path_type": "hardlink",
+        "sha256": "55bfe5aadc5494837f0484c4cb8ab67b0681a057c42697ba33a5330b51e32354",
+        "sha256_in_prefix": "55bfe5aadc5494837f0484c4cb8ab67b0681a057c42697ba33a5330b51e32354",
+        "size_in_bytes": 1781
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ko.js",
+        "path_type": "hardlink",
+        "sha256": "d204145bb54fb24bf99680925e0449f87ec746e7b29b00df51ebc5610073058a",
+        "sha256_in_prefix": "d204145bb54fb24bf99680925e0449f87ec746e7b29b00df51ebc5610073058a",
+        "size_in_bytes": 4588
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/lt.js",
+        "path_type": "hardlink",
+        "sha256": "63cfadec45d97fd42371dd9294e5f4fb9c9c787c51378420fb38013039e3c446",
+        "sha256_in_prefix": "63cfadec45d97fd42371dd9294e5f4fb9c9c787c51378420fb38013039e3c446",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/lv.js",
+        "path_type": "hardlink",
+        "sha256": "28edbafc9a32cdb733b666bc4e8b102147d415da860ac44b80b9ecead6feb2d3",
+        "sha256_in_prefix": "28edbafc9a32cdb733b666bc4e8b102147d415da860ac44b80b9ecead6feb2d3",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/me-me.js",
+        "path_type": "hardlink",
+        "sha256": "187804f5b0c98820bfc9dabba51de02ce0521f243e1920c82ccb45ceccdc2cbf",
+        "sha256_in_prefix": "187804f5b0c98820bfc9dabba51de02ce0521f243e1920c82ccb45ceccdc2cbf",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/me.js",
+        "path_type": "hardlink",
+        "sha256": "6ebef6e078ed7f3ee904148e361042d167dd68077a73b1cff93dc01e4169c3ba",
+        "sha256_in_prefix": "6ebef6e078ed7f3ee904148e361042d167dd68077a73b1cff93dc01e4169c3ba",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/mk.js",
+        "path_type": "hardlink",
+        "sha256": "f92a457c5013cc5699f5e603c96d27d4a6a52d303cd7728595b7b9ccd298ee46",
+        "sha256_in_prefix": "f92a457c5013cc5699f5e603c96d27d4a6a52d303cd7728595b7b9ccd298ee46",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ml.js",
+        "path_type": "hardlink",
+        "sha256": "c6a6394a9b7a27e7193b5c37cb7b598107e12874fcc4df36ccea5035ee1e7161",
+        "sha256_in_prefix": "c6a6394a9b7a27e7193b5c37cb7b598107e12874fcc4df36ccea5035ee1e7161",
+        "size_in_bytes": 1613
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ms.js",
+        "path_type": "hardlink",
+        "sha256": "f0c1af681b5e5a1e73801ab5badd74ddfde35b348dcada59d2b26081c6d4b996",
+        "sha256_in_prefix": "f0c1af681b5e5a1e73801ab5badd74ddfde35b348dcada59d2b26081c6d4b996",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/mt.js",
+        "path_type": "hardlink",
+        "sha256": "b75b597a2329411b839153be77d2431bdacb5506bb3802ea119fd34c20a3a975",
+        "sha256_in_prefix": "b75b597a2329411b839153be77d2431bdacb5506bb3802ea119fd34c20a3a975",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/nl-be.js",
+        "path_type": "hardlink",
+        "sha256": "03267b5ff2d7f307bd19d2d1d0ccfa80c9e17fd4caa2e2bccee8e025f1ed6d3a",
+        "sha256_in_prefix": "03267b5ff2d7f307bd19d2d1d0ccfa80c9e17fd4caa2e2bccee8e025f1ed6d3a",
+        "size_in_bytes": 559
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/nl.js",
+        "path_type": "hardlink",
+        "sha256": "bdcb8bd29da6dd2d27f6f81c3fe85ed352b4ffc82e5c1459db999857cfe3f0ac",
+        "sha256_in_prefix": "bdcb8bd29da6dd2d27f6f81c3fe85ed352b4ffc82e5c1459db999857cfe3f0ac",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/no.js",
+        "path_type": "hardlink",
+        "sha256": "fa2dfb021d54e4d4fb507d215353aece32cc52daa2fe3d6eab1a76d390743bf4",
+        "sha256_in_prefix": "fa2dfb021d54e4d4fb507d215353aece32cc52daa2fe3d6eab1a76d390743bf4",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pa.js",
+        "path_type": "hardlink",
+        "sha256": "e26e5446166e81b58f26b88603d26a156f4e9cfbeae2321878edf9e72ba0e995",
+        "sha256_in_prefix": "e26e5446166e81b58f26b88603d26a156f4e9cfbeae2321878edf9e72ba0e995",
+        "size_in_bytes": 1391
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pl.js",
+        "path_type": "hardlink",
+        "sha256": "c97c5433be53a662eb68b9de882b3ad346efd40366d5acbb61510244f5f99f7c",
+        "sha256_in_prefix": "c97c5433be53a662eb68b9de882b3ad346efd40366d5acbb61510244f5f99f7c",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pt-br.js",
+        "path_type": "hardlink",
+        "sha256": "4bc2436ab2b3a2817bef4f003dd7aedf1e7183a5fd3eb55143e20f2693323644",
+        "sha256_in_prefix": "4bc2436ab2b3a2817bef4f003dd7aedf1e7183a5fd3eb55143e20f2693323644",
+        "size_in_bytes": 3313
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/pt-pt.js",
+        "path_type": "hardlink",
+        "sha256": "51b30b37aca1e18057d359d11a61c7c31f659b989403777fc4e489430e72c242",
+        "sha256_in_prefix": "51b30b37aca1e18057d359d11a61c7c31f659b989403777fc4e489430e72c242",
+        "size_in_bytes": 3310
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/rm.js",
+        "path_type": "hardlink",
+        "sha256": "242be290c46d93e1092ac7391702bedc519d87a4b6de9920365bf098713779d7",
+        "sha256_in_prefix": "242be290c46d93e1092ac7391702bedc519d87a4b6de9920365bf098713779d7",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ro.js",
+        "path_type": "hardlink",
+        "sha256": "f3696816fb4c80615b26f79f8dbf0612c281ec1baf9c9bd51ce83b4f442b3229",
+        "sha256_in_prefix": "f3696816fb4c80615b26f79f8dbf0612c281ec1baf9c9bd51ce83b4f442b3229",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ru.js",
+        "path_type": "hardlink",
+        "sha256": "be53462f7fab511988784d12021bf9185e4194bdf415a5848a65aed77de7fb86",
+        "sha256_in_prefix": "be53462f7fab511988784d12021bf9185e4194bdf415a5848a65aed77de7fb86",
+        "size_in_bytes": 10864
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sk.js",
+        "path_type": "hardlink",
+        "sha256": "b2ed7cd60fd14dbfba49f5d031589d9884ca2bdeb38c6e6729199152738edbd5",
+        "sha256_in_prefix": "b2ed7cd60fd14dbfba49f5d031589d9884ca2bdeb38c6e6729199152738edbd5",
+        "size_in_bytes": 584
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sl.js",
+        "path_type": "hardlink",
+        "sha256": "c12ecd9f854d5545052c026d970a4c6a4d6f30e2c5e5f1c9b853dcc20e562980",
+        "sha256_in_prefix": "c12ecd9f854d5545052c026d970a4c6a4d6f30e2c5e5f1c9b853dcc20e562980",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sq.js",
+        "path_type": "hardlink",
+        "sha256": "b9b831452a17706bee49046e51bafc01ac8c1822e14e96ab967f628d0682b998",
+        "sha256_in_prefix": "b9b831452a17706bee49046e51bafc01ac8c1822e14e96ab967f628d0682b998",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sr-sr.js",
+        "path_type": "hardlink",
+        "sha256": "2f63e534bba98ecad7841059d73e2e92228ac80c7444ec0cd1284c3836aac9a2",
+        "sha256_in_prefix": "2f63e534bba98ecad7841059d73e2e92228ac80c7444ec0cd1284c3836aac9a2",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sr.js",
+        "path_type": "hardlink",
+        "sha256": "e83a62a97f4bdefa2dfdcb93074719508bb00dabf7047f0f5d1b3c2068bca0cd",
+        "sha256_in_prefix": "e83a62a97f4bdefa2dfdcb93074719508bb00dabf7047f0f5d1b3c2068bca0cd",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sv.js",
+        "path_type": "hardlink",
+        "sha256": "d7871f500f2d2ed4dd64f20bf57a6054437bcca1b9cfe111bf60d1237d4c65ea",
+        "sha256_in_prefix": "d7871f500f2d2ed4dd64f20bf57a6054437bcca1b9cfe111bf60d1237d4c65ea",
+        "size_in_bytes": 3302
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sw.js",
+        "path_type": "hardlink",
+        "sha256": "efc35bdb8ac9016f2008693219800287fa188930c16548264a3c426a3df6115e",
+        "sha256_in_prefix": "efc35bdb8ac9016f2008693219800287fa188930c16548264a3c426a3df6115e",
+        "size_in_bytes": 3174
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ta.js",
+        "path_type": "hardlink",
+        "sha256": "d14c53de2df94fcf8df403cbd664047b6ef7796203262cc99ad7784f805b9efb",
+        "sha256_in_prefix": "d14c53de2df94fcf8df403cbd664047b6ef7796203262cc99ad7784f805b9efb",
+        "size_in_bytes": 1793
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/th.js",
+        "path_type": "hardlink",
+        "sha256": "dafd61d440848277f035d568f28a7a2f029a2bded738124a7d90fa1b19a3ab74",
+        "sha256_in_prefix": "dafd61d440848277f035d568f28a7a2f029a2bded738124a7d90fa1b19a3ab74",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/tr.js",
+        "path_type": "hardlink",
+        "sha256": "0bd49fea9f5f1453d92615fb8b3efb348fda490375e8b692a03fbaefab866593",
+        "sha256_in_prefix": "0bd49fea9f5f1453d92615fb8b3efb348fda490375e8b692a03fbaefab866593",
+        "size_in_bytes": 590
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/tt.js",
+        "path_type": "hardlink",
+        "sha256": "85e05597f063d3070b4298b6426bb2851c983e9c8ba0a16f8a5ea54a0e71e254",
+        "sha256_in_prefix": "85e05597f063d3070b4298b6426bb2851c983e9c8ba0a16f8a5ea54a0e71e254",
+        "size_in_bytes": 1421
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/uk.js",
+        "path_type": "hardlink",
+        "sha256": "bd64aa7cfc55043ec51d773b2303f17d664aa21215b5cc070e44cdd30c46fefb",
+        "sha256_in_prefix": "bd64aa7cfc55043ec51d773b2303f17d664aa21215b5cc070e44cdd30c46fefb",
+        "size_in_bytes": 10938
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ur.js",
+        "path_type": "hardlink",
+        "sha256": "f20964d2ea35e078f733084ac2d28e1c6741e2212a8161f1172a81255d2c303d",
+        "sha256_in_prefix": "f20964d2ea35e078f733084ac2d28e1c6741e2212a8161f1172a81255d2c303d",
+        "size_in_bytes": 1070
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/vi.js",
+        "path_type": "hardlink",
+        "sha256": "444c5eb9261ce76171ef023980fb7baf5db0350560ee0b665af964b0c67dda4c",
+        "sha256_in_prefix": "444c5eb9261ce76171ef023980fb7baf5db0350560ee0b665af964b0c67dda4c",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/zh-cn.js",
+        "path_type": "hardlink",
+        "sha256": "e737420c7e43f7de4441e0981c09002911ba32c349b4b4dd38bc6960ed8e7939",
+        "sha256_in_prefix": "e737420c7e43f7de4441e0981c09002911ba32c349b4b4dd38bc6960ed8e7939",
+        "size_in_bytes": 4158
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/zh-hk.js",
+        "path_type": "hardlink",
+        "sha256": "29a140c704a07fae8c9b168b8941734edbed908f15636bbe8e5e05fa86383e22",
+        "sha256_in_prefix": "29a140c704a07fae8c9b168b8941734edbed908f15636bbe8e5e05fa86383e22",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/zh-tw.js",
+        "path_type": "hardlink",
+        "sha256": "162587634549a4211965937938912eaca45fe3bb5eddc9519c51db4804606452",
+        "sha256_in_prefix": "162587634549a4211965937938912eaca45fe3bb5eddc9519c51db4804606452",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/plotly-htmlwidgets.css",
+        "path_type": "hardlink",
+        "sha256": "44356da5c42f304af74d60ee75225f216d5241f353f07fdef30c99536e103d9b",
+        "sha256_in_prefix": "44356da5c42f304af74d60ee75225f216d5241f353f07fdef30c99536e103d9b",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/plotlyjs/plotly-latest.min.js",
+        "path_type": "hardlink",
+        "sha256": "bd1f794d2412e2adbd3d239a403d969395bf389221489737f76dfeadc5e98a50",
+        "sha256_in_prefix": "bd1f794d2412e2adbd3d239a403d969395bf389221489737f76dfeadc5e98a50",
+        "size_in_bytes": 3458169
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/selectize/selectize.bootstrap3.css",
+        "path_type": "hardlink",
+        "sha256": "289929c54895fd56d9399995e687cd7690a6d0635c9368a0159b18685ee4e4f1",
+        "sha256_in_prefix": "289929c54895fd56d9399995e687cd7690a6d0635c9368a0159b18685ee4e4f1",
+        "size_in_bytes": 10602
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/selectize/selectize.min.js",
+        "path_type": "hardlink",
+        "sha256": "c874531b5f01187b7e075fcd14a5ebca235ca29185cb9513312f5de6b6fd4ff1",
+        "sha256_in_prefix": "c874531b5f01187b7e075fcd14a5ebca235ca29185cb9513312f5de6b6fd4ff1",
+        "size_in_bytes": 42323
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/setprototypeof/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0c5f1dc0fffb2445a9ed8dfb3fe30a761256cedc7a68c642e1419054f4ccba0a",
+        "sha256_in_prefix": "0c5f1dc0fffb2445a9ed8dfb3fe30a761256cedc7a68c642e1419054f4ccba0a",
+        "size_in_bytes": 750
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/setprototypeof/setprototypeof.js",
+        "path_type": "hardlink",
+        "sha256": "825512ac9cbe320b572b7863fb787c9f092a3cd865a7b11bd103ffd2fa9e8d8d",
+        "sha256_in_prefix": "825512ac9cbe320b572b7863fb787c9f092a3cd865a7b11bd103ffd2fa9e8d8d",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/typedarray/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1a3fbeeab7f4862c4b01d519449b051fdb28a125a17142c149e9871431624017",
+        "sha256_in_prefix": "1a3fbeeab7f4862c4b01d519449b051fdb28a125a17142c149e9871431624017",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/lib/typedarray/typedarray.min.js",
+        "path_type": "hardlink",
+        "sha256": "d95dda2a9a0ac6d74f2a473074b9d613b5a43a83b1dbc8590c247d9da1e22b3b",
+        "sha256_in_prefix": "d95dda2a9a0ac6d74f2a473074b9d613b5a43a83b1dbc8590c247d9da1e22b3b",
+        "size_in_bytes": 22444
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/plotly.js",
+        "path_type": "hardlink",
+        "sha256": "eb125dfb63b888de8ce3665bca07974f2b9386eb92ae7c9647a33d10e5ba84e1",
+        "sha256_in_prefix": "eb125dfb63b888de8ce3665bca07974f2b9386eb92ae7c9647a33d10e5ba84e1",
+        "size_in_bytes": 33599
+      },
+      {
+        "_path": "lib/R/library/plotly/htmlwidgets/plotly.yaml",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/plotly/plotlyjs.R",
+        "path_type": "hardlink",
+        "sha256": "cc4f2868ed0cea53e2b4bb45a3e65fd19880167b49731b24077d3edcfd3eca36",
+        "sha256_in_prefix": "cc4f2868ed0cea53e2b4bb45a3e65fd19880167b49731b24077d3edcfd3eca36",
+        "size_in_bytes": 1668
+      },
+      {
+        "_path": "lib/R/library/plotly/stars.R",
+        "path_type": "hardlink",
+        "sha256": "9db860411f4224c845699b9892279c1cd272db7a61229d65e9203118a3f8bad1",
+        "sha256_in_prefix": "9db860411f4224c845699b9892279c1cd272db7a61229d65e9203118a3f8bad1",
+        "size_in_bytes": 524
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a977e470a5859c3be7a2ed35d8dfb1d379967ca3433e1fe781ddc670ac8b3459",
+  "size": 2882931,
+  "subdir": "noarch",
+  "timestamp": 1610295652000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-plotly-4.9.3-r36hc72bb7e_0.tar.bz2",
+  "version": "4.9.3"
+}

@@ -1,0 +1,284 @@
+{
+  "build": "r36h0357c0b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcpp"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-xml2-1.3.2-r36h0357c0b_1",
+  "files": [
+    "lib/R/library/xml2/DESCRIPTION",
+    "lib/R/library/xml2/INDEX",
+    "lib/R/library/xml2/Meta/Rd.rds",
+    "lib/R/library/xml2/Meta/features.rds",
+    "lib/R/library/xml2/Meta/hsearch.rds",
+    "lib/R/library/xml2/Meta/links.rds",
+    "lib/R/library/xml2/Meta/nsInfo.rds",
+    "lib/R/library/xml2/Meta/package.rds",
+    "lib/R/library/xml2/Meta/vignette.rds",
+    "lib/R/library/xml2/NAMESPACE",
+    "lib/R/library/xml2/NEWS.md",
+    "lib/R/library/xml2/R/xml2",
+    "lib/R/library/xml2/R/xml2.rdb",
+    "lib/R/library/xml2/R/xml2.rdx",
+    "lib/R/library/xml2/doc/index.html",
+    "lib/R/library/xml2/doc/modification.R",
+    "lib/R/library/xml2/doc/modification.Rmd",
+    "lib/R/library/xml2/doc/modification.html",
+    "lib/R/library/xml2/extdata/cd_catalog.xml",
+    "lib/R/library/xml2/extdata/order-doc.xml",
+    "lib/R/library/xml2/extdata/order-schema.xml",
+    "lib/R/library/xml2/extdata/r-project.html",
+    "lib/R/library/xml2/help/AnIndex",
+    "lib/R/library/xml2/help/aliases.rds",
+    "lib/R/library/xml2/help/paths.rds",
+    "lib/R/library/xml2/help/xml2.rdb",
+    "lib/R/library/xml2/help/xml2.rdx",
+    "lib/R/library/xml2/html/00Index.html",
+    "lib/R/library/xml2/html/R.css",
+    "lib/R/library/xml2/include/xml2_types.h",
+    "lib/R/library/xml2/libs/xml2.so"
+  ],
+  "fn": "r-xml2-1.3.2-r36h0357c0b_1.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-xml2-1.3.2-r36h0357c0b_1",
+    "type": 1
+  },
+  "md5": "4d1903695b7654249b201dbcef40e285",
+  "name": "r-xml2",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-xml2-1.3.2-r36h0357c0b_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/xml2/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "81102f8825939c6375dce5c2d4210963f812b66e60d5df3b54e2193821207f19",
+        "sha256_in_prefix": "81102f8825939c6375dce5c2d4210963f812b66e60d5df3b54e2193821207f19",
+        "size_in_bytes": 1891
+      },
+      {
+        "_path": "lib/R/library/xml2/INDEX",
+        "path_type": "hardlink",
+        "sha256": "fdbbd54ec394310c31a583a0ac627f046fd002b34417a307aa288978a70a0556",
+        "sha256_in_prefix": "fdbbd54ec394310c31a583a0ac627f046fd002b34417a307aa288978a70a0556",
+        "size_in_bytes": 1657
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "fba632ace69a789d754ad925e70f1c61daaa3df9cc14d4a9ea1d3ef0e273416e",
+        "sha256_in_prefix": "fba632ace69a789d754ad925e70f1c61daaa3df9cc14d4a9ea1d3ef0e273416e",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "3b0abf4b4e738a1fb208d7f8ad3f3f6f0232af9fb63b43d932a4bb1e0758a61c",
+        "sha256_in_prefix": "3b0abf4b4e738a1fb208d7f8ad3f3f6f0232af9fb63b43d932a4bb1e0758a61c",
+        "size_in_bytes": 1569
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "f433e6bd336bd750f33cbaae4c2691372d082bcb7cb4095b7d40e15a8ba1b45d",
+        "sha256_in_prefix": "f433e6bd336bd750f33cbaae4c2691372d082bcb7cb4095b7d40e15a8ba1b45d",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "2859a24ce8ca0e9c9abc1aa10f54860a29f366cdab97b972b76021fa52faae5c",
+        "sha256_in_prefix": "2859a24ce8ca0e9c9abc1aa10f54860a29f366cdab97b972b76021fa52faae5c",
+        "size_in_bytes": 1092
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f75e1aeaca3dfa71f28845a29710addfd4dfb71a0f7344cb52456433703b9595",
+        "sha256_in_prefix": "f75e1aeaca3dfa71f28845a29710addfd4dfb71a0f7344cb52456433703b9595",
+        "size_in_bytes": 1363
+      },
+      {
+        "_path": "lib/R/library/xml2/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "417285c1bbafa29c739879d4c76635616cf542bd93a108463ab7af84f7f572fc",
+        "sha256_in_prefix": "417285c1bbafa29c739879d4c76635616cf542bd93a108463ab7af84f7f572fc",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/xml2/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "41f3ed12a9676fd75b7a4fef2207a2e99eaa541da40b7f7f902fd72dc5e43a9e",
+        "sha256_in_prefix": "41f3ed12a9676fd75b7a4fef2207a2e99eaa541da40b7f7f902fd72dc5e43a9e",
+        "size_in_bytes": 6119
+      },
+      {
+        "_path": "lib/R/library/xml2/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "5efb9a6d8b888ec755b16dc3e0ac28b1b4df021126d8c3105c139e82a24dad88",
+        "sha256_in_prefix": "5efb9a6d8b888ec755b16dc3e0ac28b1b4df021126d8c3105c139e82a24dad88",
+        "size_in_bytes": 8241
+      },
+      {
+        "_path": "lib/R/library/xml2/R/xml2",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/xml2/R/xml2.rdb",
+        "path_type": "hardlink",
+        "sha256": "6c60e529900abc99676ea0e6d14ad8c84f051729723a8290ce9609a9b06f531f",
+        "sha256_in_prefix": "6c60e529900abc99676ea0e6d14ad8c84f051729723a8290ce9609a9b06f531f",
+        "size_in_bytes": 113676
+      },
+      {
+        "_path": "lib/R/library/xml2/R/xml2.rdx",
+        "path_type": "hardlink",
+        "sha256": "05271c1af10d68e7893061875bf38c0756dfd3230d7842133686169cd3ae40d2",
+        "sha256_in_prefix": "05271c1af10d68e7893061875bf38c0756dfd3230d7842133686169cd3ae40d2",
+        "size_in_bytes": 3096
+      },
+      {
+        "_path": "lib/R/library/xml2/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "d4b5065577a9a0737eb4a1975579917fc3c70469a5d9f85575bef401f239e242",
+        "sha256_in_prefix": "d4b5065577a9a0737eb4a1975579917fc3c70469a5d9f85575bef401f239e242",
+        "size_in_bytes": 1337
+      },
+      {
+        "_path": "lib/R/library/xml2/doc/modification.R",
+        "path_type": "hardlink",
+        "sha256": "82a23398bd88ae653d4341cf23888ebc6a8c89a8eb2ff6d0fd61f90d19ab4e4b",
+        "sha256_in_prefix": "82a23398bd88ae653d4341cf23888ebc6a8c89a8eb2ff6d0fd61f90d19ab4e4b",
+        "size_in_bytes": 3072
+      },
+      {
+        "_path": "lib/R/library/xml2/doc/modification.Rmd",
+        "path_type": "hardlink",
+        "sha256": "004a5631628350f7a17afde0379038bfc5505883730782854f4a5e03f40e7ce9",
+        "sha256_in_prefix": "004a5631628350f7a17afde0379038bfc5505883730782854f4a5e03f40e7ce9",
+        "size_in_bytes": 5102
+      },
+      {
+        "_path": "lib/R/library/xml2/doc/modification.html",
+        "path_type": "hardlink",
+        "sha256": "c5041470d4388a39604eb3deff59dbb12c5f29afc63d6de8133b815682aadab2",
+        "sha256_in_prefix": "c5041470d4388a39604eb3deff59dbb12c5f29afc63d6de8133b815682aadab2",
+        "size_in_bytes": 31764
+      },
+      {
+        "_path": "lib/R/library/xml2/extdata/cd_catalog.xml",
+        "path_type": "hardlink",
+        "sha256": "5c6c9561b144b151ee0e979e696e9576bf2ce1c3f7c91d977aae19a1e5088d85",
+        "sha256_in_prefix": "5c6c9561b144b151ee0e979e696e9576bf2ce1c3f7c91d977aae19a1e5088d85",
+        "size_in_bytes": 5080
+      },
+      {
+        "_path": "lib/R/library/xml2/extdata/order-doc.xml",
+        "path_type": "hardlink",
+        "sha256": "01f7f47ff9d12ed4cca645bab366b1e2cccedb4b9bd191344608d6410069247d",
+        "sha256_in_prefix": "01f7f47ff9d12ed4cca645bab366b1e2cccedb4b9bd191344608d6410069247d",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "lib/R/library/xml2/extdata/order-schema.xml",
+        "path_type": "hardlink",
+        "sha256": "7f75df88cb34bb0ac9c475ee4d48989a9ff2cf5a6d5fe803e249f793d04b3254",
+        "sha256_in_prefix": "7f75df88cb34bb0ac9c475ee4d48989a9ff2cf5a6d5fe803e249f793d04b3254",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "lib/R/library/xml2/extdata/r-project.html",
+        "path_type": "hardlink",
+        "sha256": "7110f53677496119770f0ba7ea02035fce655a026133ce9646a910f8e900cf88",
+        "sha256_in_prefix": "7110f53677496119770f0ba7ea02035fce655a026133ce9646a910f8e900cf88",
+        "size_in_bytes": 4993
+      },
+      {
+        "_path": "lib/R/library/xml2/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d7297a2072b6f3f32c04b18e0d7bd58a4a14635fcd3d59380c5ee768a52418aa",
+        "sha256_in_prefix": "d7297a2072b6f3f32c04b18e0d7bd58a4a14635fcd3d59380c5ee768a52418aa",
+        "size_in_bytes": 1801
+      },
+      {
+        "_path": "lib/R/library/xml2/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d1dcb1c7da069de889bda3f406fb2540ca51c8c4558d68344f82a7333fb60705",
+        "sha256_in_prefix": "d1dcb1c7da069de889bda3f406fb2540ca51c8c4558d68344f82a7333fb60705",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "lib/R/library/xml2/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "628d4e89babc326f4c503cce943be865208ecd416206e895ec81f9c13614983a",
+        "sha256_in_prefix": "628d4e89babc326f4c503cce943be865208ecd416206e895ec81f9c13614983a",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "lib/R/library/xml2/help/xml2.rdb",
+        "path_type": "hardlink",
+        "sha256": "5e467411258b9bc3d9bd8c42017b2b96ae387206a028018817317d98b8eb63c7",
+        "sha256_in_prefix": "5e467411258b9bc3d9bd8c42017b2b96ae387206a028018817317d98b8eb63c7",
+        "size_in_bytes": 60997
+      },
+      {
+        "_path": "lib/R/library/xml2/help/xml2.rdx",
+        "path_type": "hardlink",
+        "sha256": "46a3cd80bbeff7e3e430764358d0bf134f34bc92384e725950239edbe9dc5ed0",
+        "sha256_in_prefix": "46a3cd80bbeff7e3e430764358d0bf134f34bc92384e725950239edbe9dc5ed0",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/R/library/xml2/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a4058be90b0155c13f4753a73ff5d8cf6bab537fdde84b047c7612025c70a8ec",
+        "sha256_in_prefix": "a4058be90b0155c13f4753a73ff5d8cf6bab537fdde84b047c7612025c70a8ec",
+        "size_in_bytes": 10017
+      },
+      {
+        "_path": "lib/R/library/xml2/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/xml2/include/xml2_types.h",
+        "path_type": "hardlink",
+        "sha256": "1ccb15367d04180566cbf7356ff08d2b3f382f40eb3d9b02831c61ffb251610b",
+        "sha256_in_prefix": "1ccb15367d04180566cbf7356ff08d2b3f382f40eb3d9b02831c61ffb251610b",
+        "size_in_bytes": 1421
+      },
+      {
+        "_path": "lib/R/library/xml2/libs/xml2.so",
+        "path_type": "hardlink",
+        "sha256": "7ace216b5d3c0bf085c3d2ac3ffb9e0551133420734df3f29e3deba11d5efc6f",
+        "sha256_in_prefix": "7ace216b5d3c0bf085c3d2ac3ffb9e0551133420734df3f29e3deba11d5efc6f",
+        "size_in_bytes": 111952
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2ba0f5cabc4fd08e0e20564c636aac50dc1124157587f25fc44cb203ae067a02",
+  "size": 255422,
+  "subdir": "linux-64",
+  "timestamp": 1588363646000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-xml2-1.3.2-r36h0357c0b_1.tar.bz2",
+  "version": "1.3.2"
+}

@@ -1,0 +1,263 @@
+{
+  "build": "r36h78ebb21_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libblas >=3.8.0,<4.0a0",
+    "libgcc-ng >=9.3.0",
+    "liblapack >=3.8.0,<4.0a0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-future",
+    "r-future.apply",
+    "r-ggplot2",
+    "r-gridextra",
+    "r-mass",
+    "r-matrix",
+    "r-matrixstats",
+    "r-rcpp >=0.11.0",
+    "r-rcpparmadillo",
+    "r-reshape2"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-sctransform-0.3.2-r36h78ebb21_1",
+  "files": [
+    "lib/R/library/sctransform/CITATION",
+    "lib/R/library/sctransform/DESCRIPTION",
+    "lib/R/library/sctransform/INDEX",
+    "lib/R/library/sctransform/LICENSE",
+    "lib/R/library/sctransform/Meta/Rd.rds",
+    "lib/R/library/sctransform/Meta/data.rds",
+    "lib/R/library/sctransform/Meta/features.rds",
+    "lib/R/library/sctransform/Meta/hsearch.rds",
+    "lib/R/library/sctransform/Meta/links.rds",
+    "lib/R/library/sctransform/Meta/nsInfo.rds",
+    "lib/R/library/sctransform/Meta/package.rds",
+    "lib/R/library/sctransform/NAMESPACE",
+    "lib/R/library/sctransform/NEWS.md",
+    "lib/R/library/sctransform/R/sctransform",
+    "lib/R/library/sctransform/R/sctransform.rdb",
+    "lib/R/library/sctransform/R/sctransform.rdx",
+    "lib/R/library/sctransform/data/Rdata.rdb",
+    "lib/R/library/sctransform/data/Rdata.rds",
+    "lib/R/library/sctransform/data/Rdata.rdx",
+    "lib/R/library/sctransform/help/AnIndex",
+    "lib/R/library/sctransform/help/aliases.rds",
+    "lib/R/library/sctransform/help/paths.rds",
+    "lib/R/library/sctransform/help/sctransform.rdb",
+    "lib/R/library/sctransform/help/sctransform.rdx",
+    "lib/R/library/sctransform/html/00Index.html",
+    "lib/R/library/sctransform/html/R.css",
+    "lib/R/library/sctransform/libs/sctransform.so"
+  ],
+  "fn": "r-sctransform-0.3.2-r36h78ebb21_1.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-sctransform-0.3.2-r36h78ebb21_1",
+    "type": 1
+  },
+  "md5": "eb0c79712bee6cb7c4ee23197ba38118",
+  "name": "r-sctransform",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-sctransform-0.3.2-r36h78ebb21_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/sctransform/CITATION",
+        "path_type": "hardlink",
+        "sha256": "d3db4c5a9c6a07c423b771d7e45a18f279431f93412cc3813290b7b9dd3bebd5",
+        "sha256_in_prefix": "d3db4c5a9c6a07c423b771d7e45a18f279431f93412cc3813290b7b9dd3bebd5",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "lib/R/library/sctransform/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "0d420f6d1c4c209d717a14a2a31ea2ec057675c94a4ef5aa80792aec3997c3fc",
+        "sha256_in_prefix": "0d420f6d1c4c209d717a14a2a31ea2ec057675c94a4ef5aa80792aec3997c3fc",
+        "size_in_bytes": 1502
+      },
+      {
+        "_path": "lib/R/library/sctransform/INDEX",
+        "path_type": "hardlink",
+        "sha256": "77d62eb5c9f2c4045d1a7cb7e28bfa3f5d5389bab9559f91d1cebe2eb0cb8e5f",
+        "sha256_in_prefix": "77d62eb5c9f2c4045d1a7cb7e28bfa3f5d5389bab9559f91d1cebe2eb0cb8e5f",
+        "size_in_bytes": 1498
+      },
+      {
+        "_path": "lib/R/library/sctransform/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "sha256_in_prefix": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "size_in_bytes": 35141
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "23e9029afd934635659257d5ffd1bec789836cac6490ad699809b100cd69f282",
+        "sha256_in_prefix": "23e9029afd934635659257d5ffd1bec789836cac6490ad699809b100cd69f282",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "c0a1a234e98c5017737a2381bb1ba1074f56bd2c3036efc652c2fde076142f80",
+        "sha256_in_prefix": "c0a1a234e98c5017737a2381bb1ba1074f56bd2c3036efc652c2fde076142f80",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "1cc547d20f0d41ac7194cb20427eca81bb9ba0d79949c0be1024170a5edb2f0e",
+        "sha256_in_prefix": "1cc547d20f0d41ac7194cb20427eca81bb9ba0d79949c0be1024170a5edb2f0e",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "7ba4a8c0abf2fd65c3734497199f3f3d40aa00be3e498732eb9f33264b1eed23",
+        "sha256_in_prefix": "7ba4a8c0abf2fd65c3734497199f3f3d40aa00be3e498732eb9f33264b1eed23",
+        "size_in_bytes": 373
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e0ed2c5cf7bc5f0780aa4c014f7a11b05f1e09ef338a6d9dd9b6b94d3923657a",
+        "sha256_in_prefix": "e0ed2c5cf7bc5f0780aa4c014f7a11b05f1e09ef338a6d9dd9b6b94d3923657a",
+        "size_in_bytes": 684
+      },
+      {
+        "_path": "lib/R/library/sctransform/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e27efe13273dfa796451723e2f7251fd8a8b7a26209ceca0ee3264926cfdb4a1",
+        "sha256_in_prefix": "e27efe13273dfa796451723e2f7251fd8a8b7a26209ceca0ee3264926cfdb4a1",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "lib/R/library/sctransform/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "5388df1f1fd7ff61347cb36a8a6ff8a77158e8077b3b89f30a2ab66ed35fbfac",
+        "sha256_in_prefix": "5388df1f1fd7ff61347cb36a8a6ff8a77158e8077b3b89f30a2ab66ed35fbfac",
+        "size_in_bytes": 1393
+      },
+      {
+        "_path": "lib/R/library/sctransform/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "2802c9775ec13e1e3e1444f15668c6f1be01b164521c016113e691e8646fb9c3",
+        "sha256_in_prefix": "2802c9775ec13e1e3e1444f15668c6f1be01b164521c016113e691e8646fb9c3",
+        "size_in_bytes": 3376
+      },
+      {
+        "_path": "lib/R/library/sctransform/R/sctransform",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/sctransform/R/sctransform.rdb",
+        "path_type": "hardlink",
+        "sha256": "a9de748acbc25d6f0962ed6d7653f56f5b6d33dd0105cfa8ff3a2dd35a5281ee",
+        "sha256_in_prefix": "a9de748acbc25d6f0962ed6d7653f56f5b6d33dd0105cfa8ff3a2dd35a5281ee",
+        "size_in_bytes": 113437
+      },
+      {
+        "_path": "lib/R/library/sctransform/R/sctransform.rdx",
+        "path_type": "hardlink",
+        "sha256": "748eff2a433e0ea9185ca5039b3cf5a1f10f837823d9e7d964e80ed0982961cb",
+        "sha256_in_prefix": "748eff2a433e0ea9185ca5039b3cf5a1f10f837823d9e7d964e80ed0982961cb",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "lib/R/library/sctransform/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "c7eea0dc933828b8129aff4b6b4ab90b022540d8677da77b08f7630ae29174c9",
+        "sha256_in_prefix": "c7eea0dc933828b8129aff4b6b4ab90b022540d8677da77b08f7630ae29174c9",
+        "size_in_bytes": 151735
+      },
+      {
+        "_path": "lib/R/library/sctransform/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "53377d566cb989a1deedaf8a09f99c1d90339e613c33d24ed46059dc8d774436",
+        "sha256_in_prefix": "53377d566cb989a1deedaf8a09f99c1d90339e613c33d24ed46059dc8d774436",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "lib/R/library/sctransform/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "4d47c6bbaf0d909ef4417db34fa31a89d19ea0318bef715bc0dc1feafcdfb778",
+        "sha256_in_prefix": "4d47c6bbaf0d909ef4417db34fa31a89d19ea0318bef715bc0dc1feafcdfb778",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/R/library/sctransform/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "788993aa8f1e9be49d84dd6fe866caf0844ddfb0e6ca46431fd7d4fc7fc22109",
+        "sha256_in_prefix": "788993aa8f1e9be49d84dd6fe866caf0844ddfb0e6ca46431fd7d4fc7fc22109",
+        "size_in_bytes": 448
+      },
+      {
+        "_path": "lib/R/library/sctransform/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "10dc3ff814522b6e168555b7995df7a7aa8722e708ee3f27b86a2a450b3b2267",
+        "sha256_in_prefix": "10dc3ff814522b6e168555b7995df7a7aa8722e708ee3f27b86a2a450b3b2267",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/sctransform/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f581214863f4e71620499ce1c2c42818dd7bcfe59d3354cf8f6a89a6248d85a0",
+        "sha256_in_prefix": "f581214863f4e71620499ce1c2c42818dd7bcfe59d3354cf8f6a89a6248d85a0",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/sctransform/help/sctransform.rdb",
+        "path_type": "hardlink",
+        "sha256": "21f4e69706b97da5b549d3e8121d228a659dda4e438a27a636e16f9c5917e4fe",
+        "sha256_in_prefix": "21f4e69706b97da5b549d3e8121d228a659dda4e438a27a636e16f9c5917e4fe",
+        "size_in_bytes": 39154
+      },
+      {
+        "_path": "lib/R/library/sctransform/help/sctransform.rdx",
+        "path_type": "hardlink",
+        "sha256": "685299b8fa2be68e8855bc288112bdee1564462e80f15f01cde0c8c0702e747f",
+        "sha256_in_prefix": "685299b8fa2be68e8855bc288112bdee1564462e80f15f01cde0c8c0702e747f",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "lib/R/library/sctransform/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "07340eb550b1a1033d74bf54ba1b0e2398df53ae37c4c9cbb58ea97b472941bc",
+        "sha256_in_prefix": "07340eb550b1a1033d74bf54ba1b0e2398df53ae37c4c9cbb58ea97b472941bc",
+        "size_in_bytes": 3487
+      },
+      {
+        "_path": "lib/R/library/sctransform/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/sctransform/libs/sctransform.so",
+        "path_type": "hardlink",
+        "sha256": "f8368ecef4eb7c5eb929e30399b301940009b31a44a6a1bb64aba29d30b951b6",
+        "sha256_in_prefix": "f8368ecef4eb7c5eb929e30399b301940009b31a44a6a1bb64aba29d30b951b6",
+        "size_in_bytes": 268064
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88caf49b49865d9c94f008c767a4199fc39bd7746c5399f18ef8b2fd0fa140a6",
+  "size": 467755,
+  "subdir": "linux-64",
+  "timestamp": 1620113423000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-sctransform-0.3.2-r36h78ebb21_1.tar.bz2",
+  "version": "0.3.2"
+}

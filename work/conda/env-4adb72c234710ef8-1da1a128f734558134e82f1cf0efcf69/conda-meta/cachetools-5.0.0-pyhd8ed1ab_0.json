@@ -1,0 +1,138 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/cachetools-5.0.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/LICENSE",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/cachetools-5.0.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/cachetools/__init__.py",
+    "lib/python3.6/site-packages/cachetools/func.py",
+    "lib/python3.6/site-packages/cachetools/keys.py",
+    "lib/python3.6/site-packages/cachetools/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cachetools/__pycache__/func.cpython-36.pyc",
+    "lib/python3.6/site-packages/cachetools/__pycache__/keys.cpython-36.pyc"
+  ],
+  "fn": "cachetools-5.0.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/cachetools-5.0.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "fadf619797a005b4aacbfc3003d80545",
+  "name": "cachetools",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/cachetools-5.0.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7091047dad86fad179a77b2696e0720cb017e0f468d474ff3ef5ca2e97b5a906",
+        "sha256_in_prefix": "7091047dad86fad179a77b2696e0720cb017e0f468d474ff3ef5ca2e97b5a906",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fac2b11dadc5e85dbeb7ad908525512859b8fae8a8a14e8f539a8a35bf1062d0",
+        "sha256_in_prefix": "fac2b11dadc5e85dbeb7ad908525512859b8fae8a8a14e8f539a8a35bf1062d0",
+        "size_in_bytes": 4470
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5e6937b3b7c0f16e86aa59689a92993dcb000ade4827bf0d6271071aed6c315c",
+        "sha256_in_prefix": "5e6937b3b7c0f16e86aa59689a92993dcb000ade4827bf0d6271071aed6c315c",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a4c6fc847aade3143399dc024af5c5d6790dc6a047cf91bb7eb666b58547def2",
+        "sha256_in_prefix": "a4c6fc847aade3143399dc024af5c5d6790dc6a047cf91bb7eb666b58547def2",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "site-packages/cachetools-5.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6a2d851fbf131b0a017028157e8a9bce4e48402b670ee91d4ace332ae54fbc3b",
+        "sha256_in_prefix": "6a2d851fbf131b0a017028157e8a9bce4e48402b670ee91d4ace332ae54fbc3b",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/cachetools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "621ff809390e63c95002e92dcffea3e540e98ed7ee92604c4288b2f105ee8db8",
+        "sha256_in_prefix": "621ff809390e63c95002e92dcffea3e540e98ed7ee92604c4288b2f105ee8db8",
+        "size_in_bytes": 21131
+      },
+      {
+        "_path": "site-packages/cachetools/func.py",
+        "path_type": "hardlink",
+        "sha256": "56e1b20adedc3a594dd4552e123062535a9082c5b3adf087b9a8de4ee7d0c240",
+        "sha256_in_prefix": "56e1b20adedc3a594dd4552e123062535a9082c5b3adf087b9a8de4ee7d0c240",
+        "size_in_bytes": 4906
+      },
+      {
+        "_path": "site-packages/cachetools/keys.py",
+        "path_type": "hardlink",
+        "sha256": "49f18f9c5e46a28d5bf15fa5ae107d27182a777be6f3447d879d24d21b000233",
+        "sha256_in_prefix": "49f18f9c5e46a28d5bf15fa5ae107d27182a777be6f3447d879d24d21b000233",
+        "size_in_bytes": 1466
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cachetools/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cachetools/__pycache__/func.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cachetools/__pycache__/keys.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "203cee4e606fe2b43965e390b85cb8c947ab190b2e09d49eb2074a6a2d505d6c",
+  "size": 12495,
+  "subdir": "noarch",
+  "timestamp": 1640687071000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/cachetools-5.0.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "5.0.0"
+}

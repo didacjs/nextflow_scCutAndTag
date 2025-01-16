@@ -1,0 +1,436 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcpp >=0.11.5"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rcpptoml-0.1.7-r36h03ef668_0",
+  "files": [
+    "lib/R/library/RcppTOML/DESCRIPTION",
+    "lib/R/library/RcppTOML/INDEX",
+    "lib/R/library/RcppTOML/Meta/Rd.rds",
+    "lib/R/library/RcppTOML/Meta/features.rds",
+    "lib/R/library/RcppTOML/Meta/hsearch.rds",
+    "lib/R/library/RcppTOML/Meta/links.rds",
+    "lib/R/library/RcppTOML/Meta/nsInfo.rds",
+    "lib/R/library/RcppTOML/Meta/package.rds",
+    "lib/R/library/RcppTOML/NAMESPACE",
+    "lib/R/library/RcppTOML/NEWS.Rd",
+    "lib/R/library/RcppTOML/R/RcppTOML",
+    "lib/R/library/RcppTOML/R/RcppTOML.rdb",
+    "lib/R/library/RcppTOML/R/RcppTOML.rdx",
+    "lib/R/library/RcppTOML/help/AnIndex",
+    "lib/R/library/RcppTOML/help/RcppTOML.rdb",
+    "lib/R/library/RcppTOML/help/RcppTOML.rdx",
+    "lib/R/library/RcppTOML/help/aliases.rds",
+    "lib/R/library/RcppTOML/help/paths.rds",
+    "lib/R/library/RcppTOML/html/00Index.html",
+    "lib/R/library/RcppTOML/html/R.css",
+    "lib/R/library/RcppTOML/include/cpptoml.h",
+    "lib/R/library/RcppTOML/include/includize.hpp",
+    "lib/R/library/RcppTOML/include/toml.hpp",
+    "lib/R/library/RcppTOML/libs/RcppTOML.so",
+    "lib/R/library/RcppTOML/tinytest/arrays.toml",
+    "lib/R/library/RcppTOML/tinytest/bool_datetime.toml",
+    "lib/R/library/RcppTOML/tinytest/dates_and_times.toml",
+    "lib/R/library/RcppTOML/tinytest/float.toml",
+    "lib/R/library/RcppTOML/tinytest/integer.toml",
+    "lib/R/library/RcppTOML/tinytest/strings.toml",
+    "lib/R/library/RcppTOML/tinytest/tables.toml",
+    "lib/R/library/RcppTOML/tinytest/test_arrays.R",
+    "lib/R/library/RcppTOML/tinytest/test_bool_datetime.R",
+    "lib/R/library/RcppTOML/tinytest/test_dates_times.R",
+    "lib/R/library/RcppTOML/tinytest/test_examples.R",
+    "lib/R/library/RcppTOML/tinytest/test_float.R",
+    "lib/R/library/RcppTOML/tinytest/test_integer.R",
+    "lib/R/library/RcppTOML/tinytest/test_misc.R",
+    "lib/R/library/RcppTOML/tinytest/test_strings.R",
+    "lib/R/library/RcppTOML/tinytest/test_tables.R",
+    "lib/R/library/RcppTOML/tinytest/toml_example-v0.4.0.toml",
+    "lib/R/library/RcppTOML/tinytest/toml_example.toml",
+    "lib/R/library/RcppTOML/tinytest/toml_hard_example.toml",
+    "lib/R/library/RcppTOML/toml/ex1.toml",
+    "lib/R/library/RcppTOML/toml/ex2.toml",
+    "lib/R/library/RcppTOML/toml/ex3.toml",
+    "lib/R/library/RcppTOML/toml/ex4.toml",
+    "lib/R/library/RcppTOML/toml/example.toml",
+    "lib/R/library/RcppTOML/toml/strings.toml",
+    "lib/R/library/RcppTOML/toml/tablearray.toml"
+  ],
+  "fn": "r-rcpptoml-0.1.7-r36h03ef668_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rcpptoml-0.1.7-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "50c223bb317a32987ce8e2cbb986f5b3",
+  "name": "r-rcpptoml",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rcpptoml-0.1.7-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RcppTOML/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a3ac510483f8da04d550d6e4e46b315be36b6997158e883877496329a2013077",
+        "sha256_in_prefix": "a3ac510483f8da04d550d6e4e46b315be36b6997158e883877496329a2013077",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/INDEX",
+        "path_type": "hardlink",
+        "sha256": "331d25e32a7b9e3dcfa518b3c31b403f1f1ab3a6cc0f4f99abd5727fab350ca0",
+        "sha256_in_prefix": "331d25e32a7b9e3dcfa518b3c31b403f1f1ab3a6cc0f4f99abd5727fab350ca0",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "a89d479c35713776c80e9e5b39a4890bae460fe8cd4c4807f1d64e74da772fe2",
+        "sha256_in_prefix": "a89d479c35713776c80e9e5b39a4890bae460fe8cd4c4807f1d64e74da772fe2",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "300b7ed5d7e6eb12b6e3e9c59455c3e54fa83ceacd368a3901c3cd5e22d4b655",
+        "sha256_in_prefix": "300b7ed5d7e6eb12b6e3e9c59455c3e54fa83ceacd368a3901c3cd5e22d4b655",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "71ee8921ffa361dd4cfe1a356b1562d508f07cd8fb392015296245ecbefefac6",
+        "sha256_in_prefix": "71ee8921ffa361dd4cfe1a356b1562d508f07cd8fb392015296245ecbefefac6",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "3f982d97693c7de95f452b0302876339e066ef193d20961b3f4c12d72dda4c45",
+        "sha256_in_prefix": "3f982d97693c7de95f452b0302876339e066ef193d20961b3f4c12d72dda4c45",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7863f22fc0955b6c9ab7e220a891654a07b4f54c056db39a2c9ce74cd90e3ae1",
+        "sha256_in_prefix": "7863f22fc0955b6c9ab7e220a891654a07b4f54c056db39a2c9ce74cd90e3ae1",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "550f6e2f9755f0dfac1d5be90b3c76cbdc8f476bb5ed1d9167c390d3314b1ad4",
+        "sha256_in_prefix": "550f6e2f9755f0dfac1d5be90b3c76cbdc8f476bb5ed1d9167c390d3314b1ad4",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "3157fed3110a78dcf4931f679812f850b8effd8e7c984552e5fa884317039a0c",
+        "sha256_in_prefix": "3157fed3110a78dcf4931f679812f850b8effd8e7c984552e5fa884317039a0c",
+        "size_in_bytes": 4528
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/R/RcppTOML",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/R/RcppTOML.rdb",
+        "path_type": "hardlink",
+        "sha256": "aeebcb30d75c35a5e31be1cd518aebdf4166d2f0ba7d00334bdc253655e90a9b",
+        "sha256_in_prefix": "aeebcb30d75c35a5e31be1cd518aebdf4166d2f0ba7d00334bdc253655e90a9b",
+        "size_in_bytes": 3243
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/R/RcppTOML.rdx",
+        "path_type": "hardlink",
+        "sha256": "cfa8e4b4bf46aef5ea84be15b56834d249f9fd6114ea3fbd154d3195291d61d1",
+        "sha256_in_prefix": "cfa8e4b4bf46aef5ea84be15b56834d249f9fd6114ea3fbd154d3195291d61d1",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c848701b555fc5a79f495fb4714f9383d09f13c0b884a4e5954c3233b188bfc7",
+        "sha256_in_prefix": "c848701b555fc5a79f495fb4714f9383d09f13c0b884a4e5954c3233b188bfc7",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/help/RcppTOML.rdb",
+        "path_type": "hardlink",
+        "sha256": "85f94359174d788038ed797a2b4d494e79d42b1b28779e5f56d554811d8533db",
+        "sha256_in_prefix": "85f94359174d788038ed797a2b4d494e79d42b1b28779e5f56d554811d8533db",
+        "size_in_bytes": 6573
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/help/RcppTOML.rdx",
+        "path_type": "hardlink",
+        "sha256": "ec9b4f48b91a30ea162fcdd3e9c800c94c2861164bf8a9f204c244bbf3caf750",
+        "sha256_in_prefix": "ec9b4f48b91a30ea162fcdd3e9c800c94c2861164bf8a9f204c244bbf3caf750",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "e28840504af8e6e03dfb2c813b31b54abcafe1542ac7089b959eadf4cc8cb7a1",
+        "sha256_in_prefix": "e28840504af8e6e03dfb2c813b31b54abcafe1542ac7089b959eadf4cc8cb7a1",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "07fdb0ab685a9108f6c5a262fd315af26afe61354c7b77f7c876b14dd17877cb",
+        "sha256_in_prefix": "07fdb0ab685a9108f6c5a262fd315af26afe61354c7b77f7c876b14dd17877cb",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "247d595509f39f63be059172dedb7872ace38697fa0d811770810f822d1aaba0",
+        "sha256_in_prefix": "247d595509f39f63be059172dedb7872ace38697fa0d811770810f822d1aaba0",
+        "size_in_bytes": 1945
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/include/cpptoml.h",
+        "path_type": "hardlink",
+        "sha256": "0f06459172fab4c31d49ef51442bc096b7306746ef00d725d5411050bdba18e0",
+        "sha256_in_prefix": "0f06459172fab4c31d49ef51442bc096b7306746ef00d725d5411050bdba18e0",
+        "size_in_bytes": 96181
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/include/includize.hpp",
+        "path_type": "hardlink",
+        "sha256": "6aadae6a190229d3e1b3e069e0a0e77d05ddc7e2e6c2037aa7cf566dcd488bfc",
+        "sha256_in_prefix": "6aadae6a190229d3e1b3e069e0a0e77d05ddc7e2e6c2037aa7cf566dcd488bfc",
+        "size_in_bytes": 11974
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/include/toml.hpp",
+        "path_type": "hardlink",
+        "sha256": "45c2550e3192c071f100aeb51b7af349718a15c7248f87db15de02a12cd9f282",
+        "sha256_in_prefix": "45c2550e3192c071f100aeb51b7af349718a15c7248f87db15de02a12cd9f282",
+        "size_in_bytes": 2014
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/libs/RcppTOML.so",
+        "path_type": "hardlink",
+        "sha256": "63936e3c176f830e0d64a298d8eaf142640ea42c7dcef3503e64e460199dd027",
+        "sha256_in_prefix": "63936e3c176f830e0d64a298d8eaf142640ea42c7dcef3503e64e460199dd027",
+        "size_in_bytes": 503480
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/arrays.toml",
+        "path_type": "hardlink",
+        "sha256": "9eec6df01abff68a09772e1229db7850f7be9a68d2027a320a57b51826805e08",
+        "sha256_in_prefix": "9eec6df01abff68a09772e1229db7850f7be9a68d2027a320a57b51826805e08",
+        "size_in_bytes": 1353
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/bool_datetime.toml",
+        "path_type": "hardlink",
+        "sha256": "efb30f0614324d20ee61f523b11b08cff2eb7597dd2b268479453cb1d2c53f07",
+        "sha256_in_prefix": "efb30f0614324d20ee61f523b11b08cff2eb7597dd2b268479453cb1d2c53f07",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/dates_and_times.toml",
+        "path_type": "hardlink",
+        "sha256": "da2dd8c8cd6cfb22683f03d682b20591688ea29843c5b9daa2a65210fb91b662",
+        "sha256_in_prefix": "da2dd8c8cd6cfb22683f03d682b20591688ea29843c5b9daa2a65210fb91b662",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/float.toml",
+        "path_type": "hardlink",
+        "sha256": "e2ffcfc1abe2ed9d0eb2484c38093d019fff9cfd0cb85fc407ed247701d07b1a",
+        "sha256_in_prefix": "e2ffcfc1abe2ed9d0eb2484c38093d019fff9cfd0cb85fc407ed247701d07b1a",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/integer.toml",
+        "path_type": "hardlink",
+        "sha256": "fa739e08331919ba1e4922d74e417758591df44362a9e79c1ed5ee0d87649e06",
+        "sha256_in_prefix": "fa739e08331919ba1e4922d74e417758591df44362a9e79c1ed5ee0d87649e06",
+        "size_in_bytes": 507
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/strings.toml",
+        "path_type": "hardlink",
+        "sha256": "0ddd1dd064c10a3ea43cc89477871576813a978148e1cee69f2cfadee1d4e9e6",
+        "sha256_in_prefix": "0ddd1dd064c10a3ea43cc89477871576813a978148e1cee69f2cfadee1d4e9e6",
+        "size_in_bytes": 1228
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/tables.toml",
+        "path_type": "hardlink",
+        "sha256": "c7ced53f9a69ce784720fb1afcc6ba67d916db1f97d883b693dc89e25bc45150",
+        "sha256_in_prefix": "c7ced53f9a69ce784720fb1afcc6ba67d916db1f97d883b693dc89e25bc45150",
+        "size_in_bytes": 1144
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_arrays.R",
+        "path_type": "hardlink",
+        "sha256": "9c67fd951bc6b120ab2fcb5c79dcdc56002244b9e6fecbc08fe83a3212e11528",
+        "sha256_in_prefix": "9c67fd951bc6b120ab2fcb5c79dcdc56002244b9e6fecbc08fe83a3212e11528",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_bool_datetime.R",
+        "path_type": "hardlink",
+        "sha256": "0f93b6cd52cd5adac5be721d95b071eaa0526b70e5183590e1c67ee6398c6cb5",
+        "sha256_in_prefix": "0f93b6cd52cd5adac5be721d95b071eaa0526b70e5183590e1c67ee6398c6cb5",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_dates_times.R",
+        "path_type": "hardlink",
+        "sha256": "4f28864c3e02ae466e4b989486010a4ad686dc865503591d1cfc44782ecf44ef",
+        "sha256_in_prefix": "4f28864c3e02ae466e4b989486010a4ad686dc865503591d1cfc44782ecf44ef",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_examples.R",
+        "path_type": "hardlink",
+        "sha256": "27f11ccd46408d2bcce5f63154f33c8713db0e0f36a7bf44c91348faca52106e",
+        "sha256_in_prefix": "27f11ccd46408d2bcce5f63154f33c8713db0e0f36a7bf44c91348faca52106e",
+        "size_in_bytes": 6960
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_float.R",
+        "path_type": "hardlink",
+        "sha256": "c68db026c135df98069c54f9f6f35fe7793b1cbc42756ae090ee69f2236d5efb",
+        "sha256_in_prefix": "c68db026c135df98069c54f9f6f35fe7793b1cbc42756ae090ee69f2236d5efb",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_integer.R",
+        "path_type": "hardlink",
+        "sha256": "185b20ba560a0d2511cc313a116e7873b13adc31e639bfc0224c1ee406535dcb",
+        "sha256_in_prefix": "185b20ba560a0d2511cc313a116e7873b13adc31e639bfc0224c1ee406535dcb",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_misc.R",
+        "path_type": "hardlink",
+        "sha256": "b97c927b9b5e9345dcc3ce5a24f1a88c0cb0dd36e3200091553a3a2585338adc",
+        "sha256_in_prefix": "b97c927b9b5e9345dcc3ce5a24f1a88c0cb0dd36e3200091553a3a2585338adc",
+        "size_in_bytes": 899
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_strings.R",
+        "path_type": "hardlink",
+        "sha256": "c3744a386b3655e55dbd0221702a110ec6d9210f7aee81e0d727c1482e772fa8",
+        "sha256_in_prefix": "c3744a386b3655e55dbd0221702a110ec6d9210f7aee81e0d727c1482e772fa8",
+        "size_in_bytes": 1700
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/test_tables.R",
+        "path_type": "hardlink",
+        "sha256": "126bd3b67f42fb661ef371226cd00b71bebd8bbcc429934eb0b51189d93e2443",
+        "sha256_in_prefix": "126bd3b67f42fb661ef371226cd00b71bebd8bbcc429934eb0b51189d93e2443",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/toml_example-v0.4.0.toml",
+        "path_type": "hardlink",
+        "sha256": "a2ed6182fc4ebb766949fc71ef4bdbc573555b7000caf77b704876ffa54ffb06",
+        "sha256_in_prefix": "a2ed6182fc4ebb766949fc71ef4bdbc573555b7000caf77b704876ffa54ffb06",
+        "size_in_bytes": 5316
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/toml_example.toml",
+        "path_type": "hardlink",
+        "sha256": "c389eeb485fb7cb9445d617a9a0f8ba70049f08d66cf6b6f2a9a986574295de1",
+        "sha256_in_prefix": "c389eeb485fb7cb9445d617a9a0f8ba70049f08d66cf6b6f2a9a986574295de1",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/tinytest/toml_hard_example.toml",
+        "path_type": "hardlink",
+        "sha256": "00a6efc0af323259d221abf45a759fd2f9d3a862fa2309450cb0bb21b7cab92e",
+        "sha256_in_prefix": "00a6efc0af323259d221abf45a759fd2f9d3a862fa2309450cb0bb21b7cab92e",
+        "size_in_bytes": 1414
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/ex1.toml",
+        "path_type": "hardlink",
+        "sha256": "1ca29443cc43ad34ce6d980922b01b321f76e79e0dea7736b5fa8b0d4c7df4c6",
+        "sha256_in_prefix": "1ca29443cc43ad34ce6d980922b01b321f76e79e0dea7736b5fa8b0d4c7df4c6",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/ex2.toml",
+        "path_type": "hardlink",
+        "sha256": "4425990f9b841f2a6c895aed9907ac3fa81082dd108a106704472419e76cb647",
+        "sha256_in_prefix": "4425990f9b841f2a6c895aed9907ac3fa81082dd108a106704472419e76cb647",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/ex3.toml",
+        "path_type": "hardlink",
+        "sha256": "a6218063d32f06ac7ef5836582ae9ff01c6ab4cef493eaa5d7abdab6a35c0460",
+        "sha256_in_prefix": "a6218063d32f06ac7ef5836582ae9ff01c6ab4cef493eaa5d7abdab6a35c0460",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/ex4.toml",
+        "path_type": "hardlink",
+        "sha256": "d5cee732d6e843329522e546213d6323bc58dac20c9ad6a56b9c910e5c84e693",
+        "sha256_in_prefix": "d5cee732d6e843329522e546213d6323bc58dac20c9ad6a56b9c910e5c84e693",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/example.toml",
+        "path_type": "hardlink",
+        "sha256": "6f6a3e6fbd49dc206a48bedd1e32d98306658cfaf5dd0e1ca9e0c125a027583f",
+        "sha256_in_prefix": "6f6a3e6fbd49dc206a48bedd1e32d98306658cfaf5dd0e1ca9e0c125a027583f",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/strings.toml",
+        "path_type": "hardlink",
+        "sha256": "39f226bffd6ffb31ca281ae08f0402dacd3eec9941c9503673b9a7bab61496d8",
+        "sha256_in_prefix": "39f226bffd6ffb31ca281ae08f0402dacd3eec9941c9503673b9a7bab61496d8",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "lib/R/library/RcppTOML/toml/tablearray.toml",
+        "path_type": "hardlink",
+        "sha256": "d664a617ae51b4ebf742918ebbf01343a09d12f988d9e51f60b44e6bf876d901",
+        "sha256_in_prefix": "d664a617ae51b4ebf742918ebbf01343a09d12f988d9e51f60b44e6bf876d901",
+        "size_in_bytes": 199
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "13914a263379d4d91d1830e1c32d0ce192321c83bd19fc6d48e563f3003cbffa",
+  "size": 213554,
+  "subdir": "linux-64",
+  "timestamp": 1606957354000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rcpptoml-0.1.7-r36h03ef668_0.tar.bz2",
+  "version": "0.1.7"
+}

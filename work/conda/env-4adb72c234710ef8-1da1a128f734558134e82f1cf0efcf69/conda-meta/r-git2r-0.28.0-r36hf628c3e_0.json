@@ -1,0 +1,237 @@
+{
+  "build": "r36hf628c3e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libssh2 >=1.9.0,<2.0a0",
+    "openssl >=1.1.1i,<1.1.2a",
+    "r-base >=3.6,<3.7.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-git2r-0.28.0-r36hf628c3e_0",
+  "files": [
+    "lib/R/library/git2r/AUTHORS",
+    "lib/R/library/git2r/CITATION",
+    "lib/R/library/git2r/COPYING",
+    "lib/R/library/git2r/COPYRIGHTS",
+    "lib/R/library/git2r/DESCRIPTION",
+    "lib/R/library/git2r/INDEX",
+    "lib/R/library/git2r/Meta/Rd.rds",
+    "lib/R/library/git2r/Meta/features.rds",
+    "lib/R/library/git2r/Meta/hsearch.rds",
+    "lib/R/library/git2r/Meta/links.rds",
+    "lib/R/library/git2r/Meta/nsInfo.rds",
+    "lib/R/library/git2r/Meta/package.rds",
+    "lib/R/library/git2r/NAMESPACE",
+    "lib/R/library/git2r/NEWS",
+    "lib/R/library/git2r/R/git2r",
+    "lib/R/library/git2r/R/git2r.rdb",
+    "lib/R/library/git2r/R/git2r.rdx",
+    "lib/R/library/git2r/help/AnIndex",
+    "lib/R/library/git2r/help/aliases.rds",
+    "lib/R/library/git2r/help/git2r.rdb",
+    "lib/R/library/git2r/help/git2r.rdx",
+    "lib/R/library/git2r/help/paths.rds",
+    "lib/R/library/git2r/html/00Index.html",
+    "lib/R/library/git2r/html/R.css",
+    "lib/R/library/git2r/libs/git2r.so"
+  ],
+  "fn": "r-git2r-0.28.0-r36hf628c3e_0.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-git2r-0.28.0-r36hf628c3e_0",
+    "type": 1
+  },
+  "md5": "e72933fc7198a8bca10f8786956cbfb1",
+  "name": "r-git2r",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-git2r-0.28.0-r36hf628c3e_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/git2r/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "1a1f38218745cf8d2b5152bcc6ca41cef6f74ec66e25e22cd93d64a5b1c39025",
+        "sha256_in_prefix": "1a1f38218745cf8d2b5152bcc6ca41cef6f74ec66e25e22cd93d64a5b1c39025",
+        "size_in_bytes": 3263
+      },
+      {
+        "_path": "lib/R/library/git2r/CITATION",
+        "path_type": "hardlink",
+        "sha256": "cf01a68910bad0747f69f68a75035ee1c07d9f1c840e2031756c511adb67f3e2",
+        "sha256_in_prefix": "cf01a68910bad0747f69f68a75035ee1c07d9f1c840e2031756c511adb67f3e2",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "lib/R/library/git2r/COPYING",
+        "path_type": "hardlink",
+        "sha256": "5a6d9d6bbe7e42b0a4292e04cc4d1e52a29fcc9023209bc5363e86b7e6f0da3d",
+        "sha256_in_prefix": "5a6d9d6bbe7e42b0a4292e04cc4d1e52a29fcc9023209bc5363e86b7e6f0da3d",
+        "size_in_bytes": 47945
+      },
+      {
+        "_path": "lib/R/library/git2r/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "aec965351ac432b61fd498a4ff5bd492f0a8e0cb1833f3611f81e493a3175a1a",
+        "sha256_in_prefix": "aec965351ac432b61fd498a4ff5bd492f0a8e0cb1833f3611f81e493a3175a1a",
+        "size_in_bytes": 16886
+      },
+      {
+        "_path": "lib/R/library/git2r/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "251e91820bc68edc01490be3bdfde22f131b781b68f2657de269eac49468fc8c",
+        "sha256_in_prefix": "251e91820bc68edc01490be3bdfde22f131b781b68f2657de269eac49468fc8c",
+        "size_in_bytes": 1740
+      },
+      {
+        "_path": "lib/R/library/git2r/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2e68a6c69facf6a6f9999254f080e1bb2aa024dceafa535fd0824bb74e8b26e8",
+        "sha256_in_prefix": "2e68a6c69facf6a6f9999254f080e1bb2aa024dceafa535fd0824bb74e8b26e8",
+        "size_in_bytes": 6019
+      },
+      {
+        "_path": "lib/R/library/git2r/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "038ff227df51122b750b0032b611b315e8d328c3d28a9e262b19efc6a2d3be3b",
+        "sha256_in_prefix": "038ff227df51122b750b0032b611b315e8d328c3d28a9e262b19efc6a2d3be3b",
+        "size_in_bytes": 3545
+      },
+      {
+        "_path": "lib/R/library/git2r/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/git2r/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7c0ad52ee0a1aca0bcf33f05418de20e1b36f25440101c6e1d17aee6eb80623e",
+        "sha256_in_prefix": "7c0ad52ee0a1aca0bcf33f05418de20e1b36f25440101c6e1d17aee6eb80623e",
+        "size_in_bytes": 3061
+      },
+      {
+        "_path": "lib/R/library/git2r/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "1569e118f6b4a1686eb857ab897275a7049a1ce511a214c2c494335b9475665e",
+        "sha256_in_prefix": "1569e118f6b4a1686eb857ab897275a7049a1ce511a214c2c494335b9475665e",
+        "size_in_bytes": 1670
+      },
+      {
+        "_path": "lib/R/library/git2r/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "0dd14f712f2da22abf090dbd229181f02e60fd0cdde27875b19eadca9cc778fb",
+        "sha256_in_prefix": "0dd14f712f2da22abf090dbd229181f02e60fd0cdde27875b19eadca9cc778fb",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/R/library/git2r/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "92b9ee104e6ec06c099f5e0dff982dc63bcba8a8685188d70463b7432573ea38",
+        "sha256_in_prefix": "92b9ee104e6ec06c099f5e0dff982dc63bcba8a8685188d70463b7432573ea38",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "lib/R/library/git2r/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "2ad776b9e559403058681f6af365b50a5970a3a6ae1a3df6fc8ea6ba726bbb8a",
+        "sha256_in_prefix": "2ad776b9e559403058681f6af365b50a5970a3a6ae1a3df6fc8ea6ba726bbb8a",
+        "size_in_bytes": 4004
+      },
+      {
+        "_path": "lib/R/library/git2r/NEWS",
+        "path_type": "hardlink",
+        "sha256": "256b5ab42242d79e26b1d3e7dfd328a3142c6dbae84a667293a2a43b7aaa86d4",
+        "sha256_in_prefix": "256b5ab42242d79e26b1d3e7dfd328a3142c6dbae84a667293a2a43b7aaa86d4",
+        "size_in_bytes": 21558
+      },
+      {
+        "_path": "lib/R/library/git2r/R/git2r",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/git2r/R/git2r.rdb",
+        "path_type": "hardlink",
+        "sha256": "73c5ac92e72e7de78b2f57716190810485006902f05451230ad67c5f82a1c8f5",
+        "sha256_in_prefix": "73c5ac92e72e7de78b2f57716190810485006902f05451230ad67c5f82a1c8f5",
+        "size_in_bytes": 107924
+      },
+      {
+        "_path": "lib/R/library/git2r/R/git2r.rdx",
+        "path_type": "hardlink",
+        "sha256": "442716439dd690e377cac79159f1f43e6e351cb899d6df7bf52e2a8806956aa3",
+        "sha256_in_prefix": "442716439dd690e377cac79159f1f43e6e351cb899d6df7bf52e2a8806956aa3",
+        "size_in_bytes": 2456
+      },
+      {
+        "_path": "lib/R/library/git2r/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1d0c9900fe24fa0663e63ca431f9d7acb253d5ccead97a08ce958e99fbf7f95a",
+        "sha256_in_prefix": "1d0c9900fe24fa0663e63ca431f9d7acb253d5ccead97a08ce958e99fbf7f95a",
+        "size_in_bytes": 3274
+      },
+      {
+        "_path": "lib/R/library/git2r/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8afd0ea0723ad1fef9be6876b819478743ef1e121a733deff560042fa0a2efa4",
+        "sha256_in_prefix": "8afd0ea0723ad1fef9be6876b819478743ef1e121a733deff560042fa0a2efa4",
+        "size_in_bytes": 1090
+      },
+      {
+        "_path": "lib/R/library/git2r/help/git2r.rdb",
+        "path_type": "hardlink",
+        "sha256": "1e1f27f9c63ab9cabc13ce666d239a906115b376d4d376d2de0df50067fdd4f2",
+        "sha256_in_prefix": "1e1f27f9c63ab9cabc13ce666d239a906115b376d4d376d2de0df50067fdd4f2",
+        "size_in_bytes": 228625
+      },
+      {
+        "_path": "lib/R/library/git2r/help/git2r.rdx",
+        "path_type": "hardlink",
+        "sha256": "efee02af261db00e262d2af58a9ee4bdd5afaf90f9030b099ebde97a8d679215",
+        "sha256_in_prefix": "efee02af261db00e262d2af58a9ee4bdd5afaf90f9030b099ebde97a8d679215",
+        "size_in_bytes": 2492
+      },
+      {
+        "_path": "lib/R/library/git2r/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c8725ce1cc11f6b1c2b80fa471a2d14a1c3900e2fa0594f40712856f0e6bc920",
+        "sha256_in_prefix": "c8725ce1cc11f6b1c2b80fa471a2d14a1c3900e2fa0594f40712856f0e6bc920",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "lib/R/library/git2r/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "04115389d28ea9bf1b0b2cb23798a9c36b920c79cbbbab626a2eb81bb9529ad3",
+        "sha256_in_prefix": "04115389d28ea9bf1b0b2cb23798a9c36b920c79cbbbab626a2eb81bb9529ad3",
+        "size_in_bytes": 18113
+      },
+      {
+        "_path": "lib/R/library/git2r/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/git2r/libs/git2r.so",
+        "path_type": "hardlink",
+        "sha256": "55fb29e3cf113e340759e07bbce3b76760f4102530e536c115907538baa87001",
+        "sha256_in_prefix": "55fb29e3cf113e340759e07bbce3b76760f4102530e536c115907538baa87001",
+        "size_in_bytes": 1273912
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b24d5977268ccf479edc97b9b7a7811cd108ff653d8381ff345171cabb68d854",
+  "size": 900425,
+  "subdir": "linux-64",
+  "timestamp": 1610309467000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-git2r-0.28.0-r36hf628c3e_0.tar.bz2",
+  "version": "0.28.0"
+}

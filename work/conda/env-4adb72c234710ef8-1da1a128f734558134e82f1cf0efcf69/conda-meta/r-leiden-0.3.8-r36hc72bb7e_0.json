@@ -1,0 +1,358 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-igraph",
+    "r-matrix",
+    "r-reticulate"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-leiden-0.3.8-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/leiden/CITATION",
+    "lib/R/library/leiden/DESCRIPTION",
+    "lib/R/library/leiden/INDEX",
+    "lib/R/library/leiden/LICENSE",
+    "lib/R/library/leiden/Meta/Rd.rds",
+    "lib/R/library/leiden/Meta/features.rds",
+    "lib/R/library/leiden/Meta/hsearch.rds",
+    "lib/R/library/leiden/Meta/links.rds",
+    "lib/R/library/leiden/Meta/nsInfo.rds",
+    "lib/R/library/leiden/Meta/package.rds",
+    "lib/R/library/leiden/Meta/vignette.rds",
+    "lib/R/library/leiden/NAMESPACE",
+    "lib/R/library/leiden/NEWS.md",
+    "lib/R/library/leiden/R/leiden",
+    "lib/R/library/leiden/R/leiden.rdb",
+    "lib/R/library/leiden/R/leiden.rdx",
+    "lib/R/library/leiden/WORDLIST",
+    "lib/R/library/leiden/doc/benchmarking.R",
+    "lib/R/library/leiden/doc/benchmarking.Rmd",
+    "lib/R/library/leiden/doc/benchmarking.html",
+    "lib/R/library/leiden/doc/index.html",
+    "lib/R/library/leiden/doc/run_bipartite.R",
+    "lib/R/library/leiden/doc/run_bipartite.Rmd",
+    "lib/R/library/leiden/doc/run_bipartite.html",
+    "lib/R/library/leiden/doc/run_igraph.R",
+    "lib/R/library/leiden/doc/run_igraph.Rmd",
+    "lib/R/library/leiden/doc/run_igraph.html",
+    "lib/R/library/leiden/doc/run_leiden.R",
+    "lib/R/library/leiden/doc/run_leiden.Rmd",
+    "lib/R/library/leiden/doc/run_leiden.html",
+    "lib/R/library/leiden/doc/run_multiplex.R",
+    "lib/R/library/leiden/doc/run_multiplex.Rmd",
+    "lib/R/library/leiden/doc/run_multiplex.html",
+    "lib/R/library/leiden/help/AnIndex",
+    "lib/R/library/leiden/help/aliases.rds",
+    "lib/R/library/leiden/help/leiden.rdb",
+    "lib/R/library/leiden/help/leiden.rdx",
+    "lib/R/library/leiden/help/paths.rds",
+    "lib/R/library/leiden/html/00Index.html",
+    "lib/R/library/leiden/html/R.css"
+  ],
+  "fn": "r-leiden-0.3.8-r36hc72bb7e_0.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-leiden-0.3.8-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "7f14849a0f97976a2802ea4d3e1de82f",
+  "name": "r-leiden",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-leiden-0.3.8-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/leiden/CITATION",
+        "path_type": "hardlink",
+        "sha256": "35df4432a7047aaf7fdf957fc934f41e09fdb11f65c756c76584e2697d364c79",
+        "sha256_in_prefix": "35df4432a7047aaf7fdf957fc934f41e09fdb11f65c756c76584e2697d364c79",
+        "size_in_bytes": 914
+      },
+      {
+        "_path": "lib/R/library/leiden/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "8d886a35df86253d448769e6e7f7e03db9f8d309ce50da791b0cbe458c533640",
+        "sha256_in_prefix": "8d886a35df86253d448769e6e7f7e03db9f8d309ce50da791b0cbe458c533640",
+        "size_in_bytes": 1386
+      },
+      {
+        "_path": "lib/R/library/leiden/INDEX",
+        "path_type": "hardlink",
+        "sha256": "dfb7318d64c30cbc6ddc6f35835176756243b79d9b993b8964f4e0f21b1e20a0",
+        "sha256_in_prefix": "dfb7318d64c30cbc6ddc6f35835176756243b79d9b993b8964f4e0f21b1e20a0",
+        "size_in_bytes": 56
+      },
+      {
+        "_path": "lib/R/library/leiden/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "sha256_in_prefix": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "size_in_bytes": 35141
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "5e2d7120a06e40f5ae975071cc6335b538d571f961d6c429e6afd28a428fbc4f",
+        "sha256_in_prefix": "5e2d7120a06e40f5ae975071cc6335b538d571f961d6c429e6afd28a428fbc4f",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0d0aec91385d0fbd1e3de0a7d8670219220688bab85471accc86c1f515624d07",
+        "sha256_in_prefix": "0d0aec91385d0fbd1e3de0a7d8670219220688bab85471accc86c1f515624d07",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "86e1c46bf1fe621d79e4cd2abfe9764e9e0cfb16ebff09861cb030fd499eb88e",
+        "sha256_in_prefix": "86e1c46bf1fe621d79e4cd2abfe9764e9e0cfb16ebff09861cb030fd499eb88e",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4cdf7fb3acea86708e091691035682af9d5fc98859a5e52309cec79c97b448ff",
+        "sha256_in_prefix": "4cdf7fb3acea86708e091691035682af9d5fc98859a5e52309cec79c97b448ff",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a52af37a98f59d3ee6997009f89b27221169d388ed4a7e7c9da7214bea38a1a5",
+        "sha256_in_prefix": "a52af37a98f59d3ee6997009f89b27221169d388ed4a7e7c9da7214bea38a1a5",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "lib/R/library/leiden/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "044511caa7f65e1389e3dd8fcbe8f87fd0568466d2def4de1117230a68ca0dd4",
+        "sha256_in_prefix": "044511caa7f65e1389e3dd8fcbe8f87fd0568466d2def4de1117230a68ca0dd4",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/R/library/leiden/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ebb4f4bd5a9b0a15a3baae33d09e7483fc8ebcef0ba5394ef6cb473d84f1a8c9",
+        "sha256_in_prefix": "ebb4f4bd5a9b0a15a3baae33d09e7483fc8ebcef0ba5394ef6cb473d84f1a8c9",
+        "size_in_bytes": 1158
+      },
+      {
+        "_path": "lib/R/library/leiden/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "7e70174cb0f700b7ef1d6798f9235f400ed33d64004bb4b70fdd73c655da9c20",
+        "sha256_in_prefix": "7e70174cb0f700b7ef1d6798f9235f400ed33d64004bb4b70fdd73c655da9c20",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "lib/R/library/leiden/R/leiden",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/leiden/R/leiden.rdb",
+        "path_type": "hardlink",
+        "sha256": "0a0208c89ee1166dd5e01222083d739b334a8e011ed2b9b372e1b09eeaa0c64a",
+        "sha256_in_prefix": "0a0208c89ee1166dd5e01222083d739b334a8e011ed2b9b372e1b09eeaa0c64a",
+        "size_in_bytes": 38810
+      },
+      {
+        "_path": "lib/R/library/leiden/R/leiden.rdx",
+        "path_type": "hardlink",
+        "sha256": "a569236765d0890f0d34b5d0da33d06007ca0d8af9c70e3f092e6bae69bea40d",
+        "sha256_in_prefix": "a569236765d0890f0d34b5d0da33d06007ca0d8af9c70e3f092e6bae69bea40d",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/leiden/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "77fddb38dc6f73b062e8051b3447c2377dbc0398e6645a4d2344e3fc2d2535ef",
+        "sha256_in_prefix": "77fddb38dc6f73b062e8051b3447c2377dbc0398e6645a4d2344e3fc2d2535ef",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/benchmarking.R",
+        "path_type": "hardlink",
+        "sha256": "2c9ff63d70acc0c99ede6f1888291fdecfa45146c5aed39cb87970efce011bf0",
+        "sha256_in_prefix": "2c9ff63d70acc0c99ede6f1888291fdecfa45146c5aed39cb87970efce011bf0",
+        "size_in_bytes": 18237
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/benchmarking.Rmd",
+        "path_type": "hardlink",
+        "sha256": "de4183cc6225cd825c904e54883587077dbface30a711c96bc09f64d9ab4cb04",
+        "sha256_in_prefix": "de4183cc6225cd825c904e54883587077dbface30a711c96bc09f64d9ab4cb04",
+        "size_in_bytes": 22835
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/benchmarking.html",
+        "path_type": "hardlink",
+        "sha256": "1d122758f45620897a4954ea6738562fcd3af7e0cc0ecb0cc62b13175df5677e",
+        "sha256_in_prefix": "1d122758f45620897a4954ea6738562fcd3af7e0cc0ecb0cc62b13175df5677e",
+        "size_in_bytes": 619538
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "6847aaef6f877bc4a53b6167edfd96cc0e7746941b1303b394f0fe3bfb744fb8",
+        "sha256_in_prefix": "6847aaef6f877bc4a53b6167edfd96cc0e7746941b1303b394f0fe3bfb744fb8",
+        "size_in_bytes": 3446
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_bipartite.R",
+        "path_type": "hardlink",
+        "sha256": "782a600c10bcfb15ad00b68b0c721955d4ba6845b4f34a76dec27c1af2cd779a",
+        "sha256_in_prefix": "782a600c10bcfb15ad00b68b0c721955d4ba6845b4f34a76dec27c1af2cd779a",
+        "size_in_bytes": 11372
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_bipartite.Rmd",
+        "path_type": "hardlink",
+        "sha256": "286ed4bfa08ad14606f6de7edae8fe22da67abf9fc1bb55425145bdbec9c9506",
+        "sha256_in_prefix": "286ed4bfa08ad14606f6de7edae8fe22da67abf9fc1bb55425145bdbec9c9506",
+        "size_in_bytes": 12062
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_bipartite.html",
+        "path_type": "hardlink",
+        "sha256": "3c17766e1799432041d9995426a89ee3e85e0b8b8d87afc0a5f96a6c3a858d48",
+        "sha256_in_prefix": "3c17766e1799432041d9995426a89ee3e85e0b8b8d87afc0a5f96a6c3a858d48",
+        "size_in_bytes": 996431
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_igraph.R",
+        "path_type": "hardlink",
+        "sha256": "5c157ecd98694b4765def7f0386517d7aef2df1fa0fc994018a046ab5e10fb2a",
+        "sha256_in_prefix": "5c157ecd98694b4765def7f0386517d7aef2df1fa0fc994018a046ab5e10fb2a",
+        "size_in_bytes": 6106
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_igraph.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7ddfe219738807e338a5a285216d2a0e40e3c83dd69de0c4671e6c79f30f91a8",
+        "sha256_in_prefix": "7ddfe219738807e338a5a285216d2a0e40e3c83dd69de0c4671e6c79f30f91a8",
+        "size_in_bytes": 7514
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_igraph.html",
+        "path_type": "hardlink",
+        "sha256": "1ef4e5b02381ef2995a8588fb77ada2009c86816ec55f1959f47d79ca88a6a47",
+        "sha256_in_prefix": "1ef4e5b02381ef2995a8588fb77ada2009c86816ec55f1959f47d79ca88a6a47",
+        "size_in_bytes": 741709
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_leiden.R",
+        "path_type": "hardlink",
+        "sha256": "23e9fc802ba6932165f70bdbae05ff72df9a614c6234835970694ad6414160b2",
+        "sha256_in_prefix": "23e9fc802ba6932165f70bdbae05ff72df9a614c6234835970694ad6414160b2",
+        "size_in_bytes": 6040
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_leiden.Rmd",
+        "path_type": "hardlink",
+        "sha256": "291de73c75280f253df8a616a757301e9736052e5684fb26ff166b973e9b8b5b",
+        "sha256_in_prefix": "291de73c75280f253df8a616a757301e9736052e5684fb26ff166b973e9b8b5b",
+        "size_in_bytes": 7317
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_leiden.html",
+        "path_type": "hardlink",
+        "sha256": "14b58be653560ae2c694c04c4a2ed09fbaf8b6c5a741304c8ef531a932bed632",
+        "sha256_in_prefix": "14b58be653560ae2c694c04c4a2ed09fbaf8b6c5a741304c8ef531a932bed632",
+        "size_in_bytes": 868572
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_multiplex.R",
+        "path_type": "hardlink",
+        "sha256": "fc153297baf710b9d5d9c57146a9e8cdc7497fc6e6e8c77a1f8da588c3a8d784",
+        "sha256_in_prefix": "fc153297baf710b9d5d9c57146a9e8cdc7497fc6e6e8c77a1f8da588c3a8d784",
+        "size_in_bytes": 29510
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_multiplex.Rmd",
+        "path_type": "hardlink",
+        "sha256": "aeae1c9797feb5c0c00bbb4c7779f21aba373e3d93a497c994f3bc1595eece13",
+        "sha256_in_prefix": "aeae1c9797feb5c0c00bbb4c7779f21aba373e3d93a497c994f3bc1595eece13",
+        "size_in_bytes": 29676
+      },
+      {
+        "_path": "lib/R/library/leiden/doc/run_multiplex.html",
+        "path_type": "hardlink",
+        "sha256": "fb8af50a5face5d85db2cd48ce7d87d9b4639987260e7e5ae34ac1ba36d9d9b3",
+        "sha256_in_prefix": "fb8af50a5face5d85db2cd48ce7d87d9b4639987260e7e5ae34ac1ba36d9d9b3",
+        "size_in_bytes": 965030
+      },
+      {
+        "_path": "lib/R/library/leiden/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "4c94683adca48f8c38811144c2c55e06388352dcafd40cd99053e3c72a810b74",
+        "sha256_in_prefix": "4c94683adca48f8c38811144c2c55e06388352dcafd40cd99053e3c72a810b74",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/R/library/leiden/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "87609cce19c66bfaf0477f6c403f7223d31d5d1d64cc8136c449fb9d67d70111",
+        "sha256_in_prefix": "87609cce19c66bfaf0477f6c403f7223d31d5d1d64cc8136c449fb9d67d70111",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "lib/R/library/leiden/help/leiden.rdb",
+        "path_type": "hardlink",
+        "sha256": "cdb7f2a58be00510a8edc97ef988dd3d0e7cee58073bc44dd0c41130d36def3d",
+        "sha256_in_prefix": "cdb7f2a58be00510a8edc97ef988dd3d0e7cee58073bc44dd0c41130d36def3d",
+        "size_in_bytes": 4089
+      },
+      {
+        "_path": "lib/R/library/leiden/help/leiden.rdx",
+        "path_type": "hardlink",
+        "sha256": "fcca5d9c89124d7ea34e0f074297f9a8f797986f0abddde52153151ced6461a3",
+        "sha256_in_prefix": "fcca5d9c89124d7ea34e0f074297f9a8f797986f0abddde52153151ced6461a3",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/R/library/leiden/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "8ee260f4d8d2ffbcc4c705d255de2671f54131aed5f5165429f09caa675bdf91",
+        "sha256_in_prefix": "8ee260f4d8d2ffbcc4c705d255de2671f54131aed5f5165429f09caa675bdf91",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/R/library/leiden/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "2aa6ab8c29cfad67797c47ccad93c808be1201e806f20b2b48c04bc33386643e",
+        "sha256_in_prefix": "2aa6ab8c29cfad67797c47ccad93c808be1201e806f20b2b48c04bc33386643e",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "lib/R/library/leiden/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8a59133cf15b017093dde92185cc24b65db201b2dc7679928836bd03c8c781e4",
+  "size": 3037120,
+  "subdir": "noarch",
+  "timestamp": 1621838055000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-leiden-0.3.8-r36hc72bb7e_0.tar.bz2",
+  "version": "0.3.8"
+}

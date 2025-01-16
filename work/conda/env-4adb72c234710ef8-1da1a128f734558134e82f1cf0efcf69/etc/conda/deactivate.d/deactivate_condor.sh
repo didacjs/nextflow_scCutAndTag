@@ -1,0 +1,7 @@
+#!/bin/bash
+if [ "${CONDA_BACKUP_CONDOR_CONFIG}" = "empty" ]; then
+	unset CONDOR_CONFIG
+else
+	export CONDOR_CONFIG="${CONDA_BACKUP_CONDOR_CONFIG}"
+fi
+unset CONDA_BACKUP_CONDOR_CONFIG

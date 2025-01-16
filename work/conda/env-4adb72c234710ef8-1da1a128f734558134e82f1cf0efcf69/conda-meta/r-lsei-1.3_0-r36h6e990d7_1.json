@@ -1,0 +1,196 @@
+{
+  "build": "r36h6e990d7_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libgfortran-ng",
+    "libgfortran4 >=7.5.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-lsei-1.3_0-r36h6e990d7_1",
+  "files": [
+    "lib/R/library/lsei/DESCRIPTION",
+    "lib/R/library/lsei/INDEX",
+    "lib/R/library/lsei/Meta/Rd.rds",
+    "lib/R/library/lsei/Meta/features.rds",
+    "lib/R/library/lsei/Meta/hsearch.rds",
+    "lib/R/library/lsei/Meta/links.rds",
+    "lib/R/library/lsei/Meta/nsInfo.rds",
+    "lib/R/library/lsei/Meta/package.rds",
+    "lib/R/library/lsei/NAMESPACE",
+    "lib/R/library/lsei/R/lsei",
+    "lib/R/library/lsei/R/lsei.rdb",
+    "lib/R/library/lsei/R/lsei.rdx",
+    "lib/R/library/lsei/help/AnIndex",
+    "lib/R/library/lsei/help/aliases.rds",
+    "lib/R/library/lsei/help/lsei.rdb",
+    "lib/R/library/lsei/help/lsei.rdx",
+    "lib/R/library/lsei/help/paths.rds",
+    "lib/R/library/lsei/html/00Index.html",
+    "lib/R/library/lsei/html/R.css",
+    "lib/R/library/lsei/libs/lsei.so"
+  ],
+  "fn": "r-lsei-1.3_0-r36h6e990d7_1.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-lsei-1.3_0-r36h6e990d7_1",
+    "type": 1
+  },
+  "md5": "e0eb1f08f313ba71dd729894781378f0",
+  "name": "r-lsei",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-lsei-1.3_0-r36h6e990d7_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/lsei/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "cd95268bd224e2934a9d02394fa5baa58a961be2b7ea4a8c1b9fec6d0f356c9e",
+        "sha256_in_prefix": "cd95268bd224e2934a9d02394fa5baa58a961be2b7ea4a8c1b9fec6d0f356c9e",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "lib/R/library/lsei/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9506664f1d82217fd522b478a1c9ee1332f929de720cb45336554aa16f6d8934",
+        "sha256_in_prefix": "9506664f1d82217fd522b478a1c9ee1332f929de720cb45336554aa16f6d8934",
+        "size_in_bytes": 476
+      },
+      {
+        "_path": "lib/R/library/lsei/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "27fde137af06e74001ad8297989383f48e8cbc2c7588583dd295ddffb366b59e",
+        "sha256_in_prefix": "27fde137af06e74001ad8297989383f48e8cbc2c7588583dd295ddffb366b59e",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "lib/R/library/lsei/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/lsei/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "df1275344c83b18358849e903307ab1d375faa8f675d32b3800519084bfeef96",
+        "sha256_in_prefix": "df1275344c83b18358849e903307ab1d375faa8f675d32b3800519084bfeef96",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "lib/R/library/lsei/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d886d4713b3df5bfd454032b99a40a064f054e6efeb24841e900888abc5a7832",
+        "sha256_in_prefix": "d886d4713b3df5bfd454032b99a40a064f054e6efeb24841e900888abc5a7832",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/lsei/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d43cffd5e083bc59312e2dbf7cc6390487b7db480134ac9f8d44fca4ae0f0188",
+        "sha256_in_prefix": "d43cffd5e083bc59312e2dbf7cc6390487b7db480134ac9f8d44fca4ae0f0188",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/lsei/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "ac9b9b997bccb4fbf6baf19c7f82700cdfe773bd330ad2233793c9f2369aaa69",
+        "sha256_in_prefix": "ac9b9b997bccb4fbf6baf19c7f82700cdfe773bd330ad2233793c9f2369aaa69",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "lib/R/library/lsei/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "2f426e4a4c67fd0b8c0753e9e8ef7257ae5d594348c8de1ce0932aa0e8eeea9f",
+        "sha256_in_prefix": "2f426e4a4c67fd0b8c0753e9e8ef7257ae5d594348c8de1ce0932aa0e8eeea9f",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/lsei/R/lsei",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/lsei/R/lsei.rdb",
+        "path_type": "hardlink",
+        "sha256": "e5ca1d2cc84888251fd52ca6f32839617afe2150b9a3746930050c0c88c646d5",
+        "sha256_in_prefix": "e5ca1d2cc84888251fd52ca6f32839617afe2150b9a3746930050c0c88c646d5",
+        "size_in_bytes": 22795
+      },
+      {
+        "_path": "lib/R/library/lsei/R/lsei.rdx",
+        "path_type": "hardlink",
+        "sha256": "f1050d3a1643d143a8d887c0fd6ff51bb20d1dfd2328ca4a9c53a96c6b60c3d4",
+        "sha256_in_prefix": "f1050d3a1643d143a8d887c0fd6ff51bb20d1dfd2328ca4a9c53a96c6b60c3d4",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/lsei/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c627e500d4fd4ac865c2fa510fcc654a51c3e1c846777377462248dc620f1cbc",
+        "sha256_in_prefix": "c627e500d4fd4ac865c2fa510fcc654a51c3e1c846777377462248dc620f1cbc",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/R/library/lsei/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5a34ae57107683cab09ba2c6b8caf31a38aee6c7b0bf5e5565625e0e4e42723a",
+        "sha256_in_prefix": "5a34ae57107683cab09ba2c6b8caf31a38aee6c7b0bf5e5565625e0e4e42723a",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/lsei/help/lsei.rdb",
+        "path_type": "hardlink",
+        "sha256": "e632daac47cfcacbbdaa0b6df7830615377513cbafcaf34ebca0349dc947b4e7",
+        "sha256_in_prefix": "e632daac47cfcacbbdaa0b6df7830615377513cbafcaf34ebca0349dc947b4e7",
+        "size_in_bytes": 17769
+      },
+      {
+        "_path": "lib/R/library/lsei/help/lsei.rdx",
+        "path_type": "hardlink",
+        "sha256": "95f0f318956c50c10782288153208be889318448921b3b81d550ae805a7e3552",
+        "sha256_in_prefix": "95f0f318956c50c10782288153208be889318448921b3b81d550ae805a7e3552",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/R/library/lsei/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "be35921976778f52457859ce354a15eb35c5d1ade660a6ce88ce02eb72f19879",
+        "sha256_in_prefix": "be35921976778f52457859ce354a15eb35c5d1ade660a6ce88ce02eb72f19879",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/R/library/lsei/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "8094acf0e3e15754ad81fb12de132e00fef43afd6a6adb8ff5f32f0341ca4713",
+        "sha256_in_prefix": "8094acf0e3e15754ad81fb12de132e00fef43afd6a6adb8ff5f32f0341ca4713",
+        "size_in_bytes": 2496
+      },
+      {
+        "_path": "lib/R/library/lsei/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/lsei/libs/lsei.so",
+        "path_type": "hardlink",
+        "sha256": "0b309f6ec4a89690efeefd12204034b810884ed57479b61606616a3ee2066cfb",
+        "sha256_in_prefix": "0b309f6ec4a89690efeefd12204034b810884ed57479b61606616a3ee2066cfb",
+        "size_in_bytes": 41728
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d9bae672efd2672990a7f6bbc40be6ae2f0ceb4cbe07e66f5608233b6f09b26b",
+  "size": 86372,
+  "subdir": "linux-64",
+  "timestamp": 1603195550000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-lsei-1.3_0-r36h6e990d7_1.tar.bz2",
+  "version": "1.3_0"
+}

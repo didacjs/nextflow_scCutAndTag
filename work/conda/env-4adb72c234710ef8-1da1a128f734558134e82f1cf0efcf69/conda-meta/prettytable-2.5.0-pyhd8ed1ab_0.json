@@ -1,0 +1,129 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "ptable >=9999"
+  ],
+  "depends": [
+    "importlib-metadata",
+    "python >=3.5",
+    "wcwidth"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/prettytable-2.5.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/COPYING",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/prettytable-2.5.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/prettytable/__init__.py",
+    "lib/python3.6/site-packages/prettytable/prettytable.py",
+    "lib/python3.6/site-packages/prettytable/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/prettytable/__pycache__/prettytable.cpython-36.pyc"
+  ],
+  "fn": "prettytable-2.5.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/prettytable-2.5.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "74b952f5e8437f0ebf458b97ed3fbf0c",
+  "name": "prettytable",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/prettytable-2.5.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "0c8adcc204c8af6cdfdf7887dfd1f99c29901f6c1d505a78bba96efa4fb2cb05",
+        "sha256_in_prefix": "0c8adcc204c8af6cdfdf7887dfd1f99c29901f6c1d505a78bba96efa4fb2cb05",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "507fa4e31f3714828043bc063f07444366824534882c7866c8a3ff9b87795552",
+        "sha256_in_prefix": "507fa4e31f3714828043bc063f07444366824534882c7866c8a3ff9b87795552",
+        "size_in_bytes": 22371
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6a68081a7899cfe9c2afa8ebec31949d3fc3ff7cdb0500c18df69ebdeb3279bc",
+        "sha256_in_prefix": "6a68081a7899cfe9c2afa8ebec31949d3fc3ff7cdb0500c18df69ebdeb3279bc",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "53e3603320f310ac94cded7825e4bcb8f82e4340dc81ba265d72cfe0f583de69",
+        "sha256_in_prefix": "53e3603320f310ac94cded7825e4bcb8f82e4340dc81ba265d72cfe0f583de69",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "site-packages/prettytable-2.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "528a09acd9ba89ab39e0b4e395a757b5d6e30b536df6c81dff5b7fdb85170534",
+        "sha256_in_prefix": "528a09acd9ba89ab39e0b4e395a757b5d6e30b536df6c81dff5b7fdb85170534",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/prettytable/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a87debbfee0e1bc53a86246c9b7b67102a41a8d1f30c06522d7a22cad949fd6c",
+        "sha256_in_prefix": "a87debbfee0e1bc53a86246c9b7b67102a41a8d1f30c06522d7a22cad949fd6c",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "site-packages/prettytable/prettytable.py",
+        "path_type": "hardlink",
+        "sha256": "c1a3cf769c8b2eb55380186b535cb31eebd2aa3a843217d9857f2a4fc384fd1f",
+        "sha256_in_prefix": "c1a3cf769c8b2eb55380186b535cb31eebd2aa3a843217d9857f2a4fc384fd1f",
+        "size_in_bytes": 83518
+      },
+      {
+        "_path": "lib/python3.6/site-packages/prettytable/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/prettytable/__pycache__/prettytable.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0322549341689651c6c4b8f2667b7faff9e82fee4b81dc699350a7b08cf5ce16",
+  "size": 25289,
+  "subdir": "noarch",
+  "timestamp": 1640038843000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/prettytable-2.5.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.5.0"
+}

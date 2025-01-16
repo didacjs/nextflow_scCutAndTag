@@ -1,0 +1,769 @@
+{
+  "build": "r36h51c796c_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libblas >=3.8.0,<4.0a0",
+    "libgcc-ng >=7.3.0",
+    "liblapack >=3.8.0,<4.0.0a0",
+    "libstdcxx-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-matrix >=1.1_0",
+    "r-rcpp >=0.11.5",
+    "r-rcppeigen >=0.3.3.3.0",
+    "spectra"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rspectra-0.16_0-r36h51c796c_3",
+  "files": [
+    "lib/R/library/RSpectra/DESCRIPTION",
+    "lib/R/library/RSpectra/INDEX",
+    "lib/R/library/RSpectra/Meta/Rd.rds",
+    "lib/R/library/RSpectra/Meta/features.rds",
+    "lib/R/library/RSpectra/Meta/hsearch.rds",
+    "lib/R/library/RSpectra/Meta/links.rds",
+    "lib/R/library/RSpectra/Meta/nsInfo.rds",
+    "lib/R/library/RSpectra/Meta/package.rds",
+    "lib/R/library/RSpectra/Meta/vignette.rds",
+    "lib/R/library/RSpectra/NAMESPACE",
+    "lib/R/library/RSpectra/NEWS.Rd",
+    "lib/R/library/RSpectra/R/RSpectra",
+    "lib/R/library/RSpectra/R/RSpectra.rdb",
+    "lib/R/library/RSpectra/R/RSpectra.rdx",
+    "lib/R/library/RSpectra/doc/index.html",
+    "lib/R/library/RSpectra/doc/introduction.R",
+    "lib/R/library/RSpectra/doc/introduction.Rmd",
+    "lib/R/library/RSpectra/doc/introduction.html",
+    "lib/R/library/RSpectra/examples/eigs.R",
+    "lib/R/library/RSpectra/examples/svds.R",
+    "lib/R/library/RSpectra/examples/svds_center_scale.R",
+    "lib/R/library/RSpectra/help/AnIndex",
+    "lib/R/library/RSpectra/help/RSpectra.rdb",
+    "lib/R/library/RSpectra/help/RSpectra.rdx",
+    "lib/R/library/RSpectra/help/aliases.rds",
+    "lib/R/library/RSpectra/help/paths.rds",
+    "lib/R/library/RSpectra/html/00Index.html",
+    "lib/R/library/RSpectra/html/R.css",
+    "lib/R/library/RSpectra/include/GenEigs.h",
+    "lib/R/library/RSpectra/include/RMatOp.h",
+    "lib/R/library/RSpectra/include/RMatOp/ComplexShift.h",
+    "lib/R/library/RSpectra/include/RMatOp/ComplexShift_dgeMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/ComplexShift_matrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/ComplexShift_sparseMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_dgeMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_dsyMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_function.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_matrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_sparseMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_sym_dgeMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_sym_matrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/MatProd_sym_sparseMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_dgeMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_dsyMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_matrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_sparseMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_sym_dgeMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_sym_matrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/RealShift_sym_sparseMatrix.h",
+    "lib/R/library/RSpectra/include/RMatOp/SVDOp.h",
+    "lib/R/library/RSpectra/include/RMatOp/SparseMatrixMapping.h",
+    "lib/R/library/RSpectra/include/Spectra/GenEigsBase.h",
+    "lib/R/library/RSpectra/include/Spectra/GenEigsComplexShiftSolver.h",
+    "lib/R/library/RSpectra/include/Spectra/GenEigsRealShiftSolver.h",
+    "lib/R/library/RSpectra/include/Spectra/GenEigsSolver.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/Arnoldi.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/BKLDLT.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/DoubleShiftQR.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/Lanczos.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/TridiagEigen.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/UpperHessenbergEigen.h",
+    "lib/R/library/RSpectra/include/Spectra/LinAlg/UpperHessenbergQR.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/DenseCholesky.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/DenseGenComplexShiftSolve.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/DenseGenMatProd.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/DenseGenRealShiftSolve.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/DenseSymMatProd.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/DenseSymShiftSolve.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/SparseCholesky.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/SparseGenMatProd.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/SparseGenRealShiftSolve.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/SparseRegularInverse.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/SparseSymMatProd.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/SparseSymShiftSolve.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/internal/ArnoldiOp.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/internal/SymGEigsCholeskyOp.h",
+    "lib/R/library/RSpectra/include/Spectra/MatOp/internal/SymGEigsRegInvOp.h",
+    "lib/R/library/RSpectra/include/Spectra/SymEigsBase.h",
+    "lib/R/library/RSpectra/include/Spectra/SymEigsShiftSolver.h",
+    "lib/R/library/RSpectra/include/Spectra/SymEigsSolver.h",
+    "lib/R/library/RSpectra/include/Spectra/SymGEigsSolver.h",
+    "lib/R/library/RSpectra/include/Spectra/Util/CompInfo.h",
+    "lib/R/library/RSpectra/include/Spectra/Util/GEigsMode.h",
+    "lib/R/library/RSpectra/include/Spectra/Util/SelectionRule.h",
+    "lib/R/library/RSpectra/include/Spectra/Util/SimpleRandom.h",
+    "lib/R/library/RSpectra/include/Spectra/Util/TypeTraits.h",
+    "lib/R/library/RSpectra/include/SpectraC.h",
+    "lib/R/library/RSpectra/include/SymEigs.h",
+    "lib/R/library/RSpectra/libs/RSpectra.so"
+  ],
+  "fn": "r-rspectra-0.16_0-r36h51c796c_3.tar.bz2",
+  "license": "MPL-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rspectra-0.16_0-r36h51c796c_3",
+    "type": 1
+  },
+  "md5": "b8e4256de23917872a85ec8f427c2fc5",
+  "name": "r-rspectra",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rspectra-0.16_0-r36h51c796c_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RSpectra/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1901942115dbd96036ffdacf04b5d747bf9c31b377ee90b4d8d593d0dda29256",
+        "sha256_in_prefix": "1901942115dbd96036ffdacf04b5d747bf9c31b377ee90b4d8d593d0dda29256",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "lib/R/library/RSpectra/INDEX",
+        "path_type": "hardlink",
+        "sha256": "ae8e18c81856a36ff01d7b65b466bd4a2eadf611d11afce66e84757af795200a",
+        "sha256_in_prefix": "ae8e18c81856a36ff01d7b65b466bd4a2eadf611d11afce66e84757af795200a",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e5c18021bb46df376eadcfb97f15bf4d97ee298230206ff59d9bf9f1765ffc29",
+        "sha256_in_prefix": "e5c18021bb46df376eadcfb97f15bf4d97ee298230206ff59d9bf9f1765ffc29",
+        "size_in_bytes": 393
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "56f573e1d3b77aff119706f22be8dd7f45e277d3fb4792e92c41ada82b49568d",
+        "sha256_in_prefix": "56f573e1d3b77aff119706f22be8dd7f45e277d3fb4792e92c41ada82b49568d",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "42fa5e0a5f2c0fdce541d431a94d046f81a30c36f4d58334d7ec6031f476a4bc",
+        "sha256_in_prefix": "42fa5e0a5f2c0fdce541d431a94d046f81a30c36f4d58334d7ec6031f476a4bc",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "6e63e87dd9b8e471bdb55b5dd665f49264d5a505a601f08ea605362fdaf4572a",
+        "sha256_in_prefix": "6e63e87dd9b8e471bdb55b5dd665f49264d5a505a601f08ea605362fdaf4572a",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "3485ffe5c903d52c0e99a11fcd7cb29385b513a23dd76b7dc1d19c85ca38ec63",
+        "sha256_in_prefix": "3485ffe5c903d52c0e99a11fcd7cb29385b513a23dd76b7dc1d19c85ca38ec63",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "lib/R/library/RSpectra/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "7e73a1aa36137e27dc10307d90bf2e327991902d37b30a002d86d557c75c3d87",
+        "sha256_in_prefix": "7e73a1aa36137e27dc10307d90bf2e327991902d37b30a002d86d557c75c3d87",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/RSpectra/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ee0c873dc9ac5a90905feb3f588dc8f7fc070ae2e01ac9c58581778ff888fdd6",
+        "sha256_in_prefix": "ee0c873dc9ac5a90905feb3f588dc8f7fc070ae2e01ac9c58581778ff888fdd6",
+        "size_in_bytes": 793
+      },
+      {
+        "_path": "lib/R/library/RSpectra/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "eabe24768fa87df166e521dd0dac970c8aaca63a8589e9f01e62715c353aa819",
+        "sha256_in_prefix": "eabe24768fa87df166e521dd0dac970c8aaca63a8589e9f01e62715c353aa819",
+        "size_in_bytes": 7326
+      },
+      {
+        "_path": "lib/R/library/RSpectra/R/RSpectra",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RSpectra/R/RSpectra.rdb",
+        "path_type": "hardlink",
+        "sha256": "f894e84da1370864fbf50c9c5a2ce6f4de3c41d7ff761a87708336d745b6be09",
+        "sha256_in_prefix": "f894e84da1370864fbf50c9c5a2ce6f4de3c41d7ff761a87708336d745b6be09",
+        "size_in_bytes": 32409
+      },
+      {
+        "_path": "lib/R/library/RSpectra/R/RSpectra.rdx",
+        "path_type": "hardlink",
+        "sha256": "f31d20475d30196e84080906d05b28ec8a5b63c5d168db63c90d8d98b2951cde",
+        "sha256_in_prefix": "f31d20475d30196e84080906d05b28ec8a5b63c5d168db63c90d8d98b2951cde",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "lib/R/library/RSpectra/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "070979a4f5db880e0db7813e2d3307761eb8fdba319b6b7d196783d125dcaa41",
+        "sha256_in_prefix": "070979a4f5db880e0db7813e2d3307761eb8fdba319b6b7d196783d125dcaa41",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "lib/R/library/RSpectra/doc/introduction.R",
+        "path_type": "hardlink",
+        "sha256": "3de8b5317386f78c4e470a24d10de0f354a0955fa3d744931e9358c5b0277c47",
+        "sha256_in_prefix": "3de8b5317386f78c4e470a24d10de0f354a0955fa3d744931e9358c5b0277c47",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "lib/R/library/RSpectra/doc/introduction.Rmd",
+        "path_type": "hardlink",
+        "sha256": "2cb4e87b2dd9f707c24a944c697773830fb0bdb7029a3472026d871b729d1023",
+        "sha256_in_prefix": "2cb4e87b2dd9f707c24a944c697773830fb0bdb7029a3472026d871b729d1023",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "lib/R/library/RSpectra/doc/introduction.html",
+        "path_type": "hardlink",
+        "sha256": "f8d86ce9ef072bcb3c68d0d5b0020e2e71ce7a364a9299d4dbf6874678b83524",
+        "sha256_in_prefix": "f8d86ce9ef072bcb3c68d0d5b0020e2e71ce7a364a9299d4dbf6874678b83524",
+        "size_in_bytes": 82806
+      },
+      {
+        "_path": "lib/R/library/RSpectra/examples/eigs.R",
+        "path_type": "hardlink",
+        "sha256": "dbd2706d5f337be2aa27d031e1991ce19d5b1f105f555454af5c6522647d0bb0",
+        "sha256_in_prefix": "dbd2706d5f337be2aa27d031e1991ce19d5b1f105f555454af5c6522647d0bb0",
+        "size_in_bytes": 3520
+      },
+      {
+        "_path": "lib/R/library/RSpectra/examples/svds.R",
+        "path_type": "hardlink",
+        "sha256": "98da2d9f5fb6cba13936c9344d051a17210789e2b07604d233bc1d731813add7",
+        "sha256_in_prefix": "98da2d9f5fb6cba13936c9344d051a17210789e2b07604d233bc1d731813add7",
+        "size_in_bytes": 2430
+      },
+      {
+        "_path": "lib/R/library/RSpectra/examples/svds_center_scale.R",
+        "path_type": "hardlink",
+        "sha256": "4c297e8eced6cae8fc3cf49d37fce484e81717c4b26d0e99c49a6448f85b9ac4",
+        "sha256_in_prefix": "4c297e8eced6cae8fc3cf49d37fce484e81717c4b26d0e99c49a6448f85b9ac4",
+        "size_in_bytes": 2557
+      },
+      {
+        "_path": "lib/R/library/RSpectra/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "998fa6ecf34c185f489fbc383f342001ded3717f0deb850bc5c2711df829c59a",
+        "sha256_in_prefix": "998fa6ecf34c185f489fbc383f342001ded3717f0deb850bc5c2711df829c59a",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/R/library/RSpectra/help/RSpectra.rdb",
+        "path_type": "hardlink",
+        "sha256": "82087bb1b3aaedb1ec0d1df0d26e93e64b556fcb7d8602017db6b47364c35348",
+        "sha256_in_prefix": "82087bb1b3aaedb1ec0d1df0d26e93e64b556fcb7d8602017db6b47364c35348",
+        "size_in_bytes": 22372
+      },
+      {
+        "_path": "lib/R/library/RSpectra/help/RSpectra.rdx",
+        "path_type": "hardlink",
+        "sha256": "e758ea4f96d45a012c2f6795f16705824c8999041f9e947b317a236470cbde19",
+        "sha256_in_prefix": "e758ea4f96d45a012c2f6795f16705824c8999041f9e947b317a236470cbde19",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/R/library/RSpectra/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6995fee72b4a5413fc1f59b4956178f8dd49d8a84602da7ef37557ee0557eb33",
+        "sha256_in_prefix": "6995fee72b4a5413fc1f59b4956178f8dd49d8a84602da7ef37557ee0557eb33",
+        "size_in_bytes": 182
+      },
+      {
+        "_path": "lib/R/library/RSpectra/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "dd8204e6ebb7132bd4ddc8798d421d9bee54dda79a757aa47c18d73b3a77dfec",
+        "sha256_in_prefix": "dd8204e6ebb7132bd4ddc8798d421d9bee54dda79a757aa47c18d73b3a77dfec",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/R/library/RSpectra/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "6f1d9455e35eb24c2785f19a2a939f5df9db497e2f40d0b6302f2ab168153e41",
+        "sha256_in_prefix": "6f1d9455e35eb24c2785f19a2a939f5df9db497e2f40d0b6302f2ab168153e41",
+        "size_in_bytes": 4031
+      },
+      {
+        "_path": "lib/R/library/RSpectra/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/GenEigs.h",
+        "path_type": "hardlink",
+        "sha256": "797ca921ca0f2b600f1e2827c2fe60cbdaa18e1d241b3935fe789c49469d2397",
+        "sha256_in_prefix": "797ca921ca0f2b600f1e2827c2fe60cbdaa18e1d241b3935fe789c49469d2397",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp.h",
+        "path_type": "hardlink",
+        "sha256": "91bc9b06e5c88e934a5e08f1f35955190a9b707e3ed5c5da20a25a3cf0862ab7",
+        "sha256_in_prefix": "91bc9b06e5c88e934a5e08f1f35955190a9b707e3ed5c5da20a25a3cf0862ab7",
+        "size_in_bytes": 942
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/ComplexShift.h",
+        "path_type": "hardlink",
+        "sha256": "e5f22bd4b65fbd9bc07c25492d594ba6b8d8b4b41d324a43c39e9d9179895b52",
+        "sha256_in_prefix": "e5f22bd4b65fbd9bc07c25492d594ba6b8d8b4b41d324a43c39e9d9179895b52",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/ComplexShift_dgeMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "5ec2ebbca7982f345f4a54d0b2e9c22639d6f49f62951ff00a52177941110583",
+        "sha256_in_prefix": "5ec2ebbca7982f345f4a54d0b2e9c22639d6f49f62951ff00a52177941110583",
+        "size_in_bytes": 397
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/ComplexShift_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "f45dbea1a56e02ca2758f6195780a37beb95e3498a64e8345e7ac7935bc45855",
+        "sha256_in_prefix": "f45dbea1a56e02ca2758f6195780a37beb95e3498a64e8345e7ac7935bc45855",
+        "size_in_bytes": 1388
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/ComplexShift_sparseMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "50df5f65f008ded4bf6d7c6bb5edf505c1465b2cad1dfdc738bb5e66890411fa",
+        "sha256_in_prefix": "50df5f65f008ded4bf6d7c6bb5edf505c1465b2cad1dfdc738bb5e66890411fa",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd.h",
+        "path_type": "hardlink",
+        "sha256": "c1d4a57ff5cf17c6417a816d3b25876969512db8ec247d2b36255e140b22bf2c",
+        "sha256_in_prefix": "c1d4a57ff5cf17c6417a816d3b25876969512db8ec247d2b36255e140b22bf2c",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_dgeMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "19cfd0e9deb8bcf42a96b3159a98f06900a85b62d07cf1107218123d7988498f",
+        "sha256_in_prefix": "19cfd0e9deb8bcf42a96b3159a98f06900a85b62d07cf1107218123d7988498f",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_dsyMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "2330066c6dc34857fdd9daa0e4b016accd65ebd87de877e570cb75f66cff2d05",
+        "sha256_in_prefix": "2330066c6dc34857fdd9daa0e4b016accd65ebd87de877e570cb75f66cff2d05",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_function.h",
+        "path_type": "hardlink",
+        "sha256": "3639129c0ab61ad773b7f3cda4ffb7d0f4a4039fa58e79065de71063bc7c84e2",
+        "sha256_in_prefix": "3639129c0ab61ad773b7f3cda4ffb7d0f4a4039fa58e79065de71063bc7c84e2",
+        "size_in_bytes": 1362
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "89ff6463f80ff574f54be256c4b6ca94140c1eca37b2536bf35c510d63683db8",
+        "sha256_in_prefix": "89ff6463f80ff574f54be256c4b6ca94140c1eca37b2536bf35c510d63683db8",
+        "size_in_bytes": 1611
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_sparseMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "73aabc5e0affc51fad4487bf0a961062a0c64e662d6e1df2a72529f0be7a9926",
+        "sha256_in_prefix": "73aabc5e0affc51fad4487bf0a961062a0c64e662d6e1df2a72529f0be7a9926",
+        "size_in_bytes": 1390
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_sym_dgeMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "23f44d6c9f0d72fcbd7ca1732e278f828965761018a3cf8b90eca15105dc27c3",
+        "sha256_in_prefix": "23f44d6c9f0d72fcbd7ca1732e278f828965761018a3cf8b90eca15105dc27c3",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_sym_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "3b49a424433072886f17de499a97140fc689a1a379866c1baf1e3034873cb1ba",
+        "sha256_in_prefix": "3b49a424433072886f17de499a97140fc689a1a379866c1baf1e3034873cb1ba",
+        "size_in_bytes": 1074
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/MatProd_sym_sparseMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "a389546a01aafbc4ab08524262f2e7c46f38a021b85c86f2e5602831b1c7ff2e",
+        "sha256_in_prefix": "a389546a01aafbc4ab08524262f2e7c46f38a021b85c86f2e5602831b1c7ff2e",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift.h",
+        "path_type": "hardlink",
+        "sha256": "0e9cbc7075d0023baec49b577fc9cc0f0a8436139ea145dcc690e9462e05d88f",
+        "sha256_in_prefix": "0e9cbc7075d0023baec49b577fc9cc0f0a8436139ea145dcc690e9462e05d88f",
+        "size_in_bytes": 348
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_dgeMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "7237d53961dd3e6546aedf24687993a8a4bfb554affdffdde502085a3e993da8",
+        "sha256_in_prefix": "7237d53961dd3e6546aedf24687993a8a4bfb554affdffdde502085a3e993da8",
+        "size_in_bytes": 373
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_dsyMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "25c13bf6fae76ed2dc176e97880c9f862c7cdea2e5450c8b069adb96426e0039",
+        "sha256_in_prefix": "25c13bf6fae76ed2dc176e97880c9f862c7cdea2e5450c8b069adb96426e0039",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "410790d418bfa7fad5773d409d9068b4c582e0ac8818e068fc97d15fd032cdaf",
+        "sha256_in_prefix": "410790d418bfa7fad5773d409d9068b4c582e0ac8818e068fc97d15fd032cdaf",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_sparseMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "ba8c2d4d69d7c21a37ba2f42088873a310c54d8cdd38bb5facd97189fe037504",
+        "sha256_in_prefix": "ba8c2d4d69d7c21a37ba2f42088873a310c54d8cdd38bb5facd97189fe037504",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_sym_dgeMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "b04794aab3e8cc10176d2593168e76e299092402c7bc99eb5ff21db613315851",
+        "sha256_in_prefix": "b04794aab3e8cc10176d2593168e76e299092402c7bc99eb5ff21db613315851",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_sym_matrix.h",
+        "path_type": "hardlink",
+        "sha256": "b3432fae3aa195f5f033fc2244d55c3997b1f88d16b86e9925e52f54bdca3d7b",
+        "sha256_in_prefix": "b3432fae3aa195f5f033fc2244d55c3997b1f88d16b86e9925e52f54bdca3d7b",
+        "size_in_bytes": 2287
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/RealShift_sym_sparseMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "cabb9881a6a5ad6ec5bd4cfb7709dde1e41b40b193b14050e2354f262fc49fd4",
+        "sha256_in_prefix": "cabb9881a6a5ad6ec5bd4cfb7709dde1e41b40b193b14050e2354f262fc49fd4",
+        "size_in_bytes": 1706
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/SVDOp.h",
+        "path_type": "hardlink",
+        "sha256": "1148c01dbcd1ed68d641ccbcf909a937bad35d69329f61226831f7f5658f2c71",
+        "sha256_in_prefix": "1148c01dbcd1ed68d641ccbcf909a937bad35d69329f61226831f7f5658f2c71",
+        "size_in_bytes": 3997
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/RMatOp/SparseMatrixMapping.h",
+        "path_type": "hardlink",
+        "sha256": "61d66be33854df5a15de00620d8ae7923fcb2fd33ae5977aa9d68dd7ebee2e17",
+        "sha256_in_prefix": "61d66be33854df5a15de00620d8ae7923fcb2fd33ae5977aa9d68dd7ebee2e17",
+        "size_in_bytes": 1401
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/GenEigsBase.h",
+        "path_type": "hardlink",
+        "sha256": "bcb15f2ffff5af3ac4dc0c4a729f35fa945ecdd7350239c877ae39b32e2b5be1",
+        "sha256_in_prefix": "bcb15f2ffff5af3ac4dc0c4a729f35fa945ecdd7350239c877ae39b32e2b5be1",
+        "size_in_bytes": 15954
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/GenEigsComplexShiftSolver.h",
+        "path_type": "hardlink",
+        "sha256": "8590655c76b0b14d631def8cc92d40233269c0f93273d2f9a18275f7453fb050",
+        "sha256_in_prefix": "8590655c76b0b14d631def8cc92d40233269c0f93273d2f9a18275f7453fb050",
+        "size_in_bytes": 7136
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/GenEigsRealShiftSolver.h",
+        "path_type": "hardlink",
+        "sha256": "377b6bcd2a23f36e3bb50c950a4ff30e4ed38cf84bda7d99260f6bad476070f5",
+        "sha256_in_prefix": "377b6bcd2a23f36e3bb50c950a4ff30e4ed38cf84bda7d99260f6bad476070f5",
+        "size_in_bytes": 4054
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/GenEigsSolver.h",
+        "path_type": "hardlink",
+        "sha256": "985603c5a8e8e961f7edcdcd661eca83a279c29aebf4d155a1c5e7e7311302f7",
+        "sha256_in_prefix": "985603c5a8e8e961f7edcdcd661eca83a279c29aebf4d155a1c5e7e7311302f7",
+        "size_in_bytes": 5849
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/Arnoldi.h",
+        "path_type": "hardlink",
+        "sha256": "7f9716d830755844a831111e3c77f568279a7a96bd3945a96d4b78a8c1538e14",
+        "sha256_in_prefix": "7f9716d830755844a831111e3c77f568279a7a96bd3945a96d4b78a8c1538e14",
+        "size_in_bytes": 9750
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/BKLDLT.h",
+        "path_type": "hardlink",
+        "sha256": "b61e1adb430b8929a99f2404831d7a07367291965881e1b27514b26633544138",
+        "sha256_in_prefix": "b61e1adb430b8929a99f2404831d7a07367291965881e1b27514b26633544138",
+        "size_in_bytes": 15583
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/DoubleShiftQR.h",
+        "path_type": "hardlink",
+        "sha256": "f2e4f5574a6c972113b626aa73a5944ccad771bd307b38cc542051d7cff1a45b",
+        "sha256_in_prefix": "f2e4f5574a6c972113b626aa73a5944ccad771bd307b38cc542051d7cff1a45b",
+        "size_in_bytes": 12534
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/Lanczos.h",
+        "path_type": "hardlink",
+        "sha256": "b5ea10d27b63fa633bc6e2ef4d98d5fa3c106d5e859d01f421ff812f1b2a0c43",
+        "sha256_in_prefix": "b5ea10d27b63fa633bc6e2ef4d98d5fa3c106d5e859d01f421ff812f1b2a0c43",
+        "size_in_bytes": 5956
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/TridiagEigen.h",
+        "path_type": "hardlink",
+        "sha256": "90fc642e152a348d4fb841da42167e246218e28d2ee0c3adc333bda02895dd28",
+        "sha256_in_prefix": "90fc642e152a348d4fb841da42167e246218e28d2ee0c3adc333bda02895dd28",
+        "size_in_bytes": 7052
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/UpperHessenbergEigen.h",
+        "path_type": "hardlink",
+        "sha256": "43522f331018f70287ded8a43434bf7bac2acc62f5d4f65441d83ace938c0506",
+        "sha256_in_prefix": "43522f331018f70287ded8a43434bf7bac2acc62f5d4f65441d83ace938c0506",
+        "size_in_bytes": 12309
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/LinAlg/UpperHessenbergQR.h",
+        "path_type": "hardlink",
+        "sha256": "bf131a352611b86a5dddca03abcf4ebfe2656ef39cb07201bc897f859a2c1739",
+        "sha256_in_prefix": "bf131a352611b86a5dddca03abcf4ebfe2656ef39cb07201bc897f859a2c1739",
+        "size_in_bytes": 23014
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/DenseCholesky.h",
+        "path_type": "hardlink",
+        "sha256": "036d5807b7da938f62bb145d9a8dbc8e490d0c17245c8436912d78f7e3658aa5",
+        "sha256_in_prefix": "036d5807b7da938f62bb145d9a8dbc8e490d0c17245c8436912d78f7e3658aa5",
+        "size_in_bytes": 3347
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/DenseGenComplexShiftSolve.h",
+        "path_type": "hardlink",
+        "sha256": "6ee27e2d04f93013f36457a995c9ad504c8d78103933cb1e4c65f5105e58219d",
+        "sha256_in_prefix": "6ee27e2d04f93013f36457a995c9ad504c8d78103933cb1e4c65f5105e58219d",
+        "size_in_bytes": 3267
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/DenseGenMatProd.h",
+        "path_type": "hardlink",
+        "sha256": "d5c72b5e753453ffecd2140ed81b2abec1f57a709637bd78fc59fe770b54a994",
+        "sha256_in_prefix": "d5c72b5e753453ffecd2140ed81b2abec1f57a709637bd78fc59fe770b54a994",
+        "size_in_bytes": 2276
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/DenseGenRealShiftSolve.h",
+        "path_type": "hardlink",
+        "sha256": "791f1cc1d91ca44f6640bdaab8be123e5ff6f88e0786fd849490027129e104d4",
+        "sha256_in_prefix": "791f1cc1d91ca44f6640bdaab8be123e5ff6f88e0786fd849490027129e104d4",
+        "size_in_bytes": 2628
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/DenseSymMatProd.h",
+        "path_type": "hardlink",
+        "sha256": "02b59ec0454d7499d02f96908843fbb17c718be4622bacbb24a063215e1e4092",
+        "sha256_in_prefix": "02b59ec0454d7499d02f96908843fbb17c718be4622bacbb24a063215e1e4092",
+        "size_in_bytes": 2206
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/DenseSymShiftSolve.h",
+        "path_type": "hardlink",
+        "sha256": "dbf023590bfe50ee135f5772f0fc8194f3ae2e6d609408322e2b583dc4d8583a",
+        "sha256_in_prefix": "dbf023590bfe50ee135f5772f0fc8194f3ae2e6d609408322e2b583dc4d8583a",
+        "size_in_bytes": 2774
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/SparseCholesky.h",
+        "path_type": "hardlink",
+        "sha256": "e86b886fbc77222db47bbfad0d39fa4a80f9279acd2a2f132c8e7579132b71ce",
+        "sha256_in_prefix": "e86b886fbc77222db47bbfad0d39fa4a80f9279acd2a2f132c8e7579132b71ce",
+        "size_in_bytes": 3457
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/SparseGenMatProd.h",
+        "path_type": "hardlink",
+        "sha256": "f3b3a43947e80c0c8ecc0180315aaf0e560c1b29039b46c19a00190f1e104ce2",
+        "sha256_in_prefix": "f3b3a43947e80c0c8ecc0180315aaf0e560c1b29039b46c19a00190f1e104ce2",
+        "size_in_bytes": 2238
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/SparseGenRealShiftSolve.h",
+        "path_type": "hardlink",
+        "sha256": "6d142864001d7b2652afd80c5b3695726ec88b8d7442293cb6dc936c23ea2b9e",
+        "sha256_in_prefix": "6d142864001d7b2652afd80c5b3695726ec88b8d7442293cb6dc936c23ea2b9e",
+        "size_in_bytes": 2895
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/SparseRegularInverse.h",
+        "path_type": "hardlink",
+        "sha256": "2473183b894eb6844d531f20131e4d24c0d27c9400008239816e1f0747a2b89c",
+        "sha256_in_prefix": "2473183b894eb6844d531f20131e4d24c0d27c9400008239816e1f0747a2b89c",
+        "size_in_bytes": 3139
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/SparseSymMatProd.h",
+        "path_type": "hardlink",
+        "sha256": "8a39aa1c71cb5d2a53419e204130e866ab0dd1eb58e1f7afc0bbc29f7cdbd239",
+        "sha256_in_prefix": "8a39aa1c71cb5d2a53419e204130e866ab0dd1eb58e1f7afc0bbc29f7cdbd239",
+        "size_in_bytes": 2283
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/SparseSymShiftSolve.h",
+        "path_type": "hardlink",
+        "sha256": "18724bb08b9c5607e2a544c06bf64554339e6d2703b342b06a5d4c1c6af865e4",
+        "sha256_in_prefix": "18724bb08b9c5607e2a544c06bf64554339e6d2703b342b06a5d4c1c6af865e4",
+        "size_in_bytes": 3036
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/internal/ArnoldiOp.h",
+        "path_type": "hardlink",
+        "sha256": "cb1bfab618c8f21771936410008ab15006a6f4296178643914533eda2783120a",
+        "sha256_in_prefix": "cb1bfab618c8f21771936410008ab15006a6f4296178643914533eda2783120a",
+        "size_in_bytes": 3594
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/internal/SymGEigsCholeskyOp.h",
+        "path_type": "hardlink",
+        "sha256": "01352472220f282402d5b8e944edeb2abd5eab2940b7f8f4b208f90a720f87f7",
+        "sha256_in_prefix": "01352472220f282402d5b8e944edeb2abd5eab2940b7f8f4b208f90a720f87f7",
+        "size_in_bytes": 2306
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/MatOp/internal/SymGEigsRegInvOp.h",
+        "path_type": "hardlink",
+        "sha256": "a0483831592e34ab0857172db8c5fffda4e532ea4731b27ef6aaccff571b9001",
+        "sha256_in_prefix": "a0483831592e34ab0857172db8c5fffda4e532ea4731b27ef6aaccff571b9001",
+        "size_in_bytes": 2092
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/SymEigsBase.h",
+        "path_type": "hardlink",
+        "sha256": "e1d676d88abd476e5f3175a58e516e5399ec08fbfa81a8575c50bdb9653d91e2",
+        "sha256_in_prefix": "e1d676d88abd476e5f3175a58e516e5399ec08fbfa81a8575c50bdb9653d91e2",
+        "size_in_bytes": 14455
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/SymEigsShiftSolver.h",
+        "path_type": "hardlink",
+        "sha256": "e45d1eba11b737561be88b0a0aa109ada656c263915b1e14c0dee817bf0a6c8a",
+        "sha256_in_prefix": "e45d1eba11b737561be88b0a0aa109ada656c263915b1e14c0dee817bf0a6c8a",
+        "size_in_bytes": 8079
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/SymEigsSolver.h",
+        "path_type": "hardlink",
+        "sha256": "6a1e0669eb169d2b777448a8ec2c47dba8ef2e2dd94a89d2b2f68538fd327a29",
+        "sha256_in_prefix": "6a1e0669eb169d2b777448a8ec2c47dba8ef2e2dd94a89d2b2f68538fd327a29",
+        "size_in_bytes": 6523
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/SymGEigsSolver.h",
+        "path_type": "hardlink",
+        "sha256": "281715c5c474ab8b1bd0e54fe842a092a597fd597aa9d7cddbe7d281e6335b80",
+        "sha256_in_prefix": "281715c5c474ab8b1bd0e54fe842a092a597fd597aa9d7cddbe7d281e6335b80",
+        "size_in_bytes": 15024
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/Util/CompInfo.h",
+        "path_type": "hardlink",
+        "sha256": "a44127b60d20ec5dbcb859bd2d5541d64978368c7d72521a7f03e0cd59e06e17",
+        "sha256_in_prefix": "a44127b60d20ec5dbcb859bd2d5541d64978368c7d72521a7f03e0cd59e06e17",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/Util/GEigsMode.h",
+        "path_type": "hardlink",
+        "sha256": "155980fa4bbac9fb1a2d4c527dec68eb2cc73cfe496cc552b85c02d3cd203b38",
+        "sha256_in_prefix": "155980fa4bbac9fb1a2d4c527dec68eb2cc73cfe496cc552b85c02d3cd203b38",
+        "size_in_bytes": 969
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/Util/SelectionRule.h",
+        "path_type": "hardlink",
+        "sha256": "5f8ed41418bb3d5716810519b65dfa6bd0c836d6f6075c7dbbe0509f9e4682f9",
+        "sha256_in_prefix": "5f8ed41418bb3d5716810519b65dfa6bd0c836d6f6075c7dbbe0509f9e4682f9",
+        "size_in_bytes": 7626
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/Util/SimpleRandom.h",
+        "path_type": "hardlink",
+        "sha256": "101a2bdbe99b4066901e6e59a8b0aa7baba2f0c20d7694f8663d1129df1408ba",
+        "sha256_in_prefix": "101a2bdbe99b4066901e6e59a8b0aa7baba2f0c20d7694f8663d1129df1408ba",
+        "size_in_bytes": 2467
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/Spectra/Util/TypeTraits.h",
+        "path_type": "hardlink",
+        "sha256": "a9411a4c4fc77d4eeff350b000420ec42fd08052b1a03da26c8e309aa866b6c8",
+        "sha256_in_prefix": "a9411a4c4fc77d4eeff350b000420ec42fd08052b1a03da26c8e309aa866b6c8",
+        "size_in_bytes": 1570
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/SpectraC.h",
+        "path_type": "hardlink",
+        "sha256": "6852af3d079a22c398fd6f0a5a98f41bee1ee986bd91118761c953390f75fb7f",
+        "sha256_in_prefix": "6852af3d079a22c398fd6f0a5a98f41bee1ee986bd91118761c953390f75fb7f",
+        "size_in_bytes": 3595
+      },
+      {
+        "_path": "lib/R/library/RSpectra/include/SymEigs.h",
+        "path_type": "hardlink",
+        "sha256": "32a0ed71892d3b3febcb61b63eb84afb31e527d78b64fe1cc480e0ae17ecbfbc",
+        "sha256_in_prefix": "32a0ed71892d3b3febcb61b63eb84afb31e527d78b64fe1cc480e0ae17ecbfbc",
+        "size_in_bytes": 162
+      },
+      {
+        "_path": "lib/R/library/RSpectra/libs/RSpectra.so",
+        "path_type": "hardlink",
+        "sha256": "bb3932b749c20860a5328adc3987442ed878eef233be73af3e5a31c7d1c3d07f",
+        "sha256_in_prefix": "bb3932b749c20860a5328adc3987442ed878eef233be73af3e5a31c7d1c3d07f",
+        "size_in_bytes": 1011024
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "66b83f6b36f2a1f0e3bbfb2d12099699d4cff75ec07abeea2c4b6f5c85581842",
+  "size": 503140,
+  "subdir": "linux-64",
+  "timestamp": 1589144053000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rspectra-0.16_0-r36h51c796c_3.tar.bz2",
+  "version": "0.16_0"
+}

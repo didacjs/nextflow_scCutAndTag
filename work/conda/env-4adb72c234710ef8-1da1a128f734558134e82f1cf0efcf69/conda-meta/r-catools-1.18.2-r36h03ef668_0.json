@@ -1,0 +1,204 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-bitops"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-catools-1.18.2-r36h03ef668_0",
+  "files": [
+    "lib/R/library/caTools/DESCRIPTION",
+    "lib/R/library/caTools/INDEX",
+    "lib/R/library/caTools/Meta/Rd.rds",
+    "lib/R/library/caTools/Meta/features.rds",
+    "lib/R/library/caTools/Meta/hsearch.rds",
+    "lib/R/library/caTools/Meta/links.rds",
+    "lib/R/library/caTools/Meta/nsInfo.rds",
+    "lib/R/library/caTools/Meta/package.rds",
+    "lib/R/library/caTools/NAMESPACE",
+    "lib/R/library/caTools/NEWS",
+    "lib/R/library/caTools/R/caTools",
+    "lib/R/library/caTools/R/caTools.rdb",
+    "lib/R/library/caTools/R/caTools.rdx",
+    "lib/R/library/caTools/help/AnIndex",
+    "lib/R/library/caTools/help/aliases.rds",
+    "lib/R/library/caTools/help/caTools.rdb",
+    "lib/R/library/caTools/help/caTools.rdx",
+    "lib/R/library/caTools/help/paths.rds",
+    "lib/R/library/caTools/html/00Index.html",
+    "lib/R/library/caTools/html/R.css",
+    "lib/R/library/caTools/libs/caTools.so"
+  ],
+  "fn": "r-catools-1.18.2-r36h03ef668_0.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-catools-1.18.2-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "1cd48c11719891fa608f85a3b4b8cd25",
+  "name": "r-catools",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-catools-1.18.2-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/caTools/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1a7f0cd4590cbecfe0acb732d9b5f5b6b11a0661faec1226829d24669766237d",
+        "sha256_in_prefix": "1a7f0cd4590cbecfe0acb732d9b5f5b6b11a0661faec1226829d24669766237d",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "lib/R/library/caTools/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2f67a7b9d40567981fc3d907f70d0e8f9d13668b32cc9caa80241152844a35fb",
+        "sha256_in_prefix": "2f67a7b9d40567981fc3d907f70d0e8f9d13668b32cc9caa80241152844a35fb",
+        "size_in_bytes": 1077
+      },
+      {
+        "_path": "lib/R/library/caTools/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "e48e584a239b1019291176219f60daeab6e96a63f2485d88bf6af4e4edbd136c",
+        "sha256_in_prefix": "e48e584a239b1019291176219f60daeab6e96a63f2485d88bf6af4e4edbd136c",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "lib/R/library/caTools/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/caTools/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c36748396093c39271afc75272af72a7529eb95fd8ee99eb30b596e75c3752d8",
+        "sha256_in_prefix": "c36748396093c39271afc75272af72a7529eb95fd8ee99eb30b596e75c3752d8",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/R/library/caTools/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "60ada69bd5801627da8e5c51a825090c642091a4a8f746946440cb3593d9f18e",
+        "sha256_in_prefix": "60ada69bd5801627da8e5c51a825090c642091a4a8f746946440cb3593d9f18e",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/R/library/caTools/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "92f2f0c428c62edf16f39648dcbcbf8d629fb15e29d5067ca318d8eeb39a4b0f",
+        "sha256_in_prefix": "92f2f0c428c62edf16f39648dcbcbf8d629fb15e29d5067ca318d8eeb39a4b0f",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "lib/R/library/caTools/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "56536abeb3f277a2497c90d93dfca96a7d6b9b71feb3272e79191044f2acf780",
+        "sha256_in_prefix": "56536abeb3f277a2497c90d93dfca96a7d6b9b71feb3272e79191044f2acf780",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "lib/R/library/caTools/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e4c8ac336efdbd6fddf9b7e86150b623ac8fd2818cf53f3b8878571748ea8495",
+        "sha256_in_prefix": "e4c8ac336efdbd6fddf9b7e86150b623ac8fd2818cf53f3b8878571748ea8495",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/R/library/caTools/NEWS",
+        "path_type": "hardlink",
+        "sha256": "1fec0c812a7c635509d5a8a477908eb1abf98c8d7e13c3d77183c5f5c6defb0e",
+        "sha256_in_prefix": "1fec0c812a7c635509d5a8a477908eb1abf98c8d7e13c3d77183c5f5c6defb0e",
+        "size_in_bytes": 604
+      },
+      {
+        "_path": "lib/R/library/caTools/R/caTools",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/caTools/R/caTools.rdb",
+        "path_type": "hardlink",
+        "sha256": "d1a1291c4eeb91ad20b316ba09017a3d66d954f9f633810869ce19d2bb7eb7f1",
+        "sha256_in_prefix": "d1a1291c4eeb91ad20b316ba09017a3d66d954f9f633810869ce19d2bb7eb7f1",
+        "size_in_bytes": 61944
+      },
+      {
+        "_path": "lib/R/library/caTools/R/caTools.rdx",
+        "path_type": "hardlink",
+        "sha256": "90d0503a198057e2b066f9def875ffd411630b1632ba9241e7e987d63d4b74bd",
+        "sha256_in_prefix": "90d0503a198057e2b066f9def875ffd411630b1632ba9241e7e987d63d4b74bd",
+        "size_in_bytes": 543
+      },
+      {
+        "_path": "lib/R/library/caTools/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "5715f5617d2145e7d5b9dd5daade3e0ad68cf49105c4f3035bf0530d894c5f43",
+        "sha256_in_prefix": "5715f5617d2145e7d5b9dd5daade3e0ad68cf49105c4f3035bf0530d894c5f43",
+        "size_in_bytes": 442
+      },
+      {
+        "_path": "lib/R/library/caTools/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8ab12b8a52c305dbe17d2e3424aac6f3471e2d885246429ca0878ac7bcc9fad9",
+        "sha256_in_prefix": "8ab12b8a52c305dbe17d2e3424aac6f3471e2d885246429ca0878ac7bcc9fad9",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/R/library/caTools/help/caTools.rdb",
+        "path_type": "hardlink",
+        "sha256": "582ceb1d52722252f17579bd4fd153c62b2019d686c930f14705d117d9c0197c",
+        "sha256_in_prefix": "582ceb1d52722252f17579bd4fd153c62b2019d686c930f14705d117d9c0197c",
+        "size_in_bytes": 109319
+      },
+      {
+        "_path": "lib/R/library/caTools/help/caTools.rdx",
+        "path_type": "hardlink",
+        "sha256": "d19beddd6a4cf45fda48c0f5561690fedbe2276890f566d25a4ac7de3f07c1c0",
+        "sha256_in_prefix": "d19beddd6a4cf45fda48c0f5561690fedbe2276890f566d25a4ac7de3f07c1c0",
+        "size_in_bytes": 560
+      },
+      {
+        "_path": "lib/R/library/caTools/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "cd55ef6d1c256ece51f021411bf9764fe97190801d13f4493e7253951c7dae31",
+        "sha256_in_prefix": "cd55ef6d1c256ece51f021411bf9764fe97190801d13f4493e7253951c7dae31",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "lib/R/library/caTools/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "53120a7af5a06b3c11f4b6d774eb3fac6d27bd33134c3aba1522f6543a131218",
+        "sha256_in_prefix": "53120a7af5a06b3c11f4b6d774eb3fac6d27bd33134c3aba1522f6543a131218",
+        "size_in_bytes": 3817
+      },
+      {
+        "_path": "lib/R/library/caTools/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/caTools/libs/caTools.so",
+        "path_type": "hardlink",
+        "sha256": "a0aae7ac00502820040149ed92fcf010183da1d801cac8c785254e198fa7d1d6",
+        "sha256_in_prefix": "a0aae7ac00502820040149ed92fcf010183da1d801cac8c785254e198fa7d1d6",
+        "size_in_bytes": 51592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "67c55b6ce115ba86afd1abd1a39d0d0af495375800727ffb4d87c1d8eed88b0f",
+  "size": 227804,
+  "subdir": "linux-64",
+  "timestamp": 1616921228000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-catools-1.18.2-r36h03ef668_0.tar.bz2",
+  "version": "1.18.2"
+}

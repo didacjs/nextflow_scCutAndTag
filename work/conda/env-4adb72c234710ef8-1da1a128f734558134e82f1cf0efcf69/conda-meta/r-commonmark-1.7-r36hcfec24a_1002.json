@@ -1,0 +1,210 @@
+{
+  "build": "r36hcfec24a_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-commonmark-1.7-r36hcfec24a_1002",
+  "files": [
+    "lib/R/library/commonmark/DESCRIPTION",
+    "lib/R/library/commonmark/INDEX",
+    "lib/R/library/commonmark/LICENSE",
+    "lib/R/library/commonmark/Meta/Rd.rds",
+    "lib/R/library/commonmark/Meta/features.rds",
+    "lib/R/library/commonmark/Meta/hsearch.rds",
+    "lib/R/library/commonmark/Meta/links.rds",
+    "lib/R/library/commonmark/Meta/nsInfo.rds",
+    "lib/R/library/commonmark/Meta/package.rds",
+    "lib/R/library/commonmark/NAMESPACE",
+    "lib/R/library/commonmark/NEWS",
+    "lib/R/library/commonmark/R/commonmark",
+    "lib/R/library/commonmark/R/commonmark.rdb",
+    "lib/R/library/commonmark/R/commonmark.rdx",
+    "lib/R/library/commonmark/help/AnIndex",
+    "lib/R/library/commonmark/help/aliases.rds",
+    "lib/R/library/commonmark/help/commonmark.rdb",
+    "lib/R/library/commonmark/help/commonmark.rdx",
+    "lib/R/library/commonmark/help/paths.rds",
+    "lib/R/library/commonmark/html/00Index.html",
+    "lib/R/library/commonmark/html/R.css",
+    "lib/R/library/commonmark/libs/commonmark.so"
+  ],
+  "fn": "r-commonmark-1.7-r36hcfec24a_1002.tar.bz2",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-commonmark-1.7-r36hcfec24a_1002",
+    "type": 1
+  },
+  "md5": "87450cebe9060b49a528fa58288413b0",
+  "name": "r-commonmark",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-commonmark-1.7-r36hcfec24a_1002.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/commonmark/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "9bcf45b1f2aff2ad2aa24166e2f81bb48c9284b330bbfc6215735d7f153eee70",
+        "sha256_in_prefix": "9bcf45b1f2aff2ad2aa24166e2f81bb48c9284b330bbfc6215735d7f153eee70",
+        "size_in_bytes": 1247
+      },
+      {
+        "_path": "lib/R/library/commonmark/INDEX",
+        "path_type": "hardlink",
+        "sha256": "202997555ba515d0b088a0f31d2a15fd3e00b8e44ee7f773b32a3d74db136223",
+        "sha256_in_prefix": "202997555ba515d0b088a0f31d2a15fd3e00b8e44ee7f773b32a3d74db136223",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/R/library/commonmark/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5ed09c8d5a9cbf108841f954e69322f216234906f5131c15328e5126e251776d",
+        "sha256_in_prefix": "5ed09c8d5a9cbf108841f954e69322f216234906f5131c15328e5126e251776d",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/commonmark/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "86cfd547b795bf76a19d3c15453ad4c30cc235f06538452c2f649dca28e5dfc7",
+        "sha256_in_prefix": "86cfd547b795bf76a19d3c15453ad4c30cc235f06538452c2f649dca28e5dfc7",
+        "size_in_bytes": 320
+      },
+      {
+        "_path": "lib/R/library/commonmark/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/commonmark/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "aabb215591011e19a557373306987575d1cde8f33b8d0858c414b389aba52af2",
+        "sha256_in_prefix": "aabb215591011e19a557373306987575d1cde8f33b8d0858c414b389aba52af2",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/R/library/commonmark/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "1b3402c103e3f0c8d81e4653e8ee4c182e543aebc99542c89faf80d6890ae1e1",
+        "sha256_in_prefix": "1b3402c103e3f0c8d81e4653e8ee4c182e543aebc99542c89faf80d6890ae1e1",
+        "size_in_bytes": 179
+      },
+      {
+        "_path": "lib/R/library/commonmark/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d13e418c3fb73c24712249c4c80467bc03d23ec833bcf832ecb6cb091b03af6a",
+        "sha256_in_prefix": "d13e418c3fb73c24712249c4c80467bc03d23ec833bcf832ecb6cb091b03af6a",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/commonmark/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "367e92b83df43a2bf30cb5f7c8622a5425f8ab2a0aa4e7e45831cdb582c95144",
+        "sha256_in_prefix": "367e92b83df43a2bf30cb5f7c8622a5425f8ab2a0aa4e7e45831cdb582c95144",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "lib/R/library/commonmark/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b5a3075e18f545dab57281921f2cb3054c35ab7637e6997e05d45a3a595e8b33",
+        "sha256_in_prefix": "b5a3075e18f545dab57281921f2cb3054c35ab7637e6997e05d45a3a595e8b33",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/R/library/commonmark/NEWS",
+        "path_type": "hardlink",
+        "sha256": "2b9a60247ce9139696a67bd354f3223eca2374c7a36529250279acd461c2315a",
+        "sha256_in_prefix": "2b9a60247ce9139696a67bd354f3223eca2374c7a36529250279acd461c2315a",
+        "size_in_bytes": 842
+      },
+      {
+        "_path": "lib/R/library/commonmark/R/commonmark",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/commonmark/R/commonmark.rdb",
+        "path_type": "hardlink",
+        "sha256": "843738d725e26d85b5395878f3d7bac4598e27b73b65d0d72e320d1dfcef7049",
+        "sha256_in_prefix": "843738d725e26d85b5395878f3d7bac4598e27b73b65d0d72e320d1dfcef7049",
+        "size_in_bytes": 5320
+      },
+      {
+        "_path": "lib/R/library/commonmark/R/commonmark.rdx",
+        "path_type": "hardlink",
+        "sha256": "bd4a3feaa809952b4ce28d21dce0666c2ab523aa7625853e670402fc3831dbca",
+        "sha256_in_prefix": "bd4a3feaa809952b4ce28d21dce0666c2ab523aa7625853e670402fc3831dbca",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/commonmark/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6113438f66ee77f3156b6d42eceb4b72a65927df2e4d4211d48656d283dcd4a6",
+        "sha256_in_prefix": "6113438f66ee77f3156b6d42eceb4b72a65927df2e4d4211d48656d283dcd4a6",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/commonmark/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "abc11e41868d58903103b3c41753d2d180d9ebb7b92a15781fd7c5c1eccbe89e",
+        "sha256_in_prefix": "abc11e41868d58903103b3c41753d2d180d9ebb7b92a15781fd7c5c1eccbe89e",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/commonmark/help/commonmark.rdb",
+        "path_type": "hardlink",
+        "sha256": "1457f7197c5306a8144f356510f3053c4aa07c937beb52d832c88c37a038e911",
+        "sha256_in_prefix": "1457f7197c5306a8144f356510f3053c4aa07c937beb52d832c88c37a038e911",
+        "size_in_bytes": 5208
+      },
+      {
+        "_path": "lib/R/library/commonmark/help/commonmark.rdx",
+        "path_type": "hardlink",
+        "sha256": "c532bb7a1f0f025106e67d41fd41fce7da017ce4b14dc8b3b99952cdde9a1695",
+        "sha256_in_prefix": "c532bb7a1f0f025106e67d41fd41fce7da017ce4b14dc8b3b99952cdde9a1695",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/R/library/commonmark/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3b6ac0711ba7e4659f47f4ec0b058c34e5798669ad9623b62c69a3db440f811c",
+        "sha256_in_prefix": "3b6ac0711ba7e4659f47f4ec0b058c34e5798669ad9623b62c69a3db440f811c",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/R/library/commonmark/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "19d33db848a1427420d6c2ef43d399dcfcbe2552b8997da240aaaedfec4ad050",
+        "sha256_in_prefix": "19d33db848a1427420d6c2ef43d399dcfcbe2552b8997da240aaaedfec4ad050",
+        "size_in_bytes": 2257
+      },
+      {
+        "_path": "lib/R/library/commonmark/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/commonmark/libs/commonmark.so",
+        "path_type": "hardlink",
+        "sha256": "daee40aa2e0780350258a287c4ac4a1e04b56cfcda53465268268b64c8e31f00",
+        "sha256_in_prefix": "daee40aa2e0780350258a287c4ac4a1e04b56cfcda53465268268b64c8e31f00",
+        "size_in_bytes": 348672
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "06818406528fa1fa863f6cf9eddb01e91f33251c3d71869042adbec139ae2958",
+  "size": 151009,
+  "subdir": "linux-64",
+  "timestamp": 1621534954000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-commonmark-1.7-r36hcfec24a_1002.tar.bz2",
+  "version": "1.7"
+}

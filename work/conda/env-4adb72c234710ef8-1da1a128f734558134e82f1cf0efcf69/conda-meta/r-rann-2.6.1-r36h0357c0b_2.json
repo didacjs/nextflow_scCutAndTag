@@ -1,0 +1,211 @@
+{
+  "build": "r36h0357c0b_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rann-2.6.1-r36h0357c0b_2",
+  "files": [
+    "lib/R/library/RANN/COPYRIGHT",
+    "lib/R/library/RANN/DESCRIPTION",
+    "lib/R/library/RANN/INDEX",
+    "lib/R/library/RANN/Meta/Rd.rds",
+    "lib/R/library/RANN/Meta/features.rds",
+    "lib/R/library/RANN/Meta/hsearch.rds",
+    "lib/R/library/RANN/Meta/links.rds",
+    "lib/R/library/RANN/Meta/nsInfo.rds",
+    "lib/R/library/RANN/Meta/package.rds",
+    "lib/R/library/RANN/NAMESPACE",
+    "lib/R/library/RANN/NEWS.md",
+    "lib/R/library/RANN/R/RANN",
+    "lib/R/library/RANN/R/RANN.rdb",
+    "lib/R/library/RANN/R/RANN.rdx",
+    "lib/R/library/RANN/help/AnIndex",
+    "lib/R/library/RANN/help/RANN.rdb",
+    "lib/R/library/RANN/help/RANN.rdx",
+    "lib/R/library/RANN/help/aliases.rds",
+    "lib/R/library/RANN/help/paths.rds",
+    "lib/R/library/RANN/html/00Index.html",
+    "lib/R/library/RANN/html/R.css",
+    "lib/R/library/RANN/libs/RANN.so"
+  ],
+  "fn": "r-rann-2.6.1-r36h0357c0b_2.tar.bz2",
+  "license": "GPL (>= 3)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rann-2.6.1-r36h0357c0b_2",
+    "type": 1
+  },
+  "md5": "33483e50a4dc5a66d752ee379bdcaf98",
+  "name": "r-rann",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rann-2.6.1-r36h0357c0b_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RANN/COPYRIGHT",
+        "path_type": "hardlink",
+        "sha256": "d82abfcd997402d32758aaa397fa2425640ebbcd387a84a644b722098cde7999",
+        "sha256_in_prefix": "d82abfcd997402d32758aaa397fa2425640ebbcd387a84a644b722098cde7999",
+        "size_in_bytes": 1846
+      },
+      {
+        "_path": "lib/R/library/RANN/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7fe94ec860ef326a25b0763275f3ad5b9ee19139e745d13e70ddee37daf71f48",
+        "sha256_in_prefix": "7fe94ec860ef326a25b0763275f3ad5b9ee19139e745d13e70ddee37daf71f48",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "lib/R/library/RANN/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2be657ba69f745abcafd3b4cd2f9cd2914d84b2292dea6776aad5435f160ea6d",
+        "sha256_in_prefix": "2be657ba69f745abcafd3b4cd2f9cd2914d84b2292dea6776aad5435f160ea6d",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/R/library/RANN/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "7d95139c4c24cf096e6cc861b1b71517046bef23ad08676ed759bba3d109dd5b",
+        "sha256_in_prefix": "7d95139c4c24cf096e6cc861b1b71517046bef23ad08676ed759bba3d109dd5b",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "lib/R/library/RANN/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RANN/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "acaa06c6de19db1609ebcc33ce1b6ee8a8d75621e189b9fa4b29f465b30bfc41",
+        "sha256_in_prefix": "acaa06c6de19db1609ebcc33ce1b6ee8a8d75621e189b9fa4b29f465b30bfc41",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "lib/R/library/RANN/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "0f56f6ce01ba3d17acbbbbae70d439dd14cc9b89df8a6075fcac3134ddec0e8d",
+        "sha256_in_prefix": "0f56f6ce01ba3d17acbbbbae70d439dd14cc9b89df8a6075fcac3134ddec0e8d",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/RANN/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "be521d45c5a5a392f2e54214d1b8bcefa2a50e605009bdda1a1d81580deaec72",
+        "sha256_in_prefix": "be521d45c5a5a392f2e54214d1b8bcefa2a50e605009bdda1a1d81580deaec72",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/R/library/RANN/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e2c7d95b667ad4ac99636f4d92990a9a641d83e34ca979ebbf6e42ff9a961175",
+        "sha256_in_prefix": "e2c7d95b667ad4ac99636f4d92990a9a641d83e34ca979ebbf6e42ff9a961175",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "lib/R/library/RANN/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "3ad44412390c1ed4bc577464168be26ff338381601e948c0aefa1f12a7e3d2b5",
+        "sha256_in_prefix": "3ad44412390c1ed4bc577464168be26ff338381601e948c0aefa1f12a7e3d2b5",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "lib/R/library/RANN/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "b721100d835b21f4136fcc547f38df21ed14e5a3d7c424a4e2ea76410eb78f35",
+        "sha256_in_prefix": "b721100d835b21f4136fcc547f38df21ed14e5a3d7c424a4e2ea76410eb78f35",
+        "size_in_bytes": 1948
+      },
+      {
+        "_path": "lib/R/library/RANN/R/RANN",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RANN/R/RANN.rdb",
+        "path_type": "hardlink",
+        "sha256": "f7a6a884c3c8dfc52c0829887a8bc2d85d6942273b397f314cf57efbe7be37bc",
+        "sha256_in_prefix": "f7a6a884c3c8dfc52c0829887a8bc2d85d6942273b397f314cf57efbe7be37bc",
+        "size_in_bytes": 3529
+      },
+      {
+        "_path": "lib/R/library/RANN/R/RANN.rdx",
+        "path_type": "hardlink",
+        "sha256": "d39977db45bd2478e4868eaa33b73fa989285c1af69b1495b17024c9817697f6",
+        "sha256_in_prefix": "d39977db45bd2478e4868eaa33b73fa989285c1af69b1495b17024c9817697f6",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/R/library/RANN/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "7296cb140c0bf7a71d40bfef73bdf491c02ad6d2d91d4f13096765dd4c48099f",
+        "sha256_in_prefix": "7296cb140c0bf7a71d40bfef73bdf491c02ad6d2d91d4f13096765dd4c48099f",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "lib/R/library/RANN/help/RANN.rdb",
+        "path_type": "hardlink",
+        "sha256": "4139f835401925fdac598e4895bec88472d78a31841abb769db821836fca1f65",
+        "sha256_in_prefix": "4139f835401925fdac598e4895bec88472d78a31841abb769db821836fca1f65",
+        "size_in_bytes": 5126
+      },
+      {
+        "_path": "lib/R/library/RANN/help/RANN.rdx",
+        "path_type": "hardlink",
+        "sha256": "06267fb5bd55d402cb4dc3ead179f1f221aa96d3f7dbbdd8c40c6b6c1e343770",
+        "sha256_in_prefix": "06267fb5bd55d402cb4dc3ead179f1f221aa96d3f7dbbdd8c40c6b6c1e343770",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/R/library/RANN/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8f21b0f5c702fb0f97bec8840e4e1e0c5a1c12a23ca6d79c66595e856022827a",
+        "sha256_in_prefix": "8f21b0f5c702fb0f97bec8840e4e1e0c5a1c12a23ca6d79c66595e856022827a",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/R/library/RANN/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "4240ceead051a728518af8967f515abb93e4528479b60549ff652c741775fef6",
+        "sha256_in_prefix": "4240ceead051a728518af8967f515abb93e4528479b60549ff652c741775fef6",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/R/library/RANN/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "07eb5aea968a0e626c433a6587bed79420fc4472a7dd35efeb1ba8b2edee9d9e",
+        "sha256_in_prefix": "07eb5aea968a0e626c433a6587bed79420fc4472a7dd35efeb1ba8b2edee9d9e",
+        "size_in_bytes": 1433
+      },
+      {
+        "_path": "lib/R/library/RANN/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RANN/libs/RANN.so",
+        "path_type": "hardlink",
+        "sha256": "72ac675421be8299d44d9c2a6a94a7f214175e4182de1d539d9b8b52883ed8e9",
+        "sha256_in_prefix": "72ac675421be8299d44d9c2a6a94a7f214175e4182de1d539d9b8b52883ed8e9",
+        "size_in_bytes": 76008
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a6d58192a3105a74edc4fa0caf9fbb5c8010a3586591fd511c0048b379c8a2ac",
+  "size": 62610,
+  "subdir": "linux-64",
+  "timestamp": 1588563163000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rann-2.6.1-r36h0357c0b_2.tar.bz2",
+  "version": "2.6.1"
+}

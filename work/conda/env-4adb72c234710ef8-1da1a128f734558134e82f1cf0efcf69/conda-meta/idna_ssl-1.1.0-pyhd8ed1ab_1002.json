@@ -1,0 +1,113 @@
+{
+  "build": "pyhd8ed1ab_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "idna >=2.0",
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/idna_ssl-1.1.0-pyhd8ed1ab_1002",
+  "files": [
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/LICENSE",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/idna_ssl-1.1.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/idna_ssl.py",
+    "lib/python3.6/site-packages/__pycache__/idna_ssl.cpython-36.pyc"
+  ],
+  "fn": "idna_ssl-1.1.0-pyhd8ed1ab_1002.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/idna_ssl-1.1.0-pyhd8ed1ab_1002",
+    "type": 1
+  },
+  "md5": "6753b982338465cd6dd10aafa0956e56",
+  "name": "idna_ssl",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/idna_ssl-1.1.0-pyhd8ed1ab_1002.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "beddf3a80aaaa71ebd6765b13bc680bd0450bb81191249cc889539523f9404ec",
+        "sha256_in_prefix": "beddf3a80aaaa71ebd6765b13bc680bd0450bb81191249cc889539523f9404ec",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "36789aca5a2b4950d229ce1e50d3dd8b012f3c32fb12374e4fffeaf34c7dcf4f",
+        "sha256_in_prefix": "36789aca5a2b4950d229ce1e50d3dd8b012f3c32fb12374e4fffeaf34c7dcf4f",
+        "size_in_bytes": 2371
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ee49b94f27d63c4df69e7267a0f2defc65f41d01d8c0af759e5620d0b353907d",
+        "sha256_in_prefix": "ee49b94f27d63c4df69e7267a0f2defc65f41d01d8c0af759e5620d0b353907d",
+        "size_in_bytes": 778
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "de5f0bc279b73e3bb56d18cf2693d1e21e391a9a37589c5cd90f54d19111ab49",
+        "sha256_in_prefix": "de5f0bc279b73e3bb56d18cf2693d1e21e391a9a37589c5cd90f54d19111ab49",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/idna_ssl-1.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1dd12ef1f5f77a4db325db2c3549054595496ef5eda814eac29a216d67958721",
+        "sha256_in_prefix": "1dd12ef1f5f77a4db325db2c3549054595496ef5eda814eac29a216d67958721",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/idna_ssl.py",
+        "path_type": "hardlink",
+        "sha256": "4434f856d4f1222658afa55ad7aac9a4a8a45d372489074fc150540bf5f24467",
+        "sha256_in_prefix": "4434f856d4f1222658afa55ad7aac9a4a8a45d372489074fc150540bf5f24467",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/idna_ssl.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0096d40308f1e2f81391a7071e9aab37d93a907b2d218093414caa65a57b8883",
+  "size": 7193,
+  "subdir": "noarch",
+  "timestamp": 1636483577000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/idna_ssl-1.1.0-pyhd8ed1ab_1002.tar.bz2",
+  "version": "1.1.0"
+}

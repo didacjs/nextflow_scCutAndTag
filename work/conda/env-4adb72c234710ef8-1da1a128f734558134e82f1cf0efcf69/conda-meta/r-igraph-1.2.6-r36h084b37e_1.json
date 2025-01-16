@@ -1,0 +1,436 @@
+{
+  "build": "r36h084b37e_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.2.0,<7.0a0",
+    "libblas >=3.8.0,<4.0a0",
+    "libgcc-ng >=7.5.0",
+    "libgfortran-ng",
+    "libgfortran4 >=7.5.0",
+    "liblapack >=3.8.0,<4.0a0",
+    "libstdcxx-ng >=7.5.0",
+    "libxml2 >=2.9.10,<3.0.0a0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-magrittr",
+    "r-matrix",
+    "r-pkgconfig >=2.0.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-igraph-1.2.6-r36h084b37e_1",
+  "files": [
+    "lib/R/library/igraph/AUTHORS",
+    "lib/R/library/igraph/CITATION",
+    "lib/R/library/igraph/DESCRIPTION",
+    "lib/R/library/igraph/INDEX",
+    "lib/R/library/igraph/Meta/Rd.rds",
+    "lib/R/library/igraph/Meta/demo.rds",
+    "lib/R/library/igraph/Meta/features.rds",
+    "lib/R/library/igraph/Meta/hsearch.rds",
+    "lib/R/library/igraph/Meta/links.rds",
+    "lib/R/library/igraph/Meta/nsInfo.rds",
+    "lib/R/library/igraph/Meta/package.rds",
+    "lib/R/library/igraph/NAMESPACE",
+    "lib/R/library/igraph/NEWS.md",
+    "lib/R/library/igraph/R/igraph",
+    "lib/R/library/igraph/R/igraph.rdb",
+    "lib/R/library/igraph/R/igraph.rdx",
+    "lib/R/library/igraph/README.md",
+    "lib/R/library/igraph/benchmarks/correlated.R",
+    "lib/R/library/igraph/benchmarks/local.scan.R",
+    "lib/R/library/igraph/benchmarks/time_call.R",
+    "lib/R/library/igraph/benchmarks/time_dirSelect.R",
+    "lib/R/library/igraph/benchmarks/time_fr_layout.R",
+    "lib/R/library/igraph/benchmarks/time_kk_layout.R",
+    "lib/R/library/igraph/benchmarks/time_print.R",
+    "lib/R/library/igraph/benchmarks/time_sgm.R",
+    "lib/R/library/igraph/benchmarks/time_sir.R",
+    "lib/R/library/igraph/demo/centrality.R",
+    "lib/R/library/igraph/demo/cohesive.R",
+    "lib/R/library/igraph/demo/community.R",
+    "lib/R/library/igraph/demo/crashR.R",
+    "lib/R/library/igraph/demo/hrg.R",
+    "lib/R/library/igraph/demo/smallworld.R",
+    "lib/R/library/igraph/help/AnIndex",
+    "lib/R/library/igraph/help/aliases.rds",
+    "lib/R/library/igraph/help/igraph.rdb",
+    "lib/R/library/igraph/help/igraph.rdx",
+    "lib/R/library/igraph/help/paths.rds",
+    "lib/R/library/igraph/html/00Index.html",
+    "lib/R/library/igraph/html/R.css",
+    "lib/R/library/igraph/html_library.license.terms",
+    "lib/R/library/igraph/html_library.tcl",
+    "lib/R/library/igraph/igraph.gif",
+    "lib/R/library/igraph/igraph2.gif",
+    "lib/R/library/igraph/libs/igraph.so",
+    "lib/R/library/igraph/my_html_library.tcl",
+    "lib/R/library/igraph/tkigraph_help/communities.html",
+    "lib/R/library/igraph/tkigraph_help/index.html",
+    "lib/R/library/igraph/tkigraph_help/style.css",
+    "lib/R/library/igraph/tkigraph_help/tkigraph-main.gif"
+  ],
+  "fn": "r-igraph-1.2.6-r36h084b37e_1.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-igraph-1.2.6-r36h084b37e_1",
+    "type": 1
+  },
+  "md5": "9b4e2bbe5cc0c8d18e0c0dcd03d36321",
+  "name": "r-igraph",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-igraph-1.2.6-r36h084b37e_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/igraph/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "bee3e30eeb8a2345a40e18318f2509def472e61565c24b52abc2201779956da4",
+        "sha256_in_prefix": "bee3e30eeb8a2345a40e18318f2509def472e61565c24b52abc2201779956da4",
+        "size_in_bytes": 4862
+      },
+      {
+        "_path": "lib/R/library/igraph/CITATION",
+        "path_type": "hardlink",
+        "sha256": "fd3127a6dc414f509c6941b771ae1eb3708d9c1e3f6ef7cc1dc539ee60b59b2b",
+        "sha256_in_prefix": "fd3127a6dc414f509c6941b771ae1eb3708d9c1e3f6ef7cc1dc539ee60b59b2b",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "lib/R/library/igraph/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "078962afca26089c1b34892d05d7f4de6b9119926a4b589089ad5a31c5bac4c3",
+        "sha256_in_prefix": "078962afca26089c1b34892d05d7f4de6b9119926a4b589089ad5a31c5bac4c3",
+        "size_in_bytes": 2022
+      },
+      {
+        "_path": "lib/R/library/igraph/INDEX",
+        "path_type": "hardlink",
+        "sha256": "661b684f7d7cd1a24bb6440d5a79baadfdc8c9894e0b8bca3cabbc7668a8770b",
+        "sha256_in_prefix": "661b684f7d7cd1a24bb6440d5a79baadfdc8c9894e0b8bca3cabbc7668a8770b",
+        "size_in_bytes": 23808
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "0bef266de94ac23640ae285b430959b21def11700fb2e24e8fac7e7c300156fe",
+        "sha256_in_prefix": "0bef266de94ac23640ae285b430959b21def11700fb2e24e8fac7e7c300156fe",
+        "size_in_bytes": 14845
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "561fbe4d797fb2e7a42ff3143fea0a72172456c20b7487c9dcf9a38be3910012",
+        "sha256_in_prefix": "561fbe4d797fb2e7a42ff3143fea0a72172456c20b7487c9dcf9a38be3910012",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2d44654638f44d78dd3de45eafd6fd5e307defb1b4021119ee89d7724bad0649",
+        "sha256_in_prefix": "2d44654638f44d78dd3de45eafd6fd5e307defb1b4021119ee89d7724bad0649",
+        "size_in_bytes": 14513
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "110f04db37c112f9c4350660e368cea12f70bb53f14d004f3147cb02be142914",
+        "sha256_in_prefix": "110f04db37c112f9c4350660e368cea12f70bb53f14d004f3147cb02be142914",
+        "size_in_bytes": 8523
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "2b038b7f3586c5f2bccd89c8cefee7ab7dedf3d4d8cb98b7198cf7fd9e442303",
+        "sha256_in_prefix": "2b038b7f3586c5f2bccd89c8cefee7ab7dedf3d4d8cb98b7198cf7fd9e442303",
+        "size_in_bytes": 5791
+      },
+      {
+        "_path": "lib/R/library/igraph/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "37e4ea81630f0209db124d58c518f3ca92af431de1a8b56269807bcb30b38e5b",
+        "sha256_in_prefix": "37e4ea81630f0209db124d58c518f3ca92af431de1a8b56269807bcb30b38e5b",
+        "size_in_bytes": 1568
+      },
+      {
+        "_path": "lib/R/library/igraph/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0b0cbe2c07e09792a22f6298a8fc701a1da9a451087424f1393faadb0447f735",
+        "sha256_in_prefix": "0b0cbe2c07e09792a22f6298a8fc701a1da9a451087424f1393faadb0447f735",
+        "size_in_bytes": 21460
+      },
+      {
+        "_path": "lib/R/library/igraph/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "4beb74f8a35267fe6a5ec350eaed54a587f44131d33e14aab98f4ea593ab0b33",
+        "sha256_in_prefix": "4beb74f8a35267fe6a5ec350eaed54a587f44131d33e14aab98f4ea593ab0b33",
+        "size_in_bytes": 47144
+      },
+      {
+        "_path": "lib/R/library/igraph/R/igraph",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/igraph/R/igraph.rdb",
+        "path_type": "hardlink",
+        "sha256": "50c23490107f4e42f12f53fb79f6850474197f35dbbe929c974a1a099c0a6104",
+        "sha256_in_prefix": "50c23490107f4e42f12f53fb79f6850474197f35dbbe929c974a1a099c0a6104",
+        "size_in_bytes": 1415475
+      },
+      {
+        "_path": "lib/R/library/igraph/R/igraph.rdx",
+        "path_type": "hardlink",
+        "sha256": "91a7313c8e12d2f16f0926f01f32e6b44e88e45a29c2ad0bddc004e1c38a3e5d",
+        "sha256_in_prefix": "91a7313c8e12d2f16f0926f01f32e6b44e88e45a29c2ad0bddc004e1c38a3e5d",
+        "size_in_bytes": 15412
+      },
+      {
+        "_path": "lib/R/library/igraph/README.md",
+        "path_type": "hardlink",
+        "sha256": "59789ddf14df2240d9b544266ddbb8356d33691bb5d0fd838472c1a00d5af8b5",
+        "sha256_in_prefix": "59789ddf14df2240d9b544266ddbb8356d33691bb5d0fd838472c1a00d5af8b5",
+        "size_in_bytes": 623
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/correlated.R",
+        "path_type": "hardlink",
+        "sha256": "a9e7f2a68e42e407548a736b421aaf8fda08d86dee93dcdabcd2f73be784d242",
+        "sha256_in_prefix": "a9e7f2a68e42e407548a736b421aaf8fda08d86dee93dcdabcd2f73be784d242",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/local.scan.R",
+        "path_type": "hardlink",
+        "sha256": "d78d6f25756f1b4a24862bfbf742619a94a116002c3db4a5de22acc018678b81",
+        "sha256_in_prefix": "d78d6f25756f1b4a24862bfbf742619a94a116002c3db4a5de22acc018678b81",
+        "size_in_bytes": 1938
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_call.R",
+        "path_type": "hardlink",
+        "sha256": "8ad7da9a348e7ff2a1fac30c2a0bd9ede868ed0f28542f417a1fc977543036dc",
+        "sha256_in_prefix": "8ad7da9a348e7ff2a1fac30c2a0bd9ede868ed0f28542f417a1fc977543036dc",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_dirSelect.R",
+        "path_type": "hardlink",
+        "sha256": "b9e63af168dfeabe273631445f39df710a739020519d742f36aeecba757a7863",
+        "sha256_in_prefix": "b9e63af168dfeabe273631445f39df710a739020519d742f36aeecba757a7863",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_fr_layout.R",
+        "path_type": "hardlink",
+        "sha256": "8c920ed297dd36bb3555fc18e7dd755a85c9104e2ba9cbee092b690379d7ef19",
+        "sha256_in_prefix": "8c920ed297dd36bb3555fc18e7dd755a85c9104e2ba9cbee092b690379d7ef19",
+        "size_in_bytes": 451
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_kk_layout.R",
+        "path_type": "hardlink",
+        "sha256": "85209d9f7571b2230d321b8f975ede7b24c51f6c1c69424476d8d79275a38141",
+        "sha256_in_prefix": "85209d9f7571b2230d321b8f975ede7b24c51f6c1c69424476d8d79275a38141",
+        "size_in_bytes": 656
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_print.R",
+        "path_type": "hardlink",
+        "sha256": "d4bc93d046ff295f925ffde3d7ea47ec34845adc83fe89f389364d58b1900bce",
+        "sha256_in_prefix": "d4bc93d046ff295f925ffde3d7ea47ec34845adc83fe89f389364d58b1900bce",
+        "size_in_bytes": 2363
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_sgm.R",
+        "path_type": "hardlink",
+        "sha256": "7a7272391e2f3f87219a7fc55a2abc69cba9eddc8d2f30954f9a85921ee73e06",
+        "sha256_in_prefix": "7a7272391e2f3f87219a7fc55a2abc69cba9eddc8d2f30954f9a85921ee73e06",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "lib/R/library/igraph/benchmarks/time_sir.R",
+        "path_type": "hardlink",
+        "sha256": "f1954e5cd95a66a01e3ed0f47c1e4beb320e60bcf31011ebd3c5cd41e65e5f94",
+        "sha256_in_prefix": "f1954e5cd95a66a01e3ed0f47c1e4beb320e60bcf31011ebd3c5cd41e65e5f94",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/igraph/demo/centrality.R",
+        "path_type": "hardlink",
+        "sha256": "e3d6dcf73e3026c12d7ad534ba104cab4a5c4e1432c34fae6edd9ec37c38fa47",
+        "sha256_in_prefix": "e3d6dcf73e3026c12d7ad534ba104cab4a5c4e1432c34fae6edd9ec37c38fa47",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "lib/R/library/igraph/demo/cohesive.R",
+        "path_type": "hardlink",
+        "sha256": "12a8e86b19cbfebbb870864e021482b70d49e6033a5be8194650c950fecca113",
+        "sha256_in_prefix": "12a8e86b19cbfebbb870864e021482b70d49e6033a5be8194650c950fecca113",
+        "size_in_bytes": 947
+      },
+      {
+        "_path": "lib/R/library/igraph/demo/community.R",
+        "path_type": "hardlink",
+        "sha256": "eb21e3ef37bc9c7fabf9a3c871cb40fc8435eb7f9c99ccacc2dc754c29ea2a48",
+        "sha256_in_prefix": "eb21e3ef37bc9c7fabf9a3c871cb40fc8435eb7f9c99ccacc2dc754c29ea2a48",
+        "size_in_bytes": 5275
+      },
+      {
+        "_path": "lib/R/library/igraph/demo/crashR.R",
+        "path_type": "hardlink",
+        "sha256": "20fe5d79fdee73630b814ec92d8142b9699149746df5757dc3b483389692ff78",
+        "sha256_in_prefix": "20fe5d79fdee73630b814ec92d8142b9699149746df5757dc3b483389692ff78",
+        "size_in_bytes": 4697
+      },
+      {
+        "_path": "lib/R/library/igraph/demo/hrg.R",
+        "path_type": "hardlink",
+        "sha256": "d1b28e7cdd5b68deb746f6ace5d1b829e44c2f312e27fef5db07285ee9984e01",
+        "sha256_in_prefix": "d1b28e7cdd5b68deb746f6ace5d1b829e44c2f312e27fef5db07285ee9984e01",
+        "size_in_bytes": 1868
+      },
+      {
+        "_path": "lib/R/library/igraph/demo/smallworld.R",
+        "path_type": "hardlink",
+        "sha256": "4c836bc496d7cb9c128253e766a4332e7ef882289a449d69ec3d77aec1fda9ff",
+        "sha256_in_prefix": "4c836bc496d7cb9c128253e766a4332e7ef882289a449d69ec3d77aec1fda9ff",
+        "size_in_bytes": 3723
+      },
+      {
+        "_path": "lib/R/library/igraph/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e6a3ad050b87b29efdce710b517362f5e3bd04f231cb918201a2061915041186",
+        "sha256_in_prefix": "e6a3ad050b87b29efdce710b517362f5e3bd04f231cb918201a2061915041186",
+        "size_in_bytes": 25375
+      },
+      {
+        "_path": "lib/R/library/igraph/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4462b26f3249e93778995e7bfc52f07819af4dc874ff12f3107a869188917dbc",
+        "sha256_in_prefix": "4462b26f3249e93778995e7bfc52f07819af4dc874ff12f3107a869188917dbc",
+        "size_in_bytes": 7065
+      },
+      {
+        "_path": "lib/R/library/igraph/help/igraph.rdb",
+        "path_type": "hardlink",
+        "sha256": "6a273fad878f2f19bdd1156812dc9a52f12248a8fb094a71014d0fa8789bef5f",
+        "sha256_in_prefix": "6a273fad878f2f19bdd1156812dc9a52f12248a8fb094a71014d0fa8789bef5f",
+        "size_in_bytes": 1144845
+      },
+      {
+        "_path": "lib/R/library/igraph/help/igraph.rdx",
+        "path_type": "hardlink",
+        "sha256": "a072895f40ce9e2f09cefcaf68dc3647387d5db6fe3ecad0c58fb2d44f471331",
+        "sha256_in_prefix": "a072895f40ce9e2f09cefcaf68dc3647387d5db6fe3ecad0c58fb2d44f471331",
+        "size_in_bytes": 7524
+      },
+      {
+        "_path": "lib/R/library/igraph/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f0a18569850a6b0ffa88ef80c957cb62773c7d079007cf90d07212f09a97ce58",
+        "sha256_in_prefix": "f0a18569850a6b0ffa88ef80c957cb62773c7d079007cf90d07212f09a97ce58",
+        "size_in_bytes": 3016
+      },
+      {
+        "_path": "lib/R/library/igraph/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "7227d3822c670bda81cab625510a2fba0ca07e04a7ce5c57a3e29065f2d99864",
+        "sha256_in_prefix": "7227d3822c670bda81cab625510a2fba0ca07e04a7ce5c57a3e29065f2d99864",
+        "size_in_bytes": 120687
+      },
+      {
+        "_path": "lib/R/library/igraph/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/igraph/html_library.license.terms",
+        "path_type": "hardlink",
+        "sha256": "e1d9a9954df0f4251bad8f34761eea453e39338ce4ea0e198fa8bf167aeff845",
+        "sha256_in_prefix": "e1d9a9954df0f4251bad8f34761eea453e39338ce4ea0e198fa8bf167aeff845",
+        "size_in_bytes": 1637
+      },
+      {
+        "_path": "lib/R/library/igraph/html_library.tcl",
+        "path_type": "hardlink",
+        "sha256": "612d21223123db298a5ba765f8fab86b7ea80098ba14bfa8e2c1f0711af4ecb5",
+        "sha256_in_prefix": "612d21223123db298a5ba765f8fab86b7ea80098ba14bfa8e2c1f0711af4ecb5",
+        "size_in_bytes": 40776
+      },
+      {
+        "_path": "lib/R/library/igraph/igraph.gif",
+        "path_type": "hardlink",
+        "sha256": "d94bc33084deec0bfcb94afbff193c563fc9c6d8d0244c07149ba937a2e7d31c",
+        "sha256_in_prefix": "d94bc33084deec0bfcb94afbff193c563fc9c6d8d0244c07149ba937a2e7d31c",
+        "size_in_bytes": 2033
+      },
+      {
+        "_path": "lib/R/library/igraph/igraph2.gif",
+        "path_type": "hardlink",
+        "sha256": "2aac9c5957256b65394418d7057ef77287e82f9aa60c078ff1347bef48f70e8c",
+        "sha256_in_prefix": "2aac9c5957256b65394418d7057ef77287e82f9aa60c078ff1347bef48f70e8c",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "lib/R/library/igraph/libs/igraph.so",
+        "path_type": "hardlink",
+        "sha256": "26d9022a14595a130bdfccc40f1a07340a34912905ff19d5fcbaa713de418839",
+        "sha256_in_prefix": "26d9022a14595a130bdfccc40f1a07340a34912905ff19d5fcbaa713de418839",
+        "size_in_bytes": 3811624
+      },
+      {
+        "_path": "lib/R/library/igraph/my_html_library.tcl",
+        "path_type": "hardlink",
+        "sha256": "50c7f30fcef088c671b75674b0e9fce1181927908532f75da1e0577986f89f1f",
+        "sha256_in_prefix": "50c7f30fcef088c671b75674b0e9fce1181927908532f75da1e0577986f89f1f",
+        "size_in_bytes": 3223
+      },
+      {
+        "_path": "lib/R/library/igraph/tkigraph_help/communities.html",
+        "path_type": "hardlink",
+        "sha256": "2da06b482aa4d82ffec9c2d3c8eac04909f6efd38f3ac37b09a44fe72286d023",
+        "sha256_in_prefix": "2da06b482aa4d82ffec9c2d3c8eac04909f6efd38f3ac37b09a44fe72286d023",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "lib/R/library/igraph/tkigraph_help/index.html",
+        "path_type": "hardlink",
+        "sha256": "98b4343ee2d93c4b95ec6300470450a5a58e32e3e08882bb4d793eeeebffa241",
+        "sha256_in_prefix": "98b4343ee2d93c4b95ec6300470450a5a58e32e3e08882bb4d793eeeebffa241",
+        "size_in_bytes": 5852
+      },
+      {
+        "_path": "lib/R/library/igraph/tkigraph_help/style.css",
+        "path_type": "hardlink",
+        "sha256": "b339301065b417b6dbba6873ddbafb6438a0f18258a4c2f6c6a805d9801570d6",
+        "sha256_in_prefix": "b339301065b417b6dbba6873ddbafb6438a0f18258a4c2f6c6a805d9801570d6",
+        "size_in_bytes": 8779
+      },
+      {
+        "_path": "lib/R/library/igraph/tkigraph_help/tkigraph-main.gif",
+        "path_type": "hardlink",
+        "sha256": "0e6a2dcd8ac86215f702c885885dc79a508e663bae84fe9c045ece7e03f28a8e",
+        "sha256_in_prefix": "0e6a2dcd8ac86215f702c885885dc79a508e663bae84fe9c045ece7e03f28a8e",
+        "size_in_bytes": 14667
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8aa75a5da8b7b33042bcb9f0f39e8e926e8686d4d5fb00fe6e97ab219c50653e",
+  "size": 3983932,
+  "subdir": "linux-64",
+  "timestamp": 1603185692000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-igraph-1.2.6-r36h084b37e_1.tar.bz2",
+  "version": "1.2.6"
+}

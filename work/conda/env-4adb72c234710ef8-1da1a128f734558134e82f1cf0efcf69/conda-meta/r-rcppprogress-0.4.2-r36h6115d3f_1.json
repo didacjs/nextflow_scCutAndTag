@@ -1,0 +1,387 @@
+{
+  "build": "r36h6115d3f_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rcppprogress-0.4.2-r36h6115d3f_1",
+  "files": [
+    "lib/R/library/RcppProgress/DESCRIPTION",
+    "lib/R/library/RcppProgress/INDEX",
+    "lib/R/library/RcppProgress/Meta/Rd.rds",
+    "lib/R/library/RcppProgress/Meta/features.rds",
+    "lib/R/library/RcppProgress/Meta/hsearch.rds",
+    "lib/R/library/RcppProgress/Meta/links.rds",
+    "lib/R/library/RcppProgress/Meta/nsInfo.rds",
+    "lib/R/library/RcppProgress/Meta/package.rds",
+    "lib/R/library/RcppProgress/NAMESPACE",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/DESCRIPTION",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/NAMESPACE",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/R/examples.R",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/man/RcppProgressExample-package.Rd",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/man/test_multithreaded.Rd",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/man/test_sequential.Rd",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/src/Makevars",
+    "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/src/example.cpp",
+    "lib/R/library/RcppProgress/examples/RcppProgressETA/DESCRIPTION",
+    "lib/R/library/RcppProgress/examples/RcppProgressETA/NAMESPACE",
+    "lib/R/library/RcppProgress/examples/RcppProgressETA/R/examples.R",
+    "lib/R/library/RcppProgress/examples/RcppProgressETA/src/Makevars",
+    "lib/R/library/RcppProgress/examples/RcppProgressETA/src/eta_progress_bar.hpp",
+    "lib/R/library/RcppProgress/examples/RcppProgressETA/src/example.cpp",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/DESCRIPTION",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/NAMESPACE",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/R/examples.R",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/man/RcppProgressExample-package.Rd",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/man/test_multithreaded.Rd",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/man/test_sequential.Rd",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/src/Makevars",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/src/dummy.cpp",
+    "lib/R/library/RcppProgress/examples/RcppProgressExample/src/example.cpp",
+    "lib/R/library/RcppProgress/help/AnIndex",
+    "lib/R/library/RcppProgress/help/RcppProgress.rdb",
+    "lib/R/library/RcppProgress/help/RcppProgress.rdx",
+    "lib/R/library/RcppProgress/help/aliases.rds",
+    "lib/R/library/RcppProgress/help/paths.rds",
+    "lib/R/library/RcppProgress/html/00Index.html",
+    "lib/R/library/RcppProgress/html/R.css",
+    "lib/R/library/RcppProgress/include/interruptable_progress_monitor.hpp",
+    "lib/R/library/RcppProgress/include/interrupts.hpp",
+    "lib/R/library/RcppProgress/include/progress.hpp",
+    "lib/R/library/RcppProgress/include/progress_bar.hpp",
+    "lib/R/library/RcppProgress/include/simple_progress_bar.hpp"
+  ],
+  "fn": "r-rcppprogress-0.4.2-r36h6115d3f_1.tar.bz2",
+  "license": "GPL (>= 3)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rcppprogress-0.4.2-r36h6115d3f_1",
+    "type": 1
+  },
+  "md5": "b4b373a707bb573a7c18572b1b0c755b",
+  "name": "r-rcppprogress",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rcppprogress-0.4.2-r36h6115d3f_1.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RcppProgress/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b291dbe2ad6a5eb0737b8dec9e636d3c87d142affd7f75bc477a76c7dcb09789",
+        "sha256_in_prefix": "b291dbe2ad6a5eb0737b8dec9e636d3c87d142affd7f75bc477a76c7dcb09789",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/INDEX",
+        "path_type": "hardlink",
+        "sha256": "297eb00cfab2cf20a59b1363a0cdb4db6fce14487df27abb04b85c9f62ca5260",
+        "sha256_in_prefix": "297eb00cfab2cf20a59b1363a0cdb4db6fce14487df27abb04b85c9f62ca5260",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2f30638ca7b6548c6288ed1c56d7ba0f6e278477542ac73d3c52cf567108ba96",
+        "sha256_in_prefix": "2f30638ca7b6548c6288ed1c56d7ba0f6e278477542ac73d3c52cf567108ba96",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "38fe281a776a1d552da0fdf74445f1124a26a2d805df76fc35082f04c5696b1d",
+        "sha256_in_prefix": "38fe281a776a1d552da0fdf74445f1124a26a2d805df76fc35082f04c5696b1d",
+        "size_in_bytes": 343
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "26cf33f11f5432d1d5183177ae4cc97ff8954e7185557187fad50af6d6b3cf3f",
+        "sha256_in_prefix": "26cf33f11f5432d1d5183177ae4cc97ff8954e7185557187fad50af6d6b3cf3f",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "98b0457396b7e284511f71fb35ff3d01d6d6e49f9b408428b650ddc647616be4",
+        "sha256_in_prefix": "98b0457396b7e284511f71fb35ff3d01d6d6e49f9b408428b650ddc647616be4",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e009859988caef83251df66880002b6c6feae1687797f6e8c3b43d374dcf768a",
+        "sha256_in_prefix": "e009859988caef83251df66880002b6c6feae1687797f6e8c3b43d374dcf768a",
+        "size_in_bytes": 877
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "c42918dc45a74bee083acb2c7edc5a221192a9c0fe01d5701ea4d7d7825a1fb1",
+        "sha256_in_prefix": "c42918dc45a74bee083acb2c7edc5a221192a9c0fe01d5701ea4d7d7825a1fb1",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7757a8edb887e84adc6d0b03474ced2e0346e7f2b7411490432b7e68d6574339",
+        "sha256_in_prefix": "7757a8edb887e84adc6d0b03474ced2e0346e7f2b7411490432b7e68d6574339",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/R/examples.R",
+        "path_type": "hardlink",
+        "sha256": "2233db9356635d0fec4f60dc890b08f30dfc5f4598a515ddea6887dc2cac889a",
+        "sha256_in_prefix": "2233db9356635d0fec4f60dc890b08f30dfc5f4598a515ddea6887dc2cac889a",
+        "size_in_bytes": 393
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/man/RcppProgressExample-package.Rd",
+        "path_type": "hardlink",
+        "sha256": "92703234abd7a461980f47861654fcfb514b68594323dfffe636e3983739d93b",
+        "sha256_in_prefix": "92703234abd7a461980f47861654fcfb514b68594323dfffe636e3983739d93b",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/man/test_multithreaded.Rd",
+        "path_type": "hardlink",
+        "sha256": "f071962dee88c15390d8b45723cfeb33dc92157a52f3a8b395e83dd43a07a769",
+        "sha256_in_prefix": "f071962dee88c15390d8b45723cfeb33dc92157a52f3a8b395e83dd43a07a769",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/man/test_sequential.Rd",
+        "path_type": "hardlink",
+        "sha256": "48e60d4bb71ee88d08402a4d1ccb69f820217e6072033cc947044bc4928782d3",
+        "sha256_in_prefix": "48e60d4bb71ee88d08402a4d1ccb69f820217e6072033cc947044bc4928782d3",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/src/Makevars",
+        "path_type": "hardlink",
+        "sha256": "81c1137ab2bffe33e85ec9c939b8ca468caf99640d6e1057874bc15d7c9ae560",
+        "sha256_in_prefix": "81c1137ab2bffe33e85ec9c939b8ca468caf99640d6e1057874bc15d7c9ae560",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressArmadillo/src/example.cpp",
+        "path_type": "hardlink",
+        "sha256": "233d50acb045fbff58357c690382179edca40186379633b8c3572e6dabe8b891",
+        "sha256_in_prefix": "233d50acb045fbff58357c690382179edca40186379633b8c3572e6dabe8b891",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressETA/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e36b2fb62af35336ce2596b01839025b0ed93c59a65503cb2becef6498eee2c9",
+        "sha256_in_prefix": "e36b2fb62af35336ce2596b01839025b0ed93c59a65503cb2becef6498eee2c9",
+        "size_in_bytes": 417
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressETA/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "5a10129ee6cd45befce2a1c465bfc7053e2f6c587614a3ec5162162f0fe50e3c",
+        "sha256_in_prefix": "5a10129ee6cd45befce2a1c465bfc7053e2f6c587614a3ec5162162f0fe50e3c",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressETA/R/examples.R",
+        "path_type": "hardlink",
+        "sha256": "001ec900dc8d2802d924473d6874738d0b934d7e0000f6cbf386b9c56549768d",
+        "sha256_in_prefix": "001ec900dc8d2802d924473d6874738d0b934d7e0000f6cbf386b9c56549768d",
+        "size_in_bytes": 382
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressETA/src/Makevars",
+        "path_type": "hardlink",
+        "sha256": "81c1137ab2bffe33e85ec9c939b8ca468caf99640d6e1057874bc15d7c9ae560",
+        "sha256_in_prefix": "81c1137ab2bffe33e85ec9c939b8ca468caf99640d6e1057874bc15d7c9ae560",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressETA/src/eta_progress_bar.hpp",
+        "path_type": "hardlink",
+        "sha256": "0aca8373c8d4b109de6ca716f3a1977134cbfcce1b4ff63b0dfd7bb2e0d87951",
+        "sha256_in_prefix": "0aca8373c8d4b109de6ca716f3a1977134cbfcce1b4ff63b0dfd7bb2e0d87951",
+        "size_in_bytes": 4864
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressETA/src/example.cpp",
+        "path_type": "hardlink",
+        "sha256": "c59e748943a5ddd5476447ab62a2aeee7e7f3a997441aae26ea7f17b5083da7e",
+        "sha256_in_prefix": "c59e748943a5ddd5476447ab62a2aeee7e7f3a997441aae26ea7f17b5083da7e",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "990c80f61e1b89bfb375c9b6f7a9da1cc1613a2d2087825b46ff7a871e1f450c",
+        "sha256_in_prefix": "990c80f61e1b89bfb375c9b6f7a9da1cc1613a2d2087825b46ff7a871e1f450c",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "1c7b6cb3520a59021393abec4979f4ffb9a7bde514a2337f99170073de63ab90",
+        "sha256_in_prefix": "1c7b6cb3520a59021393abec4979f4ffb9a7bde514a2337f99170073de63ab90",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/R/examples.R",
+        "path_type": "hardlink",
+        "sha256": "35da043dee94d954705d0a6f667de4c9bf88d84f6c9731bdf3578d115dc01d52",
+        "sha256_in_prefix": "35da043dee94d954705d0a6f667de4c9bf88d84f6c9731bdf3578d115dc01d52",
+        "size_in_bytes": 389
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/man/RcppProgressExample-package.Rd",
+        "path_type": "hardlink",
+        "sha256": "92703234abd7a461980f47861654fcfb514b68594323dfffe636e3983739d93b",
+        "sha256_in_prefix": "92703234abd7a461980f47861654fcfb514b68594323dfffe636e3983739d93b",
+        "size_in_bytes": 706
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/man/test_multithreaded.Rd",
+        "path_type": "hardlink",
+        "sha256": "f071962dee88c15390d8b45723cfeb33dc92157a52f3a8b395e83dd43a07a769",
+        "sha256_in_prefix": "f071962dee88c15390d8b45723cfeb33dc92157a52f3a8b395e83dd43a07a769",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/man/test_sequential.Rd",
+        "path_type": "hardlink",
+        "sha256": "48e60d4bb71ee88d08402a4d1ccb69f820217e6072033cc947044bc4928782d3",
+        "sha256_in_prefix": "48e60d4bb71ee88d08402a4d1ccb69f820217e6072033cc947044bc4928782d3",
+        "size_in_bytes": 824
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/src/Makevars",
+        "path_type": "hardlink",
+        "sha256": "81c1137ab2bffe33e85ec9c939b8ca468caf99640d6e1057874bc15d7c9ae560",
+        "sha256_in_prefix": "81c1137ab2bffe33e85ec9c939b8ca468caf99640d6e1057874bc15d7c9ae560",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/src/dummy.cpp",
+        "path_type": "hardlink",
+        "sha256": "8ab71996e60ecebbdd50158b8c43f7a2bc71e5a94b9119d8c684fd12fab4e742",
+        "sha256_in_prefix": "8ab71996e60ecebbdd50158b8c43f7a2bc71e5a94b9119d8c684fd12fab4e742",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/examples/RcppProgressExample/src/example.cpp",
+        "path_type": "hardlink",
+        "sha256": "5bd5d44db7a4f44f58bcf1735a3ac4af2fefad24f197938dfb44837565f6d21c",
+        "sha256_in_prefix": "5bd5d44db7a4f44f58bcf1735a3ac4af2fefad24f197938dfb44837565f6d21c",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "49e5f7b2fb7bd470534ee32107b82426bf3e3c0d70721859b3e2bbaaaf4fabab",
+        "sha256_in_prefix": "49e5f7b2fb7bd470534ee32107b82426bf3e3c0d70721859b3e2bbaaaf4fabab",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/help/RcppProgress.rdb",
+        "path_type": "hardlink",
+        "sha256": "2bc3fd7622b94d12d5f336cab13f18d7e88da9ad99634ec72e574849bf9f1ad6",
+        "sha256_in_prefix": "2bc3fd7622b94d12d5f336cab13f18d7e88da9ad99634ec72e574849bf9f1ad6",
+        "size_in_bytes": 7040
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/help/RcppProgress.rdx",
+        "path_type": "hardlink",
+        "sha256": "24255b00fa331ca0bf125edc47a094cd7e7155274f51e99a8dc974e46d864286",
+        "sha256_in_prefix": "24255b00fa331ca0bf125edc47a094cd7e7155274f51e99a8dc974e46d864286",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "7f16627d2df1fd4e1c458d92c9586deed2cb9b15ccf01ad6f09a1e0a338d8cd6",
+        "sha256_in_prefix": "7f16627d2df1fd4e1c458d92c9586deed2cb9b15ccf01ad6f09a1e0a338d8cd6",
+        "size_in_bytes": 99
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "df6117ec09eb03ac2b701e423b6a7ed1057b50dce87bb18aeb0d18d287c1f5f3",
+        "sha256_in_prefix": "df6117ec09eb03ac2b701e423b6a7ed1057b50dce87bb18aeb0d18d287c1f5f3",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "63a6fd0f5201e9135a6bbca4ae83fba0f2e19b84e2fda1952f184552835670cb",
+        "sha256_in_prefix": "63a6fd0f5201e9135a6bbca4ae83fba0f2e19b84e2fda1952f184552835670cb",
+        "size_in_bytes": 1374
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/include/interruptable_progress_monitor.hpp",
+        "path_type": "hardlink",
+        "sha256": "24c0f79396e7299fdc45e1fa74dc045f026261fd1b1473736b0278062696eab5",
+        "sha256_in_prefix": "24c0f79396e7299fdc45e1fa74dc045f026261fd1b1473736b0278062696eab5",
+        "size_in_bytes": 4762
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/include/interrupts.hpp",
+        "path_type": "hardlink",
+        "sha256": "b8b01fcfba48a29c5c8722ee1d864e04e5fa8812a72e87a26a77056ed544fbc9",
+        "sha256_in_prefix": "b8b01fcfba48a29c5c8722ee1d864e04e5fa8812a72e87a26a77056ed544fbc9",
+        "size_in_bytes": 1113
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/include/progress.hpp",
+        "path_type": "hardlink",
+        "sha256": "c19b31e020382f61cfeb204f167d6ff681df4fe5477bd8830c6c8fbf2e5c0be8",
+        "sha256_in_prefix": "c19b31e020382f61cfeb204f167d6ff681df4fe5477bd8830c6c8fbf2e5c0be8",
+        "size_in_bytes": 2768
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/include/progress_bar.hpp",
+        "path_type": "hardlink",
+        "sha256": "8bcc26b2cbb3be7e816ba520526e5a806c4272d88cae9e93f635f35ef174b175",
+        "sha256_in_prefix": "8bcc26b2cbb3be7e816ba520526e5a806c4272d88cae9e93f635f35ef174b175",
+        "size_in_bytes": 655
+      },
+      {
+        "_path": "lib/R/library/RcppProgress/include/simple_progress_bar.hpp",
+        "path_type": "hardlink",
+        "sha256": "82448980347db95d4d6618a9d18a90af725f80786ea6220f723ae330062ea6f0",
+        "sha256_in_prefix": "82448980347db95d4d6618a9d18a90af725f80786ea6220f723ae330062ea6f0",
+        "size_in_bytes": 2230
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fd0efb90fc0768d2c91f7442ba0ffead09d0a679d2997438a34d06d07673fce2",
+  "size": 37970,
+  "subdir": "noarch",
+  "timestamp": 1588545085000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-rcppprogress-0.4.2-r36h6115d3f_1.tar.bz2",
+  "version": "0.4.2"
+}

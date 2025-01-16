@@ -1,0 +1,263 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-ggplot2 >2.2.1",
+    "r-gtable",
+    "r-rlang",
+    "r-scales"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-cowplot-1.1.1-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/cowplot/DESCRIPTION",
+    "lib/R/library/cowplot/INDEX",
+    "lib/R/library/cowplot/Meta/Rd.rds",
+    "lib/R/library/cowplot/Meta/features.rds",
+    "lib/R/library/cowplot/Meta/hsearch.rds",
+    "lib/R/library/cowplot/Meta/links.rds",
+    "lib/R/library/cowplot/Meta/nsInfo.rds",
+    "lib/R/library/cowplot/Meta/package.rds",
+    "lib/R/library/cowplot/Meta/vignette.rds",
+    "lib/R/library/cowplot/NAMESPACE",
+    "lib/R/library/cowplot/NEWS.md",
+    "lib/R/library/cowplot/R/cowplot",
+    "lib/R/library/cowplot/R/cowplot.rdb",
+    "lib/R/library/cowplot/R/cowplot.rdx",
+    "lib/R/library/cowplot/doc/index.html",
+    "lib/R/library/cowplot/doc/introduction.R",
+    "lib/R/library/cowplot/doc/introduction.Rmd",
+    "lib/R/library/cowplot/doc/introduction.html",
+    "lib/R/library/cowplot/extdata/cow.jpg",
+    "lib/R/library/cowplot/extdata/logo.png",
+    "lib/R/library/cowplot/help/AnIndex",
+    "lib/R/library/cowplot/help/aliases.rds",
+    "lib/R/library/cowplot/help/cowplot.rdb",
+    "lib/R/library/cowplot/help/cowplot.rdx",
+    "lib/R/library/cowplot/help/figures/logo.png",
+    "lib/R/library/cowplot/help/paths.rds",
+    "lib/R/library/cowplot/html/00Index.html",
+    "lib/R/library/cowplot/html/R.css"
+  ],
+  "fn": "r-cowplot-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-cowplot-1.1.1-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "73b8c8afc2bb45f3589f17cd7bb7cbed",
+  "name": "r-cowplot",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-cowplot-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/cowplot/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "849be2b7c800473b8bfb3a4b9f2e5370b7a82a0235a817141ec9804b26b6fbdd",
+        "sha256_in_prefix": "849be2b7c800473b8bfb3a4b9f2e5370b7a82a0235a817141ec9804b26b6fbdd",
+        "size_in_bytes": 1939
+      },
+      {
+        "_path": "lib/R/library/cowplot/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d641eb2448ff8ae57cc39c02f69d4d80135262a1fd1c667cf725f53d0830503f",
+        "sha256_in_prefix": "d641eb2448ff8ae57cc39c02f69d4d80135262a1fd1c667cf725f53d0830503f",
+        "size_in_bytes": 2482
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "9ad806804ce42b245e3c9de8dda54d4f1bc083aa9b459d8b24a5ec0e5f8e0b82",
+        "sha256_in_prefix": "9ad806804ce42b245e3c9de8dda54d4f1bc083aa9b459d8b24a5ec0e5f8e0b82",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "929631b226aaa5729e03fca7e1aaf885c276fed87e79807fb9979c602dbc8116",
+        "sha256_in_prefix": "929631b226aaa5729e03fca7e1aaf885c276fed87e79807fb9979c602dbc8116",
+        "size_in_bytes": 1686
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "083686dfa5894a3b44260ffedd1c989904614e8294726132b2ca395e6cd15884",
+        "sha256_in_prefix": "083686dfa5894a3b44260ffedd1c989904614e8294726132b2ca395e6cd15884",
+        "size_in_bytes": 754
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d2ee640c2f8b4cb0e95401224bff22de892e4bc511e66eb624266c9373b2bc30",
+        "sha256_in_prefix": "d2ee640c2f8b4cb0e95401224bff22de892e4bc511e66eb624266c9373b2bc30",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "2b343a99631b3324de08ff4c51d922a521f54af8225d09263dc10bf94c1d494a",
+        "sha256_in_prefix": "2b343a99631b3324de08ff4c51d922a521f54af8225d09263dc10bf94c1d494a",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "lib/R/library/cowplot/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "62f334fa3ea9de933c11ef9f8b337134d425297763ee1a92f231525cc9d50f8d",
+        "sha256_in_prefix": "62f334fa3ea9de933c11ef9f8b337134d425297763ee1a92f231525cc9d50f8d",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/cowplot/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "563153f1671956f343d1c21d812ee5a34359cb59e9437792278537001ba2aae5",
+        "sha256_in_prefix": "563153f1671956f343d1c21d812ee5a34359cb59e9437792278537001ba2aae5",
+        "size_in_bytes": 1735
+      },
+      {
+        "_path": "lib/R/library/cowplot/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "a7acf5ff7be1a008590defa18ad4469aa1527fb44a29db2836a33b2225b88f87",
+        "sha256_in_prefix": "a7acf5ff7be1a008590defa18ad4469aa1527fb44a29db2836a33b2225b88f87",
+        "size_in_bytes": 7876
+      },
+      {
+        "_path": "lib/R/library/cowplot/R/cowplot",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/cowplot/R/cowplot.rdb",
+        "path_type": "hardlink",
+        "sha256": "fe1a3f775174e162ecb535968e23d8ecacedd5b854f32a8d975bdf85b3c5a398",
+        "sha256_in_prefix": "fe1a3f775174e162ecb535968e23d8ecacedd5b854f32a8d975bdf85b3c5a398",
+        "size_in_bytes": 94374
+      },
+      {
+        "_path": "lib/R/library/cowplot/R/cowplot.rdx",
+        "path_type": "hardlink",
+        "sha256": "9ad6b74a974c7af514a26959dd26a7054fa9f5302ddc6b49500142f779569797",
+        "sha256_in_prefix": "9ad6b74a974c7af514a26959dd26a7054fa9f5302ddc6b49500142f779569797",
+        "size_in_bytes": 1341
+      },
+      {
+        "_path": "lib/R/library/cowplot/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "04b9ced8925ca8c5021fc576f2bf4a6d4ea6d057e3cd9a221b7e148a7895cdfd",
+        "sha256_in_prefix": "04b9ced8925ca8c5021fc576f2bf4a6d4ea6d057e3cd9a221b7e148a7895cdfd",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/R/library/cowplot/doc/introduction.R",
+        "path_type": "hardlink",
+        "sha256": "916019ad8fae54908ed381e42aceb8e9f8c41ee71548c4109aaa44c729a71ad7",
+        "sha256_in_prefix": "916019ad8fae54908ed381e42aceb8e9f8c41ee71548c4109aaa44c729a71ad7",
+        "size_in_bytes": 1750
+      },
+      {
+        "_path": "lib/R/library/cowplot/doc/introduction.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c0deecb50e6deb03e160cc29cf9e605832d2ca3d9673cd6a7109f90d87e944aa",
+        "sha256_in_prefix": "c0deecb50e6deb03e160cc29cf9e605832d2ca3d9673cd6a7109f90d87e944aa",
+        "size_in_bytes": 4125
+      },
+      {
+        "_path": "lib/R/library/cowplot/doc/introduction.html",
+        "path_type": "hardlink",
+        "sha256": "43be1686df72217c01b9fdd5f839d5afb9a05cf7d99bbd38694b1ed963605e2e",
+        "sha256_in_prefix": "43be1686df72217c01b9fdd5f839d5afb9a05cf7d99bbd38694b1ed963605e2e",
+        "size_in_bytes": 1378405
+      },
+      {
+        "_path": "lib/R/library/cowplot/extdata/cow.jpg",
+        "path_type": "hardlink",
+        "sha256": "212bc6de5fe55f171225a5ad9a3451022f4f591a624a3fd823e4d652c15d8203",
+        "sha256_in_prefix": "212bc6de5fe55f171225a5ad9a3451022f4f591a624a3fd823e4d652c15d8203",
+        "size_in_bytes": 322892
+      },
+      {
+        "_path": "lib/R/library/cowplot/extdata/logo.png",
+        "path_type": "hardlink",
+        "sha256": "778668bdf0022a70232496edc2c94497bc22cf5416596e7083228a94afe1ac89",
+        "sha256_in_prefix": "778668bdf0022a70232496edc2c94497bc22cf5416596e7083228a94afe1ac89",
+        "size_in_bytes": 52104
+      },
+      {
+        "_path": "lib/R/library/cowplot/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "be44cfc42d5b4c3de6193590f3359dc93d89e6ca1992adeb13de2d046eabe180",
+        "sha256_in_prefix": "be44cfc42d5b4c3de6193590f3359dc93d89e6ca1992adeb13de2d046eabe180",
+        "size_in_bytes": 1511
+      },
+      {
+        "_path": "lib/R/library/cowplot/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "b7d8803335a4b8c267ad21c837690485945ab749d69230ac2a07bd5949acd238",
+        "sha256_in_prefix": "b7d8803335a4b8c267ad21c837690485945ab749d69230ac2a07bd5949acd238",
+        "size_in_bytes": 532
+      },
+      {
+        "_path": "lib/R/library/cowplot/help/cowplot.rdb",
+        "path_type": "hardlink",
+        "sha256": "6a8e64825c64450e8b8375f6966265d41e95324be90bd11b4101c68fd88c6dc4",
+        "sha256_in_prefix": "6a8e64825c64450e8b8375f6966265d41e95324be90bd11b4101c68fd88c6dc4",
+        "size_in_bytes": 90010
+      },
+      {
+        "_path": "lib/R/library/cowplot/help/cowplot.rdx",
+        "path_type": "hardlink",
+        "sha256": "57605307bf96a66b80462e2b4819b3602cc01606ecb4d5c371b879092b4b2bc7",
+        "sha256_in_prefix": "57605307bf96a66b80462e2b4819b3602cc01606ecb4d5c371b879092b4b2bc7",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "lib/R/library/cowplot/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "778668bdf0022a70232496edc2c94497bc22cf5416596e7083228a94afe1ac89",
+        "sha256_in_prefix": "778668bdf0022a70232496edc2c94497bc22cf5416596e7083228a94afe1ac89",
+        "size_in_bytes": 52104
+      },
+      {
+        "_path": "lib/R/library/cowplot/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "15b1b315e140e7e02c5c03165b7f9fe446db762902bd245ab8ced7074974743b",
+        "sha256_in_prefix": "15b1b315e140e7e02c5c03165b7f9fe446db762902bd245ab8ced7074974743b",
+        "size_in_bytes": 500
+      },
+      {
+        "_path": "lib/R/library/cowplot/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "773f20c2056a7fe86a2e8162de27ace7800fa0e4c7adc2dda5f1dbda847ee565",
+        "sha256_in_prefix": "773f20c2056a7fe86a2e8162de27ace7800fa0e4c7adc2dda5f1dbda847ee565",
+        "size_in_bytes": 8291
+      },
+      {
+        "_path": "lib/R/library/cowplot/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d8f5297e574ca5f6db310360f2b4aa33d912150da07505939b2fad0fc609a5cc",
+  "size": 1393810,
+  "subdir": "noarch",
+  "timestamp": 1609344460000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-cowplot-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "version": "1.1.1"
+}

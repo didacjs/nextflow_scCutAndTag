@@ -1,0 +1,181 @@
+{
+  "build": "py36haf49e46_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "htslib",
+    "libgcc-ng >=10.3.0",
+    "python >=3.6,<3.7.0a0",
+    "libzlib >=1.2.11,<1.3.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/pairix-0.3.7-py36haf49e46_4",
+  "files": [
+    "bin/bam2pairs",
+    "bin/column_remover.pl",
+    "bin/duplicate_header_remover.pl",
+    "bin/fragment_4dnpairs.pl",
+    "bin/juicer_shortform2pairs.pl",
+    "bin/merge-pairs.sh",
+    "bin/merged_nodup2pairs.pl",
+    "bin/old_merged_nodup2pairs.pl",
+    "bin/pairix",
+    "bin/pairs_merger",
+    "bin/process_merged_nodup.sh",
+    "bin/process_old_merged_nodup.sh",
+    "bin/streamer_1d",
+    "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pypairix.cpython-36m-x86_64-linux-gnu.so"
+  ],
+  "fn": "pairix-0.3.7-py36haf49e46_4.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/pairix-0.3.7-py36haf49e46_4",
+    "type": 1
+  },
+  "md5": "2cbab62b6c7ab144342745519a73bf38",
+  "name": "pairix",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/pairix-0.3.7-py36haf49e46_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bam2pairs",
+        "path_type": "hardlink",
+        "sha256": "dc9f096bbae242a88bed1f66e71ab200d307d92c73815d27b2e4ee415a11deb5",
+        "sha256_in_prefix": "dc9f096bbae242a88bed1f66e71ab200d307d92c73815d27b2e4ee415a11deb5",
+        "size_in_bytes": 4030
+      },
+      {
+        "_path": "bin/column_remover.pl",
+        "path_type": "hardlink",
+        "sha256": "20a22e9759e4abbb7d84541a823f81298116af895f4458bcd53501308364dab4",
+        "sha256_in_prefix": "20a22e9759e4abbb7d84541a823f81298116af895f4458bcd53501308364dab4",
+        "size_in_bytes": 1665
+      },
+      {
+        "_path": "bin/duplicate_header_remover.pl",
+        "path_type": "hardlink",
+        "sha256": "f2e832e00c37dad12d8f4b3bd43165a0176f4f549a4481454ba059e260ff2b61",
+        "sha256_in_prefix": "f2e832e00c37dad12d8f4b3bd43165a0176f4f549a4481454ba059e260ff2b61",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "bin/fragment_4dnpairs.pl",
+        "path_type": "hardlink",
+        "sha256": "21e11a09743353065eada9fd22092ec568a45b2453c1f2f692501ca0a70733a1",
+        "sha256_in_prefix": "21e11a09743353065eada9fd22092ec568a45b2453c1f2f692501ca0a70733a1",
+        "size_in_bytes": 4790
+      },
+      {
+        "_path": "bin/juicer_shortform2pairs.pl",
+        "path_type": "hardlink",
+        "sha256": "9243713232a7a68b643b453385845b196b465057b654ccb6b76a8e4dbad887db",
+        "sha256_in_prefix": "9243713232a7a68b643b453385845b196b465057b654ccb6b76a8e4dbad887db",
+        "size_in_bytes": 2610
+      },
+      {
+        "_path": "bin/merge-pairs.sh",
+        "path_type": "hardlink",
+        "sha256": "f5d47bc148ebf9cd0481ee0b173c17158defc6963535d00d4c4bf611d874162e",
+        "sha256_in_prefix": "f5d47bc148ebf9cd0481ee0b173c17158defc6963535d00d4c4bf611d874162e",
+        "size_in_bytes": 870
+      },
+      {
+        "_path": "bin/merged_nodup2pairs.pl",
+        "path_type": "hardlink",
+        "sha256": "344fc45bd2b476772930729ad728cc0d95941e884bd4eab17042750a5a6551da",
+        "sha256_in_prefix": "344fc45bd2b476772930729ad728cc0d95941e884bd4eab17042750a5a6551da",
+        "size_in_bytes": 2898
+      },
+      {
+        "_path": "bin/old_merged_nodup2pairs.pl",
+        "path_type": "hardlink",
+        "sha256": "202e5a435e6f2eb9eb4b67f9e0d50a1589823c05a0cce32f735c537d05871f47",
+        "sha256_in_prefix": "202e5a435e6f2eb9eb4b67f9e0d50a1589823c05a0cce32f735c537d05871f47",
+        "size_in_bytes": 2931
+      },
+      {
+        "_path": "bin/pairix",
+        "path_type": "hardlink",
+        "sha256": "8ed3c84a7f32ee3b938cda09c54c9aa28eacbc500daa3f7a0498b861e64c6342",
+        "sha256_in_prefix": "8ed3c84a7f32ee3b938cda09c54c9aa28eacbc500daa3f7a0498b861e64c6342",
+        "size_in_bytes": 76992
+      },
+      {
+        "_path": "bin/pairs_merger",
+        "path_type": "hardlink",
+        "sha256": "4b41822958af389ed076582286c3cbcc847959a420b532fb28a1f002201495bd",
+        "sha256_in_prefix": "4b41822958af389ed076582286c3cbcc847959a420b532fb28a1f002201495bd",
+        "size_in_bytes": 63312
+      },
+      {
+        "_path": "bin/process_merged_nodup.sh",
+        "path_type": "hardlink",
+        "sha256": "f4465b23c7a82750171e8bb582fc9f639f7df233b6769d406b753acb094c5596",
+        "sha256_in_prefix": "f4465b23c7a82750171e8bb582fc9f639f7df233b6769d406b753acb094c5596",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "bin/process_old_merged_nodup.sh",
+        "path_type": "hardlink",
+        "sha256": "08d60aa496ec9e93fb64fcb1ac21e284b51b84032dce8f2d00aa0e0d3623eb76",
+        "sha256_in_prefix": "08d60aa496ec9e93fb64fcb1ac21e284b51b84032dce8f2d00aa0e0d3623eb76",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "bin/streamer_1d",
+        "path_type": "hardlink",
+        "sha256": "000138517675914ef78a40902e61406dbea5b8230adb55579b72d4c6a2ec00eb",
+        "sha256_in_prefix": "000138517675914ef78a40902e61406dbea5b8230adb55579b72d4c6a2ec00eb",
+        "size_in_bytes": 63368
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "e4c071c77aa557850532ce195a201d3b2f2dd31f9cdcdd6ed3b2ebc5d6fe1030",
+        "sha256_in_prefix": "e4c071c77aa557850532ce195a201d3b2f2dd31f9cdcdd6ed3b2ebc5d6fe1030",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "eaabacf7a7dea0a15f103242eac1d2a0b0778163acc438bb9a24cc0b29af7021",
+        "sha256_in_prefix": "eaabacf7a7dea0a15f103242eac1d2a0b0778163acc438bb9a24cc0b29af7021",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pypairix-0.3.7-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2ea0c0608a7d23beb0aaf605e5190a3e0405bf00566f754f62272dcb3f78aed4",
+        "sha256_in_prefix": "2ea0c0608a7d23beb0aaf605e5190a3e0405bf00566f754f62272dcb3f78aed4",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pypairix.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "df88d13e4e46cd4632d6ca4b1f3dac45c897934b665b5ef1e79c7c60d749a2db",
+        "sha256_in_prefix": "df88d13e4e46cd4632d6ca4b1f3dac45c897934b665b5ef1e79c7c60d749a2db",
+        "size_in_bytes": 116632
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e24e391bd4f719efe922ec9ee7dcfab8af2c2e9e5f708550f511f5fabc5deee9",
+  "size": 102764,
+  "subdir": "linux-64",
+  "timestamp": 1645611862000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pairix-0.3.7-py36haf49e46_4.tar.bz2",
+  "version": "0.3.7"
+}

@@ -1,0 +1,604 @@
+{
+  "build": "py36h8f6f2f9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "dill >=0.2.5",
+    "libgcc-ng >=9.3.0",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/multiprocess-0.70.12.2-py36h8f6f2f9_0",
+  "files": [
+    "lib/python3.6/site-packages/_multiprocess/__init__.py",
+    "lib/python3.6/site-packages/_multiprocess/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/COPYING.txt",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/LICENSE",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/METADATA",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/RECORD",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/WHEEL",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/multiprocess/__init__.py",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/connection.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/context.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/forkserver.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/heap.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/managers.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/pool.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/popen_fork.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/popen_forkserver.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/popen_spawn_posix.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/popen_spawn_win32.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/process.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/queues.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/reduction.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/resource_sharer.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/semaphore_tracker.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/sharedctypes.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/spawn.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/synchronize.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/connection.py",
+    "lib/python3.6/site-packages/multiprocess/context.py",
+    "lib/python3.6/site-packages/multiprocess/dummy/__init__.py",
+    "lib/python3.6/site-packages/multiprocess/dummy/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/dummy/__pycache__/connection.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/dummy/connection.py",
+    "lib/python3.6/site-packages/multiprocess/forkserver.py",
+    "lib/python3.6/site-packages/multiprocess/heap.py",
+    "lib/python3.6/site-packages/multiprocess/managers.py",
+    "lib/python3.6/site-packages/multiprocess/pool.py",
+    "lib/python3.6/site-packages/multiprocess/popen_fork.py",
+    "lib/python3.6/site-packages/multiprocess/popen_forkserver.py",
+    "lib/python3.6/site-packages/multiprocess/popen_spawn_posix.py",
+    "lib/python3.6/site-packages/multiprocess/popen_spawn_win32.py",
+    "lib/python3.6/site-packages/multiprocess/process.py",
+    "lib/python3.6/site-packages/multiprocess/queues.py",
+    "lib/python3.6/site-packages/multiprocess/reduction.py",
+    "lib/python3.6/site-packages/multiprocess/resource_sharer.py",
+    "lib/python3.6/site-packages/multiprocess/semaphore_tracker.py",
+    "lib/python3.6/site-packages/multiprocess/sharedctypes.py",
+    "lib/python3.6/site-packages/multiprocess/spawn.py",
+    "lib/python3.6/site-packages/multiprocess/synchronize.py",
+    "lib/python3.6/site-packages/multiprocess/tests/__init__.py",
+    "lib/python3.6/site-packages/multiprocess/tests/__main__.py",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/mp_fork_bomb.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/mp_preload.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_fork.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_forkserver.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_main_handling.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_spawn.cpython-36.pyc",
+    "lib/python3.6/site-packages/multiprocess/tests/mp_fork_bomb.py",
+    "lib/python3.6/site-packages/multiprocess/tests/mp_preload.py",
+    "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_fork.py",
+    "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_forkserver.py",
+    "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_main_handling.py",
+    "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_spawn.py",
+    "lib/python3.6/site-packages/multiprocess/util.py"
+  ],
+  "fn": "multiprocess-0.70.12.2-py36h8f6f2f9_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/multiprocess-0.70.12.2-py36h8f6f2f9_0",
+    "type": 1
+  },
+  "md5": "ee5932602e02c59c397edaacbf4d3dab",
+  "name": "multiprocess",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/multiprocess-0.70.12.2-py36h8f6f2f9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/_multiprocess/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cee275ff4cabfa00a9d2801ee7ebcb342a759b21c05ee2957393112eff65ccb0",
+        "sha256_in_prefix": "cee275ff4cabfa00a9d2801ee7ebcb342a759b21c05ee2957393112eff65ccb0",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "lib/python3.6/site-packages/_multiprocess/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f89aeae640edc448c49fe38fda09b1625b39db7c7fcecf3ff82d68968fd4487c",
+        "sha256_in_prefix": "f89aeae640edc448c49fe38fda09b1625b39db7c7fcecf3ff82d68968fd4487c",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/COPYING.txt",
+        "path_type": "hardlink",
+        "sha256": "9f7ff27cb930d2c3202ee07e3d2d6146f4de676d069a33da3166c98cdba83a95",
+        "sha256_in_prefix": "9f7ff27cb930d2c3202ee07e3d2d6146f4de676d069a33da3166c98cdba83a95",
+        "size_in_bytes": 1493
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "27123818106a8f929cd668af7f070061e30447273583bb37944b8a45b8ad1ebc",
+        "sha256_in_prefix": "27123818106a8f929cd668af7f070061e30447273583bb37944b8a45b8ad1ebc",
+        "size_in_bytes": 1934
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fc8fc250b0dd8fb11c3bec42b58a172cc6e17c0bd24f556dcf0f62309be42536",
+        "sha256_in_prefix": "fc8fc250b0dd8fb11c3bec42b58a172cc6e17c0bd24f556dcf0f62309be42536",
+        "size_in_bytes": 6919
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "da8caf410a6576545b058021c2d2fcf4a1995d65af1d97ffbf5b97c786ad59c6",
+        "sha256_in_prefix": "da8caf410a6576545b058021c2d2fcf4a1995d65af1d97ffbf5b97c786ad59c6",
+        "size_in_bytes": 5372
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "faa47094b2b600193ea5ef697ff436351180a9f05fb5063d559949f59d553fb7",
+        "sha256_in_prefix": "faa47094b2b600193ea5ef697ff436351180a9f05fb5063d559949f59d553fb7",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess-0.70.12.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "aad25cf0635dbe2eacb8da48497d0cca59fd01724162b36e6acd4c0aa44f3ea8",
+        "sha256_in_prefix": "aad25cf0635dbe2eacb8da48497d0cca59fd01724162b36e6acd4c0aa44f3ea8",
+        "size_in_bytes": 27
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2e3b37eae7ca609edcde4ab519b3c160afba3590cc4fd9c1a45b617c508547ad",
+        "sha256_in_prefix": "2e3b37eae7ca609edcde4ab519b3c160afba3590cc4fd9c1a45b617c508547ad",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "95744d37194f248f3c1c2a7dca15f7b1a90410e41b72a0a5998a96b80af884ae",
+        "sha256_in_prefix": "95744d37194f248f3c1c2a7dca15f7b1a90410e41b72a0a5998a96b80af884ae",
+        "size_in_bytes": 541
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/connection.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d18defbbaac299923630e89e1321b559d1d0a1a234e4945a17c1208b4dab2da",
+        "sha256_in_prefix": "7d18defbbaac299923630e89e1321b559d1d0a1a234e4945a17c1208b4dab2da",
+        "size_in_bytes": 24912
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/context.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "84ba8919861197f9f9d76a4dd62d1225e9f4d11d7f4986df4ccfda83880df7d6",
+        "sha256_in_prefix": "84ba8919861197f9f9d76a4dd62d1225e9f4d11d7f4986df4ccfda83880df7d6",
+        "size_in_bytes": 13102
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/forkserver.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f598959c738b62218a8c33d99d0c4a4c251e6d9a545cb1ecc4a3df8188eb408",
+        "sha256_in_prefix": "2f598959c738b62218a8c33d99d0c4a4c251e6d9a545cb1ecc4a3df8188eb408",
+        "size_in_bytes": 6836
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/heap.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "17d01fe79c1d84f8533829e0621c42cdef56f00aeded35ffd4eca675f7a70ffd",
+        "sha256_in_prefix": "17d01fe79c1d84f8533829e0621c42cdef56f00aeded35ffd4eca675f7a70ffd",
+        "size_in_bytes": 6083
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/managers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "09858809f6078d930ec70aa43d4cdb9e17c20111000a171b5ecc4420ab184156",
+        "sha256_in_prefix": "09858809f6078d930ec70aa43d4cdb9e17c20111000a171b5ecc4420ab184156",
+        "size_in_bytes": 33347
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/pool.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f6d8db5c23ea42a11dcb67e263fd8c8060815b04db67b561c249db05bbaced8",
+        "sha256_in_prefix": "2f6d8db5c23ea42a11dcb67e263fd8c8060815b04db67b561c249db05bbaced8",
+        "size_in_bytes": 20827
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/popen_fork.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6966c1101c890b0ea8da0d4fb2e8f5a28301d4f11ec27c0ebadbd532c8997341",
+        "sha256_in_prefix": "6966c1101c890b0ea8da0d4fb2e8f5a28301d4f11ec27c0ebadbd532c8997341",
+        "size_in_bytes": 2133
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/popen_forkserver.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6988aad39c335bcd96b4bb884d08473d262257b59e965c553c1fd91053ae6200",
+        "sha256_in_prefix": "6988aad39c335bcd96b4bb884d08473d262257b59e965c553c1fd91053ae6200",
+        "size_in_bytes": 2329
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/popen_spawn_posix.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd0487ee6f07c11f20a008d89dd3f73363a000c35bd6f8acb0069800d4860cca",
+        "sha256_in_prefix": "fd0487ee6f07c11f20a008d89dd3f73363a000c35bd6f8acb0069800d4860cca",
+        "size_in_bytes": 2112
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/popen_spawn_win32.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a3d6758b4e45962ef3ca3bf764ef66ceae4b67abc7350e2a1d6cafe3b253e28f",
+        "sha256_in_prefix": "a3d6758b4e45962ef3ca3bf764ef66ceae4b67abc7350e2a1d6cafe3b253e28f",
+        "size_in_bytes": 2764
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/process.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3afd306c9897a4892ff79dbf688ac65cc3ee00f4ea135b76cab69103d660f4e0",
+        "sha256_in_prefix": "3afd306c9897a4892ff79dbf688ac65cc3ee00f4ea135b76cab69103d660f4e0",
+        "size_in_bytes": 8145
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/queues.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b56d5eb0a6b64cdb58f3f94880c7ab11135f7146c71e99a7cf319e7d0a4a9916",
+        "sha256_in_prefix": "b56d5eb0a6b64cdb58f3f94880c7ab11135f7146c71e99a7cf319e7d0a4a9916",
+        "size_in_bytes": 9040
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/reduction.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "084fc554cb6c91b3a9d182e40f95486a55dad831f14634da1b82593c249227b2",
+        "sha256_in_prefix": "084fc554cb6c91b3a9d182e40f95486a55dad831f14634da1b82593c249227b2",
+        "size_in_bytes": 8066
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/resource_sharer.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b762474f5056bf4051543d0e07f29cd628337c31b501bbd53b05ad964729ff2a",
+        "sha256_in_prefix": "b762474f5056bf4051543d0e07f29cd628337c31b501bbd53b05ad964729ff2a",
+        "size_in_bytes": 5160
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/semaphore_tracker.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad4831fb8b179457b071ef0e7f7809459b14aa7faa6409b5973c88c37eefde9e",
+        "sha256_in_prefix": "ad4831fb8b179457b071ef0e7f7809459b14aa7faa6409b5973c88c37eefde9e",
+        "size_in_bytes": 3738
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/sharedctypes.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5df06c3572f8ea567579b2eabdaebfbc5d7c357caec358c6750f0400df78c8b2",
+        "sha256_in_prefix": "5df06c3572f8ea567579b2eabdaebfbc5d7c357caec358c6750f0400df78c8b2",
+        "size_in_bytes": 6880
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/spawn.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c83fbf6bf558bfa242b9c6ec5c4c44c688b6b41359e9bdbd78008108ba1ddbe4",
+        "sha256_in_prefix": "c83fbf6bf558bfa242b9c6ec5c4c44c688b6b41359e9bdbd78008108ba1ddbe4",
+        "size_in_bytes": 6444
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/synchronize.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b708a0907c2d012dd6338154aa96286544a31db25a9ec6dddffec453ceacd9f3",
+        "sha256_in_prefix": "b708a0907c2d012dd6338154aa96286544a31db25a9ec6dddffec453ceacd9f3",
+        "size_in_bytes": 11700
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/__pycache__/util.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8b7d8385802b88b5ec4a733d85dbf3b23ab52fae00bf265c25d7e895ffc204d",
+        "sha256_in_prefix": "f8b7d8385802b88b5ec4a733d85dbf3b23ab52fae00bf265c25d7e895ffc204d",
+        "size_in_bytes": 9801
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/connection.py",
+        "path_type": "hardlink",
+        "sha256": "221c597eafa0022ac40742dc3df042f8aea5a4e70b8cccffc9101227347ec46f",
+        "sha256_in_prefix": "221c597eafa0022ac40742dc3df042f8aea5a4e70b8cccffc9101227347ec46f",
+        "size_in_bytes": 31050
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/context.py",
+        "path_type": "hardlink",
+        "sha256": "845d0ee951c86027442840e48ee50b8ef498d1cf98c887855ea1097b2680208a",
+        "sha256_in_prefix": "845d0ee951c86027442840e48ee50b8ef498d1cf98c887855ea1097b2680208a",
+        "size_in_bytes": 10917
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/dummy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "496561081c3cdec38049e554207461c4c1efbf527b31117b901ef31da84e3c44",
+        "sha256_in_prefix": "496561081c3cdec38049e554207461c4c1efbf527b31117b901ef31da84e3c44",
+        "size_in_bytes": 2896
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/dummy/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "48331d1817a8046838ebe95395f57eded61e79d3658837c08aff2f7ffd79053b",
+        "sha256_in_prefix": "48331d1817a8046838ebe95395f57eded61e79d3658837c08aff2f7ffd79053b",
+        "size_in_bytes": 3721
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/dummy/__pycache__/connection.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f8b1d070172060b1dad3204bc75df8025a43cd7f6762956f79d9dffbf666afe",
+        "sha256_in_prefix": "4f8b1d070172060b1dad3204bc75df8025a43cd7f6762956f79d9dffbf666afe",
+        "size_in_bytes": 2501
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/dummy/connection.py",
+        "path_type": "hardlink",
+        "sha256": "d3cd2a0365b543d8b6c90c9cb196cf61fb92a9385e5bb15d58db463f25b1c040",
+        "sha256_in_prefix": "d3cd2a0365b543d8b6c90c9cb196cf61fb92a9385e5bb15d58db463f25b1c040",
+        "size_in_bytes": 1583
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/forkserver.py",
+        "path_type": "hardlink",
+        "sha256": "02540832929f2b070bce3f806e0fb8a1b659555ee8b73527467799e8a3115243",
+        "sha256_in_prefix": "02540832929f2b070bce3f806e0fb8a1b659555ee8b73527467799e8a3115243",
+        "size_in_bytes": 8691
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/heap.py",
+        "path_type": "hardlink",
+        "sha256": "c8d0ed58672d43473aa1f4c44ee29c2b659a3467d58dc7ed6dd67d48f3b626e7",
+        "sha256_in_prefix": "c8d0ed58672d43473aa1f4c44ee29c2b659a3467d58dc7ed6dd67d48f3b626e7",
+        "size_in_bytes": 8319
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/managers.py",
+        "path_type": "hardlink",
+        "sha256": "e5726a878e983bd96b58dfee21a4f7e7cd697f55b149320665ab96cc1a96d33f",
+        "sha256_in_prefix": "e5726a878e983bd96b58dfee21a4f7e7cd697f55b149320665ab96cc1a96d33f",
+        "size_in_bytes": 38193
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/pool.py",
+        "path_type": "hardlink",
+        "sha256": "089cc9cb423dd5e96e787d81d6ac491f8e11e2834c4c52fb07406d4e36b4211a",
+        "sha256_in_prefix": "089cc9cb423dd5e96e787d81d6ac491f8e11e2834c4c52fb07406d4e36b4211a",
+        "size_in_bytes": 26059
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/popen_fork.py",
+        "path_type": "hardlink",
+        "sha256": "a3c2d3b3b425ac8553f3d90b2a04725f5a64b5bc201250c014b9ea9aa0808855",
+        "sha256_in_prefix": "a3c2d3b3b425ac8553f3d90b2a04725f5a64b5bc201250c014b9ea9aa0808855",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/popen_forkserver.py",
+        "path_type": "hardlink",
+        "sha256": "1235952c92afdd7295845d85e9a17bd8d7f95ff3fc4b2d9ad33f0e2e9580384b",
+        "sha256_in_prefix": "1235952c92afdd7295845d85e9a17bd8d7f95ff3fc4b2d9ad33f0e2e9580384b",
+        "size_in_bytes": 1953
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/popen_spawn_posix.py",
+        "path_type": "hardlink",
+        "sha256": "8c4df5fffbb9aab88abeb6ed940e067d5170e4a59231411897eaf418c3a4eef1",
+        "sha256_in_prefix": "8c4df5fffbb9aab88abeb6ed940e067d5170e4a59231411897eaf418c3a4eef1",
+        "size_in_bytes": 1904
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/popen_spawn_win32.py",
+        "path_type": "hardlink",
+        "sha256": "55d88f7322c73cb72666e9b3f78ff084d640695980d0e912cf39c32eb034800b",
+        "sha256_in_prefix": "55d88f7322c73cb72666e9b3f78ff084d640695980d0e912cf39c32eb034800b",
+        "size_in_bytes": 2999
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/process.py",
+        "path_type": "hardlink",
+        "sha256": "bb573686aa2d44ba37564cf08c1efa503a7e2cce12635f1cea1cb042bb1cb938",
+        "sha256_in_prefix": "bb573686aa2d44ba37564cf08c1efa503a7e2cce12635f1cea1cb042bb1cb938",
+        "size_in_bytes": 9211
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/queues.py",
+        "path_type": "hardlink",
+        "sha256": "d55ef913d56cbdcc74e6220474decba441d1256ae9f4be599984d2c87cf78922",
+        "sha256_in_prefix": "d55ef913d56cbdcc74e6220474decba441d1256ae9f4be599984d2c87cf78922",
+        "size_in_bytes": 10879
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/reduction.py",
+        "path_type": "hardlink",
+        "sha256": "10eb9848498a8fb0a8eb8f121800c3723cb5a4c6b8d0f4ff5a1c144635770056",
+        "sha256_in_prefix": "10eb9848498a8fb0a8eb8f121800c3723cb5a4c6b8d0f4ff5a1c144635770056",
+        "size_in_bytes": 9357
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/resource_sharer.py",
+        "path_type": "hardlink",
+        "sha256": "a3047c9b77ba57ef0311654fb9ec80462adb89724019d54860c1cca9df6ad250",
+        "sha256_in_prefix": "a3047c9b77ba57ef0311654fb9ec80462adb89724019d54860c1cca9df6ad250",
+        "size_in_bytes": 5325
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/semaphore_tracker.py",
+        "path_type": "hardlink",
+        "sha256": "b57eab0722e19a8696c05a677e61603affc4afe50d5da1223b99d0a5f35ad19e",
+        "sha256_in_prefix": "b57eab0722e19a8696c05a677e61603affc4afe50d5da1223b99d0a5f35ad19e",
+        "size_in_bytes": 5465
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/sharedctypes.py",
+        "path_type": "hardlink",
+        "sha256": "833a47b2d6a77bc30eb1f75dfd1dc369f9bd1e11bc5227878062528dbd7f6960",
+        "sha256_in_prefix": "833a47b2d6a77bc30eb1f75dfd1dc369f9bd1e11bc5227878062528dbd7f6960",
+        "size_in_bytes": 6245
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/spawn.py",
+        "path_type": "hardlink",
+        "sha256": "9a85903100150b48cb084b7c709b8ce41c41d89d7e7a953489388198649cd4a3",
+        "sha256_in_prefix": "9a85903100150b48cb084b7c709b8ce41c41d89d7e7a953489388198649cd4a3",
+        "size_in_bytes": 8860
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/synchronize.py",
+        "path_type": "hardlink",
+        "sha256": "57ebfd6ae7456c37d3e4089eb1a34e4fd252cb8e8164be023a8117ccd71864b0",
+        "sha256_in_prefix": "57ebfd6ae7456c37d3e4089eb1a34e4fd252cb8e8164be023a8117ccd71864b0",
+        "size_in_bytes": 12269
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "63f5eb080566ffabe4ba4ccb1ee3f44179d1e5a0ac446185a0ff8ca83a9b83a7",
+        "sha256_in_prefix": "63f5eb080566ffabe4ba4ccb1ee3f44179d1e5a0ac446185a0ff8ca83a9b83a7",
+        "size_in_bytes": 143453
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "de6a9b55d456a9bf65090d0d9dd9f59b64c8beaaa4f0ffd000611737195c7772",
+        "sha256_in_prefix": "de6a9b55d456a9bf65090d0d9dd9f59b64c8beaaa4f0ffd000611737195c7772",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fab55923fec46f1f5ac1bbf005d5e5d5b6bb179ed789cbaf3539f03a8ad0740",
+        "sha256_in_prefix": "5fab55923fec46f1f5ac1bbf005d5e5d5b6bb179ed789cbaf3539f03a8ad0740",
+        "size_in_bytes": 128265
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee47641cc941f4e6b52752d651ed8183ca2c0d5d3d7b1b99a982e4c75c06f1a3",
+        "sha256_in_prefix": "ee47641cc941f4e6b52752d651ed8183ca2c0d5d3d7b1b99a982e4c75c06f1a3",
+        "size_in_bytes": 878
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/mp_fork_bomb.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "55ba85cd41c9d6994bebeca46c1944ecf9388720ab747866f79dfc67ca297bbb",
+        "sha256_in_prefix": "55ba85cd41c9d6994bebeca46c1944ecf9388720ab747866f79dfc67ca297bbb",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/mp_preload.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e33b46cdf9ddab1b411cd2ed96215241c0441225ed88b59962acb0bc1e42e1b",
+        "sha256_in_prefix": "5e33b46cdf9ddab1b411cd2ed96215241c0441225ed88b59962acb0bc1e42e1b",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_fork.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee122193a2f0ee9f56ce970e5777455699095fdb2ec4cca3a23081a8d646f33e",
+        "sha256_in_prefix": "ee122193a2f0ee9f56ce970e5777455699095fdb2ec4cca3a23081a8d646f33e",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_forkserver.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a8d056dbc31f9b9b238f68c518c654822cc4790ba088d32de3f37498c396e17",
+        "sha256_in_prefix": "2a8d056dbc31f9b9b238f68c518c654822cc4790ba088d32de3f37498c396e17",
+        "size_in_bytes": 536
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_main_handling.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "49c63977654fbf7c4114206ebe32ab5d1737061f0862346892413d2233e18b85",
+        "sha256_in_prefix": "49c63977654fbf7c4114206ebe32ab5d1737061f0862346892413d2233e18b85",
+        "size_in_bytes": 10163
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/__pycache__/test_multiprocessing_spawn.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4008a4d1950501ae4838f020e7447586f3f6a47c6d50ff14b2dc23d77ff0cd40",
+        "sha256_in_prefix": "4008a4d1950501ae4838f020e7447586f3f6a47c6d50ff14b2dc23d77ff0cd40",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/mp_fork_bomb.py",
+        "path_type": "hardlink",
+        "sha256": "e7d6895963071659cb6f942bef3e18cd980037d9479ba684cd3cf016f11e47d8",
+        "sha256_in_prefix": "e7d6895963071659cb6f942bef3e18cd980037d9479ba684cd3cf016f11e47d8",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/mp_preload.py",
+        "path_type": "hardlink",
+        "sha256": "835a3de4f8ce2e57e1dde005b1f23afabacdfdf4c6a70a63ef0c98095e0833f8",
+        "sha256_in_prefix": "835a3de4f8ce2e57e1dde005b1f23afabacdfdf4c6a70a63ef0c98095e0833f8",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_fork.py",
+        "path_type": "hardlink",
+        "sha256": "07317a9a6b9bf250273866c917cf3c62b5a329dcdc8394cffafeb7a5c90a1aab",
+        "sha256_in_prefix": "07317a9a6b9bf250273866c917cf3c62b5a329dcdc8394cffafeb7a5c90a1aab",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_forkserver.py",
+        "path_type": "hardlink",
+        "sha256": "69e7eac3df19e27ae2156c628dd42a27dc7588adf3375456e750dde4d3b85d45",
+        "sha256_in_prefix": "69e7eac3df19e27ae2156c628dd42a27dc7588adf3375456e750dde4d3b85d45",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_main_handling.py",
+        "path_type": "hardlink",
+        "sha256": "547d721428c71decc0f4b38cee36b1bcea6997463bad1ebdc9544714c89bfa9a",
+        "sha256_in_prefix": "547d721428c71decc0f4b38cee36b1bcea6997463bad1ebdc9544714c89bfa9a",
+        "size_in_bytes": 11734
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/tests/test_multiprocessing_spawn.py",
+        "path_type": "hardlink",
+        "sha256": "8db9b8ff223f0f18f708097cdddc2a6cd043c213f228fb4f5bae69f4a9521960",
+        "sha256_in_prefix": "8db9b8ff223f0f18f708097cdddc2a6cd043c213f228fb4f5bae69f4a9521960",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/python3.6/site-packages/multiprocess/util.py",
+        "path_type": "hardlink",
+        "sha256": "79c6e8a66db861b8ed5e6d53a8a625acc0ff9fcd1d23933c9c528a85bf96910e",
+        "sha256_in_prefix": "79c6e8a66db861b8ed5e6d53a8a625acc0ff9fcd1d23933c9c528a85bf96910e",
+        "size_in_bytes": 11883
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "08f54ad994d31fc925675c2b41d0952c702716b0ba49f19b4ca14c93f51904a3",
+  "size": 177197,
+  "subdir": "linux-64",
+  "timestamp": 1623774623000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/multiprocess-0.70.12.2-py36h8f6f2f9_0.tar.bz2",
+  "version": "0.70.12.2"
+}

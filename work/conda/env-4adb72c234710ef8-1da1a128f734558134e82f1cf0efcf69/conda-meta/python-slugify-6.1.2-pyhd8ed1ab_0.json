@@ -1,0 +1,182 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "slugify <0",
+    "awesome-slugify <0"
+  ],
+  "depends": [
+    "python >=3.6",
+    "text-unidecode >=1.3",
+    "unidecode >=1.1.1"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/python-slugify-6.1.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/LICENSE",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/METADATA",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/RECORD",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/WHEEL",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/python_slugify-6.1.2.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/slugify/__init__.py",
+    "lib/python3.6/site-packages/slugify/__main__.py",
+    "lib/python3.6/site-packages/slugify/__version__.py",
+    "lib/python3.6/site-packages/slugify/slugify.py",
+    "lib/python3.6/site-packages/slugify/special.py",
+    "lib/python3.6/site-packages/slugify/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/slugify/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/slugify/__pycache__/__version__.cpython-36.pyc",
+    "lib/python3.6/site-packages/slugify/__pycache__/slugify.cpython-36.pyc",
+    "lib/python3.6/site-packages/slugify/__pycache__/special.cpython-36.pyc",
+    "bin/slugify"
+  ],
+  "fn": "python-slugify-6.1.2-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/python-slugify-6.1.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a882d8d1971e2618a702d8b4c4d58390",
+  "name": "python-slugify",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/python-slugify-6.1.2-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "30ba4dc69a9f4dce132dd703937c7a93b573e2524604d2d5f92c5066514c0d4f",
+        "sha256_in_prefix": "30ba4dc69a9f4dce132dd703937c7a93b573e2524604d2d5f92c5066514c0d4f",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "905ccec866c31b55846da7daf82316d650a5e7b125375c58186c45f8e9b7734c",
+        "sha256_in_prefix": "905ccec866c31b55846da7daf82316d650a5e7b125375c58186c45f8e9b7734c",
+        "size_in_bytes": 7669
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "25caf25d087395d6d685a6f4bce1a2f1be156eff7755e3d2552b2ce60b102f6a",
+        "sha256_in_prefix": "25caf25d087395d6d685a6f4bce1a2f1be156eff7755e3d2552b2ce60b102f6a",
+        "size_in_bytes": 1523
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c4b3d85251e2bce1831973dfda6b612662f1fc436d22f9e2bd5f48a398848b67",
+        "sha256_in_prefix": "c4b3d85251e2bce1831973dfda6b612662f1fc436d22f9e2bd5f48a398848b67",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "b3f0719f735dda5b074d0e0f142436cf7a37c4c833413b4f3f1dd41ac52723d2",
+        "sha256_in_prefix": "b3f0719f735dda5b074d0e0f142436cf7a37c4c833413b4f3f1dd41ac52723d2",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/python_slugify-6.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0fbcee47bcf1212aa50b102b94e38eb8bb1639bcf5ff78e0a2cab95e1952a5ec",
+        "sha256_in_prefix": "0fbcee47bcf1212aa50b102b94e38eb8bb1639bcf5ff78e0a2cab95e1952a5ec",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/slugify/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7798d3d376b47f2b11d983cfd9b47203f07bb7ee1a034a14bd60b5e044f35bc6",
+        "sha256_in_prefix": "7798d3d376b47f2b11d983cfd9b47203f07bb7ee1a034a14bd60b5e044f35bc6",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "site-packages/slugify/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "dc4550ae2b355299d6320be37952c3bf3457181aa4364769cc53e67b3e6ccae5",
+        "sha256_in_prefix": "dc4550ae2b355299d6320be37952c3bf3457181aa4364769cc53e67b3e6ccae5",
+        "size_in_bytes": 3866
+      },
+      {
+        "_path": "site-packages/slugify/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "94e5f159e6a609f0d331d4651a8e17455678da5155dcc103aee2e738245606f3",
+        "sha256_in_prefix": "94e5f159e6a609f0d331d4651a8e17455678da5155dcc103aee2e738245606f3",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "site-packages/slugify/slugify.py",
+        "path_type": "hardlink",
+        "sha256": "f0e4edab7be5b88781febaf001bcfe44a486521af36d960e76652ff939684733",
+        "sha256_in_prefix": "f0e4edab7be5b88781febaf001bcfe44a486521af36d960e76652ff939684733",
+        "size_in_bytes": 5795
+      },
+      {
+        "_path": "site-packages/slugify/special.py",
+        "path_type": "hardlink",
+        "sha256": "b95dd83186b2d474da3f79efcb36a257816a19ace38fc1e60c73357ec3d0de8a",
+        "sha256_in_prefix": "b95dd83186b2d474da3f79efcb36a257816a19ace38fc1e60c73357ec3d0de8a",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slugify/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slugify/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slugify/__pycache__/__version__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slugify/__pycache__/slugify.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/slugify/__pycache__/special.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/slugify",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0f209008ad2c4da848a0ac51995fb49e0cd3fb5d31f27895cea0bdacaf4827ac",
+  "size": 15623,
+  "subdir": "noarch",
+  "timestamp": 1651150918000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-slugify-6.1.2-pyhd8ed1ab_0.tar.bz2",
+  "version": "6.1.2"
+}

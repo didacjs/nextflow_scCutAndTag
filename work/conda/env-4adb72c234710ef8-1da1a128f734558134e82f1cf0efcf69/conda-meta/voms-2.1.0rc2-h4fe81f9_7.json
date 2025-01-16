@@ -1,0 +1,327 @@
+{
+  "build": "h4fe81f9_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "voms-clients 9999999"
+  ],
+  "depends": [
+    "expat >=2.5.0,<3.0a0",
+    "gsoap >=2.8.123,<2.8.124.0a0",
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "openssl >=1.1.1q,<1.1.2a"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/voms-2.1.0rc2-h4fe81f9_7",
+  "files": [
+    "bin/voms-proxy-destroy",
+    "bin/voms-proxy-fake",
+    "bin/voms-proxy-info",
+    "bin/voms-proxy-init",
+    "bin/voms-proxy-list",
+    "bin/voms-verify",
+    "etc/rc.d/init.d/voms",
+    "etc/sysconfig/voms",
+    "include/voms/acstack.h",
+    "include/voms/newformat.h",
+    "include/voms/voms_api.h",
+    "include/voms/voms_apic.h",
+    "include/voms/vomsproxy.h",
+    "include/voms/vomsssl.h",
+    "lib/libvomsapi.a",
+    "lib/libvomsapi.so",
+    "lib/libvomsapi.so.1",
+    "lib/libvomsapi.so.1.0.0",
+    "lib/pkgconfig/voms-2.0.pc",
+    "sbin/voms",
+    "share/aclocal/voms.m4",
+    "share/man/man1/voms-proxy-destroy.1",
+    "share/man/man1/voms-proxy-fake.1",
+    "share/man/man1/voms-proxy-info.1",
+    "share/man/man1/voms-proxy-init.1",
+    "share/man/man1/voms-proxy-list.1",
+    "share/man/man8/voms.8",
+    "share/voms/mysql2oracle",
+    "share/voms/upgrade1to2",
+    "share/voms/voms-ping",
+    "share/voms/voms.data",
+    "share/voms/voms_install_db",
+    "share/voms/voms_replica_master_setup.sh",
+    "share/voms/voms_replica_slave_setup.sh",
+    "share/voms/vomses.template"
+  ],
+  "fn": "voms-2.1.0rc2-h4fe81f9_7.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/voms-2.1.0rc2-h4fe81f9_7",
+    "type": 1
+  },
+  "md5": "c8ef51167d7fb3e8fedb3d1ff82baf16",
+  "name": "voms",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/voms-2.1.0rc2-h4fe81f9_7.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/voms-proxy-destroy",
+        "path_type": "hardlink",
+        "sha256": "6025f78b51a1fd2433612be38fe8371deb3cd53b5e988f3ab7020d431357330b",
+        "sha256_in_prefix": "6025f78b51a1fd2433612be38fe8371deb3cd53b5e988f3ab7020d431357330b",
+        "size_in_bytes": 65824
+      },
+      {
+        "_path": "bin/voms-proxy-fake",
+        "path_type": "hardlink",
+        "sha256": "7c1ab9d9d8a8c81ea835cc767fde80367004ffb6a48bc3bd34757cf0f8debc26",
+        "sha256_in_prefix": "7c1ab9d9d8a8c81ea835cc767fde80367004ffb6a48bc3bd34757cf0f8debc26",
+        "size_in_bytes": 137440
+      },
+      {
+        "_path": "bin/voms-proxy-info",
+        "path_type": "hardlink",
+        "sha256": "3e5c148c0f48d441dfb8c797bd5bd4c4b1a5216ab20c6673d90896d61562cfde",
+        "sha256_in_prefix": "3e5c148c0f48d441dfb8c797bd5bd4c4b1a5216ab20c6673d90896d61562cfde",
+        "size_in_bytes": 91368
+      },
+      {
+        "_path": "bin/voms-proxy-init",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/voms_1666769873019/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "ffecc316b89239035ac39faf87feb4ecb6a5d4c7ae8bcdb736e8658e1a5b9f51",
+        "sha256_in_prefix": "d284567849e90c03afe2b3a0b9c54ce3249184d6b789f35158b37609b20fe076",
+        "size_in_bytes": 150440
+      },
+      {
+        "_path": "bin/voms-proxy-list",
+        "path_type": "softlink",
+        "sha256": "ffecc316b89239035ac39faf87feb4ecb6a5d4c7ae8bcdb736e8658e1a5b9f51",
+        "size_in_bytes": 150440
+      },
+      {
+        "_path": "bin/voms-verify",
+        "path_type": "hardlink",
+        "sha256": "41c3f0a000b7bc7a5adcd3822196492aadcfff5e7aa1f78040c1be5b62ae8399",
+        "sha256_in_prefix": "41c3f0a000b7bc7a5adcd3822196492aadcfff5e7aa1f78040c1be5b62ae8399",
+        "size_in_bytes": 59480
+      },
+      {
+        "_path": "etc/rc.d/init.d/voms",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/voms_1666769873019/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "e48d805336ebcbc83e5e393e32b2324ddaf382811632414c9d41c7a908d5341a",
+        "sha256_in_prefix": "1a8d04155e9c4aa278346bda8c014411fa4fae8cdcfb133bb084ab6b01d8201e",
+        "size_in_bytes": 13153
+      },
+      {
+        "_path": "etc/sysconfig/voms",
+        "path_type": "hardlink",
+        "sha256": "dd2f7835e3e399eaa91d5ff06b78da5e18aec9b776dfaab132eb37f3321a6568",
+        "sha256_in_prefix": "dd2f7835e3e399eaa91d5ff06b78da5e18aec9b776dfaab132eb37f3321a6568",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "include/voms/acstack.h",
+        "path_type": "hardlink",
+        "sha256": "dcaab1661907e6c35bf60e99da7cf91863aa838c87b06665ebd05ac218dea3be",
+        "sha256_in_prefix": "dcaab1661907e6c35bf60e99da7cf91863aa838c87b06665ebd05ac218dea3be",
+        "size_in_bytes": 5014
+      },
+      {
+        "_path": "include/voms/newformat.h",
+        "path_type": "hardlink",
+        "sha256": "61f850487aba066f111f55ccc818046b1a93eeb69a5bb2bad456536575fd0fd3",
+        "sha256_in_prefix": "61f850487aba066f111f55ccc818046b1a93eeb69a5bb2bad456536575fd0fd3",
+        "size_in_bytes": 4271
+      },
+      {
+        "_path": "include/voms/voms_api.h",
+        "path_type": "hardlink",
+        "sha256": "3c4f90566ced14938ffab0588e0db36b8caf95aade1b5da9fbeeab9fb4d68e45",
+        "sha256_in_prefix": "3c4f90566ced14938ffab0588e0db36b8caf95aade1b5da9fbeeab9fb4d68e45",
+        "size_in_bytes": 19693
+      },
+      {
+        "_path": "include/voms/voms_apic.h",
+        "path_type": "hardlink",
+        "sha256": "c1670251cd2b4d38e127bd739c695d187769ab64c979054b0e66790df129097b",
+        "sha256_in_prefix": "c1670251cd2b4d38e127bd739c695d187769ab64c979054b0e66790df129097b",
+        "size_in_bytes": 21502
+      },
+      {
+        "_path": "include/voms/vomsproxy.h",
+        "path_type": "hardlink",
+        "sha256": "1ea305b82b513f369ae4146e5663ebe35020fb7558736f9cdd0a064814dfdb57",
+        "sha256_in_prefix": "1ea305b82b513f369ae4146e5663ebe35020fb7558736f9cdd0a064814dfdb57",
+        "size_in_bytes": 3290
+      },
+      {
+        "_path": "include/voms/vomsssl.h",
+        "path_type": "hardlink",
+        "sha256": "046959ac3cbb201b3f8f6befffea437b75b3f7c4acdf05d6c2a5e189aa6da1fb",
+        "sha256_in_prefix": "046959ac3cbb201b3f8f6befffea437b75b3f7c4acdf05d6c2a5e189aa6da1fb",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "lib/libvomsapi.a",
+        "path_type": "hardlink",
+        "sha256": "84ecf4e720e9aa80cd40c7981d300c45d273c193240e2332d27ed9d2f9369724",
+        "sha256_in_prefix": "84ecf4e720e9aa80cd40c7981d300c45d273c193240e2332d27ed9d2f9369724",
+        "size_in_bytes": 889160
+      },
+      {
+        "_path": "lib/libvomsapi.so",
+        "path_type": "softlink",
+        "sha256": "70e29827fd6740fa1f7220ac24f10cc50a50e307197bda6af630c497991cb5f5",
+        "size_in_bytes": 495672
+      },
+      {
+        "_path": "lib/libvomsapi.so.1",
+        "path_type": "softlink",
+        "sha256": "70e29827fd6740fa1f7220ac24f10cc50a50e307197bda6af630c497991cb5f5",
+        "size_in_bytes": 495672
+      },
+      {
+        "_path": "lib/libvomsapi.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "70e29827fd6740fa1f7220ac24f10cc50a50e307197bda6af630c497991cb5f5",
+        "sha256_in_prefix": "70e29827fd6740fa1f7220ac24f10cc50a50e307197bda6af630c497991cb5f5",
+        "size_in_bytes": 495672
+      },
+      {
+        "_path": "lib/pkgconfig/voms-2.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/voms_1666769873019/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "041e46d4dbfcc62839b1f360a42e59efc50a2032c787dc2530e252cee2fd07c0",
+        "sha256_in_prefix": "2b43a08f3f89a1f806e03b37a9e607716b90a485cd195640396b5cce48b635b8",
+        "size_in_bytes": 478
+      },
+      {
+        "_path": "sbin/voms",
+        "path_type": "hardlink",
+        "sha256": "4c930767af72800667eb6538e48c466bde2e13d54d2da2c28b75661aadd01724",
+        "sha256_in_prefix": "4c930767af72800667eb6538e48c466bde2e13d54d2da2c28b75661aadd01724",
+        "size_in_bytes": 387104
+      },
+      {
+        "_path": "share/aclocal/voms.m4",
+        "path_type": "hardlink",
+        "sha256": "ba8ec5372ac4a840e99ae8528e7a652d8b6ea4ca90ca529759940b6f6854eef5",
+        "sha256_in_prefix": "ba8ec5372ac4a840e99ae8528e7a652d8b6ea4ca90ca529759940b6f6854eef5",
+        "size_in_bytes": 976
+      },
+      {
+        "_path": "share/man/man1/voms-proxy-destroy.1",
+        "path_type": "hardlink",
+        "sha256": "6c0fdeadd8d14e16c98ddf97ac84463d5cf00402c20698ccff66eab1d73b890c",
+        "sha256_in_prefix": "6c0fdeadd8d14e16c98ddf97ac84463d5cf00402c20698ccff66eab1d73b890c",
+        "size_in_bytes": 2482
+      },
+      {
+        "_path": "share/man/man1/voms-proxy-fake.1",
+        "path_type": "hardlink",
+        "sha256": "46b914ee4080ec5b211a26d335779fd0be53ce307bac7e0f75f4478d0edc7198",
+        "sha256_in_prefix": "46b914ee4080ec5b211a26d335779fd0be53ce307bac7e0f75f4478d0edc7198",
+        "size_in_bytes": 9250
+      },
+      {
+        "_path": "share/man/man1/voms-proxy-info.1",
+        "path_type": "hardlink",
+        "sha256": "ce9b641291074285ddf626c9d3edd30cc42aa6e317f5c7cc12c55a1ea2f9419e",
+        "sha256_in_prefix": "ce9b641291074285ddf626c9d3edd30cc42aa6e317f5c7cc12c55a1ea2f9419e",
+        "size_in_bytes": 4591
+      },
+      {
+        "_path": "share/man/man1/voms-proxy-init.1",
+        "path_type": "hardlink",
+        "sha256": "a1ba920ff8cd2fec7514655124b9393df8d4c59f95d23078494fbd67569a8da4",
+        "sha256_in_prefix": "a1ba920ff8cd2fec7514655124b9393df8d4c59f95d23078494fbd67569a8da4",
+        "size_in_bytes": 7386
+      },
+      {
+        "_path": "share/man/man1/voms-proxy-list.1",
+        "path_type": "hardlink",
+        "sha256": "dd29f263c3aa8b0755d4b5bb6671746aab9286fab6c3becbcf85d814c709d627",
+        "sha256_in_prefix": "dd29f263c3aa8b0755d4b5bb6671746aab9286fab6c3becbcf85d814c709d627",
+        "size_in_bytes": 4270
+      },
+      {
+        "_path": "share/man/man8/voms.8",
+        "path_type": "hardlink",
+        "sha256": "219bd541846d0be406ee15ec7d3cc4ae1df1f2a3f414cf8c13886bdf1662c78d",
+        "sha256_in_prefix": "219bd541846d0be406ee15ec7d3cc4ae1df1f2a3f414cf8c13886bdf1662c78d",
+        "size_in_bytes": 13710
+      },
+      {
+        "_path": "share/voms/mysql2oracle",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/voms_1666769873019/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "70d25516bda4515193d391eb94c4912f6e49778bdeec5ba378ccd905511fcdb4",
+        "sha256_in_prefix": "d331d26bc52e78da773d2846741a3398d4a41c26c5c3a705e8e07eba85afb239",
+        "size_in_bytes": 4053
+      },
+      {
+        "_path": "share/voms/upgrade1to2",
+        "path_type": "hardlink",
+        "sha256": "045d70eb919077d5be5bae1fc22480b69d5fc46f9005d2108f4ebe9d60077d7e",
+        "sha256_in_prefix": "045d70eb919077d5be5bae1fc22480b69d5fc46f9005d2108f4ebe9d60077d7e",
+        "size_in_bytes": 1380
+      },
+      {
+        "_path": "share/voms/voms-ping",
+        "path_type": "hardlink",
+        "sha256": "19330f5388c5e3a2e2683aa0ff81dc1cbfa83043ffe74ba1c071020906b69725",
+        "sha256_in_prefix": "19330f5388c5e3a2e2683aa0ff81dc1cbfa83043ffe74ba1c071020906b69725",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "share/voms/voms.data",
+        "path_type": "hardlink",
+        "sha256": "707b482854c312d7af36ee2943d015493c91e58311a0776cc0fb4a85ac44d11f",
+        "sha256_in_prefix": "707b482854c312d7af36ee2943d015493c91e58311a0776cc0fb4a85ac44d11f",
+        "size_in_bytes": 11181
+      },
+      {
+        "_path": "share/voms/voms_install_db",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/voms_1666769873019/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "a8cf80015cf10d0ccd2941c9bc52a8999fa45f0215fc9c3a0f7dd241b0528ed9",
+        "sha256_in_prefix": "4eabc7a1b9ca1c8124b3eb29d3357a947c994366dd92253816a4efb70a644368",
+        "size_in_bytes": 12722
+      },
+      {
+        "_path": "share/voms/voms_replica_master_setup.sh",
+        "path_type": "hardlink",
+        "sha256": "d9e79b1e85877cf17d6f8a83b6533e07208e8b836ed8ef8fae3d30f407634ce2",
+        "sha256_in_prefix": "d9e79b1e85877cf17d6f8a83b6533e07208e8b836ed8ef8fae3d30f407634ce2",
+        "size_in_bytes": 9912
+      },
+      {
+        "_path": "share/voms/voms_replica_slave_setup.sh",
+        "path_type": "hardlink",
+        "sha256": "b93a75a6200a706341192f93a866d821eaaae8fd9fd0043c2524d073afc0f84c",
+        "sha256_in_prefix": "b93a75a6200a706341192f93a866d821eaaae8fd9fd0043c2524d073afc0f84c",
+        "size_in_bytes": 9778
+      },
+      {
+        "_path": "share/voms/vomses.template",
+        "path_type": "hardlink",
+        "sha256": "c1209a2061cf4956450594bc02de8a12a0819932cdc1411f34fd10c0892bff77",
+        "sha256_in_prefix": "c1209a2061cf4956450594bc02de8a12a0819932cdc1411f34fd10c0892bff77",
+        "size_in_bytes": 175
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a05d81e0ff5b9c8991b85489ca3c0d28ce641758dbeba8539a68bbd6354d4124",
+  "size": 621987,
+  "subdir": "linux-64",
+  "timestamp": 1666770057000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/voms-2.1.0rc2-h4fe81f9_7.tar.bz2",
+  "version": "2.1.0rc2"
+}

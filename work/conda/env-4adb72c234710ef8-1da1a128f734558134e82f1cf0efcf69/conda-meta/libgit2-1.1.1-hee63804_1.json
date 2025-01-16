@@ -1,0 +1,766 @@
+{
+  "build": "hee63804_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libssh2 >=1.9.0,<2.0a0",
+    "libstdcxx-ng >=9.3.0",
+    "openssl >=1.1.1k,<1.1.2a",
+    "pcre2 >=10.37,<10.38.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/libgit2-1.1.1-hee63804_1",
+  "files": [
+    "include/git2.h",
+    "include/git2/annotated_commit.h",
+    "include/git2/apply.h",
+    "include/git2/attr.h",
+    "include/git2/blame.h",
+    "include/git2/blob.h",
+    "include/git2/branch.h",
+    "include/git2/buffer.h",
+    "include/git2/cert.h",
+    "include/git2/checkout.h",
+    "include/git2/cherrypick.h",
+    "include/git2/clone.h",
+    "include/git2/commit.h",
+    "include/git2/common.h",
+    "include/git2/config.h",
+    "include/git2/cred_helpers.h",
+    "include/git2/credential.h",
+    "include/git2/credential_helpers.h",
+    "include/git2/deprecated.h",
+    "include/git2/describe.h",
+    "include/git2/diff.h",
+    "include/git2/errors.h",
+    "include/git2/filter.h",
+    "include/git2/global.h",
+    "include/git2/graph.h",
+    "include/git2/ignore.h",
+    "include/git2/index.h",
+    "include/git2/indexer.h",
+    "include/git2/mailmap.h",
+    "include/git2/merge.h",
+    "include/git2/message.h",
+    "include/git2/net.h",
+    "include/git2/notes.h",
+    "include/git2/object.h",
+    "include/git2/odb.h",
+    "include/git2/odb_backend.h",
+    "include/git2/oid.h",
+    "include/git2/oidarray.h",
+    "include/git2/pack.h",
+    "include/git2/patch.h",
+    "include/git2/pathspec.h",
+    "include/git2/proxy.h",
+    "include/git2/rebase.h",
+    "include/git2/refdb.h",
+    "include/git2/reflog.h",
+    "include/git2/refs.h",
+    "include/git2/refspec.h",
+    "include/git2/remote.h",
+    "include/git2/repository.h",
+    "include/git2/reset.h",
+    "include/git2/revert.h",
+    "include/git2/revparse.h",
+    "include/git2/revwalk.h",
+    "include/git2/signature.h",
+    "include/git2/stash.h",
+    "include/git2/status.h",
+    "include/git2/stdint.h",
+    "include/git2/strarray.h",
+    "include/git2/submodule.h",
+    "include/git2/sys/alloc.h",
+    "include/git2/sys/commit.h",
+    "include/git2/sys/config.h",
+    "include/git2/sys/cred.h",
+    "include/git2/sys/credential.h",
+    "include/git2/sys/diff.h",
+    "include/git2/sys/filter.h",
+    "include/git2/sys/hashsig.h",
+    "include/git2/sys/index.h",
+    "include/git2/sys/mempack.h",
+    "include/git2/sys/merge.h",
+    "include/git2/sys/odb_backend.h",
+    "include/git2/sys/openssl.h",
+    "include/git2/sys/path.h",
+    "include/git2/sys/refdb_backend.h",
+    "include/git2/sys/reflog.h",
+    "include/git2/sys/refs.h",
+    "include/git2/sys/repository.h",
+    "include/git2/sys/stream.h",
+    "include/git2/sys/transport.h",
+    "include/git2/tag.h",
+    "include/git2/trace.h",
+    "include/git2/transaction.h",
+    "include/git2/transport.h",
+    "include/git2/tree.h",
+    "include/git2/types.h",
+    "include/git2/version.h",
+    "include/git2/worktree.h",
+    "lib/libgit2.so",
+    "lib/libgit2.so.1.1",
+    "lib/libgit2.so.1.1.1",
+    "lib/pkgconfig/libgit2.pc"
+  ],
+  "fn": "libgit2-1.1.1-hee63804_1.tar.bz2",
+  "license": "GPL-2.0-only WITH GCC-exception-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/libgit2-1.1.1-hee63804_1",
+    "type": 1
+  },
+  "md5": "43dfac714bd38b39080df3133d520a3f",
+  "name": "libgit2",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/libgit2-1.1.1-hee63804_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/git2.h",
+        "path_type": "hardlink",
+        "sha256": "bd9f9e0e73645ff02f3f060c51eb5f9496816cde7fe694402a121caf7957b4e1",
+        "sha256_in_prefix": "bd9f9e0e73645ff02f3f060c51eb5f9496816cde7fe694402a121caf7957b4e1",
+        "size_in_bytes": 1803
+      },
+      {
+        "_path": "include/git2/annotated_commit.h",
+        "path_type": "hardlink",
+        "sha256": "b416a1418b38c638cfd331022cf0fd059ec693090ffd29df3e649fbf502605a2",
+        "sha256_in_prefix": "b416a1418b38c638cfd331022cf0fd059ec693090ffd29df3e649fbf502605a2",
+        "size_in_bytes": 3877
+      },
+      {
+        "_path": "include/git2/apply.h",
+        "path_type": "hardlink",
+        "sha256": "3712984fb5e82d9cbf5f75fa415262390f5091b150034aacc1aff67fb452dbee",
+        "sha256_in_prefix": "3712984fb5e82d9cbf5f75fa415262390f5091b150034aacc1aff67fb452dbee",
+        "size_in_bytes": 4154
+      },
+      {
+        "_path": "include/git2/attr.h",
+        "path_type": "hardlink",
+        "sha256": "afcb58df2ce40ea3fa893a0384ce85002de711ecc4ce01ecca0dc580d3e801c0",
+        "sha256_in_prefix": "afcb58df2ce40ea3fa893a0384ce85002de711ecc4ce01ecca0dc580d3e801c0",
+        "size_in_bytes": 9359
+      },
+      {
+        "_path": "include/git2/blame.h",
+        "path_type": "hardlink",
+        "sha256": "a2e37b09ea9ba750f8c7ede9e91536a1607d400dba453eff86de5c9203f4d819",
+        "sha256_in_prefix": "a2e37b09ea9ba750f8c7ede9e91536a1607d400dba453eff86de5c9203f4d819",
+        "size_in_bytes": 7686
+      },
+      {
+        "_path": "include/git2/blob.h",
+        "path_type": "hardlink",
+        "sha256": "51aaba5f861e76f7b58bffdd4cdbc4bdbeb0af82d32c300c9e4bd51e5beeef53",
+        "sha256_in_prefix": "51aaba5f861e76f7b58bffdd4cdbc4bdbeb0af82d32c300c9e4bd51e5beeef53",
+        "size_in_bytes": 8774
+      },
+      {
+        "_path": "include/git2/branch.h",
+        "path_type": "hardlink",
+        "sha256": "40f5844af9075919da705beb68e6cb9a7b82afcf3ea37740d360744711740f00",
+        "sha256_in_prefix": "40f5844af9075919da705beb68e6cb9a7b82afcf3ea37740d360744711740f00",
+        "size_in_bytes": 9643
+      },
+      {
+        "_path": "include/git2/buffer.h",
+        "path_type": "hardlink",
+        "sha256": "6123f50ce96972ed89c1a4316ee1b91d4e319002bccb16d79b460f59c0a4524e",
+        "sha256_in_prefix": "6123f50ce96972ed89c1a4316ee1b91d4e319002bccb16d79b460f59c0a4524e",
+        "size_in_bytes": 4230
+      },
+      {
+        "_path": "include/git2/cert.h",
+        "path_type": "hardlink",
+        "sha256": "9685b4bf3ad3c3ae9f456ef9e285213cce00f68a344bb3eb876ba36648354dff",
+        "sha256_in_prefix": "9685b4bf3ad3c3ae9f456ef9e285213cce00f68a344bb3eb876ba36648354dff",
+        "size_in_bytes": 3186
+      },
+      {
+        "_path": "include/git2/checkout.h",
+        "path_type": "hardlink",
+        "sha256": "1173d124aac04c2263ca842f1c8bb5285238757dd220718598b9eedc0ab39b99",
+        "sha256_in_prefix": "1173d124aac04c2263ca842f1c8bb5285238757dd220718598b9eedc0ab39b99",
+        "size_in_bytes": 14595
+      },
+      {
+        "_path": "include/git2/cherrypick.h",
+        "path_type": "hardlink",
+        "sha256": "9d55b4dcf4a3db3cc432d9ab60bb6788c5a0a22525f3d2c5c071e6e693df3824",
+        "sha256_in_prefix": "9d55b4dcf4a3db3cc432d9ab60bb6788c5a0a22525f3d2c5c071e6e693df3824",
+        "size_in_bytes": 2781
+      },
+      {
+        "_path": "include/git2/clone.h",
+        "path_type": "hardlink",
+        "sha256": "4f29df3fbf99ef2b01f796f69bb83f75cdb7e009a35153f1a64e549285600d58",
+        "sha256_in_prefix": "4f29df3fbf99ef2b01f796f69bb83f75cdb7e009a35153f1a64e549285600d58",
+        "size_in_bytes": 5993
+      },
+      {
+        "_path": "include/git2/commit.h",
+        "path_type": "hardlink",
+        "sha256": "ce4bc01f4e4a7dc229d912188fd647767fa32f379ea3f823ef2f544cae9e4fe7",
+        "sha256_in_prefix": "ce4bc01f4e4a7dc229d912188fd647767fa32f379ea3f823ef2f544cae9e4fe7",
+        "size_in_bytes": 17453
+      },
+      {
+        "_path": "include/git2/common.h",
+        "path_type": "hardlink",
+        "sha256": "31b1bed683969695a48a5c85c0096e91c0ea2fb6a2a0b49fc490a996c0d7d3c0",
+        "sha256_in_prefix": "31b1bed683969695a48a5c85c0096e91c0ea2fb6a2a0b49fc490a996c0d7d3c0",
+        "size_in_bytes": 14180
+      },
+      {
+        "_path": "include/git2/config.h",
+        "path_type": "hardlink",
+        "sha256": "dbd486ab9a111f8469d4c2bf59f731c15c06d973b4dd8d699ca9cd71cc9ea445",
+        "sha256_in_prefix": "dbd486ab9a111f8469d4c2bf59f731c15c06d973b4dd8d699ca9cd71cc9ea445",
+        "size_in_bytes": 25679
+      },
+      {
+        "_path": "include/git2/cred_helpers.h",
+        "path_type": "hardlink",
+        "sha256": "4478aa5e3f82cd754333311939c3c0d5deeff7be636f68e03a7f5b1c5f4bf73b",
+        "sha256_in_prefix": "4478aa5e3f82cd754333311939c3c0d5deeff7be636f68e03a7f5b1c5f4bf73b",
+        "size_in_bytes": 407
+      },
+      {
+        "_path": "include/git2/credential.h",
+        "path_type": "hardlink",
+        "sha256": "9b4623b90cb05d83bcd33330deab55c21efc7c3ee9fae960b20c0dd6f78158da",
+        "sha256_in_prefix": "9b4623b90cb05d83bcd33330deab55c21efc7c3ee9fae960b20c0dd6f78158da",
+        "size_in_bytes": 9835
+      },
+      {
+        "_path": "include/git2/credential_helpers.h",
+        "path_type": "hardlink",
+        "sha256": "165864b7b39478e15804ccc95a03362a88fcb6bfd21b32b4fce660f50fbf479a",
+        "sha256_in_prefix": "165864b7b39478e15804ccc95a03362a88fcb6bfd21b32b4fce660f50fbf479a",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "include/git2/deprecated.h",
+        "path_type": "hardlink",
+        "sha256": "5df0c932eb727b7a47a37eff93e2489a84206a1c3d9d1e3c5f01f1ec90344f4f",
+        "sha256_in_prefix": "5df0c932eb727b7a47a37eff93e2489a84206a1c3d9d1e3c5f01f1ec90344f4f",
+        "size_in_bytes": 19945
+      },
+      {
+        "_path": "include/git2/describe.h",
+        "path_type": "hardlink",
+        "sha256": "08b3280fbb5c38c5b261e317380bd602948ad5c0c94c6073329fdb222c110700",
+        "sha256_in_prefix": "08b3280fbb5c38c5b261e317380bd602948ad5c0c94c6073329fdb222c110700",
+        "size_in_bytes": 5306
+      },
+      {
+        "_path": "include/git2/diff.h",
+        "path_type": "hardlink",
+        "sha256": "4693c3b4d5dbe0401fc5930afc4637b65e9b1e0e0527b9b2d3d87507c0b7b4c8",
+        "sha256_in_prefix": "4693c3b4d5dbe0401fc5930afc4637b65e9b1e0e0527b9b2d3d87507c0b7b4c8",
+        "size_in_bytes": 54533
+      },
+      {
+        "_path": "include/git2/errors.h",
+        "path_type": "hardlink",
+        "sha256": "f4c9d240c1637936ae7a1ec13e1742c802f3f7cf5d4316d7634d563345bfb095",
+        "sha256_in_prefix": "f4c9d240c1637936ae7a1ec13e1742c802f3f7cf5d4316d7634d563345bfb095",
+        "size_in_bytes": 5736
+      },
+      {
+        "_path": "include/git2/filter.h",
+        "path_type": "hardlink",
+        "sha256": "f6799b05b50739faa32b087922ab027fa27e30d24770f5a016beb8a11370439b",
+        "sha256_in_prefix": "f6799b05b50739faa32b087922ab027fa27e30d24770f5a016beb8a11370439b",
+        "size_in_bytes": 7015
+      },
+      {
+        "_path": "include/git2/global.h",
+        "path_type": "hardlink",
+        "sha256": "88e49fa7593012aa9575df08755b907b5b613f43278f477e9ca8e4feedbe6786",
+        "sha256_in_prefix": "88e49fa7593012aa9575df08755b907b5b613f43278f477e9ca8e4feedbe6786",
+        "size_in_bytes": 1215
+      },
+      {
+        "_path": "include/git2/graph.h",
+        "path_type": "hardlink",
+        "sha256": "9b70d4c291f69803c51e8859c416f5ff81850738d3c4d1cdca0a44247fbb7086",
+        "sha256_in_prefix": "9b70d4c291f69803c51e8859c416f5ff81850738d3c4d1cdca0a44247fbb7086",
+        "size_in_bytes": 1759
+      },
+      {
+        "_path": "include/git2/ignore.h",
+        "path_type": "hardlink",
+        "sha256": "266b8bbef564bec63b4fe7d1d3042ffd273f252f151bdec23cc4f77c0febb883",
+        "sha256_in_prefix": "266b8bbef564bec63b4fe7d1d3042ffd273f252f151bdec23cc4f77c0febb883",
+        "size_in_bytes": 2602
+      },
+      {
+        "_path": "include/git2/index.h",
+        "path_type": "hardlink",
+        "sha256": "52167df86e9a2f9a8be0aaf57d651f5b6d1ed937e24329f3723be76bf1d653a5",
+        "sha256_in_prefix": "52167df86e9a2f9a8be0aaf57d651f5b6d1ed937e24329f3723be76bf1d653a5",
+        "size_in_bytes": 27642
+      },
+      {
+        "_path": "include/git2/indexer.h",
+        "path_type": "hardlink",
+        "sha256": "f34bb2e002a72a1653a8987d3f74cb7faaa460a8147906fc1b41eeed1167edc1",
+        "sha256_in_prefix": "f34bb2e002a72a1653a8987d3f74cb7faaa460a8147906fc1b41eeed1167edc1",
+        "size_in_bytes": 4164
+      },
+      {
+        "_path": "include/git2/mailmap.h",
+        "path_type": "hardlink",
+        "sha256": "4f0d18eb0ab5ffdacdd716a9649319683fb84a33627bb4dfa6fed8aedff55d73",
+        "sha256_in_prefix": "4f0d18eb0ab5ffdacdd716a9649319683fb84a33627bb4dfa6fed8aedff55d73",
+        "size_in_bytes": 3625
+      },
+      {
+        "_path": "include/git2/merge.h",
+        "path_type": "hardlink",
+        "sha256": "f7b481f59efd4e533e57012f5694940d13edbcb2d5010dd6b29f85ab2e3ee6d6",
+        "sha256_in_prefix": "f7b481f59efd4e533e57012f5694940d13edbcb2d5010dd6b29f85ab2e3ee6d6",
+        "size_in_bytes": 18906
+      },
+      {
+        "_path": "include/git2/message.h",
+        "path_type": "hardlink",
+        "sha256": "dd9a84083afa7835e4445e444d85756458133ad34c96f8529c2ab942e8ade5a7",
+        "sha256_in_prefix": "dd9a84083afa7835e4445e444d85756458133ad34c96f8529c2ab942e8ade5a7",
+        "size_in_bytes": 2387
+      },
+      {
+        "_path": "include/git2/net.h",
+        "path_type": "hardlink",
+        "sha256": "aa6ce5cde1a1c0dc586b3ac22bfd68689505d05fd91ee4c128c0225fdc7676ca",
+        "sha256_in_prefix": "aa6ce5cde1a1c0dc586b3ac22bfd68689505d05fd91ee4c128c0225fdc7676ca",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "include/git2/notes.h",
+        "path_type": "hardlink",
+        "sha256": "85a249b9ea66da28802dc0e0d93f0217b14e2c5cd621a2d4353e43308f2d905b",
+        "sha256_in_prefix": "85a249b9ea66da28802dc0e0d93f0217b14e2c5cd621a2d4353e43308f2d905b",
+        "size_in_bytes": 8436
+      },
+      {
+        "_path": "include/git2/object.h",
+        "path_type": "hardlink",
+        "sha256": "16d24acf810ad90168283d05911d516c526f8a3a1760e762540441e8473244b2",
+        "sha256_in_prefix": "16d24acf810ad90168283d05911d516c526f8a3a1760e762540441e8473244b2",
+        "size_in_bytes": 7033
+      },
+      {
+        "_path": "include/git2/odb.h",
+        "path_type": "hardlink",
+        "sha256": "0bb166dc2be1547ef88b0aa36d9d371d8caf0ccf93d5b7310de9104f48f7c5eb",
+        "sha256_in_prefix": "0bb166dc2be1547ef88b0aa36d9d371d8caf0ccf93d5b7310de9104f48f7c5eb",
+        "size_in_bytes": 17928
+      },
+      {
+        "_path": "include/git2/odb_backend.h",
+        "path_type": "hardlink",
+        "sha256": "b80a063e8f7d521f8c5b1fc6c3329273b2b0b6a8e3308b145ee7045621cb4bef",
+        "sha256_in_prefix": "b80a063e8f7d521f8c5b1fc6c3329273b2b0b6a8e3308b145ee7045621cb4bef",
+        "size_in_bytes": 3873
+      },
+      {
+        "_path": "include/git2/oid.h",
+        "path_type": "hardlink",
+        "sha256": "a2510249c32905b3f4d8e149341f81d4f56c1481be3fe2ee21edb49e1ac2ec72",
+        "sha256_in_prefix": "a2510249c32905b3f4d8e149341f81d4f56c1481be3fe2ee21edb49e1ac2ec72",
+        "size_in_bytes": 8499
+      },
+      {
+        "_path": "include/git2/oidarray.h",
+        "path_type": "hardlink",
+        "sha256": "9b89c71035101bd1c315c192b72ce50307a679d212ed4be53c68af74f1d2908f",
+        "sha256_in_prefix": "9b89c71035101bd1c315c192b72ce50307a679d212ed4be53c68af74f1d2908f",
+        "size_in_bytes": 992
+      },
+      {
+        "_path": "include/git2/pack.h",
+        "path_type": "hardlink",
+        "sha256": "834e38d09ec0759a618484c271a996ce738dcb52e03954c8e2744e3e0887e9ad",
+        "sha256_in_prefix": "834e38d09ec0759a618484c271a996ce738dcb52e03954c8e2744e3e0887e9ad",
+        "size_in_bytes": 7359
+      },
+      {
+        "_path": "include/git2/patch.h",
+        "path_type": "hardlink",
+        "sha256": "c9dfe91324fa0884c154953f1645b6354dfdca3b551de04032399e6de865945b",
+        "sha256_in_prefix": "c9dfe91324fa0884c154953f1645b6354dfdca3b551de04032399e6de865945b",
+        "size_in_bytes": 9613
+      },
+      {
+        "_path": "include/git2/pathspec.h",
+        "path_type": "hardlink",
+        "sha256": "5b482e78f28b084ba7b399b1f4612e58c7b8077e56403d5cb8f2cbec8798eb0c",
+        "sha256_in_prefix": "5b482e78f28b084ba7b399b1f4612e58c7b8077e56403d5cb8f2cbec8798eb0c",
+        "size_in_bytes": 9657
+      },
+      {
+        "_path": "include/git2/proxy.h",
+        "path_type": "hardlink",
+        "sha256": "5b15bc3add05b2051432653ec20d6132a5798ccf1d1acec205d37208086b0e92",
+        "sha256_in_prefix": "5b15bc3add05b2051432653ec20d6132a5798ccf1d1acec205d37208086b0e92",
+        "size_in_bytes": 2346
+      },
+      {
+        "_path": "include/git2/rebase.h",
+        "path_type": "hardlink",
+        "sha256": "f97c69164439a18b14b36783e4455a7ddfbf2a2f256c8bcf7d1f7ec75964228c",
+        "sha256_in_prefix": "f97c69164439a18b14b36783e4455a7ddfbf2a2f256c8bcf7d1f7ec75964228c",
+        "size_in_bytes": 11743
+      },
+      {
+        "_path": "include/git2/refdb.h",
+        "path_type": "hardlink",
+        "sha256": "77a1b09f4ea49607e7dbaadec51680316e67fc574f822e7f5c92e6e0594c3905",
+        "sha256_in_prefix": "77a1b09f4ea49607e7dbaadec51680316e67fc574f822e7f5c92e6e0594c3905",
+        "size_in_bytes": 1843
+      },
+      {
+        "_path": "include/git2/reflog.h",
+        "path_type": "hardlink",
+        "sha256": "c3239c314b3d7bdcb056dcaf7fe31834fdc5905bf98f3e6682d11ad7817bcd4b",
+        "sha256_in_prefix": "c3239c314b3d7bdcb056dcaf7fe31834fdc5905bf98f3e6682d11ad7817bcd4b",
+        "size_in_bytes": 4616
+      },
+      {
+        "_path": "include/git2/refs.h",
+        "path_type": "hardlink",
+        "sha256": "b130e2ed4e05c72ebc921c1e85a8afa0424d8b84cf74b686db69a9b518e7e05b",
+        "sha256_in_prefix": "b130e2ed4e05c72ebc921c1e85a8afa0424d8b84cf74b686db69a9b518e7e05b",
+        "size_in_bytes": 27779
+      },
+      {
+        "_path": "include/git2/refspec.h",
+        "path_type": "hardlink",
+        "sha256": "3fac2002e7bcc36fba7e353e728846423c121520e8caf00836d232493eda2db0",
+        "sha256_in_prefix": "3fac2002e7bcc36fba7e353e728846423c121520e8caf00836d232493eda2db0",
+        "size_in_bytes": 3302
+      },
+      {
+        "_path": "include/git2/remote.h",
+        "path_type": "hardlink",
+        "sha256": "78f874974c86977c96f66badff3b23a71847b2ccdef1cc6ee2228d92636bc438",
+        "sha256_in_prefix": "78f874974c86977c96f66badff3b23a71847b2ccdef1cc6ee2228d92636bc438",
+        "size_in_bytes": 28609
+      },
+      {
+        "_path": "include/git2/repository.h",
+        "path_type": "hardlink",
+        "sha256": "fc237e10df5c575961a02f279f48005b2027fda184796e3609f72d18634c67c3",
+        "sha256_in_prefix": "fc237e10df5c575961a02f279f48005b2027fda184796e3609f72d18634c67c3",
+        "size_in_bytes": 31496
+      },
+      {
+        "_path": "include/git2/reset.h",
+        "path_type": "hardlink",
+        "sha256": "303c3b9ac582a59000be80c3c2acec5eaa50c207112fd42efae77e6f3a308909",
+        "sha256_in_prefix": "303c3b9ac582a59000be80c3c2acec5eaa50c207112fd42efae77e6f3a308909",
+        "size_in_bytes": 3395
+      },
+      {
+        "_path": "include/git2/revert.h",
+        "path_type": "hardlink",
+        "sha256": "fdc9b2a8106191b36edac31d586375f82257614050b1d75fdcd0066e36da2243",
+        "sha256_in_prefix": "fdc9b2a8106191b36edac31d586375f82257614050b1d75fdcd0066e36da2243",
+        "size_in_bytes": 2630
+      },
+      {
+        "_path": "include/git2/revparse.h",
+        "path_type": "hardlink",
+        "sha256": "3447f28f4f811c176bcd43040f68a040111e6c46ad18a3b3fbbcab805964ed5f",
+        "sha256_in_prefix": "3447f28f4f811c176bcd43040f68a040111e6c46ad18a3b3fbbcab805964ed5f",
+        "size_in_bytes": 3568
+      },
+      {
+        "_path": "include/git2/revwalk.h",
+        "path_type": "hardlink",
+        "sha256": "7ddcfc8e95a35c0b60511a899fddd806a587f690277ff765a5fb2d01a6a8065e",
+        "sha256_in_prefix": "7ddcfc8e95a35c0b60511a899fddd806a587f690277ff765a5fb2d01a6a8065e",
+        "size_in_bytes": 8798
+      },
+      {
+        "_path": "include/git2/signature.h",
+        "path_type": "hardlink",
+        "sha256": "c4562eb9a73f0f58fe575f040bf4a81fb9228eff91a8d4e22bcbb74007ff23af",
+        "sha256_in_prefix": "c4562eb9a73f0f58fe575f040bf4a81fb9228eff91a8d4e22bcbb74007ff23af",
+        "size_in_bytes": 3228
+      },
+      {
+        "_path": "include/git2/stash.h",
+        "path_type": "hardlink",
+        "sha256": "b5922b1d8d8771b4b6b8fac4acb4605c9e14dbd7a3f0c34e8a793e731eb6fe37",
+        "sha256_in_prefix": "b5922b1d8d8771b4b6b8fac4acb4605c9e14dbd7a3f0c34e8a793e731eb6fe37",
+        "size_in_bytes": 7700
+      },
+      {
+        "_path": "include/git2/status.h",
+        "path_type": "hardlink",
+        "sha256": "b93481ba78d6c76c3bacb7549ca2350c39a9cae9f14639bb07b0328fccc633a9",
+        "sha256_in_prefix": "b93481ba78d6c76c3bacb7549ca2350c39a9cae9f14639bb07b0328fccc633a9",
+        "size_in_bytes": 14851
+      },
+      {
+        "_path": "include/git2/stdint.h",
+        "path_type": "hardlink",
+        "sha256": "f8e051fb82c10f81982ed3df4fb7572245112567c749a8e4b64883f5cddfc45a",
+        "sha256_in_prefix": "f8e051fb82c10f81982ed3df4fb7572245112567c749a8e4b64883f5cddfc45a",
+        "size_in_bytes": 7719
+      },
+      {
+        "_path": "include/git2/strarray.h",
+        "path_type": "hardlink",
+        "sha256": "9a1133c71aa242661c684f78f5028e00d2c520a4a833906b125c05038448658a",
+        "sha256_in_prefix": "9a1133c71aa242661c684f78f5028e00d2c520a4a833906b125c05038448658a",
+        "size_in_bytes": 1422
+      },
+      {
+        "_path": "include/git2/submodule.h",
+        "path_type": "hardlink",
+        "sha256": "1c5236fa3bcce33ba8f5edecdf82b76cabd44be1648d07d918e68865e810f958",
+        "sha256_in_prefix": "1c5236fa3bcce33ba8f5edecdf82b76cabd44be1648d07d918e68865e810f958",
+        "size_in_bytes": 24333
+      },
+      {
+        "_path": "include/git2/sys/alloc.h",
+        "path_type": "hardlink",
+        "sha256": "9a19fb88e2c70146520d63e01778e22938976a4b754e4bb9e487c4d5a2ca486b",
+        "sha256_in_prefix": "9a19fb88e2c70146520d63e01778e22938976a4b754e4bb9e487c4d5a2ca486b",
+        "size_in_bytes": 3417
+      },
+      {
+        "_path": "include/git2/sys/commit.h",
+        "path_type": "hardlink",
+        "sha256": "3d1b2220325a82983ecb271c2eb8383a8db134dfc0da96b1f050f3664871252a",
+        "sha256_in_prefix": "3d1b2220325a82983ecb271c2eb8383a8db134dfc0da96b1f050f3664871252a",
+        "size_in_bytes": 2389
+      },
+      {
+        "_path": "include/git2/sys/config.h",
+        "path_type": "hardlink",
+        "sha256": "7888b5265f18640820d43f8ffc31e3e6b3153398ee2851d657ae8b28bdcd10a4",
+        "sha256_in_prefix": "7888b5265f18640820d43f8ffc31e3e6b3153398ee2851d657ae8b28bdcd10a4",
+        "size_in_bytes": 4258
+      },
+      {
+        "_path": "include/git2/sys/cred.h",
+        "path_type": "hardlink",
+        "sha256": "b2ea956401c5554f26cec0f428dd9d0d9661d1ef3d9368769b415193df98ed1a",
+        "sha256_in_prefix": "b2ea956401c5554f26cec0f428dd9d0d9661d1ef3d9368769b415193df98ed1a",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "include/git2/sys/credential.h",
+        "path_type": "hardlink",
+        "sha256": "8cfe0a41b027f8196f43fd2e81c15bbe1a26ed7c15468711f900dfaad0a3705f",
+        "sha256_in_prefix": "8cfe0a41b027f8196f43fd2e81c15bbe1a26ed7c15468711f900dfaad0a3705f",
+        "size_in_bytes": 2486
+      },
+      {
+        "_path": "include/git2/sys/diff.h",
+        "path_type": "hardlink",
+        "sha256": "e341f693acb25645f6ed47c041fc4eda8996a6f1d42905ae4f87fffba22520f3",
+        "sha256_in_prefix": "e341f693acb25645f6ed47c041fc4eda8996a6f1d42905ae4f87fffba22520f3",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "include/git2/sys/filter.h",
+        "path_type": "hardlink",
+        "sha256": "0c03098a51d5cad022dd317ad5a5837ff624f96fe36ee82da1ed5416426f0a52",
+        "sha256_in_prefix": "0c03098a51d5cad022dd317ad5a5837ff624f96fe36ee82da1ed5416426f0a52",
+        "size_in_bytes": 11588
+      },
+      {
+        "_path": "include/git2/sys/hashsig.h",
+        "path_type": "hardlink",
+        "sha256": "5677f86c02e557c7897e98d395e83d8168c532916ecfb7f9ca5bf7b4057141f4",
+        "sha256_in_prefix": "5677f86c02e557c7897e98d395e83d8168c532916ecfb7f9ca5bf7b4057141f4",
+        "size_in_bytes": 2889
+      },
+      {
+        "_path": "include/git2/sys/index.h",
+        "path_type": "hardlink",
+        "sha256": "bc6a371ea47773019e17e5ed5951dbb5b9d773c437d6d49e79e20fa175993c87",
+        "sha256_in_prefix": "bc6a371ea47773019e17e5ed5951dbb5b9d773c437d6d49e79e20fa175993c87",
+        "size_in_bytes": 5294
+      },
+      {
+        "_path": "include/git2/sys/mempack.h",
+        "path_type": "hardlink",
+        "sha256": "677bbdd7c613d82cc07966318f133c6ef4101b1a1dbfc0f3b1979a925ae50810",
+        "sha256_in_prefix": "677bbdd7c613d82cc07966318f133c6ef4101b1a1dbfc0f3b1979a925ae50810",
+        "size_in_bytes": 2822
+      },
+      {
+        "_path": "include/git2/sys/merge.h",
+        "path_type": "hardlink",
+        "sha256": "48bd0d3a80046712287e5c396ca7dd6d81af5cd2e765f96ee89fb298d17a79db",
+        "sha256_in_prefix": "48bd0d3a80046712287e5c396ca7dd6d81af5cd2e765f96ee89fb298d17a79db",
+        "size_in_bytes": 6474
+      },
+      {
+        "_path": "include/git2/sys/odb_backend.h",
+        "path_type": "hardlink",
+        "sha256": "85a8cecb627aa86b4348a1ae50431e18dca54ca273ab36dc2cd4852e0540f525",
+        "sha256_in_prefix": "85a8cecb627aa86b4348a1ae50431e18dca54ca273ab36dc2cd4852e0540f525",
+        "size_in_bytes": 5643
+      },
+      {
+        "_path": "include/git2/sys/openssl.h",
+        "path_type": "hardlink",
+        "sha256": "011d45d1991a7d4467b5de5c574718af5b16198fb1581639845fd8d07bef7758",
+        "sha256_in_prefix": "011d45d1991a7d4467b5de5c574718af5b16198fb1581639845fd8d07bef7758",
+        "size_in_bytes": 1105
+      },
+      {
+        "_path": "include/git2/sys/path.h",
+        "path_type": "hardlink",
+        "sha256": "97adf0e0751e456546c7c0119743e50aa428fad8a29184fcc637db1eaae08b67",
+        "sha256_in_prefix": "97adf0e0751e456546c7c0119743e50aa428fad8a29184fcc637db1eaae08b67",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "include/git2/sys/refdb_backend.h",
+        "path_type": "hardlink",
+        "sha256": "6be92a5c1b660e4adf99f4604fefc9e93d2e639ae53295b722a1364723d036bb",
+        "sha256_in_prefix": "6be92a5c1b660e4adf99f4604fefc9e93d2e639ae53295b722a1364723d036bb",
+        "size_in_bytes": 12743
+      },
+      {
+        "_path": "include/git2/sys/reflog.h",
+        "path_type": "hardlink",
+        "sha256": "c307ce8e9c8b0483ec45ce34a200f74e1ee73bfea9c4c7b0cc3923e3881360ca",
+        "sha256_in_prefix": "c307ce8e9c8b0483ec45ce34a200f74e1ee73bfea9c4c7b0cc3923e3881360ca",
+        "size_in_bytes": 524
+      },
+      {
+        "_path": "include/git2/sys/refs.h",
+        "path_type": "hardlink",
+        "sha256": "ee98c1aa0596b1cb409795a94de4891392e1675c42e8877a1e38bd0a5c3fd2d0",
+        "sha256_in_prefix": "ee98c1aa0596b1cb409795a94de4891392e1675c42e8877a1e38bd0a5c3fd2d0",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "include/git2/sys/repository.h",
+        "path_type": "hardlink",
+        "sha256": "63a142623683376fe11f498685525ba33d3cd184708338f2461067b7aa5b92c1",
+        "sha256_in_prefix": "63a142623683376fe11f498685525ba33d3cd184708338f2461067b7aa5b92c1",
+        "size_in_bytes": 5966
+      },
+      {
+        "_path": "include/git2/sys/stream.h",
+        "path_type": "hardlink",
+        "sha256": "6bd6609f2dd2acaf7206c9542a02abad5439a6516f1ff160f1df040da33ad829",
+        "sha256_in_prefix": "6bd6609f2dd2acaf7206c9542a02abad5439a6516f1ff160f1df040da33ad829",
+        "size_in_bytes": 4038
+      },
+      {
+        "_path": "include/git2/sys/transport.h",
+        "path_type": "hardlink",
+        "sha256": "cbf8d6269695e8afb6a4e48f22ff54a3739daedcf662ad4a10b38bcd0b8dda59",
+        "sha256_in_prefix": "cbf8d6269695e8afb6a4e48f22ff54a3739daedcf662ad4a10b38bcd0b8dda59",
+        "size_in_bytes": 13557
+      },
+      {
+        "_path": "include/git2/tag.h",
+        "path_type": "hardlink",
+        "sha256": "340f5aac9a05cbed975f5bc88522206e545fa4ecdb61b74929c8a36aef339f14",
+        "sha256_in_prefix": "340f5aac9a05cbed975f5bc88522206e545fa4ecdb61b74929c8a36aef339f14",
+        "size_in_bytes": 10325
+      },
+      {
+        "_path": "include/git2/trace.h",
+        "path_type": "hardlink",
+        "sha256": "f9aaff56cd6e6ea2dc5f7e221f198016f7d4a947829340a45c12714bf32f6738",
+        "sha256_in_prefix": "f9aaff56cd6e6ea2dc5f7e221f198016f7d4a947829340a45c12714bf32f6738",
+        "size_in_bytes": 1772
+      },
+      {
+        "_path": "include/git2/transaction.h",
+        "path_type": "hardlink",
+        "sha256": "4c7969130a952134c597e84a06f38ca4b19e0b372df88085cb4f846292681c5b",
+        "sha256_in_prefix": "4c7969130a952134c597e84a06f38ca4b19e0b372df88085cb4f846292681c5b",
+        "size_in_bytes": 3824
+      },
+      {
+        "_path": "include/git2/transport.h",
+        "path_type": "hardlink",
+        "sha256": "7272a0f8cc321ac012a3fbb8cf4d1be0bc6d34fc266a09b72d604a30ad0a91c5",
+        "sha256_in_prefix": "7272a0f8cc321ac012a3fbb8cf4d1be0bc6d34fc266a09b72d604a30ad0a91c5",
+        "size_in_bytes": 1097
+      },
+      {
+        "_path": "include/git2/tree.h",
+        "path_type": "hardlink",
+        "sha256": "52fac9ef0c9910bfb1cb92d37a642b47992fff9e1066e329e11636080435f85b",
+        "sha256_in_prefix": "52fac9ef0c9910bfb1cb92d37a642b47992fff9e1066e329e11636080435f85b",
+        "size_in_bytes": 14967
+      },
+      {
+        "_path": "include/git2/types.h",
+        "path_type": "hardlink",
+        "sha256": "c66b821b671e4aad7612138eccae7a3fbf13278a2d9864fad77d48f5fc45f408",
+        "sha256_in_prefix": "c66b821b671e4aad7612138eccae7a3fbf13278a2d9864fad77d48f5fc45f408",
+        "size_in_bytes": 11943
+      },
+      {
+        "_path": "include/git2/version.h",
+        "path_type": "hardlink",
+        "sha256": "1a7761798d85aa1cbb686ea529fbfd234de2929143577743cdb2779319fef84f",
+        "sha256_in_prefix": "1a7761798d85aa1cbb686ea529fbfd234de2929143577743cdb2779319fef84f",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "include/git2/worktree.h",
+        "path_type": "hardlink",
+        "sha256": "03bd587205770db810df538cabda777f60b7e40307180748871ef7ef7dc1d511",
+        "sha256_in_prefix": "03bd587205770db810df538cabda777f60b7e40307180748871ef7ef7dc1d511",
+        "size_in_bytes": 7791
+      },
+      {
+        "_path": "lib/libgit2.so",
+        "path_type": "softlink",
+        "sha256": "b79e20ea95942465a6e59aae133606d1de5792c436a654240423f2881365f0a4",
+        "size_in_bytes": 1286120
+      },
+      {
+        "_path": "lib/libgit2.so.1.1",
+        "path_type": "softlink",
+        "sha256": "b79e20ea95942465a6e59aae133606d1de5792c436a654240423f2881365f0a4",
+        "size_in_bytes": 1286120
+      },
+      {
+        "_path": "lib/libgit2.so.1.1.1",
+        "path_type": "hardlink",
+        "sha256": "b79e20ea95942465a6e59aae133606d1de5792c436a654240423f2881365f0a4",
+        "sha256_in_prefix": "b79e20ea95942465a6e59aae133606d1de5792c436a654240423f2881365f0a4",
+        "size_in_bytes": 1286120
+      },
+      {
+        "_path": "lib/pkgconfig/libgit2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libgit2_1625582107645/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "599d027f2f737c917814ef124199569f12d93f1b3ce0d19c1a5b007570fc35fc",
+        "sha256_in_prefix": "ae00b3abb758da0bb0ac9e9ff9d24b39e44e93eaac65cc341757a5f5aacff4b3",
+        "size_in_bytes": 1268
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "af178b8b8fff265da531cf20453b2f8cd9009b20f1e55843966b94bd4a867a42",
+  "size": 662483,
+  "subdir": "linux-64",
+  "timestamp": 1625582363000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgit2-1.1.1-hee63804_1.tar.bz2",
+  "version": "1.1.1"
+}

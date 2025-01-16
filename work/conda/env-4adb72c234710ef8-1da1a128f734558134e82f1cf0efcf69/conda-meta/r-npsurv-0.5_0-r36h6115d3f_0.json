@@ -1,0 +1,252 @@
+{
+  "build": "r36h6115d3f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-lsei"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-npsurv-0.5_0-r36h6115d3f_0",
+  "files": [
+    "lib/R/library/npsurv/DESCRIPTION",
+    "lib/R/library/npsurv/INDEX",
+    "lib/R/library/npsurv/Meta/Rd.rds",
+    "lib/R/library/npsurv/Meta/data.rds",
+    "lib/R/library/npsurv/Meta/features.rds",
+    "lib/R/library/npsurv/Meta/hsearch.rds",
+    "lib/R/library/npsurv/Meta/links.rds",
+    "lib/R/library/npsurv/Meta/nsInfo.rds",
+    "lib/R/library/npsurv/Meta/package.rds",
+    "lib/R/library/npsurv/NAMESPACE",
+    "lib/R/library/npsurv/R/npsurv",
+    "lib/R/library/npsurv/R/npsurv.rdb",
+    "lib/R/library/npsurv/R/npsurv.rdx",
+    "lib/R/library/npsurv/data/acfail.rda",
+    "lib/R/library/npsurv/data/ap.rda",
+    "lib/R/library/npsurv/data/cancer.rda",
+    "lib/R/library/npsurv/data/gastric.rda",
+    "lib/R/library/npsurv/data/leukemia.rda",
+    "lib/R/library/npsurv/data/marijuana.rda",
+    "lib/R/library/npsurv/data/nzmort.rda",
+    "lib/R/library/npsurv/help/AnIndex",
+    "lib/R/library/npsurv/help/aliases.rds",
+    "lib/R/library/npsurv/help/npsurv.rdb",
+    "lib/R/library/npsurv/help/npsurv.rdx",
+    "lib/R/library/npsurv/help/paths.rds",
+    "lib/R/library/npsurv/html/00Index.html",
+    "lib/R/library/npsurv/html/R.css"
+  ],
+  "fn": "r-npsurv-0.5_0-r36h6115d3f_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-npsurv-0.5_0-r36h6115d3f_0",
+    "type": 1
+  },
+  "md5": "0c1fcc777797b0f0c74cbeb1121c5d9e",
+  "name": "r-npsurv",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-npsurv-0.5_0-r36h6115d3f_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/npsurv/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "9114ac3ca19eadf1ca47372f1d9084023c7877a126cf7b5e919f1affe423946c",
+        "sha256_in_prefix": "9114ac3ca19eadf1ca47372f1d9084023c7877a126cf7b5e919f1affe423946c",
+        "size_in_bytes": 834
+      },
+      {
+        "_path": "lib/R/library/npsurv/INDEX",
+        "path_type": "hardlink",
+        "sha256": "8f9e1775b7df21aa87af1e819c6db69178eb85ad2f035e6aa5cfafce37a206e5",
+        "sha256_in_prefix": "8f9e1775b7df21aa87af1e819c6db69178eb85ad2f035e6aa5cfafce37a206e5",
+        "size_in_bytes": 1200
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "ce51a27835486e3215660bd594eb756929752a07df73ce196b5c7a4afd6a0a46",
+        "sha256_in_prefix": "ce51a27835486e3215660bd594eb756929752a07df73ce196b5c7a4afd6a0a46",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "42561bf3cdf2e3d7880001e8f408c0573474f27174d1ed65d2519ccc5ac06d80",
+        "sha256_in_prefix": "42561bf3cdf2e3d7880001e8f408c0573474f27174d1ed65d2519ccc5ac06d80",
+        "size_in_bytes": 283
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "424a8a5fcedaa6a9727a34bcef078c3ff5b6eeac0c8d70fa0e044aa38dbaea97",
+        "sha256_in_prefix": "424a8a5fcedaa6a9727a34bcef078c3ff5b6eeac0c8d70fa0e044aa38dbaea97",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "0418b4f7d10e73fa205e25b5ae38e494455555de11cb94381e46f57691fb6cd3",
+        "sha256_in_prefix": "0418b4f7d10e73fa205e25b5ae38e494455555de11cb94381e46f57691fb6cd3",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4b362a54ef925ca51f963beac6584f5abfac701df624785e23e8cc3e44b79461",
+        "sha256_in_prefix": "4b362a54ef925ca51f963beac6584f5abfac701df624785e23e8cc3e44b79461",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "lib/R/library/npsurv/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "c9a24e133871cfd6181d315c262002677b010fbdf0af49ef63f4d3d2aefd256b",
+        "sha256_in_prefix": "c9a24e133871cfd6181d315c262002677b010fbdf0af49ef63f4d3d2aefd256b",
+        "size_in_bytes": 844
+      },
+      {
+        "_path": "lib/R/library/npsurv/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e7651d653dedbf82c863fb466e0e790bf5f169d5b26c9bb5020c91a1a941328b",
+        "sha256_in_prefix": "e7651d653dedbf82c863fb466e0e790bf5f169d5b26c9bb5020c91a1a941328b",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "lib/R/library/npsurv/R/npsurv",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/npsurv/R/npsurv.rdb",
+        "path_type": "hardlink",
+        "sha256": "d439c36a589361e1b43fc7e4ae108c2e5dc40a18ed8b6e83be4d66354af449bb",
+        "sha256_in_prefix": "d439c36a589361e1b43fc7e4ae108c2e5dc40a18ed8b6e83be4d66354af449bb",
+        "size_in_bytes": 106301
+      },
+      {
+        "_path": "lib/R/library/npsurv/R/npsurv.rdx",
+        "path_type": "hardlink",
+        "sha256": "be906ee871fe9d77d6c6280063bc94c3c05e252baf8e138e991ad30ab488733c",
+        "sha256_in_prefix": "be906ee871fe9d77d6c6280063bc94c3c05e252baf8e138e991ad30ab488733c",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/acfail.rda",
+        "path_type": "hardlink",
+        "sha256": "856e831116bf31feda8779e7204b1de6653af8e09d3dffaeda7308b9ae9080c3",
+        "sha256_in_prefix": "856e831116bf31feda8779e7204b1de6653af8e09d3dffaeda7308b9ae9080c3",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/ap.rda",
+        "path_type": "hardlink",
+        "sha256": "ab64ba5645ceb173bd1c46b68f1033624893ae591e8f8b42b224ce39afc6b004",
+        "sha256_in_prefix": "ab64ba5645ceb173bd1c46b68f1033624893ae591e8f8b42b224ce39afc6b004",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/cancer.rda",
+        "path_type": "hardlink",
+        "sha256": "8865d4249e596c03b37ff06bd0d204b50e6906ac24cefc1a5f15b9c41a4f7753",
+        "sha256_in_prefix": "8865d4249e596c03b37ff06bd0d204b50e6906ac24cefc1a5f15b9c41a4f7753",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/gastric.rda",
+        "path_type": "hardlink",
+        "sha256": "ad2976377822e7448619228c936797c1b8f478bb4f20c14bcfd1653adde36115",
+        "sha256_in_prefix": "ad2976377822e7448619228c936797c1b8f478bb4f20c14bcfd1653adde36115",
+        "size_in_bytes": 466
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/leukemia.rda",
+        "path_type": "hardlink",
+        "sha256": "95c49c30ab57ad8d85abc594d91a641ff01978a18dae9ff370d05dc8489c668c",
+        "sha256_in_prefix": "95c49c30ab57ad8d85abc594d91a641ff01978a18dae9ff370d05dc8489c668c",
+        "size_in_bytes": 303
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/marijuana.rda",
+        "path_type": "hardlink",
+        "sha256": "a687278291c54b6058746adfa3b07ac19ffd545335de905a2f88fe96802b8acc",
+        "sha256_in_prefix": "a687278291c54b6058746adfa3b07ac19ffd545335de905a2f88fe96802b8acc",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/R/library/npsurv/data/nzmort.rda",
+        "path_type": "hardlink",
+        "sha256": "c0f132f4634a7ffe5fb359c89cd6fad698f9c614742db8efdc4683e46ccc2b3a",
+        "sha256_in_prefix": "c0f132f4634a7ffe5fb359c89cd6fad698f9c614742db8efdc4683e46ccc2b3a",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "lib/R/library/npsurv/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "bc392cf8270a1392d677d726ebdebe56ef9bee4c8f8d5410b74c6f5148670801",
+        "sha256_in_prefix": "bc392cf8270a1392d677d726ebdebe56ef9bee4c8f8d5410b74c6f5148670801",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/R/library/npsurv/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "20679277ee9b305a0ca85c8d9ac2e10e21d228c01ef774bd090c0966ad742f41",
+        "sha256_in_prefix": "20679277ee9b305a0ca85c8d9ac2e10e21d228c01ef774bd090c0966ad742f41",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "lib/R/library/npsurv/help/npsurv.rdb",
+        "path_type": "hardlink",
+        "sha256": "fbca7f5661b384bcd4feaaaeb03c49026fc948c5bf0312b9b274c1d81b809dfd",
+        "sha256_in_prefix": "fbca7f5661b384bcd4feaaaeb03c49026fc948c5bf0312b9b274c1d81b809dfd",
+        "size_in_bytes": 56764
+      },
+      {
+        "_path": "lib/R/library/npsurv/help/npsurv.rdx",
+        "path_type": "hardlink",
+        "sha256": "53ce87cd60dcee4d846c82444a06c2b0ec313ed21746965d2e80dae76283f9f9",
+        "sha256_in_prefix": "53ce87cd60dcee4d846c82444a06c2b0ec313ed21746965d2e80dae76283f9f9",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/npsurv/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c886b2489742fb40159714d28087093b0ccf0168b58a26d4ab698a78e2abe78c",
+        "sha256_in_prefix": "c886b2489742fb40159714d28087093b0ccf0168b58a26d4ab698a78e2abe78c",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "lib/R/library/npsurv/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "ecd3b09de1f4512b91e9d243686c28dbe2a07c30a4dd56b1cd0ba0b3c566680c",
+        "sha256_in_prefix": "ecd3b09de1f4512b91e9d243686c28dbe2a07c30a4dd56b1cd0ba0b3c566680c",
+        "size_in_bytes": 5608
+      },
+      {
+        "_path": "lib/R/library/npsurv/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "879ba21d488006e2ffd33b241f4bd6e4a4a7e1a34a76d95aba58d4d6103f5b84",
+  "size": 197735,
+  "subdir": "noarch",
+  "timestamp": 1600617394000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-npsurv-0.5_0-r36h6115d3f_0.tar.bz2",
+  "version": "0.5_0"
+}

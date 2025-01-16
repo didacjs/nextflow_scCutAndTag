@@ -1,0 +1,547 @@
+{
+  "build": "r36hcfec24a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-matrix"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-survival-3.2_11-r36hcfec24a_0",
+  "files": [
+    "lib/R/library/survival/CITATION",
+    "lib/R/library/survival/COPYRIGHTS",
+    "lib/R/library/survival/DESCRIPTION",
+    "lib/R/library/survival/INDEX",
+    "lib/R/library/survival/Meta/Rd.rds",
+    "lib/R/library/survival/Meta/data.rds",
+    "lib/R/library/survival/Meta/features.rds",
+    "lib/R/library/survival/Meta/hsearch.rds",
+    "lib/R/library/survival/Meta/links.rds",
+    "lib/R/library/survival/Meta/nsInfo.rds",
+    "lib/R/library/survival/Meta/package.rds",
+    "lib/R/library/survival/Meta/vignette.rds",
+    "lib/R/library/survival/NAMESPACE",
+    "lib/R/library/survival/NEWS.Rd",
+    "lib/R/library/survival/R/survival",
+    "lib/R/library/survival/R/survival.rdb",
+    "lib/R/library/survival/R/survival.rdx",
+    "lib/R/library/survival/data/Rdata.rdb",
+    "lib/R/library/survival/data/Rdata.rds",
+    "lib/R/library/survival/data/Rdata.rdx",
+    "lib/R/library/survival/doc/adjcurve.R",
+    "lib/R/library/survival/doc/adjcurve.Rnw",
+    "lib/R/library/survival/doc/adjcurve.pdf",
+    "lib/R/library/survival/doc/approximate.R",
+    "lib/R/library/survival/doc/approximate.Rnw",
+    "lib/R/library/survival/doc/approximate.pdf",
+    "lib/R/library/survival/doc/compete.R",
+    "lib/R/library/survival/doc/compete.Rnw",
+    "lib/R/library/survival/doc/compete.pdf",
+    "lib/R/library/survival/doc/concordance.R",
+    "lib/R/library/survival/doc/concordance.Rnw",
+    "lib/R/library/survival/doc/concordance.pdf",
+    "lib/R/library/survival/doc/index.html",
+    "lib/R/library/survival/doc/multi.Rnw",
+    "lib/R/library/survival/doc/multi.pdf",
+    "lib/R/library/survival/doc/other.Rnw",
+    "lib/R/library/survival/doc/other.pdf",
+    "lib/R/library/survival/doc/population.R",
+    "lib/R/library/survival/doc/population.Rnw",
+    "lib/R/library/survival/doc/population.pdf",
+    "lib/R/library/survival/doc/splines.R",
+    "lib/R/library/survival/doc/splines.Rnw",
+    "lib/R/library/survival/doc/splines.pdf",
+    "lib/R/library/survival/doc/survival.R",
+    "lib/R/library/survival/doc/survival.Rnw",
+    "lib/R/library/survival/doc/survival.pdf",
+    "lib/R/library/survival/doc/tiedtimes.R",
+    "lib/R/library/survival/doc/tiedtimes.Rnw",
+    "lib/R/library/survival/doc/tiedtimes.pdf",
+    "lib/R/library/survival/doc/timedep.R",
+    "lib/R/library/survival/doc/timedep.Rnw",
+    "lib/R/library/survival/doc/timedep.pdf",
+    "lib/R/library/survival/doc/validate.R",
+    "lib/R/library/survival/doc/validate.Rnw",
+    "lib/R/library/survival/doc/validate.pdf",
+    "lib/R/library/survival/help/AnIndex",
+    "lib/R/library/survival/help/aliases.rds",
+    "lib/R/library/survival/help/figures/logo.png",
+    "lib/R/library/survival/help/paths.rds",
+    "lib/R/library/survival/help/survival.rdb",
+    "lib/R/library/survival/help/survival.rdx",
+    "lib/R/library/survival/html/00Index.html",
+    "lib/R/library/survival/html/R.css",
+    "lib/R/library/survival/libs/survival.so"
+  ],
+  "fn": "r-survival-3.2_11-r36hcfec24a_0.tar.bz2",
+  "license": "LGPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-survival-3.2_11-r36hcfec24a_0",
+    "type": 1
+  },
+  "md5": "5e192a9a9cb8622e6c7657d264d59771",
+  "name": "r-survival",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-survival-3.2_11-r36hcfec24a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/survival/CITATION",
+        "path_type": "hardlink",
+        "sha256": "73561b98b3075df7aace9d9ea4dc9edb60f5fd18709886dbbaaba1c9fe95bac5",
+        "sha256_in_prefix": "73561b98b3075df7aace9d9ea4dc9edb60f5fd18709886dbbaaba1c9fe95bac5",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "lib/R/library/survival/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "0075b8e17b222b7b50cc2a2a4b950f4a412479ec0be784f004eecadb39bd2776",
+        "sha256_in_prefix": "0075b8e17b222b7b50cc2a2a4b950f4a412479ec0be784f004eecadb39bd2776",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "lib/R/library/survival/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "3490b9dccd642cb4fd558b59f5bfd1ced5034733fc2823ce98245a4b6f293991",
+        "sha256_in_prefix": "3490b9dccd642cb4fd558b59f5bfd1ced5034733fc2823ce98245a4b6f293991",
+        "size_in_bytes": 1318
+      },
+      {
+        "_path": "lib/R/library/survival/INDEX",
+        "path_type": "hardlink",
+        "sha256": "d75e9c46a105603570f7767662534b6aaeeb4d349233500d9df60c7a87dcf42f",
+        "sha256_in_prefix": "d75e9c46a105603570f7767662534b6aaeeb4d349233500d9df60c7a87dcf42f",
+        "size_in_bytes": 7975
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "3f2a9a9788817108f77c993e88f7008f821ddb3a6a3f9f677c159625c2d8689f",
+        "sha256_in_prefix": "3f2a9a9788817108f77c993e88f7008f821ddb3a6a3f9f677c159625c2d8689f",
+        "size_in_bytes": 5156
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "1888c942feb253269f7e7377d53e6d5be7edc1c761d06cd59f8b55d7436878bc",
+        "sha256_in_prefix": "1888c942feb253269f7e7377d53e6d5be7edc1c761d06cd59f8b55d7436878bc",
+        "size_in_bytes": 1105
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2349c75e99264a1f51f083cb1ec0ebaf9000b456342e34878787e7aef5b168a8",
+        "sha256_in_prefix": "2349c75e99264a1f51f083cb1ec0ebaf9000b456342e34878787e7aef5b168a8",
+        "size_in_bytes": 4933
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "07bcd3f8ae3b9a3e2cbd81d48a7bb0349a96e163c7bc48adf18af27fc4b195f3",
+        "sha256_in_prefix": "07bcd3f8ae3b9a3e2cbd81d48a7bb0349a96e163c7bc48adf18af27fc4b195f3",
+        "size_in_bytes": 2442
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "57d403a175af6632e4c14877220855698a84c3c71a5f0891babd3214f21db93a",
+        "sha256_in_prefix": "57d403a175af6632e4c14877220855698a84c3c71a5f0891babd3214f21db93a",
+        "size_in_bytes": 2005
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "eb3bcb95594951325357d73636ba1f802438b2400b38973afec48694e3dd08be",
+        "sha256_in_prefix": "eb3bcb95594951325357d73636ba1f802438b2400b38973afec48694e3dd08be",
+        "size_in_bytes": 1161
+      },
+      {
+        "_path": "lib/R/library/survival/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d01c713d7e8731856a50af04e49b9d9bfc211e7a3a9afa401635d942a7ac0698",
+        "sha256_in_prefix": "d01c713d7e8731856a50af04e49b9d9bfc211e7a3a9afa401635d942a7ac0698",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "lib/R/library/survival/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "926b48c681086ed9ad7c4d608ef9817ff44e2da3be292bb1a82402279d07bcf7",
+        "sha256_in_prefix": "926b48c681086ed9ad7c4d608ef9817ff44e2da3be292bb1a82402279d07bcf7",
+        "size_in_bytes": 7206
+      },
+      {
+        "_path": "lib/R/library/survival/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "9014a09d16e1a54251ba320765befecee7feeea5b03313abf558aa18f562c04d",
+        "sha256_in_prefix": "9014a09d16e1a54251ba320765befecee7feeea5b03313abf558aa18f562c04d",
+        "size_in_bytes": 93700
+      },
+      {
+        "_path": "lib/R/library/survival/R/survival",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/survival/R/survival.rdb",
+        "path_type": "hardlink",
+        "sha256": "cbe282a8824b1ef42d693e31510637eb7aefbd096f480f1afa267be52a854d01",
+        "sha256_in_prefix": "cbe282a8824b1ef42d693e31510637eb7aefbd096f480f1afa267be52a854d01",
+        "size_in_bytes": 1221511
+      },
+      {
+        "_path": "lib/R/library/survival/R/survival.rdx",
+        "path_type": "hardlink",
+        "sha256": "edfaabfbe2545d3dba1578ccb4c140c0ab14bab77dbc6adab0878e8a31520a87",
+        "sha256_in_prefix": "edfaabfbe2545d3dba1578ccb4c140c0ab14bab77dbc6adab0878e8a31520a87",
+        "size_in_bytes": 4573
+      },
+      {
+        "_path": "lib/R/library/survival/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "11a6e5c9a1cd45dbb7db7617dee1fbfc312cc68e2e9a323b8080e1064d708f5e",
+        "sha256_in_prefix": "11a6e5c9a1cd45dbb7db7617dee1fbfc312cc68e2e9a323b8080e1064d708f5e",
+        "size_in_bytes": 1954706
+      },
+      {
+        "_path": "lib/R/library/survival/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "0a9ff5bccd2d3f3ba6356d34747b58b3dfb032197bee6cf626978b1d487721fa",
+        "sha256_in_prefix": "0a9ff5bccd2d3f3ba6356d34747b58b3dfb032197bee6cf626978b1d487721fa",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "lib/R/library/survival/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "245b012fa8a09baa1bbf21a172155b2f3456412b6fffc45557b7552d26b63005",
+        "sha256_in_prefix": "245b012fa8a09baa1bbf21a172155b2f3456412b6fffc45557b7552d26b63005",
+        "size_in_bytes": 891
+      },
+      {
+        "_path": "lib/R/library/survival/doc/adjcurve.R",
+        "path_type": "hardlink",
+        "sha256": "b4bb01889ce534742d56f2773a51c30bd7c09c0a6621ba2545584a182dfb35e6",
+        "sha256_in_prefix": "b4bb01889ce534742d56f2773a51c30bd7c09c0a6621ba2545584a182dfb35e6",
+        "size_in_bytes": 17267
+      },
+      {
+        "_path": "lib/R/library/survival/doc/adjcurve.Rnw",
+        "path_type": "hardlink",
+        "sha256": "93d83cc467900afc3731eb0b5d1596994b5fb57dc2e3ae7e1e7b873f5997a4df",
+        "sha256_in_prefix": "93d83cc467900afc3731eb0b5d1596994b5fb57dc2e3ae7e1e7b873f5997a4df",
+        "size_in_bytes": 52965
+      },
+      {
+        "_path": "lib/R/library/survival/doc/adjcurve.pdf",
+        "path_type": "hardlink",
+        "sha256": "de630ac94fa57e4d36056acc769a3b2d6ec020e7512e5aad9f4d53a3e9c7314c",
+        "sha256_in_prefix": "de630ac94fa57e4d36056acc769a3b2d6ec020e7512e5aad9f4d53a3e9c7314c",
+        "size_in_bytes": 465779
+      },
+      {
+        "_path": "lib/R/library/survival/doc/approximate.R",
+        "path_type": "hardlink",
+        "sha256": "0a6a2b0a6655a6e56ba431df793763809b657c60f59ff5fdd5f793201cb18611",
+        "sha256_in_prefix": "0a6a2b0a6655a6e56ba431df793763809b657c60f59ff5fdd5f793201cb18611",
+        "size_in_bytes": 3424
+      },
+      {
+        "_path": "lib/R/library/survival/doc/approximate.Rnw",
+        "path_type": "hardlink",
+        "sha256": "c52d29b408dfd5bda578783d57a4f796556de7f40c261c06fcbb25bbff365b4c",
+        "sha256_in_prefix": "c52d29b408dfd5bda578783d57a4f796556de7f40c261c06fcbb25bbff365b4c",
+        "size_in_bytes": 6036
+      },
+      {
+        "_path": "lib/R/library/survival/doc/approximate.pdf",
+        "path_type": "hardlink",
+        "sha256": "e56550d531ade1946cac3ff57416fba93f34efef62babb336c2ed0716f4806ce",
+        "sha256_in_prefix": "e56550d531ade1946cac3ff57416fba93f34efef62babb336c2ed0716f4806ce",
+        "size_in_bytes": 83665
+      },
+      {
+        "_path": "lib/R/library/survival/doc/compete.R",
+        "path_type": "hardlink",
+        "sha256": "33650b5b57806d52caab11d528dcf2fe3487ad55128c42a1030a1a8b8ff6a20e",
+        "sha256_in_prefix": "33650b5b57806d52caab11d528dcf2fe3487ad55128c42a1030a1a8b8ff6a20e",
+        "size_in_bytes": 14203
+      },
+      {
+        "_path": "lib/R/library/survival/doc/compete.Rnw",
+        "path_type": "hardlink",
+        "sha256": "91a690afb04247469dbc087d1088b755125c82ac93eeea16acc35ff85701b2f6",
+        "sha256_in_prefix": "91a690afb04247469dbc087d1088b755125c82ac93eeea16acc35ff85701b2f6",
+        "size_in_bytes": 52838
+      },
+      {
+        "_path": "lib/R/library/survival/doc/compete.pdf",
+        "path_type": "hardlink",
+        "sha256": "de17534223d397daf88a686dd4c651a713a2bbcbe5143d1de6adb793a3b5058d",
+        "sha256_in_prefix": "de17534223d397daf88a686dd4c651a713a2bbcbe5143d1de6adb793a3b5058d",
+        "size_in_bytes": 297777
+      },
+      {
+        "_path": "lib/R/library/survival/doc/concordance.R",
+        "path_type": "hardlink",
+        "sha256": "2afd539b37a0a1a826a9354d4333759dbaf880efd3d9339255e1ca0a23383344",
+        "sha256_in_prefix": "2afd539b37a0a1a826a9354d4333759dbaf880efd3d9339255e1ca0a23383344",
+        "size_in_bytes": 5843
+      },
+      {
+        "_path": "lib/R/library/survival/doc/concordance.Rnw",
+        "path_type": "hardlink",
+        "sha256": "db93b5f43b4e88c5263999292397ada7c045ba72519ab8cf87c2641df3386839",
+        "sha256_in_prefix": "db93b5f43b4e88c5263999292397ada7c045ba72519ab8cf87c2641df3386839",
+        "size_in_bytes": 25284
+      },
+      {
+        "_path": "lib/R/library/survival/doc/concordance.pdf",
+        "path_type": "hardlink",
+        "sha256": "f9902ec3b7cafa2c79fea108f6965de463bd2f29298c6f9a41901c84cfa5c514",
+        "sha256_in_prefix": "f9902ec3b7cafa2c79fea108f6965de463bd2f29298c6f9a41901c84cfa5c514",
+        "size_in_bytes": 217905
+      },
+      {
+        "_path": "lib/R/library/survival/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "038bd96383250e9a28700035c9762dbad43713b4b9c06cd36b6405b9db124382",
+        "sha256_in_prefix": "038bd96383250e9a28700035c9762dbad43713b4b9c06cd36b6405b9db124382",
+        "size_in_bytes": 6492
+      },
+      {
+        "_path": "lib/R/library/survival/doc/multi.Rnw",
+        "path_type": "hardlink",
+        "sha256": "2c6b3217a35bf31687d8ccd169c943128aa15f0f9d2ee041be3b9eb360f2c13c",
+        "sha256_in_prefix": "2c6b3217a35bf31687d8ccd169c943128aa15f0f9d2ee041be3b9eb360f2c13c",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/survival/doc/multi.pdf",
+        "path_type": "hardlink",
+        "sha256": "8efd3e7f9bf68049e125cc9916921dff6fc1179b944f451e77c69c827eb3f1da",
+        "sha256_in_prefix": "8efd3e7f9bf68049e125cc9916921dff6fc1179b944f451e77c69c827eb3f1da",
+        "size_in_bytes": 34372
+      },
+      {
+        "_path": "lib/R/library/survival/doc/other.Rnw",
+        "path_type": "hardlink",
+        "sha256": "f103f9d6e5b54f9e6ef0421bcc1b4747f8addc12a484179272ba2f0b4161fe96",
+        "sha256_in_prefix": "f103f9d6e5b54f9e6ef0421bcc1b4747f8addc12a484179272ba2f0b4161fe96",
+        "size_in_bytes": 1956
+      },
+      {
+        "_path": "lib/R/library/survival/doc/other.pdf",
+        "path_type": "hardlink",
+        "sha256": "a6da7e4424a6343d4cc9525b1e77a4a1ad3e7c0483265ddba0c1710abc89fee9",
+        "sha256_in_prefix": "a6da7e4424a6343d4cc9525b1e77a4a1ad3e7c0483265ddba0c1710abc89fee9",
+        "size_in_bytes": 43214
+      },
+      {
+        "_path": "lib/R/library/survival/doc/population.R",
+        "path_type": "hardlink",
+        "sha256": "6a633aa26fc0273800384f5a9302bf1448bda2c1ad5801a9999b0c9db72860db",
+        "sha256_in_prefix": "6a633aa26fc0273800384f5a9302bf1448bda2c1ad5801a9999b0c9db72860db",
+        "size_in_bytes": 9999
+      },
+      {
+        "_path": "lib/R/library/survival/doc/population.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7dc715398636cbba25e70590446fdf762b29ae956f50a7b6ac1df67bfbb25b2b",
+        "sha256_in_prefix": "7dc715398636cbba25e70590446fdf762b29ae956f50a7b6ac1df67bfbb25b2b",
+        "size_in_bytes": 46683
+      },
+      {
+        "_path": "lib/R/library/survival/doc/population.pdf",
+        "path_type": "hardlink",
+        "sha256": "4aee188c2075bedcb15414dbfd6ee49ce6167ee40fca98dd9d6152c3acc24c1a",
+        "sha256_in_prefix": "4aee188c2075bedcb15414dbfd6ee49ce6167ee40fca98dd9d6152c3acc24c1a",
+        "size_in_bytes": 284037
+      },
+      {
+        "_path": "lib/R/library/survival/doc/splines.R",
+        "path_type": "hardlink",
+        "sha256": "e0dc3e8ac3562a5f15128e6cbaeb31ae31a9d320814be6e03bd86db69f91ec6d",
+        "sha256_in_prefix": "e0dc3e8ac3562a5f15128e6cbaeb31ae31a9d320814be6e03bd86db69f91ec6d",
+        "size_in_bytes": 5851
+      },
+      {
+        "_path": "lib/R/library/survival/doc/splines.Rnw",
+        "path_type": "hardlink",
+        "sha256": "4fe9b1be01c488a2910662f1bf2c13ef3b2c2233c2a4172ede6c9efe0aa89999",
+        "sha256_in_prefix": "4fe9b1be01c488a2910662f1bf2c13ef3b2c2233c2a4172ede6c9efe0aa89999",
+        "size_in_bytes": 13582
+      },
+      {
+        "_path": "lib/R/library/survival/doc/splines.pdf",
+        "path_type": "hardlink",
+        "sha256": "01fa5b8a26fc30894c73eaac2750a6f06af799c5bf30683d2efefc337a0462d0",
+        "sha256_in_prefix": "01fa5b8a26fc30894c73eaac2750a6f06af799c5bf30683d2efefc337a0462d0",
+        "size_in_bytes": 162684
+      },
+      {
+        "_path": "lib/R/library/survival/doc/survival.R",
+        "path_type": "hardlink",
+        "sha256": "46335b4422f7e69be8bd96d0933f1f2d7b30f47892c22a71c9d622b63f3bd92e",
+        "sha256_in_prefix": "46335b4422f7e69be8bd96d0933f1f2d7b30f47892c22a71c9d622b63f3bd92e",
+        "size_in_bytes": 35978
+      },
+      {
+        "_path": "lib/R/library/survival/doc/survival.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7ef47eb8efd314a85147436967cf11b548c9b78df0142b07a8fc1fa29b1533fc",
+        "sha256_in_prefix": "7ef47eb8efd314a85147436967cf11b548c9b78df0142b07a8fc1fa29b1533fc",
+        "size_in_bytes": 168202
+      },
+      {
+        "_path": "lib/R/library/survival/doc/survival.pdf",
+        "path_type": "hardlink",
+        "sha256": "8445bdc62f32914844aeeb49e374e58920e58b0441f4e267942554051765bfa8",
+        "sha256_in_prefix": "8445bdc62f32914844aeeb49e374e58920e58b0441f4e267942554051765bfa8",
+        "size_in_bytes": 578268
+      },
+      {
+        "_path": "lib/R/library/survival/doc/tiedtimes.R",
+        "path_type": "hardlink",
+        "sha256": "8123fb5663a61c97332260658f388aa97b44fd23d60a7e74debe623770f8a1d6",
+        "sha256_in_prefix": "8123fb5663a61c97332260658f388aa97b44fd23d60a7e74debe623770f8a1d6",
+        "size_in_bytes": 1892
+      },
+      {
+        "_path": "lib/R/library/survival/doc/tiedtimes.Rnw",
+        "path_type": "hardlink",
+        "sha256": "13e3eb3c48e81d87d9fb294e4bf84d69cfc202fedbd0f96a8c2438ba8445c9a8",
+        "sha256_in_prefix": "13e3eb3c48e81d87d9fb294e4bf84d69cfc202fedbd0f96a8c2438ba8445c9a8",
+        "size_in_bytes": 5359
+      },
+      {
+        "_path": "lib/R/library/survival/doc/tiedtimes.pdf",
+        "path_type": "hardlink",
+        "sha256": "f1ab75d9afb0f0c479721f1f27895d2f647fdd1e40267e189092de244ef01904",
+        "sha256_in_prefix": "f1ab75d9afb0f0c479721f1f27895d2f647fdd1e40267e189092de244ef01904",
+        "size_in_bytes": 98672
+      },
+      {
+        "_path": "lib/R/library/survival/doc/timedep.R",
+        "path_type": "hardlink",
+        "sha256": "52ea56a69bc0da50a5df0d650b68d39f7f99c945f827d521b8c7ec35b193e862",
+        "sha256_in_prefix": "52ea56a69bc0da50a5df0d650b68d39f7f99c945f827d521b8c7ec35b193e862",
+        "size_in_bytes": 12704
+      },
+      {
+        "_path": "lib/R/library/survival/doc/timedep.Rnw",
+        "path_type": "hardlink",
+        "sha256": "47dfb51abfc13ceaa36d504cd33434050c95606c98ade9d00eba3d66e4929d9b",
+        "sha256_in_prefix": "47dfb51abfc13ceaa36d504cd33434050c95606c98ade9d00eba3d66e4929d9b",
+        "size_in_bytes": 58877
+      },
+      {
+        "_path": "lib/R/library/survival/doc/timedep.pdf",
+        "path_type": "hardlink",
+        "sha256": "45d90be6b0e43bea267b06b46c6eb947ef3507e0e54b07cb956dbb14eb45dc60",
+        "sha256_in_prefix": "45d90be6b0e43bea267b06b46c6eb947ef3507e0e54b07cb956dbb14eb45dc60",
+        "size_in_bytes": 289534
+      },
+      {
+        "_path": "lib/R/library/survival/doc/validate.R",
+        "path_type": "hardlink",
+        "sha256": "349ac82b16b5cce5cc3f5eb2bf4d436c048aa2256b72eaec84c44cc2c5402154",
+        "sha256_in_prefix": "349ac82b16b5cce5cc3f5eb2bf4d436c048aa2256b72eaec84c44cc2c5402154",
+        "size_in_bytes": 6527
+      },
+      {
+        "_path": "lib/R/library/survival/doc/validate.Rnw",
+        "path_type": "hardlink",
+        "sha256": "d3e5f575980c3647e38555d0f66b7d4b0d16a779ad9295e84ae3128655b1f2b4",
+        "sha256_in_prefix": "d3e5f575980c3647e38555d0f66b7d4b0d16a779ad9295e84ae3128655b1f2b4",
+        "size_in_bytes": 48297
+      },
+      {
+        "_path": "lib/R/library/survival/doc/validate.pdf",
+        "path_type": "hardlink",
+        "sha256": "585dea4a48c79f7a3fb2847554cbf9096985c8734a0cb6972234a55d87e3375a",
+        "sha256_in_prefix": "585dea4a48c79f7a3fb2847554cbf9096985c8734a0cb6972234a55d87e3375a",
+        "size_in_bytes": 228161
+      },
+      {
+        "_path": "lib/R/library/survival/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "df653fd53598daabec64fbd16c1ee7f2af5d33a51aba1fd9a6b8a012ee24cd66",
+        "sha256_in_prefix": "df653fd53598daabec64fbd16c1ee7f2af5d33a51aba1fd9a6b8a012ee24cd66",
+        "size_in_bytes": 5719
+      },
+      {
+        "_path": "lib/R/library/survival/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "b24b3fb7d7eb6e85fbd22b75df983289235d76cc9db87d269b33d999896184b4",
+        "sha256_in_prefix": "b24b3fb7d7eb6e85fbd22b75df983289235d76cc9db87d269b33d999896184b4",
+        "size_in_bytes": 1971
+      },
+      {
+        "_path": "lib/R/library/survival/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "a62bed7821d6db6f0eb505ce1e81292b570461c86c280a6578ad63cdd269b611",
+        "sha256_in_prefix": "a62bed7821d6db6f0eb505ce1e81292b570461c86c280a6578ad63cdd269b611",
+        "size_in_bytes": 44110
+      },
+      {
+        "_path": "lib/R/library/survival/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "b7a7ac29cf8645d92fff397f934201f48ce4a01540bbf26427e09d44ffe3676c",
+        "sha256_in_prefix": "b7a7ac29cf8645d92fff397f934201f48ce4a01540bbf26427e09d44ffe3676c",
+        "size_in_bytes": 1138
+      },
+      {
+        "_path": "lib/R/library/survival/help/survival.rdb",
+        "path_type": "hardlink",
+        "sha256": "25d6181320e0affffa632642c77e79c2aec2b86b80ded83e71ccd94aa5bf3704",
+        "sha256_in_prefix": "25d6181320e0affffa632642c77e79c2aec2b86b80ded83e71ccd94aa5bf3704",
+        "size_in_bytes": 484413
+      },
+      {
+        "_path": "lib/R/library/survival/help/survival.rdx",
+        "path_type": "hardlink",
+        "sha256": "0b9693b300284971aec0a50a38f50a1405b5de50a38f720c8f1fd46f2dbe8359",
+        "sha256_in_prefix": "0b9693b300284971aec0a50a38f50a1405b5de50a38f720c8f1fd46f2dbe8359",
+        "size_in_bytes": 2780
+      },
+      {
+        "_path": "lib/R/library/survival/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c187596b3f7b082bf0530d5d45b22ea4268ea348d74d19e6be6052b926c40d93",
+        "sha256_in_prefix": "c187596b3f7b082bf0530d5d45b22ea4268ea348d74d19e6be6052b926c40d93",
+        "size_in_bytes": 32433
+      },
+      {
+        "_path": "lib/R/library/survival/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/survival/libs/survival.so",
+        "path_type": "hardlink",
+        "sha256": "eaed7f037d5055350af194f6fb01e7d113ce90a87fe655d9cedec9edb7a6c860",
+        "sha256_in_prefix": "eaed7f037d5055350af194f6fb01e7d113ce90a87fe655d9cedec9edb7a6c860",
+        "size_in_bytes": 243656
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "45105e0acd044dc65dd37dfebdced2a4af45968851068f78029928c37956babb",
+  "size": 6632177,
+  "subdir": "linux-64",
+  "timestamp": 1619426855000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-survival-3.2_11-r36hcfec24a_0.tar.bz2",
+  "version": "3.2_11"
+}

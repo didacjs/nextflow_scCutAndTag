@@ -1,0 +1,291 @@
+{
+  "build": "r36hcfec24a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-crayon >=1.3.2"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-diffobj-0.3.4-r36hcfec24a_0",
+  "files": [
+    "lib/R/library/diffobj/COPYRIGHTS",
+    "lib/R/library/diffobj/DESCRIPTION",
+    "lib/R/library/diffobj/INDEX",
+    "lib/R/library/diffobj/Meta/Rd.rds",
+    "lib/R/library/diffobj/Meta/features.rds",
+    "lib/R/library/diffobj/Meta/hsearch.rds",
+    "lib/R/library/diffobj/Meta/links.rds",
+    "lib/R/library/diffobj/Meta/nsInfo.rds",
+    "lib/R/library/diffobj/Meta/package.rds",
+    "lib/R/library/diffobj/Meta/vignette.rds",
+    "lib/R/library/diffobj/NAMESPACE",
+    "lib/R/library/diffobj/NEWS.md",
+    "lib/R/library/diffobj/R/diffobj",
+    "lib/R/library/diffobj/R/diffobj.rdb",
+    "lib/R/library/diffobj/R/diffobj.rdx",
+    "lib/R/library/diffobj/css/diffobj.css",
+    "lib/R/library/diffobj/doc/diffobj.R",
+    "lib/R/library/diffobj/doc/diffobj.Rmd",
+    "lib/R/library/diffobj/doc/diffobj.html",
+    "lib/R/library/diffobj/doc/embed.R",
+    "lib/R/library/diffobj/doc/embed.Rmd",
+    "lib/R/library/diffobj/doc/embed.html",
+    "lib/R/library/diffobj/doc/index.html",
+    "lib/R/library/diffobj/help/AnIndex",
+    "lib/R/library/diffobj/help/aliases.rds",
+    "lib/R/library/diffobj/help/diffobj.rdb",
+    "lib/R/library/diffobj/help/diffobj.rdx",
+    "lib/R/library/diffobj/help/paths.rds",
+    "lib/R/library/diffobj/html/00Index.html",
+    "lib/R/library/diffobj/html/R.css",
+    "lib/R/library/diffobj/libs/diffobj.so",
+    "lib/R/library/diffobj/script/diffobj.js"
+  ],
+  "fn": "r-diffobj-0.3.4-r36hcfec24a_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-diffobj-0.3.4-r36hcfec24a_0",
+    "type": 1
+  },
+  "md5": "146ed3e32f34b7f14d55f096c871dee1",
+  "name": "r-diffobj",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-diffobj-0.3.4-r36hcfec24a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/diffobj/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "0bdf23ca6697e47f6ab1e0777bb80289f0c886b6e5e65146b403fac3c81ff48e",
+        "sha256_in_prefix": "0bdf23ca6697e47f6ab1e0777bb80289f0c886b6e5e65146b403fac3c81ff48e",
+        "size_in_bytes": 699
+      },
+      {
+        "_path": "lib/R/library/diffobj/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1ee9761a8603af531b3366c92816453eb3a6b12f3047d14a89324bc5cc4bd10e",
+        "sha256_in_prefix": "1ee9761a8603af531b3366c92816453eb3a6b12f3047d14a89324bc5cc4bd10e",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "lib/R/library/diffobj/INDEX",
+        "path_type": "hardlink",
+        "sha256": "4c246c61d402bd5894f3447ec718431df6bd87bb379ba8493c9c3cc982191414",
+        "sha256_in_prefix": "4c246c61d402bd5894f3447ec718431df6bd87bb379ba8493c9c3cc982191414",
+        "size_in_bytes": 3007
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "424365fa6d2e260e62363453ffd2cca4fc3bb24198ff44140b641b502ff68d60",
+        "sha256_in_prefix": "424365fa6d2e260e62363453ffd2cca4fc3bb24198ff44140b641b502ff68d60",
+        "size_in_bytes": 2527
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8df45ede828ed3bb8952042ed84e5ce73e87f9eced0416a1af0dfe9db18685c9",
+        "sha256_in_prefix": "8df45ede828ed3bb8952042ed84e5ce73e87f9eced0416a1af0dfe9db18685c9",
+        "size_in_bytes": 2500
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "476f368ea46939e3be9b580f895e84e6e648ee3b65b37811655302c076461500",
+        "sha256_in_prefix": "476f368ea46939e3be9b580f895e84e6e648ee3b65b37811655302c076461500",
+        "size_in_bytes": 1407
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "21d20868ca1189758aee9a4011636f0f8fdf74b8bea1c3a42aadfdef716e0e9b",
+        "sha256_in_prefix": "21d20868ca1189758aee9a4011636f0f8fdf74b8bea1c3a42aadfdef716e0e9b",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "aa49f08e3073602db0071d2c1e07e64827284e1e4c96512b3f663e1165cab3e1",
+        "sha256_in_prefix": "aa49f08e3073602db0071d2c1e07e64827284e1e4c96512b3f663e1165cab3e1",
+        "size_in_bytes": 1233
+      },
+      {
+        "_path": "lib/R/library/diffobj/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a69de182d408110b6f8bf0b02325161cd6fb1c602355527c92819977734255c5",
+        "sha256_in_prefix": "a69de182d408110b6f8bf0b02325161cd6fb1c602355527c92819977734255c5",
+        "size_in_bytes": 251
+      },
+      {
+        "_path": "lib/R/library/diffobj/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ee50308ecee22622d9ceb33d9929280307c3dae2e8e0e0afbf30a7b7d0654bf8",
+        "sha256_in_prefix": "ee50308ecee22622d9ceb33d9929280307c3dae2e8e0e0afbf30a7b7d0654bf8",
+        "size_in_bytes": 2474
+      },
+      {
+        "_path": "lib/R/library/diffobj/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "549ba971af10226fa0d48a18a4a856666f08f84ca008da3ef0fedb1fb8a276d4",
+        "sha256_in_prefix": "549ba971af10226fa0d48a18a4a856666f08f84ca008da3ef0fedb1fb8a276d4",
+        "size_in_bytes": 10816
+      },
+      {
+        "_path": "lib/R/library/diffobj/R/diffobj",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/diffobj/R/diffobj.rdb",
+        "path_type": "hardlink",
+        "sha256": "f19f64f3fca1dfc66096f1ce06bb93457dda4b11c2ed014f561f8e11ea29de95",
+        "sha256_in_prefix": "f19f64f3fca1dfc66096f1ce06bb93457dda4b11c2ed014f561f8e11ea29de95",
+        "size_in_bytes": 761404
+      },
+      {
+        "_path": "lib/R/library/diffobj/R/diffobj.rdx",
+        "path_type": "hardlink",
+        "sha256": "713987e7269583eeec2a114346af9b80bc554688150d47c62b8c9c1a78c116f9",
+        "sha256_in_prefix": "713987e7269583eeec2a114346af9b80bc554688150d47c62b8c9c1a78c116f9",
+        "size_in_bytes": 6068
+      },
+      {
+        "_path": "lib/R/library/diffobj/css/diffobj.css",
+        "path_type": "hardlink",
+        "sha256": "e5e2cf0341c24429660d9b1a6184db8a35dcbbb991430372c665aa31dc63fd4b",
+        "sha256_in_prefix": "e5e2cf0341c24429660d9b1a6184db8a35dcbbb991430372c665aa31dc63fd4b",
+        "size_in_bytes": 5073
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/diffobj.R",
+        "path_type": "hardlink",
+        "sha256": "d4f642c73a209989d54067a8bf8c7a1881163cb1e9f597f5595af33f83ee8d9a",
+        "sha256_in_prefix": "d4f642c73a209989d54067a8bf8c7a1881163cb1e9f597f5595af33f83ee8d9a",
+        "size_in_bytes": 2973
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/diffobj.Rmd",
+        "path_type": "hardlink",
+        "sha256": "cfbe389aea760497bcec93a8121d536b78da7e021858567a9c930206f62d2b9f",
+        "sha256_in_prefix": "cfbe389aea760497bcec93a8121d536b78da7e021858567a9c930206f62d2b9f",
+        "size_in_bytes": 16097
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/diffobj.html",
+        "path_type": "hardlink",
+        "sha256": "6e3b507f5d31ed3e653f246a477fc55496337668e4ed98024ab37cd04a74465d",
+        "sha256_in_prefix": "6e3b507f5d31ed3e653f246a477fc55496337668e4ed98024ab37cd04a74465d",
+        "size_in_bytes": 156361
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/embed.R",
+        "path_type": "hardlink",
+        "sha256": "cc168638c361bdf3e8c6d504c2c428387c9e8fa8815f503dcfed2e5ab6de7de7",
+        "sha256_in_prefix": "cc168638c361bdf3e8c6d504c2c428387c9e8fa8815f503dcfed2e5ab6de7de7",
+        "size_in_bytes": 1967
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/embed.Rmd",
+        "path_type": "hardlink",
+        "sha256": "efbc6bb8b26e6435340ad534c10f1b2fb0877f66a1b89ea9cbef440fd6819802",
+        "sha256_in_prefix": "efbc6bb8b26e6435340ad534c10f1b2fb0877f66a1b89ea9cbef440fd6819802",
+        "size_in_bytes": 4186
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/embed.html",
+        "path_type": "hardlink",
+        "sha256": "7408e829d848235b499589bb80cf7133437a0596d97b630977c7db54e79e5924",
+        "sha256_in_prefix": "7408e829d848235b499589bb80cf7133437a0596d97b630977c7db54e79e5924",
+        "size_in_bytes": 32646
+      },
+      {
+        "_path": "lib/R/library/diffobj/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "f30b474fbea3860bb6a54841ccbe4bf826d59f8e4c98130d2d216fd13c00c4a4",
+        "sha256_in_prefix": "f30b474fbea3860bb6a54841ccbe4bf826d59f8e4c98130d2d216fd13c00c4a4",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "lib/R/library/diffobj/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "8f873157040dbc3694c1e550f2d11f5d38dce87b665ddd51ec16c09ab74b3800",
+        "sha256_in_prefix": "8f873157040dbc3694c1e550f2d11f5d38dce87b665ddd51ec16c09ab74b3800",
+        "size_in_bytes": 3864
+      },
+      {
+        "_path": "lib/R/library/diffobj/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a886f481c26dd71327f746682a18a95ded4df5f50af358b5f729b9144b1dec84",
+        "sha256_in_prefix": "a886f481c26dd71327f746682a18a95ded4df5f50af358b5f729b9144b1dec84",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "lib/R/library/diffobj/help/diffobj.rdb",
+        "path_type": "hardlink",
+        "sha256": "176ec0d604cd3b1d46262bc4800dd2da9fa060a911fbdbdaf6f1f60f1e1b90c7",
+        "sha256_in_prefix": "176ec0d604cd3b1d46262bc4800dd2da9fa060a911fbdbdaf6f1f60f1e1b90c7",
+        "size_in_bytes": 238677
+      },
+      {
+        "_path": "lib/R/library/diffobj/help/diffobj.rdx",
+        "path_type": "hardlink",
+        "sha256": "da8f63ac2b9eef00085867841bff54b47a32a1b73a710420d0aa51000cd37347",
+        "sha256_in_prefix": "da8f63ac2b9eef00085867841bff54b47a32a1b73a710420d0aa51000cd37347",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/R/library/diffobj/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2b4b860a34e799fcea6527254284995896b58107311385c9432223f1219cc1d2",
+        "sha256_in_prefix": "2b4b860a34e799fcea6527254284995896b58107311385c9432223f1219cc1d2",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "lib/R/library/diffobj/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c49e0bcb0ff8a1305b8f5f2df9fda77d9053b380650ca0ad7bd2d6952eeb33c5",
+        "sha256_in_prefix": "c49e0bcb0ff8a1305b8f5f2df9fda77d9053b380650ca0ad7bd2d6952eeb33c5",
+        "size_in_bytes": 19096
+      },
+      {
+        "_path": "lib/R/library/diffobj/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/diffobj/libs/diffobj.so",
+        "path_type": "hardlink",
+        "sha256": "fe7fe2ba172071cca887641123d83b05e5593f51b6bdddc4dab88b61548f8449",
+        "sha256_in_prefix": "fe7fe2ba172071cca887641123d83b05e5593f51b6bdddc4dab88b61548f8449",
+        "size_in_bytes": 21328
+      },
+      {
+        "_path": "lib/R/library/diffobj/script/diffobj.js",
+        "path_type": "hardlink",
+        "sha256": "b09fc6d18d9ca37d97fe29f47363a4253aa2bc371b8afb96afd82485cd623925",
+        "sha256_in_prefix": "b09fc6d18d9ca37d97fe29f47363a4253aa2bc371b8afb96afd82485cd623925",
+        "size_in_bytes": 5779
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "54b069f8998ee28769e2d4e2d47f773b0b26a3f1b2b908d9cad4dd75ca2c9582",
+  "size": 1046156,
+  "subdir": "linux-64",
+  "timestamp": 1620684381000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-diffobj-0.3.4-r36hcfec24a_0.tar.bz2",
+  "version": "0.3.4"
+}

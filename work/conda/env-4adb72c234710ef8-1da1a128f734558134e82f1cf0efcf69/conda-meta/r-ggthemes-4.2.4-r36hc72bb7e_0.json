@@ -1,0 +1,696 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-ggplot2 >=3.0.0",
+    "r-purrr",
+    "r-scales",
+    "r-stringr",
+    "r-tibble"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-ggthemes-4.2.4-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/ggthemes/DESCRIPTION",
+    "lib/R/library/ggthemes/INDEX",
+    "lib/R/library/ggthemes/Meta/Rd.rds",
+    "lib/R/library/ggthemes/Meta/data.rds",
+    "lib/R/library/ggthemes/Meta/features.rds",
+    "lib/R/library/ggthemes/Meta/hsearch.rds",
+    "lib/R/library/ggthemes/Meta/links.rds",
+    "lib/R/library/ggthemes/Meta/nsInfo.rds",
+    "lib/R/library/ggthemes/Meta/package.rds",
+    "lib/R/library/ggthemes/NAMESPACE",
+    "lib/R/library/ggthemes/NEWS.md",
+    "lib/R/library/ggthemes/R/ggthemes",
+    "lib/R/library/ggthemes/R/ggthemes.rdb",
+    "lib/R/library/ggthemes/R/ggthemes.rdx",
+    "lib/R/library/ggthemes/WORDLIST",
+    "lib/R/library/ggthemes/data/Rdata.rdb",
+    "lib/R/library/ggthemes/data/Rdata.rds",
+    "lib/R/library/ggthemes/data/Rdata.rdx",
+    "lib/R/library/ggthemes/examples/ex-bank_slopes.R",
+    "lib/R/library/ggthemes/examples/ex-calc_pal.R",
+    "lib/R/library/ggthemes/examples/ex-calc_shape_pal.R",
+    "lib/R/library/ggthemes/examples/ex-canva_pal.R",
+    "lib/R/library/ggthemes/examples/ex-circlefill_shape_pal.R",
+    "lib/R/library/ggthemes/examples/ex-cleveland_shape_pal.R",
+    "lib/R/library/ggthemes/examples/ex-colorblind.R",
+    "lib/R/library/ggthemes/examples/ex-economist_pal.R",
+    "lib/R/library/ggthemes/examples/ex-excel_new_pal.R",
+    "lib/R/library/ggthemes/examples/ex-excel_pal.R",
+    "lib/R/library/ggthemes/examples/ex-few_pal.R",
+    "lib/R/library/ggthemes/examples/ex-few_shape_pal.R",
+    "lib/R/library/ggthemes/examples/ex-fivethirtyeight_pal.R",
+    "lib/R/library/ggthemes/examples/ex-gdocs_pal.R",
+    "lib/R/library/ggthemes/examples/ex-geom_rangeframe.R",
+    "lib/R/library/ggthemes/examples/ex-geom_tufteboxplot.R",
+    "lib/R/library/ggthemes/examples/ex-palette_pander.R",
+    "lib/R/library/ggthemes/examples/ex-ptol_pal.R",
+    "lib/R/library/ggthemes/examples/ex-scale_color_tableau.R",
+    "lib/R/library/ggthemes/examples/ex-scale_colour_excel_classic.R",
+    "lib/R/library/ggthemes/examples/ex-scale_colour_excel_new.R",
+    "lib/R/library/ggthemes/examples/ex-scale_colour_gradient2_tableau.R",
+    "lib/R/library/ggthemes/examples/ex-scale_colour_gradient_tableau.R",
+    "lib/R/library/ggthemes/examples/ex-scale_colour_ptol.R",
+    "lib/R/library/ggthemes/examples/ex-scale_linetype_stata.R",
+    "lib/R/library/ggthemes/examples/ex-scale_shape_stata.R",
+    "lib/R/library/ggthemes/examples/ex-scale_shape_tableau.R",
+    "lib/R/library/ggthemes/examples/ex-scale_shape_tremmel.R",
+    "lib/R/library/ggthemes/examples/ex-scale_solarized.R",
+    "lib/R/library/ggthemes/examples/ex-show_linetypes.R",
+    "lib/R/library/ggthemes/examples/ex-show_shapes.R",
+    "lib/R/library/ggthemes/examples/ex-solarized_pal.R",
+    "lib/R/library/ggthemes/examples/ex-stata_pal.R",
+    "lib/R/library/ggthemes/examples/ex-tableau_color_pal.R",
+    "lib/R/library/ggthemes/examples/ex-tableau_div_gradient_pal.R",
+    "lib/R/library/ggthemes/examples/ex-tableau_seq_gradient_pal.R",
+    "lib/R/library/ggthemes/examples/ex-tableau_shape_pal.R",
+    "lib/R/library/ggthemes/examples/ex-theme_base.R",
+    "lib/R/library/ggthemes/examples/ex-theme_calc.R",
+    "lib/R/library/ggthemes/examples/ex-theme_clean.R",
+    "lib/R/library/ggthemes/examples/ex-theme_economist.R",
+    "lib/R/library/ggthemes/examples/ex-theme_excel.R",
+    "lib/R/library/ggthemes/examples/ex-theme_excel_new.R",
+    "lib/R/library/ggthemes/examples/ex-theme_few.R",
+    "lib/R/library/ggthemes/examples/ex-theme_fivethirtyeight.R",
+    "lib/R/library/ggthemes/examples/ex-theme_gdocs.R",
+    "lib/R/library/ggthemes/examples/ex-theme_hc.R",
+    "lib/R/library/ggthemes/examples/ex-theme_igray.R",
+    "lib/R/library/ggthemes/examples/ex-theme_map.R",
+    "lib/R/library/ggthemes/examples/ex-theme_pander.R",
+    "lib/R/library/ggthemes/examples/ex-theme_par.R",
+    "lib/R/library/ggthemes/examples/ex-theme_solarized.R",
+    "lib/R/library/ggthemes/examples/ex-theme_solid.R",
+    "lib/R/library/ggthemes/examples/ex-theme_stata.R",
+    "lib/R/library/ggthemes/examples/ex-theme_tufte.R",
+    "lib/R/library/ggthemes/examples/ex-theme_wsj.R",
+    "lib/R/library/ggthemes/help/AnIndex",
+    "lib/R/library/ggthemes/help/aliases.rds",
+    "lib/R/library/ggthemes/help/ggthemes.rdb",
+    "lib/R/library/ggthemes/help/ggthemes.rdx",
+    "lib/R/library/ggthemes/help/macros/funclink.Rd",
+    "lib/R/library/ggthemes/help/paths.rds",
+    "lib/R/library/ggthemes/html/00Index.html",
+    "lib/R/library/ggthemes/html/R.css"
+  ],
+  "fn": "r-ggthemes-4.2.4-r36hc72bb7e_0.tar.bz2",
+  "license": "GPL-2",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-ggthemes-4.2.4-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "8cd7b6db880bf931e20f88d3daa1fee9",
+  "name": "r-ggthemes",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-ggthemes-4.2.4-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ggthemes/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e60685f25aee5153307bb7ca2c547e483f9e3f90233f8711fcbf1966b669f7ab",
+        "sha256_in_prefix": "e60685f25aee5153307bb7ca2c547e483f9e3f90233f8711fcbf1966b669f7ab",
+        "size_in_bytes": 2114
+      },
+      {
+        "_path": "lib/R/library/ggthemes/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b2e301768bf248a1cafdd7440bf51a5ad6dd663e8df1908a8d18bc2f8b80888a",
+        "sha256_in_prefix": "b2e301768bf248a1cafdd7440bf51a5ad6dd663e8df1908a8d18bc2f8b80888a",
+        "size_in_bytes": 5412
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "15c93452fa513b68c5f4647e58fee1922d0af466d7968f2c37da3c1fa3aa8eec",
+        "sha256_in_prefix": "15c93452fa513b68c5f4647e58fee1922d0af466d7968f2c37da3c1fa3aa8eec",
+        "size_in_bytes": 3154
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "5537f599b587d8c3f775fd3befb00a1a61a5b42c7402c5888a6df4d2cf90bde0",
+        "sha256_in_prefix": "5537f599b587d8c3f775fd3befb00a1a61a5b42c7402c5888a6df4d2cf90bde0",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "85566cfacc72a183a1706cb3651f3ba51a238519d5b391ada07b614a67d3107c",
+        "sha256_in_prefix": "85566cfacc72a183a1706cb3651f3ba51a238519d5b391ada07b614a67d3107c",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "5e602434b7926b0a18c1efc0e5e1ef3f401baa38a69b6c3210e78cad08aff832",
+        "sha256_in_prefix": "5e602434b7926b0a18c1efc0e5e1ef3f401baa38a69b6c3210e78cad08aff832",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d876a2c9d710cfae5734412f45df27982ba34e20828c60a94c866f24021a7714",
+        "sha256_in_prefix": "d876a2c9d710cfae5734412f45df27982ba34e20828c60a94c866f24021a7714",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/R/library/ggthemes/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "9bfabff04078eaba4f9a001c0e5495677a9f450a56e230fe6f145b36cc49dd8f",
+        "sha256_in_prefix": "9bfabff04078eaba4f9a001c0e5495677a9f450a56e230fe6f145b36cc49dd8f",
+        "size_in_bytes": 1592
+      },
+      {
+        "_path": "lib/R/library/ggthemes/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "fb75083ea9bd5496a368626cdb35e194a88771269f23e71e911643c5e74e8271",
+        "sha256_in_prefix": "fb75083ea9bd5496a368626cdb35e194a88771269f23e71e911643c5e74e8271",
+        "size_in_bytes": 4763
+      },
+      {
+        "_path": "lib/R/library/ggthemes/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "3579f1bf7f29dd16337c98b2345e1500386798e991b9bd81681b3d25175f65e1",
+        "sha256_in_prefix": "3579f1bf7f29dd16337c98b2345e1500386798e991b9bd81681b3d25175f65e1",
+        "size_in_bytes": 9850
+      },
+      {
+        "_path": "lib/R/library/ggthemes/R/ggthemes",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ggthemes/R/ggthemes.rdb",
+        "path_type": "hardlink",
+        "sha256": "53266ba2b21a3f0bafbc0a8ee21c9a833ebea27fa13617ba033bf1e6dc966291",
+        "sha256_in_prefix": "53266ba2b21a3f0bafbc0a8ee21c9a833ebea27fa13617ba033bf1e6dc966291",
+        "size_in_bytes": 160881
+      },
+      {
+        "_path": "lib/R/library/ggthemes/R/ggthemes.rdx",
+        "path_type": "hardlink",
+        "sha256": "ee68480dd93c22ea6f2fa3e66f7ca917f952c1d3eb1696394c27a57ee931defc",
+        "sha256_in_prefix": "ee68480dd93c22ea6f2fa3e66f7ca917f952c1d3eb1696394c27a57ee931defc",
+        "size_in_bytes": 2278
+      },
+      {
+        "_path": "lib/R/library/ggthemes/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "fb3623ffee2cf194df4a2c2c13fcab124cc023b21bfdb72a801270f5d3b179af",
+        "sha256_in_prefix": "fb3623ffee2cf194df4a2c2c13fcab124cc023b21bfdb72a801270f5d3b179af",
+        "size_in_bytes": 838
+      },
+      {
+        "_path": "lib/R/library/ggthemes/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "b83df5859bd6f4c0d5bf36467e4b97e45d967380f9e9354c4b9c9f4126815320",
+        "sha256_in_prefix": "b83df5859bd6f4c0d5bf36467e4b97e45d967380f9e9354c4b9c9f4126815320",
+        "size_in_bytes": 20485
+      },
+      {
+        "_path": "lib/R/library/ggthemes/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "4663d1f4a72a9ce2dd927b0c25334f9a227d365dc03b1f36fc6ece157f32a181",
+        "sha256_in_prefix": "4663d1f4a72a9ce2dd927b0c25334f9a227d365dc03b1f36fc6ece157f32a181",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/R/library/ggthemes/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "53b61e05b99602353b986225c397a96bfc024023c1232c3f2c85bde61066aacd",
+        "sha256_in_prefix": "53b61e05b99602353b986225c397a96bfc024023c1232c3f2c85bde61066aacd",
+        "size_in_bytes": 171
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-bank_slopes.R",
+        "path_type": "hardlink",
+        "sha256": "b7646ab3f38771ad4fb2840d8bb9d455184956456d8597d60244fd94e90366e5",
+        "sha256_in_prefix": "b7646ab3f38771ad4fb2840d8bb9d455184956456d8597d60244fd94e90366e5",
+        "size_in_bytes": 422
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-calc_pal.R",
+        "path_type": "hardlink",
+        "sha256": "71aea9d0f5cb7ddb3d8d3e3c266b2d54cfa3472dd662e989cbe7a68296b4ee5c",
+        "sha256_in_prefix": "71aea9d0f5cb7ddb3d8d3e3c266b2d54cfa3472dd662e989cbe7a68296b4ee5c",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-calc_shape_pal.R",
+        "path_type": "hardlink",
+        "sha256": "29a9c03985b9c5e542004d4fad5ea0148452ec34170b7bc94bdfc709cd4b6205",
+        "sha256_in_prefix": "29a9c03985b9c5e542004d4fad5ea0148452ec34170b7bc94bdfc709cd4b6205",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-canva_pal.R",
+        "path_type": "hardlink",
+        "sha256": "d83ded314e638647f0ac4586778bff128974648c99f6603544f06510eef35aec",
+        "sha256_in_prefix": "d83ded314e638647f0ac4586778bff128974648c99f6603544f06510eef35aec",
+        "size_in_bytes": 919
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-circlefill_shape_pal.R",
+        "path_type": "hardlink",
+        "sha256": "1b6a7743b146a4c6519a96df68b1c19f874205eb64f2ecad880a06cb7645e9b5",
+        "sha256_in_prefix": "1b6a7743b146a4c6519a96df68b1c19f874205eb64f2ecad880a06cb7645e9b5",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-cleveland_shape_pal.R",
+        "path_type": "hardlink",
+        "sha256": "9d33d43e7f57ff1f82934dbf881d58a4bf68959714113b86f3cab87020c8d175",
+        "sha256_in_prefix": "9d33d43e7f57ff1f82934dbf881d58a4bf68959714113b86f3cab87020c8d175",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-colorblind.R",
+        "path_type": "hardlink",
+        "sha256": "eacfec5624ed1ce18a30256cce1b2d681d0dc483401d1adfac5f0cbe895bd23c",
+        "sha256_in_prefix": "eacfec5624ed1ce18a30256cce1b2d681d0dc483401d1adfac5f0cbe895bd23c",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-economist_pal.R",
+        "path_type": "hardlink",
+        "sha256": "1ca003415a4dee4b2a62a584bf5ca2747c54b9cb7a578e1aae10913b0fc63464",
+        "sha256_in_prefix": "1ca003415a4dee4b2a62a584bf5ca2747c54b9cb7a578e1aae10913b0fc63464",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-excel_new_pal.R",
+        "path_type": "hardlink",
+        "sha256": "a4e477a8dccd37261c178442348d7854f62ebc8405b501337bf3e81766c4a765",
+        "sha256_in_prefix": "a4e477a8dccd37261c178442348d7854f62ebc8405b501337bf3e81766c4a765",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-excel_pal.R",
+        "path_type": "hardlink",
+        "sha256": "2bb108b638875463412f34a452994c020e796704152a7025c3883400bf4fe103",
+        "sha256_in_prefix": "2bb108b638875463412f34a452994c020e796704152a7025c3883400bf4fe103",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-few_pal.R",
+        "path_type": "hardlink",
+        "sha256": "e9082beb50c9dca1f3b3565ca3eb67048041f9d549fa66c8ed743d97544da363",
+        "sha256_in_prefix": "e9082beb50c9dca1f3b3565ca3eb67048041f9d549fa66c8ed743d97544da363",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-few_shape_pal.R",
+        "path_type": "hardlink",
+        "sha256": "8eaeab653e1296e7399bdc3fd076ca617374ff858077327e551f2726067bf17d",
+        "sha256_in_prefix": "8eaeab653e1296e7399bdc3fd076ca617374ff858077327e551f2726067bf17d",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-fivethirtyeight_pal.R",
+        "path_type": "hardlink",
+        "sha256": "b62cad3458628e1d5c9e5e5ce35f3633de4812ab567cb985244e154716f7262b",
+        "sha256_in_prefix": "b62cad3458628e1d5c9e5e5ce35f3633de4812ab567cb985244e154716f7262b",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-gdocs_pal.R",
+        "path_type": "hardlink",
+        "sha256": "93bc1463329ab54746d50f644e18849a406e9fab5be903ce36d04220b8875157",
+        "sha256_in_prefix": "93bc1463329ab54746d50f644e18849a406e9fab5be903ce36d04220b8875157",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-geom_rangeframe.R",
+        "path_type": "hardlink",
+        "sha256": "571a3e7b90661b210bde3c8c7d2e9f5cc0f636d708476b876db2f8de2ef958ab",
+        "sha256_in_prefix": "571a3e7b90661b210bde3c8c7d2e9f5cc0f636d708476b876db2f8de2ef958ab",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-geom_tufteboxplot.R",
+        "path_type": "hardlink",
+        "sha256": "3ab2569a815d2a48073c4350e5b2a11a99ffda4fe74eae2de9868337717d018d",
+        "sha256_in_prefix": "3ab2569a815d2a48073c4350e5b2a11a99ffda4fe74eae2de9868337717d018d",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-palette_pander.R",
+        "path_type": "hardlink",
+        "sha256": "6cb15e1f32f49a109fbbf5d4ff26e562e2efbfea715e6728d4c169f61275f3ca",
+        "sha256_in_prefix": "6cb15e1f32f49a109fbbf5d4ff26e562e2efbfea715e6728d4c169f61275f3ca",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-ptol_pal.R",
+        "path_type": "hardlink",
+        "sha256": "e21249eea29fc291ecfb1540fef6f9a9d80db20793c67c6bfda5e76be5ab951d",
+        "sha256_in_prefix": "e21249eea29fc291ecfb1540fef6f9a9d80db20793c67c6bfda5e76be5ab951d",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_color_tableau.R",
+        "path_type": "hardlink",
+        "sha256": "4eae92eeacf8fc20a17fb6c3e4c72328a2634a14c99049f917c7510a6ec5f4a8",
+        "sha256_in_prefix": "4eae92eeacf8fc20a17fb6c3e4c72328a2634a14c99049f917c7510a6ec5f4a8",
+        "size_in_bytes": 409
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_colour_excel_classic.R",
+        "path_type": "hardlink",
+        "sha256": "645bcdad14f6b22fad1ae87ab53e0c68c4a798af725e53f8aeae51e7526bd999",
+        "sha256_in_prefix": "645bcdad14f6b22fad1ae87ab53e0c68c4a798af725e53f8aeae51e7526bd999",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_colour_excel_new.R",
+        "path_type": "hardlink",
+        "sha256": "06f63e2a64089ed1ff80f4048f08919d580ea5a5503312f6ff31ffe29b309ecc",
+        "sha256_in_prefix": "06f63e2a64089ed1ff80f4048f08919d580ea5a5503312f6ff31ffe29b309ecc",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_colour_gradient2_tableau.R",
+        "path_type": "hardlink",
+        "sha256": "dbd28cd8fcc1eef9238a9e87ca0b9d90b3292159a9e662b57476b89990ee536c",
+        "sha256_in_prefix": "dbd28cd8fcc1eef9238a9e87ca0b9d90b3292159a9e662b57476b89990ee536c",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_colour_gradient_tableau.R",
+        "path_type": "hardlink",
+        "sha256": "64cf36586f050f756b1eeaa66e65e3f735b447a82c4712fee5a259fa503f23f3",
+        "sha256_in_prefix": "64cf36586f050f756b1eeaa66e65e3f735b447a82c4712fee5a259fa503f23f3",
+        "size_in_bytes": 413
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_colour_ptol.R",
+        "path_type": "hardlink",
+        "sha256": "c139593d4f1db3680aff647e2c3d758041fa1894a0fd1ff3c674935e6852948a",
+        "sha256_in_prefix": "c139593d4f1db3680aff647e2c3d758041fa1894a0fd1ff3c674935e6852948a",
+        "size_in_bytes": 319
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_linetype_stata.R",
+        "path_type": "hardlink",
+        "sha256": "3e5c28c69e510732f395ec5968b7dd33c8dd64af65401801fefa11a414440d57",
+        "sha256_in_prefix": "3e5c28c69e510732f395ec5968b7dd33c8dd64af65401801fefa11a414440d57",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_shape_stata.R",
+        "path_type": "hardlink",
+        "sha256": "f37bf351f9b954d01a65c0723ecb08dfe89d27a8c5c8f71e90ca4cbb4027e08d",
+        "sha256_in_prefix": "f37bf351f9b954d01a65c0723ecb08dfe89d27a8c5c8f71e90ca4cbb4027e08d",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_shape_tableau.R",
+        "path_type": "hardlink",
+        "sha256": "958994448b6bfec068614cf8aa806087a38ac630568a82b355e3affa62853c0c",
+        "sha256_in_prefix": "958994448b6bfec068614cf8aa806087a38ac630568a82b355e3affa62853c0c",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_shape_tremmel.R",
+        "path_type": "hardlink",
+        "sha256": "c617be7f0777db05044f00422ec9b7e49e80ff8a2620f652faebaf6f8b382799",
+        "sha256_in_prefix": "c617be7f0777db05044f00422ec9b7e49e80ff8a2620f652faebaf6f8b382799",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-scale_solarized.R",
+        "path_type": "hardlink",
+        "sha256": "00704c6243496029b09e98b901fc2f02dffc3fcc269a74df02fbcaa3c3d2dbc6",
+        "sha256_in_prefix": "00704c6243496029b09e98b901fc2f02dffc3fcc269a74df02fbcaa3c3d2dbc6",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-show_linetypes.R",
+        "path_type": "hardlink",
+        "sha256": "25998cd6a2af051a357f9b4cc041db269053d9f911ef744525d40bf33c3d6f7d",
+        "sha256_in_prefix": "25998cd6a2af051a357f9b4cc041db269053d9f911ef744525d40bf33c3d6f7d",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-show_shapes.R",
+        "path_type": "hardlink",
+        "sha256": "39898edf862ecc097d8e659430d976179657253dd08bb97ba6e96e537a039252",
+        "sha256_in_prefix": "39898edf862ecc097d8e659430d976179657253dd08bb97ba6e96e537a039252",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-solarized_pal.R",
+        "path_type": "hardlink",
+        "sha256": "7e287339d113a6dc6396b4f56d490218558e9fca6c8ddd88fe53cf3ba6a7f424",
+        "sha256_in_prefix": "7e287339d113a6dc6396b4f56d490218558e9fca6c8ddd88fe53cf3ba6a7f424",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-stata_pal.R",
+        "path_type": "hardlink",
+        "sha256": "3d451ded3bc63bd678ce7c69e9fb4a7fd4670fb4cd53a298564b0071b5abf985",
+        "sha256_in_prefix": "3d451ded3bc63bd678ce7c69e9fb4a7fd4670fb4cd53a298564b0071b5abf985",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-tableau_color_pal.R",
+        "path_type": "hardlink",
+        "sha256": "1ca4b662fe5fd4dd182ff32ed90169e5507e695481e871c1992c625fd931a997",
+        "sha256_in_prefix": "1ca4b662fe5fd4dd182ff32ed90169e5507e695481e871c1992c625fd931a997",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-tableau_div_gradient_pal.R",
+        "path_type": "hardlink",
+        "sha256": "22f0887baddad1669a06244337d8d0dff87146fc23cf6b6021d9cc5b4fd67555",
+        "sha256_in_prefix": "22f0887baddad1669a06244337d8d0dff87146fc23cf6b6021d9cc5b4fd67555",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-tableau_seq_gradient_pal.R",
+        "path_type": "hardlink",
+        "sha256": "8fbca224d51a109f94c91ee6cff6249a6809355e5da47767e502c72665140c24",
+        "sha256_in_prefix": "8fbca224d51a109f94c91ee6cff6249a6809355e5da47767e502c72665140c24",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-tableau_shape_pal.R",
+        "path_type": "hardlink",
+        "sha256": "7680f10b8a1877a32a411344a9b0f43882ee3dcf776ce9f97963657e375f7ba3",
+        "sha256_in_prefix": "7680f10b8a1877a32a411344a9b0f43882ee3dcf776ce9f97963657e375f7ba3",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_base.R",
+        "path_type": "hardlink",
+        "sha256": "5387b1f357c3aa9d33e43f6f887b9dc5c8ca58588936f15eefa8e6728c94b907",
+        "sha256_in_prefix": "5387b1f357c3aa9d33e43f6f887b9dc5c8ca58588936f15eefa8e6728c94b907",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_calc.R",
+        "path_type": "hardlink",
+        "sha256": "59fc7feb16153edaa0944dab2daabca8df0f4069729e04031f687c1785a8475b",
+        "sha256_in_prefix": "59fc7feb16153edaa0944dab2daabca8df0f4069729e04031f687c1785a8475b",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_clean.R",
+        "path_type": "hardlink",
+        "sha256": "0eb6d22d979c75f9262a66f75fe3d6cf4e1c4998ea251d53a733b77a5e4dc671",
+        "sha256_in_prefix": "0eb6d22d979c75f9262a66f75fe3d6cf4e1c4998ea251d53a733b77a5e4dc671",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_economist.R",
+        "path_type": "hardlink",
+        "sha256": "d41231ca25fc88d135e9ea3676418a1f027174afd1679a99644de52727e7476b",
+        "sha256_in_prefix": "d41231ca25fc88d135e9ea3676418a1f027174afd1679a99644de52727e7476b",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_excel.R",
+        "path_type": "hardlink",
+        "sha256": "11e27024931cfc642d57b4c0165a81bf9a07afd078af9cbd87606f7866e034f9",
+        "sha256_in_prefix": "11e27024931cfc642d57b4c0165a81bf9a07afd078af9cbd87606f7866e034f9",
+        "size_in_bytes": 325
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_excel_new.R",
+        "path_type": "hardlink",
+        "sha256": "a019813af4c42224b4569f72f2d9084a24ea15b591b467628e3a5af177ec9330",
+        "sha256_in_prefix": "a019813af4c42224b4569f72f2d9084a24ea15b591b467628e3a5af177ec9330",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_few.R",
+        "path_type": "hardlink",
+        "sha256": "ec3f92edf36a30dca8032572127cdfd015b4fe31356c0d24458a7b37cc4b6710",
+        "sha256_in_prefix": "ec3f92edf36a30dca8032572127cdfd015b4fe31356c0d24458a7b37cc4b6710",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_fivethirtyeight.R",
+        "path_type": "hardlink",
+        "sha256": "1e8f6dfea24f71ac5a49f202c28b1b587b122dd71b7383b08402d82d1a016d4c",
+        "sha256_in_prefix": "1e8f6dfea24f71ac5a49f202c28b1b587b122dd71b7383b08402d82d1a016d4c",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_gdocs.R",
+        "path_type": "hardlink",
+        "sha256": "1c7da0050a38b3f2b93bd5b2ff9de8651de7f4956fc302f9dcda8050fcf92d04",
+        "sha256_in_prefix": "1c7da0050a38b3f2b93bd5b2ff9de8651de7f4956fc302f9dcda8050fcf92d04",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_hc.R",
+        "path_type": "hardlink",
+        "sha256": "4b9e8bc2240d1a835aad4bdd628fe6bcf841be31d156dd2fccc846101eca3fcf",
+        "sha256_in_prefix": "4b9e8bc2240d1a835aad4bdd628fe6bcf841be31d156dd2fccc846101eca3fcf",
+        "size_in_bytes": 1403
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_igray.R",
+        "path_type": "hardlink",
+        "sha256": "720e113dbd1580e0b7f3164aed1a658ef665fbf40fe00027f04ef33ddea41a98",
+        "sha256_in_prefix": "720e113dbd1580e0b7f3164aed1a658ef665fbf40fe00027f04ef33ddea41a98",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_map.R",
+        "path_type": "hardlink",
+        "sha256": "29b8bbfdc10b01b829c8e6fb75f70dffd7168e0a974fc0c53002b4241bb92115",
+        "sha256_in_prefix": "29b8bbfdc10b01b829c8e6fb75f70dffd7168e0a974fc0c53002b4241bb92115",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_pander.R",
+        "path_type": "hardlink",
+        "sha256": "904d7933d8c9ddf94232a4cdae3a05fdb165bd789491fb5b886f936ee2acfb5d",
+        "sha256_in_prefix": "904d7933d8c9ddf94232a4cdae3a05fdb165bd789491fb5b886f936ee2acfb5d",
+        "size_in_bytes": 428
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_par.R",
+        "path_type": "hardlink",
+        "sha256": "f9e0ed298c0037123f1d1c114f29a10cb6011b66751246274cddf31c482b30f8",
+        "sha256_in_prefix": "f9e0ed298c0037123f1d1c114f29a10cb6011b66751246274cddf31c482b30f8",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_solarized.R",
+        "path_type": "hardlink",
+        "sha256": "0db27cbede079eaebfd4195f85701f7a9f8c0a6e6b69b78e71290024280ec9bc",
+        "sha256_in_prefix": "0db27cbede079eaebfd4195f85701f7a9f8c0a6e6b69b78e71290024280ec9bc",
+        "size_in_bytes": 486
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_solid.R",
+        "path_type": "hardlink",
+        "sha256": "b7bf86ab7d92640dabb0b08db64402ef7243bb10b211952218e5e72d831a3d7d",
+        "sha256_in_prefix": "b7bf86ab7d92640dabb0b08db64402ef7243bb10b211952218e5e72d831a3d7d",
+        "size_in_bytes": 190
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_stata.R",
+        "path_type": "hardlink",
+        "sha256": "7999c12d0d43945d894b74a7a0b3237eecabb548e4b8565f0ed012d30b81c59d",
+        "sha256_in_prefix": "7999c12d0d43945d894b74a7a0b3237eecabb548e4b8565f0ed012d30b81c59d",
+        "size_in_bytes": 575
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_tufte.R",
+        "path_type": "hardlink",
+        "sha256": "a8bcb19f41fe5dc1d12acbbd0ac1e5fa47333d96f575c83d4fcf3a475e53bd42",
+        "sha256_in_prefix": "a8bcb19f41fe5dc1d12acbbd0ac1e5fa47333d96f575c83d4fcf3a475e53bd42",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "lib/R/library/ggthemes/examples/ex-theme_wsj.R",
+        "path_type": "hardlink",
+        "sha256": "46ba83e1e204a4e81a6e028ab03f938070b2fe5dfb3050cdea0124b052fc4acf",
+        "sha256_in_prefix": "46ba83e1e204a4e81a6e028ab03f938070b2fe5dfb3050cdea0124b052fc4acf",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/R/library/ggthemes/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "9df4043bff33f93cf3c2498c2a4743af09dfe9c3aee41c71f2f54edce949fce2",
+        "sha256_in_prefix": "9df4043bff33f93cf3c2498c2a4743af09dfe9c3aee41c71f2f54edce949fce2",
+        "size_in_bytes": 4273
+      },
+      {
+        "_path": "lib/R/library/ggthemes/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "d20601f7f86d131d840b7ed63f0442042c84fc79edc2f6d4c01094e9b1283a89",
+        "sha256_in_prefix": "d20601f7f86d131d840b7ed63f0442042c84fc79edc2f6d4c01094e9b1283a89",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/R/library/ggthemes/help/ggthemes.rdb",
+        "path_type": "hardlink",
+        "sha256": "9e5c0daafb5f0161751201de51fc03eec4f556d996b5d489d755c03bb7c3fa14",
+        "sha256_in_prefix": "9e5c0daafb5f0161751201de51fc03eec4f556d996b5d489d755c03bb7c3fa14",
+        "size_in_bytes": 231321
+      },
+      {
+        "_path": "lib/R/library/ggthemes/help/ggthemes.rdx",
+        "path_type": "hardlink",
+        "sha256": "1df20c990d556645bc875c42b033fe2313123946f24bb4ba9bd08db6a8ba1934",
+        "sha256_in_prefix": "1df20c990d556645bc875c42b033fe2313123946f24bb4ba9bd08db6a8ba1934",
+        "size_in_bytes": 1847
+      },
+      {
+        "_path": "lib/R/library/ggthemes/help/macros/funclink.Rd",
+        "path_type": "hardlink",
+        "sha256": "fc7e2b7c1b7ec0018a1f95b6f89da657171dd34af87f009b1acf647381383e5e",
+        "sha256_in_prefix": "fc7e2b7c1b7ec0018a1f95b6f89da657171dd34af87f009b1acf647381383e5e",
+        "size_in_bytes": 48
+      },
+      {
+        "_path": "lib/R/library/ggthemes/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "4c1d41ae1b20d430e3ed8bc5c338f4a40c93f143d1efa519603168378741b961",
+        "sha256_in_prefix": "4c1d41ae1b20d430e3ed8bc5c338f4a40c93f143d1efa519603168378741b961",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "lib/R/library/ggthemes/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "aa88b7177a5ff96230d92613a138bcb8b6b6bab27cff65f63551c71443f4240d",
+        "sha256_in_prefix": "aa88b7177a5ff96230d92613a138bcb8b6b6bab27cff65f63551c71443f4240d",
+        "size_in_bytes": 19329
+      },
+      {
+        "_path": "lib/R/library/ggthemes/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-ggthemes",
+  "sha256": "fa232c6d1df4170767ec64fa97c36c393594bc7c60c0c2fbbf938152794772c8",
+  "size": 462116,
+  "subdir": "noarch",
+  "timestamp": 1611170356000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-ggthemes-4.2.4-r36hc72bb7e_0.tar.bz2",
+  "version": "4.2.4"
+}

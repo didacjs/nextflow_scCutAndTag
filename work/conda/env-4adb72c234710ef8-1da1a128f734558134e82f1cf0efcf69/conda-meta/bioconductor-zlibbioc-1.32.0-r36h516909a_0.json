@@ -1,0 +1,234 @@
+{
+  "build": "r36h516909a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-zlibbioc-1.32.0-r36h516909a_0",
+  "files": [
+    "lib/R/library/zlibbioc/DESCRIPTION",
+    "lib/R/library/zlibbioc/INDEX",
+    "lib/R/library/zlibbioc/LICENSE",
+    "lib/R/library/zlibbioc/Meta/Rd.rds",
+    "lib/R/library/zlibbioc/Meta/features.rds",
+    "lib/R/library/zlibbioc/Meta/hsearch.rds",
+    "lib/R/library/zlibbioc/Meta/links.rds",
+    "lib/R/library/zlibbioc/Meta/nsInfo.rds",
+    "lib/R/library/zlibbioc/Meta/package.rds",
+    "lib/R/library/zlibbioc/Meta/vignette.rds",
+    "lib/R/library/zlibbioc/NAMESPACE",
+    "lib/R/library/zlibbioc/R/zlibbioc",
+    "lib/R/library/zlibbioc/R/zlibbioc.rdb",
+    "lib/R/library/zlibbioc/R/zlibbioc.rdx",
+    "lib/R/library/zlibbioc/doc/UsingZlibbioc.Rnw",
+    "lib/R/library/zlibbioc/doc/UsingZlibbioc.pdf",
+    "lib/R/library/zlibbioc/doc/index.html",
+    "lib/R/library/zlibbioc/help/AnIndex",
+    "lib/R/library/zlibbioc/help/aliases.rds",
+    "lib/R/library/zlibbioc/help/paths.rds",
+    "lib/R/library/zlibbioc/help/zlibbioc.rdb",
+    "lib/R/library/zlibbioc/help/zlibbioc.rdx",
+    "lib/R/library/zlibbioc/html/00Index.html",
+    "lib/R/library/zlibbioc/html/R.css",
+    "lib/R/library/zlibbioc/libs/zlibbioc.so"
+  ],
+  "fn": "bioconductor-zlibbioc-1.32.0-r36h516909a_0.tar.bz2",
+  "license": "Artistic-2.0 + file LICENSE",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-zlibbioc-1.32.0-r36h516909a_0",
+    "type": 1
+  },
+  "md5": "11b25c9f768d285bbab343c94c1d0e1e",
+  "name": "bioconductor-zlibbioc",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-zlibbioc-1.32.0-r36h516909a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/zlibbioc/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a10724b8e65a1d26c3febf40ad0e8d3783365c232333a8db1864b0eb8c5e897d",
+        "sha256_in_prefix": "a10724b8e65a1d26c3febf40ad0e8d3783365c232333a8db1864b0eb8c5e897d",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/INDEX",
+        "path_type": "hardlink",
+        "sha256": "33708c2b80f89351420eb89a414474bb852d55ab6555ad3ead25d29acdf01024",
+        "sha256_in_prefix": "33708c2b80f89351420eb89a414474bb852d55ab6555ad3ead25d29acdf01024",
+        "size_in_bytes": 156
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f6ce327ac4643a300e3f4effa701c291f2f742c259340673ef2c47ca2a1b32f8",
+        "sha256_in_prefix": "f6ce327ac4643a300e3f4effa701c291f2f742c259340673ef2c47ca2a1b32f8",
+        "size_in_bytes": 1872
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "cd8574440e1ddf32373425abc8187bee2674f6ae470eb451c801a9c48729162c",
+        "sha256_in_prefix": "cd8574440e1ddf32373425abc8187bee2674f6ae470eb451c801a9c48729162c",
+        "size_in_bytes": 334
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2fef712efedf4646aba6093b3bdcfae863248bb6071f21de89702b216f6fccca",
+        "sha256_in_prefix": "2fef712efedf4646aba6093b3bdcfae863248bb6071f21de89702b216f6fccca",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "717e5feba76048e7f6ab089423e0647f91c95f192d7618f3a79ddd553e20cb29",
+        "sha256_in_prefix": "717e5feba76048e7f6ab089423e0647f91c95f192d7618f3a79ddd553e20cb29",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "3aee6cb505eab318b1198ca440ab3e281fdd27f46093b5920caf296fa1e690ff",
+        "sha256_in_prefix": "3aee6cb505eab318b1198ca440ab3e281fdd27f46093b5920caf296fa1e690ff",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d61d260f35ed19f820437859f82b27064bd3d89599d97587614a9bdfb7cbc019",
+        "sha256_in_prefix": "d61d260f35ed19f820437859f82b27064bd3d89599d97587614a9bdfb7cbc019",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a09ab04dc2e3cc8895c389db76661d854d2ff3eed63591b64db6ec283c9860c4",
+        "sha256_in_prefix": "a09ab04dc2e3cc8895c389db76661d854d2ff3eed63591b64db6ec283c9860c4",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "736cb2c31c983b3a07d06d09b8ef93d89972f312c1db584ff253a0281d082bac",
+        "sha256_in_prefix": "736cb2c31c983b3a07d06d09b8ef93d89972f312c1db584ff253a0281d082bac",
+        "size_in_bytes": 31
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/R/zlibbioc",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/R/zlibbioc.rdb",
+        "path_type": "hardlink",
+        "sha256": "08318c7bf7f02b7d7c16c76fd46e3b526c54fe7916e69fd34781eb5ae199f8ad",
+        "sha256_in_prefix": "08318c7bf7f02b7d7c16c76fd46e3b526c54fe7916e69fd34781eb5ae199f8ad",
+        "size_in_bytes": 3143
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/R/zlibbioc.rdx",
+        "path_type": "hardlink",
+        "sha256": "e3d0ddefff88454a6d9417321db3c3431301b9be779a8b99fa31aa939ff89baf",
+        "sha256_in_prefix": "e3d0ddefff88454a6d9417321db3c3431301b9be779a8b99fa31aa939ff89baf",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/doc/UsingZlibbioc.Rnw",
+        "path_type": "hardlink",
+        "sha256": "01affb0ec805ac3252b3e13a27fb7bd76dd6bfb57f7f4917d28c2015c558eb31",
+        "sha256_in_prefix": "01affb0ec805ac3252b3e13a27fb7bd76dd6bfb57f7f4917d28c2015c558eb31",
+        "size_in_bytes": 4010
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/doc/UsingZlibbioc.pdf",
+        "path_type": "hardlink",
+        "sha256": "cb053fff4d7512e7a57eaa64fbf5cb233163733cd53f49117b3029171a1c4bb9",
+        "sha256_in_prefix": "cb053fff4d7512e7a57eaa64fbf5cb233163733cd53f49117b3029171a1c4bb9",
+        "size_in_bytes": 88785
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "3d84d59ce273b53235ce075aed577a18495105ccaf1f1a20b5e3cef26987e3cc",
+        "sha256_in_prefix": "3d84d59ce273b53235ce075aed577a18495105ccaf1f1a20b5e3cef26987e3cc",
+        "size_in_bytes": 1306
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "48a445f89ef6bc3ed6b91c3c8ce4d3c2b4e40a3881bbbc2c0fa151cb2461dab9",
+        "sha256_in_prefix": "48a445f89ef6bc3ed6b91c3c8ce4d3c2b4e40a3881bbbc2c0fa151cb2461dab9",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "276a7ff3a719060d4c08e12d052155c814bfce390b6b50b4876ac55b3da32822",
+        "sha256_in_prefix": "276a7ff3a719060d4c08e12d052155c814bfce390b6b50b4876ac55b3da32822",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "59b7528be8468a992df51dcd2c96a63fea5a8bfb882674704fb2e16d6d918e4a",
+        "sha256_in_prefix": "59b7528be8468a992df51dcd2c96a63fea5a8bfb882674704fb2e16d6d918e4a",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/help/zlibbioc.rdb",
+        "path_type": "hardlink",
+        "sha256": "32c67d22d89c69776e535912c153fd981e00209e24bb45126f4da6bb2e7f8a89",
+        "sha256_in_prefix": "32c67d22d89c69776e535912c153fd981e00209e24bb45126f4da6bb2e7f8a89",
+        "size_in_bytes": 3403
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/help/zlibbioc.rdx",
+        "path_type": "hardlink",
+        "sha256": "ee38ec53099ce925bdb4ecf16946e44b583c2911f3a51d5b3156c450780dda39",
+        "sha256_in_prefix": "ee38ec53099ce925bdb4ecf16946e44b583c2911f3a51d5b3156c450780dda39",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "31a58d8d39463fd43f887aa3db99c7eff77e9922e49b20303e74fbb1cd7eccce",
+        "sha256_in_prefix": "31a58d8d39463fd43f887aa3db99c7eff77e9922e49b20303e74fbb1cd7eccce",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/zlibbioc/libs/zlibbioc.so",
+        "path_type": "hardlink",
+        "sha256": "27ab509e251bc0f1cb291de20302c82287409e062b542174fb0b739b3baabc63",
+        "sha256_in_prefix": "27ab509e251bc0f1cb291de20302c82287409e062b542174fb0b739b3baabc63",
+        "size_in_bytes": 15616
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9e4adfcf91298dad49424f136dd90a536221052e46e50f20cdad552f2ad12bc3",
+  "size": 115221,
+  "subdir": "linux-64",
+  "timestamp": 1572599267000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bioconductor-zlibbioc-1.32.0-r36h516909a_0.tar.bz2",
+  "version": "1.32.0"
+}

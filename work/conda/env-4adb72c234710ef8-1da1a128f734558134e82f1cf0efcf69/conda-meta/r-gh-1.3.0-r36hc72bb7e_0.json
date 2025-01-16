@@ -1,0 +1,256 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-cli >=2.0.1",
+    "r-gitcreds",
+    "r-httr >=1.2",
+    "r-ini",
+    "r-jsonlite"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-gh-1.3.0-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/gh/DESCRIPTION",
+    "lib/R/library/gh/INDEX",
+    "lib/R/library/gh/LICENSE",
+    "lib/R/library/gh/Meta/Rd.rds",
+    "lib/R/library/gh/Meta/features.rds",
+    "lib/R/library/gh/Meta/hsearch.rds",
+    "lib/R/library/gh/Meta/links.rds",
+    "lib/R/library/gh/Meta/nsInfo.rds",
+    "lib/R/library/gh/Meta/package.rds",
+    "lib/R/library/gh/Meta/vignette.rds",
+    "lib/R/library/gh/NAMESPACE",
+    "lib/R/library/gh/NEWS.md",
+    "lib/R/library/gh/R/gh",
+    "lib/R/library/gh/R/gh.rdb",
+    "lib/R/library/gh/R/gh.rdx",
+    "lib/R/library/gh/WORDLIST",
+    "lib/R/library/gh/doc/index.html",
+    "lib/R/library/gh/doc/managing-personal-access-tokens.R",
+    "lib/R/library/gh/doc/managing-personal-access-tokens.Rmd",
+    "lib/R/library/gh/doc/managing-personal-access-tokens.html",
+    "lib/R/library/gh/help/AnIndex",
+    "lib/R/library/gh/help/aliases.rds",
+    "lib/R/library/gh/help/gh.rdb",
+    "lib/R/library/gh/help/gh.rdx",
+    "lib/R/library/gh/help/paths.rds",
+    "lib/R/library/gh/html/00Index.html",
+    "lib/R/library/gh/html/R.css"
+  ],
+  "fn": "r-gh-1.3.0-r36hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-gh-1.3.0-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "71cd082070564e11de28563507787a91",
+  "name": "r-gh",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-gh-1.3.0-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gh/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "6aac472835bd1a41ced0fdf34b572c39d1d85e25afadfc5669bea3336cb72c3d",
+        "sha256_in_prefix": "6aac472835bd1a41ced0fdf34b572c39d1d85e25afadfc5669bea3336cb72c3d",
+        "size_in_bytes": 1233
+      },
+      {
+        "_path": "lib/R/library/gh/INDEX",
+        "path_type": "hardlink",
+        "sha256": "3f4afab11a335fe177624d906b3f22278d5e4135cc784b9488ca2ff4c8b973d0",
+        "sha256_in_prefix": "3f4afab11a335fe177624d906b3f22278d5e4135cc784b9488ca2ff4c8b973d0",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "lib/R/library/gh/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8d2cd78a76b951c20282add5744549de3cb1351d86e0b924e8aa3b0985ccc54c",
+        "sha256_in_prefix": "8d2cd78a76b951c20282add5744549de3cb1351d86e0b924e8aa3b0985ccc54c",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "41cad8f01a19c98fcd84e8138f0581cad6a4adf72a6723e9d028ba12feef6acf",
+        "sha256_in_prefix": "41cad8f01a19c98fcd84e8138f0581cad6a4adf72a6723e9d028ba12feef6acf",
+        "size_in_bytes": 628
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0656adff74ec03b53c31f80fcc3f7d043d797899c6dbc9740e76c940d8183f12",
+        "sha256_in_prefix": "0656adff74ec03b53c31f80fcc3f7d043d797899c6dbc9740e76c940d8183f12",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8ac81ac2635249464a366b498cec2dc2207d7af9f90086eab42f8f4e8ad558a6",
+        "sha256_in_prefix": "8ac81ac2635249464a366b498cec2dc2207d7af9f90086eab42f8f4e8ad558a6",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d63d079941d6aabb03bedd8aed2a890f45ced67a1f5d97327031e6b7455336cb",
+        "sha256_in_prefix": "d63d079941d6aabb03bedd8aed2a890f45ced67a1f5d97327031e6b7455336cb",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "abafb71cacde5d1c9f948dd774928919a95889555f4064c1e28dae5a215e2f99",
+        "sha256_in_prefix": "abafb71cacde5d1c9f948dd774928919a95889555f4064c1e28dae5a215e2f99",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/R/library/gh/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "4c97511d53c1c4f10d88e9006a138301c1ac63102d386a733f62fb49b0f6dff9",
+        "sha256_in_prefix": "4c97511d53c1c4f10d88e9006a138301c1ac63102d386a733f62fb49b0f6dff9",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/R/library/gh/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "1bc9b8b26d978dbe78257175af58515d25a99868c6bafcc2095c7ab03f718a03",
+        "sha256_in_prefix": "1bc9b8b26d978dbe78257175af58515d25a99868c6bafcc2095c7ab03f718a03",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "lib/R/library/gh/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "0f523b36158ce7666d2ec513f3964cd84e3283e62a85b92a024744929fbcb192",
+        "sha256_in_prefix": "0f523b36158ce7666d2ec513f3964cd84e3283e62a85b92a024744929fbcb192",
+        "size_in_bytes": 2865
+      },
+      {
+        "_path": "lib/R/library/gh/R/gh",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/gh/R/gh.rdb",
+        "path_type": "hardlink",
+        "sha256": "1f2784455b026e954f4fcdcfbf162093ea38c322e52f3c4d0a9d1d08e351d6fb",
+        "sha256_in_prefix": "1f2784455b026e954f4fcdcfbf162093ea38c322e52f3c4d0a9d1d08e351d6fb",
+        "size_in_bytes": 90922
+      },
+      {
+        "_path": "lib/R/library/gh/R/gh.rdx",
+        "path_type": "hardlink",
+        "sha256": "8278aeb23e0b40ef6c5b734c12dfd5d272e11299a646584be1184aa495e2bcf0",
+        "sha256_in_prefix": "8278aeb23e0b40ef6c5b734c12dfd5d272e11299a646584be1184aa495e2bcf0",
+        "size_in_bytes": 1345
+      },
+      {
+        "_path": "lib/R/library/gh/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "578fda26e4b10c2d6d324443de5cba0bb13d387ab0c344c3869a1173c62f874f",
+        "sha256_in_prefix": "578fda26e4b10c2d6d324443de5cba0bb13d387ab0c344c3869a1173c62f874f",
+        "size_in_bytes": 168
+      },
+      {
+        "_path": "lib/R/library/gh/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "504f0528690c7550c71416f5cf7831367bfe78b4c2ad41c80ad0e1d4ba5e3538",
+        "sha256_in_prefix": "504f0528690c7550c71416f5cf7831367bfe78b4c2ad41c80ad0e1d4ba5e3538",
+        "size_in_bytes": 1434
+      },
+      {
+        "_path": "lib/R/library/gh/doc/managing-personal-access-tokens.R",
+        "path_type": "hardlink",
+        "sha256": "1a891ab7379368c242e81842e15019c545b1ae293b9b6a79f2bae70d190930e9",
+        "sha256_in_prefix": "1a891ab7379368c242e81842e15019c545b1ae293b9b6a79f2bae70d190930e9",
+        "size_in_bytes": 523
+      },
+      {
+        "_path": "lib/R/library/gh/doc/managing-personal-access-tokens.Rmd",
+        "path_type": "hardlink",
+        "sha256": "98c12a62a6250c3243e63189d8d784da5be2fbb830f471a87e80373612dd04b0",
+        "sha256_in_prefix": "98c12a62a6250c3243e63189d8d784da5be2fbb830f471a87e80373612dd04b0",
+        "size_in_bytes": 7188
+      },
+      {
+        "_path": "lib/R/library/gh/doc/managing-personal-access-tokens.html",
+        "path_type": "hardlink",
+        "sha256": "681ec551eff509dfb4fd8a92ce5712d42c7f4dfeb05bf70f04d497a69a057652",
+        "sha256_in_prefix": "681ec551eff509dfb4fd8a92ce5712d42c7f4dfeb05bf70f04d497a69a057652",
+        "size_in_bytes": 18570
+      },
+      {
+        "_path": "lib/R/library/gh/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e156067bdf979392056a8627e30116fd4e498963e2ce1fe15a4b45e01d85dc70",
+        "sha256_in_prefix": "e156067bdf979392056a8627e30116fd4e498963e2ce1fe15a4b45e01d85dc70",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/R/library/gh/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "bf8d530bbb4afaa58ed30453a6fb18cf804d2a8d9b50c5cae10275864fab4a7d",
+        "sha256_in_prefix": "bf8d530bbb4afaa58ed30453a6fb18cf804d2a8d9b50c5cae10275864fab4a7d",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/R/library/gh/help/gh.rdb",
+        "path_type": "hardlink",
+        "sha256": "e18b77817b6f72e8b46a0d752ae07d0bf9cb5443832947c248bd71561f53d643",
+        "sha256_in_prefix": "e18b77817b6f72e8b46a0d752ae07d0bf9cb5443832947c248bd71561f53d643",
+        "size_in_bytes": 26242
+      },
+      {
+        "_path": "lib/R/library/gh/help/gh.rdx",
+        "path_type": "hardlink",
+        "sha256": "06617127cd3fe41c5a4ebb41835b45b96adcf8ea8299aa2a146b70cd357d919e",
+        "sha256_in_prefix": "06617127cd3fe41c5a4ebb41835b45b96adcf8ea8299aa2a146b70cd357d919e",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/R/library/gh/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c9c5773ee9f49eade0179978ae1f9e00e59d2b8fe20859c03a312516c8e3bd15",
+        "sha256_in_prefix": "c9c5773ee9f49eade0179978ae1f9e00e59d2b8fe20859c03a312516c8e3bd15",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/gh/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "11b91fc6b0dcacd5c8ddda66c9cea3dcad785c46186f7a4ef84f499b3db67fc5",
+        "sha256_in_prefix": "11b91fc6b0dcacd5c8ddda66c9cea3dcad785c46186f7a4ef84f499b3db67fc5",
+        "size_in_bytes": 2447
+      },
+      {
+        "_path": "lib/R/library/gh/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "04c07ba641fca7eed2964594d3a5ebfe78ecca2b20995a9e6946d35d272249f0",
+  "size": 146412,
+  "subdir": "noarch",
+  "timestamp": 1619783491000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gh-1.3.0-r36hc72bb7e_0.tar.bz2",
+  "version": "1.3.0"
+}

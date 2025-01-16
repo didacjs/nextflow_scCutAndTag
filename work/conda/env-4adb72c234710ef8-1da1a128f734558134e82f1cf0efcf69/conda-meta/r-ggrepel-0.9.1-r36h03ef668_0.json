@@ -1,0 +1,270 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-ggplot2 >=2.2.0",
+    "r-rcpp",
+    "r-scales >=0.3.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-ggrepel-0.9.1-r36h03ef668_0",
+  "files": [
+    "lib/R/library/ggrepel/DESCRIPTION",
+    "lib/R/library/ggrepel/INDEX",
+    "lib/R/library/ggrepel/LICENSE",
+    "lib/R/library/ggrepel/Meta/Rd.rds",
+    "lib/R/library/ggrepel/Meta/features.rds",
+    "lib/R/library/ggrepel/Meta/hsearch.rds",
+    "lib/R/library/ggrepel/Meta/links.rds",
+    "lib/R/library/ggrepel/Meta/nsInfo.rds",
+    "lib/R/library/ggrepel/Meta/package.rds",
+    "lib/R/library/ggrepel/Meta/vignette.rds",
+    "lib/R/library/ggrepel/NAMESPACE",
+    "lib/R/library/ggrepel/NEWS.md",
+    "lib/R/library/ggrepel/R/ggrepel",
+    "lib/R/library/ggrepel/R/ggrepel.rdb",
+    "lib/R/library/ggrepel/R/ggrepel.rdx",
+    "lib/R/library/ggrepel/doc/ggrepel.R",
+    "lib/R/library/ggrepel/doc/ggrepel.Rmd",
+    "lib/R/library/ggrepel/doc/ggrepel.html",
+    "lib/R/library/ggrepel/doc/index.html",
+    "lib/R/library/ggrepel/help/AnIndex",
+    "lib/R/library/ggrepel/help/aliases.rds",
+    "lib/R/library/ggrepel/help/figures/ggrepel-allison_horst.jpg",
+    "lib/R/library/ggrepel/help/figures/logo.svg",
+    "lib/R/library/ggrepel/help/ggrepel.rdb",
+    "lib/R/library/ggrepel/help/ggrepel.rdx",
+    "lib/R/library/ggrepel/help/paths.rds",
+    "lib/R/library/ggrepel/html/00Index.html",
+    "lib/R/library/ggrepel/html/R.css",
+    "lib/R/library/ggrepel/libs/ggrepel.so"
+  ],
+  "fn": "r-ggrepel-0.9.1-r36h03ef668_0.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-ggrepel-0.9.1-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "210b1f541c1cf06c37521549e727b697",
+  "name": "r-ggrepel",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-ggrepel-0.9.1-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ggrepel/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "36fc552cdf2411f9b0ff5d605b9bf7e41c60298323f2015d6f31118466b595f7",
+        "sha256_in_prefix": "36fc552cdf2411f9b0ff5d605b9bf7e41c60298323f2015d6f31118466b595f7",
+        "size_in_bytes": 3393
+      },
+      {
+        "_path": "lib/R/library/ggrepel/INDEX",
+        "path_type": "hardlink",
+        "sha256": "cb4650264989ccacee897de50e0e76c69d67e60f15bcf7e76971c449ad9ec703",
+        "sha256_in_prefix": "cb4650264989ccacee897de50e0e76c69d67e60f15bcf7e76971c449ad9ec703",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "lib/R/library/ggrepel/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "sha256_in_prefix": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "size_in_bytes": 35141
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "8e557b053b5c39b2692a2576fc8eb7db403cba1a1d15c92201199bc0a33f42d3",
+        "sha256_in_prefix": "8e557b053b5c39b2692a2576fc8eb7db403cba1a1d15c92201199bc0a33f42d3",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c2c4cdf2b5ff35402ec9c8b0db11fb2129031cc130c888f25003be325420784e",
+        "sha256_in_prefix": "c2c4cdf2b5ff35402ec9c8b0db11fb2129031cc130c888f25003be325420784e",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "362e0bee70edb2216d079307900ba557ae3c06d692b97c1b10057daea323f162",
+        "sha256_in_prefix": "362e0bee70edb2216d079307900ba557ae3c06d692b97c1b10057daea323f162",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "4c7b5149f5a9eaf1046f1ce8362d7c23d853434f2673cbac7b0eecdd6ba6caf9",
+        "sha256_in_prefix": "4c7b5149f5a9eaf1046f1ce8362d7c23d853434f2673cbac7b0eecdd6ba6caf9",
+        "size_in_bytes": 485
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "aba10e2aece8531b8ae4afc62eef145612510dfbdf12401e364f076964934c09",
+        "sha256_in_prefix": "aba10e2aece8531b8ae4afc62eef145612510dfbdf12401e364f076964934c09",
+        "size_in_bytes": 1829
+      },
+      {
+        "_path": "lib/R/library/ggrepel/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "e9d671da5b8441c77155a0901d65ea5219b579c81c213bc78f028d422f650366",
+        "sha256_in_prefix": "e9d671da5b8441c77155a0901d65ea5219b579c81c213bc78f028d422f650366",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "lib/R/library/ggrepel/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "9cc3a3b935c5fbd6d11eccf0ba2c6be370727f0c74968224b6522a0e934d7b01",
+        "sha256_in_prefix": "9cc3a3b935c5fbd6d11eccf0ba2c6be370727f0c74968224b6522a0e934d7b01",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "lib/R/library/ggrepel/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "8b107c3572cf7fb31424beb0ade33d8f1c21297ba137d3a844664a653ae8e8a7",
+        "sha256_in_prefix": "8b107c3572cf7fb31424beb0ade33d8f1c21297ba137d3a844664a653ae8e8a7",
+        "size_in_bytes": 13842
+      },
+      {
+        "_path": "lib/R/library/ggrepel/R/ggrepel",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ggrepel/R/ggrepel.rdb",
+        "path_type": "hardlink",
+        "sha256": "adf6425813049f6ec5f7b7407cab214ea3cd4aeaf2cf55df6324d22a455575b1",
+        "sha256_in_prefix": "adf6425813049f6ec5f7b7407cab214ea3cd4aeaf2cf55df6324d22a455575b1",
+        "size_in_bytes": 75085
+      },
+      {
+        "_path": "lib/R/library/ggrepel/R/ggrepel.rdx",
+        "path_type": "hardlink",
+        "sha256": "6c097c3a79c5bd17800b62706ed0ca8177f419d8716bcbd54c1542ab71d63f9e",
+        "sha256_in_prefix": "6c097c3a79c5bd17800b62706ed0ca8177f419d8716bcbd54c1542ab71d63f9e",
+        "size_in_bytes": 766
+      },
+      {
+        "_path": "lib/R/library/ggrepel/doc/ggrepel.R",
+        "path_type": "hardlink",
+        "sha256": "6049da4779a0af7e9a6b50b8952eb33d30ef8c25c9b4e3a3b5a71d612c97c672",
+        "sha256_in_prefix": "6049da4779a0af7e9a6b50b8952eb33d30ef8c25c9b4e3a3b5a71d612c97c672",
+        "size_in_bytes": 2135
+      },
+      {
+        "_path": "lib/R/library/ggrepel/doc/ggrepel.Rmd",
+        "path_type": "hardlink",
+        "sha256": "62c68e79c78006a158fdf481a37ba8676fea6defac12fb1aeada840ca8a0da70",
+        "sha256_in_prefix": "62c68e79c78006a158fdf481a37ba8676fea6defac12fb1aeada840ca8a0da70",
+        "size_in_bytes": 3169
+      },
+      {
+        "_path": "lib/R/library/ggrepel/doc/ggrepel.html",
+        "path_type": "hardlink",
+        "sha256": "9625dab90a24dd46d2f477cc121232858b3097671760e267acd13af8d6f0af2a",
+        "sha256_in_prefix": "9625dab90a24dd46d2f477cc121232858b3097671760e267acd13af8d6f0af2a",
+        "size_in_bytes": 135728
+      },
+      {
+        "_path": "lib/R/library/ggrepel/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "081d815376d67717ee09288f3c09c748ed7a6e4fce1959f9340874fa4c6c5b04",
+        "sha256_in_prefix": "081d815376d67717ee09288f3c09c748ed7a6e4fce1959f9340874fa4c6c5b04",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "0ac1968a9265b0fc7633d29903e16fb7f5b195fe93a056b12a704c963b6f0b87",
+        "sha256_in_prefix": "0ac1968a9265b0fc7633d29903e16fb7f5b195fe93a056b12a704c963b6f0b87",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "24890dc4b79f4eba1afadb041ee62dc8e03b5bd9e7be548715540804f049de51",
+        "sha256_in_prefix": "24890dc4b79f4eba1afadb041ee62dc8e03b5bd9e7be548715540804f049de51",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/figures/ggrepel-allison_horst.jpg",
+        "path_type": "hardlink",
+        "sha256": "bcfad33647e7f8596dff1d8482e905c28bcb0a13608ef1f16b36b9fdce04f1db",
+        "sha256_in_prefix": "bcfad33647e7f8596dff1d8482e905c28bcb0a13608ef1f16b36b9fdce04f1db",
+        "size_in_bytes": 133763
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/figures/logo.svg",
+        "path_type": "hardlink",
+        "sha256": "f790b66a26c69f10a5334f9e094f553b6c463a69a24fb92e11a2f5c391fd64e9",
+        "sha256_in_prefix": "f790b66a26c69f10a5334f9e094f553b6c463a69a24fb92e11a2f5c391fd64e9",
+        "size_in_bytes": 3997
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/ggrepel.rdb",
+        "path_type": "hardlink",
+        "sha256": "f363eff6bd2d634c3acf7399bb6cc8fe086eff1faf08a1fa1740fc9d18bb1f7b",
+        "sha256_in_prefix": "f363eff6bd2d634c3acf7399bb6cc8fe086eff1faf08a1fa1740fc9d18bb1f7b",
+        "size_in_bytes": 15655
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/ggrepel.rdx",
+        "path_type": "hardlink",
+        "sha256": "82b4d5d7b9c10c4a042f70d5b7556f26edb52d179db1b7ac1d90cc95a596f008",
+        "sha256_in_prefix": "82b4d5d7b9c10c4a042f70d5b7556f26edb52d179db1b7ac1d90cc95a596f008",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/R/library/ggrepel/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6c83dffe7d69c1a352278dbbda329e5064eccbd608643cfcfa548ece6127bf5a",
+        "sha256_in_prefix": "6c83dffe7d69c1a352278dbbda329e5064eccbd608643cfcfa548ece6127bf5a",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/ggrepel/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "3e773a2129936927155c99539a30d5873d4b08449f2e3055cb275de39bbada23",
+        "sha256_in_prefix": "3e773a2129936927155c99539a30d5873d4b08449f2e3055cb275de39bbada23",
+        "size_in_bytes": 1850
+      },
+      {
+        "_path": "lib/R/library/ggrepel/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/ggrepel/libs/ggrepel.so",
+        "path_type": "hardlink",
+        "sha256": "989dcecfaffe6a4062e28c3e398fa2d377753c2b626a00eaa50c9fee89d9916c",
+        "sha256_in_prefix": "989dcecfaffe6a4062e28c3e398fa2d377753c2b626a00eaa50c9fee89d9916c",
+        "size_in_bytes": 154872
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "88d5094e68022b42725be5c4da2316430776e333ab6fd419b3ee88b4fc8c8eaf",
+  "size": 439441,
+  "subdir": "linux-64",
+  "timestamp": 1610758378000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ggrepel-0.9.1-r36h03ef668_0.tar.bz2",
+  "version": "0.9.1"
+}

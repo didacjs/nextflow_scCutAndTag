@@ -1,0 +1,120 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/toposort-1.7-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/LICENSE.txt",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/METADATA",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/NOTICE",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/RECORD",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/WHEEL",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/toposort-1.7.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/toposort.py",
+    "lib/python3.6/site-packages/__pycache__/toposort.cpython-36.pyc"
+  ],
+  "fn": "toposort-1.7-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/toposort-1.7-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ce711f7c322298edf8e7bd592a06b4b7",
+  "name": "toposort",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/toposort-1.7-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d4f9486ee158dad6b3df2ad1af7e5bb61569be4bb1ea08557ee02fadc61e9435",
+        "sha256_in_prefix": "d4f9486ee158dad6b3df2ad1af7e5bb61569be4bb1ea08557ee02fadc61e9435",
+        "size_in_bytes": 4276
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "101c54b9b825455ac958d10d4d79c17b69d161306c79eca603846255a9c9ded1",
+        "sha256_in_prefix": "101c54b9b825455ac958d10d4d79c17b69d161306c79eca603846255a9c9ded1",
+        "size_in_bytes": 566
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "011fe528301c934fa9094501cdd7372a4b36a12b91f2b4a1d5ddf0fa2e10427f",
+        "sha256_in_prefix": "011fe528301c934fa9094501cdd7372a4b36a12b91f2b4a1d5ddf0fa2e10427f",
+        "size_in_bytes": 854
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "sha256_in_prefix": "5b367c7308e1f25d23b542cd8d8ab51e9afe582a824603ebfbe4d7e0fe48d56a",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a90cdbd4f21acb01acba20fb72d64578335d587f2f776a9842bbf8447da48de4",
+        "sha256_in_prefix": "a90cdbd4f21acb01acba20fb72d64578335d587f2f776a9842bbf8447da48de4",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/toposort-1.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9a4458678425753b5cd309b9cd558d987a19dc17354979e4f843604ed129b575",
+        "sha256_in_prefix": "9a4458678425753b5cd309b9cd558d987a19dc17354979e4f843604ed129b575",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/toposort.py",
+        "path_type": "hardlink",
+        "sha256": "2278a8c8c37adfb6b2c7b5578d951916da8d378deeb18e6e522bcd5c9e361118",
+        "sha256_in_prefix": "2278a8c8c37adfb6b2c7b5578d951916da8d378deeb18e6e522bcd5c9e361118",
+        "size_in_bytes": 3568
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/toposort.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b605b620c3a926da994bfcf47c9343daad59553fbafd29bbf2cce6ead86f26cd",
+  "size": 12565,
+  "subdir": "noarch",
+  "timestamp": 1632856142000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/toposort-1.7-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.7"
+}

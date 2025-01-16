@@ -1,0 +1,244 @@
+{
+  "build": "py36h8f6f2f9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.4.0",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m",
+    "typing-extensions >=3.7.4"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/immutables-0.16-py36h8f6f2f9_0",
+  "files": [
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/LICENSE",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/LICENSE-APACHE",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/METADATA",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/NOTICE",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/RECORD",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/WHEEL",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/immutables-0.16.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/immutables/__init__.py",
+    "lib/python3.6/site-packages/immutables/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/immutables/__pycache__/_protocols.cpython-36.pyc",
+    "lib/python3.6/site-packages/immutables/__pycache__/_testutils.cpython-36.pyc",
+    "lib/python3.6/site-packages/immutables/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/immutables/__pycache__/map.cpython-36.pyc",
+    "lib/python3.6/site-packages/immutables/_map.c",
+    "lib/python3.6/site-packages/immutables/_map.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/immutables/_map.h",
+    "lib/python3.6/site-packages/immutables/_map.pyi",
+    "lib/python3.6/site-packages/immutables/_protocols.py",
+    "lib/python3.6/site-packages/immutables/_testutils.py",
+    "lib/python3.6/site-packages/immutables/_version.py",
+    "lib/python3.6/site-packages/immutables/map.py",
+    "lib/python3.6/site-packages/immutables/py.typed",
+    "lib/python3.6/site-packages/immutables/pythoncapi_compat.h"
+  ],
+  "fn": "immutables-0.16-py36h8f6f2f9_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/immutables-0.16-py36h8f6f2f9_0",
+    "type": 1
+  },
+  "md5": "e9abd4b9cee6d7dd062ca2b5f4e4c9f3",
+  "name": "immutables",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/immutables-0.16-py36h8f6f2f9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5a5420917da3047fae28224a422253f4ef6472a7f70f45642d78df02d0cdaee6",
+        "sha256_in_prefix": "5a5420917da3047fae28224a422253f4ef6472a7f70f45642d78df02d0cdaee6",
+        "size_in_bytes": 300
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/LICENSE-APACHE",
+        "path_type": "hardlink",
+        "sha256": "25e8791da26f7e74c4baf19eafd7d137b64a46952ef840ed01c172b680cf4046",
+        "sha256_in_prefix": "25e8791da26f7e74c4baf19eafd7d137b64a46952ef840ed01c172b680cf4046",
+        "size_in_bytes": 11309
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c0bb8900909ba07c138d938e94c706ac73f6cf23d71925dcd42d70f985bd8bd6",
+        "sha256_in_prefix": "c0bb8900909ba07c138d938e94c706ac73f6cf23d71925dcd42d70f985bd8bd6",
+        "size_in_bytes": 4352
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "62c982da0e3173247ec93f7ce1a4101e9b87e353c55cb0d7cd2e4df91794d2fd",
+        "sha256_in_prefix": "62c982da0e3173247ec93f7ce1a4101e9b87e353c55cb0d7cd2e4df91794d2fd",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c597365fbca559eb8abc9b4384aa57233e346a8a08ea1751c1ce5987a8cc6bc1",
+        "sha256_in_prefix": "c597365fbca559eb8abc9b4384aa57233e346a8a08ea1751c1ce5987a8cc6bc1",
+        "size_in_bytes": 2011
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e6600d5f7f77cf78bbb9c1adce415e780496875431a3f757a1b4deb731964435",
+        "sha256_in_prefix": "e6600d5f7f77cf78bbb9c1adce415e780496875431a3f757a1b4deb731964435",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d4018798d411b8f09ec44cdaefffa01dc4d332e63c39b02affb5db129ad4ba84",
+        "sha256_in_prefix": "d4018798d411b8f09ec44cdaefffa01dc4d332e63c39b02affb5db129ad4ba84",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables-0.16.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d24f8214b88c1224427cadc0cb79f27d2d769bfe7a7bcdb2d7932e571b77eb87",
+        "sha256_in_prefix": "d24f8214b88c1224427cadc0cb79f27d2d769bfe7a7bcdb2d7932e571b77eb87",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "42316c99acd3ddc7b9aff18de1f5117f66dd54aabe1c9e6fd71ce299e7c7920e",
+        "sha256_in_prefix": "42316c99acd3ddc7b9aff18de1f5117f66dd54aabe1c9e6fd71ce299e7c7920e",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "314dc095ecfc85f56a8fd82372793b394351d47b659cf3bcca867be14e11823d",
+        "sha256_in_prefix": "314dc095ecfc85f56a8fd82372793b394351d47b659cf3bcca867be14e11823d",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/__pycache__/_protocols.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a7e64357537ecf0cae4cb6f40748b54ffd92b21f747a1c62699602450a20b8a",
+        "sha256_in_prefix": "9a7e64357537ecf0cae4cb6f40748b54ffd92b21f747a1c62699602450a20b8a",
+        "size_in_bytes": 5201
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/__pycache__/_testutils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "147e158e6c68bc524d292e4f458ee929bd3085183ee8afbc6d711bbd0e4479d4",
+        "sha256_in_prefix": "147e158e6c68bc524d292e4f458ee929bd3085183ee8afbc6d711bbd0e4479d4",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/__pycache__/_version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f63f073f720ffbaacc5bd93e67198bc1fe865bd217af84fb1ca9caa05104fbb",
+        "sha256_in_prefix": "6f63f073f720ffbaacc5bd93e67198bc1fe865bd217af84fb1ca9caa05104fbb",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/__pycache__/map.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9f3bd613aadb32ddd1969f242ff2a665ff9f16956ae33a9df39892132699e75c",
+        "sha256_in_prefix": "9f3bd613aadb32ddd1969f242ff2a665ff9f16956ae33a9df39892132699e75c",
+        "size_in_bytes": 19955
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_map.c",
+        "path_type": "hardlink",
+        "sha256": "4d3ec3fd2ca9681ff71d1f15606b2b2c73bde5d0d7a3df47c0b4acf9266f9e3f",
+        "sha256_in_prefix": "4d3ec3fd2ca9681ff71d1f15606b2b2c73bde5d0d7a3df47c0b4acf9266f9e3f",
+        "size_in_bytes": 107778
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_map.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "cc9c971a179c2f0a2ed9c2457b9b75ff576700d885efb0b673ad09e525adc146",
+        "sha256_in_prefix": "cc9c971a179c2f0a2ed9c2457b9b75ff576700d885efb0b673ad09e525adc146",
+        "size_in_bytes": 56456
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_map.h",
+        "path_type": "hardlink",
+        "sha256": "22619017e9cb9cec636cd115bbb73ac94dcadae634b91a7b8e38a39f9204c448",
+        "sha256_in_prefix": "22619017e9cb9cec636cd115bbb73ac94dcadae634b91a7b8e38a39f9204c448",
+        "size_in_bytes": 2519
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_map.pyi",
+        "path_type": "hardlink",
+        "sha256": "3777b6c140f6a36f45dc51c3d40937bead588c2f64e557b89c494e6bf08ae47d",
+        "sha256_in_prefix": "3777b6c140f6a36f45dc51c3d40937bead588c2f64e557b89c494e6bf08ae47d",
+        "size_in_bytes": 2565
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_protocols.py",
+        "path_type": "hardlink",
+        "sha256": "4dd562d64bea2c33198a63b7720e05d95adbf7efa0d1bed57dd7762c86b8b729",
+        "sha256_in_prefix": "4dd562d64bea2c33198a63b7720e05d95adbf7efa0d1bed57dd7762c86b8b729",
+        "size_in_bytes": 2469
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_testutils.py",
+        "path_type": "hardlink",
+        "sha256": "a79455ea7db54cbacbf89c1d61d620c91c18e93b912d509dbdadbebd4544e819",
+        "sha256_in_prefix": "a79455ea7db54cbacbf89c1d61d620c91c18e93b912d509dbdadbebd4544e819",
+        "size_in_bytes": 2262
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/_version.py",
+        "path_type": "hardlink",
+        "sha256": "008f62208a657a65c8393dd19553f55c1df3702e4f6759c1d12593332440458b",
+        "sha256_in_prefix": "008f62208a657a65c8393dd19553f55c1df3702e4f6759c1d12593332440458b",
+        "size_in_bytes": 574
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/map.py",
+        "path_type": "hardlink",
+        "sha256": "fadf98b2b2ba95793baf36956a66f1b2bbe60c98a704d238293a657d9586b861",
+        "sha256_in_prefix": "fadf98b2b2ba95793baf36956a66f1b2bbe60c98a704d238293a657d9586b861",
+        "size_in_bytes": 23488
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/py.typed",
+        "path_type": "hardlink",
+        "sha256": "95aebb28195b8d737effe0df18d71d39c8d8ba6569286fd3930fbc9f9767181e",
+        "sha256_in_prefix": "95aebb28195b8d737effe0df18d71d39c8d8ba6569286fd3930fbc9f9767181e",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "lib/python3.6/site-packages/immutables/pythoncapi_compat.h",
+        "path_type": "hardlink",
+        "sha256": "441879f44cf7cbd3c11c285f50addea2872527548ff4f392412fa682fac7304b",
+        "sha256_in_prefix": "441879f44cf7cbd3c11c285f50addea2872527548ff4f392412fa682fac7304b",
+        "size_in_bytes": 10488
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d0379e9d404a547fee3e99b9338f3156c22c53f63ef661dad49404eb80c18670",
+  "size": 66675,
+  "subdir": "linux-64",
+  "timestamp": 1628601417000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/immutables-0.16-py36h8f6f2f9_0.tar.bz2",
+  "version": "0.16"
+}

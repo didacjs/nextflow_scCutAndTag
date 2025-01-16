@@ -1,0 +1,431 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-digest",
+    "r-globals >=0.13.1",
+    "r-listenv >=0.8.0",
+    "r-parallelly >=1.21.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-future-1.21.0-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/future/CITATION",
+    "lib/R/library/future/DESCRIPTION",
+    "lib/R/library/future/INDEX",
+    "lib/R/library/future/Meta/Rd.rds",
+    "lib/R/library/future/Meta/demo.rds",
+    "lib/R/library/future/Meta/features.rds",
+    "lib/R/library/future/Meta/hsearch.rds",
+    "lib/R/library/future/Meta/links.rds",
+    "lib/R/library/future/Meta/nsInfo.rds",
+    "lib/R/library/future/Meta/package.rds",
+    "lib/R/library/future/Meta/vignette.rds",
+    "lib/R/library/future/NAMESPACE",
+    "lib/R/library/future/NEWS",
+    "lib/R/library/future/R/future",
+    "lib/R/library/future/R/future.rdb",
+    "lib/R/library/future/R/future.rdx",
+    "lib/R/library/future/WORDLIST",
+    "lib/R/library/future/demo/fibonacci.R",
+    "lib/R/library/future/demo/mandelbrot.R",
+    "lib/R/library/future/doc/future-1-overview.html",
+    "lib/R/library/future/doc/future-1-overview.md.rsp",
+    "lib/R/library/future/doc/future-2-output.html",
+    "lib/R/library/future/doc/future-2-output.md.rsp",
+    "lib/R/library/future/doc/future-3-topologies.html",
+    "lib/R/library/future/doc/future-3-topologies.md.rsp",
+    "lib/R/library/future/doc/future-4-issues.html",
+    "lib/R/library/future/doc/future-4-issues.md.rsp",
+    "lib/R/library/future/doc/future-4-non-exportable-objects.html",
+    "lib/R/library/future/doc/future-4-non-exportable-objects.md.rsp",
+    "lib/R/library/future/doc/future-5-startup.html",
+    "lib/R/library/future/doc/future-5-startup.md.rsp",
+    "lib/R/library/future/doc/future-6-future-api-backend-specification.html",
+    "lib/R/library/future/doc/future-6-future-api-backend-specification.md.rsp",
+    "lib/R/library/future/doc/future-7-for-package-developers.html",
+    "lib/R/library/future/doc/future-7-for-package-developers.md.rsp",
+    "lib/R/library/future/doc/future-8-how-future-is-validated.html",
+    "lib/R/library/future/doc/future-8-how-future-is-validated.md.rsp",
+    "lib/R/library/future/doc/index.html",
+    "lib/R/library/future/help/AnIndex",
+    "lib/R/library/future/help/aliases.rds",
+    "lib/R/library/future/help/figures/logo.png",
+    "lib/R/library/future/help/future.rdb",
+    "lib/R/library/future/help/future.rdx",
+    "lib/R/library/future/help/paths.rds",
+    "lib/R/library/future/html/00Index.html",
+    "lib/R/library/future/html/R.css",
+    "lib/R/library/future/vignettes-static/future-1-overview.md.rsp.rsp",
+    "lib/R/library/future/vignettes-static/incl/future-1-overview-example2.R",
+    "lib/R/library/future/vignettes-static/incl/future-1-overview-example3.R"
+  ],
+  "fn": "r-future-1.21.0-r36hc72bb7e_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-future-1.21.0-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "2afea9715678c88e3289c4c2969a9646",
+  "name": "r-future",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-future-1.21.0-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/future/CITATION",
+        "path_type": "hardlink",
+        "sha256": "3983bb67a93c4bc616df40dcf5dde98145d7ec33e3d8e27d5cd6169a6c44fdf8",
+        "sha256_in_prefix": "3983bb67a93c4bc616df40dcf5dde98145d7ec33e3d8e27d5cd6169a6c44fdf8",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "lib/R/library/future/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "4ede97f08a9eb1468fae32f064a50f0c9747c378ae25cb4549c2cbf144206f9c",
+        "sha256_in_prefix": "4ede97f08a9eb1468fae32f064a50f0c9747c378ae25cb4549c2cbf144206f9c",
+        "size_in_bytes": 1927
+      },
+      {
+        "_path": "lib/R/library/future/INDEX",
+        "path_type": "hardlink",
+        "sha256": "6aa63014b76ea34610dd94273adf183af2f72e75751f0b5eff285cb3153b58ff",
+        "sha256_in_prefix": "6aa63014b76ea34610dd94273adf183af2f72e75751f0b5eff285cb3153b58ff",
+        "size_in_bytes": 2405
+      },
+      {
+        "_path": "lib/R/library/future/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "462fce50ddc7cfbb3f24f2c9a75dbad1a95bcb91d134e80e6b6709a844665a6f",
+        "sha256_in_prefix": "462fce50ddc7cfbb3f24f2c9a75dbad1a95bcb91d134e80e6b6709a844665a6f",
+        "size_in_bytes": 2879
+      },
+      {
+        "_path": "lib/R/library/future/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "297917cfcdae793caff0eeb7c4ed1fecd82b34f27a4a41e0688978adce6c6698",
+        "sha256_in_prefix": "297917cfcdae793caff0eeb7c4ed1fecd82b34f27a4a41e0688978adce6c6698",
+        "size_in_bytes": 166
+      },
+      {
+        "_path": "lib/R/library/future/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/future/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b53d4bb7d0dd34323d4aca44092b14e7bf0ac8385197e409ffbb952a60d6ca6c",
+        "sha256_in_prefix": "b53d4bb7d0dd34323d4aca44092b14e7bf0ac8385197e409ffbb952a60d6ca6c",
+        "size_in_bytes": 2837
+      },
+      {
+        "_path": "lib/R/library/future/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "0ae27d30a6fc1a14151e950cf6bb01a05d8b777b2dc328da9307eff844fd5a0f",
+        "sha256_in_prefix": "0ae27d30a6fc1a14151e950cf6bb01a05d8b777b2dc328da9307eff844fd5a0f",
+        "size_in_bytes": 1482
+      },
+      {
+        "_path": "lib/R/library/future/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "59ef0b89627506ec54c460bb79610c5839d6fa0d3dcde6ed70e58798ddf70cce",
+        "sha256_in_prefix": "59ef0b89627506ec54c460bb79610c5839d6fa0d3dcde6ed70e58798ddf70cce",
+        "size_in_bytes": 1336
+      },
+      {
+        "_path": "lib/R/library/future/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d56b5243992a8073178362cbfa4100cbdfb6f984b362bc5ed80b18025ff44302",
+        "sha256_in_prefix": "d56b5243992a8073178362cbfa4100cbdfb6f984b362bc5ed80b18025ff44302",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "lib/R/library/future/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a990766d350818d2f924477f30c8f4fccd37d5b75083a6e04b1bcd86e496134a",
+        "sha256_in_prefix": "a990766d350818d2f924477f30c8f4fccd37d5b75083a6e04b1bcd86e496134a",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/future/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b976cf85ae0959aed4eac6a66c08a2699b16f3dfd4c6d6811135eee943bfeecc",
+        "sha256_in_prefix": "b976cf85ae0959aed4eac6a66c08a2699b16f3dfd4c6d6811135eee943bfeecc",
+        "size_in_bytes": 4931
+      },
+      {
+        "_path": "lib/R/library/future/NEWS",
+        "path_type": "hardlink",
+        "sha256": "bcd9699decff6b4b21f1d205d6ac33fdf4cd01e64779ec7f5e2c4711e2f8315a",
+        "sha256_in_prefix": "bcd9699decff6b4b21f1d205d6ac33fdf4cd01e64779ec7f5e2c4711e2f8315a",
+        "size_in_bytes": 75155
+      },
+      {
+        "_path": "lib/R/library/future/R/future",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/future/R/future.rdb",
+        "path_type": "hardlink",
+        "sha256": "b9b15dc155ccc551d82bc961da4156fc057d08021540b4553de6615433f37673",
+        "sha256_in_prefix": "b9b15dc155ccc551d82bc961da4156fc057d08021540b4553de6615433f37673",
+        "size_in_bytes": 303357
+      },
+      {
+        "_path": "lib/R/library/future/R/future.rdx",
+        "path_type": "hardlink",
+        "sha256": "58d4f498d5a7be20b6a2988bea9637edcb8e1222ddead8ce81e6770047f744ec",
+        "sha256_in_prefix": "58d4f498d5a7be20b6a2988bea9637edcb8e1222ddead8ce81e6770047f744ec",
+        "size_in_bytes": 3340
+      },
+      {
+        "_path": "lib/R/library/future/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "540ed0066f3e0190fc747e62afc4e15f1a71872cf09c9c4e4831fe0b38e30702",
+        "sha256_in_prefix": "540ed0066f3e0190fc747e62afc4e15f1a71872cf09c9c4e4831fe0b38e30702",
+        "size_in_bytes": 3273
+      },
+      {
+        "_path": "lib/R/library/future/demo/fibonacci.R",
+        "path_type": "hardlink",
+        "sha256": "8d469ef3f57e19124c42759bd72da1edd198b56a34a63355a2a34abe5fcb5b1e",
+        "sha256_in_prefix": "8d469ef3f57e19124c42759bd72da1edd198b56a34a63355a2a34abe5fcb5b1e",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/R/library/future/demo/mandelbrot.R",
+        "path_type": "hardlink",
+        "sha256": "5082e333465abf93b28e75567c7fb8b431980eeea13a6231019bca7070fe7579",
+        "sha256_in_prefix": "5082e333465abf93b28e75567c7fb8b431980eeea13a6231019bca7070fe7579",
+        "size_in_bytes": 2293
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-1-overview.html",
+        "path_type": "hardlink",
+        "sha256": "4f24281b5ef2b0b276fcd43acbbf22a4804dfec77f297d6da85a38125a071767",
+        "sha256_in_prefix": "4f24281b5ef2b0b276fcd43acbbf22a4804dfec77f297d6da85a38125a071767",
+        "size_in_bytes": 47506
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-1-overview.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "a62c94d3e29ba49abe577664625b1286e84fe3a2eb3caf3a4ee717ab701c0ad6",
+        "sha256_in_prefix": "a62c94d3e29ba49abe577664625b1286e84fe3a2eb3caf3a4ee717ab701c0ad6",
+        "size_in_bytes": 30104
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-2-output.html",
+        "path_type": "hardlink",
+        "sha256": "85705c56428889cf33ca9425d0c0f6786a1799dddebc0f806facc163c2926b9b",
+        "sha256_in_prefix": "85705c56428889cf33ca9425d0c0f6786a1799dddebc0f806facc163c2926b9b",
+        "size_in_bytes": 21205
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-2-output.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "945ec62b2c2a5c77e7488a61c59ae000e21266618cbbc742f952193e412446cc",
+        "sha256_in_prefix": "945ec62b2c2a5c77e7488a61c59ae000e21266618cbbc742f952193e412446cc",
+        "size_in_bytes": 7381
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-3-topologies.html",
+        "path_type": "hardlink",
+        "sha256": "ea6f3afe87eb43e98f64200e71d19814d3631820c44651650f982092f87490ba",
+        "sha256_in_prefix": "ea6f3afe87eb43e98f64200e71d19814d3631820c44651650f982092f87490ba",
+        "size_in_bytes": 24441
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-3-topologies.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "7dfd4fd251a2b7d19cf804486deb069f45024fe4b5c5eb28b65cec4505c7892a",
+        "sha256_in_prefix": "7dfd4fd251a2b7d19cf804486deb069f45024fe4b5c5eb28b65cec4505c7892a",
+        "size_in_bytes": 10348
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-4-issues.html",
+        "path_type": "hardlink",
+        "sha256": "7ec5d64f1409668a021ff166491dadc3f8cec57230acf84f948713bcfdb520d7",
+        "sha256_in_prefix": "7ec5d64f1409668a021ff166491dadc3f8cec57230acf84f948713bcfdb520d7",
+        "size_in_bytes": 34254
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-4-issues.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "e7ceb7988db2f50b01241562d9dcdc451443d7eefcb3b620f09cb7121f7467b2",
+        "sha256_in_prefix": "e7ceb7988db2f50b01241562d9dcdc451443d7eefcb3b620f09cb7121f7467b2",
+        "size_in_bytes": 17777
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-4-non-exportable-objects.html",
+        "path_type": "hardlink",
+        "sha256": "3242b3fdea83948536c540f607f13c56f48258673df023268eadc9f45e1e706c",
+        "sha256_in_prefix": "3242b3fdea83948536c540f607f13c56f48258673df023268eadc9f45e1e706c",
+        "size_in_bytes": 34696
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-4-non-exportable-objects.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "eb4972eb42b63fea15e04de9e6c78f591854c3f552698022d841f735786a327f",
+        "sha256_in_prefix": "eb4972eb42b63fea15e04de9e6c78f591854c3f552698022d841f735786a327f",
+        "size_in_bytes": 17579
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-5-startup.html",
+        "path_type": "hardlink",
+        "sha256": "30f80b1114ffbfd955e6f5eda5ef00ae3025b68b87582f9f42ffc760b1a2565d",
+        "sha256_in_prefix": "30f80b1114ffbfd955e6f5eda5ef00ae3025b68b87582f9f42ffc760b1a2565d",
+        "size_in_bytes": 16647
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-5-startup.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "bf7b5c5c0f335e8e58e748519179a5ae4e99f1b5e0d4fa1f3b39057f6349297e",
+        "sha256_in_prefix": "bf7b5c5c0f335e8e58e748519179a5ae4e99f1b5e0d4fa1f3b39057f6349297e",
+        "size_in_bytes": 3084
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-6-future-api-backend-specification.html",
+        "path_type": "hardlink",
+        "sha256": "5200bc98a19e31964a87a7e5d050dcaf9ac62957ed08235454e5aef0480d3f0c",
+        "sha256_in_prefix": "5200bc98a19e31964a87a7e5d050dcaf9ac62957ed08235454e5aef0480d3f0c",
+        "size_in_bytes": 15916
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-6-future-api-backend-specification.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "c87517e74f588b4bf34e8cef373cedf1981aef5bfd8b5a21c653a72de5c70bc2",
+        "sha256_in_prefix": "c87517e74f588b4bf34e8cef373cedf1981aef5bfd8b5a21c653a72de5c70bc2",
+        "size_in_bytes": 11665
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-7-for-package-developers.html",
+        "path_type": "hardlink",
+        "sha256": "df4d6e99d4f1ef74578276a0b532924e22bdfde57d5887ba384808897fa15a2a",
+        "sha256_in_prefix": "df4d6e99d4f1ef74578276a0b532924e22bdfde57d5887ba384808897fa15a2a",
+        "size_in_bytes": 20896
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-7-for-package-developers.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "fc129787f891e272be4089617fca9de2f7ba9514517d78c0863b9c8e7de67f2e",
+        "sha256_in_prefix": "fc129787f891e272be4089617fca9de2f7ba9514517d78c0863b9c8e7de67f2e",
+        "size_in_bytes": 7019
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-8-how-future-is-validated.html",
+        "path_type": "hardlink",
+        "sha256": "5d0bc5daf7aa83793a8b4e72f3faa91aa0f02c42203d295082fadaf04e1d6fc5",
+        "sha256_in_prefix": "5d0bc5daf7aa83793a8b4e72f3faa91aa0f02c42203d295082fadaf04e1d6fc5",
+        "size_in_bytes": 7731
+      },
+      {
+        "_path": "lib/R/library/future/doc/future-8-how-future-is-validated.md.rsp",
+        "path_type": "hardlink",
+        "sha256": "0bc3f35f69741150dfa453221bcfa3a48183d5fdf516add170fa646e9f934ad7",
+        "sha256_in_prefix": "0bc3f35f69741150dfa453221bcfa3a48183d5fdf516add170fa646e9f934ad7",
+        "size_in_bytes": 5129
+      },
+      {
+        "_path": "lib/R/library/future/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "aa5e4d7bb817ab022c619022b246c5ce4565eff595b9899229865687b531b69d",
+        "sha256_in_prefix": "aa5e4d7bb817ab022c619022b246c5ce4565eff595b9899229865687b531b69d",
+        "size_in_bytes": 5371
+      },
+      {
+        "_path": "lib/R/library/future/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "533535344e43fdf26c05110aa88f0eeddb7fa7f036e9350eabf3c147047b85f3",
+        "sha256_in_prefix": "533535344e43fdf26c05110aa88f0eeddb7fa7f036e9350eabf3c147047b85f3",
+        "size_in_bytes": 3690
+      },
+      {
+        "_path": "lib/R/library/future/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c8226915c7916a85a0ba61f9d48c43d84cff5fa841aaa51699121a5e4b14ba8b",
+        "sha256_in_prefix": "c8226915c7916a85a0ba61f9d48c43d84cff5fa841aaa51699121a5e4b14ba8b",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "lib/R/library/future/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "471d2964ab9aa0be4d99790994d2f48a4bfcbb92dd0477f3e88de980726a046c",
+        "sha256_in_prefix": "471d2964ab9aa0be4d99790994d2f48a4bfcbb92dd0477f3e88de980726a046c",
+        "size_in_bytes": 14244
+      },
+      {
+        "_path": "lib/R/library/future/help/future.rdb",
+        "path_type": "hardlink",
+        "sha256": "70b44e7bfa0c5758773930fd95068ff98ee84385850f32f17b6c0606c95c2622",
+        "sha256_in_prefix": "70b44e7bfa0c5758773930fd95068ff98ee84385850f32f17b6c0606c95c2622",
+        "size_in_bytes": 147749
+      },
+      {
+        "_path": "lib/R/library/future/help/future.rdx",
+        "path_type": "hardlink",
+        "sha256": "fb095a4c3fc70f3c97e75511b7e226820ffe979770222afa382f5e37b34f26af",
+        "sha256_in_prefix": "fb095a4c3fc70f3c97e75511b7e226820ffe979770222afa382f5e37b34f26af",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "lib/R/library/future/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "9e3da551542865e33a4b99c58799d1f7cf4fbe2871bfb4a33b098c2ddfcf0096",
+        "sha256_in_prefix": "9e3da551542865e33a4b99c58799d1f7cf4fbe2871bfb4a33b098c2ddfcf0096",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/R/library/future/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "d2d53a87c19707d391e87165360ac2e9b85c43b6bd57d7df08c6393d0254d5ac",
+        "sha256_in_prefix": "d2d53a87c19707d391e87165360ac2e9b85c43b6bd57d7df08c6393d0254d5ac",
+        "size_in_bytes": 7700
+      },
+      {
+        "_path": "lib/R/library/future/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/future/vignettes-static/future-1-overview.md.rsp.rsp",
+        "path_type": "hardlink",
+        "sha256": "2b12575e8dabb3935d27ebd0bd232e38da13bbcd4f7652a7ad897c8951855d82",
+        "sha256_in_prefix": "2b12575e8dabb3935d27ebd0bd232e38da13bbcd4f7652a7ad897c8951855d82",
+        "size_in_bytes": 35087
+      },
+      {
+        "_path": "lib/R/library/future/vignettes-static/incl/future-1-overview-example2.R",
+        "path_type": "hardlink",
+        "sha256": "a6da2128fd11368e6ea554cbf67c08815e43fa35c25096e93fab90e75f1d7d13",
+        "sha256_in_prefix": "a6da2128fd11368e6ea554cbf67c08815e43fa35c25096e93fab90e75f1d7d13",
+        "size_in_bytes": 237
+      },
+      {
+        "_path": "lib/R/library/future/vignettes-static/incl/future-1-overview-example3.R",
+        "path_type": "hardlink",
+        "sha256": "597c88023e74c7d00e9d526779f4c47491ff7d718b86e0c538ed9a833d614733",
+        "sha256_in_prefix": "597c88023e74c7d00e9d526779f4c47491ff7d718b86e0c538ed9a833d614733",
+        "size_in_bytes": 287
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "86c1ae523418619764999fa83ac6645528ebe1727ea9d558255c49765ced379e",
+  "size": 599314,
+  "subdir": "noarch",
+  "timestamp": 1607596742000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-future-1.21.0-r36hc72bb7e_0.tar.bz2",
+  "version": "1.21.0"
+}

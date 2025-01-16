@@ -1,0 +1,23 @@
+###############################################################################
+# MUNGE system configuration
+###############################################################################
+
+##
+# Pass additional command-line options to the daemon.
+##
+# DAEMON_ARGS="--key-file /home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/etc/munge/munge.key --num-threads 1"
+
+##
+# Adjust the scheduling priority of the daemon.
+##
+# NICE=
+
+##
+# Execute the daemon under another username.
+##
+# USER="munge"
+
+##
+# Execute the daemon under another groupname.
+##
+# GROUP="munge"

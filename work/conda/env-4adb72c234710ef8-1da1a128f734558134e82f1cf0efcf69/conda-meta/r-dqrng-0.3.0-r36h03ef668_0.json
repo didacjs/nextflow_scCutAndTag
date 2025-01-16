@@ -1,0 +1,406 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-bh >=1.64.0_1",
+    "r-rcpp >=0.12.16",
+    "r-sitmo >=2.0.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-dqrng-0.3.0-r36h03ef668_0",
+  "files": [
+    "lib/R/library/dqrng/DESCRIPTION",
+    "lib/R/library/dqrng/INDEX",
+    "lib/R/library/dqrng/LICENSE",
+    "lib/R/library/dqrng/Meta/Rd.rds",
+    "lib/R/library/dqrng/Meta/features.rds",
+    "lib/R/library/dqrng/Meta/hsearch.rds",
+    "lib/R/library/dqrng/Meta/links.rds",
+    "lib/R/library/dqrng/Meta/nsInfo.rds",
+    "lib/R/library/dqrng/Meta/package.rds",
+    "lib/R/library/dqrng/Meta/vignette.rds",
+    "lib/R/library/dqrng/NAMESPACE",
+    "lib/R/library/dqrng/NEWS.md",
+    "lib/R/library/dqrng/R/dqrng",
+    "lib/R/library/dqrng/R/dqrng.rdb",
+    "lib/R/library/dqrng/R/dqrng.rdx",
+    "lib/R/library/dqrng/doc/cpp-api.R",
+    "lib/R/library/dqrng/doc/cpp-api.Rmd",
+    "lib/R/library/dqrng/doc/cpp-api.html",
+    "lib/R/library/dqrng/doc/dqrng.R",
+    "lib/R/library/dqrng/doc/dqrng.Rmd",
+    "lib/R/library/dqrng/doc/dqrng.html",
+    "lib/R/library/dqrng/doc/index.html",
+    "lib/R/library/dqrng/doc/parallel.R",
+    "lib/R/library/dqrng/doc/parallel.Rmd",
+    "lib/R/library/dqrng/doc/parallel.html",
+    "lib/R/library/dqrng/help/AnIndex",
+    "lib/R/library/dqrng/help/aliases.rds",
+    "lib/R/library/dqrng/help/dqrng.rdb",
+    "lib/R/library/dqrng/help/dqrng.rdx",
+    "lib/R/library/dqrng/help/paths.rds",
+    "lib/R/library/dqrng/html/00Index.html",
+    "lib/R/library/dqrng/html/R.css",
+    "lib/R/library/dqrng/include/R_randgen.h",
+    "lib/R/library/dqrng/include/convert_seed.h",
+    "lib/R/library/dqrng/include/dqrng.h",
+    "lib/R/library/dqrng/include/dqrng_RcppExports.h",
+    "lib/R/library/dqrng/include/dqrng_distribution.h",
+    "lib/R/library/dqrng/include/dqrng_generator.h",
+    "lib/R/library/dqrng/include/minimal_int_set.h",
+    "lib/R/library/dqrng/include/mystdint.h",
+    "lib/R/library/dqrng/include/pcg_extras.hpp",
+    "lib/R/library/dqrng/include/pcg_random.hpp",
+    "lib/R/library/dqrng/include/pcg_uint128.hpp",
+    "lib/R/library/dqrng/include/romu.h",
+    "lib/R/library/dqrng/include/xoshiro.h",
+    "lib/R/library/dqrng/libs/dqrng.so"
+  ],
+  "fn": "r-dqrng-0.3.0-r36h03ef668_0.tar.bz2",
+  "license": "AGPL-3.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-dqrng-0.3.0-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "fa355ece7be27720b09f493e71c92276",
+  "name": "r-dqrng",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-dqrng-0.3.0-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/dqrng/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "cf7f7a8121ce3926dfedf650814738dd35e7851c5d82210daffac611d1461013",
+        "sha256_in_prefix": "cf7f7a8121ce3926dfedf650814738dd35e7851c5d82210daffac611d1461013",
+        "size_in_bytes": 2066
+      },
+      {
+        "_path": "lib/R/library/dqrng/INDEX",
+        "path_type": "hardlink",
+        "sha256": "41f461e5f77b3805d22fa98f109e8d6b8d34a5dd6bfdbbe30a4c86d51dd40876",
+        "sha256_in_prefix": "41f461e5f77b3805d22fa98f109e8d6b8d34a5dd6bfdbbe30a4c86d51dd40876",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/R/library/dqrng/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "209238139b85a5b5489ff78a17828f62bff7ae4a258234b4d39316e2e43a3bd1",
+        "sha256_in_prefix": "209238139b85a5b5489ff78a17828f62bff7ae4a258234b4d39316e2e43a3bd1",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "ad6fcd17d7a843b79f8c69e0906790cc99c997135056daad378a17a9f663476f",
+        "sha256_in_prefix": "ad6fcd17d7a843b79f8c69e0906790cc99c997135056daad378a17a9f663476f",
+        "size_in_bytes": 421
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7c157e3064ca327e721dca8f94776acebbb79e00b8889d3cacd3a6246be825fd",
+        "sha256_in_prefix": "7c157e3064ca327e721dca8f94776acebbb79e00b8889d3cacd3a6246be825fd",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "85c95aace6a7e276fcec66a47ec22dc526ad75eadd499bd433319d24c365b580",
+        "sha256_in_prefix": "85c95aace6a7e276fcec66a47ec22dc526ad75eadd499bd433319d24c365b580",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "e66c3b52cc3e04147e8a05fc0326f896451707c493eb13776dd5751015266854",
+        "sha256_in_prefix": "e66c3b52cc3e04147e8a05fc0326f896451707c493eb13776dd5751015266854",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7db574ca5bc1fc072b7e5f5e6ab401e141e2fecd7ad744085a951c2169f86006",
+        "sha256_in_prefix": "7db574ca5bc1fc072b7e5f5e6ab401e141e2fecd7ad744085a951c2169f86006",
+        "size_in_bytes": 1614
+      },
+      {
+        "_path": "lib/R/library/dqrng/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "90f0363eca0030a468e77079edaedfdb81bb258ff394459e97bb3fd60d466a51",
+        "sha256_in_prefix": "90f0363eca0030a468e77079edaedfdb81bb258ff394459e97bb3fd60d466a51",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/dqrng/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "dfc78529d5a03bf53558493183539f20f1c861873e93f2c3b2e8e6b9ac9e3b16",
+        "sha256_in_prefix": "dfc78529d5a03bf53558493183539f20f1c861873e93f2c3b2e8e6b9ac9e3b16",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "lib/R/library/dqrng/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "d23e58d25c7914c0716d322a7e46c6345b8bca9203baf79076d4d09a197bc088",
+        "sha256_in_prefix": "d23e58d25c7914c0716d322a7e46c6345b8bca9203baf79076d4d09a197bc088",
+        "size_in_bytes": 3256
+      },
+      {
+        "_path": "lib/R/library/dqrng/R/dqrng",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/dqrng/R/dqrng.rdb",
+        "path_type": "hardlink",
+        "sha256": "e7b8c59ac0a06c7cc4298630da673d9ea851a028965d08dc2681b5890ab54bbb",
+        "sha256_in_prefix": "e7b8c59ac0a06c7cc4298630da673d9ea851a028965d08dc2681b5890ab54bbb",
+        "size_in_bytes": 6181
+      },
+      {
+        "_path": "lib/R/library/dqrng/R/dqrng.rdx",
+        "path_type": "hardlink",
+        "sha256": "a40dbd26136ff7e409ec6b0b0e27aaf1ae06770950e991998e71233255e29450",
+        "sha256_in_prefix": "a40dbd26136ff7e409ec6b0b0e27aaf1ae06770950e991998e71233255e29450",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/cpp-api.R",
+        "path_type": "hardlink",
+        "sha256": "496a6f66dbbedd604c78cb4c429a5c1f5ef9ec33744b18c5195cdefb33fbdab5",
+        "sha256_in_prefix": "496a6f66dbbedd604c78cb4c429a5c1f5ef9ec33744b18c5195cdefb33fbdab5",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/cpp-api.Rmd",
+        "path_type": "hardlink",
+        "sha256": "177cd135875a28f7db04b06f218720c0f0520b899b74cac89a41ac22c314e131",
+        "sha256_in_prefix": "177cd135875a28f7db04b06f218720c0f0520b899b74cac89a41ac22c314e131",
+        "size_in_bytes": 3042
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/cpp-api.html",
+        "path_type": "hardlink",
+        "sha256": "a6ec16edcd40d4074fe29d11ca0cb4383ad9a0137041a658b28f74a52d4ba4e1",
+        "sha256_in_prefix": "a6ec16edcd40d4074fe29d11ca0cb4383ad9a0137041a658b28f74a52d4ba4e1",
+        "size_in_bytes": 17611
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/dqrng.R",
+        "path_type": "hardlink",
+        "sha256": "15c4917b5cd1eaf3e7f12c1aa120814b661cbb441d2a874c7ef3877bb5d7575d",
+        "sha256_in_prefix": "15c4917b5cd1eaf3e7f12c1aa120814b661cbb441d2a874c7ef3877bb5d7575d",
+        "size_in_bytes": 1298
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/dqrng.Rmd",
+        "path_type": "hardlink",
+        "sha256": "bdc1c4c676a4b2af4c7985d1f9d4a49f30a397ae4385f1a6411215a1132545c0",
+        "sha256_in_prefix": "bdc1c4c676a4b2af4c7985d1f9d4a49f30a397ae4385f1a6411215a1132545c0",
+        "size_in_bytes": 11061
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/dqrng.html",
+        "path_type": "hardlink",
+        "sha256": "8f5737b3f1c3b3da970ee03a6104ea973efdbe60ff33bd06720f9cdc0d8029e1",
+        "sha256_in_prefix": "8f5737b3f1c3b3da970ee03a6104ea973efdbe60ff33bd06720f9cdc0d8029e1",
+        "size_in_bytes": 50094
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "7d0e890c528ee48982511c3679ec4c35f594bee3d4d9f49075daa4e9bbc2b427",
+        "sha256_in_prefix": "7d0e890c528ee48982511c3679ec4c35f594bee3d4d9f49075daa4e9bbc2b427",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/parallel.R",
+        "path_type": "hardlink",
+        "sha256": "4ec5ddbf57d3ef6a0f833ae1751098ed224ee5588b40b2b94072c5101472fb1c",
+        "sha256_in_prefix": "4ec5ddbf57d3ef6a0f833ae1751098ed224ee5588b40b2b94072c5101472fb1c",
+        "size_in_bytes": 660
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/parallel.Rmd",
+        "path_type": "hardlink",
+        "sha256": "9bf161cdb97cda55b58f5651101c20ed6485e51797f8895492d605f37fc09cc6",
+        "sha256_in_prefix": "9bf161cdb97cda55b58f5651101c20ed6485e51797f8895492d605f37fc09cc6",
+        "size_in_bytes": 8125
+      },
+      {
+        "_path": "lib/R/library/dqrng/doc/parallel.html",
+        "path_type": "hardlink",
+        "sha256": "1a8096584f2f59cb897ac43d2f2b929663d3db284893c887f1c9712e4dc1bb51",
+        "sha256_in_prefix": "1a8096584f2f59cb897ac43d2f2b929663d3db284893c887f1c9712e4dc1bb51",
+        "size_in_bytes": 31361
+      },
+      {
+        "_path": "lib/R/library/dqrng/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "e10c0533bbea63cf5005aa654bf1c5d914f77cfcb1cdea5ed7103b427fac9554",
+        "sha256_in_prefix": "e10c0533bbea63cf5005aa654bf1c5d914f77cfcb1cdea5ed7103b427fac9554",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/R/library/dqrng/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "f9ef332b062bc1643c3b1e4c1d217d601b9d2edc340663e83b68f9788e8d880d",
+        "sha256_in_prefix": "f9ef332b062bc1643c3b1e4c1d217d601b9d2edc340663e83b68f9788e8d880d",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/R/library/dqrng/help/dqrng.rdb",
+        "path_type": "hardlink",
+        "sha256": "971c4e81d67a16fc21854489316ad68c1c5af882222cd227d01ce09990ed7a9b",
+        "sha256_in_prefix": "971c4e81d67a16fc21854489316ad68c1c5af882222cd227d01ce09990ed7a9b",
+        "size_in_bytes": 10879
+      },
+      {
+        "_path": "lib/R/library/dqrng/help/dqrng.rdx",
+        "path_type": "hardlink",
+        "sha256": "0c08c96bfe3a1d30c7f3b739f666cf6b50593a7f356b8621d906863a905b5713",
+        "sha256_in_prefix": "0c08c96bfe3a1d30c7f3b739f666cf6b50593a7f356b8621d906863a905b5713",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/R/library/dqrng/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "f8799210052217e1bcf9572c39a9a4648556d887df0e2b10facb077bd5ca6cb7",
+        "sha256_in_prefix": "f8799210052217e1bcf9572c39a9a4648556d887df0e2b10facb077bd5ca6cb7",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "lib/R/library/dqrng/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "2caf7a7ce7089a6b993ad2e37699b8dfa99fdf6d70306b2a261a45fb566db7e5",
+        "sha256_in_prefix": "2caf7a7ce7089a6b993ad2e37699b8dfa99fdf6d70306b2a261a45fb566db7e5",
+        "size_in_bytes": 2218
+      },
+      {
+        "_path": "lib/R/library/dqrng/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/R_randgen.h",
+        "path_type": "hardlink",
+        "sha256": "ab7f241b33e1982af922d3ec6b26101c8d73b3d5381e7ed183b7c8d6ea0572ad",
+        "sha256_in_prefix": "ab7f241b33e1982af922d3ec6b26101c8d73b3d5381e7ed183b7c8d6ea0572ad",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/convert_seed.h",
+        "path_type": "hardlink",
+        "sha256": "a603c5e4724fa3e624d78ea6ed298cbfe6a156bd65566bba2a9be7d1b2c6fd17",
+        "sha256_in_prefix": "a603c5e4724fa3e624d78ea6ed298cbfe6a156bd65566bba2a9be7d1b2c6fd17",
+        "size_in_bytes": 4200
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/dqrng.h",
+        "path_type": "hardlink",
+        "sha256": "a951fa0cf1a2f8fe89f638b08c56fa2a9b3caeb2faf119124b89fb33723d97e9",
+        "sha256_in_prefix": "a951fa0cf1a2f8fe89f638b08c56fa2a9b3caeb2faf119124b89fb33723d97e9",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/dqrng_RcppExports.h",
+        "path_type": "hardlink",
+        "sha256": "3871ba4e7e8a9d46d91d3d8639eb962ef32ff580370f4cfb2a032d9e46fd1a03",
+        "sha256_in_prefix": "3871ba4e7e8a9d46d91d3d8639eb962ef32ff580370f4cfb2a032d9e46fd1a03",
+        "size_in_bytes": 11097
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/dqrng_distribution.h",
+        "path_type": "hardlink",
+        "sha256": "6b142f623b2d462ca8db5e97e72f5f6dd6a0ef9d0acb69852edc3292a2eb510b",
+        "sha256_in_prefix": "6b142f623b2d462ca8db5e97e72f5f6dd6a0ef9d0acb69852edc3292a2eb510b",
+        "size_in_bytes": 2368
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/dqrng_generator.h",
+        "path_type": "hardlink",
+        "sha256": "c4e6e612021a92c8305113bdaa4bcf6bffbe49ea875021317d011e4fbcf8dd23",
+        "sha256_in_prefix": "c4e6e612021a92c8305113bdaa4bcf6bffbe49ea875021317d011e4fbcf8dd23",
+        "size_in_bytes": 6416
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/minimal_int_set.h",
+        "path_type": "hardlink",
+        "sha256": "5e7e949ad26fd4f4c07f880e60d84b9707a53789748e721890457437c9ec88df",
+        "sha256_in_prefix": "5e7e949ad26fd4f4c07f880e60d84b9707a53789748e721890457437c9ec88df",
+        "size_in_bytes": 2754
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/mystdint.h",
+        "path_type": "hardlink",
+        "sha256": "0edb5cf8d79126727863e1aa5ffa61064a20384458cc0e6026e85868ca82170d",
+        "sha256_in_prefix": "0edb5cf8d79126727863e1aa5ffa61064a20384458cc0e6026e85868ca82170d",
+        "size_in_bytes": 1263
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/pcg_extras.hpp",
+        "path_type": "hardlink",
+        "sha256": "70ed960da6cb31b9f16263050e5ec4b643bc2f125b7528a30ec966233c79a7fc",
+        "sha256_in_prefix": "70ed960da6cb31b9f16263050e5ec4b643bc2f125b7528a30ec966233c79a7fc",
+        "size_in_bytes": 20285
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/pcg_random.hpp",
+        "path_type": "hardlink",
+        "sha256": "0fab2086e586137c9a1dac1894eecc96f9b7bec7353119a26b5ba9ee81d5be97",
+        "sha256_in_prefix": "0fab2086e586137c9a1dac1894eecc96f9b7bec7353119a26b5ba9ee81d5be97",
+        "size_in_bytes": 64961
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/pcg_uint128.hpp",
+        "path_type": "hardlink",
+        "sha256": "fbe59941cf78a249ae4c2dec373d32a742704beb105b1b08425e06d8be67277f",
+        "sha256_in_prefix": "fbe59941cf78a249ae4c2dec373d32a742704beb105b1b08425e06d8be67277f",
+        "size_in_bytes": 22282
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/romu.h",
+        "path_type": "hardlink",
+        "sha256": "42828cfc37da1f2a7267b9ae524e19197e65c84c62c111daff4612191b136303",
+        "sha256_in_prefix": "42828cfc37da1f2a7267b9ae524e19197e65c84c62c111daff4612191b136303",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "lib/R/library/dqrng/include/xoshiro.h",
+        "path_type": "hardlink",
+        "sha256": "7f856673e77224a6966b4f089663854062f99004b7f73d56625b2ae59b47e7db",
+        "sha256_in_prefix": "7f856673e77224a6966b4f089663854062f99004b7f73d56625b2ae59b47e7db",
+        "size_in_bytes": 7562
+      },
+      {
+        "_path": "lib/R/library/dqrng/libs/dqrng.so",
+        "path_type": "hardlink",
+        "sha256": "fce843b4acda7fbdc169d918d9b4f22fbe3f87cf3fb9f6a2d321204c4d2bf7f6",
+        "sha256_in_prefix": "fce843b4acda7fbdc169d918d9b4f22fbe3f87cf3fb9f6a2d321204c4d2bf7f6",
+        "size_in_bytes": 195464
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ab8f69d5d61e8bc97d9c937304cfa685c02054bc96e9a1f2c202def6abdcad66",
+  "size": 169113,
+  "subdir": "linux-64",
+  "timestamp": 1619875500000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-dqrng-0.3.0-r36h03ef668_0.tar.bz2",
+  "version": "0.3.0"
+}

@@ -1,0 +1,372 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcpp"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rcppannoy-0.0.18-r36h03ef668_0",
+  "files": [
+    "lib/R/library/RcppAnnoy/DESCRIPTION",
+    "lib/R/library/RcppAnnoy/INDEX",
+    "lib/R/library/RcppAnnoy/Meta/Rd.rds",
+    "lib/R/library/RcppAnnoy/Meta/demo.rds",
+    "lib/R/library/RcppAnnoy/Meta/features.rds",
+    "lib/R/library/RcppAnnoy/Meta/hsearch.rds",
+    "lib/R/library/RcppAnnoy/Meta/links.rds",
+    "lib/R/library/RcppAnnoy/Meta/nsInfo.rds",
+    "lib/R/library/RcppAnnoy/Meta/package.rds",
+    "lib/R/library/RcppAnnoy/Meta/vignette.rds",
+    "lib/R/library/RcppAnnoy/NAMESPACE",
+    "lib/R/library/RcppAnnoy/NEWS.Rd",
+    "lib/R/library/RcppAnnoy/R/RcppAnnoy",
+    "lib/R/library/RcppAnnoy/R/RcppAnnoy.rdb",
+    "lib/R/library/RcppAnnoy/R/RcppAnnoy.rdx",
+    "lib/R/library/RcppAnnoy/demo/simpleExample.R",
+    "lib/R/library/RcppAnnoy/doc/UsingAnnoyInCcppWrapper.Rnw",
+    "lib/R/library/RcppAnnoy/doc/UsingAnnoyInCcppWrapper.pdf",
+    "lib/R/library/RcppAnnoy/doc/index.html",
+    "lib/R/library/RcppAnnoy/help/AnIndex",
+    "lib/R/library/RcppAnnoy/help/RcppAnnoy.rdb",
+    "lib/R/library/RcppAnnoy/help/RcppAnnoy.rdx",
+    "lib/R/library/RcppAnnoy/help/aliases.rds",
+    "lib/R/library/RcppAnnoy/help/paths.rds",
+    "lib/R/library/RcppAnnoy/html/00Index.html",
+    "lib/R/library/RcppAnnoy/html/R.css",
+    "lib/R/library/RcppAnnoy/include/RcppAnnoy.h",
+    "lib/R/library/RcppAnnoy/include/annoylib.h",
+    "lib/R/library/RcppAnnoy/include/kissrandom.h",
+    "lib/R/library/RcppAnnoy/include/mman.h",
+    "lib/R/library/RcppAnnoy/libs/RcppAnnoy.so",
+    "lib/R/library/RcppAnnoy/rmd/UsingAnnoyInCpp.Rmd",
+    "lib/R/library/RcppAnnoy/rmd/rcppannoy.bib",
+    "lib/R/library/RcppAnnoy/tinytest/data/test.tree",
+    "lib/R/library/RcppAnnoy/tinytest/testAngular.R",
+    "lib/R/library/RcppAnnoy/tinytest/testEuclidean.R",
+    "lib/R/library/RcppAnnoy/tinytest/testHamming.R",
+    "lib/R/library/RcppAnnoy/tinytest/testIndex.R",
+    "lib/R/library/RcppAnnoy/tinytest/testManhattan.R",
+    "lib/R/library/RcppAnnoy/tinytest/testOnDiskBuild.R",
+    "lib/R/library/RcppAnnoy/tinytest/testSeeds.R",
+    "lib/R/library/RcppAnnoy/tinytest/testVignette.R"
+  ],
+  "fn": "r-rcppannoy-0.0.18-r36h03ef668_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rcppannoy-0.0.18-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "d4fcef1fea4a720a0e3986395c876b7f",
+  "name": "r-rcppannoy",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rcppannoy-0.0.18-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RcppAnnoy/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "8b77c1d8f3e836f8e505a418352f96209b29fe541b54c9081d562e2bb8ab20d0",
+        "sha256_in_prefix": "8b77c1d8f3e836f8e505a418352f96209b29fe541b54c9081d562e2bb8ab20d0",
+        "size_in_bytes": 1054
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/INDEX",
+        "path_type": "hardlink",
+        "sha256": "818287ef9aea473ceed5d4100fe6d11078afebcfaddc9a2e73eec5a160dee571",
+        "sha256_in_prefix": "818287ef9aea473ceed5d4100fe6d11078afebcfaddc9a2e73eec5a160dee571",
+        "size_in_bytes": 326
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "0d823d1b9fed483039999092d3be1bdd2528c34459fdd959bae2f5d8f5f84f49",
+        "sha256_in_prefix": "0d823d1b9fed483039999092d3be1bdd2528c34459fdd959bae2f5d8f5f84f49",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "69f2ac180a12b29baa25215b879b90579c674b4ac4ccdda3795d2fb29142f56e",
+        "sha256_in_prefix": "69f2ac180a12b29baa25215b879b90579c674b4ac4ccdda3795d2fb29142f56e",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "76c2da6b820d9b89bd1b1916eaa045bcb84ce369dfc13b10a4c6b52df7dd00d7",
+        "sha256_in_prefix": "76c2da6b820d9b89bd1b1916eaa045bcb84ce369dfc13b10a4c6b52df7dd00d7",
+        "size_in_bytes": 535
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "a21b0cb6a23e2b4c93debf745f9397eccbbced5eca67b9a470c8d6b28e948caa",
+        "sha256_in_prefix": "a21b0cb6a23e2b4c93debf745f9397eccbbced5eca67b9a470c8d6b28e948caa",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "040ca1a4c167a7b56e5b43bfb68da504bb6fff579bbe28bdaaa6ca8df6614531",
+        "sha256_in_prefix": "040ca1a4c167a7b56e5b43bfb68da504bb6fff579bbe28bdaaa6ca8df6614531",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "840f42939f4d26ceb9fd0014dc8d7c9ddcad28efa33f3eab8b0022e908add39a",
+        "sha256_in_prefix": "840f42939f4d26ceb9fd0014dc8d7c9ddcad28efa33f3eab8b0022e908add39a",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "3e9db34a6c1809dfaa5ef8af2be624f5b173a8207c3a1fc3420c7170f27858c3",
+        "sha256_in_prefix": "3e9db34a6c1809dfaa5ef8af2be624f5b173a8207c3a1fc3420c7170f27858c3",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "df4452937df44f677f02eb9417fb44eb4d665737d6821e72c0b1794c2cb22b65",
+        "sha256_in_prefix": "df4452937df44f677f02eb9417fb44eb4d665737d6821e72c0b1794c2cb22b65",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "46c457fe8a9b628fcc57b5f37e1cda366cc65fe71ee1c322d1233182ada04c9e",
+        "sha256_in_prefix": "46c457fe8a9b628fcc57b5f37e1cda366cc65fe71ee1c322d1233182ada04c9e",
+        "size_in_bytes": 6187
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/R/RcppAnnoy",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/R/RcppAnnoy.rdb",
+        "path_type": "hardlink",
+        "sha256": "ab46464e7c685d935a629d06102447a8534ee59a91b9a1615cbf5743a62da620",
+        "sha256_in_prefix": "ab46464e7c685d935a629d06102447a8534ee59a91b9a1615cbf5743a62da620",
+        "size_in_bytes": 6125
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/R/RcppAnnoy.rdx",
+        "path_type": "hardlink",
+        "sha256": "f04bac5545c7a24dbb3dc6568003ed0cd8f799c6d15782cce03bd0f63f834378",
+        "sha256_in_prefix": "f04bac5545c7a24dbb3dc6568003ed0cd8f799c6d15782cce03bd0f63f834378",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/demo/simpleExample.R",
+        "path_type": "hardlink",
+        "sha256": "116135b59bafda51cad27cf7d1a2e7118e87d463d827b48740cbe970a4be638e",
+        "sha256_in_prefix": "116135b59bafda51cad27cf7d1a2e7118e87d463d827b48740cbe970a4be638e",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/doc/UsingAnnoyInCcppWrapper.Rnw",
+        "path_type": "hardlink",
+        "sha256": "2b681e378517634a0305be95229f06b1c68d75b98c9199b88adf56179967615a",
+        "sha256_in_prefix": "2b681e378517634a0305be95229f06b1c68d75b98c9199b88adf56179967615a",
+        "size_in_bytes": 277
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/doc/UsingAnnoyInCcppWrapper.pdf",
+        "path_type": "hardlink",
+        "sha256": "00ca2e416ab43a03f83675c8868a4ea48e3a6cc9f68bd5ce3d360eec9fcfea36",
+        "sha256_in_prefix": "00ca2e416ab43a03f83675c8868a4ea48e3a6cc9f68bd5ce3d360eec9fcfea36",
+        "size_in_bytes": 196206
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "606a29831a1ecf2fb025d61ea4ec1c0ac6e10987e8872c4e72b47ba2eff98193",
+        "sha256_in_prefix": "606a29831a1ecf2fb025d61ea4ec1c0ac6e10987e8872c4e72b47ba2eff98193",
+        "size_in_bytes": 1343
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "07b1b6e25e6431f7d6b64fa4ed41b756077fad39776ca3ba3d94c279cc5487dd",
+        "sha256_in_prefix": "07b1b6e25e6431f7d6b64fa4ed41b756077fad39776ca3ba3d94c279cc5487dd",
+        "size_in_bytes": 557
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/help/RcppAnnoy.rdb",
+        "path_type": "hardlink",
+        "sha256": "d504045dc866ae569e8a3e1624bd243f4d8fd7ade7d5c93b3e7020fd97b13678",
+        "sha256_in_prefix": "d504045dc866ae569e8a3e1624bd243f4d8fd7ade7d5c93b3e7020fd97b13678",
+        "size_in_bytes": 10167
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/help/RcppAnnoy.rdx",
+        "path_type": "hardlink",
+        "sha256": "6671caefab7feca7820bf13ba094a41bb8c4814bf44dd410bd853fa42bb08855",
+        "sha256_in_prefix": "6671caefab7feca7820bf13ba094a41bb8c4814bf44dd410bd853fa42bb08855",
+        "size_in_bytes": 267
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a532058821f41fa4d7a9ad11005204c1f5affbb6054f153346c53742f472f8b4",
+        "sha256_in_prefix": "a532058821f41fa4d7a9ad11005204c1f5affbb6054f153346c53742f472f8b4",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "bd950a8658c41e3ee2a67e6c78c973a9fadae2b28d58c2d0d97d7faf0c17531e",
+        "sha256_in_prefix": "bd950a8658c41e3ee2a67e6c78c973a9fadae2b28d58c2d0d97d7faf0c17531e",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "0f87b285d6f8a022eaa406856128f7e048ba5a7a4195f1782f6fbdc70bad3c3e",
+        "sha256_in_prefix": "0f87b285d6f8a022eaa406856128f7e048ba5a7a4195f1782f6fbdc70bad3c3e",
+        "size_in_bytes": 3838
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/include/RcppAnnoy.h",
+        "path_type": "hardlink",
+        "sha256": "cbdc1f721e0ffbc88a47a6d4f43711187eb71086df1b64a87432b163a05ed85d",
+        "sha256_in_prefix": "cbdc1f721e0ffbc88a47a6d4f43711187eb71086df1b64a87432b163a05ed85d",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/include/annoylib.h",
+        "path_type": "hardlink",
+        "sha256": "9872ba018567c1bfa776e9e98a14054567396a47ae7b8d732100c181085b608f",
+        "sha256_in_prefix": "9872ba018567c1bfa776e9e98a14054567396a47ae7b8d732100c181085b608f",
+        "size_in_bytes": 45361
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/include/kissrandom.h",
+        "path_type": "hardlink",
+        "sha256": "b055f7956c6b3755e5becff73c8bc4dae2d9be25b2b44177a67cff039e768b9c",
+        "sha256_in_prefix": "b055f7956c6b3755e5becff73c8bc4dae2d9be25b2b44177a67cff039e768b9c",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/include/mman.h",
+        "path_type": "hardlink",
+        "sha256": "8749f6953edc912d9f5c15da8efd9c4b695b6242944163d0736dfa806df32fe5",
+        "sha256_in_prefix": "8749f6953edc912d9f5c15da8efd9c4b695b6242944163d0736dfa806df32fe5",
+        "size_in_bytes": 5791
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/libs/RcppAnnoy.so",
+        "path_type": "hardlink",
+        "sha256": "b5252a5bb5810891e9cd043d601e81a3b8d371738bd48aaf9da5cff00ddb9be3",
+        "sha256_in_prefix": "b5252a5bb5810891e9cd043d601e81a3b8d371738bd48aaf9da5cff00ddb9be3",
+        "size_in_bytes": 689888
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/rmd/UsingAnnoyInCpp.Rmd",
+        "path_type": "hardlink",
+        "sha256": "e8dfdc9cc740a1741c7e4938ec9d73f79352c28ba385a54c9c8cc1bf26010a55",
+        "sha256_in_prefix": "e8dfdc9cc740a1741c7e4938ec9d73f79352c28ba385a54c9c8cc1bf26010a55",
+        "size_in_bytes": 8336
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/rmd/rcppannoy.bib",
+        "path_type": "hardlink",
+        "sha256": "bbf43723c10686fa4b4882e97612b44d60aa1ddf2b2da55c0cd1ba526996e1f6",
+        "sha256_in_prefix": "bbf43723c10686fa4b4882e97612b44d60aa1ddf2b2da55c0cd1ba526996e1f6",
+        "size_in_bytes": 2799
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/data/test.tree",
+        "path_type": "hardlink",
+        "sha256": "e5cf47bcd5bdc380f1b1cada358edf24de38dc6fab27c867b3eb2057aee72c67",
+        "sha256_in_prefix": "e5cf47bcd5bdc380f1b1cada358edf24de38dc6fab27c867b3eb2057aee72c67",
+        "size_in_bytes": 18824
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testAngular.R",
+        "path_type": "hardlink",
+        "sha256": "ea7b9e8481a3ec3025d34c59b678ee58928dee57340d3be0199f2b0991480bca",
+        "sha256_in_prefix": "ea7b9e8481a3ec3025d34c59b678ee58928dee57340d3be0199f2b0991480bca",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testEuclidean.R",
+        "path_type": "hardlink",
+        "sha256": "648278ee0b0c1ea07a2203b2a31205b8883727afc0057abb81d7e113ecb1d843",
+        "sha256_in_prefix": "648278ee0b0c1ea07a2203b2a31205b8883727afc0057abb81d7e113ecb1d843",
+        "size_in_bytes": 2609
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testHamming.R",
+        "path_type": "hardlink",
+        "sha256": "996c8d34cedca7b639f366afd26a9ee8e0c7ad3b6c4442fb8d7a4d0c87d681b6",
+        "sha256_in_prefix": "996c8d34cedca7b639f366afd26a9ee8e0c7ad3b6c4442fb8d7a4d0c87d681b6",
+        "size_in_bytes": 2745
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testIndex.R",
+        "path_type": "hardlink",
+        "sha256": "3beea911d3dedefee625b8cfe6f357948868c0c80a5d599d9d7677a1aab045eb",
+        "sha256_in_prefix": "3beea911d3dedefee625b8cfe6f357948868c0c80a5d599d9d7677a1aab045eb",
+        "size_in_bytes": 1129
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testManhattan.R",
+        "path_type": "hardlink",
+        "sha256": "b887932c385b3ab3241aaa7ec5f0b026a27089c9f71a81d8be8d87086c41ba78",
+        "sha256_in_prefix": "b887932c385b3ab3241aaa7ec5f0b026a27089c9f71a81d8be8d87086c41ba78",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testOnDiskBuild.R",
+        "path_type": "hardlink",
+        "sha256": "7c119c67b15b021b7829d92b580fc805e397bd4e55a9e8b264da63204e8fd111",
+        "sha256_in_prefix": "7c119c67b15b021b7829d92b580fc805e397bd4e55a9e8b264da63204e8fd111",
+        "size_in_bytes": 1098
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testSeeds.R",
+        "path_type": "hardlink",
+        "sha256": "c58fc52bad980ac347b622b3841003dcf86c9dca772d36c2644f2e2e59ffd263",
+        "sha256_in_prefix": "c58fc52bad980ac347b622b3841003dcf86c9dca772d36c2644f2e2e59ffd263",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "lib/R/library/RcppAnnoy/tinytest/testVignette.R",
+        "path_type": "hardlink",
+        "sha256": "edc60371d5720f7d1a8e0e46c9b8ffae8562a4bf1c3bd6a2a5292e04beb116eb",
+        "sha256_in_prefix": "edc60371d5720f7d1a8e0e46c9b8ffae8562a4bf1c3bd6a2a5292e04beb116eb",
+        "size_in_bytes": 710
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9b875b4838995897df0fe0dfc77ce89a964345b82c7b318c36306f67a0d6ce19",
+  "size": 464732,
+  "subdir": "linux-64",
+  "timestamp": 1608128764000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rcppannoy-0.0.18-r36h03ef668_0.tar.bz2",
+  "version": "0.0.18"
+}

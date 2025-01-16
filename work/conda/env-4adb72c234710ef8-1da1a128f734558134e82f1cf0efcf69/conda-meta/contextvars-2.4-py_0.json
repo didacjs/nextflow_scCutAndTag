@@ -1,0 +1,97 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "immutables >=0.9",
+    "python >=3,<3.7"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/contextvars-2.4-py_0",
+  "files": [
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/LICENSE",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/METADATA",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/RECORD",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/WHEEL",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/contextvars/__init__.py",
+    "lib/python3.6/site-packages/contextvars/__pycache__/__init__.cpython-36.pyc"
+  ],
+  "fn": "contextvars-2.4-py_0.tar.bz2",
+  "license": "Apache",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/contextvars-2.4-py_0",
+    "type": 1
+  },
+  "md5": "295fe9300971a6bd1dc4b18ad6509be2",
+  "name": "contextvars",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/contextvars-2.4-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "345d681f653494674852fed7b4958e27ac1d7a699daca244db764c491c24aa61",
+        "sha256_in_prefix": "345d681f653494674852fed7b4958e27ac1d7a699daca244db764c491c24aa61",
+        "size_in_bytes": 11438
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b69d643e6a4e4abccaa3bcd59ca0c84cc658aa5c07f8ab499a824d29e2cbf16a",
+        "sha256_in_prefix": "b69d643e6a4e4abccaa3bcd59ca0c84cc658aa5c07f8ab499a824d29e2cbf16a",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9fc2290ae3075e2d93f03ee7f48aa8155ae5c81e2059e767eb891272fd4e673c",
+        "sha256_in_prefix": "9fc2290ae3075e2d93f03ee7f48aa8155ae5c81e2059e767eb891272fd4e673c",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "baf39fb0fb9ef4a5ce2ee9816955f321a536d8664d87a644231a3193a30dce7c",
+        "sha256_in_prefix": "baf39fb0fb9ef4a5ce2ee9816955f321a536d8664d87a644231a3193a30dce7c",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "78808596bbab423e6340ec7c7e72e4e2115c1d56bab03575be4a0481c367bbe5",
+        "sha256_in_prefix": "78808596bbab423e6340ec7c7e72e4e2115c1d56bab03575be4a0481c367bbe5",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/contextvars/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bfbe85c3458cf0383338752d4368c199748e19308e053209a40b33f96a4ac9ab",
+        "sha256_in_prefix": "bfbe85c3458cf0383338752d4368c199748e19308e053209a40b33f96a4ac9ab",
+        "size_in_bytes": 5113
+      },
+      {
+        "_path": "lib/python3.6/site-packages/contextvars/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4312a2e15ae4c4e12be940392e4f6eae5991aebf675444119c3d5e1f6e60d44f",
+  "size": 11297,
+  "subdir": "noarch",
+  "timestamp": 1554135282000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/contextvars-2.4-py_0.tar.bz2",
+  "version": "2.4"
+}

@@ -1,0 +1,17 @@
+#!/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/bin/python3.6
+if __name__ == '__main__':
+    import sys
+    import pathlib
+
+    executable = pathlib.Path(sys.executable or 'python3').name
+    print('WARNING: the pyenv script is deprecated in favour of '
+          f'`{executable} -m venv`', file=sys.stderr)
+
+    rc = 1
+    try:
+        import venv
+        venv.main()
+        rc = 0
+    except Exception as e:
+        print('Error: %s' % e, file=sys.stderr)
+    sys.exit(rc)

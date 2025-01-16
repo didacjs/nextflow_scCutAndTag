@@ -1,0 +1,10 @@
+#!/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/bin/python3.6
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from rsa.cli import encrypt
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(encrypt())

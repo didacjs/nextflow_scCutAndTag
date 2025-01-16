@@ -1,0 +1,290 @@
+{
+  "build": "r36h6115d3f_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-gplots"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rocr-1.0_11-r36h6115d3f_1",
+  "files": [
+    "lib/R/library/ROCR/CITATION",
+    "lib/R/library/ROCR/DESCRIPTION",
+    "lib/R/library/ROCR/INDEX",
+    "lib/R/library/ROCR/Meta/Rd.rds",
+    "lib/R/library/ROCR/Meta/data.rds",
+    "lib/R/library/ROCR/Meta/demo.rds",
+    "lib/R/library/ROCR/Meta/features.rds",
+    "lib/R/library/ROCR/Meta/hsearch.rds",
+    "lib/R/library/ROCR/Meta/links.rds",
+    "lib/R/library/ROCR/Meta/nsInfo.rds",
+    "lib/R/library/ROCR/Meta/package.rds",
+    "lib/R/library/ROCR/Meta/vignette.rds",
+    "lib/R/library/ROCR/NAMESPACE",
+    "lib/R/library/ROCR/NEWS",
+    "lib/R/library/ROCR/R/ROCR",
+    "lib/R/library/ROCR/R/ROCR.rdb",
+    "lib/R/library/ROCR/R/ROCR.rdx",
+    "lib/R/library/ROCR/data/ROCR.hiv.rda",
+    "lib/R/library/ROCR/data/ROCR.simple.rda",
+    "lib/R/library/ROCR/data/ROCR.xval.rda",
+    "lib/R/library/ROCR/demo/ROCR.R",
+    "lib/R/library/ROCR/doc/ROCR.R",
+    "lib/R/library/ROCR/doc/ROCR.Rmd",
+    "lib/R/library/ROCR/doc/ROCR.html",
+    "lib/R/library/ROCR/doc/index.html",
+    "lib/R/library/ROCR/help/AnIndex",
+    "lib/R/library/ROCR/help/ROCR.rdb",
+    "lib/R/library/ROCR/help/ROCR.rdx",
+    "lib/R/library/ROCR/help/aliases.rds",
+    "lib/R/library/ROCR/help/paths.rds",
+    "lib/R/library/ROCR/html/00Index.html",
+    "lib/R/library/ROCR/html/R.css"
+  ],
+  "fn": "r-rocr-1.0_11-r36h6115d3f_1.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rocr-1.0_11-r36h6115d3f_1",
+    "type": 1
+  },
+  "md5": "b42fbbdc27775248ad30355bbc2372f3",
+  "name": "r-rocr",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rocr-1.0_11-r36h6115d3f_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ROCR/CITATION",
+        "path_type": "hardlink",
+        "sha256": "142fb3a760fc25d6db049b449f01858f27f9d19af50f0c0fd937bac180f5fa37",
+        "sha256_in_prefix": "142fb3a760fc25d6db049b449f01858f27f9d19af50f0c0fd937bac180f5fa37",
+        "size_in_bytes": 759
+      },
+      {
+        "_path": "lib/R/library/ROCR/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "6f311f69f69cf9d6ce0e8b1b07fb206583e30e81920b14f61b5ed11d2bba121b",
+        "sha256_in_prefix": "6f311f69f69cf9d6ce0e8b1b07fb206583e30e81920b14f61b5ed11d2bba121b",
+        "size_in_bytes": 2436
+      },
+      {
+        "_path": "lib/R/library/ROCR/INDEX",
+        "path_type": "hardlink",
+        "sha256": "ac067c2f9f9475b688578ef1e959bb7b801fb6719b69beee84a26cfcca803882",
+        "sha256_in_prefix": "ac067c2f9f9475b688578ef1e959bb7b801fb6719b69beee84a26cfcca803882",
+        "size_in_bytes": 669
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "1ab11e6c977195d751a2daf3f13c2759da5ea1a155a8bc98b271d71f42a05788",
+        "sha256_in_prefix": "1ab11e6c977195d751a2daf3f13c2759da5ea1a155a8bc98b271d71f42a05788",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "78c18e1831e708d9d0ac3a64bd9af1af7d81cca66f9cea3f96b5e839ee7bd4f3",
+        "sha256_in_prefix": "78c18e1831e708d9d0ac3a64bd9af1af7d81cca66f9cea3f96b5e839ee7bd4f3",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/demo.rds",
+        "path_type": "hardlink",
+        "sha256": "2efb5c4546531339562746ce29e02bb67f96447fe6de7fe8763868929902008a",
+        "sha256_in_prefix": "2efb5c4546531339562746ce29e02bb67f96447fe6de7fe8763868929902008a",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "35de2eac3fc86d52aef13246b2f2b3ec7f7b0593b38b41bb4ac25ecea6e7f9c0",
+        "sha256_in_prefix": "35de2eac3fc86d52aef13246b2f2b3ec7f7b0593b38b41bb4ac25ecea6e7f9c0",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "14a06a9304bad02e975e1e3a2391a923826e73b73e63a3a9c7424a200f5ad641",
+        "sha256_in_prefix": "14a06a9304bad02e975e1e3a2391a923826e73b73e63a3a9c7424a200f5ad641",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "045279681252364228873cc2069c923f23b0eafed4f462976cd2dffd8fd07d32",
+        "sha256_in_prefix": "045279681252364228873cc2069c923f23b0eafed4f462976cd2dffd8fd07d32",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "3861cd54ddfeafb60667f12ec0ce5e832f3ed47758d7853769c4f9aceda9f7ae",
+        "sha256_in_prefix": "3861cd54ddfeafb60667f12ec0ce5e832f3ed47758d7853769c4f9aceda9f7ae",
+        "size_in_bytes": 1635
+      },
+      {
+        "_path": "lib/R/library/ROCR/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "082629c44417c8d92b989473a4fee0cfa40dbb2620980bdcdf94fa9a8a82f0cb",
+        "sha256_in_prefix": "082629c44417c8d92b989473a4fee0cfa40dbb2620980bdcdf94fa9a8a82f0cb",
+        "size_in_bytes": 187
+      },
+      {
+        "_path": "lib/R/library/ROCR/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "cee93f2eb50e383173272988031079831c9a9718ea315716a13d97162fd5307c",
+        "sha256_in_prefix": "cee93f2eb50e383173272988031079831c9a9718ea315716a13d97162fd5307c",
+        "size_in_bytes": 561
+      },
+      {
+        "_path": "lib/R/library/ROCR/NEWS",
+        "path_type": "hardlink",
+        "sha256": "151b82356202caad567750bd0897f050e85b6b969dfed10fa1d1e85510a246aa",
+        "sha256_in_prefix": "151b82356202caad567750bd0897f050e85b6b969dfed10fa1d1e85510a246aa",
+        "size_in_bytes": 1059
+      },
+      {
+        "_path": "lib/R/library/ROCR/R/ROCR",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ROCR/R/ROCR.rdb",
+        "path_type": "hardlink",
+        "sha256": "97f39582872bd6390b5247d9a669e0c3d77c3ffd49b9db8c16cc693915fdac84",
+        "sha256_in_prefix": "97f39582872bd6390b5247d9a669e0c3d77c3ffd49b9db8c16cc693915fdac84",
+        "size_in_bytes": 154459
+      },
+      {
+        "_path": "lib/R/library/ROCR/R/ROCR.rdx",
+        "path_type": "hardlink",
+        "sha256": "0b760a44ab5aaec9f889d4f0be093bb1e10ad9fc634e542e4da38ec7b71f2485",
+        "sha256_in_prefix": "0b760a44ab5aaec9f889d4f0be093bb1e10ad9fc634e542e4da38ec7b71f2485",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "lib/R/library/ROCR/data/ROCR.hiv.rda",
+        "path_type": "hardlink",
+        "sha256": "96f92c56b8d49c2faee744f1786a8da758de4da400f379f41dd0614da7025916",
+        "sha256_in_prefix": "96f92c56b8d49c2faee744f1786a8da758de4da400f379f41dd0614da7025916",
+        "size_in_bytes": 50719
+      },
+      {
+        "_path": "lib/R/library/ROCR/data/ROCR.simple.rda",
+        "path_type": "hardlink",
+        "sha256": "274e31d46b331017c0d4b52f692be99f027a525c44164374d942a12ae63e7bd3",
+        "sha256_in_prefix": "274e31d46b331017c0d4b52f692be99f027a525c44164374d942a12ae63e7bd3",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/R/library/ROCR/data/ROCR.xval.rda",
+        "path_type": "hardlink",
+        "sha256": "b15ae291ef8602a7b2db9e5092fd31aa67d1ca5e03b96218a2b0a16d73013913",
+        "sha256_in_prefix": "b15ae291ef8602a7b2db9e5092fd31aa67d1ca5e03b96218a2b0a16d73013913",
+        "size_in_bytes": 20561
+      },
+      {
+        "_path": "lib/R/library/ROCR/demo/ROCR.R",
+        "path_type": "hardlink",
+        "sha256": "2186132b530ce24449880afff537bd8fe8b403581257e8c09d88f5cd6b3851cb",
+        "sha256_in_prefix": "2186132b530ce24449880afff537bd8fe8b403581257e8c09d88f5cd6b3851cb",
+        "size_in_bytes": 9611
+      },
+      {
+        "_path": "lib/R/library/ROCR/doc/ROCR.R",
+        "path_type": "hardlink",
+        "sha256": "43a69a944939b2979c5258d7d004a8f88509bfb4f87df5c8ff28e0f8299a6e53",
+        "sha256_in_prefix": "43a69a944939b2979c5258d7d004a8f88509bfb4f87df5c8ff28e0f8299a6e53",
+        "size_in_bytes": 7204
+      },
+      {
+        "_path": "lib/R/library/ROCR/doc/ROCR.Rmd",
+        "path_type": "hardlink",
+        "sha256": "187df1288611e6b9f454c58dfa77278db00f5078947defe5585f35c89ef2753e",
+        "sha256_in_prefix": "187df1288611e6b9f454c58dfa77278db00f5078947defe5585f35c89ef2753e",
+        "size_in_bytes": 13010
+      },
+      {
+        "_path": "lib/R/library/ROCR/doc/ROCR.html",
+        "path_type": "hardlink",
+        "sha256": "6828cdefb267e18e731dbd6a1e81c0b68ad8dbd86711bf3c2a78edd2a690a379",
+        "sha256_in_prefix": "6828cdefb267e18e731dbd6a1e81c0b68ad8dbd86711bf3c2a78edd2a690a379",
+        "size_in_bytes": 210188
+      },
+      {
+        "_path": "lib/R/library/ROCR/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "c3e10dc3d83239c994273e90db44e610de134f18d132cad9ba703f1655d8a9fa",
+        "sha256_in_prefix": "c3e10dc3d83239c994273e90db44e610de134f18d132cad9ba703f1655d8a9fa",
+        "size_in_bytes": 1284
+      },
+      {
+        "_path": "lib/R/library/ROCR/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "f95464c1a35e3fd3c43ffa929059f579a8a1ae233fcd714bab4a4d6f52097236",
+        "sha256_in_prefix": "f95464c1a35e3fd3c43ffa929059f579a8a1ae233fcd714bab4a4d6f52097236",
+        "size_in_bytes": 279
+      },
+      {
+        "_path": "lib/R/library/ROCR/help/ROCR.rdb",
+        "path_type": "hardlink",
+        "sha256": "c59e735db4dc9f10bdb69c15de84fc0f15611e1496741568f8a3e54aaabb4eb4",
+        "sha256_in_prefix": "c59e735db4dc9f10bdb69c15de84fc0f15611e1496741568f8a3e54aaabb4eb4",
+        "size_in_bytes": 35961
+      },
+      {
+        "_path": "lib/R/library/ROCR/help/ROCR.rdx",
+        "path_type": "hardlink",
+        "sha256": "a965a0f1f59139f5b297f443eaa8d04aaa5e6f7f575aff977b2fca011057e8e9",
+        "sha256_in_prefix": "a965a0f1f59139f5b297f443eaa8d04aaa5e6f7f575aff977b2fca011057e8e9",
+        "size_in_bytes": 341
+      },
+      {
+        "_path": "lib/R/library/ROCR/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "160bf4e37f129f8fb5388ce3b4c8c197d2b1a949317d14ad7c765adaa1e29824",
+        "sha256_in_prefix": "160bf4e37f129f8fb5388ce3b4c8c197d2b1a949317d14ad7c765adaa1e29824",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/R/library/ROCR/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "0a6d4338038eebae9a77cd58177713a3f81d18a84ea58253793a3e24c986e190",
+        "sha256_in_prefix": "0a6d4338038eebae9a77cd58177713a3f81d18a84ea58253793a3e24c986e190",
+        "size_in_bytes": 236
+      },
+      {
+        "_path": "lib/R/library/ROCR/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "5e9596a86ce9c4f1496bcbba50715683397a5b12b3b8b4ed6158d65516a7d8cb",
+        "sha256_in_prefix": "5e9596a86ce9c4f1496bcbba50715683397a5b12b3b8b4ed6158d65516a7d8cb",
+        "size_in_bytes": 2591
+      },
+      {
+        "_path": "lib/R/library/ROCR/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1b496d696d8f0c46b976f29d16f2239fc8f1542a5915037ac042ff40bd88f59c",
+  "size": 449062,
+  "subdir": "linux-64",
+  "timestamp": 1588559931000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rocr-1.0_11-r36h6115d3f_1.tar.bz2",
+  "version": "1.0_11"
+}

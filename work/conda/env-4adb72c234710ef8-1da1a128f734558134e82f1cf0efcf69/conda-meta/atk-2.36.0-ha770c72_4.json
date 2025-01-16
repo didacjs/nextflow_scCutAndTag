@@ -1,0 +1,31 @@
+{
+  "build": "ha770c72_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "atk-1.0 2.36.0.*"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/atk-2.36.0-ha770c72_4",
+  "files": [],
+  "fn": "atk-2.36.0-ha770c72_4.tar.bz2",
+  "license": "LGPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/atk-2.36.0-ha770c72_4",
+    "type": 1
+  },
+  "md5": "a880a89229c23d0c6aa99f1cc352d7a0",
+  "name": "atk",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/atk-2.36.0-ha770c72_4.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fd050f2137d2dbdb35b4c4d43a3fc79c5e1061c9cd9aea733076835d510ef931",
+  "size": 12220,
+  "subdir": "linux-64",
+  "timestamp": 1605190217000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/atk-2.36.0-ha770c72_4.tar.bz2",
+  "version": "2.36.0"
+}

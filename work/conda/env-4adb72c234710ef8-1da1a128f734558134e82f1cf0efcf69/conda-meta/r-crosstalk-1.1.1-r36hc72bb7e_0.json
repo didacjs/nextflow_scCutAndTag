@@ -1,0 +1,567 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-htmltools >=0.3.6",
+    "r-jsonlite",
+    "r-lazyeval",
+    "r-r6"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-crosstalk-1.1.1-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/crosstalk/DESCRIPTION",
+    "lib/R/library/crosstalk/INDEX",
+    "lib/R/library/crosstalk/LICENSE",
+    "lib/R/library/crosstalk/Meta/Rd.rds",
+    "lib/R/library/crosstalk/Meta/features.rds",
+    "lib/R/library/crosstalk/Meta/hsearch.rds",
+    "lib/R/library/crosstalk/Meta/links.rds",
+    "lib/R/library/crosstalk/Meta/nsInfo.rds",
+    "lib/R/library/crosstalk/Meta/package.rds",
+    "lib/R/library/crosstalk/NAMESPACE",
+    "lib/R/library/crosstalk/NEWS.md",
+    "lib/R/library/crosstalk/R/crosstalk",
+    "lib/R/library/crosstalk/R/crosstalk.rdb",
+    "lib/R/library/crosstalk/R/crosstalk.rdx",
+    "lib/R/library/crosstalk/help/AnIndex",
+    "lib/R/library/crosstalk/help/aliases.rds",
+    "lib/R/library/crosstalk/help/crosstalk.rdb",
+    "lib/R/library/crosstalk/help/crosstalk.rdx",
+    "lib/R/library/crosstalk/help/paths.rds",
+    "lib/R/library/crosstalk/html/00Index.html",
+    "lib/R/library/crosstalk/html/R.css",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.css",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.css.map",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.min.css",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.min.css.map",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.css",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.css.map",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.min.css",
+    "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.min.css.map",
+    "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.eot",
+    "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.svg",
+    "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+    "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.woff",
+    "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+    "lib/R/library/crosstalk/lib/bootstrap/js/bootstrap.js",
+    "lib/R/library/crosstalk/lib/bootstrap/js/bootstrap.min.js",
+    "lib/R/library/crosstalk/lib/bootstrap/js/npm.js",
+    "lib/R/library/crosstalk/lib/bootstrap/shim/html5shiv.min.js",
+    "lib/R/library/crosstalk/lib/bootstrap/shim/respond.min.js",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinFlat.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinHTML5.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinModern.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinNice.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinShiny.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinSimple.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/css/normalize.css",
+    "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-flat.png",
+    "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-modern.png",
+    "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-nice.png",
+    "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-simple.png",
+    "lib/R/library/crosstalk/lib/ionrangeslider/js/ion.rangeSlider.js",
+    "lib/R/library/crosstalk/lib/ionrangeslider/js/ion.rangeSlider.min.js",
+    "lib/R/library/crosstalk/lib/jquery/jquery-AUTHORS.txt",
+    "lib/R/library/crosstalk/lib/jquery/jquery.js",
+    "lib/R/library/crosstalk/lib/jquery/jquery.min.js",
+    "lib/R/library/crosstalk/lib/jquery/jquery.min.map",
+    "lib/R/library/crosstalk/lib/selectize/css/selectize.bootstrap3.css",
+    "lib/R/library/crosstalk/lib/selectize/js/es5-shim.min.js",
+    "lib/R/library/crosstalk/lib/selectize/js/selectize.min.js",
+    "lib/R/library/crosstalk/lib/strftime/strftime-min.js",
+    "lib/R/library/crosstalk/www/css/crosstalk.css",
+    "lib/R/library/crosstalk/www/js/crosstalk.js",
+    "lib/R/library/crosstalk/www/js/crosstalk.js.map",
+    "lib/R/library/crosstalk/www/js/crosstalk.min.js",
+    "lib/R/library/crosstalk/www/js/crosstalk.min.js.map"
+  ],
+  "fn": "r-crosstalk-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-crosstalk-1.1.1-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "993f245cdb0ea0bf86c1d0fc2d5fa194",
+  "name": "r-crosstalk",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-crosstalk-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/crosstalk/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "641d71e7023194cd92df6fff9d52a6f447ff0b612d85906642976a9c4284e9a0",
+        "sha256_in_prefix": "641d71e7023194cd92df6fff9d52a6f447ff0b612d85906642976a9c4284e9a0",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "lib/R/library/crosstalk/INDEX",
+        "path_type": "hardlink",
+        "sha256": "8313baa3768a3f4d65e0c29509ec631bf63dea8b34969c7b79ca9fe239b36f52",
+        "sha256_in_prefix": "8313baa3768a3f4d65e0c29509ec631bf63dea8b34969c7b79ca9fe239b36f52",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "lib/R/library/crosstalk/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6541e4a70d17998302ffa67fe0e79a08561f29291796cad0fe34905cac82c1ef",
+        "sha256_in_prefix": "6541e4a70d17998302ffa67fe0e79a08561f29291796cad0fe34905cac82c1ef",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/crosstalk/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d5265907df98829ce90dae417537deef67974713cae0317a14b5119c63291e8a",
+        "sha256_in_prefix": "d5265907df98829ce90dae417537deef67974713cae0317a14b5119c63291e8a",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "lib/R/library/crosstalk/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/crosstalk/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ec9776c0ea486c71fb8836784a721555d0b880323c1d4bf5a0ea44571a2124de",
+        "sha256_in_prefix": "ec9776c0ea486c71fb8836784a721555d0b880323c1d4bf5a0ea44571a2124de",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "lib/R/library/crosstalk/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "2b0abf63d8c8094bcb969ad86d0a51326453a09e79caff6403163d5806f015cc",
+        "sha256_in_prefix": "2b0abf63d8c8094bcb969ad86d0a51326453a09e79caff6403163d5806f015cc",
+        "size_in_bytes": 318
+      },
+      {
+        "_path": "lib/R/library/crosstalk/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d7db0baf3d2c482622cd89a63b905d872b59c69f57c23c01f98290ce0346143a",
+        "sha256_in_prefix": "d7db0baf3d2c482622cd89a63b905d872b59c69f57c23c01f98290ce0346143a",
+        "size_in_bytes": 393
+      },
+      {
+        "_path": "lib/R/library/crosstalk/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "fa98319c50efb3c8100623a06b037991d7851dc3aead9b105416433db52b6376",
+        "sha256_in_prefix": "fa98319c50efb3c8100623a06b037991d7851dc3aead9b105416433db52b6376",
+        "size_in_bytes": 1535
+      },
+      {
+        "_path": "lib/R/library/crosstalk/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "bc474f3bcbf0868cdf72a605f60638e564745c592cd758506a759e8eb5328744",
+        "sha256_in_prefix": "bc474f3bcbf0868cdf72a605f60638e564745c592cd758506a759e8eb5328744",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/R/library/crosstalk/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "8b92614c778847adc18fa4019716b3ec292ebb5ed928cea03766a85fb033358d",
+        "sha256_in_prefix": "8b92614c778847adc18fa4019716b3ec292ebb5ed928cea03766a85fb033358d",
+        "size_in_bytes": 556
+      },
+      {
+        "_path": "lib/R/library/crosstalk/R/crosstalk",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/crosstalk/R/crosstalk.rdb",
+        "path_type": "hardlink",
+        "sha256": "f323e8b057bb86638d0964a9f5b0a98d4b01d53c8e91aec857cb590bab3b86a2",
+        "sha256_in_prefix": "f323e8b057bb86638d0964a9f5b0a98d4b01d53c8e91aec857cb590bab3b86a2",
+        "size_in_bytes": 92335
+      },
+      {
+        "_path": "lib/R/library/crosstalk/R/crosstalk.rdx",
+        "path_type": "hardlink",
+        "sha256": "8d4b55cdb60943b367c3e11477430ba2bd482b7a3a6e92107df8e4734e8725e7",
+        "sha256_in_prefix": "8d4b55cdb60943b367c3e11477430ba2bd482b7a3a6e92107df8e4734e8725e7",
+        "size_in_bytes": 802
+      },
+      {
+        "_path": "lib/R/library/crosstalk/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "a54814d1455e9b6e803aff118ed8c7b3632fbd00bfbea64d608161c3d2d595c2",
+        "sha256_in_prefix": "a54814d1455e9b6e803aff118ed8c7b3632fbd00bfbea64d608161c3d2d595c2",
+        "size_in_bytes": 445
+      },
+      {
+        "_path": "lib/R/library/crosstalk/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "013f829e59b8b4a3ba950137b8b0ed1d69e7f9c3777ae3452c5ac24cefcace51",
+        "sha256_in_prefix": "013f829e59b8b4a3ba950137b8b0ed1d69e7f9c3777ae3452c5ac24cefcace51",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/crosstalk/help/crosstalk.rdb",
+        "path_type": "hardlink",
+        "sha256": "d43623de52683134538f4d9e7e3c3a8cc93ad8952523f223a4ad32c714082ef0",
+        "sha256_in_prefix": "d43623de52683134538f4d9e7e3c3a8cc93ad8952523f223a4ad32c714082ef0",
+        "size_in_bytes": 32646
+      },
+      {
+        "_path": "lib/R/library/crosstalk/help/crosstalk.rdx",
+        "path_type": "hardlink",
+        "sha256": "c09eaeaf8c7e0525ff4242ca8ab8b20743f53414bcf04a2415ef2c0ae4c40a8b",
+        "sha256_in_prefix": "c09eaeaf8c7e0525ff4242ca8ab8b20743f53414bcf04a2415ef2c0ae4c40a8b",
+        "size_in_bytes": 408
+      },
+      {
+        "_path": "lib/R/library/crosstalk/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6f05f93a3da31f33af3dc4e166b0d574b68eecd9c260fcdacdd14fef896c8fdf",
+        "sha256_in_prefix": "6f05f93a3da31f33af3dc4e166b0d574b68eecd9c260fcdacdd14fef896c8fdf",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/R/library/crosstalk/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "88b6c43e27ace9979e53deb6b9f532915a19b4f934a40749beb59f4017d39d81",
+        "sha256_in_prefix": "88b6c43e27ace9979e53deb6b9f532915a19b4f934a40749beb59f4017d39d81",
+        "size_in_bytes": 2562
+      },
+      {
+        "_path": "lib/R/library/crosstalk/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.css",
+        "path_type": "hardlink",
+        "sha256": "a0858cc08fdc8e11c1cf6b0fdefc8e1927350e61aa034f5e253a49759426b4df",
+        "sha256_in_prefix": "a0858cc08fdc8e11c1cf6b0fdefc8e1927350e61aa034f5e253a49759426b4df",
+        "size_in_bytes": 25682
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.css.map",
+        "path_type": "hardlink",
+        "sha256": "f2faa64d2fb77e336f19bbf344b5133dd9c62cba2818f779ff1397c0afa09fae",
+        "sha256_in_prefix": "f2faa64d2fb77e336f19bbf344b5133dd9c62cba2818f779ff1397c0afa09fae",
+        "size_in_bytes": 48005
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.min.css",
+        "path_type": "hardlink",
+        "sha256": "f2e1cc227d6bbb4192e4a3becdfed971c7fc530d76200e43add11c98cb962c53",
+        "sha256_in_prefix": "f2e1cc227d6bbb4192e4a3becdfed971c7fc530d76200e43add11c98cb962c53",
+        "size_in_bytes": 23411
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap-theme.min.css.map",
+        "path_type": "hardlink",
+        "sha256": "5ebabc49db378681cf6412aa00bd3b7a111a09f2815231f4b56e296fac486130",
+        "sha256_in_prefix": "5ebabc49db378681cf6412aa00bd3b7a111a09f2815231f4b56e296fac486130",
+        "size_in_bytes": 75600
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.css",
+        "path_type": "hardlink",
+        "sha256": "d170052c16caec3810f2dee6456539045d8e326f6d8ed7c7f78e59ed34de348a",
+        "sha256_in_prefix": "d170052c16caec3810f2dee6456539045d8e326f6d8ed7c7f78e59ed34de348a",
+        "size_in_bytes": 145933
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.css.map",
+        "path_type": "hardlink",
+        "sha256": "4a220750b3f226cd58bb2e6eef7634c06e122da1783f8a43fb251f6377e1d304",
+        "sha256_in_prefix": "4a220750b3f226cd58bb2e6eef7634c06e122da1783f8a43fb251f6377e1d304",
+        "size_in_bytes": 390887
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "6d92dfc1700fd38cd130ad818e23bc8aef697f815b2ea5face2b5dfad22f2e11",
+        "sha256_in_prefix": "6d92dfc1700fd38cd130ad818e23bc8aef697f815b2ea5face2b5dfad22f2e11",
+        "size_in_bytes": 121457
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/css/bootstrap.min.css.map",
+        "path_type": "hardlink",
+        "sha256": "78b58c9ebfd42ec2c61bc4fdf46a5df998e6cd907c773076a0a6e8f5686bafc3",
+        "sha256_in_prefix": "78b58c9ebfd42ec2c61bc4fdf46a5df998e6cd907c773076a0a6e8f5686bafc3",
+        "size_in_bytes": 540434
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.eot",
+        "path_type": "hardlink",
+        "sha256": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "sha256_in_prefix": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "size_in_bytes": 20127
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.svg",
+        "path_type": "hardlink",
+        "sha256": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+        "sha256_in_prefix": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+        "size_in_bytes": 108738
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf",
+        "path_type": "hardlink",
+        "sha256": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "sha256_in_prefix": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "size_in_bytes": 45404
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.woff",
+        "path_type": "hardlink",
+        "sha256": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "sha256_in_prefix": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "size_in_bytes": 23424
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2",
+        "path_type": "hardlink",
+        "sha256": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "sha256_in_prefix": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "size_in_bytes": 18028
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/js/bootstrap.js",
+        "path_type": "hardlink",
+        "sha256": "dbd2a35e72edc7d6bde483481a912f1c38aa57fab2747d9b071d317339ee03a2",
+        "sha256_in_prefix": "dbd2a35e72edc7d6bde483481a912f1c38aa57fab2747d9b071d317339ee03a2",
+        "size_in_bytes": 75484
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/js/bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe",
+        "sha256_in_prefix": "9ee2fcff6709e4d0d24b09ca0fc56aade12b4961ed9c43fd13b03248bfb57afe",
+        "size_in_bytes": 39680
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/js/npm.js",
+        "path_type": "hardlink",
+        "sha256": "c7aa82a1aa7d45224a38d926d2adaff7fe4aef5bcdafa2a47bdac057f4422c2d",
+        "sha256_in_prefix": "c7aa82a1aa7d45224a38d926d2adaff7fe4aef5bcdafa2a47bdac057f4422c2d",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/shim/html5shiv.min.js",
+        "path_type": "hardlink",
+        "sha256": "95ed2737d4ab0b494087a294b6eb4d28c13926f2c77ccf3bda4b1ae64bfd401a",
+        "sha256_in_prefix": "95ed2737d4ab0b494087a294b6eb4d28c13926f2c77ccf3bda4b1ae64bfd401a",
+        "size_in_bytes": 2722
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/bootstrap/shim/respond.min.js",
+        "path_type": "hardlink",
+        "sha256": "c7b66ee04aeac6fc31f77a14d5553af4047de35d2864fcf7560452a183dd4e62",
+        "sha256_in_prefix": "c7b66ee04aeac6fc31f77a14d5553af4047de35d2864fcf7560452a183dd4e62",
+        "size_in_bytes": 4463
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.css",
+        "path_type": "hardlink",
+        "sha256": "bae95129af94b2e45c808ddf211784f9899dd43a9b28ec62f634d7dc598a0e14",
+        "sha256_in_prefix": "bae95129af94b2e45c808ddf211784f9899dd43a9b28ec62f634d7dc598a0e14",
+        "size_in_bytes": 3406
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinFlat.css",
+        "path_type": "hardlink",
+        "sha256": "ab3085180d4e3d4d75dc9aab23284432a192632957670dbdc116423b0c94a875",
+        "sha256_in_prefix": "ab3085180d4e3d4d75dc9aab23284432a192632957670dbdc116423b0c94a875",
+        "size_in_bytes": 2206
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinHTML5.css",
+        "path_type": "hardlink",
+        "sha256": "1c66f216c5a9d7f0302d8fc6f081e44405b1d7b0365b802bb03356647da46c49",
+        "sha256_in_prefix": "1c66f216c5a9d7f0302d8fc6f081e44405b1d7b0365b802bb03356647da46c49",
+        "size_in_bytes": 2881
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinModern.css",
+        "path_type": "hardlink",
+        "sha256": "73d0131ae61fee5f68abfe9ba2452248c0bf5605a5b3c53e81043ed0ce3f3a5a",
+        "sha256_in_prefix": "73d0131ae61fee5f68abfe9ba2452248c0bf5605a5b3c53e81043ed0ce3f3a5a",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinNice.css",
+        "path_type": "hardlink",
+        "sha256": "2a6660a32cf432a9440336bbef8cc6618624f1f08df77d7d8b21864166ea1714",
+        "sha256_in_prefix": "2a6660a32cf432a9440336bbef8cc6618624f1f08df77d7d8b21864166ea1714",
+        "size_in_bytes": 2087
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinShiny.css",
+        "path_type": "hardlink",
+        "sha256": "42c1da7ca100f03cd11f0084b6de03d8dbc7e40391b53142914054ba71a82dd2",
+        "sha256_in_prefix": "42c1da7ca100f03cd11f0084b6de03d8dbc7e40391b53142914054ba71a82dd2",
+        "size_in_bytes": 2793
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/ion.rangeSlider.skinSimple.css",
+        "path_type": "hardlink",
+        "sha256": "51f87e57cc26576f5ec877edc9d8c064c22ae0c1f038a33e8f074e7d51c9ac94",
+        "sha256_in_prefix": "51f87e57cc26576f5ec877edc9d8c064c22ae0c1f038a33e8f074e7d51c9ac94",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/css/normalize.css",
+        "path_type": "hardlink",
+        "sha256": "b8a33b43a27c4ecefa09c6d3dace203fe9c2ac2a0653c788231bac88e389892a",
+        "sha256_in_prefix": "b8a33b43a27c4ecefa09c6d3dace203fe9c2ac2a0653c788231bac88e389892a",
+        "size_in_bytes": 7926
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-flat.png",
+        "path_type": "hardlink",
+        "sha256": "f2f42c58a4ff4bdc0429d4e59fa2d3a9cb65f6651c5f18260d30d6e71ef56553",
+        "sha256_in_prefix": "f2f42c58a4ff4bdc0429d4e59fa2d3a9cb65f6651c5f18260d30d6e71ef56553",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-modern.png",
+        "path_type": "hardlink",
+        "sha256": "af47a1ee4eafe8c3886ae89238bc0fa650ad635e2f9fad07a001dd7fca6a5f12",
+        "sha256_in_prefix": "af47a1ee4eafe8c3886ae89238bc0fa650ad635e2f9fad07a001dd7fca6a5f12",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-nice.png",
+        "path_type": "hardlink",
+        "sha256": "980aa5de95cbfe8024b746925eea294d19a58eea6c632e3453bfb8548844b249",
+        "sha256_in_prefix": "980aa5de95cbfe8024b746925eea294d19a58eea6c632e3453bfb8548844b249",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/img/sprite-skin-simple.png",
+        "path_type": "hardlink",
+        "sha256": "7682a23a95746d2cc25de61e123a933f3c4f77b20a8567b985875f3f2d39e085",
+        "sha256_in_prefix": "7682a23a95746d2cc25de61e123a933f3c4f77b20a8567b985875f3f2d39e085",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/js/ion.rangeSlider.js",
+        "path_type": "hardlink",
+        "sha256": "0fce2724e43881d0f81f310388406be80188bf5788760ff9dc6e7868991bb868",
+        "sha256_in_prefix": "0fce2724e43881d0f81f310388406be80188bf5788760ff9dc6e7868991bb868",
+        "size_in_bytes": 80037
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/ionrangeslider/js/ion.rangeSlider.min.js",
+        "path_type": "hardlink",
+        "sha256": "9a0b95b56b1f876aecc887c5e827c62e504abbae57b8e99bd6bc86200c606aae",
+        "sha256_in_prefix": "9a0b95b56b1f876aecc887c5e827c62e504abbae57b8e99bd6bc86200c606aae",
+        "size_in_bytes": 39191
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/jquery/jquery-AUTHORS.txt",
+        "path_type": "hardlink",
+        "sha256": "2e30eead6100c8d506d8606bf67d11713807a179bdca57a9e49974df5eaadbf4",
+        "sha256_in_prefix": "2e30eead6100c8d506d8606bf67d11713807a179bdca57a9e49974df5eaadbf4",
+        "size_in_bytes": 13369
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/jquery/jquery.js",
+        "path_type": "hardlink",
+        "sha256": "416a3b2c3bf16d64f6b5b6d0f7b079df2267614dd6847fc2f3271b4409233c37",
+        "sha256_in_prefix": "416a3b2c3bf16d64f6b5b6d0f7b079df2267614dd6847fc2f3271b4409233c37",
+        "size_in_bytes": 287630
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/jquery/jquery.min.js",
+        "path_type": "hardlink",
+        "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+        "sha256_in_prefix": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+        "size_in_bytes": 89476
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/jquery/jquery.min.map",
+        "path_type": "hardlink",
+        "sha256": "511d6f6d3e7acec78cd2505f04282b6e01329b4c24931f39d91739d0d1ddeef8",
+        "sha256_in_prefix": "511d6f6d3e7acec78cd2505f04282b6e01329b4c24931f39d91739d0d1ddeef8",
+        "size_in_bytes": 137986
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/selectize/css/selectize.bootstrap3.css",
+        "path_type": "hardlink",
+        "sha256": "e436c82c8507fcb8d08f5df4293fd1c75e1afb046e388aae7550c5803fe91f59",
+        "sha256_in_prefix": "e436c82c8507fcb8d08f5df4293fd1c75e1afb046e388aae7550c5803fe91f59",
+        "size_in_bytes": 10602
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/selectize/js/es5-shim.min.js",
+        "path_type": "hardlink",
+        "sha256": "f19c4efe1de7c63ed5a0611ca15445a8d08c9a0ae974655cd7d6795e2f96a531",
+        "sha256_in_prefix": "f19c4efe1de7c63ed5a0611ca15445a8d08c9a0ae974655cd7d6795e2f96a531",
+        "size_in_bytes": 8404
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/selectize/js/selectize.min.js",
+        "path_type": "hardlink",
+        "sha256": "c874531b5f01187b7e075fcd14a5ebca235ca29185cb9513312f5de6b6fd4ff1",
+        "sha256_in_prefix": "c874531b5f01187b7e075fcd14a5ebca235ca29185cb9513312f5de6b6fd4ff1",
+        "size_in_bytes": 42323
+      },
+      {
+        "_path": "lib/R/library/crosstalk/lib/strftime/strftime-min.js",
+        "path_type": "hardlink",
+        "sha256": "921174e7050fd77ba7df2409eef7fa0a561e53bc46898470538ef54106c1b9f1",
+        "sha256_in_prefix": "921174e7050fd77ba7df2409eef7fa0a561e53bc46898470538ef54106c1b9f1",
+        "size_in_bytes": 5720
+      },
+      {
+        "_path": "lib/R/library/crosstalk/www/css/crosstalk.css",
+        "path_type": "hardlink",
+        "sha256": "ff602ec8bb36339a181f6ff8271ae1169e6ef3f04c2137743769f2d22246226b",
+        "sha256_in_prefix": "ff602ec8bb36339a181f6ff8271ae1169e6ef3f04c2137743769f2d22246226b",
+        "size_in_bytes": 784
+      },
+      {
+        "_path": "lib/R/library/crosstalk/www/js/crosstalk.js",
+        "path_type": "hardlink",
+        "sha256": "6640e1c8218f1f8479ac6fab11b07362e48e82c739ef1f167bb9a504756e169a",
+        "sha256_in_prefix": "6640e1c8218f1f8479ac6fab11b07362e48e82c739ef1f167bb9a504756e169a",
+        "size_in_bytes": 49030
+      },
+      {
+        "_path": "lib/R/library/crosstalk/www/js/crosstalk.js.map",
+        "path_type": "hardlink",
+        "sha256": "e042433b718cb57864be57b6e912cfdfff37e75f0be9d6d27ea91460c964b7cc",
+        "sha256_in_prefix": "e042433b718cb57864be57b6e912cfdfff37e75f0be9d6d27ea91460c964b7cc",
+        "size_in_bytes": 54853
+      },
+      {
+        "_path": "lib/R/library/crosstalk/www/js/crosstalk.min.js",
+        "path_type": "hardlink",
+        "sha256": "abd7f07e2e8acbe5ba7aa3dc76712efaece662fb65560fbbcb3e8fb1df66b2e9",
+        "sha256_in_prefix": "abd7f07e2e8acbe5ba7aa3dc76712efaece662fb65560fbbcb3e8fb1df66b2e9",
+        "size_in_bytes": 18925
+      },
+      {
+        "_path": "lib/R/library/crosstalk/www/js/crosstalk.min.js.map",
+        "path_type": "hardlink",
+        "sha256": "5ffcb3703b9f002b255ef30d30a0521c08e5c5894c53b8726da6502654a1063a",
+        "sha256_in_prefix": "5ffcb3703b9f002b255ef30d30a0521c08e5c5894c53b8726da6502654a1063a",
+        "size_in_bytes": 50338
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0a745b8903df33ba39742d56d622eb502e1b2eca2ac7e5c79e8c66c71983e6e0",
+  "size": 678539,
+  "subdir": "noarch",
+  "timestamp": 1610451740000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-crosstalk-1.1.1-r36hc72bb7e_0.tar.bz2",
+  "version": "1.1.1"
+}

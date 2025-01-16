@@ -1,0 +1,201 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-stringr",
+    "r-matrix",
+    "r-pbapply",
+    "r-iterators",
+    "r-hdf5r",
+    "r-itertools",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-loom-0.2.0.2-r36_0",
+  "files": [
+    "lib/R/library/loomR/DESCRIPTION",
+    "lib/R/library/loomR/INDEX",
+    "lib/R/library/loomR/Meta/Rd.rds",
+    "lib/R/library/loomR/Meta/features.rds",
+    "lib/R/library/loomR/Meta/hsearch.rds",
+    "lib/R/library/loomR/Meta/links.rds",
+    "lib/R/library/loomR/Meta/nsInfo.rds",
+    "lib/R/library/loomR/Meta/package.rds",
+    "lib/R/library/loomR/NAMESPACE",
+    "lib/R/library/loomR/NEWS.md",
+    "lib/R/library/loomR/R/loomR",
+    "lib/R/library/loomR/R/loomR.rdb",
+    "lib/R/library/loomR/R/loomR.rdx",
+    "lib/R/library/loomR/help/AnIndex",
+    "lib/R/library/loomR/help/aliases.rds",
+    "lib/R/library/loomR/help/loomR.rdb",
+    "lib/R/library/loomR/help/loomR.rdx",
+    "lib/R/library/loomR/help/paths.rds",
+    "lib/R/library/loomR/html/00Index.html",
+    "lib/R/library/loomR/html/R.css"
+  ],
+  "fn": "r-loom-0.2.0.2-r36_0.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-loom-0.2.0.2-r36_0",
+    "type": 1
+  },
+  "md5": "c52a2822a65f2f84f59d6f65c4b2e822",
+  "name": "r-loom",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-loom-0.2.0.2-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/loomR/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "28b2730880782c4bccb63309c259ffcacb6ca0dbd7c9e90e7025625658081101",
+        "sha256_in_prefix": "28b2730880782c4bccb63309c259ffcacb6ca0dbd7c9e90e7025625658081101",
+        "size_in_bytes": 1514
+      },
+      {
+        "_path": "lib/R/library/loomR/INDEX",
+        "path_type": "hardlink",
+        "sha256": "48fc36dd104bae4bb8d952fd2f506f55ef937aecbadd0aefbad229d23131ae65",
+        "sha256_in_prefix": "48fc36dd104bae4bb8d952fd2f506f55ef937aecbadd0aefbad229d23131ae65",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/R/library/loomR/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "7021dde4c7152acf0ae8715e5a6790f59141de130d7ce290307940b3c43c145e",
+        "sha256_in_prefix": "7021dde4c7152acf0ae8715e5a6790f59141de130d7ce290307940b3c43c145e",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "lib/R/library/loomR/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/loomR/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "d53194177142ac94fd9e4ccf539f05cc780f5b60c592bc3f35cb3ceb4b8665fa",
+        "sha256_in_prefix": "d53194177142ac94fd9e4ccf539f05cc780f5b60c592bc3f35cb3ceb4b8665fa",
+        "size_in_bytes": 404
+      },
+      {
+        "_path": "lib/R/library/loomR/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "1630f0d83016517f45d30f7578029df70c6f08b90d80ef6bf74ed22699dd9e95",
+        "sha256_in_prefix": "1630f0d83016517f45d30f7578029df70c6f08b90d80ef6bf74ed22699dd9e95",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/loomR/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "305e762eba540ad45ab9a600625461da07d51ca3c9d86a44ff7bd6e92abb2c4b",
+        "sha256_in_prefix": "305e762eba540ad45ab9a600625461da07d51ca3c9d86a44ff7bd6e92abb2c4b",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "lib/R/library/loomR/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "4f3e0e82d1292c711305d9d539947ac5e8204d7a0c639a62fd66bbb21235ae0d",
+        "sha256_in_prefix": "4f3e0e82d1292c711305d9d539947ac5e8204d7a0c639a62fd66bbb21235ae0d",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "lib/R/library/loomR/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "8af5a38dfe48a00ce345458649e16e712f334a21a039619a4f59c1aa7c223941",
+        "sha256_in_prefix": "8af5a38dfe48a00ce345458649e16e712f334a21a039619a4f59c1aa7c223941",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/R/library/loomR/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "4862e16026d2d1c17ba8cbaa7b86b4a14620e45d426c8e6de917ff0db6fd0b0c",
+        "sha256_in_prefix": "4862e16026d2d1c17ba8cbaa7b86b4a14620e45d426c8e6de917ff0db6fd0b0c",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/R/library/loomR/R/loomR",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/loomR/R/loomR.rdb",
+        "path_type": "hardlink",
+        "sha256": "c4576f92b62e3c6efa2d30871a96f394eec683f0ab794d1d2bb8f623376443cb",
+        "sha256_in_prefix": "c4576f92b62e3c6efa2d30871a96f394eec683f0ab794d1d2bb8f623376443cb",
+        "size_in_bytes": 124238
+      },
+      {
+        "_path": "lib/R/library/loomR/R/loomR.rdx",
+        "path_type": "hardlink",
+        "sha256": "da47ddaaf5c0becc8034bb3921ca1223caeea1dd677af07dc13b7dd9017b3701",
+        "sha256_in_prefix": "da47ddaaf5c0becc8034bb3921ca1223caeea1dd677af07dc13b7dd9017b3701",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "lib/R/library/loomR/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "c51d46d8033207421c3f1832244da8536ef1ec013e7c9e19fc32789aad143eb5",
+        "sha256_in_prefix": "c51d46d8033207421c3f1832244da8536ef1ec013e7c9e19fc32789aad143eb5",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/R/library/loomR/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "885a68b23ec27c549c374fd1e6dec75101ec59934c44d79e7ea4ae05ec83010d",
+        "sha256_in_prefix": "885a68b23ec27c549c374fd1e6dec75101ec59934c44d79e7ea4ae05ec83010d",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/R/library/loomR/help/loomR.rdb",
+        "path_type": "hardlink",
+        "sha256": "cc2d4f2aa815447990571a3710611f8a6f6b8a52cb47e3e324a247afe06652e5",
+        "sha256_in_prefix": "cc2d4f2aa815447990571a3710611f8a6f6b8a52cb47e3e324a247afe06652e5",
+        "size_in_bytes": 29496
+      },
+      {
+        "_path": "lib/R/library/loomR/help/loomR.rdx",
+        "path_type": "hardlink",
+        "sha256": "fbe6c392b30265bfb9cf57705f8358732192be99d32fd121e4a9098dbbad5dae",
+        "sha256_in_prefix": "fbe6c392b30265bfb9cf57705f8358732192be99d32fd121e4a9098dbbad5dae",
+        "size_in_bytes": 288
+      },
+      {
+        "_path": "lib/R/library/loomR/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "fa0db103105e56ae7dd05255bbf8c1f7e4b22acbc94e1f9735071cbfe6c45c22",
+        "sha256_in_prefix": "fa0db103105e56ae7dd05255bbf8c1f7e4b22acbc94e1f9735071cbfe6c45c22",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "lib/R/library/loomR/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c8c0f5ce37fbcb50fd0f5464ea522d69d955b9f2d5d07b9eeb59d36fc05f856d",
+        "sha256_in_prefix": "c8c0f5ce37fbcb50fd0f5464ea522d69d955b9f2d5d07b9eeb59d36fc05f856d",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "lib/R/library/loomR/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "r-loom",
+  "sha256": "9bdc6bc9eae3d4736799b492f1a7b31f426712a27b166007d109e1954698e7bb",
+  "size": 173002,
+  "subdir": "noarch",
+  "timestamp": 1570139578000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/r-loom-0.2.0.2-r36_0.tar.bz2",
+  "version": "0.2.0.2"
+}

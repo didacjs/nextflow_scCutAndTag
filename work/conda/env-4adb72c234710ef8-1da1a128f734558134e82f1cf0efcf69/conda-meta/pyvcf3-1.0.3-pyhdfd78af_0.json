@@ -1,0 +1,595 @@
+{
+  "build": "pyhdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python 3.*"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/pyvcf3-1.0.3-pyhdfd78af_0",
+  "files": [
+    "bin/vcf_filter.py",
+    "bin/vcf_melt",
+    "bin/vcf_sample_filter.py",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/LICENSE",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/METADATA",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/RECORD",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/WHEEL",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/PyVCF3-1.0.3.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/vcf/__init__.py",
+    "lib/python3.6/site-packages/vcf/bgzf.py",
+    "lib/python3.6/site-packages/vcf/cparse.pyx",
+    "lib/python3.6/site-packages/vcf/filters.py",
+    "lib/python3.6/site-packages/vcf/model.py",
+    "lib/python3.6/site-packages/vcf/parser.py",
+    "lib/python3.6/site-packages/vcf/sample_filter.py",
+    "lib/python3.6/site-packages/vcf/test/1kg.sites.vcf",
+    "lib/python3.6/site-packages/vcf/test/1kg.vcf.gz",
+    "lib/python3.6/site-packages/vcf/test/FT.vcf",
+    "lib/python3.6/site-packages/vcf/test/__init__.py",
+    "lib/python3.6/site-packages/vcf/test/bad-info-character.vcf",
+    "lib/python3.6/site-packages/vcf/test/bcftools.vcf",
+    "lib/python3.6/site-packages/vcf/test/contig_idonly.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.0.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.1-bnd.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.1-info-multiple-values.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.1-ploidy.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.1-sv.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.1.vcf",
+    "lib/python3.6/site-packages/vcf/test/example-4.2.vcf",
+    "lib/python3.6/site-packages/vcf/test/freebayes.vcf",
+    "lib/python3.6/site-packages/vcf/test/gatk.vcf",
+    "lib/python3.6/site-packages/vcf/test/gatk_26_meta.vcf",
+    "lib/python3.6/site-packages/vcf/test/gonl.chr20.release4.gtc.vcf",
+    "lib/python3.6/site-packages/vcf/test/info-type-character.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue-140-file1.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue-140-file2.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue-140-file3.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue-16.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue-201.vcf.gz",
+    "lib/python3.6/site-packages/vcf/test/issue-201.vcf.gz.tbi",
+    "lib/python3.6/site-packages/vcf/test/issue-214.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue-254.vcf",
+    "lib/python3.6/site-packages/vcf/test/issue_49.vcf",
+    "lib/python3.6/site-packages/vcf/test/metadata-whitespace.vcf",
+    "lib/python3.6/site-packages/vcf/test/mixed-filtering.vcf",
+    "lib/python3.6/site-packages/vcf/test/null_genotype_mono.vcf",
+    "lib/python3.6/site-packages/vcf/test/parse-meta-line.vcf",
+    "lib/python3.6/site-packages/vcf/test/prof.py",
+    "lib/python3.6/site-packages/vcf/test/samples-space.vcf",
+    "lib/python3.6/site-packages/vcf/test/samtools.vcf",
+    "lib/python3.6/site-packages/vcf/test/strelka.vcf",
+    "lib/python3.6/site-packages/vcf/test/string_as_flag.vcf",
+    "lib/python3.6/site-packages/vcf/test/tb.vcf.gz",
+    "lib/python3.6/site-packages/vcf/test/tb.vcf.gz.tbi",
+    "lib/python3.6/site-packages/vcf/test/test_vcf.py",
+    "lib/python3.6/site-packages/vcf/test/uncalled_genotypes.vcf",
+    "lib/python3.6/site-packages/vcf/test/walk_left.vcf",
+    "lib/python3.6/site-packages/vcf/test/walk_refcall.vcf",
+    "lib/python3.6/site-packages/vcf/utils.py",
+    "lib/python3.6/site-packages/vcf/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/__pycache__/bgzf.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/__pycache__/filters.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/__pycache__/model.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/__pycache__/parser.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/__pycache__/sample_filter.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/test/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/test/__pycache__/prof.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/test/__pycache__/test_vcf.cpython-36.pyc",
+    "lib/python3.6/site-packages/vcf/__pycache__/utils.cpython-36.pyc"
+  ],
+  "fn": "pyvcf3-1.0.3-pyhdfd78af_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/pyvcf3-1.0.3-pyhdfd78af_0",
+    "type": 1
+  },
+  "md5": "2471bf4fad9f15602ad24164adf1a22a",
+  "name": "pyvcf3",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/pyvcf3-1.0.3-pyhdfd78af_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/vcf_filter.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pyvcf3_1650931562118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "2051e609bc4560df12ead89fb1c68cb84cc35e9ee07cf7f72689586dbe568c08",
+        "sha256_in_prefix": "36bade070b4771d10c812a0f4f29f326e6086c9e82062fc7fec2b39b3d30c556",
+        "size_in_bytes": 6900
+      },
+      {
+        "_path": "python-scripts/vcf_melt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pyvcf3_1650931562118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "f37430d2c2d98ff2f5eee8adfd0588ab2731eb631ec9cad87c8f3ec5447e6b89",
+        "sha256_in_prefix": "3b9bf21945f4554c3ce7378242b7a6fcc99472f4acb71d4a8d9cb1ab9ef3041d",
+        "size_in_bytes": 1582
+      },
+      {
+        "_path": "python-scripts/vcf_sample_filter.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pyvcf3_1650931562118/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "5b52845eb7d06f7839b95a3e1e5b45ea240474bdfdefba5876f1902bd13e9f7f",
+        "sha256_in_prefix": "473ddecc5035186d9a6b4b604bac802d2f174ca57b94a2de91c93c0f5e2661ea",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f4a2bc89af6b660958705e9f5e47ed5ebf31690101b121b9016b807ee1967e6a",
+        "sha256_in_prefix": "f4a2bc89af6b660958705e9f5e47ed5ebf31690101b121b9016b807ee1967e6a",
+        "size_in_bytes": 2599
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a6b4f82ed02b2e900947cdaa08db2cbcc17eb5a4bf955c6245ad380d1fac09df",
+        "sha256_in_prefix": "a6b4f82ed02b2e900947cdaa08db2cbcc17eb5a4bf955c6245ad380d1fac09df",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5cdcfcf8ddf732d392cc8eee0b53a8f171daff6bb7760c903aec8955d3616dd7",
+        "sha256_in_prefix": "5cdcfcf8ddf732d392cc8eee0b53a8f171daff6bb7760c903aec8955d3616dd7",
+        "size_in_bytes": 5646
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "sha256_in_prefix": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c85a2805d180cd44e30fec72ad62b02ce0664244a7868ea2d3a59c9cdbe1b096",
+        "sha256_in_prefix": "c85a2805d180cd44e30fec72ad62b02ce0664244a7868ea2d3a59c9cdbe1b096",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e1cd163af80d5af660148ab8dea520f505c6acf223ec6de79ff348f7e82eeaf7",
+        "sha256_in_prefix": "e1cd163af80d5af660148ab8dea520f505c6acf223ec6de79ff348f7e82eeaf7",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "site-packages/PyVCF3-1.0.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1f48669e487480c41360ea205fdd2d3f81dc6a44ff5a26a8381fdc2df2a66f1b",
+        "sha256_in_prefix": "1f48669e487480c41360ea205fdd2d3f81dc6a44ff5a26a8381fdc2df2a66f1b",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/vcf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79f4943561b386393a4ad4119eaacc6f6bb5781a44cbd3ab0c450d91a6f1e362",
+        "sha256_in_prefix": "79f4943561b386393a4ad4119eaacc6f6bb5781a44cbd3ab0c450d91a6f1e362",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "site-packages/vcf/bgzf.py",
+        "path_type": "hardlink",
+        "sha256": "9dbf90cc131026d23511fa772306803d71f239f491dfde88381e26bfec0d358c",
+        "sha256_in_prefix": "9dbf90cc131026d23511fa772306803d71f239f491dfde88381e26bfec0d358c",
+        "size_in_bytes": 34674
+      },
+      {
+        "_path": "site-packages/vcf/cparse.pyx",
+        "path_type": "hardlink",
+        "sha256": "b7a271cfdc1c5ec1eca74a40411301c07020290c0bdd330da083dc46f30a7c8a",
+        "sha256_in_prefix": "b7a271cfdc1c5ec1eca74a40411301c07020290c0bdd330da083dc46f30a7c8a",
+        "size_in_bytes": 6256
+      },
+      {
+        "_path": "site-packages/vcf/filters.py",
+        "path_type": "hardlink",
+        "sha256": "5717bd4570d200027bb30d6855f9cec508c3b3ad8becd465d3775701a08b2f63",
+        "sha256_in_prefix": "5717bd4570d200027bb30d6855f9cec508c3b3ad8becd465d3775701a08b2f63",
+        "size_in_bytes": 6240
+      },
+      {
+        "_path": "site-packages/vcf/model.py",
+        "path_type": "hardlink",
+        "sha256": "bb1a7be3cf7721fcacb1e4d6a2548b942298a3cc46012566d00b28627b0dfa5d",
+        "sha256_in_prefix": "bb1a7be3cf7721fcacb1e4d6a2548b942298a3cc46012566d00b28627b0dfa5d",
+        "size_in_bytes": 24390
+      },
+      {
+        "_path": "site-packages/vcf/parser.py",
+        "path_type": "hardlink",
+        "sha256": "9dfc4caa9747667085a1e6efce251d1ed45ca73db553d96fb2b91bfa8b76d586",
+        "sha256_in_prefix": "9dfc4caa9747667085a1e6efce251d1ed45ca73db553d96fb2b91bfa8b76d586",
+        "size_in_bytes": 29963
+      },
+      {
+        "_path": "site-packages/vcf/sample_filter.py",
+        "path_type": "hardlink",
+        "sha256": "957e6dc98152d7fdf5ac0674ab1b062c5b1edf90e6e350e49a58926525415d69",
+        "sha256_in_prefix": "957e6dc98152d7fdf5ac0674ab1b062c5b1edf90e6e350e49a58926525415d69",
+        "size_in_bytes": 4023
+      },
+      {
+        "_path": "site-packages/vcf/test/1kg.sites.vcf",
+        "path_type": "hardlink",
+        "sha256": "106ed5a11ec0628db8353263a1ac5723cf226afc1fbf74ff3ed220b9aa06bfab",
+        "sha256_in_prefix": "106ed5a11ec0628db8353263a1ac5723cf226afc1fbf74ff3ed220b9aa06bfab",
+        "size_in_bytes": 33570
+      },
+      {
+        "_path": "site-packages/vcf/test/1kg.vcf.gz",
+        "path_type": "hardlink",
+        "sha256": "370d4d798f75805810c488871055cfd04c635a4e28489c8e7d7ba536bd96dc5a",
+        "sha256_in_prefix": "370d4d798f75805810c488871055cfd04c635a4e28489c8e7d7ba536bd96dc5a",
+        "size_in_bytes": 825355
+      },
+      {
+        "_path": "site-packages/vcf/test/FT.vcf",
+        "path_type": "hardlink",
+        "sha256": "5e7c5838473148583416c1b9be7330860f9f53114872527ed6784338ef9a8480",
+        "sha256_in_prefix": "5e7c5838473148583416c1b9be7330860f9f53114872527ed6784338ef9a8480",
+        "size_in_bytes": 9296
+      },
+      {
+        "_path": "site-packages/vcf/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/vcf/test/bad-info-character.vcf",
+        "path_type": "hardlink",
+        "sha256": "3fdfa53acc7c5eba93099329a7ab0213ec9c50c2f9a923dc9ab2c4201a765f75",
+        "sha256_in_prefix": "3fdfa53acc7c5eba93099329a7ab0213ec9c50c2f9a923dc9ab2c4201a765f75",
+        "size_in_bytes": 1022
+      },
+      {
+        "_path": "site-packages/vcf/test/bcftools.vcf",
+        "path_type": "hardlink",
+        "sha256": "c2cbc3fe92c3b8425d79a052076ab90d3e5f09ffccbb385d5e59d6ba8607a596",
+        "sha256_in_prefix": "c2cbc3fe92c3b8425d79a052076ab90d3e5f09ffccbb385d5e59d6ba8607a596",
+        "size_in_bytes": 69193
+      },
+      {
+        "_path": "site-packages/vcf/test/contig_idonly.vcf",
+        "path_type": "hardlink",
+        "sha256": "004dca48fe2a4b2177e3f80caab79194db55954df0d5b13b0bcc7391b010b176",
+        "sha256_in_prefix": "004dca48fe2a4b2177e3f80caab79194db55954df0d5b13b0bcc7391b010b176",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.0.vcf",
+        "path_type": "hardlink",
+        "sha256": "540c4d9ed4dc5bd729d06f3400b97384b9064f32d66703aa59e7f010c3698e63",
+        "sha256_in_prefix": "540c4d9ed4dc5bd729d06f3400b97384b9064f32d66703aa59e7f010c3698e63",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.1-bnd.vcf",
+        "path_type": "hardlink",
+        "sha256": "0d1e4a191e80bb3ab3b3fd1c9bfcc3074888cb287bfc0fa0dce56e8e1f7a9dad",
+        "sha256_in_prefix": "0d1e4a191e80bb3ab3b3fd1c9bfcc3074888cb287bfc0fa0dce56e8e1f7a9dad",
+        "size_in_bytes": 2659
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.1-info-multiple-values.vcf",
+        "path_type": "hardlink",
+        "sha256": "5b54b408d8dc8bece606680ac92844d7680a8ee21c93572c94326c7e21629ea7",
+        "sha256_in_prefix": "5b54b408d8dc8bece606680ac92844d7680a8ee21c93572c94326c7e21629ea7",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.1-ploidy.vcf",
+        "path_type": "hardlink",
+        "sha256": "4ecada648768f782bb8fadc9f19378bf8753a7b7a9f3379551321511d193c274",
+        "sha256_in_prefix": "4ecada648768f782bb8fadc9f19378bf8753a7b7a9f3379551321511d193c274",
+        "size_in_bytes": 1324
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.1-sv.vcf",
+        "path_type": "hardlink",
+        "sha256": "9dae81529a392e856664f685edb8e8b3f84cf4d9422cdfb2e7944787fe022b10",
+        "sha256_in_prefix": "9dae81529a392e856664f685edb8e8b3f84cf4d9422cdfb2e7944787fe022b10",
+        "size_in_bytes": 2954
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.1.vcf",
+        "path_type": "hardlink",
+        "sha256": "032dde5b154f7bee87e5aae81dfd11008055301cc121f4cd9448ce0083ca3f42",
+        "sha256_in_prefix": "032dde5b154f7bee87e5aae81dfd11008055301cc121f4cd9448ce0083ca3f42",
+        "size_in_bytes": 1645
+      },
+      {
+        "_path": "site-packages/vcf/test/example-4.2.vcf",
+        "path_type": "hardlink",
+        "sha256": "da2da47ba781ca03c00be927cb178f19b285083624e40c03df5244b0ef1ad0e5",
+        "sha256_in_prefix": "da2da47ba781ca03c00be927cb178f19b285083624e40c03df5244b0ef1ad0e5",
+        "size_in_bytes": 30413
+      },
+      {
+        "_path": "site-packages/vcf/test/freebayes.vcf",
+        "path_type": "hardlink",
+        "sha256": "2b2f21393395df4059f1c0f0cb7b1de6779f2481171ad213059b87a047c4ec54",
+        "sha256_in_prefix": "2b2f21393395df4059f1c0f0cb7b1de6779f2481171ad213059b87a047c4ec54",
+        "size_in_bytes": 97904
+      },
+      {
+        "_path": "site-packages/vcf/test/gatk.vcf",
+        "path_type": "hardlink",
+        "sha256": "a20aa8d37a5a48da4efb50f391e2dd172efb06f233960664f4edbda2a06f4870",
+        "sha256_in_prefix": "a20aa8d37a5a48da4efb50f391e2dd172efb06f233960664f4edbda2a06f4870",
+        "size_in_bytes": 25009
+      },
+      {
+        "_path": "site-packages/vcf/test/gatk_26_meta.vcf",
+        "path_type": "hardlink",
+        "sha256": "f9f698e3403efd4ca89a027b002721c84a0578e20d96190f890108cb6fa16294",
+        "sha256_in_prefix": "f9f698e3403efd4ca89a027b002721c84a0578e20d96190f890108cb6fa16294",
+        "size_in_bytes": 489
+      },
+      {
+        "_path": "site-packages/vcf/test/gonl.chr20.release4.gtc.vcf",
+        "path_type": "hardlink",
+        "sha256": "a2d462061fe4d06b868f68fc0b93ddc35e0cc9a4a82f7a4234dbefcd87b5ed4c",
+        "sha256_in_prefix": "a2d462061fe4d06b868f68fc0b93ddc35e0cc9a4a82f7a4234dbefcd87b5ed4c",
+        "size_in_bytes": 19175
+      },
+      {
+        "_path": "site-packages/vcf/test/info-type-character.vcf",
+        "path_type": "hardlink",
+        "sha256": "b47fe2b106e5d7f02bfd458237e5230ae6f35adec52ef4471f9dad3973a841b1",
+        "sha256_in_prefix": "b47fe2b106e5d7f02bfd458237e5230ae6f35adec52ef4471f9dad3973a841b1",
+        "size_in_bytes": 515
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-140-file1.vcf",
+        "path_type": "hardlink",
+        "sha256": "122c1b2138f7af496b81f33f0d88d71bd623a7fd95e1db833c688ec9201c39a3",
+        "sha256_in_prefix": "122c1b2138f7af496b81f33f0d88d71bd623a7fd95e1db833c688ec9201c39a3",
+        "size_in_bytes": 3618
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-140-file2.vcf",
+        "path_type": "hardlink",
+        "sha256": "1635665305af0e1a50abed40212eb3a4b2063338332d98771031431aea3579a9",
+        "sha256_in_prefix": "1635665305af0e1a50abed40212eb3a4b2063338332d98771031431aea3579a9",
+        "size_in_bytes": 3496
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-140-file3.vcf",
+        "path_type": "hardlink",
+        "sha256": "e55fe7aff5b16b058b324a21752a4270524194df8ab6b003b2e3b6caa76e9565",
+        "sha256_in_prefix": "e55fe7aff5b16b058b324a21752a4270524194df8ab6b003b2e3b6caa76e9565",
+        "size_in_bytes": 2395
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-16.vcf",
+        "path_type": "hardlink",
+        "sha256": "09d31208a9389d73ec57f923bb20033f777bb2f3d73c0d23f5ec6e541cb53f17",
+        "sha256_in_prefix": "09d31208a9389d73ec57f923bb20033f777bb2f3d73c0d23f5ec6e541cb53f17",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-201.vcf.gz",
+        "path_type": "hardlink",
+        "sha256": "de86e7aad27fafe4a133abf90af26f5230cd459b2a704aad999025ef4099b46a",
+        "sha256_in_prefix": "de86e7aad27fafe4a133abf90af26f5230cd459b2a704aad999025ef4099b46a",
+        "size_in_bytes": 2639
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-201.vcf.gz.tbi",
+        "path_type": "hardlink",
+        "sha256": "df640ba1fb00a55d0594662412c0d9fed65e81e8ee9c0d75cde0a9870f2d37f9",
+        "sha256_in_prefix": "df640ba1fb00a55d0594662412c0d9fed65e81e8ee9c0d75cde0a9870f2d37f9",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-214.vcf",
+        "path_type": "hardlink",
+        "sha256": "87cae6ad897615b8677b22a6eb87dea842ba142c27d7b9e3918c287cb64856f6",
+        "sha256_in_prefix": "87cae6ad897615b8677b22a6eb87dea842ba142c27d7b9e3918c287cb64856f6",
+        "size_in_bytes": 3832
+      },
+      {
+        "_path": "site-packages/vcf/test/issue-254.vcf",
+        "path_type": "hardlink",
+        "sha256": "cba9695bb6ed0cade60985c39e97617c22cadfaf381c1e5b7af7c0ce5cf77ec4",
+        "sha256_in_prefix": "cba9695bb6ed0cade60985c39e97617c22cadfaf381c1e5b7af7c0ce5cf77ec4",
+        "size_in_bytes": 401
+      },
+      {
+        "_path": "site-packages/vcf/test/issue_49.vcf",
+        "path_type": "hardlink",
+        "sha256": "87169ba6e452f55339508218076b1f6302acc99cc20c2cd9cd43fa5afa66bab3",
+        "sha256_in_prefix": "87169ba6e452f55339508218076b1f6302acc99cc20c2cd9cd43fa5afa66bab3",
+        "size_in_bytes": 4621
+      },
+      {
+        "_path": "site-packages/vcf/test/metadata-whitespace.vcf",
+        "path_type": "hardlink",
+        "sha256": "3ab25e0ec07840901a4ac334b8c43113e9216e50679469c3064bfb4edae42d7a",
+        "sha256_in_prefix": "3ab25e0ec07840901a4ac334b8c43113e9216e50679469c3064bfb4edae42d7a",
+        "size_in_bytes": 30447
+      },
+      {
+        "_path": "site-packages/vcf/test/mixed-filtering.vcf",
+        "path_type": "hardlink",
+        "sha256": "90e0a0639ae9b3596fdb89a5fd85e2ba5332a25fc2a668f5e5c4b4c52baa7453",
+        "sha256_in_prefix": "90e0a0639ae9b3596fdb89a5fd85e2ba5332a25fc2a668f5e5c4b4c52baa7453",
+        "size_in_bytes": 1645
+      },
+      {
+        "_path": "site-packages/vcf/test/null_genotype_mono.vcf",
+        "path_type": "hardlink",
+        "sha256": "67b5e06c9d1d54a1093f1d40e31a8cec001a1b19e794d480afdc96ba1b0f4644",
+        "sha256_in_prefix": "67b5e06c9d1d54a1093f1d40e31a8cec001a1b19e794d480afdc96ba1b0f4644",
+        "size_in_bytes": 9492
+      },
+      {
+        "_path": "site-packages/vcf/test/parse-meta-line.vcf",
+        "path_type": "hardlink",
+        "sha256": "fe88a2d9376dcfa55fa600d257048ee75803d7c5aa0794f06103d535a6ea7607",
+        "sha256_in_prefix": "fe88a2d9376dcfa55fa600d257048ee75803d7c5aa0794f06103d535a6ea7607",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "site-packages/vcf/test/prof.py",
+        "path_type": "hardlink",
+        "sha256": "44f6c14a664031bfd84b8318b0d138922cfbcf9e64e3f91845ed668982ed9f7b",
+        "sha256_in_prefix": "44f6c14a664031bfd84b8318b0d138922cfbcf9e64e3f91845ed668982ed9f7b",
+        "size_in_bytes": 903
+      },
+      {
+        "_path": "site-packages/vcf/test/samples-space.vcf",
+        "path_type": "hardlink",
+        "sha256": "a303b51c62d54fa78c8963f017297d469fa83a99cd0322858aec616898dff375",
+        "sha256_in_prefix": "a303b51c62d54fa78c8963f017297d469fa83a99cd0322858aec616898dff375",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/vcf/test/samtools.vcf",
+        "path_type": "hardlink",
+        "sha256": "6c63ee452e37104d3aee3cefb648f6f06da3254f9d3d1372dc4ef2d88851d337",
+        "sha256_in_prefix": "6c63ee452e37104d3aee3cefb648f6f06da3254f9d3d1372dc4ef2d88851d337",
+        "size_in_bytes": 3617
+      },
+      {
+        "_path": "site-packages/vcf/test/strelka.vcf",
+        "path_type": "hardlink",
+        "sha256": "cce8ab7f13526022c9db14becb1226d1a54cb1dc2094b4215ec989223d7e1899",
+        "sha256_in_prefix": "cce8ab7f13526022c9db14becb1226d1a54cb1dc2094b4215ec989223d7e1899",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "site-packages/vcf/test/string_as_flag.vcf",
+        "path_type": "hardlink",
+        "sha256": "7e728bfd6a7b444e986e786d8510bcfc1906c9550a983ace4e1b05ca0b502353",
+        "sha256_in_prefix": "7e728bfd6a7b444e986e786d8510bcfc1906c9550a983ace4e1b05ca0b502353",
+        "size_in_bytes": 295
+      },
+      {
+        "_path": "site-packages/vcf/test/tb.vcf.gz",
+        "path_type": "hardlink",
+        "sha256": "186dd907ccde393e7e3357a17b595269adab6aa70a040d865b83244cf0a6e25a",
+        "sha256_in_prefix": "186dd907ccde393e7e3357a17b595269adab6aa70a040d865b83244cf0a6e25a",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "site-packages/vcf/test/tb.vcf.gz.tbi",
+        "path_type": "hardlink",
+        "sha256": "78b274c3c1d26b3ce9c69dfb8bc9ea40e7bcc1a05a93845ade5857719975418c",
+        "sha256_in_prefix": "78b274c3c1d26b3ce9c69dfb8bc9ea40e7bcc1a05a93845ade5857719975418c",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "site-packages/vcf/test/test_vcf.py",
+        "path_type": "hardlink",
+        "sha256": "36d7a01e35ef88f5aecc313851d442d16bb8b61d32dc7b7a45760b9902424933",
+        "sha256_in_prefix": "36d7a01e35ef88f5aecc313851d442d16bb8b61d32dc7b7a45760b9902424933",
+        "size_in_bytes": 61411
+      },
+      {
+        "_path": "site-packages/vcf/test/uncalled_genotypes.vcf",
+        "path_type": "hardlink",
+        "sha256": "1e6398cbf2228dcfa9d2c210df60c95c4e9b6a3500a8dee99fe72c42f02ce7df",
+        "sha256_in_prefix": "1e6398cbf2228dcfa9d2c210df60c95c4e9b6a3500a8dee99fe72c42f02ce7df",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "site-packages/vcf/test/walk_left.vcf",
+        "path_type": "hardlink",
+        "sha256": "c7c7350f7ad856f91ac42bc507a4a184f3087ce2fa2a866c695ccbed842e877a",
+        "sha256_in_prefix": "c7c7350f7ad856f91ac42bc507a4a184f3087ce2fa2a866c695ccbed842e877a",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "site-packages/vcf/test/walk_refcall.vcf",
+        "path_type": "hardlink",
+        "sha256": "29dc4b7bbfd4cc937c0c6ff87de37ef092de6df9bd01ae62f9669b907cf42126",
+        "sha256_in_prefix": "29dc4b7bbfd4cc937c0c6ff87de37ef092de6df9bd01ae62f9669b907cf42126",
+        "size_in_bytes": 1411
+      },
+      {
+        "_path": "site-packages/vcf/utils.py",
+        "path_type": "hardlink",
+        "sha256": "304aa71a8d93cd15f61aee80c281c2f635e26e60dac22273a74ca2851efdb3db",
+        "sha256_in_prefix": "304aa71a8d93cd15f61aee80c281c2f635e26e60dac22273a74ca2851efdb3db",
+        "size_in_bytes": 3899
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/bgzf.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/filters.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/model.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/parser.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/sample_filter.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/test/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/test/__pycache__/prof.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/test/__pycache__/test_vcf.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/vcf/__pycache__/utils.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5283bca618cea395f5aabdc40a9a136c0203c247e16935a2b250e84670e1dccb",
+  "size": 979534,
+  "subdir": "noarch",
+  "timestamp": 1650931704000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/pyvcf3-1.0.3-pyhdfd78af_0.tar.bz2",
+  "version": "1.0.3"
+}

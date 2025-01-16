@@ -1,0 +1,324 @@
+{
+  "build": "r36h0357c0b_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-rcpp >=0.12.13"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-sitmo-2.0.1-r36h0357c0b_2",
+  "files": [
+    "lib/R/library/sitmo/DESCRIPTION",
+    "lib/R/library/sitmo/INDEX",
+    "lib/R/library/sitmo/LICENSE",
+    "lib/R/library/sitmo/Meta/Rd.rds",
+    "lib/R/library/sitmo/Meta/features.rds",
+    "lib/R/library/sitmo/Meta/hsearch.rds",
+    "lib/R/library/sitmo/Meta/links.rds",
+    "lib/R/library/sitmo/Meta/nsInfo.rds",
+    "lib/R/library/sitmo/Meta/package.rds",
+    "lib/R/library/sitmo/Meta/vignette.rds",
+    "lib/R/library/sitmo/NAMESPACE",
+    "lib/R/library/sitmo/NEWS.md",
+    "lib/R/library/sitmo/R/sitmo",
+    "lib/R/library/sitmo/R/sitmo.rdb",
+    "lib/R/library/sitmo/R/sitmo.rdx",
+    "lib/R/library/sitmo/doc/big_crush_test.R",
+    "lib/R/library/sitmo/doc/big_crush_test.Rmd",
+    "lib/R/library/sitmo/doc/big_crush_test.html",
+    "lib/R/library/sitmo/doc/index.html",
+    "lib/R/library/sitmo/doc/sitmo_internals.R",
+    "lib/R/library/sitmo/doc/sitmo_internals.Rmd",
+    "lib/R/library/sitmo/doc/sitmo_internals.html",
+    "lib/R/library/sitmo/doc/uniform_rng_with_sitmo.R",
+    "lib/R/library/sitmo/doc/uniform_rng_with_sitmo.Rmd",
+    "lib/R/library/sitmo/doc/uniform_rng_with_sitmo.html",
+    "lib/R/library/sitmo/help/AnIndex",
+    "lib/R/library/sitmo/help/aliases.rds",
+    "lib/R/library/sitmo/help/paths.rds",
+    "lib/R/library/sitmo/help/sitmo.rdb",
+    "lib/R/library/sitmo/help/sitmo.rdx",
+    "lib/R/library/sitmo/html/00Index.html",
+    "lib/R/library/sitmo/html/R.css",
+    "lib/R/library/sitmo/include/sitmo.h",
+    "lib/R/library/sitmo/include/threefry.h",
+    "lib/R/library/sitmo/include/vandercorput.h",
+    "lib/R/library/sitmo/libs/sitmo.so"
+  ],
+  "fn": "r-sitmo-2.0.1-r36h0357c0b_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-sitmo-2.0.1-r36h0357c0b_2",
+    "type": 1
+  },
+  "md5": "145dbdb258448e76577365f16fb45aea",
+  "name": "r-sitmo",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-sitmo-2.0.1-r36h0357c0b_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/sitmo/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b49e27a4ff4c779e4aff7c43181efe31372a74cdb64f3d956b54632d6005d5fa",
+        "sha256_in_prefix": "b49e27a4ff4c779e4aff7c43181efe31372a74cdb64f3d956b54632d6005d5fa",
+        "size_in_bytes": 1928
+      },
+      {
+        "_path": "lib/R/library/sitmo/INDEX",
+        "path_type": "hardlink",
+        "sha256": "9f613c5f487c7b178ae4444a15d78292715e79fe966edc286fe62f2c9f73bcec",
+        "sha256_in_prefix": "9f613c5f487c7b178ae4444a15d78292715e79fe966edc286fe62f2c9f73bcec",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/R/library/sitmo/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "4fcd8eaba23a640ce3fe37888a67ddf604d9c95eaacbd11657a3f4b31dc27cd4",
+        "sha256_in_prefix": "4fcd8eaba23a640ce3fe37888a67ddf604d9c95eaacbd11657a3f4b31dc27cd4",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "9b3e151a21e9f6dab2cf00b52e17c49b8f5d96285c4cfd019f5910b9550b03c5",
+        "sha256_in_prefix": "9b3e151a21e9f6dab2cf00b52e17c49b8f5d96285c4cfd019f5910b9550b03c5",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "a46789482cb174a4454a9c741a70aec745485e93b2f94134cb0ff7a2d80d8b66",
+        "sha256_in_prefix": "a46789482cb174a4454a9c741a70aec745485e93b2f94134cb0ff7a2d80d8b66",
+        "size_in_bytes": 509
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "390766930bd4ec9d843889b1e26d9c69cf9a024027fa0302e653ea55092b1f1f",
+        "sha256_in_prefix": "390766930bd4ec9d843889b1e26d9c69cf9a024027fa0302e653ea55092b1f1f",
+        "size_in_bytes": 225
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "ea94f3c51dbee9b375e7dddb3421515fdb2b5ddde70eec0ba8b29f9f1848bdbc",
+        "sha256_in_prefix": "ea94f3c51dbee9b375e7dddb3421515fdb2b5ddde70eec0ba8b29f9f1848bdbc",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "11b1b02c8b693103eb82bb1b881e9ad91961a6e6deb4b364f7f672f6c2a80397",
+        "sha256_in_prefix": "11b1b02c8b693103eb82bb1b881e9ad91961a6e6deb4b364f7f672f6c2a80397",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/R/library/sitmo/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d995a5790417747c7b39118db8d1d12c68bd8558ba403178691da4b1b8dde32d",
+        "sha256_in_prefix": "d995a5790417747c7b39118db8d1d12c68bd8558ba403178691da4b1b8dde32d",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "lib/R/library/sitmo/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "aa668c6eff64ee53f4d2c5f5d2151a948a8125ac1394c04b207ba4021559b9ec",
+        "sha256_in_prefix": "aa668c6eff64ee53f4d2c5f5d2151a948a8125ac1394c04b207ba4021559b9ec",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/R/library/sitmo/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "7d48b49dd12f3a3a7f6eb62632140ae07281223ce88f2fa9be0e6a382b47581e",
+        "sha256_in_prefix": "7d48b49dd12f3a3a7f6eb62632140ae07281223ce88f2fa9be0e6a382b47581e",
+        "size_in_bytes": 2244
+      },
+      {
+        "_path": "lib/R/library/sitmo/R/sitmo",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/sitmo/R/sitmo.rdb",
+        "path_type": "hardlink",
+        "sha256": "44525e0c99c3fd513a68b101c10ed84ae931582f512c5a7651aafd6213e65d5c",
+        "sha256_in_prefix": "44525e0c99c3fd513a68b101c10ed84ae931582f512c5a7651aafd6213e65d5c",
+        "size_in_bytes": 2531
+      },
+      {
+        "_path": "lib/R/library/sitmo/R/sitmo.rdx",
+        "path_type": "hardlink",
+        "sha256": "93eab48f4d99bb70aa7fae33d79de4ccb0816afff9fe4edab8dd3671919a0814",
+        "sha256_in_prefix": "93eab48f4d99bb70aa7fae33d79de4ccb0816afff9fe4edab8dd3671919a0814",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/big_crush_test.R",
+        "path_type": "hardlink",
+        "sha256": "d5b7397f3acb347fdc52b64b97ac35baeffb0a53ca7b55b00cd9b09a59bfb733",
+        "sha256_in_prefix": "d5b7397f3acb347fdc52b64b97ac35baeffb0a53ca7b55b00cd9b09a59bfb733",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/big_crush_test.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4eb0e8033591f5d9377a1555c9b1c2027a30f9d98085763f24b2d474bb1a99c4",
+        "sha256_in_prefix": "4eb0e8033591f5d9377a1555c9b1c2027a30f9d98085763f24b2d474bb1a99c4",
+        "size_in_bytes": 97456
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/big_crush_test.html",
+        "path_type": "hardlink",
+        "sha256": "6b0f4d2607cdf626cfda0da1c4e8dc841a8438222a49eefad041d1e6c1905f62",
+        "sha256_in_prefix": "6b0f4d2607cdf626cfda0da1c4e8dc841a8438222a49eefad041d1e6c1905f62",
+        "size_in_bytes": 398625
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "44bfb477ffd109a67325c5687098fe2fea71dbdf12130497805857f43242de77",
+        "sha256_in_prefix": "44bfb477ffd109a67325c5687098fe2fea71dbdf12130497805857f43242de77",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/sitmo_internals.R",
+        "path_type": "hardlink",
+        "sha256": "95621f79f46b57484222ee8daeac38f088d03ee1e01292781e558723a679683a",
+        "sha256_in_prefix": "95621f79f46b57484222ee8daeac38f088d03ee1e01292781e558723a679683a",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/sitmo_internals.Rmd",
+        "path_type": "hardlink",
+        "sha256": "8b1b35ade5b3b55bf8883742d4cc1a97fd3a1b5d8ce8478341192488a434dadd",
+        "sha256_in_prefix": "8b1b35ade5b3b55bf8883742d4cc1a97fd3a1b5d8ce8478341192488a434dadd",
+        "size_in_bytes": 16430
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/sitmo_internals.html",
+        "path_type": "hardlink",
+        "sha256": "2b521b25ab0db1661ed070721237b08c2c41fa3423913b7bbba1031c30e472fa",
+        "sha256_in_prefix": "2b521b25ab0db1661ed070721237b08c2c41fa3423913b7bbba1031c30e472fa",
+        "size_in_bytes": 49101
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/uniform_rng_with_sitmo.R",
+        "path_type": "hardlink",
+        "sha256": "2e1fee349b2e9344dc3d50591e6136012cea628d1e2f6a533b6d46be57e7ebe4",
+        "sha256_in_prefix": "2e1fee349b2e9344dc3d50591e6136012cea628d1e2f6a533b6d46be57e7ebe4",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/uniform_rng_with_sitmo.Rmd",
+        "path_type": "hardlink",
+        "sha256": "910ca0ea04bc44ae6579c51e015fe49758ecce40a6eb1e6e97b078b1c13caa8d",
+        "sha256_in_prefix": "910ca0ea04bc44ae6579c51e015fe49758ecce40a6eb1e6e97b078b1c13caa8d",
+        "size_in_bytes": 5970
+      },
+      {
+        "_path": "lib/R/library/sitmo/doc/uniform_rng_with_sitmo.html",
+        "path_type": "hardlink",
+        "sha256": "e33ab5fe662c9a179140630cf49a951f1cb50b5611f3b0babccf1d8154719c51",
+        "sha256_in_prefix": "e33ab5fe662c9a179140630cf49a951f1cb50b5611f3b0babccf1d8154719c51",
+        "size_in_bytes": 56472
+      },
+      {
+        "_path": "lib/R/library/sitmo/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "eaa4a4730a9dc38c26154ba13b6d3e758e25c8afe86f8eff6ebb32489e3afbfd",
+        "sha256_in_prefix": "eaa4a4730a9dc38c26154ba13b6d3e758e25c8afe86f8eff6ebb32489e3afbfd",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/sitmo/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "47395dddab1a89efa021ba817de322fe91dfb87a0838942435d9c0f06a612f62",
+        "sha256_in_prefix": "47395dddab1a89efa021ba817de322fe91dfb87a0838942435d9c0f06a612f62",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/sitmo/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "17d5c2bf53622813eb6931d7d00e1d26895c49adf1f59e5cd8156fbed578f950",
+        "sha256_in_prefix": "17d5c2bf53622813eb6931d7d00e1d26895c49adf1f59e5cd8156fbed578f950",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "lib/R/library/sitmo/help/sitmo.rdb",
+        "path_type": "hardlink",
+        "sha256": "e2f05ee1fa47679804f7b48873ff03238bc183287f11cc235f85a1da413c4882",
+        "sha256_in_prefix": "e2f05ee1fa47679804f7b48873ff03238bc183287f11cc235f85a1da413c4882",
+        "size_in_bytes": 12831
+      },
+      {
+        "_path": "lib/R/library/sitmo/help/sitmo.rdx",
+        "path_type": "hardlink",
+        "sha256": "4358858aabf748e268e68b30f03d6de360ab29b629f0d03334e941db36e6ddd4",
+        "sha256_in_prefix": "4358858aabf748e268e68b30f03d6de360ab29b629f0d03334e941db36e6ddd4",
+        "size_in_bytes": 344
+      },
+      {
+        "_path": "lib/R/library/sitmo/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "0bc992b2084f3bd94e8caf03829c967ee8e7e847700dcd3f4ab54559045be940",
+        "sha256_in_prefix": "0bc992b2084f3bd94e8caf03829c967ee8e7e847700dcd3f4ab54559045be940",
+        "size_in_bytes": 2376
+      },
+      {
+        "_path": "lib/R/library/sitmo/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/sitmo/include/sitmo.h",
+        "path_type": "hardlink",
+        "sha256": "5fe428c566c42982e0d499957661879150b17c01d15940bfa3c155fdb679f8fc",
+        "sha256_in_prefix": "5fe428c566c42982e0d499957661879150b17c01d15940bfa3c155fdb679f8fc",
+        "size_in_bytes": 12166
+      },
+      {
+        "_path": "lib/R/library/sitmo/include/threefry.h",
+        "path_type": "hardlink",
+        "sha256": "f0d53e4fe0714923d63281e86f46e612b0f4d43655b40d1ea7ac4049c5671e87",
+        "sha256_in_prefix": "f0d53e4fe0714923d63281e86f46e612b0f4d43655b40d1ea7ac4049c5671e87",
+        "size_in_bytes": 18728
+      },
+      {
+        "_path": "lib/R/library/sitmo/include/vandercorput.h",
+        "path_type": "hardlink",
+        "sha256": "987596e515e1f2f4a52f6cc0f8888ee0cfdf4732d02219b470440c3d50b5475e",
+        "sha256_in_prefix": "987596e515e1f2f4a52f6cc0f8888ee0cfdf4732d02219b470440c3d50b5475e",
+        "size_in_bytes": 7664
+      },
+      {
+        "_path": "lib/R/library/sitmo/libs/sitmo.so",
+        "path_type": "hardlink",
+        "sha256": "d527c7d053cc8045b8fcbaf1f3f2e78b6a55f758441e1ee8dfbd689150076b50",
+        "sha256_in_prefix": "d527c7d053cc8045b8fcbaf1f3f2e78b6a55f758441e1ee8dfbd689150076b50",
+        "size_in_bytes": 116568
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d4cc1e60dd94424eb4851703725d5bab2200030462428d7ddcef0ebc68cc0cd4",
+  "size": 158872,
+  "subdir": "linux-64",
+  "timestamp": 1588568341000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-sitmo-2.0.1-r36h0357c0b_2.tar.bz2",
+  "version": "2.0.1"
+}

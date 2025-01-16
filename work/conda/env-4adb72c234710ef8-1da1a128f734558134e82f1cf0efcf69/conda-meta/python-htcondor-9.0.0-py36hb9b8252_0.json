@@ -1,0 +1,439 @@
+{
+  "build": "py36hb9b8252_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "boost >=1.74.0,<1.74.1.0a0",
+    "htcondor-classads 9.0.0 hd3c618e_0",
+    "libcondor_utils 9.0.0 h722fe0d_0",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/python-htcondor-9.0.0-py36hb9b8252_0",
+  "files": [
+    "lib/libpyclassad3.6_9_0_0.so",
+    "lib/python3.6/site-packages/classad/__init__.py",
+    "lib/python3.6/site-packages/classad/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/classad/classad.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/htcondor/__init__.py",
+    "lib/python3.6/site-packages/htcondor/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/__pycache__/_deprecation.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/__pycache__/_job_status.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/__pycache__/_lock.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/__pycache__/_wrap.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/__pycache__/personal.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/_deprecation.py",
+    "lib/python3.6/site-packages/htcondor/_job_status.py",
+    "lib/python3.6/site-packages/htcondor/_lock.py",
+    "lib/python3.6/site-packages/htcondor/_wrap.py",
+    "lib/python3.6/site-packages/htcondor/compat_enum/__init__.py",
+    "lib/python3.6/site-packages/htcondor/compat_enum/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__init__.py",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/dag.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/edges.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/exceptions.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/formatter.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/node.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/rescue.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/utils.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/walk_order.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/__pycache__/writer.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/dags/dag.py",
+    "lib/python3.6/site-packages/htcondor/dags/edges.py",
+    "lib/python3.6/site-packages/htcondor/dags/exceptions.py",
+    "lib/python3.6/site-packages/htcondor/dags/formatter.py",
+    "lib/python3.6/site-packages/htcondor/dags/node.py",
+    "lib/python3.6/site-packages/htcondor/dags/rescue.py",
+    "lib/python3.6/site-packages/htcondor/dags/utils.py",
+    "lib/python3.6/site-packages/htcondor/dags/walk_order.py",
+    "lib/python3.6/site-packages/htcondor/dags/writer.py",
+    "lib/python3.6/site-packages/htcondor/htchirp/__init__.py",
+    "lib/python3.6/site-packages/htcondor/htchirp/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/htchirp/__pycache__/htchirp.cpython-36.pyc",
+    "lib/python3.6/site-packages/htcondor/htchirp/htchirp.py",
+    "lib/python3.6/site-packages/htcondor/htcondor.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/htcondor/personal.py",
+    "libexec/condor/libclassad_python_user.cpython-36m-x86_64-linux-gnu.so",
+    "libexec/condor/libcollector_python_plugin.cpython-36m-x86_64-linux-gnu.so"
+  ],
+  "fn": "python-htcondor-9.0.0-py36hb9b8252_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/python-htcondor-9.0.0-py36hb9b8252_0",
+    "type": 1
+  },
+  "md5": "a00684dd9d400ad60f2dcd0f64b1eb65",
+  "name": "python-htcondor",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/python-htcondor-9.0.0-py36hb9b8252_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libpyclassad3.6_9_0_0.so",
+        "path_type": "hardlink",
+        "sha256": "d4b9ed13ee5e7c1ccf7f397c8d2afe4726fb51e3eacb739e92eb59cdbf9d55ad",
+        "sha256_in_prefix": "d4b9ed13ee5e7c1ccf7f397c8d2afe4726fb51e3eacb739e92eb59cdbf9d55ad",
+        "size_in_bytes": 2145824
+      },
+      {
+        "_path": "lib/python3.6/site-packages/classad/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e172eee9b7922cc9e9d2b6341627cbae995099eb7eb9550c00154827a034e48b",
+        "sha256_in_prefix": "e172eee9b7922cc9e9d2b6341627cbae995099eb7eb9550c00154827a034e48b",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "lib/python3.6/site-packages/classad/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "22fcbc03cf47ff9fb77ee019548d881dfa2bd1f4e1a020ff6ca262e69fe980c5",
+        "sha256_in_prefix": "22fcbc03cf47ff9fb77ee019548d881dfa2bd1f4e1a020ff6ca262e69fe980c5",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/python3.6/site-packages/classad/classad.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "583a19cdcc828ea12d677b9f60b8be33e074043996474d8fbc03f72d46346047",
+        "sha256_in_prefix": "583a19cdcc828ea12d677b9f60b8be33e074043996474d8fbc03f72d46346047",
+        "size_in_bytes": 6494720
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "d85090d5fe06d159d5b2d6c6c7ad6fd48ee8a1afc1a523d6f60e9238a43c7a44",
+        "sha256_in_prefix": "d85090d5fe06d159d5b2d6c6c7ad6fd48ee8a1afc1a523d6f60e9238a43c7a44",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "f05ef44a9320d2c3ca3928c8adb25b17a54e8a332b7bcdc05eb658e45cb88c8b",
+        "sha256_in_prefix": "f05ef44a9320d2c3ca3928c8adb25b17a54e8a332b7bcdc05eb658e45cb88c8b",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor-9.0.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f701c830fcd6fd81655c13c7736e8a09ec2e02c2244eb8bc59e06fdacf4ab649",
+        "sha256_in_prefix": "f701c830fcd6fd81655c13c7736e8a09ec2e02c2244eb8bc59e06fdacf4ab649",
+        "size_in_bytes": 69
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f8c19119579b3c28a85eb7c2fc433220fea8543636be29f0c1bddfe9ebe7e8d9",
+        "sha256_in_prefix": "f8c19119579b3c28a85eb7c2fc433220fea8543636be29f0c1bddfe9ebe7e8d9",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7b99b0194afb160d1bf803617a4548d715c46f241226fd3620b7c5bb13508a9",
+        "sha256_in_prefix": "e7b99b0194afb160d1bf803617a4548d715c46f241226fd3620b7c5bb13508a9",
+        "size_in_bytes": 1707
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__pycache__/_deprecation.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "58cdef0e811eb669b929e46fd14af8e0646ecfb00dd939f1dbbae171f4b22f8b",
+        "sha256_in_prefix": "58cdef0e811eb669b929e46fd14af8e0646ecfb00dd939f1dbbae171f4b22f8b",
+        "size_in_bytes": 3550
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__pycache__/_job_status.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d83093b762eaea0f1fadf6f653a38f005009385da4b46b80c041a0d80c09a6cd",
+        "sha256_in_prefix": "d83093b762eaea0f1fadf6f653a38f005009385da4b46b80c041a0d80c09a6cd",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__pycache__/_lock.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "83b0b016771a8102a507a5c28626f710432d7a6942c583bebda110e1e2b465c5",
+        "sha256_in_prefix": "83b0b016771a8102a507a5c28626f710432d7a6942c583bebda110e1e2b465c5",
+        "size_in_bytes": 2560
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__pycache__/_wrap.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b2deefb4fc84721bf29166a3dd1e0f0e7bc034593cea31236f111931864f03d",
+        "sha256_in_prefix": "5b2deefb4fc84721bf29166a3dd1e0f0e7bc034593cea31236f111931864f03d",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/__pycache__/personal.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9e970f32a57e380638c3880c6acde61acddde65584f76c4483cf2e47b302c4b6",
+        "sha256_in_prefix": "9e970f32a57e380638c3880c6acde61acddde65584f76c4483cf2e47b302c4b6",
+        "size_in_bytes": 23031
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/_deprecation.py",
+        "path_type": "hardlink",
+        "sha256": "cbd89971edc8b83a76668f67e514202ffa5abee79c87572c5b9a2ffa5dcdac37",
+        "sha256_in_prefix": "cbd89971edc8b83a76668f67e514202ffa5abee79c87572c5b9a2ffa5dcdac37",
+        "size_in_bytes": 4362
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/_job_status.py",
+        "path_type": "hardlink",
+        "sha256": "de623b6f4531b5607a143dc2a26a9b263c4d24fc66847e060afaf402ea6e0f41",
+        "sha256_in_prefix": "de623b6f4531b5607a143dc2a26a9b263c4d24fc66847e060afaf402ea6e0f41",
+        "size_in_bytes": 526
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/_lock.py",
+        "path_type": "hardlink",
+        "sha256": "05f52fb4bc37d6cf9ff68c4c07e3a171fe08e6047d61cb0332f5d8a73b51490b",
+        "sha256_in_prefix": "05f52fb4bc37d6cf9ff68c4c07e3a171fe08e6047d61cb0332f5d8a73b51490b",
+        "size_in_bytes": 3918
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/_wrap.py",
+        "path_type": "hardlink",
+        "sha256": "88ffcc6d6e6b199bb0188029651a00eaa70a258cb8f430286757e37e624eb8e0",
+        "sha256_in_prefix": "88ffcc6d6e6b199bb0188029651a00eaa70a258cb8f430286757e37e624eb8e0",
+        "size_in_bytes": 577
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/compat_enum/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1bf6acd7f2a88f7d26da5802a5ac189047ccf605312472788047424fcf0834ba",
+        "sha256_in_prefix": "1bf6acd7f2a88f7d26da5802a5ac189047ccf605312472788047424fcf0834ba",
+        "size_in_bytes": 31101
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/compat_enum/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3198420e5d3726f5ea9cc45540646c4f84e52f4c31583289a4e6914ed387d1f6",
+        "sha256_in_prefix": "3198420e5d3726f5ea9cc45540646c4f84e52f4c31583289a4e6914ed387d1f6",
+        "size_in_bytes": 20549
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f32976170ba70e9882a2b653d7b6b1ceb06068c6e4c2ac7b3577cf58083f37e4",
+        "sha256_in_prefix": "f32976170ba70e9882a2b653d7b6b1ceb06068c6e4c2ac7b3577cf58083f37e4",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e88d7ff8fdca4130d9e75457ccd9687021141a453dc751da42fb087708401bfd",
+        "sha256_in_prefix": "e88d7ff8fdca4130d9e75457ccd9687021141a453dc751da42fb087708401bfd",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/dag.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e562cc8340f2c77cb6addecf1eb8d82e16a50b04c64867255d9ba0cf8d2bbd5f",
+        "sha256_in_prefix": "e562cc8340f2c77cb6addecf1eb8d82e16a50b04c64867255d9ba0cf8d2bbd5f",
+        "size_in_bytes": 18600
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/edges.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f90b354c2266ed5686fe4d72a2d3b2862ee8d4ce9db70c511589de923d2a37a3",
+        "sha256_in_prefix": "f90b354c2266ed5686fe4d72a2d3b2862ee8d4ce9db70c511589de923d2a37a3",
+        "size_in_bytes": 9138
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/exceptions.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a93f9b443101449ccf6492ab469d48d35e497e241853662a5e0bdf834bcdeef0",
+        "sha256_in_prefix": "a93f9b443101449ccf6492ab469d48d35e497e241853662a5e0bdf834bcdeef0",
+        "size_in_bytes": 1321
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/formatter.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7238aca0f520b253e9efd2314f0619eccfc02227137d0d03bbe5c10391917705",
+        "sha256_in_prefix": "7238aca0f520b253e9efd2314f0619eccfc02227137d0d03bbe5c10391917705",
+        "size_in_bytes": 2792
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/node.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f524f2f7fa916b9d1c99f1a64c7859f4ab3c8fb9a623f9ffdf72b8bc3c82b0ce",
+        "sha256_in_prefix": "f524f2f7fa916b9d1c99f1a64c7859f4ab3c8fb9a623f9ffdf72b8bc3c82b0ce",
+        "size_in_bytes": 25516
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/rescue.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b35c7d4751640cb92474b6e744a02a7e2e933e7a72ebfdb7d40157e3afa90be3",
+        "sha256_in_prefix": "b35c7d4751640cb92474b6e744a02a7e2e933e7a72ebfdb7d40157e3afa90be3",
+        "size_in_bytes": 3351
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/utils.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6d56be7fca22934f037636630b7b4a570cf4e000160dc97c09cd3a6fca03d98",
+        "sha256_in_prefix": "d6d56be7fca22934f037636630b7b4a570cf4e000160dc97c09cd3a6fca03d98",
+        "size_in_bytes": 4953
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/walk_order.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4bebca19439c91fa0a94bd5c339d5926d460fd0d34008e56fb70c671ec510076",
+        "sha256_in_prefix": "4bebca19439c91fa0a94bd5c339d5926d460fd0d34008e56fb70c671ec510076",
+        "size_in_bytes": 816
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/__pycache__/writer.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a696d528930efa748692d42e36035f53431cbbef510ca4d75cfed4403abb8ff2",
+        "sha256_in_prefix": "a696d528930efa748692d42e36035f53431cbbef510ca4d75cfed4403abb8ff2",
+        "size_in_bytes": 11016
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/dag.py",
+        "path_type": "hardlink",
+        "sha256": "7165b373d2c37bb5fa0e1fb6849da3a824b0e95954084e2e382d10a5564d928e",
+        "sha256_in_prefix": "7165b373d2c37bb5fa0e1fb6849da3a824b0e95954084e2e382d10a5564d928e",
+        "size_in_bytes": 17052
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/edges.py",
+        "path_type": "hardlink",
+        "sha256": "be21369a131e78d4a9f8ef02d2756127f8a34f075823c25323821c69a31d01ab",
+        "sha256_in_prefix": "be21369a131e78d4a9f8ef02d2756127f8a34f075823c25323821c69a31d01ab",
+        "size_in_bytes": 10222
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "17d9213d5b0fccb21ee17119b478dc2baee3d432dd6e43a8ee978b7f83b10a7a",
+        "sha256_in_prefix": "17d9213d5b0fccb21ee17119b478dc2baee3d432dd6e43a8ee978b7f83b10a7a",
+        "size_in_bytes": 1078
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/formatter.py",
+        "path_type": "hardlink",
+        "sha256": "9a282bc8943a890495fac578272a98a44460c89b7b6740bc956f2bf0543376a1",
+        "sha256_in_prefix": "9a282bc8943a890495fac578272a98a44460c89b7b6740bc956f2bf0543376a1",
+        "size_in_bytes": 3199
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/node.py",
+        "path_type": "hardlink",
+        "sha256": "c0305434f1f7fba2ac3dbf067f17bcee19c17c2772e7351ef38894333d2298e5",
+        "sha256_in_prefix": "c0305434f1f7fba2ac3dbf067f17bcee19c17c2772e7351ef38894333d2298e5",
+        "size_in_bytes": 23603
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/rescue.py",
+        "path_type": "hardlink",
+        "sha256": "25c393ad6a996b0a34205400feae52405b1e075db045c720166ee78e18dc180e",
+        "sha256_in_prefix": "25c393ad6a996b0a34205400feae52405b1e075db045c720166ee78e18dc180e",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8f4e0bc0d271c4224989296de2a7f090442c9f1766117cc41ae95b7d75b9a74b",
+        "sha256_in_prefix": "8f4e0bc0d271c4224989296de2a7f090442c9f1766117cc41ae95b7d75b9a74b",
+        "size_in_bytes": 4586
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/walk_order.py",
+        "path_type": "hardlink",
+        "sha256": "9ca44dc036767134a50ac5579918d2b6849e720a6e0fcbf633d2e063c04d96b6",
+        "sha256_in_prefix": "9ca44dc036767134a50ac5579918d2b6849e720a6e0fcbf633d2e063c04d96b6",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/dags/writer.py",
+        "path_type": "hardlink",
+        "sha256": "8874f872c4b39d4f9aa80084c0fbb87071f2613dea0789994300c920052bc0ce",
+        "sha256_in_prefix": "8874f872c4b39d4f9aa80084c0fbb87071f2613dea0789994300c920052bc0ce",
+        "size_in_bytes": 12154
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/htchirp/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e2ee65f5aef1301dc226d8d3850fa66975ede65e2137c01a802a6a7cefd42b18",
+        "sha256_in_prefix": "e2ee65f5aef1301dc226d8d3850fa66975ede65e2137c01a802a6a7cefd42b18",
+        "size_in_bytes": 729
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/htchirp/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9ed883e3a574c6edbf983086d3612a25d532f817d9cecd5e62c65608cabe84b1",
+        "sha256_in_prefix": "9ed883e3a574c6edbf983086d3612a25d532f817d9cecd5e62c65608cabe84b1",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/htchirp/__pycache__/htchirp.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8aa92e834594ae748be77b25917bdccea811b622d9d4eec1e07fa2d977b6178a",
+        "sha256_in_prefix": "8aa92e834594ae748be77b25917bdccea811b622d9d4eec1e07fa2d977b6178a",
+        "size_in_bytes": 42694
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/htchirp/htchirp.py",
+        "path_type": "hardlink",
+        "sha256": "66d5a2eb231d2ee5deed28b005afebc2972a18598a80c15acb41597b410f9e81",
+        "sha256_in_prefix": "66d5a2eb231d2ee5deed28b005afebc2972a18598a80c15acb41597b410f9e81",
+        "size_in_bytes": 50544
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/htcondor.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "e38966fe3862cf98cc98301933b8d0db7c257d67b113eb807dc24453f703a532",
+        "sha256_in_prefix": "e38966fe3862cf98cc98301933b8d0db7c257d67b113eb807dc24453f703a532",
+        "size_in_bytes": 28290504
+      },
+      {
+        "_path": "lib/python3.6/site-packages/htcondor/personal.py",
+        "path_type": "hardlink",
+        "sha256": "a696e52e27653d22d6b398a7e0c372fbdd7b7cf62712c348c877897e0255facd",
+        "sha256_in_prefix": "a696e52e27653d22d6b398a7e0c372fbdd7b7cf62712c348c877897e0255facd",
+        "size_in_bytes": 25323
+      },
+      {
+        "_path": "libexec/condor/libclassad_python_user.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "413d87a56ef5aa1a1164db6cee6ac02d1b8ff1e098ed91ab96cbd64292b52f3e",
+        "sha256_in_prefix": "413d87a56ef5aa1a1164db6cee6ac02d1b8ff1e098ed91ab96cbd64292b52f3e",
+        "size_in_bytes": 677720
+      },
+      {
+        "_path": "libexec/condor/libcollector_python_plugin.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "7af7facc7dcaa4917753f655ba349a2a71212c3d639befcb505e39d92f2b5deb",
+        "sha256_in_prefix": "7af7facc7dcaa4917753f655ba349a2a71212c3d639befcb505e39d92f2b5deb",
+        "size_in_bytes": 568440
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f9a590ade84f405ec9ef5cfc4c178fa64cfcbdf0119c35fc75edf38eeb29550b",
+  "size": 9284593,
+  "subdir": "linux-64",
+  "timestamp": 1618501140000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-htcondor-9.0.0-py36hb9b8252_0.tar.bz2",
+  "version": "9.0.0"
+}

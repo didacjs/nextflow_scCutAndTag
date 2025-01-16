@@ -1,0 +1,91 @@
+{
+  "build": "hd32f23e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=10.3.0",
+    "libstdcxx-ng >=10.3.0",
+    "snappy >=1.1.8,<1.2.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/blosc-1.21.1-hd32f23e_0",
+  "files": [
+    "include/blosc-export.h",
+    "include/blosc.h",
+    "lib/libblosc.a",
+    "lib/libblosc.so",
+    "lib/libblosc.so.1",
+    "lib/libblosc.so.1.21.1",
+    "lib/pkgconfig/blosc.pc"
+  ],
+  "fn": "blosc-1.21.1-hd32f23e_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/blosc-1.21.1-hd32f23e_0",
+    "type": 1
+  },
+  "md5": "d33588eb8181267e8d49c017e0f143b6",
+  "name": "blosc",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/blosc-1.21.1-hd32f23e_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/blosc-export.h",
+        "path_type": "hardlink",
+        "sha256": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+        "sha256_in_prefix": "35845da65bd13b4b610752116d8c0cae703cf22a86a007574133c35bc8395b20",
+        "size_in_bytes": 1639
+      },
+      {
+        "_path": "include/blosc.h",
+        "path_type": "hardlink",
+        "sha256": "94b397595705469ba2e401869c6665c7224ed7b40413e7536cd6dbb8654649f1",
+        "sha256_in_prefix": "94b397595705469ba2e401869c6665c7224ed7b40413e7536cd6dbb8654649f1",
+        "size_in_bytes": 19565
+      },
+      {
+        "_path": "lib/libblosc.a",
+        "path_type": "hardlink",
+        "sha256": "a8912a49756a029552384f97343ec361bddcd9a835dd946f00e73c4eb10ddeec",
+        "sha256_in_prefix": "a8912a49756a029552384f97343ec361bddcd9a835dd946f00e73c4eb10ddeec",
+        "size_in_bytes": 1571176
+      },
+      {
+        "_path": "lib/libblosc.so",
+        "path_type": "softlink",
+        "sha256": "a487a8b7b68e17da6af6d36d13b9de52677449d4e9909462b9ac6602d00439ee",
+        "size_in_bytes": 1123264
+      },
+      {
+        "_path": "lib/libblosc.so.1",
+        "path_type": "softlink",
+        "sha256": "a487a8b7b68e17da6af6d36d13b9de52677449d4e9909462b9ac6602d00439ee",
+        "size_in_bytes": 1123264
+      },
+      {
+        "_path": "lib/libblosc.so.1.21.1",
+        "path_type": "hardlink",
+        "sha256": "a487a8b7b68e17da6af6d36d13b9de52677449d4e9909462b9ac6602d00439ee",
+        "sha256_in_prefix": "a487a8b7b68e17da6af6d36d13b9de52677449d4e9909462b9ac6602d00439ee",
+        "size_in_bytes": 1123264
+      },
+      {
+        "_path": "lib/pkgconfig/blosc.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/blosc_1650905891281/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "0dbf605c0374a65b755d3922e58b08f0de80a2f6d3576a4e5d1615bda1ea2b52",
+        "sha256_in_prefix": "7c66ec86da32667b416561a60fa60fa264484a1b4f712e861e5f3eb5e8bb6ff7",
+        "size_in_bytes": 562
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "630e5eb31c71483ffd2a1f11151d9ac3830e5e9de39a8f2f3aca1b6981a90e96",
+  "size": 977860,
+  "subdir": "linux-64",
+  "timestamp": 1650906206000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/blosc-1.21.1-hd32f23e_0.tar.bz2",
+  "version": "1.21.1"
+}

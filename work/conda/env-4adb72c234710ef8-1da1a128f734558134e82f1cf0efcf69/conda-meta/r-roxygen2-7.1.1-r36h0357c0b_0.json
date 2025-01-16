@@ -1,0 +1,368 @@
+{
+  "build": "r36h0357c0b_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-brew",
+    "r-commonmark",
+    "r-desc >=1.2.0",
+    "r-digest",
+    "r-knitr",
+    "r-pkgload >=1.0.2",
+    "r-purrr >=0.3.3",
+    "r-r6 >=2.1.2",
+    "r-rcpp >=0.11.0",
+    "r-rlang",
+    "r-stringi",
+    "r-stringr >=1.0.0",
+    "r-xml2"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-roxygen2-7.1.1-r36h0357c0b_0",
+  "files": [
+    "lib/R/library/roxygen2/DESCRIPTION",
+    "lib/R/library/roxygen2/INDEX",
+    "lib/R/library/roxygen2/Meta/Rd.rds",
+    "lib/R/library/roxygen2/Meta/features.rds",
+    "lib/R/library/roxygen2/Meta/hsearch.rds",
+    "lib/R/library/roxygen2/Meta/links.rds",
+    "lib/R/library/roxygen2/Meta/nsInfo.rds",
+    "lib/R/library/roxygen2/Meta/package.rds",
+    "lib/R/library/roxygen2/Meta/vignette.rds",
+    "lib/R/library/roxygen2/NAMESPACE",
+    "lib/R/library/roxygen2/NEWS.md",
+    "lib/R/library/roxygen2/R/roxygen2",
+    "lib/R/library/roxygen2/R/roxygen2.rdb",
+    "lib/R/library/roxygen2/R/roxygen2.rdx",
+    "lib/R/library/roxygen2/doc/extending.R",
+    "lib/R/library/roxygen2/doc/extending.Rmd",
+    "lib/R/library/roxygen2/doc/extending.html",
+    "lib/R/library/roxygen2/doc/index.html",
+    "lib/R/library/roxygen2/doc/namespace.R",
+    "lib/R/library/roxygen2/doc/namespace.Rmd",
+    "lib/R/library/roxygen2/doc/namespace.html",
+    "lib/R/library/roxygen2/doc/rd-formatting.R",
+    "lib/R/library/roxygen2/doc/rd-formatting.Rmd",
+    "lib/R/library/roxygen2/doc/rd-formatting.html",
+    "lib/R/library/roxygen2/doc/rd.R",
+    "lib/R/library/roxygen2/doc/rd.Rmd",
+    "lib/R/library/roxygen2/doc/rd.html",
+    "lib/R/library/roxygen2/doc/roxygen2.R",
+    "lib/R/library/roxygen2/doc/roxygen2.Rmd",
+    "lib/R/library/roxygen2/doc/roxygen2.html",
+    "lib/R/library/roxygen2/help/AnIndex",
+    "lib/R/library/roxygen2/help/aliases.rds",
+    "lib/R/library/roxygen2/help/figures/logo.png",
+    "lib/R/library/roxygen2/help/figures/test-figure-1.png",
+    "lib/R/library/roxygen2/help/paths.rds",
+    "lib/R/library/roxygen2/help/roxygen2.rdb",
+    "lib/R/library/roxygen2/help/roxygen2.rdx",
+    "lib/R/library/roxygen2/html/00Index.html",
+    "lib/R/library/roxygen2/html/R.css",
+    "lib/R/library/roxygen2/libs/roxygen2.so"
+  ],
+  "fn": "r-roxygen2-7.1.1-r36h0357c0b_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-roxygen2-7.1.1-r36h0357c0b_0",
+    "type": 1
+  },
+  "md5": "9b51c34d41319a57b8bfe1cf346cdf20",
+  "name": "r-roxygen2",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-roxygen2-7.1.1-r36h0357c0b_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/roxygen2/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "1e1b0a9dbd1a9fc7daad2ef8bf5e95b68f5b373ad05491ba2673ffd39cc1b3ec",
+        "sha256_in_prefix": "1e1b0a9dbd1a9fc7daad2ef8bf5e95b68f5b373ad05491ba2673ffd39cc1b3ec",
+        "size_in_bytes": 2026
+      },
+      {
+        "_path": "lib/R/library/roxygen2/INDEX",
+        "path_type": "hardlink",
+        "sha256": "80cd548c5f393d11723d3c79fb3bb05c12e9e8570f445a4cad77d68144fed7ec",
+        "sha256_in_prefix": "80cd548c5f393d11723d3c79fb3bb05c12e9e8570f445a4cad77d68144fed7ec",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "8f1ade9796c910b2bfe7bc07a0f5dcd2e41a14da589e9817be75a43f546c3c54",
+        "sha256_in_prefix": "8f1ade9796c910b2bfe7bc07a0f5dcd2e41a14da589e9817be75a43f546c3c54",
+        "size_in_bytes": 1426
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2ff6b650e7b1217fe0f8f639aca99a3953f13b5eb57183f3204643e690a135eb",
+        "sha256_in_prefix": "2ff6b650e7b1217fe0f8f639aca99a3953f13b5eb57183f3204643e690a135eb",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "fdbf2f9b2120069251afab2dbc90c2b856b4cbef7f7cfd770d763c55c8439e5a",
+        "sha256_in_prefix": "fdbf2f9b2120069251afab2dbc90c2b856b4cbef7f7cfd770d763c55c8439e5a",
+        "size_in_bytes": 753
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "1fbeebfc42d485ea8aeb81c8333b4d9881193678e5d22b29b66b8e107bd0ec0e",
+        "sha256_in_prefix": "1fbeebfc42d485ea8aeb81c8333b4d9881193678e5d22b29b66b8e107bd0ec0e",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "0530bd162e004db0d0af82060b7d1e4108c88497d5862417db7d04c87fd2d99e",
+        "sha256_in_prefix": "0530bd162e004db0d0af82060b7d1e4108c88497d5862417db7d04c87fd2d99e",
+        "size_in_bytes": 1616
+      },
+      {
+        "_path": "lib/R/library/roxygen2/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "cb2ce0df2c1bbba22a8157f4140aacd4644a8453daec1d3f8f958c0d19594430",
+        "sha256_in_prefix": "cb2ce0df2c1bbba22a8157f4140aacd4644a8453daec1d3f8f958c0d19594430",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/R/library/roxygen2/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "031e54b801fa3165e449bca02ef93fdeae1550a34f8c386ab41b108c916393e1",
+        "sha256_in_prefix": "031e54b801fa3165e449bca02ef93fdeae1550a34f8c386ab41b108c916393e1",
+        "size_in_bytes": 8946
+      },
+      {
+        "_path": "lib/R/library/roxygen2/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "0496ee05e5fa5654ae6f292e9745158868dba881665bbb39b73b386e3ccd3d6d",
+        "sha256_in_prefix": "0496ee05e5fa5654ae6f292e9745158868dba881665bbb39b73b386e3ccd3d6d",
+        "size_in_bytes": 47472
+      },
+      {
+        "_path": "lib/R/library/roxygen2/R/roxygen2",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/roxygen2/R/roxygen2.rdb",
+        "path_type": "hardlink",
+        "sha256": "b24771bebe9dce1a0d5122da2e30def30837cbe976370c5a7a7201f3aaa1bbc9",
+        "sha256_in_prefix": "b24771bebe9dce1a0d5122da2e30def30837cbe976370c5a7a7201f3aaa1bbc9",
+        "size_in_bytes": 439364
+      },
+      {
+        "_path": "lib/R/library/roxygen2/R/roxygen2.rdx",
+        "path_type": "hardlink",
+        "sha256": "4f168876c73a4c5b648259ecc7b7e280a90851e4143c9996909483fadd54857a",
+        "sha256_in_prefix": "4f168876c73a4c5b648259ecc7b7e280a90851e4143c9996909483fadd54857a",
+        "size_in_bytes": 6916
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/extending.R",
+        "path_type": "hardlink",
+        "sha256": "5f8953539b8329e10656ffd80542f61da31d3c84a9f50503ed908df042a65e7b",
+        "sha256_in_prefix": "5f8953539b8329e10656ffd80542f61da31d3c84a9f50503ed908df042a65e7b",
+        "size_in_bytes": 4879
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/extending.Rmd",
+        "path_type": "hardlink",
+        "sha256": "67e2ec6555a57bb14ee24e70d793bbe5d6317dcf3d6cfc3120561180778344f2",
+        "sha256_in_prefix": "67e2ec6555a57bb14ee24e70d793bbe5d6317dcf3d6cfc3120561180778344f2",
+        "size_in_bytes": 9326
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/extending.html",
+        "path_type": "hardlink",
+        "sha256": "659da89207cfde1ea65ed2268a16b612b52d38e726cb2da3b0510de5d06a77fb",
+        "sha256_in_prefix": "659da89207cfde1ea65ed2268a16b612b52d38e726cb2da3b0510de5d06a77fb",
+        "size_in_bytes": 39709
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "21460fb53560919c1fc7e96874703a25acf1bfda3a57753fd2eac1fd6b8c06f5",
+        "sha256_in_prefix": "21460fb53560919c1fc7e96874703a25acf1bfda3a57753fd2eac1fd6b8c06f5",
+        "size_in_bytes": 3258
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/namespace.R",
+        "path_type": "hardlink",
+        "sha256": "b2ca5232cd298f908a820d5f711da9349c5b80e5046ddb38378529843cd5041e",
+        "sha256_in_prefix": "b2ca5232cd298f908a820d5f711da9349c5b80e5046ddb38378529843cd5041e",
+        "size_in_bytes": 137
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/namespace.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5707ed993d83885e72342999c130cc79896bd08d0f485beaf3688e01bfd8a25d",
+        "sha256_in_prefix": "5707ed993d83885e72342999c130cc79896bd08d0f485beaf3688e01bfd8a25d",
+        "size_in_bytes": 4871
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/namespace.html",
+        "path_type": "hardlink",
+        "sha256": "c6e4eef38c3d56132dfc23cc3e7322049ff0ddf7e4fce86adfed127a9a1a1d07",
+        "sha256_in_prefix": "c6e4eef38c3d56132dfc23cc3e7322049ff0ddf7e4fce86adfed127a9a1a1d07",
+        "size_in_bytes": 10629
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/rd-formatting.R",
+        "path_type": "hardlink",
+        "sha256": "5bc2ff117114c627fc4ec27be3c6661764637083f915c278b8eb4e2718bdf45f",
+        "sha256_in_prefix": "5bc2ff117114c627fc4ec27be3c6661764637083f915c278b8eb4e2718bdf45f",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/rd-formatting.Rmd",
+        "path_type": "hardlink",
+        "sha256": "c9fa8e5f8c89c0ccef8a670643c19c530e950e2c7b1630d4488c20c9fa9a264e",
+        "sha256_in_prefix": "c9fa8e5f8c89c0ccef8a670643c19c530e950e2c7b1630d4488c20c9fa9a264e",
+        "size_in_bytes": 20553
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/rd-formatting.html",
+        "path_type": "hardlink",
+        "sha256": "abbbc5b3120a008273a623c3e228b5be541d04a6bf42157c0f74c6bdfddf8bcd",
+        "sha256_in_prefix": "abbbc5b3120a008273a623c3e228b5be541d04a6bf42157c0f74c6bdfddf8bcd",
+        "size_in_bytes": 48780
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/rd.R",
+        "path_type": "hardlink",
+        "sha256": "7982dab80ef246ad1b100c1953ce20dada1b0ce76da6f1375159666ace8f1b76",
+        "sha256_in_prefix": "7982dab80ef246ad1b100c1953ce20dada1b0ce76da6f1375159666ace8f1b76",
+        "size_in_bytes": 7665
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/rd.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5141b82b344f384332ba5d1d472975dc378f7888173f35ad58488a4d7f39f9e1",
+        "sha256_in_prefix": "5141b82b344f384332ba5d1d472975dc378f7888173f35ad58488a4d7f39f9e1",
+        "size_in_bytes": 27302
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/rd.html",
+        "path_type": "hardlink",
+        "sha256": "811e1d503918655589f73fb3496a35d9dfd968ea1ff75366f809d2e9ce227339",
+        "sha256_in_prefix": "811e1d503918655589f73fb3496a35d9dfd968ea1ff75366f809d2e9ce227339",
+        "size_in_bytes": 60670
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/roxygen2.R",
+        "path_type": "hardlink",
+        "sha256": "1bea1937ed98c7c6b7249553687e5bf5234db0217b07cdda18b98f7c12bae691",
+        "sha256_in_prefix": "1bea1937ed98c7c6b7249553687e5bf5234db0217b07cdda18b98f7c12bae691",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/roxygen2.Rmd",
+        "path_type": "hardlink",
+        "sha256": "7072ee3c78fd0ebd72fc381d3af080e38f25c4b8a9e53ca832803329d2c53950",
+        "sha256_in_prefix": "7072ee3c78fd0ebd72fc381d3af080e38f25c4b8a9e53ca832803329d2c53950",
+        "size_in_bytes": 5942
+      },
+      {
+        "_path": "lib/R/library/roxygen2/doc/roxygen2.html",
+        "path_type": "hardlink",
+        "sha256": "8bca8ca4507a6d6beb73f74157b7f1eaa272920e2de3debf06ddbdc20236f371",
+        "sha256_in_prefix": "8bca8ca4507a6d6beb73f74157b7f1eaa272920e2de3debf06ddbdc20236f371",
+        "size_in_bytes": 19081
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "9b4ea4978d42d924b342476e170f0bd3d18d67358c179482aa8a5f58c47e6f21",
+        "sha256_in_prefix": "9b4ea4978d42d924b342476e170f0bd3d18d67358c179482aa8a5f58c47e6f21",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "0d7f02db95fbd5be360418e3fb9f97088a064a3bc0c4f2058b2b510889b172fc",
+        "sha256_in_prefix": "0d7f02db95fbd5be360418e3fb9f97088a064a3bc0c4f2058b2b510889b172fc",
+        "size_in_bytes": 622
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "c9c25615d9a5c419f4786d9076a5f0c5c6c393c458c4c424cc55fba63d9f45b5",
+        "sha256_in_prefix": "c9c25615d9a5c419f4786d9076a5f0c5c6c393c458c4c424cc55fba63d9f45b5",
+        "size_in_bytes": 20719
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/figures/test-figure-1.png",
+        "path_type": "hardlink",
+        "sha256": "1a6d2fb0f9cae5388c58dd6e9802dccec1624b7c7650fa251e09ac2ec52e8e9e",
+        "sha256_in_prefix": "1a6d2fb0f9cae5388c58dd6e9802dccec1624b7c7650fa251e09ac2ec52e8e9e",
+        "size_in_bytes": 2364
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2a6680df80baef0ba99d84b222ebf64a98cedae792c0c019282655382697596e",
+        "sha256_in_prefix": "2a6680df80baef0ba99d84b222ebf64a98cedae792c0c019282655382697596e",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/roxygen2.rdb",
+        "path_type": "hardlink",
+        "sha256": "e057fcb30fe1807a1354bb19cf71fbf35f8a3b2a6abaec741c297a2d9437aebc",
+        "sha256_in_prefix": "e057fcb30fe1807a1354bb19cf71fbf35f8a3b2a6abaec741c297a2d9437aebc",
+        "size_in_bytes": 63183
+      },
+      {
+        "_path": "lib/R/library/roxygen2/help/roxygen2.rdx",
+        "path_type": "hardlink",
+        "sha256": "f77f89057788d74717fc412b1ce337a2872788f68566d09a87067cf4f69b3f19",
+        "sha256_in_prefix": "f77f89057788d74717fc412b1ce337a2872788f68566d09a87067cf4f69b3f19",
+        "size_in_bytes": 757
+      },
+      {
+        "_path": "lib/R/library/roxygen2/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f2e0c09c4893a257010cec219acb31e1f161dd02b3217d4c5f03e59488a03287",
+        "sha256_in_prefix": "f2e0c09c4893a257010cec219acb31e1f161dd02b3217d4c5f03e59488a03287",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "lib/R/library/roxygen2/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/roxygen2/libs/roxygen2.so",
+        "path_type": "hardlink",
+        "sha256": "24069bed75a032e0172fd1508a0cdfb56ac9ddcec9fd658f564e554be4f2cb34",
+        "sha256_in_prefix": "24069bed75a032e0172fd1508a0cdfb56ac9ddcec9fd658f564e554be4f2cb34",
+        "size_in_bytes": 158384
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b07c182eaa8bd416b32dbcff4d206346d602dbe78599ae63da386a1314cfb21a",
+  "size": 677412,
+  "subdir": "linux-64",
+  "timestamp": 1593466246000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-roxygen2-7.1.1-r36h0357c0b_0.tar.bz2",
+  "version": "7.1.1"
+}

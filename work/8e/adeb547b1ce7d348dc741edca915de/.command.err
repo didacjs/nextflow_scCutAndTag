@@ -1,0 +1,106 @@
+INFO  @ Thu, 16 Jan 2025 15:12:50: 
+# Command line: callpeak -t possorted_bam.bam -g mm -f BAMPE -n S1 --outdir S1_peaks.narrowPeak -q 0.05 -B --SPMR --keep-dup=1
+# ARGUMENTS LIST:
+# name = S1
+# format = BAMPE
+# ChIP-seq file = ['possorted_bam.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# The maximum gap between significant sites is assigned as the read length/tag size.
+# The minimum length of peaks is assigned as the predicted fragment length "d".
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Paired-End mode is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Thu, 16 Jan 2025 15:12:50: #1 read fragment files... 
+INFO  @ Thu, 16 Jan 2025 15:12:50: #1 read treatment fragments... 
+INFO  @ Thu, 16 Jan 2025 15:12:53:  1000000 
+INFO  @ Thu, 16 Jan 2025 15:12:56:  2000000 
+INFO  @ Thu, 16 Jan 2025 15:12:59:  3000000 
+INFO  @ Thu, 16 Jan 2025 15:13:02:  4000000 
+INFO  @ Thu, 16 Jan 2025 15:13:05:  5000000 
+INFO  @ Thu, 16 Jan 2025 15:13:08:  6000000 
+INFO  @ Thu, 16 Jan 2025 15:13:12:  7000000 
+INFO  @ Thu, 16 Jan 2025 15:13:15:  8000000 
+INFO  @ Thu, 16 Jan 2025 15:13:18:  9000000 
+INFO  @ Thu, 16 Jan 2025 15:13:21:  10000000 
+INFO  @ Thu, 16 Jan 2025 15:13:24:  11000000 
+INFO  @ Thu, 16 Jan 2025 15:13:27:  12000000 
+INFO  @ Thu, 16 Jan 2025 15:13:30:  13000000 
+INFO  @ Thu, 16 Jan 2025 15:13:33:  14000000 
+INFO  @ Thu, 16 Jan 2025 15:13:36:  15000000 
+INFO  @ Thu, 16 Jan 2025 15:13:39:  16000000 
+INFO  @ Thu, 16 Jan 2025 15:13:42:  17000000 
+INFO  @ Thu, 16 Jan 2025 15:13:45:  18000000 
+INFO  @ Thu, 16 Jan 2025 15:13:48:  19000000 
+INFO  @ Thu, 16 Jan 2025 15:13:51:  20000000 
+INFO  @ Thu, 16 Jan 2025 15:13:55:  21000000 
+INFO  @ Thu, 16 Jan 2025 15:13:58:  22000000 
+INFO  @ Thu, 16 Jan 2025 15:14:01:  23000000 
+INFO  @ Thu, 16 Jan 2025 15:14:04:  24000000 
+INFO  @ Thu, 16 Jan 2025 15:14:07:  25000000 
+INFO  @ Thu, 16 Jan 2025 15:14:10:  26000000 
+INFO  @ Thu, 16 Jan 2025 15:14:13:  27000000 
+INFO  @ Thu, 16 Jan 2025 15:14:16:  28000000 
+INFO  @ Thu, 16 Jan 2025 15:14:19:  29000000 
+INFO  @ Thu, 16 Jan 2025 15:14:22:  30000000 
+INFO  @ Thu, 16 Jan 2025 15:14:25:  31000000 
+INFO  @ Thu, 16 Jan 2025 15:14:29:  32000000 
+INFO  @ Thu, 16 Jan 2025 15:14:32:  33000000 
+INFO  @ Thu, 16 Jan 2025 15:14:35:  34000000 
+INFO  @ Thu, 16 Jan 2025 15:14:38:  35000000 
+INFO  @ Thu, 16 Jan 2025 15:14:41:  36000000 
+INFO  @ Thu, 16 Jan 2025 15:14:44:  37000000 
+INFO  @ Thu, 16 Jan 2025 15:14:47:  38000000 
+INFO  @ Thu, 16 Jan 2025 15:14:50:  39000000 
+INFO  @ Thu, 16 Jan 2025 15:14:53:  40000000 
+INFO  @ Thu, 16 Jan 2025 15:14:57:  41000000 
+INFO  @ Thu, 16 Jan 2025 15:15:00:  42000000 
+INFO  @ Thu, 16 Jan 2025 15:15:03:  43000000 
+INFO  @ Thu, 16 Jan 2025 15:15:06:  44000000 
+INFO  @ Thu, 16 Jan 2025 15:15:09:  45000000 
+INFO  @ Thu, 16 Jan 2025 15:15:12:  46000000 
+INFO  @ Thu, 16 Jan 2025 15:15:15:  47000000 
+INFO  @ Thu, 16 Jan 2025 15:15:18:  48000000 
+INFO  @ Thu, 16 Jan 2025 15:15:21:  49000000 
+INFO  @ Thu, 16 Jan 2025 15:15:24:  50000000 
+INFO  @ Thu, 16 Jan 2025 15:15:27:  51000000 
+INFO  @ Thu, 16 Jan 2025 15:15:30:  52000000 
+INFO  @ Thu, 16 Jan 2025 15:15:33:  53000000 
+INFO  @ Thu, 16 Jan 2025 15:15:36:  54000000 
+INFO  @ Thu, 16 Jan 2025 15:15:39:  55000000 
+INFO  @ Thu, 16 Jan 2025 15:15:42:  56000000 
+INFO  @ Thu, 16 Jan 2025 15:15:46:  57000000 
+INFO  @ Thu, 16 Jan 2025 15:15:49:  58000000 
+INFO  @ Thu, 16 Jan 2025 15:15:52:  59000000 
+INFO  @ Thu, 16 Jan 2025 15:15:55:  60000000 
+INFO  @ Thu, 16 Jan 2025 15:15:58:  61000000 
+INFO  @ Thu, 16 Jan 2025 15:16:01:  62000000 
+INFO  @ Thu, 16 Jan 2025 15:16:04:  63000000 
+INFO  @ Thu, 16 Jan 2025 15:16:07:  64000000 
+INFO  @ Thu, 16 Jan 2025 15:16:10:  65000000 
+INFO  @ Thu, 16 Jan 2025 15:16:13:  66000000 
+INFO  @ Thu, 16 Jan 2025 15:16:16:  67000000 
+INFO  @ Thu, 16 Jan 2025 15:16:19:  68000000 
+INFO  @ Thu, 16 Jan 2025 15:16:22:  69000000 
+INFO  @ Thu, 16 Jan 2025 15:16:25:  70000000 
+INFO  @ Thu, 16 Jan 2025 15:16:27:  71000000 
+INFO  @ Thu, 16 Jan 2025 15:16:30:  72000000 
+INFO  @ Thu, 16 Jan 2025 15:16:33:  73000000 
+INFO  @ Thu, 16 Jan 2025 15:16:35:  74000000 
+INFO  @ Thu, 16 Jan 2025 15:16:38:  75000000 
+INFO  @ Thu, 16 Jan 2025 15:16:41:  76000000 
+INFO  @ Thu, 16 Jan 2025 15:16:43:  77000000 
+INFO  @ Thu, 16 Jan 2025 15:16:46:  78000000 
+INFO  @ Thu, 16 Jan 2025 15:16:48:  79000000 
+INFO  @ Thu, 16 Jan 2025 15:16:54: 79049715 fragments have been read. 
+INFO  @ Thu, 16 Jan 2025 15:17:31: #1 mean fragment size is determined as 289.5 bp from treatment 
+INFO  @ Thu, 16 Jan 2025 15:17:31: #1 fragment size = 289.5 
+INFO  @ Thu, 16 Jan 2025 15:17:31: #1  total fragments in treatment: 79049715 
+INFO  @ Thu, 16 Jan 2025 15:17:31: #1 user defined the maximum fragments... 
+INFO  @ Thu, 16 Jan 2025 15:17:31: #1 filter out redundant fragments by allowing at most 1 identical fragment(s) 

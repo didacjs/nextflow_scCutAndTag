@@ -1,0 +1,390 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-mass",
+    "r-npsurv",
+    "r-survival"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-fitdistrplus-1.1_3-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/fitdistrplus/CITATION",
+    "lib/R/library/fitdistrplus/DESCRIPTION",
+    "lib/R/library/fitdistrplus/INDEX",
+    "lib/R/library/fitdistrplus/Meta/Rd.rds",
+    "lib/R/library/fitdistrplus/Meta/data.rds",
+    "lib/R/library/fitdistrplus/Meta/features.rds",
+    "lib/R/library/fitdistrplus/Meta/hsearch.rds",
+    "lib/R/library/fitdistrplus/Meta/links.rds",
+    "lib/R/library/fitdistrplus/Meta/nsInfo.rds",
+    "lib/R/library/fitdistrplus/Meta/package.rds",
+    "lib/R/library/fitdistrplus/Meta/vignette.rds",
+    "lib/R/library/fitdistrplus/NAMESPACE",
+    "lib/R/library/fitdistrplus/NEWS",
+    "lib/R/library/fitdistrplus/R/fitdistrplus",
+    "lib/R/library/fitdistrplus/R/fitdistrplus.rdb",
+    "lib/R/library/fitdistrplus/R/fitdistrplus.rdx",
+    "lib/R/library/fitdistrplus/data/danishmulti.rda",
+    "lib/R/library/fitdistrplus/data/danishuni.rda",
+    "lib/R/library/fitdistrplus/data/dataFAQlog1.rda",
+    "lib/R/library/fitdistrplus/data/dataFAQscale1.rda",
+    "lib/R/library/fitdistrplus/data/dataFAQscale2.rda",
+    "lib/R/library/fitdistrplus/data/endosulfan.rda",
+    "lib/R/library/fitdistrplus/data/fluazinam.rda",
+    "lib/R/library/fitdistrplus/data/groundbeef.rda",
+    "lib/R/library/fitdistrplus/data/salinity.rda",
+    "lib/R/library/fitdistrplus/data/smokedfish.rda",
+    "lib/R/library/fitdistrplus/data/toxocara.rda",
+    "lib/R/library/fitdistrplus/doc/FAQ.R",
+    "lib/R/library/fitdistrplus/doc/FAQ.Rmd",
+    "lib/R/library/fitdistrplus/doc/FAQ.html",
+    "lib/R/library/fitdistrplus/doc/Optimalgo.R",
+    "lib/R/library/fitdistrplus/doc/Optimalgo.Rmd",
+    "lib/R/library/fitdistrplus/doc/Optimalgo.html",
+    "lib/R/library/fitdistrplus/doc/index.html",
+    "lib/R/library/fitdistrplus/doc/paper2JSS.R",
+    "lib/R/library/fitdistrplus/doc/paper2JSS.Rnw",
+    "lib/R/library/fitdistrplus/doc/paper2JSS.pdf",
+    "lib/R/library/fitdistrplus/help/AnIndex",
+    "lib/R/library/fitdistrplus/help/aliases.rds",
+    "lib/R/library/fitdistrplus/help/fitdistrplus.rdb",
+    "lib/R/library/fitdistrplus/help/fitdistrplus.rdx",
+    "lib/R/library/fitdistrplus/help/paths.rds",
+    "lib/R/library/fitdistrplus/html/00Index.html",
+    "lib/R/library/fitdistrplus/html/R.css"
+  ],
+  "fn": "r-fitdistrplus-1.1_3-r36hc72bb7e_0.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-fitdistrplus-1.1_3-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "7a804546523569a5102b17bd854779d2",
+  "name": "r-fitdistrplus",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-fitdistrplus-1.1_3-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/fitdistrplus/CITATION",
+        "path_type": "hardlink",
+        "sha256": "17eb938fd4d20e86ec9d113cf0f2cac67bd01908ba144fbcd005970cfe47823d",
+        "sha256_in_prefix": "17eb938fd4d20e86ec9d113cf0f2cac67bd01908ba144fbcd005970cfe47823d",
+        "size_in_bytes": 890
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7f5e5b005c7fa4a93e9e2e36500090a09912c22aaaf4cfe0f873f393f250503b",
+        "sha256_in_prefix": "7f5e5b005c7fa4a93e9e2e36500090a09912c22aaaf4cfe0f873f393f250503b",
+        "size_in_bytes": 2305
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/INDEX",
+        "path_type": "hardlink",
+        "sha256": "179d1f7bfdc16444315a105175eb72479ebb147f70ddb6d294b464f517efd368",
+        "sha256_in_prefix": "179d1f7bfdc16444315a105175eb72479ebb147f70ddb6d294b464f517efd368",
+        "size_in_bytes": 2809
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "44a378311fbf2b83882abc8093a54378392f39d48f9ab72ae713f0dc09b31618",
+        "sha256_in_prefix": "44a378311fbf2b83882abc8093a54378392f39d48f9ab72ae713f0dc09b31618",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "c11464700539a933f4a14c8eaeccf095ecd4bd7ac7cce469cf6cff1a0530869a",
+        "sha256_in_prefix": "c11464700539a933f4a14c8eaeccf095ecd4bd7ac7cce469cf6cff1a0530869a",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "65438a6e6e4ac816ffbef3d71a33b0b6933ce46ec8692b026c36ff337bc7f504",
+        "sha256_in_prefix": "65438a6e6e4ac816ffbef3d71a33b0b6933ce46ec8692b026c36ff337bc7f504",
+        "size_in_bytes": 1678
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "f6fc6238b823657493506df464f69a9769192418ba98c373074067d11cac3bd2",
+        "sha256_in_prefix": "f6fc6238b823657493506df464f69a9769192418ba98c373074067d11cac3bd2",
+        "size_in_bytes": 792
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "12836a0417083d68944e7d41c11486439c6a2fc8ef4b4c56e22eb1da273a9527",
+        "sha256_in_prefix": "12836a0417083d68944e7d41c11486439c6a2fc8ef4b4c56e22eb1da273a9527",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "d3c22792b6f1aa4b3c00efd6e02118c7fe1f002e4c5deb22fe0aa3851daf120e",
+        "sha256_in_prefix": "d3c22792b6f1aa4b3c00efd6e02118c7fe1f002e4c5deb22fe0aa3851daf120e",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "728c87711b411986cb0344ef0a37c60413d9dfcdf213fba6ae32365345521a4f",
+        "sha256_in_prefix": "728c87711b411986cb0344ef0a37c60413d9dfcdf213fba6ae32365345521a4f",
+        "size_in_bytes": 328
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "88a310404b624361216d6cb446f7d1ebc611c5819e53db82fa117f96888d6344",
+        "sha256_in_prefix": "88a310404b624361216d6cb446f7d1ebc611c5819e53db82fa117f96888d6344",
+        "size_in_bytes": 2164
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/NEWS",
+        "path_type": "hardlink",
+        "sha256": "d0577289eba6de17930c8d383f112106288e9f5fbe58bd8f32339035717ba85d",
+        "sha256_in_prefix": "d0577289eba6de17930c8d383f112106288e9f5fbe58bd8f32339035717ba85d",
+        "size_in_bytes": 13210
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/R/fitdistrplus",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/R/fitdistrplus.rdb",
+        "path_type": "hardlink",
+        "sha256": "2cdc6793a77c75447a3d4884becbf958d89438e5b2d7ac764cd04452dbd7b1cf",
+        "sha256_in_prefix": "2cdc6793a77c75447a3d4884becbf958d89438e5b2d7ac764cd04452dbd7b1cf",
+        "size_in_bytes": 403649
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/R/fitdistrplus.rdx",
+        "path_type": "hardlink",
+        "sha256": "ddd70f0bba7699fb36baf41531911dc2b05c5828ceccb7b47fb8ccfb0153f3ec",
+        "sha256_in_prefix": "ddd70f0bba7699fb36baf41531911dc2b05c5828ceccb7b47fb8ccfb0153f3ec",
+        "size_in_bytes": 1676
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/danishmulti.rda",
+        "path_type": "hardlink",
+        "sha256": "ed09824d664a9d73d3936554eb6b37f27a5eb046e5bfe7ee38b306a7039931cd",
+        "sha256_in_prefix": "ed09824d664a9d73d3936554eb6b37f27a5eb046e5bfe7ee38b306a7039931cd",
+        "size_in_bytes": 41332
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/danishuni.rda",
+        "path_type": "hardlink",
+        "sha256": "d52bc0ef2a9984a843f54adc312007e339e7e6fc974fdb280afd226f19741bee",
+        "sha256_in_prefix": "d52bc0ef2a9984a843f54adc312007e339e7e6fc974fdb280afd226f19741bee",
+        "size_in_bytes": 17309
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/dataFAQlog1.rda",
+        "path_type": "hardlink",
+        "sha256": "23ce1819e08d8d70bd363827350f23e630d10b483039d33b5595aedd0823ecb6",
+        "sha256_in_prefix": "23ce1819e08d8d70bd363827350f23e630d10b483039d33b5595aedd0823ecb6",
+        "size_in_bytes": 24261
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/dataFAQscale1.rda",
+        "path_type": "hardlink",
+        "sha256": "5258b484cb04a7213233fc003697eaac1ec886e921d6402732cad3a4ee3ed6ec",
+        "sha256_in_prefix": "5258b484cb04a7213233fc003697eaac1ec886e921d6402732cad3a4ee3ed6ec",
+        "size_in_bytes": 733
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/dataFAQscale2.rda",
+        "path_type": "hardlink",
+        "sha256": "06983d34389a83acf92dc5534517dbef3547f878a7e3c4baba817f6ff2bf1dd5",
+        "sha256_in_prefix": "06983d34389a83acf92dc5534517dbef3547f878a7e3c4baba817f6ff2bf1dd5",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/endosulfan.rda",
+        "path_type": "hardlink",
+        "sha256": "042b336f59185e196b7f47a6746960ccc14e91dce8c6c75d5286b7242ae60e26",
+        "sha256_in_prefix": "042b336f59185e196b7f47a6746960ccc14e91dce8c6c75d5286b7242ae60e26",
+        "size_in_bytes": 600
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/fluazinam.rda",
+        "path_type": "hardlink",
+        "sha256": "17e1ea2d17d8acfe19131cb44e8f905c4e0aa044a1dc4b8d166c60575f9dc658",
+        "sha256_in_prefix": "17e1ea2d17d8acfe19131cb44e8f905c4e0aa044a1dc4b8d166c60575f9dc658",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/groundbeef.rda",
+        "path_type": "hardlink",
+        "sha256": "5fc288672e7c75e0abe44a009f9cb9f59d549c6bbdc07267ffa8a56c4cc396bf",
+        "sha256_in_prefix": "5fc288672e7c75e0abe44a009f9cb9f59d549c6bbdc07267ffa8a56c4cc396bf",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/salinity.rda",
+        "path_type": "hardlink",
+        "sha256": "1f4c15b6452bc0cf2a70d292c832349045a4d2f0c1c52d7cc77607ddb2bd57ad",
+        "sha256_in_prefix": "1f4c15b6452bc0cf2a70d292c832349045a4d2f0c1c52d7cc77607ddb2bd57ad",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/smokedfish.rda",
+        "path_type": "hardlink",
+        "sha256": "157756bb9e9193431e61cd3c30afe4948112025c0ff47f9330737f82c2950b5d",
+        "sha256_in_prefix": "157756bb9e9193431e61cd3c30afe4948112025c0ff47f9330737f82c2950b5d",
+        "size_in_bytes": 217
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/data/toxocara.rda",
+        "path_type": "hardlink",
+        "sha256": "d143cd8a13f7336fc841adf98a45828446e73a7cc6fb3602a788ad4ecb2dbdb3",
+        "sha256_in_prefix": "d143cd8a13f7336fc841adf98a45828446e73a7cc6fb3602a788ad4ecb2dbdb3",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/FAQ.R",
+        "path_type": "hardlink",
+        "sha256": "36d24b0e9c791408d9f615904d26f372587e54203b3198a7df8da8cfd4e1c599",
+        "sha256_in_prefix": "36d24b0e9c791408d9f615904d26f372587e54203b3198a7df8da8cfd4e1c599",
+        "size_in_bytes": 22206
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/FAQ.Rmd",
+        "path_type": "hardlink",
+        "sha256": "226bfaef74290d1b6349595c165b7bb89f63de800b9d72ede5eaa3f8ee2787e7",
+        "sha256_in_prefix": "226bfaef74290d1b6349595c165b7bb89f63de800b9d72ede5eaa3f8ee2787e7",
+        "size_in_bytes": 60199
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/FAQ.html",
+        "path_type": "hardlink",
+        "sha256": "41261c9e6b5e99f99ded0fc193ec49c09f693a2eb7f12bf428bf4cd69dc93d1a",
+        "sha256_in_prefix": "41261c9e6b5e99f99ded0fc193ec49c09f693a2eb7f12bf428bf4cd69dc93d1a",
+        "size_in_bytes": 856424
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/Optimalgo.R",
+        "path_type": "hardlink",
+        "sha256": "d1f29b564f32ba37af3adeba60588a25144aaf426d9d8799105b82069bc0b634",
+        "sha256_in_prefix": "d1f29b564f32ba37af3adeba60588a25144aaf426d9d8799105b82069bc0b634",
+        "size_in_bytes": 6295
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/Optimalgo.Rmd",
+        "path_type": "hardlink",
+        "sha256": "ffa0ecacae57a9ed14419c476ec361f3b77dffa1ebe5525de089fc9e4534705a",
+        "sha256_in_prefix": "ffa0ecacae57a9ed14419c476ec361f3b77dffa1ebe5525de089fc9e4534705a",
+        "size_in_bytes": 18025
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/Optimalgo.html",
+        "path_type": "hardlink",
+        "sha256": "10853396c2141311c0ea51e494d37fae0b57f8bbb86b7ca5d4b98bb6e606e18a",
+        "sha256_in_prefix": "10853396c2141311c0ea51e494d37fae0b57f8bbb86b7ca5d4b98bb6e606e18a",
+        "size_in_bytes": 290791
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "9d75641ddaccc50fdc9ccc46567b81a989792a210bf7b229ee0834b105bf20fe",
+        "sha256_in_prefix": "9d75641ddaccc50fdc9ccc46567b81a989792a210bf7b229ee0834b105bf20fe",
+        "size_in_bytes": 2412
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/paper2JSS.R",
+        "path_type": "hardlink",
+        "sha256": "cf5411356dbe2e2d03e14c144ae2ad33d5920d5b9b9626aea08e1d3e81f05d7c",
+        "sha256_in_prefix": "cf5411356dbe2e2d03e14c144ae2ad33d5920d5b9b9626aea08e1d3e81f05d7c",
+        "size_in_bytes": 14361
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/paper2JSS.Rnw",
+        "path_type": "hardlink",
+        "sha256": "13aaa2e036e1af5e61a2b52bb87c66034b376607f3fe743e3763a7c18510b23e",
+        "sha256_in_prefix": "13aaa2e036e1af5e61a2b52bb87c66034b376607f3fe743e3763a7c18510b23e",
+        "size_in_bytes": 74874
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/doc/paper2JSS.pdf",
+        "path_type": "hardlink",
+        "sha256": "1b3d6891facc0ec3cfe13cd33054442fbc9d3f636f627abd6392b042386d0430",
+        "sha256_in_prefix": "1b3d6891facc0ec3cfe13cd33054442fbc9d3f636f627abd6392b042386d0430",
+        "size_in_bytes": 1338027
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "48441b9ee6c6050eac72662deaecdb6c460c526708bf4e95ab02132c30b0a170",
+        "sha256_in_prefix": "48441b9ee6c6050eac72662deaecdb6c460c526708bf4e95ab02132c30b0a170",
+        "size_in_bytes": 1777
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c1741dad3eeb4ee54b5158db4aea4bf4ac8b372b259c596cf38bc45d0617b14c",
+        "sha256_in_prefix": "c1741dad3eeb4ee54b5158db4aea4bf4ac8b372b259c596cf38bc45d0617b14c",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/help/fitdistrplus.rdb",
+        "path_type": "hardlink",
+        "sha256": "bbe0244def62c2a46508b9c2e725d31930721d348cd01c66f2ac08a93f6ac1ee",
+        "sha256_in_prefix": "bbe0244def62c2a46508b9c2e725d31930721d348cd01c66f2ac08a93f6ac1ee",
+        "size_in_bytes": 223581
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/help/fitdistrplus.rdx",
+        "path_type": "hardlink",
+        "sha256": "816b3970c3d01ea60ec18024c74f860ac0f6574af2899a8604bc8edbc61be2ac",
+        "sha256_in_prefix": "816b3970c3d01ea60ec18024c74f860ac0f6574af2899a8604bc8edbc61be2ac",
+        "size_in_bytes": 804
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3f815788833d45d3ddc8988dfb5a3c80edd802c376e377b1df799faab84e42a0",
+        "sha256_in_prefix": "3f815788833d45d3ddc8988dfb5a3c80edd802c376e377b1df799faab84e42a0",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "32d61bc2723d65c8c0fdca206e74a5403ce09935d8b271ff0359ca9d17284e6a",
+        "sha256_in_prefix": "32d61bc2723d65c8c0fdca206e74a5403ce09935d8b271ff0359ca9d17284e6a",
+        "size_in_bytes": 12206
+      },
+      {
+        "_path": "lib/R/library/fitdistrplus/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b087d0a740538f1080ee30e3f36bb8af20c310a9f25951bde24aff33bb58bfa4",
+  "size": 2828674,
+  "subdir": "noarch",
+  "timestamp": 1607153001000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-fitdistrplus-1.1_3-r36hc72bb7e_0.tar.bz2",
+  "version": "1.1_3"
+}

@@ -1,0 +1,53 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-go.db-3.10.0-r36_0",
+  "files": [
+    "bin/.bioconductor-go.db-post-link.sh",
+    "bin/.bioconductor-go.db-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-go.db-3.10.0-r36_0.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-go.db-3.10.0-r36_0",
+    "type": 1
+  },
+  "md5": "0d305f6b62a862e1c4ce1777647467e3",
+  "name": "bioconductor-go.db",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-go.db-3.10.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-go.db-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "253f1c357287a5eab259e5feafa7de47533d9dc569b9be34d5748ae46c324b77",
+        "sha256_in_prefix": "253f1c357287a5eab259e5feafa7de47533d9dc569b9be34d5748ae46c324b77",
+        "size_in_bytes": 1277
+      },
+      {
+        "_path": "bin/.bioconductor-go.db-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "c89c4bda66bbcdce2fec93f5400dbdd2fd69bf3e38d77f1515cb3a82b61567d3",
+        "sha256_in_prefix": "c89c4bda66bbcdce2fec93f5400dbdd2fd69bf3e38d77f1515cb3a82b61567d3",
+        "size_in_bytes": 52
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5514e0583d1763e2b08e2d5a84a1b15b6115affca8cf1bb809b8abe3779b29dc",
+  "size": 6872,
+  "subdir": "noarch",
+  "timestamp": 1572801558000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-go.db-3.10.0-r36_0.tar.bz2",
+  "version": "3.10.0"
+}

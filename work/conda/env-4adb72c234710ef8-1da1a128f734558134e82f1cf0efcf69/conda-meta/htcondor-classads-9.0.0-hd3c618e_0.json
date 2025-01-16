@@ -1,0 +1,361 @@
+{
+  "build": "hd3c618e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "pcre >=8.44,<9.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/htcondor-classads-9.0.0-hd3c618e_0",
+  "files": [
+    "bin/classad_eval",
+    "bin/classad_functional_tester",
+    "bin/classad_version",
+    "include/classad/attrrefs.h",
+    "include/classad/cclassad.h",
+    "include/classad/classad.h",
+    "include/classad/classadCache.h",
+    "include/classad/classadErrno.h",
+    "include/classad/classadItor.h",
+    "include/classad/classad_containers.h",
+    "include/classad/classad_distribution.h",
+    "include/classad/collection.h",
+    "include/classad/collectionBase.h",
+    "include/classad/common.h",
+    "include/classad/debug.h",
+    "include/classad/exprList.h",
+    "include/classad/exprTree.h",
+    "include/classad/fnCall.h",
+    "include/classad/indexfile.h",
+    "include/classad/jsonSink.h",
+    "include/classad/jsonSource.h",
+    "include/classad/lexer.h",
+    "include/classad/lexerSource.h",
+    "include/classad/literals.h",
+    "include/classad/matchClassad.h",
+    "include/classad/natural_cmp.h",
+    "include/classad/operators.h",
+    "include/classad/query.h",
+    "include/classad/sink.h",
+    "include/classad/source.h",
+    "include/classad/transaction.h",
+    "include/classad/util.h",
+    "include/classad/value.h",
+    "include/classad/view.h",
+    "include/classad/xmlLexer.h",
+    "include/classad/xmlSink.h",
+    "include/classad/xmlSource.h",
+    "lib/libclassad.a",
+    "lib/libclassad.so",
+    "lib/libclassad.so.15",
+    "lib/libclassad.so.9.0.0"
+  ],
+  "fn": "htcondor-classads-9.0.0-hd3c618e_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/htcondor-classads-9.0.0-hd3c618e_0",
+    "type": 1
+  },
+  "md5": "a9bf12be8b5ff2bc7ad2d6cb1abbf7f3",
+  "name": "htcondor-classads",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/htcondor-classads-9.0.0-hd3c618e_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/classad_eval",
+        "path_type": "hardlink",
+        "sha256": "6adb5ac94a89df6dbe57e729343ae982f27750c5ddfe68bbf0a31a7a9f4a4ec8",
+        "sha256_in_prefix": "6adb5ac94a89df6dbe57e729343ae982f27750c5ddfe68bbf0a31a7a9f4a4ec8",
+        "size_in_bytes": 2072
+      },
+      {
+        "_path": "bin/classad_functional_tester",
+        "path_type": "hardlink",
+        "sha256": "1191b38fc28f3de38760bf793770f88d5bc8556ad10bcd3794552ec644471204",
+        "sha256_in_prefix": "1191b38fc28f3de38760bf793770f88d5bc8556ad10bcd3794552ec644471204",
+        "size_in_bytes": 752160
+      },
+      {
+        "_path": "bin/classad_version",
+        "path_type": "hardlink",
+        "sha256": "6fca0cc692ddbc806288edd60cfb8ac27750e82fc019347c0ae0ba4c5c1375ad",
+        "sha256_in_prefix": "6fca0cc692ddbc806288edd60cfb8ac27750e82fc019347c0ae0ba4c5c1375ad",
+        "size_in_bytes": 140592
+      },
+      {
+        "_path": "include/classad/attrrefs.h",
+        "path_type": "hardlink",
+        "sha256": "bc054d4b8c436e291b2c07ba4b3d45c00bdee8547da5aef9ced66a364261ad5b",
+        "sha256_in_prefix": "bc054d4b8c436e291b2c07ba4b3d45c00bdee8547da5aef9ced66a364261ad5b",
+        "size_in_bytes": 4445
+      },
+      {
+        "_path": "include/classad/cclassad.h",
+        "path_type": "hardlink",
+        "sha256": "758407469b81833c52aff87982f4ef409fe25091433e4cc083bd7dd98d5bc31d",
+        "sha256_in_prefix": "758407469b81833c52aff87982f4ef409fe25091433e4cc083bd7dd98d5bc31d",
+        "size_in_bytes": 4081
+      },
+      {
+        "_path": "include/classad/classad.h",
+        "path_type": "hardlink",
+        "sha256": "59fe209519ca1ebd21fab60a3c6af575c97bb799e29ac9eb1afeb19630834469",
+        "sha256_in_prefix": "59fe209519ca1ebd21fab60a3c6af575c97bb799e29ac9eb1afeb19630834469",
+        "size_in_bytes": 36308
+      },
+      {
+        "_path": "include/classad/classadCache.h",
+        "path_type": "hardlink",
+        "sha256": "d951a3b299a61894befea06787cae170968adc96806168f33696a8f80e09a9ca",
+        "sha256_in_prefix": "d951a3b299a61894befea06787cae170968adc96806168f33696a8f80e09a9ca",
+        "size_in_bytes": 3753
+      },
+      {
+        "_path": "include/classad/classadErrno.h",
+        "path_type": "hardlink",
+        "sha256": "793a82252739769667a64fa5f2dfa47ea4a8b57561efe7a0ac665c124508c54c",
+        "sha256_in_prefix": "793a82252739769667a64fa5f2dfa47ea4a8b57561efe7a0ac665c124508c54c",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "include/classad/classadItor.h",
+        "path_type": "hardlink",
+        "sha256": "3597b07b83aa53d83f600655a2d136e4edd1cbeeabaea7a7ba1143958a014142",
+        "sha256_in_prefix": "3597b07b83aa53d83f600655a2d136e4edd1cbeeabaea7a7ba1143958a014142",
+        "size_in_bytes": 4027
+      },
+      {
+        "_path": "include/classad/classad_containers.h",
+        "path_type": "hardlink",
+        "sha256": "f5b23bdb16d05e136d8a4447ae12f577321c039ede6012a12609796c356540ad",
+        "sha256_in_prefix": "f5b23bdb16d05e136d8a4447ae12f577321c039ede6012a12609796c356540ad",
+        "size_in_bytes": 1614
+      },
+      {
+        "_path": "include/classad/classad_distribution.h",
+        "path_type": "hardlink",
+        "sha256": "7784b9a672d19ee0c52b9207eb42c56a8e10d98bc35ae87428da297428394f74",
+        "sha256_in_prefix": "7784b9a672d19ee0c52b9207eb42c56a8e10d98bc35ae87428da297428394f74",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "include/classad/collection.h",
+        "path_type": "hardlink",
+        "sha256": "61885c50fa9dd6ae471157530292c6e259e879caa1c6400f739620a7f258ee9f",
+        "sha256_in_prefix": "61885c50fa9dd6ae471157530292c6e259e879caa1c6400f739620a7f258ee9f",
+        "size_in_bytes": 8024
+      },
+      {
+        "_path": "include/classad/collectionBase.h",
+        "path_type": "hardlink",
+        "sha256": "5e9cc122d928d93199ffca7a9cc0b72772405ebdb7807d9bf904092116e23a1b",
+        "sha256_in_prefix": "5e9cc122d928d93199ffca7a9cc0b72772405ebdb7807d9bf904092116e23a1b",
+        "size_in_bytes": 9814
+      },
+      {
+        "_path": "include/classad/common.h",
+        "path_type": "hardlink",
+        "sha256": "8f78cd566ce2f97384252c645a124c10cf249a2f2aabdced62a7b6f3c85e2d56",
+        "sha256_in_prefix": "8f78cd566ce2f97384252c645a124c10cf249a2f2aabdced62a7b6f3c85e2d56",
+        "size_in_bytes": 5186
+      },
+      {
+        "_path": "include/classad/debug.h",
+        "path_type": "hardlink",
+        "sha256": "873c4f6cee9effef34c6812f53d38411336b32a4e863db60d8356f5889e017e6",
+        "sha256_in_prefix": "873c4f6cee9effef34c6812f53d38411336b32a4e863db60d8356f5889e017e6",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "include/classad/exprList.h",
+        "path_type": "hardlink",
+        "sha256": "b5d2ab8d85017e0612feeca1e9b89fb7a787517f1d09f5dd68b79a45d4319760",
+        "sha256_in_prefix": "b5d2ab8d85017e0612feeca1e9b89fb7a787517f1d09f5dd68b79a45d4319760",
+        "size_in_bytes": 8778
+      },
+      {
+        "_path": "include/classad/exprTree.h",
+        "path_type": "hardlink",
+        "sha256": "abf686ce5e335a47d3a30312dc8e912e8ef8359215ae9a3ce2e595453588cee7",
+        "sha256_in_prefix": "abf686ce5e335a47d3a30312dc8e912e8ef8359215ae9a3ce2e595453588cee7",
+        "size_in_bytes": 7341
+      },
+      {
+        "_path": "include/classad/fnCall.h",
+        "path_type": "hardlink",
+        "sha256": "182014537eff94aac4eaf643d1c2c728d9d4e8244522f9693334788733a99580",
+        "sha256_in_prefix": "182014537eff94aac4eaf643d1c2c728d9d4e8244522f9693334788733a99580",
+        "size_in_bytes": 8603
+      },
+      {
+        "_path": "include/classad/indexfile.h",
+        "path_type": "hardlink",
+        "sha256": "bc46036f260eb8d12d91e73739be48efd06457b87b2f4a5280af3a034994f81a",
+        "sha256_in_prefix": "bc46036f260eb8d12d91e73739be48efd06457b87b2f4a5280af3a034994f81a",
+        "size_in_bytes": 2023
+      },
+      {
+        "_path": "include/classad/jsonSink.h",
+        "path_type": "hardlink",
+        "sha256": "33d58467269c05479e2209f1175599c0d42a8791d41cd0a85c6aeb81836582a0",
+        "sha256_in_prefix": "33d58467269c05479e2209f1175599c0d42a8791d41cd0a85c6aeb81836582a0",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "include/classad/jsonSource.h",
+        "path_type": "hardlink",
+        "sha256": "360d50471cad95da7f0a64f26366b3254c57bec5c53a0c3521ff4964f9bf4f38",
+        "sha256_in_prefix": "360d50471cad95da7f0a64f26366b3254c57bec5c53a0c3521ff4964f9bf4f38",
+        "size_in_bytes": 4658
+      },
+      {
+        "_path": "include/classad/lexer.h",
+        "path_type": "hardlink",
+        "sha256": "614f952133f78eaa93e2f4ba8010606bc8e8a7aafebe02523efb0728b60882e9",
+        "sha256_in_prefix": "614f952133f78eaa93e2f4ba8010606bc8e8a7aafebe02523efb0728b60882e9",
+        "size_in_bytes": 6274
+      },
+      {
+        "_path": "include/classad/lexerSource.h",
+        "path_type": "hardlink",
+        "sha256": "3da43388feb1c52a0eebce4cb399a5b11fe0129bf94bfa1e69765b6dbd646f0e",
+        "sha256_in_prefix": "3da43388feb1c52a0eebce4cb399a5b11fe0129bf94bfa1e69765b6dbd646f0e",
+        "size_in_bytes": 4328
+      },
+      {
+        "_path": "include/classad/literals.h",
+        "path_type": "hardlink",
+        "sha256": "42e1e6846c9ba159a4868f1b5d6996a7c5b7bc38637f1f5277b3b67972e6a787",
+        "sha256_in_prefix": "42e1e6846c9ba159a4868f1b5d6996a7c5b7bc38637f1f5277b3b67972e6a787",
+        "size_in_bytes": 7804
+      },
+      {
+        "_path": "include/classad/matchClassad.h",
+        "path_type": "hardlink",
+        "sha256": "866ca89a047c3a96e1eb13a97c795930738142e1c010b9abef503f4a4e3ba52a",
+        "sha256_in_prefix": "866ca89a047c3a96e1eb13a97c795930738142e1c010b9abef503f4a4e3ba52a",
+        "size_in_bytes": 8538
+      },
+      {
+        "_path": "include/classad/natural_cmp.h",
+        "path_type": "hardlink",
+        "sha256": "c5f19b19d6d79fa5f2bcf24fa80851b549947d05c54d99dbce33cceaa17bf990",
+        "sha256_in_prefix": "c5f19b19d6d79fa5f2bcf24fa80851b549947d05c54d99dbce33cceaa17bf990",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "include/classad/operators.h",
+        "path_type": "hardlink",
+        "sha256": "54e9e297a8c64a4db456f1710072e5a6530968a807b3d239fbc0e757bd74f3cc",
+        "sha256_in_prefix": "54e9e297a8c64a4db456f1710072e5a6530968a807b3d239fbc0e757bd74f3cc",
+        "size_in_bytes": 14138
+      },
+      {
+        "_path": "include/classad/query.h",
+        "path_type": "hardlink",
+        "sha256": "f9391b9d317749fc3bfa5516bc051e9ce3bb842692ea0ad37f44c39c405e8952",
+        "sha256_in_prefix": "f9391b9d317749fc3bfa5516bc051e9ce3bb842692ea0ad37f44c39c405e8952",
+        "size_in_bytes": 2040
+      },
+      {
+        "_path": "include/classad/sink.h",
+        "path_type": "hardlink",
+        "sha256": "a660691239b070f4bec2d8010477340395bf35d4eb87c20e04bc37ac31cd51cd",
+        "sha256_in_prefix": "a660691239b070f4bec2d8010477340395bf35d4eb87c20e04bc37ac31cd51cd",
+        "size_in_bytes": 5215
+      },
+      {
+        "_path": "include/classad/source.h",
+        "path_type": "hardlink",
+        "sha256": "481a8806098fb9d94f92836da5878741d0e378f5be487967414daf739fd1a8b1",
+        "sha256_in_prefix": "481a8806098fb9d94f92836da5878741d0e378f5be487967414daf739fd1a8b1",
+        "size_in_bytes": 5658
+      },
+      {
+        "_path": "include/classad/transaction.h",
+        "path_type": "hardlink",
+        "sha256": "be6e8c9bfce86912759dcac342c13465ab1583ef1ad28665c10a9075df4306e7",
+        "sha256_in_prefix": "be6e8c9bfce86912759dcac342c13465ab1583ef1ad28665c10a9075df4306e7",
+        "size_in_bytes": 3068
+      },
+      {
+        "_path": "include/classad/util.h",
+        "path_type": "hardlink",
+        "sha256": "094dcd9038475b0f0f51feaa7659a736791b22b36714fb6efd5595d686a8b778",
+        "sha256_in_prefix": "094dcd9038475b0f0f51feaa7659a736791b22b36714fb6efd5595d686a8b778",
+        "size_in_bytes": 2702
+      },
+      {
+        "_path": "include/classad/value.h",
+        "path_type": "hardlink",
+        "sha256": "7d0a596f0a0e6e6c4b4eadb341631ec0e51ebede411b3c38cefd34b78f4e878e",
+        "sha256_in_prefix": "7d0a596f0a0e6e6c4b4eadb341631ec0e51ebede411b3c38cefd34b78f4e878e",
+        "size_in_bytes": 19314
+      },
+      {
+        "_path": "include/classad/view.h",
+        "path_type": "hardlink",
+        "sha256": "5edd49b6709ba71f568b252e5c63f38232bed6e12399077f339d03836dd288bc",
+        "sha256_in_prefix": "5edd49b6709ba71f568b252e5c63f38232bed6e12399077f339d03836dd288bc",
+        "size_in_bytes": 5631
+      },
+      {
+        "_path": "include/classad/xmlLexer.h",
+        "path_type": "hardlink",
+        "sha256": "79213557855914354e35ea95cfed3a7069ced5c70fd210225ce35706ee590921",
+        "sha256_in_prefix": "79213557855914354e35ea95cfed3a7069ced5c70fd210225ce35706ee590921",
+        "size_in_bytes": 2968
+      },
+      {
+        "_path": "include/classad/xmlSink.h",
+        "path_type": "hardlink",
+        "sha256": "a5ecbf42e1fe1075d01e6fba1f9ff8276c84b8918585491957057eb4edb4e7e2",
+        "sha256_in_prefix": "a5ecbf42e1fe1075d01e6fba1f9ff8276c84b8918585491957057eb4edb4e7e2",
+        "size_in_bytes": 2393
+      },
+      {
+        "_path": "include/classad/xmlSource.h",
+        "path_type": "hardlink",
+        "sha256": "ce00962dd052dc8e8fecc586604b92864ae1a3dbed918ac576b69803ac72c6ff",
+        "sha256_in_prefix": "ce00962dd052dc8e8fecc586604b92864ae1a3dbed918ac576b69803ac72c6ff",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "lib/libclassad.a",
+        "path_type": "hardlink",
+        "sha256": "679284d29753035d704edee2e40a995ecb7b63cd40258815e2ac2302521974d5",
+        "sha256_in_prefix": "679284d29753035d704edee2e40a995ecb7b63cd40258815e2ac2302521974d5",
+        "size_in_bytes": 22652226
+      },
+      {
+        "_path": "lib/libclassad.so",
+        "path_type": "softlink",
+        "sha256": "c81b96bf19443add95d138c062a9f0b7bb31062ea19b91c8be920c81f67e2c7b",
+        "size_in_bytes": 13454368
+      },
+      {
+        "_path": "lib/libclassad.so.15",
+        "path_type": "softlink",
+        "sha256": "c81b96bf19443add95d138c062a9f0b7bb31062ea19b91c8be920c81f67e2c7b",
+        "size_in_bytes": 13454368
+      },
+      {
+        "_path": "lib/libclassad.so.9.0.0",
+        "path_type": "hardlink",
+        "sha256": "c81b96bf19443add95d138c062a9f0b7bb31062ea19b91c8be920c81f67e2c7b",
+        "sha256_in_prefix": "c81b96bf19443add95d138c062a9f0b7bb31062ea19b91c8be920c81f67e2c7b",
+        "size_in_bytes": 13454368
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8b545aa7d4ce249feb8d6672d2a51884ed9f8443ea95af5eeb5131b87a5a3200",
+  "size": 10454918,
+  "subdir": "linux-64",
+  "timestamp": 1618500772000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/htcondor-classads-9.0.0-hd3c618e_0.tar.bz2",
+  "version": "9.0.0"
+}

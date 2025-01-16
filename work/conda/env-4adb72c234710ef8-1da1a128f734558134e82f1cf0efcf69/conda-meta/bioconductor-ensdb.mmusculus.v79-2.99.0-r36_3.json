@@ -1,0 +1,53 @@
+{
+  "build": "r36_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-ensembldb >=2.10.0,<2.11.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-ensdb.mmusculus.v79-2.99.0-r36_3",
+  "files": [
+    "bin/.bioconductor-ensdb.mmusculus.v79-post-link.sh",
+    "bin/.bioconductor-ensdb.mmusculus.v79-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-ensdb.mmusculus.v79-2.99.0-r36_3.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-ensdb.mmusculus.v79-2.99.0-r36_3",
+    "type": 1
+  },
+  "md5": "796f10e9619c2f70e5d4b8460c713085",
+  "name": "bioconductor-ensdb.mmusculus.v79",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-ensdb.mmusculus.v79-2.99.0-r36_3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-ensdb.mmusculus.v79-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "2366a75a40b8af0a0c4dd3f5432af0dc5e0d5f6c28dcef0cf1ef87b5b2805b62",
+        "sha256_in_prefix": "2366a75a40b8af0a0c4dd3f5432af0dc5e0d5f6c28dcef0cf1ef87b5b2805b62",
+        "size_in_bytes": 1480
+      },
+      {
+        "_path": "bin/.bioconductor-ensdb.mmusculus.v79-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "57f8c28af16c1e2133c56956a6352e9a72dbdff6f12dad5a5fc4ba08876245b8",
+        "sha256_in_prefix": "57f8c28af16c1e2133c56956a6352e9a72dbdff6f12dad5a5fc4ba08876245b8",
+        "size_in_bytes": 66
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-ensdb.mmusculus.v79",
+  "sha256": "bd86410a10ca6607fccec3f309cee28390be4c7005c52c3c3a4b89ada41eaed9",
+  "size": 7310,
+  "subdir": "noarch",
+  "timestamp": 1572902238000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-ensdb.mmusculus.v79-2.99.0-r36_3.tar.bz2",
+  "version": "2.99.0"
+}

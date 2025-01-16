@@ -1,0 +1,203 @@
+{
+  "build": "r36h0357c0b_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-fnn-1.1.3-r36h0357c0b_2",
+  "files": [
+    "lib/R/library/FNN/COPYRIGHTS",
+    "lib/R/library/FNN/DESCRIPTION",
+    "lib/R/library/FNN/INDEX",
+    "lib/R/library/FNN/Meta/Rd.rds",
+    "lib/R/library/FNN/Meta/features.rds",
+    "lib/R/library/FNN/Meta/hsearch.rds",
+    "lib/R/library/FNN/Meta/links.rds",
+    "lib/R/library/FNN/Meta/nsInfo.rds",
+    "lib/R/library/FNN/Meta/package.rds",
+    "lib/R/library/FNN/NAMESPACE",
+    "lib/R/library/FNN/R/FNN",
+    "lib/R/library/FNN/R/FNN.rdb",
+    "lib/R/library/FNN/R/FNN.rdx",
+    "lib/R/library/FNN/help/AnIndex",
+    "lib/R/library/FNN/help/FNN.rdb",
+    "lib/R/library/FNN/help/FNN.rdx",
+    "lib/R/library/FNN/help/aliases.rds",
+    "lib/R/library/FNN/help/paths.rds",
+    "lib/R/library/FNN/html/00Index.html",
+    "lib/R/library/FNN/html/R.css",
+    "lib/R/library/FNN/libs/FNN.so"
+  ],
+  "fn": "r-fnn-1.1.3-r36h0357c0b_2.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-fnn-1.1.3-r36h0357c0b_2",
+    "type": 1
+  },
+  "md5": "34d7dcd7c4f53905ab28b649be67ba00",
+  "name": "r-fnn",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-fnn-1.1.3-r36h0357c0b_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/FNN/COPYRIGHTS",
+        "path_type": "hardlink",
+        "sha256": "d4c8600859ce794bbae34e17b4703dddd22e6ad6a742ec910a744914c0a6f333",
+        "sha256_in_prefix": "d4c8600859ce794bbae34e17b4703dddd22e6ad6a742ec910a744914c0a6f333",
+        "size_in_bytes": 1630
+      },
+      {
+        "_path": "lib/R/library/FNN/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "454875b6008059e55044f9e7cbd5d8db0216836fca073db7b61bfd9acd6c4fb4",
+        "sha256_in_prefix": "454875b6008059e55044f9e7cbd5d8db0216836fca073db7b61bfd9acd6c4fb4",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "lib/R/library/FNN/INDEX",
+        "path_type": "hardlink",
+        "sha256": "000497a8fda795634f5fee39a5c9185d566f3d9fe5bb02a87b7a5e7cfae0fea5",
+        "sha256_in_prefix": "000497a8fda795634f5fee39a5c9185d566f3d9fe5bb02a87b7a5e7cfae0fea5",
+        "size_in_bytes": 742
+      },
+      {
+        "_path": "lib/R/library/FNN/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "86ea99142be8f12e3ac2f1cd9a63f54823285b98ef3193f837d3f7a413e85e41",
+        "sha256_in_prefix": "86ea99142be8f12e3ac2f1cd9a63f54823285b98ef3193f837d3f7a413e85e41",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/R/library/FNN/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/FNN/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "538b3d6ca0b71a6b7315a361c48d91efd0538f4db2e6a726cc5687da27753059",
+        "sha256_in_prefix": "538b3d6ca0b71a6b7315a361c48d91efd0538f4db2e6a726cc5687da27753059",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "lib/R/library/FNN/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "fb59a9de20b3663dd0ee3145efb5890fca8e4695fb8e45631b927ce7db9a1724",
+        "sha256_in_prefix": "fb59a9de20b3663dd0ee3145efb5890fca8e4695fb8e45631b927ce7db9a1724",
+        "size_in_bytes": 314
+      },
+      {
+        "_path": "lib/R/library/FNN/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "92f854abc2bfcf17e37f37faa73ed1f442d8c96a241c9d0e5ae7a60a9582bb67",
+        "sha256_in_prefix": "92f854abc2bfcf17e37f37faa73ed1f442d8c96a241c9d0e5ae7a60a9582bb67",
+        "size_in_bytes": 406
+      },
+      {
+        "_path": "lib/R/library/FNN/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "4d9b39107779f5896339dc1b01e7e420694b983c3d78ae1343e60e40ec8b53d6",
+        "sha256_in_prefix": "4d9b39107779f5896339dc1b01e7e420694b983c3d78ae1343e60e40ec8b53d6",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "lib/R/library/FNN/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6320b4094a2618b512dec46e740aa02a2d3694117355f76192e2793fe56940d8",
+        "sha256_in_prefix": "6320b4094a2618b512dec46e740aa02a2d3694117355f76192e2793fe56940d8",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/R/library/FNN/R/FNN",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/FNN/R/FNN.rdb",
+        "path_type": "hardlink",
+        "sha256": "67b450cfe67344891d764b9b66dd49690645d32ec923447c7bfeea2f2c046cc0",
+        "sha256_in_prefix": "67b450cfe67344891d764b9b66dd49690645d32ec923447c7bfeea2f2c046cc0",
+        "size_in_bytes": 36445
+      },
+      {
+        "_path": "lib/R/library/FNN/R/FNN.rdx",
+        "path_type": "hardlink",
+        "sha256": "735eb38d9f76796162291757214b0e09d24d90d5e538464dad79903d20919cb9",
+        "sha256_in_prefix": "735eb38d9f76796162291757214b0e09d24d90d5e538464dad79903d20919cb9",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "lib/R/library/FNN/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "8692db2eec87fe2f3d1dd91ec5966858da0ef680625d74786a0539842603440a",
+        "sha256_in_prefix": "8692db2eec87fe2f3d1dd91ec5966858da0ef680625d74786a0539842603440a",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/R/library/FNN/help/FNN.rdb",
+        "path_type": "hardlink",
+        "sha256": "eafc0dc1bff548514882b73cb3f10ba1a2f5be5f0573e3fb2ca0edacaa6a6ffd",
+        "sha256_in_prefix": "eafc0dc1bff548514882b73cb3f10ba1a2f5be5f0573e3fb2ca0edacaa6a6ffd",
+        "size_in_bytes": 35307
+      },
+      {
+        "_path": "lib/R/library/FNN/help/FNN.rdx",
+        "path_type": "hardlink",
+        "sha256": "6ed6cdfc8eb35b8b01709ecfb2c5df087bedd2f221fde81edba3d408d6ca030d",
+        "sha256_in_prefix": "6ed6cdfc8eb35b8b01709ecfb2c5df087bedd2f221fde81edba3d408d6ca030d",
+        "size_in_bytes": 439
+      },
+      {
+        "_path": "lib/R/library/FNN/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "de05588fe998f8c3d40ab9c0232a526bc9f159bc158d511b11f9fbfabc403a72",
+        "sha256_in_prefix": "de05588fe998f8c3d40ab9c0232a526bc9f159bc158d511b11f9fbfabc403a72",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "lib/R/library/FNN/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "53eaa1d98e7537b36c3b65fc98b82b7a7472124fdd699287bfa2c15505783f19",
+        "sha256_in_prefix": "53eaa1d98e7537b36c3b65fc98b82b7a7472124fdd699287bfa2c15505783f19",
+        "size_in_bytes": 274
+      },
+      {
+        "_path": "lib/R/library/FNN/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "c111435e05f0c831563604dbdae093b1f3d3e984264402c376e67e4d1c98ec8f",
+        "sha256_in_prefix": "c111435e05f0c831563604dbdae093b1f3d3e984264402c376e67e4d1c98ec8f",
+        "size_in_bytes": 3162
+      },
+      {
+        "_path": "lib/R/library/FNN/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/FNN/libs/FNN.so",
+        "path_type": "hardlink",
+        "sha256": "883f7db120786ab00b83a2b54a3fd5a4fd07c42fa84cc08bd1bb0aa3dea7c8bf",
+        "sha256_in_prefix": "883f7db120786ab00b83a2b54a3fd5a4fd07c42fa84cc08bd1bb0aa3dea7c8bf",
+        "size_in_bytes": 123704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "58c53ce1c93312de807a7d3656a109e037eb2952602c01fcce7c15b61211678e",
+  "size": 153284,
+  "subdir": "linux-64",
+  "timestamp": 1588539214000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-fnn-1.1.3-r36h0357c0b_2.tar.bz2",
+  "version": "1.1.3"
+}

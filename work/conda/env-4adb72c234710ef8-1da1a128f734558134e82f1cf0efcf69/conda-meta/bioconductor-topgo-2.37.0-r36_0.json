@@ -1,0 +1,292 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-matrixstats",
+    "r-dbi",
+    "r-lattice",
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-annotationdbi >=1.48.0,<1.49.0",
+    "bioconductor-biobase >=2.46.0,<2.47.0",
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-graph >=1.64.0,<1.65.0",
+    "bioconductor-go.db >=3.10.0,<3.11.0",
+    "r-sparsem >=0.73"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-topgo-2.37.0-r36_0",
+  "files": [
+    "lib/R/library/topGO/DESCRIPTION",
+    "lib/R/library/topGO/INDEX",
+    "lib/R/library/topGO/Meta/Rd.rds",
+    "lib/R/library/topGO/Meta/data.rds",
+    "lib/R/library/topGO/Meta/features.rds",
+    "lib/R/library/topGO/Meta/hsearch.rds",
+    "lib/R/library/topGO/Meta/links.rds",
+    "lib/R/library/topGO/Meta/nsInfo.rds",
+    "lib/R/library/topGO/Meta/package.rds",
+    "lib/R/library/topGO/Meta/vignette.rds",
+    "lib/R/library/topGO/NAMESPACE",
+    "lib/R/library/topGO/R/topGO",
+    "lib/R/library/topGO/R/topGO.rdb",
+    "lib/R/library/topGO/R/topGO.rdx",
+    "lib/R/library/topGO/data/GOdata.rda",
+    "lib/R/library/topGO/data/geneList.rda",
+    "lib/R/library/topGO/data/results.tGO.rda",
+    "lib/R/library/topGO/doc/index.html",
+    "lib/R/library/topGO/doc/topGO.R",
+    "lib/R/library/topGO/doc/topGO.Rnw",
+    "lib/R/library/topGO/doc/topGO.pdf",
+    "lib/R/library/topGO/examples/geneid2go.map",
+    "lib/R/library/topGO/help/AnIndex",
+    "lib/R/library/topGO/help/aliases.rds",
+    "lib/R/library/topGO/help/paths.rds",
+    "lib/R/library/topGO/help/topGO.rdb",
+    "lib/R/library/topGO/help/topGO.rdx",
+    "lib/R/library/topGO/html/00Index.html",
+    "lib/R/library/topGO/html/R.css",
+    "lib/R/library/topGO/scripts/GO_ALL.R",
+    "lib/R/library/topGO/scripts/geneToGOscript.R"
+  ],
+  "fn": "bioconductor-topgo-2.37.0-r36_0.tar.bz2",
+  "license": "LGPL",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-topgo-2.37.0-r36_0",
+    "type": 1
+  },
+  "md5": "f0177db50cc3e9f5113616a8dadc7342",
+  "name": "bioconductor-topgo",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-topgo-2.37.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/topGO/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "2933f87567d483d34b01424fdb9a002afa5fe3feafc1c26a798b8c710b2ddddb",
+        "sha256_in_prefix": "2933f87567d483d34b01424fdb9a002afa5fe3feafc1c26a798b8c710b2ddddb",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/R/library/topGO/INDEX",
+        "path_type": "hardlink",
+        "sha256": "91d379d0bca382ecf4439e50b2a865526085df028a8ef10da24fce74d466ea9d",
+        "sha256_in_prefix": "91d379d0bca382ecf4439e50b2a865526085df028a8ef10da24fce74d466ea9d",
+        "size_in_bytes": 1512
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "4be90f1c41412cc8ceec755c0062f923f742475d72e1b191ec560a92d8625b95",
+        "sha256_in_prefix": "4be90f1c41412cc8ceec755c0062f923f742475d72e1b191ec560a92d8625b95",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "a93478a68996d68f6004f6399e99bb537fb2cae08a433e8424a21ff9cf064021",
+        "sha256_in_prefix": "a93478a68996d68f6004f6399e99bb537fb2cae08a433e8424a21ff9cf064021",
+        "size_in_bytes": 255
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0adee89ce7b8aa2bd55e18d61a74154ef35df499dc9bd6d6f9815ef0a2ab0811",
+        "sha256_in_prefix": "0adee89ce7b8aa2bd55e18d61a74154ef35df499dc9bd6d6f9815ef0a2ab0811",
+        "size_in_bytes": 3306
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "8486fc7e4b7a31e93a0382795c964ebea8cb06cb027aeeb9a1eb8c405be792ae",
+        "sha256_in_prefix": "8486fc7e4b7a31e93a0382795c964ebea8cb06cb027aeeb9a1eb8c405be792ae",
+        "size_in_bytes": 2621
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "56e28b67f7bea648a54e4b82d81b93899bf545c1b0acec9ebde74922b38701bc",
+        "sha256_in_prefix": "56e28b67f7bea648a54e4b82d81b93899bf545c1b0acec9ebde74922b38701bc",
+        "size_in_bytes": 1257
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "c9448c98c3cb7e5771dbf777ca9d6dd921f4c7ffa7221b256fbc2b09bc138a1c",
+        "sha256_in_prefix": "c9448c98c3cb7e5771dbf777ca9d6dd921f4c7ffa7221b256fbc2b09bc138a1c",
+        "size_in_bytes": 1316
+      },
+      {
+        "_path": "lib/R/library/topGO/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "a1f088d888bc178d11e5ae29e7e4ca9527a24f9a8b773c0c9d91f161ffedb3ca",
+        "sha256_in_prefix": "a1f088d888bc178d11e5ae29e7e4ca9527a24f9a8b773c0c9d91f161ffedb3ca",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "lib/R/library/topGO/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "5dcf6d1be3c18a963d6833618ce85ad5116ce6b46e9dad20713a7ca81f099e4d",
+        "sha256_in_prefix": "5dcf6d1be3c18a963d6833618ce85ad5116ce6b46e9dad20713a7ca81f099e4d",
+        "size_in_bytes": 2406
+      },
+      {
+        "_path": "lib/R/library/topGO/R/topGO",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/topGO/R/topGO.rdb",
+        "path_type": "hardlink",
+        "sha256": "e8e6205f3d5475670ab4b84bf598fc4028be7ff8650fc0ba88b3ddee57aa6f7a",
+        "sha256_in_prefix": "e8e6205f3d5475670ab4b84bf598fc4028be7ff8650fc0ba88b3ddee57aa6f7a",
+        "size_in_bytes": 618314
+      },
+      {
+        "_path": "lib/R/library/topGO/R/topGO.rdx",
+        "path_type": "hardlink",
+        "sha256": "13633c5b895050391b18828d0301aab3a7664a9c8c7ba2f72329a50bffa886c7",
+        "sha256_in_prefix": "13633c5b895050391b18828d0301aab3a7664a9c8c7ba2f72329a50bffa886c7",
+        "size_in_bytes": 5824
+      },
+      {
+        "_path": "lib/R/library/topGO/data/GOdata.rda",
+        "path_type": "hardlink",
+        "sha256": "74d6df25e1ae53165e5256531121641f6f18d14248a7b0863daf5a6dea0d6af6",
+        "sha256_in_prefix": "74d6df25e1ae53165e5256531121641f6f18d14248a7b0863daf5a6dea0d6af6",
+        "size_in_bytes": 72601
+      },
+      {
+        "_path": "lib/R/library/topGO/data/geneList.rda",
+        "path_type": "hardlink",
+        "sha256": "bf384fc7213c05bc9200d3afa333bbe9dd9db2a6af1b245f5523bc5027a7fa76",
+        "sha256_in_prefix": "bf384fc7213c05bc9200d3afa333bbe9dd9db2a6af1b245f5523bc5027a7fa76",
+        "size_in_bytes": 3336
+      },
+      {
+        "_path": "lib/R/library/topGO/data/results.tGO.rda",
+        "path_type": "hardlink",
+        "sha256": "ff29bee64679958802792ef1c00e863f2cca7fade716c9929901899c3c3f0924",
+        "sha256_in_prefix": "ff29bee64679958802792ef1c00e863f2cca7fade716c9929901899c3c3f0924",
+        "size_in_bytes": 10076
+      },
+      {
+        "_path": "lib/R/library/topGO/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "e3aaea08a435a32274de0ed6dc45f02d7250000f397c399c4d6e09e572e5bf7f",
+        "sha256_in_prefix": "e3aaea08a435a32274de0ed6dc45f02d7250000f397c399c4d6e09e572e5bf7f",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "lib/R/library/topGO/doc/topGO.R",
+        "path_type": "hardlink",
+        "sha256": "45354163522d33ccc6a9e9698d23c11ef1d7fbc4949467a294951f036ecfab0a",
+        "sha256_in_prefix": "45354163522d33ccc6a9e9698d23c11ef1d7fbc4949467a294951f036ecfab0a",
+        "size_in_bytes": 21094
+      },
+      {
+        "_path": "lib/R/library/topGO/doc/topGO.Rnw",
+        "path_type": "hardlink",
+        "sha256": "b7960d69f37a8421b4162e2a12195ee40d8c1fe718a218683574f688add5599b",
+        "sha256_in_prefix": "b7960d69f37a8421b4162e2a12195ee40d8c1fe718a218683574f688add5599b",
+        "size_in_bytes": 66906
+      },
+      {
+        "_path": "lib/R/library/topGO/doc/topGO.pdf",
+        "path_type": "hardlink",
+        "sha256": "fa0fa10ef4a50ad141d723d6f70a1a4b4eb6b50a4f3c9b98e23eeadfaefeca53",
+        "sha256_in_prefix": "fa0fa10ef4a50ad141d723d6f70a1a4b4eb6b50a4f3c9b98e23eeadfaefeca53",
+        "size_in_bytes": 879142
+      },
+      {
+        "_path": "lib/R/library/topGO/examples/geneid2go.map",
+        "path_type": "hardlink",
+        "sha256": "2e671739788548eb88864b675629d58cb77e0a1a04b61c82bd4b593334719460",
+        "sha256_in_prefix": "2e671739788548eb88864b675629d58cb77e0a1a04b61c82bd4b593334719460",
+        "size_in_bytes": 11304
+      },
+      {
+        "_path": "lib/R/library/topGO/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "62c5106b0c012ee1151d25ba71f149fee3b82f3bb66ce55b4a79e845c584e28d",
+        "sha256_in_prefix": "62c5106b0c012ee1151d25ba71f149fee3b82f3bb66ce55b4a79e845c584e28d",
+        "size_in_bytes": 14266
+      },
+      {
+        "_path": "lib/R/library/topGO/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "3e710658b7edd93d0c0fd53177e8e44de4b2f86720e61c9a2fbd1261ae8eaaa9",
+        "sha256_in_prefix": "3e710658b7edd93d0c0fd53177e8e44de4b2f86720e61c9a2fbd1261ae8eaaa9",
+        "size_in_bytes": 2698
+      },
+      {
+        "_path": "lib/R/library/topGO/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6971f8357f8d22067ebfab246e065bc19f647cd7206a4f50ccb5c0510a461d3f",
+        "sha256_in_prefix": "6971f8357f8d22067ebfab246e065bc19f647cd7206a4f50ccb5c0510a461d3f",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "lib/R/library/topGO/help/topGO.rdb",
+        "path_type": "hardlink",
+        "sha256": "fc6a23a9e29f78fb78ce91c0714d20b12ab555d8855312a7f4e8546745dde2fb",
+        "sha256_in_prefix": "fc6a23a9e29f78fb78ce91c0714d20b12ab555d8855312a7f4e8546745dde2fb",
+        "size_in_bytes": 83684
+      },
+      {
+        "_path": "lib/R/library/topGO/help/topGO.rdx",
+        "path_type": "hardlink",
+        "sha256": "30aace19431dae78b577df071ae5055da57e53b575594ed1a3abfa3d7c89d371",
+        "sha256_in_prefix": "30aace19431dae78b577df071ae5055da57e53b575594ed1a3abfa3d7c89d371",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "lib/R/library/topGO/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "aab7df93b1bf3a7f9257bb466631c0419d58fff805dedbecfa5f72095acfac70",
+        "sha256_in_prefix": "aab7df93b1bf3a7f9257bb466631c0419d58fff805dedbecfa5f72095acfac70",
+        "size_in_bytes": 39899
+      },
+      {
+        "_path": "lib/R/library/topGO/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/topGO/scripts/GO_ALL.R",
+        "path_type": "hardlink",
+        "sha256": "4926e165e95cfabb952ffd9a5ddf2ddd3c78410b0310206b3b6ca1cacbc3cb9f",
+        "sha256_in_prefix": "4926e165e95cfabb952ffd9a5ddf2ddd3c78410b0310206b3b6ca1cacbc3cb9f",
+        "size_in_bytes": 5683
+      },
+      {
+        "_path": "lib/R/library/topGO/scripts/geneToGOscript.R",
+        "path_type": "hardlink",
+        "sha256": "d9269a3c0fe36341ca25d4ba26185185825abab5a227a45db7e464216157f218",
+        "sha256_in_prefix": "d9269a3c0fe36341ca25d4ba26185185825abab5a227a45db7e464216157f218",
+        "size_in_bytes": 2048
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-topgo",
+  "sha256": "78be65bb2782ce516960f135f5cc8e4d996cb36bd071932bd169f173b3e3da51",
+  "size": 1570888,
+  "subdir": "noarch",
+  "timestamp": 1572873942000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-topgo-2.37.0-r36_0.tar.bz2",
+  "version": "2.37.0"
+}

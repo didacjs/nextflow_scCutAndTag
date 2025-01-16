@@ -1,0 +1,258 @@
+{
+  "build": "pyhdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "pandas",
+    "scipy",
+    "intervaltree",
+    "pytables",
+    "python >=3",
+    "numpy >=1.16",
+    "cooler >=0.8.10"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/hicmatrix-16-pyhdfd78af_0",
+  "files": [
+    "lib/python3.6/site-packages/HiCMatrix-16-py3.8.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/HiCMatrix-16-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/HiCMatrix-16-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/HiCMatrix-16-py3.8.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/HiCMatrix-16-py3.8.egg-info/requires.txt",
+    "lib/python3.6/site-packages/HiCMatrix-16-py3.8.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/hicmatrix/HiCMatrix.py",
+    "lib/python3.6/site-packages/hicmatrix/__init__.py",
+    "lib/python3.6/site-packages/hicmatrix/_version.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/__init__.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/cool.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/ginteractions.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/h5.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/hicpro.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/homer.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/matrixFile.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/matrixFileHandler.py",
+    "lib/python3.6/site-packages/hicmatrix/lib/scool.py",
+    "lib/python3.6/site-packages/hicmatrix/utilities.py",
+    "lib/python3.6/site-packages/hicmatrix/__pycache__/HiCMatrix.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/cool.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/ginteractions.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/h5.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/hicpro.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/homer.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/matrixFile.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/matrixFileHandler.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/scool.cpython-36.pyc",
+    "lib/python3.6/site-packages/hicmatrix/__pycache__/utilities.cpython-36.pyc"
+  ],
+  "fn": "hicmatrix-16-pyhdfd78af_0.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/hicmatrix-16-pyhdfd78af_0",
+    "type": 1
+  },
+  "md5": "7231efa886fdbf4aa621945623f655c6",
+  "name": "hicmatrix",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/hicmatrix-16-pyhdfd78af_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/HiCMatrix-16-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "1d3e919839552f5c633f50216f40b881b3f840fafd79917f1b224d9cc1237dc7",
+        "sha256_in_prefix": "1d3e919839552f5c633f50216f40b881b3f840fafd79917f1b224d9cc1237dc7",
+        "size_in_bytes": 1957
+      },
+      {
+        "_path": "site-packages/HiCMatrix-16-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "1620f24bafb2a73f9b50b29582f5cbcc0edfc6c589d56289c8ec6ede8a706b32",
+        "sha256_in_prefix": "1620f24bafb2a73f9b50b29582f5cbcc0edfc6c589d56289c8ec6ede8a706b32",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "site-packages/HiCMatrix-16-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/HiCMatrix-16-py3.8.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/HiCMatrix-16-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "45a587139a3921f66f6b34eda468ed39d063af79684b03fd07718b0717f5759b",
+        "sha256_in_prefix": "45a587139a3921f66f6b34eda468ed39d063af79684b03fd07718b0717f5759b",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/HiCMatrix-16-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "754287aa7dcb484c13eb02950450cf14b68077d9fc462dfb587d05cc74d04da8",
+        "sha256_in_prefix": "754287aa7dcb484c13eb02950450cf14b68077d9fc462dfb587d05cc74d04da8",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/hicmatrix/HiCMatrix.py",
+        "path_type": "hardlink",
+        "sha256": "dcef46e5c96e7297f9245558eb0604c2b4fa7cdbbc109e7b77965c163b81f391",
+        "sha256_in_prefix": "dcef46e5c96e7297f9245558eb0604c2b4fa7cdbbc109e7b77965c163b81f391",
+        "size_in_bytes": 44048
+      },
+      {
+        "_path": "site-packages/hicmatrix/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "16f58c51c26419a5cb9c4d90179165682f03bf7729d66cb44b847a9882114b52",
+        "sha256_in_prefix": "16f58c51c26419a5cb9c4d90179165682f03bf7729d66cb44b847a9882114b52",
+        "size_in_bytes": 153
+      },
+      {
+        "_path": "site-packages/hicmatrix/_version.py",
+        "path_type": "hardlink",
+        "sha256": "ae3369af81b9d44755919d66e2de235a7979bd55be602a2df75cd767d406b8cd",
+        "sha256_in_prefix": "ae3369af81b9d44755919d66e2de235a7979bd55be602a2df75cd767d406b8cd",
+        "size_in_bytes": 62
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6b0c8bdd0b3e2c7d4cafcacf64c8338495c083a90bcff1cef45dc22f32701621",
+        "sha256_in_prefix": "6b0c8bdd0b3e2c7d4cafcacf64c8338495c083a90bcff1cef45dc22f32701621",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/cool.py",
+        "path_type": "hardlink",
+        "sha256": "dcee7579097b30db1cfa4ed8bfc8090c7cd7d8d72a7cf1bf725c4d81f8418b8c",
+        "sha256_in_prefix": "dcee7579097b30db1cfa4ed8bfc8090c7cd7d8d72a7cf1bf725c4d81f8418b8c",
+        "size_in_bytes": 20427
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/ginteractions.py",
+        "path_type": "hardlink",
+        "sha256": "524a7b5d0e7f618ec7fb718776995ec7bd6ef9964c6ac2ddf61263acbbdc0d24",
+        "sha256_in_prefix": "524a7b5d0e7f618ec7fb718776995ec7bd6ef9964c6ac2ddf61263acbbdc0d24",
+        "size_in_bytes": 1008
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/h5.py",
+        "path_type": "hardlink",
+        "sha256": "bda1a7babcd5957773709584fc6fcbf6225f59afb6bd47029e17113443761ffc",
+        "sha256_in_prefix": "bda1a7babcd5957773709584fc6fcbf6225f59afb6bd47029e17113443761ffc",
+        "size_in_bytes": 7347
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/hicpro.py",
+        "path_type": "hardlink",
+        "sha256": "07a1e6875bc4326c2db3bb0d857891ce026f6fae21ebd0e39d80126c70806f34",
+        "sha256_in_prefix": "07a1e6875bc4326c2db3bb0d857891ce026f6fae21ebd0e39d80126c70806f34",
+        "size_in_bytes": 1815
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/homer.py",
+        "path_type": "hardlink",
+        "sha256": "ec29de4465410e46a2987ae39fd11b2d2d798749a075248fc41ce01b7cf4a3e2",
+        "sha256_in_prefix": "ec29de4465410e46a2987ae39fd11b2d2d798749a075248fc41ce01b7cf4a3e2",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/matrixFile.py",
+        "path_type": "hardlink",
+        "sha256": "fb9f498a2e45456dc58c48726c42a5b34f9a3fe4246c3696c9e0be768f3bf554",
+        "sha256_in_prefix": "fb9f498a2e45456dc58c48726c42a5b34f9a3fe4246c3696c9e0be768f3bf554",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/matrixFileHandler.py",
+        "path_type": "hardlink",
+        "sha256": "7f578f95870ded840f4eb42c794b6896c40b2e4c225633aab4a9742b7e63beaf",
+        "sha256_in_prefix": "7f578f95870ded840f4eb42c794b6896c40b2e4c225633aab4a9742b7e63beaf",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "site-packages/hicmatrix/lib/scool.py",
+        "path_type": "hardlink",
+        "sha256": "7bea1215947558a0a29a4973e4e134e28159b973ed9e32d42a75a1d6da6ce7c6",
+        "sha256_in_prefix": "7bea1215947558a0a29a4973e4e134e28159b973ed9e32d42a75a1d6da6ce7c6",
+        "size_in_bytes": 2361
+      },
+      {
+        "_path": "site-packages/hicmatrix/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "1989c3a05bc8cf71bc80dde82e09bd0788437c90e9dabb5b7e8f7ee3027e65f7",
+        "sha256_in_prefix": "1989c3a05bc8cf71bc80dde82e09bd0788437c90e9dabb5b7e8f7ee3027e65f7",
+        "size_in_bytes": 3216
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/__pycache__/HiCMatrix.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/__pycache__/_version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/cool.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/ginteractions.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/h5.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/hicpro.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/homer.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/matrixFile.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/matrixFileHandler.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/lib/__pycache__/scool.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/hicmatrix/__pycache__/utilities.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "baa30361674d5cac0d7ec4b62032fd9119150586efb1db61c1c9d91a130cce93",
+  "size": 25756,
+  "subdir": "noarch",
+  "timestamp": 1626777121000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/hicmatrix-16-pyhdfd78af_0.tar.bz2",
+  "version": "16"
+}

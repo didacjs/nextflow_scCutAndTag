@@ -1,0 +1,574 @@
+{
+  "build": "pyhdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "scipy",
+    "pyyaml",
+    "pyfaidx",
+    "multiprocess",
+    "simplejson",
+    "dask",
+    "hdf5",
+    "pairix",
+    "cytoolz",
+    "asciitree",
+    "python >=3.6",
+    "numpy >=1.9",
+    "pysam >0.8",
+    "h5py >=2.5",
+    "click >7",
+    "pandas >1.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/cooler-0.9.3-pyhdfd78af_0",
+  "files": [
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/METADATA",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/RECORD",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/WHEEL",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/cooler-0.9.3.dist-info/licenses/LICENSE",
+    "lib/python3.6/site-packages/cooler/__init__.py",
+    "lib/python3.6/site-packages/cooler/__main__.py",
+    "lib/python3.6/site-packages/cooler/_logging.py",
+    "lib/python3.6/site-packages/cooler/_version.py",
+    "lib/python3.6/site-packages/cooler/api.py",
+    "lib/python3.6/site-packages/cooler/balance.py",
+    "lib/python3.6/site-packages/cooler/cli/__init__.py",
+    "lib/python3.6/site-packages/cooler/cli/_util.py",
+    "lib/python3.6/site-packages/cooler/cli/balance.py",
+    "lib/python3.6/site-packages/cooler/cli/cload.py",
+    "lib/python3.6/site-packages/cooler/cli/coarsen.py",
+    "lib/python3.6/site-packages/cooler/cli/csort.py",
+    "lib/python3.6/site-packages/cooler/cli/digest.py",
+    "lib/python3.6/site-packages/cooler/cli/dump.py",
+    "lib/python3.6/site-packages/cooler/cli/fileops.py",
+    "lib/python3.6/site-packages/cooler/cli/info.py",
+    "lib/python3.6/site-packages/cooler/cli/load.py",
+    "lib/python3.6/site-packages/cooler/cli/makebins.py",
+    "lib/python3.6/site-packages/cooler/cli/merge.py",
+    "lib/python3.6/site-packages/cooler/cli/show.py",
+    "lib/python3.6/site-packages/cooler/cli/zoomify.py",
+    "lib/python3.6/site-packages/cooler/core/__init__.py",
+    "lib/python3.6/site-packages/cooler/core/_rangequery.py",
+    "lib/python3.6/site-packages/cooler/core/_selectors.py",
+    "lib/python3.6/site-packages/cooler/core/_tableops.py",
+    "lib/python3.6/site-packages/cooler/create/__init__.py",
+    "lib/python3.6/site-packages/cooler/create/_create.py",
+    "lib/python3.6/site-packages/cooler/create/_ingest.py",
+    "lib/python3.6/site-packages/cooler/fileops.py",
+    "lib/python3.6/site-packages/cooler/parallel.py",
+    "lib/python3.6/site-packages/cooler/reduce.py",
+    "lib/python3.6/site-packages/cooler/sandbox/__init__.py",
+    "lib/python3.6/site-packages/cooler/sandbox/dask.py",
+    "lib/python3.6/site-packages/cooler/tools.py",
+    "lib/python3.6/site-packages/cooler/util.py",
+    "lib/python3.6/site-packages/cooler/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/_logging.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/api.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/balance.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/_util.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/balance.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/cload.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/coarsen.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/csort.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/digest.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/dump.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/fileops.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/info.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/load.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/makebins.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/merge.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/show.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/cli/__pycache__/zoomify.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/core/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/core/__pycache__/_rangequery.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/core/__pycache__/_selectors.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/core/__pycache__/_tableops.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/create/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/create/__pycache__/_create.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/create/__pycache__/_ingest.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/fileops.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/parallel.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/reduce.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/sandbox/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/sandbox/__pycache__/dask.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/tools.cpython-36.pyc",
+    "lib/python3.6/site-packages/cooler/__pycache__/util.cpython-36.pyc",
+    "bin/cooler"
+  ],
+  "fn": "cooler-0.9.3-pyhdfd78af_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/cooler-0.9.3-pyhdfd78af_0",
+    "type": 1
+  },
+  "md5": "d9c26ce42769bbf0e0b61612823978ac",
+  "name": "cooler",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/cooler-0.9.3-pyhdfd78af_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ae576724f4cb3cf54bfc697940f9fbf30f485ab196baa10f45602568d5952fdd",
+        "sha256_in_prefix": "ae576724f4cb3cf54bfc697940f9fbf30f485ab196baa10f45602568d5952fdd",
+        "size_in_bytes": 8195
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "6ca59d0986fc4135752cba8fd8fc8f1d955f2432276eec7d17e2cb86a53c8a64",
+        "sha256_in_prefix": "6ca59d0986fc4135752cba8fd8fc8f1d955f2432276eec7d17e2cb86a53c8a64",
+        "size_in_bytes": 5182
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "sha256_in_prefix": "f5006e1e183a14d5bb969a5ba05daf2956c2193573b05ca48114238e56a3ae10",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0671efbd7f113ceec986a179394b39f3dab22e3124fd0ce8a6baf163aa7bc387",
+        "sha256_in_prefix": "0671efbd7f113ceec986a179394b39f3dab22e3124fd0ce8a6baf163aa7bc387",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f7090c80f4ab5ce0c35bfbacc368d0158b4672649322ae6e9f7d4e80245b1b65",
+        "sha256_in_prefix": "f7090c80f4ab5ce0c35bfbacc368d0158b4672649322ae6e9f7d4e80245b1b65",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/cooler-0.9.3.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1fed5f60e2778a69d36509ab7f639a4d51061f5824d4aafbc83d409233220bc2",
+        "sha256_in_prefix": "1fed5f60e2778a69d36509ab7f639a4d51061f5824d4aafbc83d409233220bc2",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "site-packages/cooler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f2795daa7f2ffcc805345649fdbacefd4b7cfbc6c106147b5f648e4afbe739d8",
+        "sha256_in_prefix": "f2795daa7f2ffcc805345649fdbacefd4b7cfbc6c106147b5f648e4afbe739d8",
+        "size_in_bytes": 612
+      },
+      {
+        "_path": "site-packages/cooler/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "f210ed5a568564adb82a17cdabf64a82d5ea607b034037adba4382325b1b5b44",
+        "sha256_in_prefix": "f210ed5a568564adb82a17cdabf64a82d5ea607b034037adba4382325b1b5b44",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "site-packages/cooler/_logging.py",
+        "path_type": "hardlink",
+        "sha256": "109cdc533fb4be276b01d1a36c1064a32e35282925573bf25c6f60112c7e35e6",
+        "sha256_in_prefix": "109cdc533fb4be276b01d1a36c1064a32e35282925573bf25c6f60112c7e35e6",
+        "size_in_bytes": 5341
+      },
+      {
+        "_path": "site-packages/cooler/_version.py",
+        "path_type": "hardlink",
+        "sha256": "cd38ed39f0f59f43d4b18e3bdff0c168faff577158b5f8b84892e41cf488c065",
+        "sha256_in_prefix": "cd38ed39f0f59f43d4b18e3bdff0c168faff577158b5f8b84892e41cf488c065",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "site-packages/cooler/api.py",
+        "path_type": "hardlink",
+        "sha256": "b5df23f1e09eea03dd616b4f74267905a29e1cc819ee08365c4fa5fad3007ddc",
+        "sha256_in_prefix": "b5df23f1e09eea03dd616b4f74267905a29e1cc819ee08365c4fa5fad3007ddc",
+        "size_in_bytes": 24577
+      },
+      {
+        "_path": "site-packages/cooler/balance.py",
+        "path_type": "hardlink",
+        "sha256": "0b911e2dec9c203fc95e8ea01099f8ce7b936f77b4e5740cb9e7af5cfc34dbb0",
+        "sha256_in_prefix": "0b911e2dec9c203fc95e8ea01099f8ce7b936f77b4e5740cb9e7af5cfc34dbb0",
+        "size_in_bytes": 12625
+      },
+      {
+        "_path": "site-packages/cooler/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e21192aeb29b949804c7164b2889737aac9253f9de37685da32eee0ba7d52ec5",
+        "sha256_in_prefix": "e21192aeb29b949804c7164b2889737aac9253f9de37685da32eee0ba7d52ec5",
+        "size_in_bytes": 3747
+      },
+      {
+        "_path": "site-packages/cooler/cli/_util.py",
+        "path_type": "hardlink",
+        "sha256": "fa3469849eba712f50b6f67dbb59795416c8dfa9655c6e1bfd25067f19372777",
+        "sha256_in_prefix": "fa3469849eba712f50b6f67dbb59795416c8dfa9655c6e1bfd25067f19372777",
+        "size_in_bytes": 6621
+      },
+      {
+        "_path": "site-packages/cooler/cli/balance.py",
+        "path_type": "hardlink",
+        "sha256": "d9acee33924678819dbc78658bc321326500a42cc20b5471ec22f623b078c6b2",
+        "sha256_in_prefix": "d9acee33924678819dbc78658bc321326500a42cc20b5471ec22f623b078c6b2",
+        "size_in_bytes": 8155
+      },
+      {
+        "_path": "site-packages/cooler/cli/cload.py",
+        "path_type": "hardlink",
+        "sha256": "5196df6c24b1cecfe78cc885ecd2948b5e4d0f2b56718e3dc16a9f431bbf5be8",
+        "sha256_in_prefix": "5196df6c24b1cecfe78cc885ecd2948b5e4d0f2b56718e3dc16a9f431bbf5be8",
+        "size_in_bytes": 17110
+      },
+      {
+        "_path": "site-packages/cooler/cli/coarsen.py",
+        "path_type": "hardlink",
+        "sha256": "8c7671321b62a72020120561fb3ba4edf06d00b7e27eeba5f47fd468f0e7761c",
+        "sha256_in_prefix": "8c7671321b62a72020120561fb3ba4edf06d00b7e27eeba5f47fd468f0e7761c",
+        "size_in_bytes": 2703
+      },
+      {
+        "_path": "site-packages/cooler/cli/csort.py",
+        "path_type": "hardlink",
+        "sha256": "c60ef2a8c728293197c93cbc03a9cc87d4b7ab755751a79db5aa3a8a8bbc0a91",
+        "sha256_in_prefix": "c60ef2a8c728293197c93cbc03a9cc87d4b7ab755751a79db5aa3a8a8bbc0a91",
+        "size_in_bytes": 12566
+      },
+      {
+        "_path": "site-packages/cooler/cli/digest.py",
+        "path_type": "hardlink",
+        "sha256": "6245e0781e8d003981932f6395ed23a8a7537d53a39648db70f082c70f11f775",
+        "sha256_in_prefix": "6245e0781e8d003981932f6395ed23a8a7537d53a39648db70f082c70f11f775",
+        "size_in_bytes": 2058
+      },
+      {
+        "_path": "site-packages/cooler/cli/dump.py",
+        "path_type": "hardlink",
+        "sha256": "3e1079d97c89bdb4d366bafbd4f2be9aa175e8b1f80899b096e02894318be734",
+        "sha256_in_prefix": "3e1079d97c89bdb4d366bafbd4f2be9aa175e8b1f80899b096e02894318be734",
+        "size_in_bytes": 8106
+      },
+      {
+        "_path": "site-packages/cooler/cli/fileops.py",
+        "path_type": "hardlink",
+        "sha256": "b6cb510647fa424ef6974812a979184fac2829b5bef9d78ef100e2ecf6d45011",
+        "sha256_in_prefix": "b6cb510647fa424ef6974812a979184fac2829b5bef9d78ef100e2ecf6d45011",
+        "size_in_bytes": 3343
+      },
+      {
+        "_path": "site-packages/cooler/cli/info.py",
+        "path_type": "hardlink",
+        "sha256": "19d440a5d78101a308a65bc4dbde1a80f28439854ceb41090abc9662149c0627",
+        "sha256_in_prefix": "19d440a5d78101a308a65bc4dbde1a80f28439854ceb41090abc9662149c0627",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "site-packages/cooler/cli/load.py",
+        "path_type": "hardlink",
+        "sha256": "f1cdb2454f02175b849bbc2e1058a2783562e17492c31fbde37bd4808c0fbd16",
+        "sha256_in_prefix": "f1cdb2454f02175b849bbc2e1058a2783562e17492c31fbde37bd4808c0fbd16",
+        "size_in_bytes": 10684
+      },
+      {
+        "_path": "site-packages/cooler/cli/makebins.py",
+        "path_type": "hardlink",
+        "sha256": "6bdd0dfc32bb13cd74f0ffad78896de10c70163792652bf5aba65ecde0d09960",
+        "sha256_in_prefix": "6bdd0dfc32bb13cd74f0ffad78896de10c70163792652bf5aba65ecde0d09960",
+        "size_in_bytes": 1570
+      },
+      {
+        "_path": "site-packages/cooler/cli/merge.py",
+        "path_type": "hardlink",
+        "sha256": "eeca3c6245b4fd46c8be09bebb66cb5fd2b38efc4568df1bf1407a0fcf760ada",
+        "sha256_in_prefix": "eeca3c6245b4fd46c8be09bebb66cb5fd2b38efc4568df1bf1407a0fcf760ada",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "site-packages/cooler/cli/show.py",
+        "path_type": "hardlink",
+        "sha256": "aab87b129a4dd4323eb49584f920ce021eac512f042caa284ff1d19694a0504b",
+        "sha256_in_prefix": "aab87b129a4dd4323eb49584f920ce021eac512f042caa284ff1d19694a0504b",
+        "size_in_bytes": 8119
+      },
+      {
+        "_path": "site-packages/cooler/cli/zoomify.py",
+        "path_type": "hardlink",
+        "sha256": "c8d5f3d62b77e1ccec9d56d7c66d60f273edd4663f134f1ff3c4db090f81dd24",
+        "sha256_in_prefix": "c8d5f3d62b77e1ccec9d56d7c66d60f273edd4663f134f1ff3c4db090f81dd24",
+        "size_in_bytes": 7634
+      },
+      {
+        "_path": "site-packages/cooler/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "041ce6f5ef0eda7b83f9d69178188be32942fe04a2bbf4d1de4d982ab0577328",
+        "sha256_in_prefix": "041ce6f5ef0eda7b83f9d69178188be32942fe04a2bbf4d1de4d982ab0577328",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "site-packages/cooler/core/_rangequery.py",
+        "path_type": "hardlink",
+        "sha256": "851698a1755f5869a4f4b2954caadccf383c902ab30a994d0d7fcfb7e3f80946",
+        "sha256_in_prefix": "851698a1755f5869a4f4b2954caadccf383c902ab30a994d0d7fcfb7e3f80946",
+        "size_in_bytes": 15452
+      },
+      {
+        "_path": "site-packages/cooler/core/_selectors.py",
+        "path_type": "hardlink",
+        "sha256": "977b574ceb49c818205c965037e30f379344e61945c2a27aacb721ba1279a53c",
+        "sha256_in_prefix": "977b574ceb49c818205c965037e30f379344e61945c2a27aacb721ba1279a53c",
+        "size_in_bytes": 4279
+      },
+      {
+        "_path": "site-packages/cooler/core/_tableops.py",
+        "path_type": "hardlink",
+        "sha256": "aa9b1ddd0e8ad22f0f91dc93206e30f4c002c6263c473ea9a0b4ab5e571abd8d",
+        "sha256_in_prefix": "aa9b1ddd0e8ad22f0f91dc93206e30f4c002c6263c473ea9a0b4ab5e571abd8d",
+        "size_in_bytes": 5601
+      },
+      {
+        "_path": "site-packages/cooler/create/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c0c2c53043a05375464dd6859ef2d39937944a345ef41b10757cccdb04ad726b",
+        "sha256_in_prefix": "c0c2c53043a05375464dd6859ef2d39937944a345ef41b10757cccdb04ad726b",
+        "size_in_bytes": 844
+      },
+      {
+        "_path": "site-packages/cooler/create/_create.py",
+        "path_type": "hardlink",
+        "sha256": "c75837ee8713fbca9533823f08f43d04520ce22c84c5547b096669eba931bae0",
+        "sha256_in_prefix": "c75837ee8713fbca9533823f08f43d04520ce22c84c5547b096669eba931bae0",
+        "size_in_bytes": 40740
+      },
+      {
+        "_path": "site-packages/cooler/create/_ingest.py",
+        "path_type": "hardlink",
+        "sha256": "547d18541b5947e75773a3523f68d7ebea6c10be5013513b95e3992e97e4d6f8",
+        "sha256_in_prefix": "547d18541b5947e75773a3523f68d7ebea6c10be5013513b95e3992e97e4d6f8",
+        "size_in_bytes": 36265
+      },
+      {
+        "_path": "site-packages/cooler/fileops.py",
+        "path_type": "hardlink",
+        "sha256": "7fd298e6234fce7c89dce79d2a074a5cb850de300e78c57b4a24a68117306473",
+        "sha256_in_prefix": "7fd298e6234fce7c89dce79d2a074a5cb850de300e78c57b4a24a68117306473",
+        "size_in_bytes": 13245
+      },
+      {
+        "_path": "site-packages/cooler/parallel.py",
+        "path_type": "hardlink",
+        "sha256": "e56e6fd71bd86a415e9c4deec1ea738523c55b3e72215c2b1690d59d5cc35eb7",
+        "sha256_in_prefix": "e56e6fd71bd86a415e9c4deec1ea738523c55b3e72215c2b1690d59d5cc35eb7",
+        "size_in_bytes": 8096
+      },
+      {
+        "_path": "site-packages/cooler/reduce.py",
+        "path_type": "hardlink",
+        "sha256": "f11bf52f893e6730a723ed62768b0f38d9f94d44c0d52be150cbbc8655d1dfe9",
+        "sha256_in_prefix": "f11bf52f893e6730a723ed62768b0f38d9f94d44c0d52be150cbbc8655d1dfe9",
+        "size_in_bytes": 27914
+      },
+      {
+        "_path": "site-packages/cooler/sandbox/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/cooler/sandbox/dask.py",
+        "path_type": "hardlink",
+        "sha256": "298b7e0502b37f7fa761051b5c295cb8e806837814ab5974e016fb2ba0a52eaf",
+        "sha256_in_prefix": "298b7e0502b37f7fa761051b5c295cb8e806837814ab5974e016fb2ba0a52eaf",
+        "size_in_bytes": 5737
+      },
+      {
+        "_path": "site-packages/cooler/tools.py",
+        "path_type": "hardlink",
+        "sha256": "1a17bca098da041013ae45e07da3be4c2dbd7727bd6a9b293241004f836e8613",
+        "sha256_in_prefix": "1a17bca098da041013ae45e07da3be4c2dbd7727bd6a9b293241004f836e8613",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "site-packages/cooler/util.py",
+        "path_type": "hardlink",
+        "sha256": "754c9c4aa37250f11be3820e021f6dacc4069e2e253f4d8edfa3b06a761cea53",
+        "sha256_in_prefix": "754c9c4aa37250f11be3820e021f6dacc4069e2e253f4d8edfa3b06a761cea53",
+        "size_in_bytes": 24075
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/_logging.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/_version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/api.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/balance.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/_util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/balance.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/cload.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/coarsen.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/csort.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/digest.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/dump.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/fileops.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/info.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/load.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/makebins.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/merge.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/show.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/cli/__pycache__/zoomify.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/core/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/core/__pycache__/_rangequery.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/core/__pycache__/_selectors.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/core/__pycache__/_tableops.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/create/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/create/__pycache__/_create.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/create/__pycache__/_ingest.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/fileops.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/parallel.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/reduce.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/sandbox/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/sandbox/__pycache__/dask.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/tools.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/cooler/__pycache__/util.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/cooler",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "95ad53c9f0f7b6075444d2155b1d22f8cee29d20613eba52cf6ebd6c014067c7",
+  "size": 85066,
+  "subdir": "noarch",
+  "timestamp": 1694479064000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/cooler-0.9.3-pyhdfd78af_0.tar.bz2",
+  "version": "0.9.3"
+}

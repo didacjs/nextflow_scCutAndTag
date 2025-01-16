@@ -1,0 +1,276 @@
+{
+  "build": "r36_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-iterators >=1.0.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-itertools-0.1_3-r36_1003",
+  "files": [
+    "lib/R/library/itertools/DESCRIPTION",
+    "lib/R/library/itertools/INDEX",
+    "lib/R/library/itertools/Meta/Rd.rds",
+    "lib/R/library/itertools/Meta/features.rds",
+    "lib/R/library/itertools/Meta/hsearch.rds",
+    "lib/R/library/itertools/Meta/links.rds",
+    "lib/R/library/itertools/Meta/nsInfo.rds",
+    "lib/R/library/itertools/Meta/package.rds",
+    "lib/R/library/itertools/NAMESPACE",
+    "lib/R/library/itertools/NEWS",
+    "lib/R/library/itertools/R/itertools",
+    "lib/R/library/itertools/R/itertools.rdb",
+    "lib/R/library/itertools/R/itertools.rdx",
+    "lib/R/library/itertools/examples/blockMM.R",
+    "lib/R/library/itertools/examples/iarrayExample.R",
+    "lib/R/library/itertools/examples/iarrayExample2.R",
+    "lib/R/library/itertools/examples/ihasNextExample.R",
+    "lib/R/library/itertools/examples/ireadBinExample.R",
+    "lib/R/library/itertools/examples/ireaddfExample.R",
+    "lib/R/library/itertools/examples/isplitIndicesExample.R",
+    "lib/R/library/itertools/examples/productExample.R",
+    "lib/R/library/itertools/examples/range.R",
+    "lib/R/library/itertools/examples/timeoutExample.R",
+    "lib/R/library/itertools/help/AnIndex",
+    "lib/R/library/itertools/help/aliases.rds",
+    "lib/R/library/itertools/help/itertools.rdb",
+    "lib/R/library/itertools/help/itertools.rdx",
+    "lib/R/library/itertools/help/paths.rds",
+    "lib/R/library/itertools/html/00Index.html",
+    "lib/R/library/itertools/html/R.css"
+  ],
+  "fn": "r-itertools-0.1_3-r36_1003.tar.bz2",
+  "license": "GPL-2",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-itertools-0.1_3-r36_1003",
+    "type": 1
+  },
+  "md5": "5825d6de6043a9813fcca05635aa9eb3",
+  "name": "r-itertools",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-itertools-0.1_3-r36_1003.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/itertools/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "fb7ee6329814ec9a15c7547c2676dfe1b073375543df068b10fed171c1c4a693",
+        "sha256_in_prefix": "fb7ee6329814ec9a15c7547c2676dfe1b073375543df068b10fed171c1c4a693",
+        "size_in_bytes": 736
+      },
+      {
+        "_path": "lib/R/library/itertools/INDEX",
+        "path_type": "hardlink",
+        "sha256": "8e007fa8fa5b1d82d94825b492391c2e04f9bdea46395510a0443df5798f6120",
+        "sha256_in_prefix": "8e007fa8fa5b1d82d94825b492391c2e04f9bdea46395510a0443df5798f6120",
+        "size_in_bytes": 1723
+      },
+      {
+        "_path": "lib/R/library/itertools/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "2d85dfd6ad27f58b8d2f7881e4ea9b59d5a2c6f9ff7028e01648f4261cd9ec9d",
+        "sha256_in_prefix": "2d85dfd6ad27f58b8d2f7881e4ea9b59d5a2c6f9ff7028e01648f4261cd9ec9d",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "lib/R/library/itertools/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/itertools/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ee8ffbef1b73a9680bb43634bc435b16341a367a85b246319947f13364d242a1",
+        "sha256_in_prefix": "ee8ffbef1b73a9680bb43634bc435b16341a367a85b246319947f13364d242a1",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "lib/R/library/itertools/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "52290966b3f4776631eb80270af5ba784b2bad2e7c1ff50a972a4cf2d2be939c",
+        "sha256_in_prefix": "52290966b3f4776631eb80270af5ba784b2bad2e7c1ff50a972a4cf2d2be939c",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/R/library/itertools/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "5f059b0076cefbca11262d1b99491074b4a6899775401797f48e0862c91830a7",
+        "sha256_in_prefix": "5f059b0076cefbca11262d1b99491074b4a6899775401797f48e0862c91830a7",
+        "size_in_bytes": 452
+      },
+      {
+        "_path": "lib/R/library/itertools/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "536aa355de0b5baf81262fa89b269138402add8bc57b7005f26f50d66c342f75",
+        "sha256_in_prefix": "536aa355de0b5baf81262fa89b269138402add8bc57b7005f26f50d66c342f75",
+        "size_in_bytes": 851
+      },
+      {
+        "_path": "lib/R/library/itertools/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6930dc138f193b8502727c6321d8067bd4c64f0f23516c5c31bfafa5468f03a5",
+        "sha256_in_prefix": "6930dc138f193b8502727c6321d8067bd4c64f0f23516c5c31bfafa5468f03a5",
+        "size_in_bytes": 485
+      },
+      {
+        "_path": "lib/R/library/itertools/NEWS",
+        "path_type": "hardlink",
+        "sha256": "ea7db52f39a2d562e9e954f1afee02e87098306d5b4585ca1d337003683d17e5",
+        "sha256_in_prefix": "ea7db52f39a2d562e9e954f1afee02e87098306d5b4585ca1d337003683d17e5",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/R/library/itertools/R/itertools",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/itertools/R/itertools.rdb",
+        "path_type": "hardlink",
+        "sha256": "20e89de05e927c7c2befd6a602b3c588f787dead2e409de46a1c73faf48159f5",
+        "sha256_in_prefix": "20e89de05e927c7c2befd6a602b3c588f787dead2e409de46a1c73faf48159f5",
+        "size_in_bytes": 49988
+      },
+      {
+        "_path": "lib/R/library/itertools/R/itertools.rdx",
+        "path_type": "hardlink",
+        "sha256": "03bb7f939409c4a0f04072348ee226eb2891624fea7c254b5ac5cd126993ae1d",
+        "sha256_in_prefix": "03bb7f939409c4a0f04072348ee226eb2891624fea7c254b5ac5cd126993ae1d",
+        "size_in_bytes": 757
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/blockMM.R",
+        "path_type": "hardlink",
+        "sha256": "3f482cdcb63dbc6f485568e9896e4d9ab5df716b0e2a553d7115339408600385",
+        "sha256_in_prefix": "3f482cdcb63dbc6f485568e9896e4d9ab5df716b0e2a553d7115339408600385",
+        "size_in_bytes": 1788
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/iarrayExample.R",
+        "path_type": "hardlink",
+        "sha256": "e17fc28c4740b98ba2dd700e7fc8f0bce13a32df3fcb3e41cddf1947642bc46b",
+        "sha256_in_prefix": "e17fc28c4740b98ba2dd700e7fc8f0bce13a32df3fcb3e41cddf1947642bc46b",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/iarrayExample2.R",
+        "path_type": "hardlink",
+        "sha256": "4d26bf259d7e10df41102354778ca6d442cdec282d89979d4c6716172ee20bfa",
+        "sha256_in_prefix": "4d26bf259d7e10df41102354778ca6d442cdec282d89979d4c6716172ee20bfa",
+        "size_in_bytes": 640
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/ihasNextExample.R",
+        "path_type": "hardlink",
+        "sha256": "f64acf675d1b1fd873b576760c954adf34e81e424400acf3a9ca6b51657272cb",
+        "sha256_in_prefix": "f64acf675d1b1fd873b576760c954adf34e81e424400acf3a9ca6b51657272cb",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/ireadBinExample.R",
+        "path_type": "hardlink",
+        "sha256": "ebf33324449954730f467ff2d5ed3c7ca3c62b7d142898a05f9be1bbef058230",
+        "sha256_in_prefix": "ebf33324449954730f467ff2d5ed3c7ca3c62b7d142898a05f9be1bbef058230",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/ireaddfExample.R",
+        "path_type": "hardlink",
+        "sha256": "8d219c7156893b49a4045d7a173cdad9c0751f4f41b27059d7e47c0fa2e4f3c7",
+        "sha256_in_prefix": "8d219c7156893b49a4045d7a173cdad9c0751f4f41b27059d7e47c0fa2e4f3c7",
+        "size_in_bytes": 3146
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/isplitIndicesExample.R",
+        "path_type": "hardlink",
+        "sha256": "709e8f0a0d3de096a22fbb2488759f1aaaeabe0083243b1694b9906886a1eaab",
+        "sha256_in_prefix": "709e8f0a0d3de096a22fbb2488759f1aaaeabe0083243b1694b9906886a1eaab",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/productExample.R",
+        "path_type": "hardlink",
+        "sha256": "d6acf8b56b1fa136ac9a1605cc8e7b008ad33ed09bb60ddd8b47f87087070568",
+        "sha256_in_prefix": "d6acf8b56b1fa136ac9a1605cc8e7b008ad33ed09bb60ddd8b47f87087070568",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/range.R",
+        "path_type": "hardlink",
+        "sha256": "ec2614fbe1e96da9487b763f64f77720175bd095e031161d83d22c0020ded583",
+        "sha256_in_prefix": "ec2614fbe1e96da9487b763f64f77720175bd095e031161d83d22c0020ded583",
+        "size_in_bytes": 542
+      },
+      {
+        "_path": "lib/R/library/itertools/examples/timeoutExample.R",
+        "path_type": "hardlink",
+        "sha256": "2d2b0a9355ea64d113b63a7e694f1d1435e0f3150dba58b474c91b31b6550361",
+        "sha256_in_prefix": "2d2b0a9355ea64d113b63a7e694f1d1435e0f3150dba58b474c91b31b6550361",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/R/library/itertools/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "b082a48598d3957860a37788da29700333dc0c46322256c2c168312b4a32354b",
+        "sha256_in_prefix": "b082a48598d3957860a37788da29700333dc0c46322256c2c168312b4a32354b",
+        "size_in_bytes": 647
+      },
+      {
+        "_path": "lib/R/library/itertools/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c5bc2359a9b0763a3bbb819424e0b15a9880e47e7d69fc78a96206c312d7c2ba",
+        "sha256_in_prefix": "c5bc2359a9b0763a3bbb819424e0b15a9880e47e7d69fc78a96206c312d7c2ba",
+        "size_in_bytes": 367
+      },
+      {
+        "_path": "lib/R/library/itertools/help/itertools.rdb",
+        "path_type": "hardlink",
+        "sha256": "f03e6ad539259fc618c2a2639c4081b1be35bb692503f9f23d7db04e7dc8c271",
+        "sha256_in_prefix": "f03e6ad539259fc618c2a2639c4081b1be35bb692503f9f23d7db04e7dc8c271",
+        "size_in_bytes": 46130
+      },
+      {
+        "_path": "lib/R/library/itertools/help/itertools.rdx",
+        "path_type": "hardlink",
+        "sha256": "67af3e98dc0b865357675825bec73a134100e69db1de64a22bae8b75301bea11",
+        "sha256_in_prefix": "67af3e98dc0b865357675825bec73a134100e69db1de64a22bae8b75301bea11",
+        "size_in_bytes": 695
+      },
+      {
+        "_path": "lib/R/library/itertools/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "c297d896fb088efcf68bb7db63d80b470ad97b280fd7f55cb4dad7788d0ce6a7",
+        "sha256_in_prefix": "c297d896fb088efcf68bb7db63d80b470ad97b280fd7f55cb4dad7788d0ce6a7",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "lib/R/library/itertools/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "07170066489458250eeb86b39aaad79b4186d45f04c2ee628eafe5c5001eee92",
+        "sha256_in_prefix": "07170066489458250eeb86b39aaad79b4186d45f04c2ee628eafe5c5001eee92",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "lib/R/library/itertools/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3c53a9289761bf2778440c6d12e137ae129e15febca544ff335a3489ecb283fb",
+  "size": 125056,
+  "subdir": "noarch",
+  "timestamp": 1588564782000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-itertools-0.1_3-r36_1003.tar.bz2",
+  "version": "0.1_3"
+}

@@ -1,0 +1,212 @@
+{
+  "build": "r36h6115d3f_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-processx"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-xopen-1.0.0-r36h6115d3f_1003",
+  "files": [
+    "lib/R/library/xopen/DESCRIPTION",
+    "lib/R/library/xopen/INDEX",
+    "lib/R/library/xopen/LICENSE",
+    "lib/R/library/xopen/Meta/Rd.rds",
+    "lib/R/library/xopen/Meta/features.rds",
+    "lib/R/library/xopen/Meta/hsearch.rds",
+    "lib/R/library/xopen/Meta/links.rds",
+    "lib/R/library/xopen/Meta/nsInfo.rds",
+    "lib/R/library/xopen/Meta/package.rds",
+    "lib/R/library/xopen/NAMESPACE",
+    "lib/R/library/xopen/NEWS.md",
+    "lib/R/library/xopen/R/xopen",
+    "lib/R/library/xopen/R/xopen.rdb",
+    "lib/R/library/xopen/R/xopen.rdx",
+    "lib/R/library/xopen/help/AnIndex",
+    "lib/R/library/xopen/help/aliases.rds",
+    "lib/R/library/xopen/help/paths.rds",
+    "lib/R/library/xopen/help/xopen.rdb",
+    "lib/R/library/xopen/help/xopen.rdx",
+    "lib/R/library/xopen/html/00Index.html",
+    "lib/R/library/xopen/html/R.css",
+    "lib/R/library/xopen/xdg-open"
+  ],
+  "fn": "r-xopen-1.0.0-r36h6115d3f_1003.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-xopen-1.0.0-r36h6115d3f_1003",
+    "type": 1
+  },
+  "md5": "a6c59ddd292e24f00dd76b51d46ba3dd",
+  "name": "r-xopen",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-xopen-1.0.0-r36h6115d3f_1003.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/xopen/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "d33c4624f2eaf6e1297f1596a003148a7a99f025347475184ee1e3b8ad8df9c7",
+        "sha256_in_prefix": "d33c4624f2eaf6e1297f1596a003148a7a99f025347475184ee1e3b8ad8df9c7",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "lib/R/library/xopen/INDEX",
+        "path_type": "hardlink",
+        "sha256": "1355025d8bc7a737f501391f9a20a7e9c1717db022906bfb5c1f36e0bcbcc79b",
+        "sha256_in_prefix": "1355025d8bc7a737f501391f9a20a7e9c1717db022906bfb5c1f36e0bcbcc79b",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "lib/R/library/xopen/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1597a6413afeae2eacaf3dd89bdad3da81ee00a7142e000e7eceac2300c4947c",
+        "sha256_in_prefix": "1597a6413afeae2eacaf3dd89bdad3da81ee00a7142e000e7eceac2300c4947c",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/xopen/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "9ff312e4537ce462446c30c065b24e2b35b961e80c32a7f7129a1b3faab48ffa",
+        "sha256_in_prefix": "9ff312e4537ce462446c30c065b24e2b35b961e80c32a7f7129a1b3faab48ffa",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/R/library/xopen/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/xopen/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "593f7e01e41c8b83b8d56f4e48ca6161b3e89acca0f31d1348c806c659640024",
+        "sha256_in_prefix": "593f7e01e41c8b83b8d56f4e48ca6161b3e89acca0f31d1348c806c659640024",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "lib/R/library/xopen/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "181f7ff6c4711078f4005c47d54ff2e080d9ef53229477d581702f0340cc17b5",
+        "sha256_in_prefix": "181f7ff6c4711078f4005c47d54ff2e080d9ef53229477d581702f0340cc17b5",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "lib/R/library/xopen/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "56d5b28feb6554c10cbfc230d10624c32985170279fb5c53f3a713ee0dc3f974",
+        "sha256_in_prefix": "56d5b28feb6554c10cbfc230d10624c32985170279fb5c53f3a713ee0dc3f974",
+        "size_in_bytes": 215
+      },
+      {
+        "_path": "lib/R/library/xopen/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f78884b14f8c14a9cbafc05fd52d4a8100cde9e9f3e802ef74059b68787c99e9",
+        "sha256_in_prefix": "f78884b14f8c14a9cbafc05fd52d4a8100cde9e9f3e802ef74059b68787c99e9",
+        "size_in_bytes": 1006
+      },
+      {
+        "_path": "lib/R/library/xopen/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "8e9688accaa4573800f152dcb31f26d0ce728873b30427cb74546cd32ee858a6",
+        "sha256_in_prefix": "8e9688accaa4573800f152dcb31f26d0ce728873b30427cb74546cd32ee858a6",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "lib/R/library/xopen/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "b8fb0b5b7722af71edca725b219fadd1fbea94cc59294524196aed2ef934cecb",
+        "sha256_in_prefix": "b8fb0b5b7722af71edca725b219fadd1fbea94cc59294524196aed2ef934cecb",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/R/library/xopen/R/xopen",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/xopen/R/xopen.rdb",
+        "path_type": "hardlink",
+        "sha256": "bcaf220b2d992e76ab0c62482902e99d8fd870556c554842c42e145b21d56313",
+        "sha256_in_prefix": "bcaf220b2d992e76ab0c62482902e99d8fd870556c554842c42e145b21d56313",
+        "size_in_bytes": 6033
+      },
+      {
+        "_path": "lib/R/library/xopen/R/xopen.rdx",
+        "path_type": "hardlink",
+        "sha256": "747f01cb1a3312a6ba7f45c510effc6a9ac0156ec1e090bfa522e8431ba6b21e",
+        "sha256_in_prefix": "747f01cb1a3312a6ba7f45c510effc6a9ac0156ec1e090bfa522e8431ba6b21e",
+        "size_in_bytes": 355
+      },
+      {
+        "_path": "lib/R/library/xopen/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1cfe9eb701a913f925338e71c39da7e44d4662e99d7bb0acf866bbc517383e39",
+        "sha256_in_prefix": "1cfe9eb701a913f925338e71c39da7e44d4662e99d7bb0acf866bbc517383e39",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "lib/R/library/xopen/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "de5103a0d9dd9e0a376365bdad5877935be6d39cd5cfe1d78c1d12a96aa7a051",
+        "sha256_in_prefix": "de5103a0d9dd9e0a376365bdad5877935be6d39cd5cfe1d78c1d12a96aa7a051",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "lib/R/library/xopen/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "45193ecbac87b011246c041c0d4d7c37455efcfd74126795c9bb02a194a181ef",
+        "sha256_in_prefix": "45193ecbac87b011246c041c0d4d7c37455efcfd74126795c9bb02a194a181ef",
+        "size_in_bytes": 176
+      },
+      {
+        "_path": "lib/R/library/xopen/help/xopen.rdb",
+        "path_type": "hardlink",
+        "sha256": "a8124d3083f0fae050d63931cf911da5e1072eb5bc41a66c1770c127442e6b6a",
+        "sha256_in_prefix": "a8124d3083f0fae050d63931cf911da5e1072eb5bc41a66c1770c127442e6b6a",
+        "size_in_bytes": 3114
+      },
+      {
+        "_path": "lib/R/library/xopen/help/xopen.rdx",
+        "path_type": "hardlink",
+        "sha256": "a9958ec42b3fde5b1f648a7aff8c705eff22ae922c69d72dca8a40002d8b3c7f",
+        "sha256_in_prefix": "a9958ec42b3fde5b1f648a7aff8c705eff22ae922c69d72dca8a40002d8b3c7f",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "lib/R/library/xopen/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "6a005c493e000a250befabc620f9c7916fdaa76680737db09f595c2c0a9ca8a5",
+        "sha256_in_prefix": "6a005c493e000a250befabc620f9c7916fdaa76680737db09f595c2c0a9ca8a5",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "lib/R/library/xopen/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/xopen/xdg-open",
+        "path_type": "hardlink",
+        "sha256": "b58f95b2895d0dba6ea75491ef4fc770800237fb014ae543e0e8b5098bf7a897",
+        "sha256_in_prefix": "b58f95b2895d0dba6ea75491ef4fc770800237fb014ae543e0e8b5098bf7a897",
+        "size_in_bytes": 25047
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "273a33f965a1dda86d0fe7d030c77014711717381f2d63eafe9519112a85ff6c",
+  "size": 28953,
+  "subdir": "noarch",
+  "timestamp": 1588627310000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-xopen-1.0.0-r36h6115d3f_1003.tar.bz2",
+  "version": "1.0.0"
+}

@@ -1,0 +1,229 @@
+{
+  "build": "r36h7fa42b6_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libblas >=3.8.0,<4.0a0",
+    "libgcc-ng >=7.3.0",
+    "liblapack >=3.8.0,<4.0.0a0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-matrix"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-irlba-2.3.3-r36h7fa42b6_3",
+  "files": [
+    "lib/R/library/irlba/DESCRIPTION",
+    "lib/R/library/irlba/INDEX",
+    "lib/R/library/irlba/Meta/Rd.rds",
+    "lib/R/library/irlba/Meta/features.rds",
+    "lib/R/library/irlba/Meta/hsearch.rds",
+    "lib/R/library/irlba/Meta/links.rds",
+    "lib/R/library/irlba/Meta/nsInfo.rds",
+    "lib/R/library/irlba/Meta/package.rds",
+    "lib/R/library/irlba/Meta/vignette.rds",
+    "lib/R/library/irlba/NAMESPACE",
+    "lib/R/library/irlba/R/irlba",
+    "lib/R/library/irlba/R/irlba.rdb",
+    "lib/R/library/irlba/R/irlba.rdx",
+    "lib/R/library/irlba/doc/index.html",
+    "lib/R/library/irlba/doc/irlba.Rnw",
+    "lib/R/library/irlba/doc/irlba.pdf",
+    "lib/R/library/irlba/help/AnIndex",
+    "lib/R/library/irlba/help/aliases.rds",
+    "lib/R/library/irlba/help/irlba.rdb",
+    "lib/R/library/irlba/help/irlba.rdx",
+    "lib/R/library/irlba/help/paths.rds",
+    "lib/R/library/irlba/html/00Index.html",
+    "lib/R/library/irlba/html/R.css",
+    "lib/R/library/irlba/libs/irlba.so"
+  ],
+  "fn": "r-irlba-2.3.3-r36h7fa42b6_3.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-irlba-2.3.3-r36h7fa42b6_3",
+    "type": 1
+  },
+  "md5": "4f5005842486c3ce2f75de4d5fb87e35",
+  "name": "r-irlba",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-irlba-2.3.3-r36h7fa42b6_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/irlba/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "68c51366a71792f52e19fc767d04fb16a73bdf9267dd7fbd7b0359de6b518676",
+        "sha256_in_prefix": "68c51366a71792f52e19fc767d04fb16a73bdf9267dd7fbd7b0359de6b518676",
+        "size_in_bytes": 1100
+      },
+      {
+        "_path": "lib/R/library/irlba/INDEX",
+        "path_type": "hardlink",
+        "sha256": "a602d41cbe263b3a68837a9edb59ea03f885cd5732b0bf249115622af13e3778",
+        "sha256_in_prefix": "a602d41cbe263b3a68837a9edb59ea03f885cd5732b0bf249115622af13e3778",
+        "size_in_bytes": 716
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f45b7b5b592727087df6647a7e59d269a7db6b031a60cbb0d0089a0f0acfde2e",
+        "sha256_in_prefix": "f45b7b5b592727087df6647a7e59d269a7db6b031a60cbb0d0089a0f0acfde2e",
+        "size_in_bytes": 493
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "a1fdc21503d718a5f5b1184d944d92b941d45a786fd2b6de3fa8290559b67ec6",
+        "sha256_in_prefix": "a1fdc21503d718a5f5b1184d944d92b941d45a786fd2b6de3fa8290559b67ec6",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "f185e8dc3abc5cf6b10f84c9209701bff7763471ee4d599f10fe4735d12ce9a0",
+        "sha256_in_prefix": "f185e8dc3abc5cf6b10f84c9209701bff7763471ee4d599f10fe4735d12ce9a0",
+        "size_in_bytes": 185
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "91d4f13301a16c638e37f1e47c5746acbcc485e9b09719fca8b058fc4f05decc",
+        "sha256_in_prefix": "91d4f13301a16c638e37f1e47c5746acbcc485e9b09719fca8b058fc4f05decc",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "1b48e425c7da1d11a8a90eea05d350a3be911c35c44892ce1aabc3df6011a2b6",
+        "sha256_in_prefix": "1b48e425c7da1d11a8a90eea05d350a3be911c35c44892ce1aabc3df6011a2b6",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "lib/R/library/irlba/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "77da03b09b0e070c1df538ca137beb1cb7c214ff4798758ed6cfc0002bf54434",
+        "sha256_in_prefix": "77da03b09b0e070c1df538ca137beb1cb7c214ff4798758ed6cfc0002bf54434",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "lib/R/library/irlba/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "6b0ff08c12a9c2189d5a2baa48b92709d437082f2557a5686b3eb00ef5525653",
+        "sha256_in_prefix": "6b0ff08c12a9c2189d5a2baa48b92709d437082f2557a5686b3eb00ef5525653",
+        "size_in_bytes": 372
+      },
+      {
+        "_path": "lib/R/library/irlba/R/irlba",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/irlba/R/irlba.rdb",
+        "path_type": "hardlink",
+        "sha256": "49533ea77d6a70bee06f084676a4f93c4f8784480ccb52001406695e59138cfa",
+        "sha256_in_prefix": "49533ea77d6a70bee06f084676a4f93c4f8784480ccb52001406695e59138cfa",
+        "size_in_bytes": 48729
+      },
+      {
+        "_path": "lib/R/library/irlba/R/irlba.rdx",
+        "path_type": "hardlink",
+        "sha256": "8a89f14992ea246fcb3b68db5bbbc185320ace41aebc018dde0db28b799b2150",
+        "sha256_in_prefix": "8a89f14992ea246fcb3b68db5bbbc185320ace41aebc018dde0db28b799b2150",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "lib/R/library/irlba/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "2301c3d5adb9b50e3119d72611f25c7ed2f973912707e75e4d6b84c54f4b74cc",
+        "sha256_in_prefix": "2301c3d5adb9b50e3119d72611f25c7ed2f973912707e75e4d6b84c54f4b74cc",
+        "size_in_bytes": 1245
+      },
+      {
+        "_path": "lib/R/library/irlba/doc/irlba.Rnw",
+        "path_type": "hardlink",
+        "sha256": "76e3b0ad5a3f8ecf9a264c8748002c9999923397d706b1bd8e7c3c0f67189aea",
+        "sha256_in_prefix": "76e3b0ad5a3f8ecf9a264c8748002c9999923397d706b1bd8e7c3c0f67189aea",
+        "size_in_bytes": 16489
+      },
+      {
+        "_path": "lib/R/library/irlba/doc/irlba.pdf",
+        "path_type": "hardlink",
+        "sha256": "0e2b4d928b6406b55fa8a209be8922206411bc8de7da45002802f6afc1837d38",
+        "sha256_in_prefix": "0e2b4d928b6406b55fa8a209be8922206411bc8de7da45002802f6afc1837d38",
+        "size_in_bytes": 181770
+      },
+      {
+        "_path": "lib/R/library/irlba/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "4360d080fed41b647235664d6347f565368edb714751a39b6dac473d68497f90",
+        "sha256_in_prefix": "4360d080fed41b647235664d6347f565368edb714751a39b6dac473d68497f90",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/R/library/irlba/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "8d4fd9998afed185c2929387fd4032329c50415535ccf04be0cfaf9e62301a14",
+        "sha256_in_prefix": "8d4fd9998afed185c2929387fd4032329c50415535ccf04be0cfaf9e62301a14",
+        "size_in_bytes": 130
+      },
+      {
+        "_path": "lib/R/library/irlba/help/irlba.rdb",
+        "path_type": "hardlink",
+        "sha256": "212550db031e515296d3545697def89a6c691e7cd5362ad45c73fe60d70ea51c",
+        "sha256_in_prefix": "212550db031e515296d3545697def89a6c691e7cd5362ad45c73fe60d70ea51c",
+        "size_in_bytes": 35040
+      },
+      {
+        "_path": "lib/R/library/irlba/help/irlba.rdx",
+        "path_type": "hardlink",
+        "sha256": "a7127e749226ab7a0bc417440b58930c6ea3bb8d4e23f20c650b15c811077a61",
+        "sha256_in_prefix": "a7127e749226ab7a0bc417440b58930c6ea3bb8d4e23f20c650b15c811077a61",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "lib/R/library/irlba/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "cb5bc98b0f8873ba04601e61168b03fd5724f4f3730c9c975d8e8b9f5b7ee9a0",
+        "sha256_in_prefix": "cb5bc98b0f8873ba04601e61168b03fd5724f4f3730c9c975d8e8b9f5b7ee9a0",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "lib/R/library/irlba/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "859b4c6db95abb55dc44e54ab4be14b196cc2a7ae708e6bff768cc8f31818279",
+        "sha256_in_prefix": "859b4c6db95abb55dc44e54ab4be14b196cc2a7ae708e6bff768cc8f31818279",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "lib/R/library/irlba/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/irlba/libs/irlba.so",
+        "path_type": "hardlink",
+        "sha256": "2a28fc9c5ae9ab502c1c9e41a2840413569633e975c55e81ad7c5ea5762a58eb",
+        "sha256_in_prefix": "2a28fc9c5ae9ab502c1c9e41a2840413569633e975c55e81ad7c5ea5762a58eb",
+        "size_in_bytes": 42112
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b2d7e770ff39f082876273e74ab73bb44cc665ac03bcdea02b8b1a5c284a344e",
+  "size": 315828,
+  "subdir": "linux-64",
+  "timestamp": 1588544745000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-irlba-2.3.3-r36h7fa42b6_3.tar.bz2",
+  "version": "2.3.3"
+}

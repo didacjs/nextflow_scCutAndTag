@@ -1,0 +1,547 @@
+{
+  "build": "r36h38f115c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=12",
+    "libstdcxx-ng >=12",
+    "r-base >=3.6,<3.7.0a0",
+    "r-here",
+    "r-jsonlite",
+    "r-matrix",
+    "r-png",
+    "r-rappdirs",
+    "r-rcpp >=0.12.7",
+    "r-rcpptoml",
+    "r-withr"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-reticulate-1.28-r36h38f115c_0",
+  "files": [
+    "lib/R/library/reticulate/DESCRIPTION",
+    "lib/R/library/reticulate/INDEX",
+    "lib/R/library/reticulate/Meta/Rd.rds",
+    "lib/R/library/reticulate/Meta/features.rds",
+    "lib/R/library/reticulate/Meta/hsearch.rds",
+    "lib/R/library/reticulate/Meta/links.rds",
+    "lib/R/library/reticulate/Meta/nsInfo.rds",
+    "lib/R/library/reticulate/Meta/package.rds",
+    "lib/R/library/reticulate/Meta/vignette.rds",
+    "lib/R/library/reticulate/NAMESPACE",
+    "lib/R/library/reticulate/NEWS.md",
+    "lib/R/library/reticulate/R/reticulate",
+    "lib/R/library/reticulate/R/reticulate.rdb",
+    "lib/R/library/reticulate/R/reticulate.rdx",
+    "lib/R/library/reticulate/config/config.py",
+    "lib/R/library/reticulate/doc/arrays.R",
+    "lib/R/library/reticulate/doc/arrays.Rmd",
+    "lib/R/library/reticulate/doc/arrays.html",
+    "lib/R/library/reticulate/doc/calling_python.R",
+    "lib/R/library/reticulate/doc/calling_python.Rmd",
+    "lib/R/library/reticulate/doc/calling_python.html",
+    "lib/R/library/reticulate/doc/index.html",
+    "lib/R/library/reticulate/doc/package.R",
+    "lib/R/library/reticulate/doc/package.Rmd",
+    "lib/R/library/reticulate/doc/package.html",
+    "lib/R/library/reticulate/doc/python_dependencies.R",
+    "lib/R/library/reticulate/doc/python_dependencies.Rmd",
+    "lib/R/library/reticulate/doc/python_dependencies.html",
+    "lib/R/library/reticulate/doc/python_packages.R",
+    "lib/R/library/reticulate/doc/python_packages.Rmd",
+    "lib/R/library/reticulate/doc/python_packages.html",
+    "lib/R/library/reticulate/doc/python_primer.R",
+    "lib/R/library/reticulate/doc/python_primer.Rmd",
+    "lib/R/library/reticulate/doc/python_primer.html",
+    "lib/R/library/reticulate/doc/r_markdown.R",
+    "lib/R/library/reticulate/doc/r_markdown.Rmd",
+    "lib/R/library/reticulate/doc/r_markdown.html",
+    "lib/R/library/reticulate/doc/versions.R",
+    "lib/R/library/reticulate/doc/versions.Rmd",
+    "lib/R/library/reticulate/doc/versions.html",
+    "lib/R/library/reticulate/help/AnIndex",
+    "lib/R/library/reticulate/help/aliases.rds",
+    "lib/R/library/reticulate/help/figures/python_r_object.png",
+    "lib/R/library/reticulate/help/figures/python_repl.png",
+    "lib/R/library/reticulate/help/figures/reticulate_completion.png",
+    "lib/R/library/reticulate/help/figures/reticulated_python.png",
+    "lib/R/library/reticulate/help/figures/rmarkdown_engine_zoomed.png",
+    "lib/R/library/reticulate/help/paths.rds",
+    "lib/R/library/reticulate/help/reticulate.rdb",
+    "lib/R/library/reticulate/help/reticulate.rdx",
+    "lib/R/library/reticulate/html/00Index.html",
+    "lib/R/library/reticulate/html/R.css",
+    "lib/R/library/reticulate/libs/reticulate.so",
+    "lib/R/library/reticulate/python/rpytools/__init__.py",
+    "lib/R/library/reticulate/python/rpytools/call.py",
+    "lib/R/library/reticulate/python/rpytools/generator.py",
+    "lib/R/library/reticulate/python/rpytools/help.py",
+    "lib/R/library/reticulate/python/rpytools/ipython.py",
+    "lib/R/library/reticulate/python/rpytools/loader.py",
+    "lib/R/library/reticulate/python/rpytools/output.py",
+    "lib/R/library/reticulate/python/rpytools/signals.py",
+    "lib/R/library/reticulate/python/rpytools/test.py",
+    "lib/R/library/reticulate/python/rpytools/thread.py"
+  ],
+  "fn": "r-reticulate-1.28-r36h38f115c_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-reticulate-1.28-r36h38f115c_0",
+    "type": 1
+  },
+  "md5": "6fbeb30014cc30b1ba2728731363adec",
+  "name": "r-reticulate",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-reticulate-1.28-r36h38f115c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/reticulate/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "e871030cd96d0b9ea5f21f560602e25af3fbdd688f1d064d5f24092189a04a4b",
+        "sha256_in_prefix": "e871030cd96d0b9ea5f21f560602e25af3fbdd688f1d064d5f24092189a04a4b",
+        "size_in_bytes": 2425
+      },
+      {
+        "_path": "lib/R/library/reticulate/INDEX",
+        "path_type": "hardlink",
+        "sha256": "3fd155863b30dda0f36ea04a657b583b6b25368619d6d46755583eee87a84edf",
+        "sha256_in_prefix": "3fd155863b30dda0f36ea04a657b583b6b25368619d6d46755583eee87a84edf",
+        "size_in_bytes": 3548
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "12d2d277511b3d80e129f9fe9f477297a9454495b03e65ae9b5eedb04f3cae3c",
+        "sha256_in_prefix": "12d2d277511b3d80e129f9fe9f477297a9454495b03e65ae9b5eedb04f3cae3c",
+        "size_in_bytes": 2799
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7cc6c6994fc30d153b3c16d4b6b83cd75ddb150bc330c87601270f15d56ce99b",
+        "sha256_in_prefix": "7cc6c6994fc30d153b3c16d4b6b83cd75ddb150bc330c87601270f15d56ce99b",
+        "size_in_bytes": 2592
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "88ceb38ee422cebae57ea6bf8c4b7557974c008e4f2351a887532ce1e47a5be9",
+        "sha256_in_prefix": "88ceb38ee422cebae57ea6bf8c4b7557974c008e4f2351a887532ce1e47a5be9",
+        "size_in_bytes": 1425
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a4cd140dae1d757c803b60ae98b624151376daa4950eb6cb38e432b83a8b1cc2",
+        "sha256_in_prefix": "a4cd140dae1d757c803b60ae98b624151376daa4950eb6cb38e432b83a8b1cc2",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "12c18f404a4290166ae88426d3d669d001b5270e020319334f8d6177a04dba13",
+        "sha256_in_prefix": "12c18f404a4290166ae88426d3d669d001b5270e020319334f8d6177a04dba13",
+        "size_in_bytes": 1645
+      },
+      {
+        "_path": "lib/R/library/reticulate/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "3e4990936099b4246343f9110de506d5694235981fee1be10981cfa1005405a1",
+        "sha256_in_prefix": "3e4990936099b4246343f9110de506d5694235981fee1be10981cfa1005405a1",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/R/library/reticulate/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "39d1ac7ef35488c739524dd2f1226be46ca4d1cd03aecbf1309b687b9b49d3a5",
+        "sha256_in_prefix": "39d1ac7ef35488c739524dd2f1226be46ca4d1cd03aecbf1309b687b9b49d3a5",
+        "size_in_bytes": 6579
+      },
+      {
+        "_path": "lib/R/library/reticulate/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "cd1cb85ae8e38e0c8001553a1cdd7b75906b598777fedd996891da41fc00d6d1",
+        "sha256_in_prefix": "cd1cb85ae8e38e0c8001553a1cdd7b75906b598777fedd996891da41fc00d6d1",
+        "size_in_bytes": 39967
+      },
+      {
+        "_path": "lib/R/library/reticulate/R/reticulate",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/reticulate/R/reticulate.rdb",
+        "path_type": "hardlink",
+        "sha256": "66d4459107ac82668df3ebee42df15a4f052ad91e7879da9c0e6714731a4aeb9",
+        "sha256_in_prefix": "66d4459107ac82668df3ebee42df15a4f052ad91e7879da9c0e6714731a4aeb9",
+        "size_in_bytes": 378371
+      },
+      {
+        "_path": "lib/R/library/reticulate/R/reticulate.rdx",
+        "path_type": "hardlink",
+        "sha256": "a9658ae1e6f4ac6b02f752f896297b57a0140a99165bdaaa4157395613f1eba0",
+        "sha256_in_prefix": "a9658ae1e6f4ac6b02f752f896297b57a0140a99165bdaaa4157395613f1eba0",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "lib/R/library/reticulate/config/config.py",
+        "path_type": "hardlink",
+        "sha256": "412b0a88393dd6d961348587cf1c140b27fb1b869d8fd518a287e0d6805952cd",
+        "sha256_in_prefix": "412b0a88393dd6d961348587cf1c140b27fb1b869d8fd518a287e0d6805952cd",
+        "size_in_bytes": 2106
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/arrays.R",
+        "path_type": "hardlink",
+        "sha256": "0cd26ce8263afef1ffb84ea68759e1357fe6c8e7dd417d2eb504b6fa33a4445c",
+        "sha256_in_prefix": "0cd26ce8263afef1ffb84ea68759e1357fe6c8e7dd417d2eb504b6fa33a4445c",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/arrays.Rmd",
+        "path_type": "hardlink",
+        "sha256": "14f1266eb2a49216b7c268dbd0d2e57795adf264ac0cb37dd807980786e65717",
+        "sha256_in_prefix": "14f1266eb2a49216b7c268dbd0d2e57795adf264ac0cb37dd807980786e65717",
+        "size_in_bytes": 18763
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/arrays.html",
+        "path_type": "hardlink",
+        "sha256": "484738ba1f87fe4f72e317bcce11cf63ab0429bb4af3353635723caf8a7dc943",
+        "sha256_in_prefix": "484738ba1f87fe4f72e317bcce11cf63ab0429bb4af3353635723caf8a7dc943",
+        "size_in_bytes": 73361
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/calling_python.R",
+        "path_type": "hardlink",
+        "sha256": "ef9b7034a7681af3ee11ae750dd62716b71d3a2d9077d21db3afc265bc84779f",
+        "sha256_in_prefix": "ef9b7034a7681af3ee11ae750dd62716b71d3a2d9077d21db3afc265bc84779f",
+        "size_in_bytes": 2926
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/calling_python.Rmd",
+        "path_type": "hardlink",
+        "sha256": "42485ecb611efa47477621d24e2d3b07629646668f247e1f42e53d877f0c9698",
+        "sha256_in_prefix": "42485ecb611efa47477621d24e2d3b07629646668f247e1f42e53d877f0c9698",
+        "size_in_bytes": 20447
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/calling_python.html",
+        "path_type": "hardlink",
+        "sha256": "20e99677958057a512843a875df7b0c1134a95a870d57118067b5bef6b1233df",
+        "sha256_in_prefix": "20e99677958057a512843a875df7b0c1134a95a870d57118067b5bef6b1233df",
+        "size_in_bytes": 49432
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "a91a6d6f5c9b47efd570c09cd5419acbdabefbef997ea1a7f1dd06c13ce781ed",
+        "sha256_in_prefix": "a91a6d6f5c9b47efd570c09cd5419acbdabefbef997ea1a7f1dd06c13ce781ed",
+        "size_in_bytes": 4976
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/package.R",
+        "path_type": "hardlink",
+        "sha256": "cc743abef4af1fb01d461224e1f68beda0b4028b70fb0e3a8e91ad41b9891775",
+        "sha256_in_prefix": "cc743abef4af1fb01d461224e1f68beda0b4028b70fb0e3a8e91ad41b9891775",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/package.Rmd",
+        "path_type": "hardlink",
+        "sha256": "97618aa17c899e573b697199eed682b3cd9e47b90e56a95916756bab78053b16",
+        "sha256_in_prefix": "97618aa17c899e573b697199eed682b3cd9e47b90e56a95916756bab78053b16",
+        "size_in_bytes": 10042
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/package.html",
+        "path_type": "hardlink",
+        "sha256": "be6a9cb97373cc5a1df7a124d8dddcca6ce2abe3ab90a72b8f54d296553a6174",
+        "sha256_in_prefix": "be6a9cb97373cc5a1df7a124d8dddcca6ce2abe3ab90a72b8f54d296553a6174",
+        "size_in_bytes": 31927
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_dependencies.R",
+        "path_type": "hardlink",
+        "sha256": "f500858fa832a92afbc96d1d4415838fabefc77b97bb8ee842a5a40ec8667cc9",
+        "sha256_in_prefix": "f500858fa832a92afbc96d1d4415838fabefc77b97bb8ee842a5a40ec8667cc9",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_dependencies.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5175d5be2e10bb00299f0654bd0b4764a9cd184bb79415888e18fca34d4dc510",
+        "sha256_in_prefix": "5175d5be2e10bb00299f0654bd0b4764a9cd184bb79415888e18fca34d4dc510",
+        "size_in_bytes": 6687
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_dependencies.html",
+        "path_type": "hardlink",
+        "sha256": "ae146aef50481b6c13a05cf57e08140ad66b3424f61d60ef44717834619fa2a9",
+        "sha256_in_prefix": "ae146aef50481b6c13a05cf57e08140ad66b3424f61d60ef44717834619fa2a9",
+        "size_in_bytes": 17053
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_packages.R",
+        "path_type": "hardlink",
+        "sha256": "e1badf813e389044826e0c74e70a3f58757bfc3fc1894eabd55266cc44f622ab",
+        "sha256_in_prefix": "e1badf813e389044826e0c74e70a3f58757bfc3fc1894eabd55266cc44f622ab",
+        "size_in_bytes": 1416
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_packages.Rmd",
+        "path_type": "hardlink",
+        "sha256": "96b07fdd06d7f263560702d15c5ef025d3f6a1eda48dd58ae7c5022cf03f1f19",
+        "sha256_in_prefix": "96b07fdd06d7f263560702d15c5ef025d3f6a1eda48dd58ae7c5022cf03f1f19",
+        "size_in_bytes": 5330
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_packages.html",
+        "path_type": "hardlink",
+        "sha256": "dbaa656e73e96d7679ab2ef806200eb7720a8643dd850c736cdb73043ab5675a",
+        "sha256_in_prefix": "dbaa656e73e96d7679ab2ef806200eb7720a8643dd850c736cdb73043ab5675a",
+        "size_in_bytes": 19674
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_primer.R",
+        "path_type": "hardlink",
+        "sha256": "dbcab51152e225c942c5487d1c1bb986a47b46abaa6ab7a381ec4b7a0602c1a5",
+        "sha256_in_prefix": "dbcab51152e225c942c5487d1c1bb986a47b46abaa6ab7a381ec4b7a0602c1a5",
+        "size_in_bytes": 1442
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_primer.Rmd",
+        "path_type": "hardlink",
+        "sha256": "fc05e5c6dcacd9ac13df7f4e4ba5636e04144c3e38a8c8c662ca8affd2b70dc7",
+        "sha256_in_prefix": "fc05e5c6dcacd9ac13df7f4e4ba5636e04144c3e38a8c8c662ca8affd2b70dc7",
+        "size_in_bytes": 29666
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/python_primer.html",
+        "path_type": "hardlink",
+        "sha256": "14d847419c8272ea9e4c2220a381d201acdb142d13a32f4e25b51b9439c72de9",
+        "sha256_in_prefix": "14d847419c8272ea9e4c2220a381d201acdb142d13a32f4e25b51b9439c72de9",
+        "size_in_bytes": 101892
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/r_markdown.R",
+        "path_type": "hardlink",
+        "sha256": "0cd26ce8263afef1ffb84ea68759e1357fe6c8e7dd417d2eb504b6fa33a4445c",
+        "sha256_in_prefix": "0cd26ce8263afef1ffb84ea68759e1357fe6c8e7dd417d2eb504b6fa33a4445c",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/r_markdown.Rmd",
+        "path_type": "hardlink",
+        "sha256": "dbe4298d9bbad6174450c3e82cfc0b6a5841921c657c60bb9f1dbaa852811685",
+        "sha256_in_prefix": "dbe4298d9bbad6174450c3e82cfc0b6a5841921c657c60bb9f1dbaa852811685",
+        "size_in_bytes": 3200
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/r_markdown.html",
+        "path_type": "hardlink",
+        "sha256": "fb6efc4062af591c00762b7b71b9fcd1c91d634ec521c55b1eac51d95f78b3a3",
+        "sha256_in_prefix": "fb6efc4062af591c00762b7b71b9fcd1c91d634ec521c55b1eac51d95f78b3a3",
+        "size_in_bytes": 412776
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/versions.R",
+        "path_type": "hardlink",
+        "sha256": "eddfb7e61592957daa83e99ab891b264b300d02ad76411b8b7d13b155b8dcefb",
+        "sha256_in_prefix": "eddfb7e61592957daa83e99ab891b264b300d02ad76411b8b7d13b155b8dcefb",
+        "size_in_bytes": 960
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/versions.Rmd",
+        "path_type": "hardlink",
+        "sha256": "4262c18eada1765b981d07675844b709b3b860633b6d6b321c7d2e11271968cf",
+        "sha256_in_prefix": "4262c18eada1765b981d07675844b709b3b860633b6d6b321c7d2e11271968cf",
+        "size_in_bytes": 4994
+      },
+      {
+        "_path": "lib/R/library/reticulate/doc/versions.html",
+        "path_type": "hardlink",
+        "sha256": "1ec30b41438c825565320093e11261a4af646f7b5650477c831f377418182d34",
+        "sha256_in_prefix": "1ec30b41438c825565320093e11261a4af646f7b5650477c831f377418182d34",
+        "size_in_bytes": 16390
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "00e1dd5d77c118181d3c676f7582c0c49cca7c3bdc0439f7c87a4277de716361",
+        "sha256_in_prefix": "00e1dd5d77c118181d3c676f7582c0c49cca7c3bdc0439f7c87a4277de716361",
+        "size_in_bytes": 3110
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "f2fbd2b7582d2ab03b2c81a96832988fde7df0bdfec354c3689c07158a870775",
+        "sha256_in_prefix": "f2fbd2b7582d2ab03b2c81a96832988fde7df0bdfec354c3689c07158a870775",
+        "size_in_bytes": 1019
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/figures/python_r_object.png",
+        "path_type": "hardlink",
+        "sha256": "93fa9cffb47c7c38fa17deaec0dc722c2ba1ff4e535e97f8010d08c2bf18d8ea",
+        "sha256_in_prefix": "93fa9cffb47c7c38fa17deaec0dc722c2ba1ff4e535e97f8010d08c2bf18d8ea",
+        "size_in_bytes": 148621
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/figures/python_repl.png",
+        "path_type": "hardlink",
+        "sha256": "829b3c5bfaf898ab0af3f522d2bb3d75041eb537346292d48994d4c5fd7dd3e8",
+        "sha256_in_prefix": "829b3c5bfaf898ab0af3f522d2bb3d75041eb537346292d48994d4c5fd7dd3e8",
+        "size_in_bytes": 282486
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/figures/reticulate_completion.png",
+        "path_type": "hardlink",
+        "sha256": "e5eddac2cea8e0dd768554ada51fe5c86b184ac50dda1bc55d9b8d37bedd84c5",
+        "sha256_in_prefix": "e5eddac2cea8e0dd768554ada51fe5c86b184ac50dda1bc55d9b8d37bedd84c5",
+        "size_in_bytes": 83602
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/figures/reticulated_python.png",
+        "path_type": "hardlink",
+        "sha256": "2388f8853556500bad3420fc9134e94d0b7a869a5f6ad6622f2e204a8f4e0fb9",
+        "sha256_in_prefix": "2388f8853556500bad3420fc9134e94d0b7a869a5f6ad6622f2e204a8f4e0fb9",
+        "size_in_bytes": 107055
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/figures/rmarkdown_engine_zoomed.png",
+        "path_type": "hardlink",
+        "sha256": "410280ceafa618679e79233fd43bfbaf8a747f73e571f2c789293f5cbdde82d9",
+        "sha256_in_prefix": "410280ceafa618679e79233fd43bfbaf8a747f73e571f2c789293f5cbdde82d9",
+        "size_in_bytes": 106804
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "28e4e742626c8e7b1acd78d6a5a779a71e9e7e06bdca9c4eda12b86e766adefb",
+        "sha256_in_prefix": "28e4e742626c8e7b1acd78d6a5a779a71e9e7e06bdca9c4eda12b86e766adefb",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/reticulate.rdb",
+        "path_type": "hardlink",
+        "sha256": "b2645211789b6ca7f5ff01cd7fb5538aec1790c2cd56e99f7a2d6721b5c21619",
+        "sha256_in_prefix": "b2645211789b6ca7f5ff01cd7fb5538aec1790c2cd56e99f7a2d6721b5c21619",
+        "size_in_bytes": 131160
+      },
+      {
+        "_path": "lib/R/library/reticulate/help/reticulate.rdx",
+        "path_type": "hardlink",
+        "sha256": "32233fb776b37f26af7dfd4a1be88223c0dbbb4473465629a6cbdff8eb99bd30",
+        "sha256_in_prefix": "32233fb776b37f26af7dfd4a1be88223c0dbbb4473465629a6cbdff8eb99bd30",
+        "size_in_bytes": 1775
+      },
+      {
+        "_path": "lib/R/library/reticulate/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "3bbd69170f84050e54d08cef21203fb4845a4f940081709028be4127b148ba6d",
+        "sha256_in_prefix": "3bbd69170f84050e54d08cef21203fb4845a4f940081709028be4127b148ba6d",
+        "size_in_bytes": 12729
+      },
+      {
+        "_path": "lib/R/library/reticulate/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/reticulate/libs/reticulate.so",
+        "path_type": "hardlink",
+        "sha256": "2fb1abc4dbea0a96490bc031068ae5f19c212013f973dbbce4178ac084bbed9c",
+        "sha256_in_prefix": "2fb1abc4dbea0a96490bc031068ae5f19c212013f973dbbce4178ac084bbed9c",
+        "size_in_bytes": 469312
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/call.py",
+        "path_type": "hardlink",
+        "sha256": "9cfc1d945d7d7e72eef347899a267ce7daf3eebaab67484bff8652752c726a3f",
+        "sha256_in_prefix": "9cfc1d945d7d7e72eef347899a267ce7daf3eebaab67484bff8652752c726a3f",
+        "size_in_bytes": 622
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/generator.py",
+        "path_type": "hardlink",
+        "sha256": "37d7b8941d1b32bacedd4c3e09c369ad988aa8874b5b11f342a7e445a92e595b",
+        "sha256_in_prefix": "37d7b8941d1b32bacedd4c3e09c369ad988aa8874b5b11f342a7e445a92e595b",
+        "size_in_bytes": 867
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/help.py",
+        "path_type": "hardlink",
+        "sha256": "b138ed74d61b98aa9137a2038db304f53b2c2ad6a9fff2d9eda6ec274695061b",
+        "sha256_in_prefix": "b138ed74d61b98aa9137a2038db304f53b2c2ad6a9fff2d9eda6ec274695061b",
+        "size_in_bytes": 4059
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/ipython.py",
+        "path_type": "hardlink",
+        "sha256": "3c80bdfee77a05094560201a0d677e02f64e047822cc5b63bc906d47accfe0b6",
+        "sha256_in_prefix": "3c80bdfee77a05094560201a0d677e02f64e047822cc5b63bc906d47accfe0b6",
+        "size_in_bytes": 888
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/loader.py",
+        "path_type": "hardlink",
+        "sha256": "c1e548762a3b5a4490c47e744904f4b97b23edeae38c7a7871299e4661a61c50",
+        "sha256_in_prefix": "c1e548762a3b5a4490c47e744904f4b97b23edeae38c7a7871299e4661a61c50",
+        "size_in_bytes": 4223
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/output.py",
+        "path_type": "hardlink",
+        "sha256": "c6b5efa8c585656cd03ad80efd4de8ddb746b5d5b3686ae313c4e5dc6fafba91",
+        "sha256_in_prefix": "c6b5efa8c585656cd03ad80efd4de8ddb746b5d5b3686ae313c4e5dc6fafba91",
+        "size_in_bytes": 3569
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/signals.py",
+        "path_type": "hardlink",
+        "sha256": "8b7e12bf76f1958b6f24584765cce612a318943b59bc84c3fc0eee729720481f",
+        "sha256_in_prefix": "8b7e12bf76f1958b6f24584765cce612a318943b59bc84c3fc0eee729720481f",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/test.py",
+        "path_type": "hardlink",
+        "sha256": "dfbeeb4476cd9c307af0b153361129dbdec67965c2772beb74916ba3139ddfcb",
+        "sha256_in_prefix": "dfbeeb4476cd9c307af0b153361129dbdec67965c2772beb74916ba3139ddfcb",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "lib/R/library/reticulate/python/rpytools/thread.py",
+        "path_type": "hardlink",
+        "sha256": "94b772d90ed6c76f45af806c6aab7de23b3151d902cdfd96963a6b8c768b1c1f",
+        "sha256_in_prefix": "94b772d90ed6c76f45af806c6aab7de23b3151d902cdfd96963a6b8c768b1c1f",
+        "size_in_bytes": 541
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "96e294c5382ad19dbae333d903f981b6846a40cc44651d2b27ddef168810b5b3",
+  "size": 1666434,
+  "subdir": "linux-64",
+  "timestamp": 1674877266000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-reticulate-1.28-r36h38f115c_0.conda",
+  "version": "1.28"
+}

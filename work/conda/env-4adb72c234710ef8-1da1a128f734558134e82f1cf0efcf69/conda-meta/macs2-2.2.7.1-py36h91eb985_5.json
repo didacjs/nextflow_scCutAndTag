@@ -1,0 +1,519 @@
+{
+  "build": "py36h91eb985_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "r-base",
+    "libgcc-ng >=12",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m",
+    "numpy >=1.17"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/macs2-2.2.7.1-py36h91eb985_5",
+  "files": [
+    "bin/macs2",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/MACS2/Constants.py",
+    "lib/python3.6/site-packages/MACS2/IO/BedGraph.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/BedGraphIO.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/CallPeakUnit.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/FixWidthTrack.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/PairedEndTrack.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/Parser.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/PeakIO.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/ScoreTrack.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/IO/__init__.py",
+    "lib/python3.6/site-packages/MACS2/IO/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/OptValidator.py",
+    "lib/python3.6/site-packages/MACS2/OutputWriter.py",
+    "lib/python3.6/site-packages/MACS2/PeakDetect.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/PeakModel.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/Pileup.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/Prob.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/Signal.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/MACS2/__init__.py",
+    "lib/python3.6/site-packages/MACS2/__pycache__/Constants.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/OptValidator.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/OutputWriter.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/bdgbroadcall_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/bdgcmp_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/bdgdiff_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/bdgopt_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/bdgpeakcall_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/callpeak_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/cmbreps_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/diffpeak_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/filterdup_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/pileup_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/predictd_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/randsample_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/__pycache__/refinepeak_cmd.cpython-36.pyc",
+    "lib/python3.6/site-packages/MACS2/bdgbroadcall_cmd.py",
+    "lib/python3.6/site-packages/MACS2/bdgcmp_cmd.py",
+    "lib/python3.6/site-packages/MACS2/bdgdiff_cmd.py",
+    "lib/python3.6/site-packages/MACS2/bdgopt_cmd.py",
+    "lib/python3.6/site-packages/MACS2/bdgpeakcall_cmd.py",
+    "lib/python3.6/site-packages/MACS2/cPosValCalculation.pxd",
+    "lib/python3.6/site-packages/MACS2/callpeak_cmd.py",
+    "lib/python3.6/site-packages/MACS2/cmbreps_cmd.py",
+    "lib/python3.6/site-packages/MACS2/diffpeak_cmd.py",
+    "lib/python3.6/site-packages/MACS2/filterdup_cmd.py",
+    "lib/python3.6/site-packages/MACS2/khash.pxd",
+    "lib/python3.6/site-packages/MACS2/pileup_cmd.py",
+    "lib/python3.6/site-packages/MACS2/predictd_cmd.py",
+    "lib/python3.6/site-packages/MACS2/randsample_cmd.py",
+    "lib/python3.6/site-packages/MACS2/refinepeak_cmd.py"
+  ],
+  "fn": "macs2-2.2.7.1-py36h91eb985_5.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/macs2-2.2.7.1-py36h91eb985_5",
+    "type": 1
+  },
+  "md5": "099f773e32e96347a1ecd29a714274ac",
+  "name": "macs2",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/macs2-2.2.7.1-py36h91eb985_5.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/macs2",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/macs2_1659812453995/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "d98cfa5ea1163172b5db57ae646636c45d430cb46ce88e77acbb1f1942e8e34c",
+        "sha256_in_prefix": "389e1f0716430c2731eaed9bbeb953b40487821235d32ba634c79276a40ce5cb",
+        "size_in_bytes": 68046
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "633094936447745b53455afe3d58b02e7b8a492011990834ccfa910e9a1332af",
+        "sha256_in_prefix": "633094936447745b53455afe3d58b02e7b8a492011990834ccfa910e9a1332af",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3e03764fb4fb859780f5edca91a501f18358d2835116887394b6ee9de9b7cee2",
+        "sha256_in_prefix": "3e03764fb4fb859780f5edca91a501f18358d2835116887394b6ee9de9b7cee2",
+        "size_in_bytes": 25741
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "91017711f75f73442e4addf8e8ef4ebfbce840174558a7a4be1df6b2437b29e5",
+        "sha256_in_prefix": "91017711f75f73442e4addf8e8ef4ebfbce840174558a7a4be1df6b2437b29e5",
+        "size_in_bytes": 4604
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "2837567f76616107e952c98be1ef18d4c60582fab2232a768fb0ea0ce1f1a0c3",
+        "sha256_in_prefix": "2837567f76616107e952c98be1ef18d4c60582fab2232a768fb0ea0ce1f1a0c3",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a6e26a06f717eda2579ecf88e89ce6623953092d6bd8a6d9a7ecf4ac8b605e57",
+        "sha256_in_prefix": "a6e26a06f717eda2579ecf88e89ce6623953092d6bd8a6d9a7ecf4ac8b605e57",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2-2.2.7.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6cd8cc1100ab719869a762720c1120482a0c3d7347dfc838d737281abde05eb4",
+        "sha256_in_prefix": "6cd8cc1100ab719869a762720c1120482a0c3d7347dfc838d737281abde05eb4",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/Constants.py",
+        "path_type": "hardlink",
+        "sha256": "a00f54f87916b62a269c57fa83172d84316157a8521d7dc72400c3bb7d8a105e",
+        "sha256_in_prefix": "a00f54f87916b62a269c57fa83172d84316157a8521d7dc72400c3bb7d8a105e",
+        "size_in_bytes": 845
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/BedGraph.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "2250eddf08d26cebdedd2e94f4ad83d0902d3afe9b2b03eadc6e8847eaf2c530",
+        "sha256_in_prefix": "2250eddf08d26cebdedd2e94f4ad83d0902d3afe9b2b03eadc6e8847eaf2c530",
+        "size_in_bytes": 480984
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/BedGraphIO.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "0a2eb611153429dc01fa1fdecda040084c336c0a18c73157ebdf0a0eb0a3aafe",
+        "sha256_in_prefix": "0a2eb611153429dc01fa1fdecda040084c336c0a18c73157ebdf0a0eb0a3aafe",
+        "size_in_bytes": 108792
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/CallPeakUnit.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "f8db39e1f2e1caedfeebd4a036f5dcfcdd43c32038e0cf37a1aa77cbb24ec350",
+        "sha256_in_prefix": "f8db39e1f2e1caedfeebd4a036f5dcfcdd43c32038e0cf37a1aa77cbb24ec350",
+        "size_in_bytes": 499184
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/FixWidthTrack.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "914b115e2dfaf7a8628e0d0672307df52281fa769411e0a6e090873803e65cbd",
+        "sha256_in_prefix": "914b115e2dfaf7a8628e0d0672307df52281fa769411e0a6e090873803e65cbd",
+        "size_in_bytes": 414960
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/PairedEndTrack.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "34fa81ed527d5f3a2b6c1b40b552c61ae2ad6d610bf0d4d565cc9b0e9b3951e7",
+        "sha256_in_prefix": "34fa81ed527d5f3a2b6c1b40b552c61ae2ad6d610bf0d4d565cc9b0e9b3951e7",
+        "size_in_bytes": 286320
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/Parser.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "1f98c63453114a99823b96427f0bdf79c61258d9f703b417e629d4a1fdd87ebe",
+        "sha256_in_prefix": "1f98c63453114a99823b96427f0bdf79c61258d9f703b417e629d4a1fdd87ebe",
+        "size_in_bytes": 533928
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/PeakIO.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "4342ed4fa5069c2e7ddbb0a7a7e11fa3de522b2b537f80dd0f0c9cb70022214d",
+        "sha256_in_prefix": "4342ed4fa5069c2e7ddbb0a7a7e11fa3de522b2b537f80dd0f0c9cb70022214d",
+        "size_in_bytes": 606248
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/ScoreTrack.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6477f43113d687c694ce769cf1bf29d1694aa42178c414f1b2cb0c49fd4fc78c",
+        "sha256_in_prefix": "6477f43113d687c694ce769cf1bf29d1694aa42178c414f1b2cb0c49fd4fc78c",
+        "size_in_bytes": 725928
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/IO/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad8f7db241d69865dc0ad5eaeed66122573d13eeb7b7c5a9d875c0d73d3f2bd1",
+        "sha256_in_prefix": "ad8f7db241d69865dc0ad5eaeed66122573d13eeb7b7c5a9d875c0d73d3f2bd1",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/OptValidator.py",
+        "path_type": "hardlink",
+        "sha256": "56da4bd230c4b8a6a58f5f8bbd44e85fcbbaa754ef28d42c9ea59d6c233b144a",
+        "sha256_in_prefix": "56da4bd230c4b8a6a58f5f8bbd44e85fcbbaa754ef28d42c9ea59d6c233b144a",
+        "size_in_bytes": 28454
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/OutputWriter.py",
+        "path_type": "hardlink",
+        "sha256": "936c2121f1d82559610b60d123be3f7929a98a3298f2fda2b15296a3e1c7a50e",
+        "sha256_in_prefix": "936c2121f1d82559610b60d123be3f7929a98a3298f2fda2b15296a3e1c7a50e",
+        "size_in_bytes": 10842
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/PeakDetect.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "358acb104e6ed5527e5dcc7ac3f7e1a67534744eb44bd3bb4774f5c4e71f3378",
+        "sha256_in_prefix": "358acb104e6ed5527e5dcc7ac3f7e1a67534744eb44bd3bb4774f5c4e71f3378",
+        "size_in_bytes": 152344
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/PeakModel.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "61e9af650f9469a030ccb49e0588b0edc6cf55f8d59fada43ab63d602852a077",
+        "sha256_in_prefix": "61e9af650f9469a030ccb49e0588b0edc6cf55f8d59fada43ab63d602852a077",
+        "size_in_bytes": 280240
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/Pileup.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "a530077fec24eaad660193e653bfd30019c28ecc71fa27c5d3ed2ddf15c0ad90",
+        "sha256_in_prefix": "a530077fec24eaad660193e653bfd30019c28ecc71fa27c5d3ed2ddf15c0ad90",
+        "size_in_bytes": 259392
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/Prob.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "035f59c438d957756eea00557c7ecc9c2fff6f07f42a7c3a3ba7761de431701a",
+        "sha256_in_prefix": "035f59c438d957756eea00557c7ecc9c2fff6f07f42a7c3a3ba7761de431701a",
+        "size_in_bytes": 129936
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/Signal.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "7553e8e660289932bbd6c412ac26f941d96df11c62bfd0b14137e530fbd0a172",
+        "sha256_in_prefix": "7553e8e660289932bbd6c412ac26f941d96df11c62bfd0b14137e530fbd0a172",
+        "size_in_bytes": 174992
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5e21548327e5d0c14af6e1c0407705af864480a43cba72ff3308816b2c2cf298",
+        "sha256_in_prefix": "5e21548327e5d0c14af6e1c0407705af864480a43cba72ff3308816b2c2cf298",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/Constants.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "da330023fecf3e217653bd74b718176eae89bf57d3a0b4729143a6a8832bb270",
+        "sha256_in_prefix": "da330023fecf3e217653bd74b718176eae89bf57d3a0b4729143a6a8832bb270",
+        "size_in_bytes": 801
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/OptValidator.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "abefcf2caf17df00ef87fb9f9ff40c22712b92055e10cdb1bb7eb953ec24badf",
+        "sha256_in_prefix": "abefcf2caf17df00ef87fb9f9ff40c22712b92055e10cdb1bb7eb953ec24badf",
+        "size_in_bytes": 16041
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/OutputWriter.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "10e997be8f1a145a0af10cf58cf1cbba3a11bc36ee2abc25f12882c548c028ae",
+        "sha256_in_prefix": "10e997be8f1a145a0af10cf58cf1cbba3a11bc36ee2abc25f12882c548c028ae",
+        "size_in_bytes": 7316
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f64c2c7cb4982547b7662c2e08ea4bc1ef60ccf8045d908a639e146a6eab79a6",
+        "sha256_in_prefix": "f64c2c7cb4982547b7662c2e08ea4bc1ef60ccf8045d908a639e146a6eab79a6",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/bdgbroadcall_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e94e547ea1fa05cde8721794d3ab6eb7520b5889bb47bc3fe0a6f2e32379e40",
+        "sha256_in_prefix": "8e94e547ea1fa05cde8721794d3ab6eb7520b5889bb47bc3fe0a6f2e32379e40",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/bdgcmp_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a99977b5ea3f7e7de078ea177af0727aad80b6c72fabd3b3e57fd5164deec06",
+        "sha256_in_prefix": "4a99977b5ea3f7e7de078ea177af0727aad80b6c72fabd3b3e57fd5164deec06",
+        "size_in_bytes": 2466
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/bdgdiff_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3ee444a7787ce805036e854ab88af7a53008d7ddd79e5c767485d374c4060ad2",
+        "sha256_in_prefix": "3ee444a7787ce805036e854ab88af7a53008d7ddd79e5c767485d374c4060ad2",
+        "size_in_bytes": 2927
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/bdgopt_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "51f8fe18aa092295e45025127b242e3acbc6db914852eb7107f3b63302b26ded",
+        "sha256_in_prefix": "51f8fe18aa092295e45025127b242e3acbc6db914852eb7107f3b63302b26ded",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/bdgpeakcall_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "446fe492bc5a87526993246cb6c374a384ddc12e01fe378890a1f7b83ee45515",
+        "sha256_in_prefix": "446fe492bc5a87526993246cb6c374a384ddc12e01fe378890a1f7b83ee45515",
+        "size_in_bytes": 1855
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/callpeak_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c869c7e53ffafa823cc25aaa84f9629d1977286e4c3bdaa4fb29afbc0213ca4a",
+        "sha256_in_prefix": "c869c7e53ffafa823cc25aaa84f9629d1977286e4c3bdaa4fb29afbc0213ca4a",
+        "size_in_bytes": 10207
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/cmbreps_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "02787752fee8519aceb46048c53b24a4693fde73cf129a9e3f9a5e2cd5a8f7c9",
+        "sha256_in_prefix": "02787752fee8519aceb46048c53b24a4693fde73cf129a9e3f9a5e2cd5a8f7c9",
+        "size_in_bytes": 1726
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/diffpeak_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7b2a08cdbadd28552f6916c3b037f56cfa497012ef18aad9b3f1c787c12ac84",
+        "sha256_in_prefix": "d7b2a08cdbadd28552f6916c3b037f56cfa497012ef18aad9b3f1c787c12ac84",
+        "size_in_bytes": 6080
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/filterdup_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae398ece33e3f4271cda3ba54e463f0e4986cf1b439309bf655d44b6a1e13f6d",
+        "sha256_in_prefix": "ae398ece33e3f4271cda3ba54e463f0e4986cf1b439309bf655d44b6a1e13f6d",
+        "size_in_bytes": 3425
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/pileup_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae1cb8ad14ce163b0a5f98ad9049746c6b7b15037c49962fd1f17b0d252bddfd",
+        "sha256_in_prefix": "ae1cb8ad14ce163b0a5f98ad9049746c6b7b15037c49962fd1f17b0d252bddfd",
+        "size_in_bytes": 2768
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/predictd_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7894e5cd8a55d2317f8a21102858bb6f68ea4bed462ae6383f4c68fd9fb7332d",
+        "sha256_in_prefix": "7894e5cd8a55d2317f8a21102858bb6f68ea4bed462ae6383f4c68fd9fb7332d",
+        "size_in_bytes": 2441
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/randsample_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3bf550b7dbfe4630051bf40454cf7995995980f1502273dd7d3b1eefd36dca15",
+        "sha256_in_prefix": "3bf550b7dbfe4630051bf40454cf7995995980f1502273dd7d3b1eefd36dca15",
+        "size_in_bytes": 2850
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/__pycache__/refinepeak_cmd.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "897e0795abc35b3356e8a4b6cef915a640a9cfb20a8ca249ff3d52119b85f855",
+        "sha256_in_prefix": "897e0795abc35b3356e8a4b6cef915a640a9cfb20a8ca249ff3d52119b85f855",
+        "size_in_bytes": 3794
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/bdgbroadcall_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "4cf1c8d7d365829b47b89751d2d9c2079a714fecb9d751cdbe421b60b624563c",
+        "sha256_in_prefix": "4cf1c8d7d365829b47b89751d2d9c2079a714fecb9d751cdbe421b60b624563c",
+        "size_in_bytes": 2141
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/bdgcmp_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "f9fc6f3b02bfb37838dc9dc4eea8e60534b432817d80299414b5138f6768d3f1",
+        "sha256_in_prefix": "f9fc6f3b02bfb37838dc9dc4eea8e60534b432817d80299414b5138f6768d3f1",
+        "size_in_bytes": 3712
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/bdgdiff_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "bc9edf20b82ccf7fe91a1903c5828de30633931f5fff4a34225f6e2a38f4986f",
+        "sha256_in_prefix": "bc9edf20b82ccf7fe91a1903c5828de30633931f5fff4a34225f6e2a38f4986f",
+        "size_in_bytes": 4318
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/bdgopt_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "b2b5fd6a346d56fdb68447cb6837dae369786fd0d9cea130107eae1322bce4d4",
+        "sha256_in_prefix": "b2b5fd6a346d56fdb68447cb6837dae369786fd0d9cea130107eae1322bce4d4",
+        "size_in_bytes": 2388
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/bdgpeakcall_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "0c3405063ddcb86a57a299fc21b40379f590b7c7ae5a17097e1adc53d57188f4",
+        "sha256_in_prefix": "0c3405063ddcb86a57a299fc21b40379f590b7c7ae5a17097e1adc53d57188f4",
+        "size_in_bytes": 2696
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/cPosValCalculation.pxd",
+        "path_type": "hardlink",
+        "sha256": "3fad0e13fc4439f16df103817050deda2c24d6a8b963e792721a1fba97221058",
+        "sha256_in_prefix": "3fad0e13fc4439f16df103817050deda2c24d6a8b963e792721a1fba97221058",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/callpeak_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "aa3aa1108ff5c1919e9c4005c6814466708215c72d19e52b69bb0c0b2ab103f5",
+        "sha256_in_prefix": "aa3aa1108ff5c1919e9c4005c6814466708215c72d19e52b69bb0c0b2ab103f5",
+        "size_in_bytes": 19674
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/cmbreps_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "05c9b56826fd4d0e23ad5b2c333e81774265901ae0b423592ed57c521763f02f",
+        "sha256_in_prefix": "05c9b56826fd4d0e23ad5b2c333e81774265901ae0b423592ed57c521763f02f",
+        "size_in_bytes": 1944
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/diffpeak_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "f06dda1cf28f32a866e81f9a38d90ead28cf4e76656268d5a2cb660fcacd22cb",
+        "sha256_in_prefix": "f06dda1cf28f32a866e81f9a38d90ead28cf4e76656268d5a2cb660fcacd22cb",
+        "size_in_bytes": 9715
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/filterdup_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "e0898fd367897e28d3468aba7a01e1193394761a77eceabbb715cb78ab486139",
+        "sha256_in_prefix": "e0898fd367897e28d3468aba7a01e1193394761a77eceabbb715cb78ab486139",
+        "size_in_bytes": 4583
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/khash.pxd",
+        "path_type": "hardlink",
+        "sha256": "8b4f4e46479c852c0dd69303387e9b45e6f89f59f9b88963968a72452b4bb275",
+        "sha256_in_prefix": "8b4f4e46479c852c0dd69303387e9b45e6f89f59f9b88963968a72452b4bb275",
+        "size_in_bytes": 3199
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/pileup_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "5fd261033ee0707bff55b777a5995d2b430ae8e21a4917977d6ff8736fb79b27",
+        "sha256_in_prefix": "5fd261033ee0707bff55b777a5995d2b430ae8e21a4917977d6ff8736fb79b27",
+        "size_in_bytes": 3964
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/predictd_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "6d07b705589d040c818d632c40ba3833896560846975984862b9abcaf24e77fc",
+        "sha256_in_prefix": "6d07b705589d040c818d632c40ba3833896560846975984862b9abcaf24e77fc",
+        "size_in_bytes": 3178
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/randsample_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "e7180ed20887d94854da1c6bd50e298ef523bb3011a5166224711e2cdc841476",
+        "sha256_in_prefix": "e7180ed20887d94854da1c6bd50e298ef523bb3011a5166224711e2cdc841476",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "lib/python3.6/site-packages/MACS2/refinepeak_cmd.py",
+        "path_type": "hardlink",
+        "sha256": "ed964514011d8172578a689968718661b9add617d4628d7cdf61342b6b401df1",
+        "sha256_in_prefix": "ed964514011d8172578a689968718661b9add617d4628d7cdf61342b6b401df1",
+        "size_in_bytes": 6845
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "macs2=2.2.7.1",
+  "sha256": "fd2b32ddcc9550936e07d4d6e7fd61439f617734eec09c56ed71e46d3d215849",
+  "size": 1535528,
+  "subdir": "linux-64",
+  "timestamp": 1659813408000,
+  "url": "https://conda.anaconda.org/bioconda/linux-64/macs2-2.2.7.1-py36h91eb985_5.tar.bz2",
+  "version": "2.2.7.1"
+}

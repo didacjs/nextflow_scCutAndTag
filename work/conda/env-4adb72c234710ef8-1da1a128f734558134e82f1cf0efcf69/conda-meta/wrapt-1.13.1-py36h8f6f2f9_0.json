@@ -1,0 +1,171 @@
+{
+  "build": "py36h8f6f2f9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.4.0",
+    "python >=3.6,<3.7.0a0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/wrapt-1.13.1-py36h8f6f2f9_0",
+  "files": [
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/wrapt/__init__.py",
+    "lib/python3.6/site-packages/wrapt/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/wrapt/__pycache__/decorators.cpython-36.pyc",
+    "lib/python3.6/site-packages/wrapt/__pycache__/importer.cpython-36.pyc",
+    "lib/python3.6/site-packages/wrapt/__pycache__/wrappers.cpython-36.pyc",
+    "lib/python3.6/site-packages/wrapt/_wrappers.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/wrapt/decorators.py",
+    "lib/python3.6/site-packages/wrapt/importer.py",
+    "lib/python3.6/site-packages/wrapt/wrappers.py"
+  ],
+  "fn": "wrapt-1.13.1-py36h8f6f2f9_0.tar.bz2",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/wrapt-1.13.1-py36h8f6f2f9_0",
+    "type": 1
+  },
+  "md5": "a72f9486f4cd6a9769ef4129ca19dbeb",
+  "name": "wrapt",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/wrapt-1.13.1-py36h8f6f2f9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e37c13f84fb3c9a54161b0fcf75f4d302fb86ce42cd6106147bda79e4197d9f2",
+        "sha256_in_prefix": "e37c13f84fb3c9a54161b0fcf75f4d302fb86ce42cd6106147bda79e4197d9f2",
+        "size_in_bytes": 1304
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ca734d26ac6dc1ab69bd31718c4fdeac158744e8e309398d5f78e2abf7b733c1",
+        "sha256_in_prefix": "ca734d26ac6dc1ab69bd31718c4fdeac158744e8e309398d5f78e2abf7b733c1",
+        "size_in_bytes": 6690
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d1d80ab48f7faa686e5ea520dd917c0829ffeeb7af329f2675fb0c5a54de0089",
+        "sha256_in_prefix": "d1d80ab48f7faa686e5ea520dd917c0829ffeeb7af329f2675fb0c5a54de0089",
+        "size_in_bytes": 1246
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ded82f94b9c6983ed64db4a253ef600ed4445d4acbeb7de6811b59a7999685ab",
+        "sha256_in_prefix": "ded82f94b9c6983ed64db4a253ef600ed4445d4acbeb7de6811b59a7999685ab",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "52693f9c461beb8aa53cf3d7d0638be395a968c8bc8b44c12690598e0b919ea5",
+        "sha256_in_prefix": "52693f9c461beb8aa53cf3d7d0638be395a968c8bc8b44c12690598e0b919ea5",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt-1.13.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "25fee472e5edc2350933038bd10cc02c38365a24a25e21fd4e128c8cdeb80d6d",
+        "sha256_in_prefix": "25fee472e5edc2350933038bd10cc02c38365a24a25e21fd4e128c8cdeb80d6d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "041ef1aae84e25367ed7293c80937ddfaa7e028446b8661ba002e2a5cee88138",
+        "sha256_in_prefix": "041ef1aae84e25367ed7293c80937ddfaa7e028446b8661ba002e2a5cee88138",
+        "size_in_bytes": 658
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1edba33d08b2938bab0c62cd00225063790c53021a2775facbe311ade725f618",
+        "sha256_in_prefix": "1edba33d08b2938bab0c62cd00225063790c53021a2775facbe311ade725f618",
+        "size_in_bytes": 950
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/__pycache__/decorators.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c17c8ebc409a496eaa7b1558ccdae68685c2fb2f004d800362ca36859c14884",
+        "sha256_in_prefix": "0c17c8ebc409a496eaa7b1558ccdae68685c2fb2f004d800362ca36859c14884",
+        "size_in_bytes": 9191
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/__pycache__/importer.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6cdcc9cd6c662d4b8d7cfdcffa42cfcc52725cda2e0bd57753d548eecd39b27",
+        "sha256_in_prefix": "b6cdcc9cd6c662d4b8d7cfdcffa42cfcc52725cda2e0bd57753d548eecd39b27",
+        "size_in_bytes": 4168
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/__pycache__/wrappers.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "87880e0763ef9c4ccfa9c9a0699c8d3b59e14b76ca2af14ad66b39759c791f3f",
+        "sha256_in_prefix": "87880e0763ef9c4ccfa9c9a0699c8d3b59e14b76ca2af14ad66b39759c791f3f",
+        "size_in_bytes": 24716
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/_wrappers.cpython-36m-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3d18650752dacc58b1ca8e3bce94121f4c5fbd9f851629d085c99375ae46bc65",
+        "sha256_in_prefix": "3d18650752dacc58b1ca8e3bce94121f4c5fbd9f851629d085c99375ae46bc65",
+        "size_in_bytes": 63360
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "6e88cc636617d4e5be48e0a2c6ce9ca2689eb94d3063a21499bff69359608384",
+        "sha256_in_prefix": "6e88cc636617d4e5be48e0a2c6ce9ca2689eb94d3063a21499bff69359608384",
+        "size_in_bytes": 21368
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/importer.py",
+        "path_type": "hardlink",
+        "sha256": "f3ed963ac28b476f12314af0ea3873be6eedda57fb32f7399ec58f5666189993",
+        "sha256_in_prefix": "f3ed963ac28b476f12314af0ea3873be6eedda57fb32f7399ec58f5666189993",
+        "size_in_bytes": 7895
+      },
+      {
+        "_path": "lib/python3.6/site-packages/wrapt/wrappers.py",
+        "path_type": "hardlink",
+        "sha256": "1d36fb4e0e0724a2a952c950734acb18bda81009cb36f48d60eaa4006c2b6d1d",
+        "sha256_in_prefix": "1d36fb4e0e0724a2a952c950734acb18bda81009cb36f48d60eaa4006c2b6d1d",
+        "size_in_bytes": 35311
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6a208ef9764dfe2b862337b1094daa9b0f47762f3ae7f4c9d61df271be99b3b7",
+  "size": 48783,
+  "subdir": "linux-64",
+  "timestamp": 1633440644000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/wrapt-1.13.1-py36h8f6f2f9_0.tar.bz2",
+  "version": "1.13.1"
+}

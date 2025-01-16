@@ -1,0 +1,219 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-parallelly-1.25.0-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/parallelly/DESCRIPTION",
+    "lib/R/library/parallelly/INDEX",
+    "lib/R/library/parallelly/Meta/Rd.rds",
+    "lib/R/library/parallelly/Meta/features.rds",
+    "lib/R/library/parallelly/Meta/hsearch.rds",
+    "lib/R/library/parallelly/Meta/links.rds",
+    "lib/R/library/parallelly/Meta/nsInfo.rds",
+    "lib/R/library/parallelly/Meta/package.rds",
+    "lib/R/library/parallelly/NAMESPACE",
+    "lib/R/library/parallelly/NEWS",
+    "lib/R/library/parallelly/R/parallelly",
+    "lib/R/library/parallelly/R/parallelly.rdb",
+    "lib/R/library/parallelly/R/parallelly.rdx",
+    "lib/R/library/parallelly/WORDLIST",
+    "lib/R/library/parallelly/help/AnIndex",
+    "lib/R/library/parallelly/help/aliases.rds",
+    "lib/R/library/parallelly/help/figures/lifecycle-maturing-blue.svg",
+    "lib/R/library/parallelly/help/figures/logo.png",
+    "lib/R/library/parallelly/help/parallelly.rdb",
+    "lib/R/library/parallelly/help/parallelly.rdx",
+    "lib/R/library/parallelly/help/paths.rds",
+    "lib/R/library/parallelly/html/00Index.html",
+    "lib/R/library/parallelly/html/R.css"
+  ],
+  "fn": "r-parallelly-1.25.0-r36hc72bb7e_0.tar.bz2",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-parallelly-1.25.0-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "c163b709fa629c14430004dc71f1dd09",
+  "name": "r-parallelly",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-parallelly-1.25.0-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/parallelly/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "caa2e09465451f4ee9d98a53ded05744f96b37aaa2dd815f44f9a24889107900",
+        "sha256_in_prefix": "caa2e09465451f4ee9d98a53ded05744f96b37aaa2dd815f44f9a24889107900",
+        "size_in_bytes": 1465
+      },
+      {
+        "_path": "lib/R/library/parallelly/INDEX",
+        "path_type": "hardlink",
+        "sha256": "737577541f46a6d81ad9318b2c35112498c531e6ce2295a042f6afe87ef13b71",
+        "sha256_in_prefix": "737577541f46a6d81ad9318b2c35112498c531e6ce2295a042f6afe87ef13b71",
+        "size_in_bytes": 993
+      },
+      {
+        "_path": "lib/R/library/parallelly/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "44779b1e7e9c6b8121bd5d7306bd950a2508586f93c19c5baa167e8d4e0d4641",
+        "sha256_in_prefix": "44779b1e7e9c6b8121bd5d7306bd950a2508586f93c19c5baa167e8d4e0d4641",
+        "size_in_bytes": 1233
+      },
+      {
+        "_path": "lib/R/library/parallelly/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/parallelly/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "05ceb8c8634216591b3216885715597738f36139b4c5ec525774a6c7a2080d13",
+        "sha256_in_prefix": "05ceb8c8634216591b3216885715597738f36139b4c5ec525774a6c7a2080d13",
+        "size_in_bytes": 1299
+      },
+      {
+        "_path": "lib/R/library/parallelly/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "52dda333b7b2c44dd24d05138e7a618fb0f17d217a4fa47f960d7d16a1096b00",
+        "sha256_in_prefix": "52dda333b7b2c44dd24d05138e7a618fb0f17d217a4fa47f960d7d16a1096b00",
+        "size_in_bytes": 700
+      },
+      {
+        "_path": "lib/R/library/parallelly/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "b062943c933004e145c1f51284e6cc094e8c0ba19c9cec01826cd032c22b5e3b",
+        "sha256_in_prefix": "b062943c933004e145c1f51284e6cc094e8c0ba19c9cec01826cd032c22b5e3b",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "lib/R/library/parallelly/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "7ae3776c76445e7a013908fa78895ab27a579a19b8f5ea20bb104e4fcfc0d8cc",
+        "sha256_in_prefix": "7ae3776c76445e7a013908fa78895ab27a579a19b8f5ea20bb104e4fcfc0d8cc",
+        "size_in_bytes": 1174
+      },
+      {
+        "_path": "lib/R/library/parallelly/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "7e0d0c60032147a2ae62a477d2c4363aa725cb69bae8288fbe4d4800f34f5cdb",
+        "sha256_in_prefix": "7e0d0c60032147a2ae62a477d2c4363aa725cb69bae8288fbe4d4800f34f5cdb",
+        "size_in_bytes": 1291
+      },
+      {
+        "_path": "lib/R/library/parallelly/NEWS",
+        "path_type": "hardlink",
+        "sha256": "5e467a02f1f397327443b9aed471cc9df5689d8aac272ef76a50673f2ba1d26c",
+        "sha256_in_prefix": "5e467a02f1f397327443b9aed471cc9df5689d8aac272ef76a50673f2ba1d26c",
+        "size_in_bytes": 23512
+      },
+      {
+        "_path": "lib/R/library/parallelly/R/parallelly",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/parallelly/R/parallelly.rdb",
+        "path_type": "hardlink",
+        "sha256": "f57f90b904d86da5245f9847e31b7cb31ca37e2258377ab81a66e5735df04ab2",
+        "sha256_in_prefix": "f57f90b904d86da5245f9847e31b7cb31ca37e2258377ab81a66e5735df04ab2",
+        "size_in_bytes": 130056
+      },
+      {
+        "_path": "lib/R/library/parallelly/R/parallelly.rdx",
+        "path_type": "hardlink",
+        "sha256": "a0c6971cf08a77c94833d1bf4a17db8837f08c2829324967cbf9d078564563cc",
+        "sha256_in_prefix": "a0c6971cf08a77c94833d1bf4a17db8837f08c2829324967cbf9d078564563cc",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "lib/R/library/parallelly/WORDLIST",
+        "path_type": "hardlink",
+        "sha256": "d9dfabda53a7cc8d900a619c98177cbbfa977f7de3a117b1c678b11895edd7d4",
+        "sha256_in_prefix": "d9dfabda53a7cc8d900a619c98177cbbfa977f7de3a117b1c678b11895edd7d4",
+        "size_in_bytes": 1047
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "1fa4753292abbd9c5705a88f2d66fd3f0fa48b87b6f3533f18419a14902cd0cb",
+        "sha256_in_prefix": "1fa4753292abbd9c5705a88f2d66fd3f0fa48b87b6f3533f18419a14902cd0cb",
+        "size_in_bytes": 2000
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "9f25dabea6cff438f9571d371f8aa263433df1a344ba1a2393f89f5b15cdfb8e",
+        "sha256_in_prefix": "9f25dabea6cff438f9571d371f8aa263433df1a344ba1a2393f89f5b15cdfb8e",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/figures/lifecycle-maturing-blue.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/figures/logo.png",
+        "path_type": "hardlink",
+        "sha256": "48e5a9a63d5112a7af74c998c940786c9c77610e2fceba03b473ccc8d0bd2d35",
+        "sha256_in_prefix": "48e5a9a63d5112a7af74c998c940786c9c77610e2fceba03b473ccc8d0bd2d35",
+        "size_in_bytes": 8090
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/parallelly.rdb",
+        "path_type": "hardlink",
+        "sha256": "29b232a2ce86196f9a662585d27ae989015fc33b1604f6e40f8b21e2ca2007d3",
+        "sha256_in_prefix": "29b232a2ce86196f9a662585d27ae989015fc33b1604f6e40f8b21e2ca2007d3",
+        "size_in_bytes": 78529
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/parallelly.rdx",
+        "path_type": "hardlink",
+        "sha256": "73b263475ba9db78bcfee0dc4a090ba9b295812762e2b5988052c3cb94a7c4f0",
+        "sha256_in_prefix": "73b263475ba9db78bcfee0dc4a090ba9b295812762e2b5988052c3cb94a7c4f0",
+        "size_in_bytes": 596
+      },
+      {
+        "_path": "lib/R/library/parallelly/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "eb6023c8053198cf435083597e0df64f9a3932d4af5fc3464fcb7ec43ca34605",
+        "sha256_in_prefix": "eb6023c8053198cf435083597e0df64f9a3932d4af5fc3464fcb7ec43ca34605",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "lib/R/library/parallelly/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "02dcbb7d68c33de6d322141deb8fe863b043bc91e67fe2043f8d3a0e724060d8",
+        "sha256_in_prefix": "02dcbb7d68c33de6d322141deb8fe863b043bc91e67fe2043f8d3a0e724060d8",
+        "size_in_bytes": 3715
+      },
+      {
+        "_path": "lib/R/library/parallelly/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ecaee57ae4532767b34e2eabafc10436c2c6b43e63e89be644157a4efb42dac0",
+  "size": 257313,
+  "subdir": "noarch",
+  "timestamp": 1619813638000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-parallelly-1.25.0-r36hc72bb7e_0.tar.bz2",
+  "version": "1.25.0"
+}

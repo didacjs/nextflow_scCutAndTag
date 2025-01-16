@@ -1,0 +1,195 @@
+{
+  "build": "r36h0357c0b_1004",
+  "build_number": 1004,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-grr-0.9.5-r36h0357c0b_1004",
+  "files": [
+    "lib/R/library/grr/DESCRIPTION",
+    "lib/R/library/grr/INDEX",
+    "lib/R/library/grr/Meta/Rd.rds",
+    "lib/R/library/grr/Meta/features.rds",
+    "lib/R/library/grr/Meta/hsearch.rds",
+    "lib/R/library/grr/Meta/links.rds",
+    "lib/R/library/grr/Meta/nsInfo.rds",
+    "lib/R/library/grr/Meta/package.rds",
+    "lib/R/library/grr/NAMESPACE",
+    "lib/R/library/grr/R/grr",
+    "lib/R/library/grr/R/grr.rdb",
+    "lib/R/library/grr/R/grr.rdx",
+    "lib/R/library/grr/help/AnIndex",
+    "lib/R/library/grr/help/aliases.rds",
+    "lib/R/library/grr/help/grr.rdb",
+    "lib/R/library/grr/help/grr.rdx",
+    "lib/R/library/grr/help/paths.rds",
+    "lib/R/library/grr/html/00Index.html",
+    "lib/R/library/grr/html/R.css",
+    "lib/R/library/grr/libs/grr.so"
+  ],
+  "fn": "r-grr-0.9.5-r36h0357c0b_1004.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-grr-0.9.5-r36h0357c0b_1004",
+    "type": 1
+  },
+  "md5": "7f8a7de89cd9f1cd2430a69b2fd5959a",
+  "name": "r-grr",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-grr-0.9.5-r36h0357c0b_1004.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/grr/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f882aa454b980c962849d6eb9da629b02d595fb506f9f72ff081be3925073224",
+        "sha256_in_prefix": "f882aa454b980c962849d6eb9da629b02d595fb506f9f72ff081be3925073224",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "lib/R/library/grr/INDEX",
+        "path_type": "hardlink",
+        "sha256": "436b65f31585a9778e4712460ab317b5eb7c067733f6cc9cc6ddd7171c3d28ee",
+        "sha256_in_prefix": "436b65f31585a9778e4712460ab317b5eb7c067733f6cc9cc6ddd7171c3d28ee",
+        "size_in_bytes": 609
+      },
+      {
+        "_path": "lib/R/library/grr/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "342d0d9dd42299a4fbbdb2e13f6c3d321d50b2bf5380628da7a43459e93b40a7",
+        "sha256_in_prefix": "342d0d9dd42299a4fbbdb2e13f6c3d321d50b2bf5380628da7a43459e93b40a7",
+        "size_in_bytes": 545
+      },
+      {
+        "_path": "lib/R/library/grr/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/grr/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8443a7ffca61c1d51af9cefecd045198352dd52e373c0afe1126e60f25010a99",
+        "sha256_in_prefix": "8443a7ffca61c1d51af9cefecd045198352dd52e373c0afe1126e60f25010a99",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "lib/R/library/grr/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "2adb8ac125f02fc98ed17f6341f7004e5bec92eaae0e2c9e24bee92c35c00f86",
+        "sha256_in_prefix": "2adb8ac125f02fc98ed17f6341f7004e5bec92eaae0e2c9e24bee92c35c00f86",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "lib/R/library/grr/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bf5e6d6ea266fee31f3876fa4ac69e2ba0d42e96c0d4a8fbae30f0f19cb7be1a",
+        "sha256_in_prefix": "bf5e6d6ea266fee31f3876fa4ac69e2ba0d42e96c0d4a8fbae30f0f19cb7be1a",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "lib/R/library/grr/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "58bf7466ce260193308a3efd174ef7e66c3c51f1e2a71069cc64ccdd0ebeb768",
+        "sha256_in_prefix": "58bf7466ce260193308a3efd174ef7e66c3c51f1e2a71069cc64ccdd0ebeb768",
+        "size_in_bytes": 744
+      },
+      {
+        "_path": "lib/R/library/grr/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "d3c32793700ec4f037fee62540ed7ed70121c1992caef51f7e84176e24e77ebe",
+        "sha256_in_prefix": "d3c32793700ec4f037fee62540ed7ed70121c1992caef51f7e84176e24e77ebe",
+        "size_in_bytes": 167
+      },
+      {
+        "_path": "lib/R/library/grr/R/grr",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/grr/R/grr.rdb",
+        "path_type": "hardlink",
+        "sha256": "5f64681d1a91cca70d9264a1415d43c1398163c3da284ed28078e91b80f2faf5",
+        "sha256_in_prefix": "5f64681d1a91cca70d9264a1415d43c1398163c3da284ed28078e91b80f2faf5",
+        "size_in_bytes": 7933
+      },
+      {
+        "_path": "lib/R/library/grr/R/grr.rdx",
+        "path_type": "hardlink",
+        "sha256": "c77d5108b943cb2855cbdb7988a260d9033edf0af08253505a6eb1ef79377cdc",
+        "sha256_in_prefix": "c77d5108b943cb2855cbdb7988a260d9033edf0af08253505a6eb1ef79377cdc",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "lib/R/library/grr/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "79ed1c4f75a2613b43fbadf6c916e7c547b16aba527f2e9cd11cb221bb4b44a6",
+        "sha256_in_prefix": "79ed1c4f75a2613b43fbadf6c916e7c547b16aba527f2e9cd11cb221bb4b44a6",
+        "size_in_bytes": 122
+      },
+      {
+        "_path": "lib/R/library/grr/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "6d18856dac85fc18a48b43a895b1b05ac45f4d6035e6ee7829f2abb9a10b0e5b",
+        "sha256_in_prefix": "6d18856dac85fc18a48b43a895b1b05ac45f4d6035e6ee7829f2abb9a10b0e5b",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/R/library/grr/help/grr.rdb",
+        "path_type": "hardlink",
+        "sha256": "b669994950bde28e89987b56a5f8738a81974a34f3595f9930d128c0e44c4c53",
+        "sha256_in_prefix": "b669994950bde28e89987b56a5f8738a81974a34f3595f9930d128c0e44c4c53",
+        "size_in_bytes": 15905
+      },
+      {
+        "_path": "lib/R/library/grr/help/grr.rdx",
+        "path_type": "hardlink",
+        "sha256": "10a6b8ba6f9ad8811a8c8aaefa529a50eb90ad9d9aa60f7bfd3995fd7a617557",
+        "sha256_in_prefix": "10a6b8ba6f9ad8811a8c8aaefa529a50eb90ad9d9aa60f7bfd3995fd7a617557",
+        "size_in_bytes": 305
+      },
+      {
+        "_path": "lib/R/library/grr/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "7374023ffb4628d71ebcba8178827f702cca82aa3ef6fb7ef43f0a8375ced119",
+        "sha256_in_prefix": "7374023ffb4628d71ebcba8178827f702cca82aa3ef6fb7ef43f0a8375ced119",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "lib/R/library/grr/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "b7cfb610ea857894b63638208bb5979a3e926f55a810441aa31ad86218e2c942",
+        "sha256_in_prefix": "b7cfb610ea857894b63638208bb5979a3e926f55a810441aa31ad86218e2c942",
+        "size_in_bytes": 2008
+      },
+      {
+        "_path": "lib/R/library/grr/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/grr/libs/grr.so",
+        "path_type": "hardlink",
+        "sha256": "91b17eda3ce56f8719f85d255003aea249dfa4d9189b91519b4e81dca5c25bfb",
+        "sha256_in_prefix": "91b17eda3ce56f8719f85d255003aea249dfa4d9189b91519b4e81dca5c25bfb",
+        "size_in_bytes": 36960
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f51b4f36c241c9ab3928720be5de3d1b76dc8ad533cfba6950a14ef2434ac79f",
+  "size": 63672,
+  "subdir": "linux-64",
+  "timestamp": 1588613593000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-grr-0.9.5-r36h0357c0b_1004.tar.bz2",
+  "version": "0.9.5"
+}

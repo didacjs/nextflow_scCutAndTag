@@ -1,0 +1,53 @@
+{
+  "build": "r36_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-bsgenome >=1.54.0,<1.55.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-bsgenome.mmusculus.ucsc.mm10-1.4.0-r36_8",
+  "files": [
+    "bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh",
+    "bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-bsgenome.mmusculus.ucsc.mm10-1.4.0-r36_8.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-bsgenome.mmusculus.ucsc.mm10-1.4.0-r36_8",
+    "type": 1
+  },
+  "md5": "f1b285313ce11865242bba4c32aaca6f",
+  "name": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-bsgenome.mmusculus.ucsc.mm10-1.4.0-r36_8.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "164595e483ba9ad80c9d1adaa36c30dcda8ecb8898547b0acfd2a97909dc4091",
+        "sha256_in_prefix": "164595e483ba9ad80c9d1adaa36c30dcda8ecb8898547b0acfd2a97909dc4091",
+        "size_in_bytes": 1538
+      },
+      {
+        "_path": "bin/.bioconductor-bsgenome.mmusculus.ucsc.mm10-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "67a26dc7534ca0c88652876099e93287913dcbc0eced715419f3b473f37ad5b7",
+        "sha256_in_prefix": "67a26dc7534ca0c88652876099e93287913dcbc0eced715419f3b473f37ad5b7",
+        "size_in_bytes": 75
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-bsgenome.mmusculus.ucsc.mm10",
+  "sha256": "a099efda8a5be652545e33a187c86c17631494e240cd32854a6fb6801a00593f",
+  "size": 7044,
+  "subdir": "noarch",
+  "timestamp": 1572854473000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-bsgenome.mmusculus.ucsc.mm10-1.4.0-r36_8.tar.bz2",
+  "version": "1.4.0"
+}

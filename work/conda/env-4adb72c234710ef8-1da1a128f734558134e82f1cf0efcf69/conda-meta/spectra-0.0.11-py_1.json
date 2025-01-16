@@ -1,0 +1,144 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "colormath >=3.0.0",
+    "python"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/spectra-0.0.11-py_1",
+  "files": [
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/LICENSE.txt",
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/METADATA",
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/RECORD",
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/WHEEL",
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/namespace_packages.txt",
+    "lib/python3.6/site-packages/spectra-0.0.11.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/spectra/__init__.py",
+    "lib/python3.6/site-packages/spectra/_version.py",
+    "lib/python3.6/site-packages/spectra/core.py",
+    "lib/python3.6/site-packages/spectra/grapefruit.py",
+    "lib/python3.6/site-packages/spectra/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/spectra/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/spectra/__pycache__/core.cpython-36.pyc",
+    "lib/python3.6/site-packages/spectra/__pycache__/grapefruit.cpython-36.pyc"
+  ],
+  "fn": "spectra-0.0.11-py_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/spectra-0.0.11-py_1",
+    "type": 1
+  },
+  "md5": "3979401f3b9bcebf0adba6d091d390e3",
+  "name": "spectra",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/spectra-0.0.11-py_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0d48994da4d1321e395b5e64a724ed4dec63fb96b88ac5b88fc014771e690821",
+        "sha256_in_prefix": "0d48994da4d1321e395b5e64a724ed4dec63fb96b88ac5b88fc014771e690821",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ef89b7f5cb581f786598c8ba42ce84b2a957e7dd3d47b175688541a5cab568c1",
+        "sha256_in_prefix": "ef89b7f5cb581f786598c8ba42ce84b2a957e7dd3d47b175688541a5cab568c1",
+        "size_in_bytes": 781
+      },
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4e58e7d1f26bba533752a98c260ca7eb83e7293ee570f70e5edbac5fd080eeb",
+        "sha256_in_prefix": "d4e58e7d1f26bba533752a98c260ca7eb83e7293ee570f70e5edbac5fd080eeb",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "sha256_in_prefix": "ae121453793f815da20b2a4e34babecb0f2102f1ae5fe0680e02ffa2f0621d6d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/spectra-0.0.11.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "857c9e7212cf71015ba32ec3421104bfe39456602ef2148749a34c4d1d9c6111",
+        "sha256_in_prefix": "857c9e7212cf71015ba32ec3421104bfe39456602ef2148749a34c4d1d9c6111",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/spectra/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "25872b2dc600f51f7d525128a7ee1e3d599e8403a14e9d9fa9483eddf425062f",
+        "sha256_in_prefix": "25872b2dc600f51f7d525128a7ee1e3d599e8403a14e9d9fa9483eddf425062f",
+        "size_in_bytes": 4083
+      },
+      {
+        "_path": "site-packages/spectra/_version.py",
+        "path_type": "hardlink",
+        "sha256": "a09776bd0dda1d6fadd03ae7880d76e4290bade1edd8b2a5e769cfc8f8216f6f",
+        "sha256_in_prefix": "a09776bd0dda1d6fadd03ae7880d76e4290bade1edd8b2a5e769cfc8f8216f6f",
+        "size_in_bytes": 73
+      },
+      {
+        "_path": "site-packages/spectra/core.py",
+        "path_type": "hardlink",
+        "sha256": "e756e78dc421d5b187fc563c1ccd3e4a8c25770a77b581fb5b27648f49a02791",
+        "sha256_in_prefix": "e756e78dc421d5b187fc563c1ccd3e4a8c25770a77b581fb5b27648f49a02791",
+        "size_in_bytes": 7316
+      },
+      {
+        "_path": "site-packages/spectra/grapefruit.py",
+        "path_type": "hardlink",
+        "sha256": "681aa6872ba37a4568865fd085fc3c497452f52183ca98a5307384a1d4d724a2",
+        "sha256_in_prefix": "681aa6872ba37a4568865fd085fc3c497452f52183ca98a5307384a1d4d724a2",
+        "size_in_bytes": 55384
+      },
+      {
+        "_path": "lib/python3.6/site-packages/spectra/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/spectra/__pycache__/_version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/spectra/__pycache__/core.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/spectra/__pycache__/grapefruit.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6f75e8f833c84fd7d129ab89d3ed6cff95b3197ba73bf6dc6a17268306ad228f",
+  "size": 19409,
+  "subdir": "noarch",
+  "timestamp": 1558185487000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/spectra-0.0.11-py_1.tar.bz2",
+  "version": "0.0.11"
+}

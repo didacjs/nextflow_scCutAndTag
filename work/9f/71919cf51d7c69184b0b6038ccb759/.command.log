@@ -1,0 +1,28 @@
+Due to filtering, 6.61223253336366% of the aforementioned alignments will be used 10756238.277309194
+normalization: RPKM
+bamFilesList: ['possorted_bam.bam']
+binLength: 100
+numberOfSamples: None
+blackListFileName: None
+skipZeroOverZero: False
+bed_and_bin: False
+genomeChunkSize: None
+defaultFragmentLength: read length
+numberOfProcessors: 4
+verbose: False
+region: None
+bedFile: None
+minMappingQuality: 5
+ignoreDuplicates: True
+chrsToSkip: []
+stepSize: 100
+center_read: True
+samFlag_include: None
+samFlag_exclude: None
+minFragmentLength: 0
+maxFragmentLength: 0
+zerosToNans: False
+smoothLength: 500
+save_data: False
+out_file_for_raw_data: None
+maxPairedFragmentLength: 1000

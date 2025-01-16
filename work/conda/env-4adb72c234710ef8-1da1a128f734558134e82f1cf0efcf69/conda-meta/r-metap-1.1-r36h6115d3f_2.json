@@ -1,0 +1,357 @@
+{
+  "build": "r36h6115d3f_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-lattice",
+    "r-rdpack"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-metap-1.1-r36h6115d3f_2",
+  "files": [
+    "lib/R/library/metap/CITATION",
+    "lib/R/library/metap/DESCRIPTION",
+    "lib/R/library/metap/INDEX",
+    "lib/R/library/metap/Meta/Rd.rds",
+    "lib/R/library/metap/Meta/data.rds",
+    "lib/R/library/metap/Meta/features.rds",
+    "lib/R/library/metap/Meta/hsearch.rds",
+    "lib/R/library/metap/Meta/links.rds",
+    "lib/R/library/metap/Meta/nsInfo.rds",
+    "lib/R/library/metap/Meta/package.rds",
+    "lib/R/library/metap/Meta/vignette.rds",
+    "lib/R/library/metap/NAMESPACE",
+    "lib/R/library/metap/NEWS",
+    "lib/R/library/metap/R/metap",
+    "lib/R/library/metap/R/metap.rdb",
+    "lib/R/library/metap/R/metap.rdx",
+    "lib/R/library/metap/REFERENCES.bib",
+    "lib/R/library/metap/data/beckerp.rda",
+    "lib/R/library/metap/data/cholest.rda",
+    "lib/R/library/metap/data/edgington.rda",
+    "lib/R/library/metap/data/mourning.rda",
+    "lib/R/library/metap/data/naep.rda",
+    "lib/R/library/metap/data/rosenthal.rda",
+    "lib/R/library/metap/data/teachexpect.rda",
+    "lib/R/library/metap/data/validity.rda",
+    "lib/R/library/metap/doc/compare.R",
+    "lib/R/library/metap/doc/compare.Rnw",
+    "lib/R/library/metap/doc/compare.pdf",
+    "lib/R/library/metap/doc/index.html",
+    "lib/R/library/metap/doc/metap.R",
+    "lib/R/library/metap/doc/metap.Rnw",
+    "lib/R/library/metap/doc/metap.pdf",
+    "lib/R/library/metap/help/AnIndex",
+    "lib/R/library/metap/help/aliases.rds",
+    "lib/R/library/metap/help/macros/macros.Rd",
+    "lib/R/library/metap/help/metap.rdb",
+    "lib/R/library/metap/help/metap.rdx",
+    "lib/R/library/metap/help/paths.rds",
+    "lib/R/library/metap/html/00Index.html",
+    "lib/R/library/metap/html/R.css"
+  ],
+  "fn": "r-metap-1.1-r36h6115d3f_2.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-metap-1.1-r36h6115d3f_2",
+    "type": 1
+  },
+  "md5": "079378e78c2b1121819d5b4fa4604d75",
+  "name": "r-metap",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-metap-1.1-r36h6115d3f_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/metap/CITATION",
+        "path_type": "hardlink",
+        "sha256": "1fbfcd5984e555e8cce199f1a81f27aa7d285bc3273f37d26eb5d160fa67335c",
+        "sha256_in_prefix": "1fbfcd5984e555e8cce199f1a81f27aa7d285bc3273f37d26eb5d160fa67335c",
+        "size_in_bytes": 540
+      },
+      {
+        "_path": "lib/R/library/metap/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "60705d3a10bad686d65d3204065109957891b794b4552203b71c24a260ac2e06",
+        "sha256_in_prefix": "60705d3a10bad686d65d3204065109957891b794b4552203b71c24a260ac2e06",
+        "size_in_bytes": 857
+      },
+      {
+        "_path": "lib/R/library/metap/INDEX",
+        "path_type": "hardlink",
+        "sha256": "27d00d3e4714d9fc945fea5242b70a11ba7e67b98ce48fdebcea5e3459cddb48",
+        "sha256_in_prefix": "27d00d3e4714d9fc945fea5242b70a11ba7e67b98ce48fdebcea5e3459cddb48",
+        "size_in_bytes": 1150
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "6afd734cd33c558caac793d8cf5bbe3f2f1ed7df13ffb396db8e35dbc4facf0a",
+        "sha256_in_prefix": "6afd734cd33c558caac793d8cf5bbe3f2f1ed7df13ffb396db8e35dbc4facf0a",
+        "size_in_bytes": 940
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "14580d37112d908d98aee266899b374707c14b5847eeba5e996ddfc9d5f2a781",
+        "sha256_in_prefix": "14580d37112d908d98aee266899b374707c14b5847eeba5e996ddfc9d5f2a781",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "be501a4125dbe7b27671b1e736e891fa0f13484c285cf4dbb6e1ff90c2302149",
+        "sha256_in_prefix": "be501a4125dbe7b27671b1e736e891fa0f13484c285cf4dbb6e1ff90c2302149",
+        "size_in_bytes": 1045
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "34b3d0582aa68a8f376719be2eddb1dd7824ca548bbf433243b45aee30e19494",
+        "sha256_in_prefix": "34b3d0582aa68a8f376719be2eddb1dd7824ca548bbf433243b45aee30e19494",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "b4887ccd3accaa66dc48c9c047d4bfe9f216143e2b19111a9c4012a742ad30dc",
+        "sha256_in_prefix": "b4887ccd3accaa66dc48c9c047d4bfe9f216143e2b19111a9c4012a742ad30dc",
+        "size_in_bytes": 482
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "9af514142bd51bc53f83710ea5dcc047a27e19dfb35ee546d089c987c1b28a83",
+        "sha256_in_prefix": "9af514142bd51bc53f83710ea5dcc047a27e19dfb35ee546d089c987c1b28a83",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/R/library/metap/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "62b20a1496454e4bed9dbd519f84ca8e69c6483c765ef8c8ea8dcfbf703e6f7f",
+        "sha256_in_prefix": "62b20a1496454e4bed9dbd519f84ca8e69c6483c765ef8c8ea8dcfbf703e6f7f",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/R/library/metap/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e9700523cbe1c158d2f80000b1f943e06dbddbdc803c2a3fc423397004d13a16",
+        "sha256_in_prefix": "e9700523cbe1c158d2f80000b1f943e06dbddbdc803c2a3fc423397004d13a16",
+        "size_in_bytes": 926
+      },
+      {
+        "_path": "lib/R/library/metap/NEWS",
+        "path_type": "hardlink",
+        "sha256": "18941a546d4e9da3d4d9f172a46847fdb150164cd5c967a65da06d75168c888d",
+        "sha256_in_prefix": "18941a546d4e9da3d4d9f172a46847fdb150164cd5c967a65da06d75168c888d",
+        "size_in_bytes": 1320
+      },
+      {
+        "_path": "lib/R/library/metap/R/metap",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/metap/R/metap.rdb",
+        "path_type": "hardlink",
+        "sha256": "23f41d00442b02c80fbbc7ac73ec11649d6b68e1b7ef45783c8ee5cf12c20624",
+        "sha256_in_prefix": "23f41d00442b02c80fbbc7ac73ec11649d6b68e1b7ef45783c8ee5cf12c20624",
+        "size_in_bytes": 36411
+      },
+      {
+        "_path": "lib/R/library/metap/R/metap.rdx",
+        "path_type": "hardlink",
+        "sha256": "a99047c8f2464f1d7584266a9555100c803e8de67601cf898b064e4d06d57acc",
+        "sha256_in_prefix": "a99047c8f2464f1d7584266a9555100c803e8de67601cf898b064e4d06d57acc",
+        "size_in_bytes": 619
+      },
+      {
+        "_path": "lib/R/library/metap/REFERENCES.bib",
+        "path_type": "hardlink",
+        "sha256": "342df0f41acc6f6ac0595e9573cc7580b5d61394dc8a37c4067c04f75285743b",
+        "sha256_in_prefix": "342df0f41acc6f6ac0595e9573cc7580b5d61394dc8a37c4067c04f75285743b",
+        "size_in_bytes": 4079
+      },
+      {
+        "_path": "lib/R/library/metap/data/beckerp.rda",
+        "path_type": "hardlink",
+        "sha256": "c2d6021448c6f45bf446810c7a4e0b4a462c93b169c3c77cca768fa0c83b6098",
+        "sha256_in_prefix": "c2d6021448c6f45bf446810c7a4e0b4a462c93b169c3c77cca768fa0c83b6098",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/R/library/metap/data/cholest.rda",
+        "path_type": "hardlink",
+        "sha256": "ccafddf8150d4c2e5ae49192daa07df5d0c972cd1d260b01359806e41185740e",
+        "sha256_in_prefix": "ccafddf8150d4c2e5ae49192daa07df5d0c972cd1d260b01359806e41185740e",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/R/library/metap/data/edgington.rda",
+        "path_type": "hardlink",
+        "sha256": "6f680d6131bfe3029870449286f139cbae2236622daf9971c04264e3a598416d",
+        "sha256_in_prefix": "6f680d6131bfe3029870449286f139cbae2236622daf9971c04264e3a598416d",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/R/library/metap/data/mourning.rda",
+        "path_type": "hardlink",
+        "sha256": "5f02e38a774310656dfd4fe3fffd5b7030a9b14157e3fe9236e91092c7dfae4e",
+        "sha256_in_prefix": "5f02e38a774310656dfd4fe3fffd5b7030a9b14157e3fe9236e91092c7dfae4e",
+        "size_in_bytes": 327
+      },
+      {
+        "_path": "lib/R/library/metap/data/naep.rda",
+        "path_type": "hardlink",
+        "sha256": "d312d5ead4850b1b97a39e7a872a7b638a94c0bb6d12bd5fc7d1634bce3fbc61",
+        "sha256_in_prefix": "d312d5ead4850b1b97a39e7a872a7b638a94c0bb6d12bd5fc7d1634bce3fbc61",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "lib/R/library/metap/data/rosenthal.rda",
+        "path_type": "hardlink",
+        "sha256": "bf0c51428459b1ff1d2f224e3d6b8ef21d3543f167c341fd1eaba943b40bf796",
+        "sha256_in_prefix": "bf0c51428459b1ff1d2f224e3d6b8ef21d3543f167c341fd1eaba943b40bf796",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/R/library/metap/data/teachexpect.rda",
+        "path_type": "hardlink",
+        "sha256": "58dea501978640f017a6f07f7cb009d9253b3725474d819b34246faa94b25775",
+        "sha256_in_prefix": "58dea501978640f017a6f07f7cb009d9253b3725474d819b34246faa94b25775",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/metap/data/validity.rda",
+        "path_type": "hardlink",
+        "sha256": "4438378c23772a29f1fe4b1ae0f7236abceca92cc1853cb2abad5ada8d83e8d6",
+        "sha256_in_prefix": "4438378c23772a29f1fe4b1ae0f7236abceca92cc1853cb2abad5ada8d83e8d6",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/R/library/metap/doc/compare.R",
+        "path_type": "hardlink",
+        "sha256": "0a02f5f2fbf7a38a8d3e86093cae107899986637e891c0480966505a3d82086a",
+        "sha256_in_prefix": "0a02f5f2fbf7a38a8d3e86093cae107899986637e891c0480966505a3d82086a",
+        "size_in_bytes": 2426
+      },
+      {
+        "_path": "lib/R/library/metap/doc/compare.Rnw",
+        "path_type": "hardlink",
+        "sha256": "93c95926c0add6e4207b6e204d3932546e35c5d2f0883026c0719abbca403177",
+        "sha256_in_prefix": "93c95926c0add6e4207b6e204d3932546e35c5d2f0883026c0719abbca403177",
+        "size_in_bytes": 18292
+      },
+      {
+        "_path": "lib/R/library/metap/doc/compare.pdf",
+        "path_type": "hardlink",
+        "sha256": "0a6045a6753632ae908abf00000ef604b450fb31b471529086293e5eb20d0979",
+        "sha256_in_prefix": "0a6045a6753632ae908abf00000ef604b450fb31b471529086293e5eb20d0979",
+        "size_in_bytes": 203262
+      },
+      {
+        "_path": "lib/R/library/metap/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "e356f395f5eb58a4976873e448a86412480848ffbae4e9eaa73d304d7acd3644",
+        "sha256_in_prefix": "e356f395f5eb58a4976873e448a86412480848ffbae4e9eaa73d304d7acd3644",
+        "size_in_bytes": 1798
+      },
+      {
+        "_path": "lib/R/library/metap/doc/metap.R",
+        "path_type": "hardlink",
+        "sha256": "099eace925d80031e4477c843f77e715e6c068dfcd0f1065c5e345830ad62aa5",
+        "sha256_in_prefix": "099eace925d80031e4477c843f77e715e6c068dfcd0f1065c5e345830ad62aa5",
+        "size_in_bytes": 1671
+      },
+      {
+        "_path": "lib/R/library/metap/doc/metap.Rnw",
+        "path_type": "hardlink",
+        "sha256": "7d328adf692b854e52b5827ae3022828251454f6bdf8af94229baeb4559cbc64",
+        "sha256_in_prefix": "7d328adf692b854e52b5827ae3022828251454f6bdf8af94229baeb4559cbc64",
+        "size_in_bytes": 8208
+      },
+      {
+        "_path": "lib/R/library/metap/doc/metap.pdf",
+        "path_type": "hardlink",
+        "sha256": "b31185d3c7583f2f69b1d3212f5e6484964d58159c3780f5680495bad0209a43",
+        "sha256_in_prefix": "b31185d3c7583f2f69b1d3212f5e6484964d58159c3780f5680495bad0209a43",
+        "size_in_bytes": 163811
+      },
+      {
+        "_path": "lib/R/library/metap/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "58e2aa321da1afb375783cf65a9b1736fffe0ae8664b283e80ba71fb89231ff5",
+        "sha256_in_prefix": "58e2aa321da1afb375783cf65a9b1736fffe0ae8664b283e80ba71fb89231ff5",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "lib/R/library/metap/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "030ebe953674e4a1e76c20f22aeb11629146005264b2cb844b75418fc5db07f7",
+        "sha256_in_prefix": "030ebe953674e4a1e76c20f22aeb11629146005264b2cb844b75418fc5db07f7",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/R/library/metap/help/macros/macros.Rd",
+        "path_type": "hardlink",
+        "sha256": "98f97f5792faa8275f39d62eace6b6adfd1b7c08fd1989375630726132d8ae77",
+        "sha256_in_prefix": "98f97f5792faa8275f39d62eace6b6adfd1b7c08fd1989375630726132d8ae77",
+        "size_in_bytes": 1068
+      },
+      {
+        "_path": "lib/R/library/metap/help/metap.rdb",
+        "path_type": "hardlink",
+        "sha256": "6a398696804307f49f3351ac71bc57607681d8c77a21102d6a80d8aebc6fb9c1",
+        "sha256_in_prefix": "6a398696804307f49f3351ac71bc57607681d8c77a21102d6a80d8aebc6fb9c1",
+        "size_in_bytes": 70994
+      },
+      {
+        "_path": "lib/R/library/metap/help/metap.rdx",
+        "path_type": "hardlink",
+        "sha256": "ed4f58043aa75f94eaa782df1a74ec7173da9f9dd6af6049840c66e7a8f3458f",
+        "sha256_in_prefix": "ed4f58043aa75f94eaa782df1a74ec7173da9f9dd6af6049840c66e7a8f3458f",
+        "size_in_bytes": 626
+      },
+      {
+        "_path": "lib/R/library/metap/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "87b8cf74890c68c6aea9ff8a1282e7022ea87395d6b92fb27fd502c1662e4964",
+        "sha256_in_prefix": "87b8cf74890c68c6aea9ff8a1282e7022ea87395d6b92fb27fd502c1662e4964",
+        "size_in_bytes": 280
+      },
+      {
+        "_path": "lib/R/library/metap/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "064813656f7543af9a36697f992db7bdc362a6727b818e41cc8470ca55132c46",
+        "sha256_in_prefix": "064813656f7543af9a36697f992db7bdc362a6727b818e41cc8470ca55132c46",
+        "size_in_bytes": 6852
+      },
+      {
+        "_path": "lib/R/library/metap/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b2518d9334049fd911803d8c7ad84c4368a725c5c2385cab1c7f75b838e286de",
+  "size": 502271,
+  "subdir": "noarch",
+  "timestamp": 1588602535000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-metap-1.1-r36h6115d3f_2.tar.bz2",
+  "version": "1.1"
+}

@@ -1,0 +1,381 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-glue",
+    "r-rlang >=0.4.10"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-lifecycle-1.0.0-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/lifecycle/DESCRIPTION",
+    "lib/R/library/lifecycle/INDEX",
+    "lib/R/library/lifecycle/LICENSE",
+    "lib/R/library/lifecycle/Meta/Rd.rds",
+    "lib/R/library/lifecycle/Meta/features.rds",
+    "lib/R/library/lifecycle/Meta/hsearch.rds",
+    "lib/R/library/lifecycle/Meta/links.rds",
+    "lib/R/library/lifecycle/Meta/nsInfo.rds",
+    "lib/R/library/lifecycle/Meta/package.rds",
+    "lib/R/library/lifecycle/Meta/vignette.rds",
+    "lib/R/library/lifecycle/NAMESPACE",
+    "lib/R/library/lifecycle/NEWS.md",
+    "lib/R/library/lifecycle/R/lifecycle",
+    "lib/R/library/lifecycle/R/lifecycle.rdb",
+    "lib/R/library/lifecycle/R/lifecycle.rdx",
+    "lib/R/library/lifecycle/doc/communicate.R",
+    "lib/R/library/lifecycle/doc/communicate.Rmd",
+    "lib/R/library/lifecycle/doc/communicate.html",
+    "lib/R/library/lifecycle/doc/index.html",
+    "lib/R/library/lifecycle/doc/manage.R",
+    "lib/R/library/lifecycle/doc/manage.Rmd",
+    "lib/R/library/lifecycle/doc/manage.html",
+    "lib/R/library/lifecycle/doc/stages.R",
+    "lib/R/library/lifecycle/doc/stages.Rmd",
+    "lib/R/library/lifecycle/doc/stages.html",
+    "lib/R/library/lifecycle/help/AnIndex",
+    "lib/R/library/lifecycle/help/aliases.rds",
+    "lib/R/library/lifecycle/help/figures/lifecycle-archived.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-defunct.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-deprecated.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-experimental.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-maturing.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-questioning.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-retired.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-soft-deprecated.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-stable.svg",
+    "lib/R/library/lifecycle/help/figures/lifecycle-superseded.svg",
+    "lib/R/library/lifecycle/help/lifecycle.rdb",
+    "lib/R/library/lifecycle/help/lifecycle.rdx",
+    "lib/R/library/lifecycle/help/macros/lifecycle.Rd",
+    "lib/R/library/lifecycle/help/paths.rds",
+    "lib/R/library/lifecycle/html/00Index.html",
+    "lib/R/library/lifecycle/html/R.css"
+  ],
+  "fn": "r-lifecycle-1.0.0-r36hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-lifecycle-1.0.0-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "57a58fd9d0af5a1c326f479b7b4a78e9",
+  "name": "r-lifecycle",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-lifecycle-1.0.0-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/lifecycle/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "5b472076786866aad409bf4aad1025b4d32074bbcc03c857ca343bec3adc4622",
+        "sha256_in_prefix": "5b472076786866aad409bf4aad1025b4d32074bbcc03c857ca343bec3adc4622",
+        "size_in_bytes": 1359
+      },
+      {
+        "_path": "lib/R/library/lifecycle/INDEX",
+        "path_type": "hardlink",
+        "sha256": "bf947cc78408a4e3bcc704014f98bb8876def69584e40102c8a3cc02f915f895",
+        "sha256_in_prefix": "bf947cc78408a4e3bcc704014f98bb8876def69584e40102c8a3cc02f915f895",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "lib/R/library/lifecycle/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6654d97ff54de7e7bcddc25d4e31e7634f25380cff8f41510ba5bf10a173e42a",
+        "sha256_in_prefix": "6654d97ff54de7e7bcddc25d4e31e7634f25380cff8f41510ba5bf10a173e42a",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "fb02da9502242c64122434bbd326ea04cfe2512dfafab7f1fb9b0e81ed1f48f0",
+        "sha256_in_prefix": "fb02da9502242c64122434bbd326ea04cfe2512dfafab7f1fb9b0e81ed1f48f0",
+        "size_in_bytes": 636
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c3228cede0f726a9776ae5353bfdcaf06f5dbf287d9ffe85105422ca14462a7b",
+        "sha256_in_prefix": "c3228cede0f726a9776ae5353bfdcaf06f5dbf287d9ffe85105422ca14462a7b",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "846025380b11ed3b38cb61ace20492930b9c7882b57d0d01cde28c3ede4026c9",
+        "sha256_in_prefix": "846025380b11ed3b38cb61ace20492930b9c7882b57d0d01cde28c3ede4026c9",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "674a726eb51e08e81103894a4a45f04b8239dc61a482762ab728287a905df4e2",
+        "sha256_in_prefix": "674a726eb51e08e81103894a4a45f04b8239dc61a482762ab728287a905df4e2",
+        "size_in_bytes": 346
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8102d2caf408861183d5b5b0d84b9a12a7bc92ec82962eefd0270e8cd7f08275",
+        "sha256_in_prefix": "8102d2caf408861183d5b5b0d84b9a12a7bc92ec82962eefd0270e8cd7f08275",
+        "size_in_bytes": 1196
+      },
+      {
+        "_path": "lib/R/library/lifecycle/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "d0cd81d58d091d0c50ac15578c2995dc509906278fe47af64064514eb30f07de",
+        "sha256_in_prefix": "d0cd81d58d091d0c50ac15578c2995dc509906278fe47af64064514eb30f07de",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "lib/R/library/lifecycle/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "44bc8469ec1130ae0617a73714324c27c7100056365b10c213b5115520eb9b9e",
+        "sha256_in_prefix": "44bc8469ec1130ae0617a73714324c27c7100056365b10c213b5115520eb9b9e",
+        "size_in_bytes": 449
+      },
+      {
+        "_path": "lib/R/library/lifecycle/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "a80d342d5ded9ba41f0bfc16fa9cb496c764226a751f0bb6080b6e3f3c7590ab",
+        "sha256_in_prefix": "a80d342d5ded9ba41f0bfc16fa9cb496c764226a751f0bb6080b6e3f3c7590ab",
+        "size_in_bytes": 2909
+      },
+      {
+        "_path": "lib/R/library/lifecycle/R/lifecycle",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/lifecycle/R/lifecycle.rdb",
+        "path_type": "hardlink",
+        "sha256": "12b387f466276a9f1eb10c036435ee5b8f1f44b2597ce518ee90a0bba3ba5486",
+        "sha256_in_prefix": "12b387f466276a9f1eb10c036435ee5b8f1f44b2597ce518ee90a0bba3ba5486",
+        "size_in_bytes": 32249
+      },
+      {
+        "_path": "lib/R/library/lifecycle/R/lifecycle.rdx",
+        "path_type": "hardlink",
+        "sha256": "197cea7ea4513b1595ed4ba977d9b581740437ff03faf21d09123abab603907c",
+        "sha256_in_prefix": "197cea7ea4513b1595ed4ba977d9b581740437ff03faf21d09123abab603907c",
+        "size_in_bytes": 1024
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/communicate.R",
+        "path_type": "hardlink",
+        "sha256": "190a5ea8107773cb451a9f5bce74f6491ca2cfb7a2226566a994a745851a61be",
+        "sha256_in_prefix": "190a5ea8107773cb451a9f5bce74f6491ca2cfb7a2226566a994a745851a61be",
+        "size_in_bytes": 5979
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/communicate.Rmd",
+        "path_type": "hardlink",
+        "sha256": "5f13d268856bffa7d6fac7e6a21b5592062d028d427bdc127c33bd413d59d58c",
+        "sha256_in_prefix": "5f13d268856bffa7d6fac7e6a21b5592062d028d427bdc127c33bd413d59d58c",
+        "size_in_bytes": 11850
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/communicate.html",
+        "path_type": "hardlink",
+        "sha256": "d5477cfca0834e034210c154b577c4f3d224dcfcd8e5cfc36a698de9e0e2983f",
+        "sha256_in_prefix": "d5477cfca0834e034210c154b577c4f3d224dcfcd8e5cfc36a698de9e0e2983f",
+        "size_in_bytes": 47763
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "73d1e6b7c70ab82a85a92296c6c2f2f9dde71ad3a265908de6584d8e06131953",
+        "sha256_in_prefix": "73d1e6b7c70ab82a85a92296c6c2f2f9dde71ad3a265908de6584d8e06131953",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/manage.R",
+        "path_type": "hardlink",
+        "sha256": "ce3a56d95d81de6a2015187ae687a835d19cb3e4c75cc76affac2170196aa0af",
+        "sha256_in_prefix": "ce3a56d95d81de6a2015187ae687a835d19cb3e4c75cc76affac2170196aa0af",
+        "size_in_bytes": 1330
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/manage.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b9b5351a6fdc2863fcd3e0139470b267aca107fe3f6ead3b73e9fe9377bbfd8e",
+        "sha256_in_prefix": "b9b5351a6fdc2863fcd3e0139470b267aca107fe3f6ead3b73e9fe9377bbfd8e",
+        "size_in_bytes": 2653
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/manage.html",
+        "path_type": "hardlink",
+        "sha256": "2785ca84004a53f9ffee8a6d2de0a44dcd3286534b068561689b0fb93e518b94",
+        "sha256_in_prefix": "2785ca84004a53f9ffee8a6d2de0a44dcd3286534b068561689b0fb93e518b94",
+        "size_in_bytes": 18423
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/stages.R",
+        "path_type": "hardlink",
+        "sha256": "6bc9127b72114a77db296e673cda7f799fe618de2b0e0c9c8127ce3d4f09738c",
+        "sha256_in_prefix": "6bc9127b72114a77db296e673cda7f799fe618de2b0e0c9c8127ce3d4f09738c",
+        "size_in_bytes": 365
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/stages.Rmd",
+        "path_type": "hardlink",
+        "sha256": "b82cde60051f438d5ee7903a643e942400cd086dc71def005a3bb937da196647",
+        "sha256_in_prefix": "b82cde60051f438d5ee7903a643e942400cd086dc71def005a3bb937da196647",
+        "size_in_bytes": 7269
+      },
+      {
+        "_path": "lib/R/library/lifecycle/doc/stages.html",
+        "path_type": "hardlink",
+        "sha256": "df1bc0d52303bb97255527544609cf9e3d82c97ec35ba06d880b77bd23782a33",
+        "sha256_in_prefix": "df1bc0d52303bb97255527544609cf9e3d82c97ec35ba06d880b77bd23782a33",
+        "size_in_bytes": 30161
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "d4232692675f07ee47b05fd4daecb6be8d39faec6d7a70b45a6c6ec7d26a1230",
+        "sha256_in_prefix": "d4232692675f07ee47b05fd4daecb6be8d39faec6d7a70b45a6c6ec7d26a1230",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "c2a6b1d636263b3c22029763e9382484a6c410834dc601ac25f7080f1e009a13",
+        "sha256_in_prefix": "c2a6b1d636263b3c22029763e9382484a6c410834dc601ac25f7080f1e009a13",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-archived.svg",
+        "path_type": "hardlink",
+        "sha256": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "sha256_in_prefix": "e51548be52932d0b0468f5b11adcbebac08663898a7c043871864b0064710e86",
+        "size_in_bytes": 967
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-defunct.svg",
+        "path_type": "hardlink",
+        "sha256": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "sha256_in_prefix": "977a9d51157cf76f89e0d5562b8b57b06560682c4cc9e44333e9c394629fb520",
+        "size_in_bytes": 964
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "sha256_in_prefix": "7fefe18cc3b7059272fa85ff40c4a95739bb271276d819fe782ac38db295a07c",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-experimental.svg",
+        "path_type": "hardlink",
+        "sha256": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "sha256_in_prefix": "ed1f8972de7fdeb5dedc1087ea043dc4953dca5d58f54286b4c0ab297eefbe90",
+        "size_in_bytes": 974
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-maturing.svg",
+        "path_type": "hardlink",
+        "sha256": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "sha256_in_prefix": "9f33b55a1806ad5a3d565a0855a91b47ae26b7cf1ff0f025758bbd15b4c3984a",
+        "size_in_bytes": 966
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-questioning.svg",
+        "path_type": "hardlink",
+        "sha256": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "sha256_in_prefix": "2feb00c21e12843cd1cd2e821c941628331dddbb26e34e58c40bb11dcffea89a",
+        "size_in_bytes": 972
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-retired.svg",
+        "path_type": "hardlink",
+        "sha256": "a74f73ab22058d1f9f2dfd41857933759cf1b8e3d03cc18bf1eddc1ab7f2daee",
+        "sha256_in_prefix": "a74f73ab22058d1f9f2dfd41857933759cf1b8e3d03cc18bf1eddc1ab7f2daee",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-soft-deprecated.svg",
+        "path_type": "hardlink",
+        "sha256": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "sha256_in_prefix": "3a1280ea3869c1ffd2aa92d984e197eb9ac823746d018f000c5d53117ad257b1",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-stable.svg",
+        "path_type": "hardlink",
+        "sha256": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "sha256_in_prefix": "4817300514459f5ac876b1a379c7bad15d6049e1a954b71455ab78d76b83ffa0",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/figures/lifecycle-superseded.svg",
+        "path_type": "hardlink",
+        "sha256": "3f20c14df4a11fed5c904d550701ea05391979d6a6e751d2b2119d32cd0d027d",
+        "sha256_in_prefix": "3f20c14df4a11fed5c904d550701ea05391979d6a6e751d2b2119d32cd0d027d",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/lifecycle.rdb",
+        "path_type": "hardlink",
+        "sha256": "e56197c75b85205764bde9404216175bed4f40443d50b18984fa8b767f579e15",
+        "sha256_in_prefix": "e56197c75b85205764bde9404216175bed4f40443d50b18984fa8b767f579e15",
+        "size_in_bytes": 22818
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/lifecycle.rdx",
+        "path_type": "hardlink",
+        "sha256": "4f63bc5e289a11e532378b94c16b0f6ecfb6a7424128ac17df860df0ed7cc87b",
+        "sha256_in_prefix": "4f63bc5e289a11e532378b94c16b0f6ecfb6a7424128ac17df860df0ed7cc87b",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/macros/lifecycle.Rd",
+        "path_type": "hardlink",
+        "sha256": "8f46bb8313e778f21341d8e166d40a136681324f2c29ff73b5037d75439e9d02",
+        "sha256_in_prefix": "8f46bb8313e778f21341d8e166d40a136681324f2c29ff73b5037d75439e9d02",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "lib/R/library/lifecycle/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "ac602d03240cbfcdac260bcf13e407999d16cc4ad4ffe1468c72ee5886132910",
+        "sha256_in_prefix": "ac602d03240cbfcdac260bcf13e407999d16cc4ad4ffe1468c72ee5886132910",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "lib/R/library/lifecycle/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "ff4c4a42f997b328f1281fe898a130d3530546e68fccec5b3443d3b04b4be3fc",
+        "sha256_in_prefix": "ff4c4a42f997b328f1281fe898a130d3530546e68fccec5b3443d3b04b4be3fc",
+        "size_in_bytes": 2651
+      },
+      {
+        "_path": "lib/R/library/lifecycle/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5e8b186cf60ba1cfcfd7279203b0ea0b122cb422c654e422172878f2bd1b7a94",
+  "size": 98978,
+  "subdir": "noarch",
+  "timestamp": 1613409085000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-lifecycle-1.0.0-r36hc72bb7e_0.tar.bz2",
+  "version": "1.0.0"
+}

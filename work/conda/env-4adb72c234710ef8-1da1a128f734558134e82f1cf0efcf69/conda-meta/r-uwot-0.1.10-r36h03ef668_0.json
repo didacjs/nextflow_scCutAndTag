@@ -1,0 +1,300 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-dqrng",
+    "r-fnn",
+    "r-irlba",
+    "r-matrix",
+    "r-rcpp",
+    "r-rcppannoy >=0.0.11",
+    "r-rcppparallel",
+    "r-rcppprogress",
+    "r-rspectra"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-uwot-0.1.10-r36h03ef668_0",
+  "files": [
+    "lib/R/library/uwot/DESCRIPTION",
+    "lib/R/library/uwot/INDEX",
+    "lib/R/library/uwot/Meta/Rd.rds",
+    "lib/R/library/uwot/Meta/features.rds",
+    "lib/R/library/uwot/Meta/hsearch.rds",
+    "lib/R/library/uwot/Meta/links.rds",
+    "lib/R/library/uwot/Meta/nsInfo.rds",
+    "lib/R/library/uwot/Meta/package.rds",
+    "lib/R/library/uwot/NAMESPACE",
+    "lib/R/library/uwot/NEWS.md",
+    "lib/R/library/uwot/R/uwot",
+    "lib/R/library/uwot/R/uwot.rdb",
+    "lib/R/library/uwot/R/uwot.rdx",
+    "lib/R/library/uwot/help/AnIndex",
+    "lib/R/library/uwot/help/aliases.rds",
+    "lib/R/library/uwot/help/paths.rds",
+    "lib/R/library/uwot/help/uwot.rdb",
+    "lib/R/library/uwot/help/uwot.rdx",
+    "lib/R/library/uwot/html/00Index.html",
+    "lib/R/library/uwot/html/R.css",
+    "lib/R/library/uwot/include/RcppPerpendicular.h",
+    "lib/R/library/uwot/include/uwot/connected_components.h",
+    "lib/R/library/uwot/include/uwot/gradient.h",
+    "lib/R/library/uwot/include/uwot/matrix.h",
+    "lib/R/library/uwot/include/uwot/optimize.h",
+    "lib/R/library/uwot/include/uwot/perplexity.h",
+    "lib/R/library/uwot/include/uwot/sampler.h",
+    "lib/R/library/uwot/include/uwot/smooth_knn.h",
+    "lib/R/library/uwot/include/uwot/supervised.h",
+    "lib/R/library/uwot/include/uwot/tauprng.h",
+    "lib/R/library/uwot/include/uwot/transform.h",
+    "lib/R/library/uwot/libs/uwot.so"
+  ],
+  "fn": "r-uwot-0.1.10-r36h03ef668_0.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-uwot-0.1.10-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "33511aa91d382e365e184891fe1a51fa",
+  "name": "r-uwot",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-uwot-0.1.10-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/uwot/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "55076ab1457dfb0bb4ea4e2b74c3e5fd431e0932f63402a49371ec37d7ed56cc",
+        "sha256_in_prefix": "55076ab1457dfb0bb4ea4e2b74c3e5fd431e0932f63402a49371ec37d7ed56cc",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "lib/R/library/uwot/INDEX",
+        "path_type": "hardlink",
+        "sha256": "07f03b83b08fa4545710eb9061c72df00499ec908aaa795cf80b261f3d005767",
+        "sha256_in_prefix": "07f03b83b08fa4545710eb9061c72df00499ec908aaa795cf80b261f3d005767",
+        "size_in_bytes": 460
+      },
+      {
+        "_path": "lib/R/library/uwot/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "21404f9ebd6f7b58f9ff6bb5c401240569447909311101722278e30393b9134e",
+        "sha256_in_prefix": "21404f9ebd6f7b58f9ff6bb5c401240569447909311101722278e30393b9134e",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/R/library/uwot/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/uwot/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "973ad70a87ed8d72d293956c56a506a016eba1970e5281372d7d985e79162a38",
+        "sha256_in_prefix": "973ad70a87ed8d72d293956c56a506a016eba1970e5281372d7d985e79162a38",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "lib/R/library/uwot/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "cd5f3980f19fe94f0df34d8f292a7b335ef6dc669e59317c3537d6a9ee1e46a5",
+        "sha256_in_prefix": "cd5f3980f19fe94f0df34d8f292a7b335ef6dc669e59317c3537d6a9ee1e46a5",
+        "size_in_bytes": 181
+      },
+      {
+        "_path": "lib/R/library/uwot/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "b34ba908971461b98feb2587c6364c65583cf39ebcb7412e240df1400e2ccf1e",
+        "sha256_in_prefix": "b34ba908971461b98feb2587c6364c65583cf39ebcb7412e240df1400e2ccf1e",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/R/library/uwot/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "f85dbfb499e5ce7bc4face6b852caca13305820fbb8f3e64693643bd7aaebe00",
+        "sha256_in_prefix": "f85dbfb499e5ce7bc4face6b852caca13305820fbb8f3e64693643bd7aaebe00",
+        "size_in_bytes": 1365
+      },
+      {
+        "_path": "lib/R/library/uwot/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "a22ea9e34164beced6dac4256611cc562f0eb6c5d1a92a0572b6a7de9676a5d2",
+        "sha256_in_prefix": "a22ea9e34164beced6dac4256611cc562f0eb6c5d1a92a0572b6a7de9676a5d2",
+        "size_in_bytes": 268
+      },
+      {
+        "_path": "lib/R/library/uwot/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "02f699c8bb5771d92052d88646d066f143f1a966a70f0d63f2d92f0766bb6fca",
+        "sha256_in_prefix": "02f699c8bb5771d92052d88646d066f143f1a966a70f0d63f2d92f0766bb6fca",
+        "size_in_bytes": 22114
+      },
+      {
+        "_path": "lib/R/library/uwot/R/uwot",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/uwot/R/uwot.rdb",
+        "path_type": "hardlink",
+        "sha256": "5e181ad69638a50d488b08ebc2d90704914b65d69e678dfdbf001d8c9117759f",
+        "sha256_in_prefix": "5e181ad69638a50d488b08ebc2d90704914b65d69e678dfdbf001d8c9117759f",
+        "size_in_bytes": 127442
+      },
+      {
+        "_path": "lib/R/library/uwot/R/uwot.rdx",
+        "path_type": "hardlink",
+        "sha256": "8d0224f7b2d3892fad5a4061d5992518bf4fa67b12c0fd28040161e6aaf65da2",
+        "sha256_in_prefix": "8d0224f7b2d3892fad5a4061d5992518bf4fa67b12c0fd28040161e6aaf65da2",
+        "size_in_bytes": 1775
+      },
+      {
+        "_path": "lib/R/library/uwot/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "adf1f17b359bfba7c08f64135310b39ee0ea565caf64f25007524c53d6bb688b",
+        "sha256_in_prefix": "adf1f17b359bfba7c08f64135310b39ee0ea565caf64f25007524c53d6bb688b",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "lib/R/library/uwot/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "2366326cbb687b64576b9dd6b0d7d17ee67e02a68d5b17aacae30fb636a69a77",
+        "sha256_in_prefix": "2366326cbb687b64576b9dd6b0d7d17ee67e02a68d5b17aacae30fb636a69a77",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "lib/R/library/uwot/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "ef9494cf51caa0a0987274a9314cff44434aac4fde29d30e441f3469ea2102e7",
+        "sha256_in_prefix": "ef9494cf51caa0a0987274a9314cff44434aac4fde29d30e441f3469ea2102e7",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "lib/R/library/uwot/help/uwot.rdb",
+        "path_type": "hardlink",
+        "sha256": "52933f3b6cb367dd695b274e025a6c506592d55043478e5a72370e7a652cee0d",
+        "sha256_in_prefix": "52933f3b6cb367dd695b274e025a6c506592d55043478e5a72370e7a652cee0d",
+        "size_in_bytes": 85403
+      },
+      {
+        "_path": "lib/R/library/uwot/help/uwot.rdx",
+        "path_type": "hardlink",
+        "sha256": "7b2451f36a361914b73675b1490be6b1985b481c74275b9cfdea3dd64584b8c4",
+        "sha256_in_prefix": "7b2451f36a361914b73675b1490be6b1985b481c74275b9cfdea3dd64584b8c4",
+        "size_in_bytes": 308
+      },
+      {
+        "_path": "lib/R/library/uwot/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "91106e87b7b297b8f7901a50c7344beb9d6dd07e6e10f6ad386cff4075db5b0a",
+        "sha256_in_prefix": "91106e87b7b297b8f7901a50c7344beb9d6dd07e6e10f6ad386cff4075db5b0a",
+        "size_in_bytes": 1891
+      },
+      {
+        "_path": "lib/R/library/uwot/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/uwot/include/RcppPerpendicular.h",
+        "path_type": "hardlink",
+        "sha256": "d9468f53231404209276faeae1c00d9eb7bdb35ee6f7cd7f8cca6a3a39399370",
+        "sha256_in_prefix": "d9468f53231404209276faeae1c00d9eb7bdb35ee6f7cd7f8cca6a3a39399370",
+        "size_in_bytes": 3235
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/connected_components.h",
+        "path_type": "hardlink",
+        "sha256": "7b50f2f53c08800f4ab8ff96b539f2ca6ff4f30838de792137785bedcc9b91d5",
+        "sha256_in_prefix": "7b50f2f53c08800f4ab8ff96b539f2ca6ff4f30838de792137785bedcc9b91d5",
+        "size_in_bytes": 2964
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/gradient.h",
+        "path_type": "hardlink",
+        "sha256": "fbcbc2058af774005c3431d3fee62cde06dda516ed569f3886055f1c5d792103",
+        "sha256_in_prefix": "fbcbc2058af774005c3431d3fee62cde06dda516ed569f3886055f1c5d792103",
+        "size_in_bytes": 4354
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/matrix.h",
+        "path_type": "hardlink",
+        "sha256": "49e0b06ef0dc334a4a14dcb2dae551bd7d350e99ff32367aba03697f659ced05",
+        "sha256_in_prefix": "49e0b06ef0dc334a4a14dcb2dae551bd7d350e99ff32367aba03697f659ced05",
+        "size_in_bytes": 1943
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/optimize.h",
+        "path_type": "hardlink",
+        "sha256": "82315ec024425838c812efcab1d342544d1088b9eac4b95fca8cfdc1ca0adbfd",
+        "sha256_in_prefix": "82315ec024425838c812efcab1d342544d1088b9eac4b95fca8cfdc1ca0adbfd",
+        "size_in_bytes": 5639
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/perplexity.h",
+        "path_type": "hardlink",
+        "sha256": "1b8fd620699dfdbe3927a6cae6c3789981b00e669dc731d7cfd46be1cc677137",
+        "sha256_in_prefix": "1b8fd620699dfdbe3927a6cae6c3789981b00e669dc731d7cfd46be1cc677137",
+        "size_in_bytes": 5131
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/sampler.h",
+        "path_type": "hardlink",
+        "sha256": "53c5078bb70fe31cc1b985b218e556357a7d32bcc649a8ba3dab6ca31532d15e",
+        "sha256_in_prefix": "53c5078bb70fe31cc1b985b218e556357a7d32bcc649a8ba3dab6ca31532d15e",
+        "size_in_bytes": 2906
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/smooth_knn.h",
+        "path_type": "hardlink",
+        "sha256": "b6dc5bae866c78a71377226396cf667f33596c01286de1cc8365d599b27d981a",
+        "sha256_in_prefix": "b6dc5bae866c78a71377226396cf667f33596c01286de1cc8365d599b27d981a",
+        "size_in_bytes": 6476
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/supervised.h",
+        "path_type": "hardlink",
+        "sha256": "0492a065d759870f820a49bc0f534242edc908f7867082e7e25701a4ad3d904d",
+        "sha256_in_prefix": "0492a065d759870f820a49bc0f534242edc908f7867082e7e25701a4ad3d904d",
+        "size_in_bytes": 3673
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/tauprng.h",
+        "path_type": "hardlink",
+        "sha256": "123d7d43eb6210d30b0d81b7444902ddf89a76d4645c60b0cb2485bd7ec0016f",
+        "sha256_in_prefix": "123d7d43eb6210d30b0d81b7444902ddf89a76d4645c60b0cb2485bd7ec0016f",
+        "size_in_bytes": 2647
+      },
+      {
+        "_path": "lib/R/library/uwot/include/uwot/transform.h",
+        "path_type": "hardlink",
+        "sha256": "a40b170f3f523d09c5e3b330b10ac756256e9c9c6cc03f24082f81f1b354b72b",
+        "sha256_in_prefix": "a40b170f3f523d09c5e3b330b10ac756256e9c9c6cc03f24082f81f1b354b72b",
+        "size_in_bytes": 4390
+      },
+      {
+        "_path": "lib/R/library/uwot/libs/uwot.so",
+        "path_type": "hardlink",
+        "sha256": "10bf89b92b0d71d73809232f7bb38992bf86d3a0c45f63453d2676ea65afb596",
+        "sha256_in_prefix": "10bf89b92b0d71d73809232f7bb38992bf86d3a0c45f63453d2676ea65afb596",
+        "size_in_bytes": 503704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "97028c6d5db832ca2a67c1011065dbaae07fb82cbd854f02623f147af0378ffc",
+  "size": 440592,
+  "subdir": "linux-64",
+  "timestamp": 1608046645000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-uwot-0.1.10-r36h03ef668_0.tar.bz2",
+  "version": "0.1.10"
+}

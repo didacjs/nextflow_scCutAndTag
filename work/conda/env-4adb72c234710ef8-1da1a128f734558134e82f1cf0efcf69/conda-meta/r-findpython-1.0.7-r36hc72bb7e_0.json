@@ -1,0 +1,203 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-findpython-1.0.7-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/findpython/DESCRIPTION",
+    "lib/R/library/findpython/INDEX",
+    "lib/R/library/findpython/LICENSE",
+    "lib/R/library/findpython/Meta/Rd.rds",
+    "lib/R/library/findpython/Meta/features.rds",
+    "lib/R/library/findpython/Meta/hsearch.rds",
+    "lib/R/library/findpython/Meta/links.rds",
+    "lib/R/library/findpython/Meta/nsInfo.rds",
+    "lib/R/library/findpython/Meta/package.rds",
+    "lib/R/library/findpython/NAMESPACE",
+    "lib/R/library/findpython/NEWS.md",
+    "lib/R/library/findpython/R/findpython",
+    "lib/R/library/findpython/R/findpython.rdb",
+    "lib/R/library/findpython/R/findpython.rdx",
+    "lib/R/library/findpython/help/AnIndex",
+    "lib/R/library/findpython/help/aliases.rds",
+    "lib/R/library/findpython/help/findpython.rdb",
+    "lib/R/library/findpython/help/findpython.rdx",
+    "lib/R/library/findpython/help/paths.rds",
+    "lib/R/library/findpython/html/00Index.html",
+    "lib/R/library/findpython/html/R.css"
+  ],
+  "fn": "r-findpython-1.0.7-r36hc72bb7e_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-findpython-1.0.7-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "a695f8dc9145ac7797244324eab34e86",
+  "name": "r-findpython",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-findpython-1.0.7-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/findpython/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "01786b0c30954dd87d740c30153a4409237f283ec4ea76cba335d9a1d0c9802b",
+        "sha256_in_prefix": "01786b0c30954dd87d740c30153a4409237f283ec4ea76cba335d9a1d0c9802b",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "lib/R/library/findpython/INDEX",
+        "path_type": "hardlink",
+        "sha256": "ff56c448ec7fc549360f0441b73c4314277b43bd10b5a3d3f22a3860a144fa4b",
+        "sha256_in_prefix": "ff56c448ec7fc549360f0441b73c4314277b43bd10b5a3d3f22a3860a144fa4b",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "lib/R/library/findpython/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7d981b0eb3d7670eaee3e45e0f9c81183ad8d504d5e636625deb6415ca5016da",
+        "sha256_in_prefix": "7d981b0eb3d7670eaee3e45e0f9c81183ad8d504d5e636625deb6415ca5016da",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/R/library/findpython/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "89e4040d43fde7019789c7dd7621d7322da1542e5d01b0af38b2b5afb0e67d3b",
+        "sha256_in_prefix": "89e4040d43fde7019789c7dd7621d7322da1542e5d01b0af38b2b5afb0e67d3b",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "lib/R/library/findpython/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/findpython/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "090b0e846f1560dcbb0d6ebb02ce07b95e99cad64c14c22a7d1142f35c412d2b",
+        "sha256_in_prefix": "090b0e846f1560dcbb0d6ebb02ce07b95e99cad64c14c22a7d1142f35c412d2b",
+        "size_in_bytes": 366
+      },
+      {
+        "_path": "lib/R/library/findpython/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "c8045e8d55bd3a107e0aeee47430b422c9334d7b7c2ec7ab25d18654d120ebe7",
+        "sha256_in_prefix": "c8045e8d55bd3a107e0aeee47430b422c9334d7b7c2ec7ab25d18654d120ebe7",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/findpython/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "fad0e474a4a79887b2316ff74338073f4057d568d8179b62056e3e7eb4b428a5",
+        "sha256_in_prefix": "fad0e474a4a79887b2316ff74338073f4057d568d8179b62056e3e7eb4b428a5",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "lib/R/library/findpython/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8ce0ce5a837c657a3e0bdc0e26396ed581caf4c6bff1ac861f9de47abc452ae1",
+        "sha256_in_prefix": "8ce0ce5a837c657a3e0bdc0e26396ed581caf4c6bff1ac861f9de47abc452ae1",
+        "size_in_bytes": 826
+      },
+      {
+        "_path": "lib/R/library/findpython/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "e3ae93bc1f44df4475e2d2e54cd14f95fe45c7280dd5d5d39caa433e5701a047",
+        "sha256_in_prefix": "e3ae93bc1f44df4475e2d2e54cd14f95fe45c7280dd5d5d39caa433e5701a047",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "lib/R/library/findpython/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "c9f97af1f2187d695f1f8e8431855292ea166d430f69193d6449d93afad45749",
+        "sha256_in_prefix": "c9f97af1f2187d695f1f8e8431855292ea166d430f69193d6449d93afad45749",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/R/library/findpython/R/findpython",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/findpython/R/findpython.rdb",
+        "path_type": "hardlink",
+        "sha256": "7a4e413521bc08fa11de62647a974b23ac1d4b7ac2e0a45fbc51dfc25cd22b55",
+        "sha256_in_prefix": "7a4e413521bc08fa11de62647a974b23ac1d4b7ac2e0a45fbc51dfc25cd22b55",
+        "size_in_bytes": 8043
+      },
+      {
+        "_path": "lib/R/library/findpython/R/findpython.rdx",
+        "path_type": "hardlink",
+        "sha256": "3b9dc914722611c79bd097282868640c54d169ae6977d0fbebe9ab772561b965",
+        "sha256_in_prefix": "3b9dc914722611c79bd097282868640c54d169ae6977d0fbebe9ab772561b965",
+        "size_in_bytes": 383
+      },
+      {
+        "_path": "lib/R/library/findpython/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "2d6e9e816aa8729a6cf1a57c20b489cbb56e14aea3a4206c03d8ad4ffda33e29",
+        "sha256_in_prefix": "2d6e9e816aa8729a6cf1a57c20b489cbb56e14aea3a4206c03d8ad4ffda33e29",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/R/library/findpython/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "614b14d574ff5d238815ce5fb4e51be9a8a91acca848d2c2539d4f7b9dccf70e",
+        "sha256_in_prefix": "614b14d574ff5d238815ce5fb4e51be9a8a91acca848d2c2539d4f7b9dccf70e",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "lib/R/library/findpython/help/findpython.rdb",
+        "path_type": "hardlink",
+        "sha256": "370d034d5e5ae34c71786dd67b4018da729c2b0b4bfd609d794388ea7926b06b",
+        "sha256_in_prefix": "370d034d5e5ae34c71786dd67b4018da729c2b0b4bfd609d794388ea7926b06b",
+        "size_in_bytes": 6259
+      },
+      {
+        "_path": "lib/R/library/findpython/help/findpython.rdx",
+        "path_type": "hardlink",
+        "sha256": "9be2ed9234b85a380c8339c2cd34d1feb357ffb866aadf1f06ffa13282882378",
+        "sha256_in_prefix": "9be2ed9234b85a380c8339c2cd34d1feb357ffb866aadf1f06ffa13282882378",
+        "size_in_bytes": 222
+      },
+      {
+        "_path": "lib/R/library/findpython/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "39d6e7a7e9588966132240683755d6e981b7240a72a15db2658a33708a4dc573",
+        "sha256_in_prefix": "39d6e7a7e9588966132240683755d6e981b7240a72a15db2658a33708a4dc573",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/R/library/findpython/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "bca562a2222c786b9d7fb6ca110f409d8074e6094ed06be93654933d450bd56c",
+        "sha256_in_prefix": "bca562a2222c786b9d7fb6ca110f409d8074e6094ed06be93654933d450bd56c",
+        "size_in_bytes": 1444
+      },
+      {
+        "_path": "lib/R/library/findpython/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8b0c3c20a529ecd707dee0032aa31da435527fd149d85addbb9bf702a971b642",
+  "size": 27703,
+  "subdir": "noarch",
+  "timestamp": 1611744221000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-findpython-1.0.7-r36hc72bb7e_0.tar.bz2",
+  "version": "1.0.7"
+}

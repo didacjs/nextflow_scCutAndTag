@@ -1,0 +1,12 @@
+#!/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/bin/python
+#-*- coding: utf-8 -*-
+
+import deeptools.misc
+from deeptools.plotPCA import main
+import sys
+
+if __name__ == "__main__":
+    args = None
+    if len(sys.argv) == 1:
+        args = ["--help"]
+    main(args)

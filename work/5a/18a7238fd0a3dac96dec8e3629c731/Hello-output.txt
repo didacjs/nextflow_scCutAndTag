@@ -1,0 +1,1 @@
+/home/didac/Work/Misc/CutAndTag/nextflow_scCutAndTag/work/3a/a6b022a8ad04d1ada8ea3181a67504/Hello-output.txt

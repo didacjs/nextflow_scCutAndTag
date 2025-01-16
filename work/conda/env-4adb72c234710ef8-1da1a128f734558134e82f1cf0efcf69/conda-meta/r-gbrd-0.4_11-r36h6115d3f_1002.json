@@ -1,0 +1,187 @@
+{
+  "build": "r36h6115d3f_1002",
+  "build_number": 1002,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-gbrd-0.4_11-r36h6115d3f_1002",
+  "files": [
+    "lib/R/library/gbRd/DESCRIPTION",
+    "lib/R/library/gbRd/INDEX",
+    "lib/R/library/gbRd/Meta/Rd.rds",
+    "lib/R/library/gbRd/Meta/features.rds",
+    "lib/R/library/gbRd/Meta/hsearch.rds",
+    "lib/R/library/gbRd/Meta/links.rds",
+    "lib/R/library/gbRd/Meta/nsInfo.rds",
+    "lib/R/library/gbRd/Meta/package.rds",
+    "lib/R/library/gbRd/NAMESPACE",
+    "lib/R/library/gbRd/R/gbRd",
+    "lib/R/library/gbRd/R/gbRd.rdb",
+    "lib/R/library/gbRd/R/gbRd.rdx",
+    "lib/R/library/gbRd/help/AnIndex",
+    "lib/R/library/gbRd/help/aliases.rds",
+    "lib/R/library/gbRd/help/gbRd.rdb",
+    "lib/R/library/gbRd/help/gbRd.rdx",
+    "lib/R/library/gbRd/help/paths.rds",
+    "lib/R/library/gbRd/html/00Index.html",
+    "lib/R/library/gbRd/html/R.css"
+  ],
+  "fn": "r-gbrd-0.4_11-r36h6115d3f_1002.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-gbrd-0.4_11-r36h6115d3f_1002",
+    "type": 1
+  },
+  "md5": "67c36bfd3f1ebb504d93bdce19c392d1",
+  "name": "r-gbrd",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-gbrd-0.4_11-r36h6115d3f_1002.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gbRd/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "84f7e9fd478f5175fc9eb777f3f9061dfd7be83eb9f0c35818cb5b00b3885dbb",
+        "sha256_in_prefix": "84f7e9fd478f5175fc9eb777f3f9061dfd7be83eb9f0c35818cb5b00b3885dbb",
+        "size_in_bytes": 569
+      },
+      {
+        "_path": "lib/R/library/gbRd/INDEX",
+        "path_type": "hardlink",
+        "sha256": "f94b7e0460e2383dff000db4fed141343945eac739649ba8fb876df67994e2bd",
+        "sha256_in_prefix": "f94b7e0460e2383dff000db4fed141343945eac739649ba8fb876df67994e2bd",
+        "size_in_bytes": 812
+      },
+      {
+        "_path": "lib/R/library/gbRd/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "bcd88b9eaacb04e4b7eec8d2fbb4133d39ce1fd510ce4e92e05e6024521eaec2",
+        "sha256_in_prefix": "bcd88b9eaacb04e4b7eec8d2fbb4133d39ce1fd510ce4e92e05e6024521eaec2",
+        "size_in_bytes": 617
+      },
+      {
+        "_path": "lib/R/library/gbRd/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/gbRd/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "8a39a844bd9136e51f846e64a8b2d6f3afcbf5abfbbeaccf97e228d3a7dd7f9d",
+        "sha256_in_prefix": "8a39a844bd9136e51f846e64a8b2d6f3afcbf5abfbbeaccf97e228d3a7dd7f9d",
+        "size_in_bytes": 629
+      },
+      {
+        "_path": "lib/R/library/gbRd/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "398a4184b2bdb35a1cea723a86e20c7c2b62ce17d236d3fac112f7a325c79ee8",
+        "sha256_in_prefix": "398a4184b2bdb35a1cea723a86e20c7c2b62ce17d236d3fac112f7a325c79ee8",
+        "size_in_bytes": 275
+      },
+      {
+        "_path": "lib/R/library/gbRd/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "bb4dc72ab25b4741df24303a7ca78e782709b5dbcf366b0d8dd00e87a6de6399",
+        "sha256_in_prefix": "bb4dc72ab25b4741df24303a7ca78e782709b5dbcf366b0d8dd00e87a6de6399",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/R/library/gbRd/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "98f7bfcc6b42f77bb96167d4e7ff7957bf1fbdb9444e5420c3d4393e2edb64e9",
+        "sha256_in_prefix": "98f7bfcc6b42f77bb96167d4e7ff7957bf1fbdb9444e5420c3d4393e2edb64e9",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "lib/R/library/gbRd/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "b304f33d02fbd90b24e3f9936bd515842ec3929ac01b517737c62130f78295d4",
+        "sha256_in_prefix": "b304f33d02fbd90b24e3f9936bd515842ec3929ac01b517737c62130f78295d4",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/R/library/gbRd/R/gbRd",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/gbRd/R/gbRd.rdb",
+        "path_type": "hardlink",
+        "sha256": "d69e74cc4bed8bd339e056caf4d865a22b00ec4e259f0c2bab3863277c8b4174",
+        "sha256_in_prefix": "d69e74cc4bed8bd339e056caf4d865a22b00ec4e259f0c2bab3863277c8b4174",
+        "size_in_bytes": 11843
+      },
+      {
+        "_path": "lib/R/library/gbRd/R/gbRd.rdx",
+        "path_type": "hardlink",
+        "sha256": "d841306c21c9fcb660895fbff8b63947ed79a0ade9ba3d83a2f9b5a738cc80af",
+        "sha256_in_prefix": "d841306c21c9fcb660895fbff8b63947ed79a0ade9ba3d83a2f9b5a738cc80af",
+        "size_in_bytes": 427
+      },
+      {
+        "_path": "lib/R/library/gbRd/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "35ce4c6961d8df21b777ea4f2230f825c0b9ad191ce600ba3708e95adf28195f",
+        "sha256_in_prefix": "35ce4c6961d8df21b777ea4f2230f825c0b9ad191ce600ba3708e95adf28195f",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/gbRd/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a01c70d114f1559045ec1aa989d868ae6c69f46da9484132a82675344225b7af",
+        "sha256_in_prefix": "a01c70d114f1559045ec1aa989d868ae6c69f46da9484132a82675344225b7af",
+        "size_in_bytes": 212
+      },
+      {
+        "_path": "lib/R/library/gbRd/help/gbRd.rdb",
+        "path_type": "hardlink",
+        "sha256": "84e8856349af10d700d34a37aa898759d044f7ceef0114cde1cf643834ce6633",
+        "sha256_in_prefix": "84e8856349af10d700d34a37aa898759d044f7ceef0114cde1cf643834ce6633",
+        "size_in_bytes": 23796
+      },
+      {
+        "_path": "lib/R/library/gbRd/help/gbRd.rdx",
+        "path_type": "hardlink",
+        "sha256": "92e264cac94392488fe877b67658e64ca8e962bf816107768a2cf0540ed15e96",
+        "sha256_in_prefix": "92e264cac94392488fe877b67658e64ca8e962bf816107768a2cf0540ed15e96",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "lib/R/library/gbRd/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "aa752eba02b4330a6d1677c370ae432d17d6ec3ae3879b073c44143c9057810c",
+        "sha256_in_prefix": "aa752eba02b4330a6d1677c370ae432d17d6ec3ae3879b073c44143c9057810c",
+        "size_in_bytes": 237
+      },
+      {
+        "_path": "lib/R/library/gbRd/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "a286b3524d74aeff242d6cf9cb8c77200570f572d8e9f142e14c55be67367f39",
+        "sha256_in_prefix": "a286b3524d74aeff242d6cf9cb8c77200570f572d8e9f142e14c55be67367f39",
+        "size_in_bytes": 3112
+      },
+      {
+        "_path": "lib/R/library/gbRd/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d1d776f29b856fbca72c283a053c050a2576754a274dcde7dfae04063b4d75db",
+  "size": 56077,
+  "subdir": "noarch",
+  "timestamp": 1588544634000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gbrd-0.4_11-r36h6115d3f_1002.tar.bz2",
+  "version": "0.4_11"
+}

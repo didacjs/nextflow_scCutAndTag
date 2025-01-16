@@ -1,0 +1,21 @@
+service gridftp
+{
+    port = 2811
+    instances = 100
+    log_level = 0
+    env = GLOBUS_LOCATION=/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69
+    env += PATH=/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/sbin:/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/bin
+    env += LD_LIBRARY_PATH=/home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/lib
+#   might need additional envs for security
+
+    server = /home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/sbin/globus-gridftp-server
+    server_args = -i -aa -l /home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/var/log/gridftp.log
+    server_args += -d WARN -c /home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/etc/gridftp.conf
+    nice = -20
+    master = /home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/sbin/gfs-gfork-master
+    master_args = -G y
+    master_args += -l /home/didac/Work/Misc/CutAndTag/Code/work/conda/env-4adb72c234710ef8-1da1a128f734558134e82f1cf0efcf69/var/log/gridftp-master.log
+
+#   undoc the following for memory limiting
+#   master_args += -m
+}

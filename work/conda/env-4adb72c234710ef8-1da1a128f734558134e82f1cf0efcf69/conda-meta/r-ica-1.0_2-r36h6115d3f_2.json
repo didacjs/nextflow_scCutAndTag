@@ -1,0 +1,187 @@
+{
+  "build": "r36h6115d3f_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-ica-1.0_2-r36h6115d3f_2",
+  "files": [
+    "lib/R/library/ica/DESCRIPTION",
+    "lib/R/library/ica/INDEX",
+    "lib/R/library/ica/Meta/Rd.rds",
+    "lib/R/library/ica/Meta/features.rds",
+    "lib/R/library/ica/Meta/hsearch.rds",
+    "lib/R/library/ica/Meta/links.rds",
+    "lib/R/library/ica/Meta/nsInfo.rds",
+    "lib/R/library/ica/Meta/package.rds",
+    "lib/R/library/ica/NAMESPACE",
+    "lib/R/library/ica/R/ica",
+    "lib/R/library/ica/R/ica.rdb",
+    "lib/R/library/ica/R/ica.rdx",
+    "lib/R/library/ica/help/AnIndex",
+    "lib/R/library/ica/help/aliases.rds",
+    "lib/R/library/ica/help/ica.rdb",
+    "lib/R/library/ica/help/ica.rdx",
+    "lib/R/library/ica/help/paths.rds",
+    "lib/R/library/ica/html/00Index.html",
+    "lib/R/library/ica/html/R.css"
+  ],
+  "fn": "r-ica-1.0_2-r36h6115d3f_2.tar.bz2",
+  "license": "GPL (>= 2)",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-ica-1.0_2-r36h6115d3f_2",
+    "type": 1
+  },
+  "md5": "e6018c26e76a81273682946ca783e27d",
+  "name": "r-ica",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-ica-1.0_2-r36h6115d3f_2.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ica/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "9528b46a5edc4e6d7dc88d805d6c6dec1c8e30d1f825a6e773a7d4d1ba50a820",
+        "sha256_in_prefix": "9528b46a5edc4e6d7dc88d805d6c6dec1c8e30d1f825a6e773a7d4d1ba50a820",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/R/library/ica/INDEX",
+        "path_type": "hardlink",
+        "sha256": "a9803a39280116fc8cc7799f8754cc35973341db8ef86e69080a26ac23a7a5d9",
+        "sha256_in_prefix": "a9803a39280116fc8cc7799f8754cc35973341db8ef86e69080a26ac23a7a5d9",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/R/library/ica/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d7f2fa8bc7515082b0bb186f54185c1925cb3ab3e00179a1cd2ff7867d97eda5",
+        "sha256_in_prefix": "d7f2fa8bc7515082b0bb186f54185c1925cb3ab3e00179a1cd2ff7867d97eda5",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/R/library/ica/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/ica/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "c95cae0b83a7ca23b4245c44e046316b0793f56cb9e6bbc62e05a0600e73f366",
+        "sha256_in_prefix": "c95cae0b83a7ca23b4245c44e046316b0793f56cb9e6bbc62e05a0600e73f366",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "lib/R/library/ica/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "d9bed814a0655c86cfa9a8cd978ad0ad6e959fbcb9801193eb545732efa66ae2",
+        "sha256_in_prefix": "d9bed814a0655c86cfa9a8cd978ad0ad6e959fbcb9801193eb545732efa66ae2",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/R/library/ica/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "a9e8d4862584396dd2733703693b74183608fbbbe547cce440e9ff5e78e3583c",
+        "sha256_in_prefix": "a9e8d4862584396dd2733703693b74183608fbbbe547cce440e9ff5e78e3583c",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "lib/R/library/ica/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "8cbc026f64cfdbb28cec87ed5f2c8ffac4d8ec40b7144052f6f16b5a1efef8a2",
+        "sha256_in_prefix": "8cbc026f64cfdbb28cec87ed5f2c8ffac4d8ec40b7144052f6f16b5a1efef8a2",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/R/library/ica/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "9c89b9bd26224758e1015615bb014d981193fa7203011c5214fff5d305a03fd7",
+        "sha256_in_prefix": "9c89b9bd26224758e1015615bb014d981193fa7203011c5214fff5d305a03fd7",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "lib/R/library/ica/R/ica",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ica/R/ica.rdb",
+        "path_type": "hardlink",
+        "sha256": "e598c95c4c0d8db1d00488344bd4bb8c34d200acb0621151946443e85ef2d856",
+        "sha256_in_prefix": "e598c95c4c0d8db1d00488344bd4bb8c34d200acb0621151946443e85ef2d856",
+        "size_in_bytes": 38614
+      },
+      {
+        "_path": "lib/R/library/ica/R/ica.rdx",
+        "path_type": "hardlink",
+        "sha256": "2eea0a19e1b958b748aa79d145ef6de8f5d1dc780ba24d01b8ec0369e6e087a2",
+        "sha256_in_prefix": "2eea0a19e1b958b748aa79d145ef6de8f5d1dc780ba24d01b8ec0369e6e087a2",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "lib/R/library/ica/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "680ba5bbfcdaa170bb1c0f36e34bae74d9889af541992f7b1c7f580518e0d990",
+        "sha256_in_prefix": "680ba5bbfcdaa170bb1c0f36e34bae74d9889af541992f7b1c7f580518e0d990",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/R/library/ica/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "ae860195a78e308bd9721dec5ca555296efa2469eb504ad5ef6e999e7fb74f25",
+        "sha256_in_prefix": "ae860195a78e308bd9721dec5ca555296efa2469eb504ad5ef6e999e7fb74f25",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/R/library/ica/help/ica.rdb",
+        "path_type": "hardlink",
+        "sha256": "d659ee8373f766707507e6f2282b317437422a13a5cb5577377a62fc4089d578",
+        "sha256_in_prefix": "d659ee8373f766707507e6f2282b317437422a13a5cb5577377a62fc4089d578",
+        "size_in_bytes": 29706
+      },
+      {
+        "_path": "lib/R/library/ica/help/ica.rdx",
+        "path_type": "hardlink",
+        "sha256": "28657fdecd95beb0390049a6c90206c3ab6cebc18e8cd83d661dd9a6914dfd74",
+        "sha256_in_prefix": "28657fdecd95beb0390049a6c90206c3ab6cebc18e8cd83d661dd9a6914dfd74",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "lib/R/library/ica/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "96883fb250e18bc8df3698cf24516b062006c4a931180b61f29efc4edbb1d764",
+        "sha256_in_prefix": "96883fb250e18bc8df3698cf24516b062006c4a931180b61f29efc4edbb1d764",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/ica/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "497c471457444082437f5bccd660b1f5e9e112d1b9e14794b1873bc932212c61",
+        "sha256_in_prefix": "497c471457444082437f5bccd660b1f5e9e112d1b9e14794b1873bc932212c61",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "lib/R/library/ica/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1d666d05b6efe0257bde5c8d1a8d58e98d50c505d93ff013a363ce7dddb44ea4",
+  "size": 89125,
+  "subdir": "noarch",
+  "timestamp": 1588585162000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-ica-1.0_2-r36h6115d3f_2.tar.bz2",
+  "version": "1.0_2"
+}

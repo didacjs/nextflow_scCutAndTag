@@ -1,0 +1,1407 @@
+{
+  "build": "r36h03ef668_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rcppparallel-5.1.4-r36h03ef668_0",
+  "files": [
+    "lib/R/library/RcppParallel/DESCRIPTION",
+    "lib/R/library/RcppParallel/INDEX",
+    "lib/R/library/RcppParallel/Meta/Rd.rds",
+    "lib/R/library/RcppParallel/Meta/features.rds",
+    "lib/R/library/RcppParallel/Meta/hsearch.rds",
+    "lib/R/library/RcppParallel/Meta/links.rds",
+    "lib/R/library/RcppParallel/Meta/nsInfo.rds",
+    "lib/R/library/RcppParallel/Meta/package.rds",
+    "lib/R/library/RcppParallel/NAMESPACE",
+    "lib/R/library/RcppParallel/NEWS.md",
+    "lib/R/library/RcppParallel/R/RcppParallel",
+    "lib/R/library/RcppParallel/R/RcppParallel.rdb",
+    "lib/R/library/RcppParallel/R/RcppParallel.rdx",
+    "lib/R/library/RcppParallel/help/AnIndex",
+    "lib/R/library/RcppParallel/help/RcppParallel.rdb",
+    "lib/R/library/RcppParallel/help/RcppParallel.rdx",
+    "lib/R/library/RcppParallel/help/aliases.rds",
+    "lib/R/library/RcppParallel/help/paths.rds",
+    "lib/R/library/RcppParallel/html/00Index.html",
+    "lib/R/library/RcppParallel/html/R.css",
+    "lib/R/library/RcppParallel/include/RcppParallel.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/Backend.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/Common.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/RMatrix.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/RVector.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/TBB.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/Timer.h",
+    "lib/R/library/RcppParallel/include/RcppParallel/TinyThread.h",
+    "lib/R/library/RcppParallel/include/index.html",
+    "lib/R/library/RcppParallel/include/serial/tbb/parallel_for.h",
+    "lib/R/library/RcppParallel/include/serial/tbb/tbb_annotate.h",
+    "lib/R/library/RcppParallel/include/tbb/aggregator.h",
+    "lib/R/library/RcppParallel/include/tbb/aligned_space.h",
+    "lib/R/library/RcppParallel/include/tbb/atomic.h",
+    "lib/R/library/RcppParallel/include/tbb/blocked_range.h",
+    "lib/R/library/RcppParallel/include/tbb/blocked_range2d.h",
+    "lib/R/library/RcppParallel/include/tbb/blocked_range3d.h",
+    "lib/R/library/RcppParallel/include/tbb/blocked_rangeNd.h",
+    "lib/R/library/RcppParallel/include/tbb/cache_aligned_allocator.h",
+    "lib/R/library/RcppParallel/include/tbb/combinable.h",
+    "lib/R/library/RcppParallel/include/tbb/compat/condition_variable",
+    "lib/R/library/RcppParallel/include/tbb/compat/ppl.h",
+    "lib/R/library/RcppParallel/include/tbb/compat/thread",
+    "lib/R/library/RcppParallel/include/tbb/compat/tuple",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_hash_map.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_lru_cache.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_map.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_priority_queue.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_queue.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_set.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_unordered_map.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_unordered_set.h",
+    "lib/R/library/RcppParallel/include/tbb/concurrent_vector.h",
+    "lib/R/library/RcppParallel/include/tbb/critical_section.h",
+    "lib/R/library/RcppParallel/include/tbb/enumerable_thread_specific.h",
+    "lib/R/library/RcppParallel/include/tbb/flow_graph.h",
+    "lib/R/library/RcppParallel/include/tbb/flow_graph_abstractions.h",
+    "lib/R/library/RcppParallel/include/tbb/flow_graph_opencl_node.h",
+    "lib/R/library/RcppParallel/include/tbb/gfx_factory.h",
+    "lib/R/library/RcppParallel/include/tbb/global_control.h",
+    "lib/R/library/RcppParallel/include/tbb/index.html",
+    "lib/R/library/RcppParallel/include/tbb/internal/_aggregator_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_allocator_traits.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_concurrent_queue_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_concurrent_skip_list_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_concurrent_unordered_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_async_msg_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_body_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_cache_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_indexer_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_item_buffer_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_join_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_node_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_streaming_node.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_tagged_buffer_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_trace_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_types_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_mutex_padding.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_node_handle_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_range_iterator.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_tbb_hash_compare_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_tbb_strings.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_tbb_trace_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_tbb_windef.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_template_helpers.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_x86_eliding_mutex_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/internal/_x86_rtm_rw_mutex_impl.h",
+    "lib/R/library/RcppParallel/include/tbb/iterators.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/gcc_arm.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/gcc_armv7.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/gcc_generic.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/gcc_ia32_common.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/gcc_itsx.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/ibm_aix51.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/icc_generic.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/linux_common.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/linux_ia32.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/linux_ia64.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/linux_intel64.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/mac_ppc.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/macos_common.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/mic_common.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/msvc_armv7.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/msvc_ia32_common.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/sunos_sparc.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/windows_api.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/windows_ia32.h",
+    "lib/R/library/RcppParallel/include/tbb/machine/windows_intel64.h",
+    "lib/R/library/RcppParallel/include/tbb/memory_pool.h",
+    "lib/R/library/RcppParallel/include/tbb/mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/null_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/null_rw_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_do.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_for.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_for_each.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_invoke.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_reduce.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_scan.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_sort.h",
+    "lib/R/library/RcppParallel/include/tbb/parallel_while.h",
+    "lib/R/library/RcppParallel/include/tbb/partitioner.h",
+    "lib/R/library/RcppParallel/include/tbb/pipeline.h",
+    "lib/R/library/RcppParallel/include/tbb/queuing_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/queuing_rw_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/reader_writer_lock.h",
+    "lib/R/library/RcppParallel/include/tbb/recursive_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/runtime_loader.h",
+    "lib/R/library/RcppParallel/include/tbb/scalable_allocator.h",
+    "lib/R/library/RcppParallel/include/tbb/spin_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/spin_rw_mutex.h",
+    "lib/R/library/RcppParallel/include/tbb/task.h",
+    "lib/R/library/RcppParallel/include/tbb/task_arena.h",
+    "lib/R/library/RcppParallel/include/tbb/task_group.h",
+    "lib/R/library/RcppParallel/include/tbb/task_scheduler_init.h",
+    "lib/R/library/RcppParallel/include/tbb/task_scheduler_observer.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_allocator.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_config.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_disable_exceptions.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_exception.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_machine.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_profiling.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_stddef.h",
+    "lib/R/library/RcppParallel/include/tbb/tbb_thread.h",
+    "lib/R/library/RcppParallel/include/tbb/tbbmalloc_proxy.h",
+    "lib/R/library/RcppParallel/include/tbb/tick_count.h",
+    "lib/R/library/RcppParallel/include/tthread/fast_mutex.h",
+    "lib/R/library/RcppParallel/include/tthread/tinythread.h",
+    "lib/R/library/RcppParallel/include/tthread/tinythread.inl",
+    "lib/R/library/RcppParallel/lib/libtbb.so",
+    "lib/R/library/RcppParallel/lib/libtbb.so.2",
+    "lib/R/library/RcppParallel/lib/libtbbmalloc.so",
+    "lib/R/library/RcppParallel/lib/libtbbmalloc.so.2",
+    "lib/R/library/RcppParallel/lib/libtbbmalloc_proxy.so",
+    "lib/R/library/RcppParallel/lib/libtbbmalloc_proxy.so.2",
+    "lib/R/library/RcppParallel/libs/RcppParallel.so",
+    "lib/R/library/RcppParallel/presentations/header.tex",
+    "lib/R/library/RcppParallel/presentations/images/big-data-big-machine-tweet.png",
+    "lib/R/library/RcppParallel/presentations/rcpp_parallel_talk_jan2015.Rmd",
+    "lib/R/library/RcppParallel/rstudio/templates/project/RcppParallel.package.skeleton.dcf",
+    "lib/R/library/RcppParallel/skeleton/vector-sum.Rd",
+    "lib/R/library/RcppParallel/skeleton/vector-sum.cpp",
+    "lib/R/library/RcppParallel/tests/cpp/distance.cpp",
+    "lib/R/library/RcppParallel/tests/cpp/innerproduct.cpp",
+    "lib/R/library/RcppParallel/tests/cpp/sum.cpp",
+    "lib/R/library/RcppParallel/tests/cpp/transform.cpp",
+    "lib/R/library/RcppParallel/tests/runit.distance.R",
+    "lib/R/library/RcppParallel/tests/runit.innerproduct.R",
+    "lib/R/library/RcppParallel/tests/runit.sum.R",
+    "lib/R/library/RcppParallel/tests/runit.transform.R"
+  ],
+  "fn": "r-rcppparallel-5.1.4-r36h03ef668_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rcppparallel-5.1.4-r36h03ef668_0",
+    "type": 1
+  },
+  "md5": "c97d642571750c4f3654a2ac2aa74c77",
+  "name": "r-rcppparallel",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rcppparallel-5.1.4-r36h03ef668_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/RcppParallel/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "31403b4aece976ab12a4ad04c71528aae6fc9046d419dba9921421d3a93709be",
+        "sha256_in_prefix": "31403b4aece976ab12a4ad04c71528aae6fc9046d419dba9921421d3a93709be",
+        "size_in_bytes": 2210
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/INDEX",
+        "path_type": "hardlink",
+        "sha256": "b2da3af5afcc8ddb67464f747597b92a54102fd22cd8cf62a538e8ed92fdecb4",
+        "sha256_in_prefix": "b2da3af5afcc8ddb67464f747597b92a54102fd22cd8cf62a538e8ed92fdecb4",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "499b807f0235b5d546cb38f3e3c8bdb1dcbf3c115d704e6a357753c8d7a60c78",
+        "sha256_in_prefix": "499b807f0235b5d546cb38f3e3c8bdb1dcbf3c115d704e6a357753c8d7a60c78",
+        "size_in_bytes": 463
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "2d0c30c2b6da17b1a08366e44dd35437158a8d5ce597eec5951bad2b1c9e8f6c",
+        "sha256_in_prefix": "2d0c30c2b6da17b1a08366e44dd35437158a8d5ce597eec5951bad2b1c9e8f6c",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "cbda58ee6b2c9a1fa21bc8bce4100ea0b54902f2c93837a6b5e40f870588a4b5",
+        "sha256_in_prefix": "cbda58ee6b2c9a1fa21bc8bce4100ea0b54902f2c93837a6b5e40f870588a4b5",
+        "size_in_bytes": 242
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "faa3f3b6b0db1afde6dc39253c70841af332a4e5e3b94b6414d7c0f29e905f48",
+        "sha256_in_prefix": "faa3f3b6b0db1afde6dc39253c70841af332a4e5e3b94b6414d7c0f29e905f48",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "59e52432a2d16d5e1ee595e1aab8cfdeb0d39f3e7e4dde5c37fff26e63769f4e",
+        "sha256_in_prefix": "59e52432a2d16d5e1ee595e1aab8cfdeb0d39f3e7e4dde5c37fff26e63769f4e",
+        "size_in_bytes": 1455
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "06ab5d3a98982ec09e77c97a588fd1b14ca980b5ce76889f8a99d419a8ec73a8",
+        "sha256_in_prefix": "06ab5d3a98982ec09e77c97a588fd1b14ca980b5ce76889f8a99d419a8ec73a8",
+        "size_in_bytes": 216
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "8da0003f7ccc6e421bade5d292fa4d7a68079a42df675c0e17aae4429d947fff",
+        "sha256_in_prefix": "8da0003f7ccc6e421bade5d292fa4d7a68079a42df675c0e17aae4429d947fff",
+        "size_in_bytes": 4206
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/R/RcppParallel",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/R/RcppParallel.rdb",
+        "path_type": "hardlink",
+        "sha256": "13964a7f07b50c087b4acd7ee66f2c96d672ac9dae2fb46d1e14d88ff51b2540",
+        "sha256_in_prefix": "13964a7f07b50c087b4acd7ee66f2c96d672ac9dae2fb46d1e14d88ff51b2540",
+        "size_in_bytes": 13986
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/R/RcppParallel.rdx",
+        "path_type": "hardlink",
+        "sha256": "58e71183006c6127b6a00ac6e0f219d7b3f0aad1484afbb1644bed3f000c0148",
+        "sha256_in_prefix": "58e71183006c6127b6a00ac6e0f219d7b3f0aad1484afbb1644bed3f000c0148",
+        "size_in_bytes": 608
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "86f06cfe5b51ec1d13c68b62da87cc671b9d2331e374d2e54ea1cf61b9fdd244",
+        "sha256_in_prefix": "86f06cfe5b51ec1d13c68b62da87cc671b9d2331e374d2e54ea1cf61b9fdd244",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/help/RcppParallel.rdb",
+        "path_type": "hardlink",
+        "sha256": "b62338cb7e04fbb29d262342ddaf7000829f2be4880daa51e1ebb6cc6ca3a270",
+        "sha256_in_prefix": "b62338cb7e04fbb29d262342ddaf7000829f2be4880daa51e1ebb6cc6ca3a270",
+        "size_in_bytes": 10638
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/help/RcppParallel.rdx",
+        "path_type": "hardlink",
+        "sha256": "6a9fd3f84b816155e894ffb73e3a2816d734f0ddd132c3666511aeb0e17d3588",
+        "sha256_in_prefix": "6a9fd3f84b816155e894ffb73e3a2816d734f0ddd132c3666511aeb0e17d3588",
+        "size_in_bytes": 294
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "1024a33afded9e8320c458fe823b513d15abeb82876770f3d01292582ddcd4b9",
+        "sha256_in_prefix": "1024a33afded9e8320c458fe823b513d15abeb82876770f3d01292582ddcd4b9",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "6e9c9d436edd1a2390241b9ed55ac6f28cb71ad6295287ac105dc5d5801672dc",
+        "sha256_in_prefix": "6e9c9d436edd1a2390241b9ed55ac6f28cb71ad6295287ac105dc5d5801672dc",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "12679fcdc1ec52e958453ab8a472f84df8cfa70ff67cd96619baa1780e6eef99",
+        "sha256_in_prefix": "12679fcdc1ec52e958453ab8a472f84df8cfa70ff67cd96619baa1780e6eef99",
+        "size_in_bytes": 2281
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel.h",
+        "path_type": "hardlink",
+        "sha256": "2e729e8b7e61bf1b157f13942ec7d37ec41d2d474a1c4625607ba8c0f9f52340",
+        "sha256_in_prefix": "2e729e8b7e61bf1b157f13942ec7d37ec41d2d474a1c4625607ba8c0f9f52340",
+        "size_in_bytes": 2172
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/Backend.h",
+        "path_type": "hardlink",
+        "sha256": "7912bdb1f2c663acd8e18a4880c420aec2eadca82ae73a7c492f36f18de613c4",
+        "sha256_in_prefix": "7912bdb1f2c663acd8e18a4880c420aec2eadca82ae73a7c492f36f18de613c4",
+        "size_in_bytes": 1582
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/Common.h",
+        "path_type": "hardlink",
+        "sha256": "13fe819a7a1a1e3e2940ace71448440956ccac03197ab004fe873cf3989349a4",
+        "sha256_in_prefix": "13fe819a7a1a1e3e2940ace71448440956ccac03197ab004fe873cf3989349a4",
+        "size_in_bytes": 1866
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/RMatrix.h",
+        "path_type": "hardlink",
+        "sha256": "49f4a6aa88b6a000708a6969dfe91cacef32fdf805097ebb09da8f77b283605d",
+        "sha256_in_prefix": "49f4a6aa88b6a000708a6969dfe91cacef32fdf805097ebb09da8f77b283605d",
+        "size_in_bytes": 7162
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/RVector.h",
+        "path_type": "hardlink",
+        "sha256": "62efee2566be697b14e01cfed848f18c84842d1d81dd0732fa438290a475851f",
+        "sha256_in_prefix": "62efee2566be697b14e01cfed848f18c84842d1d81dd0732fa438290a475851f",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/TBB.h",
+        "path_type": "hardlink",
+        "sha256": "5a36360deaa23825952004695a147c2aa700d812c73e83b617217980b3c93ce4",
+        "sha256_in_prefix": "5a36360deaa23825952004695a147c2aa700d812c73e83b617217980b3c93ce4",
+        "size_in_bytes": 5849
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/Timer.h",
+        "path_type": "hardlink",
+        "sha256": "58b28ab9f846c438068b5ea33876e818d49d6a5880c60da7969c2942fc5b79c2",
+        "sha256_in_prefix": "58b28ab9f846c438068b5ea33876e818d49d6a5880c60da7969c2942fc5b79c2",
+        "size_in_bytes": 6038
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/RcppParallel/TinyThread.h",
+        "path_type": "hardlink",
+        "sha256": "a1ce2770a81b9310b1bbf253c08ed694de2122632d04930dbc9507747dbd210e",
+        "sha256_in_prefix": "a1ce2770a81b9310b1bbf253c08ed694de2122632d04930dbc9507747dbd210e",
+        "size_in_bytes": 4803
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/index.html",
+        "path_type": "hardlink",
+        "sha256": "0127959033b3a092d860643f36799f24d240dbb16ff2fa7e4da81568824d240d",
+        "sha256_in_prefix": "0127959033b3a092d860643f36799f24d240dbb16ff2fa7e4da81568824d240d",
+        "size_in_bytes": 713
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/serial/tbb/parallel_for.h",
+        "path_type": "hardlink",
+        "sha256": "c6154da36e4940c5d2fb073c3781f745767d54391343542594cbf06fd7584c17",
+        "sha256_in_prefix": "c6154da36e4940c5d2fb073c3781f745767d54391343542594cbf06fd7584c17",
+        "size_in_bytes": 8875
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/serial/tbb/tbb_annotate.h",
+        "path_type": "hardlink",
+        "sha256": "f42d0258b0b2a60aabd5bb769bb0c9e47df89b438ba6cbcb95dcbcd67317bf87",
+        "sha256_in_prefix": "f42d0258b0b2a60aabd5bb769bb0c9e47df89b438ba6cbcb95dcbcd67317bf87",
+        "size_in_bytes": 1062
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/aggregator.h",
+        "path_type": "hardlink",
+        "sha256": "77c40eaf0a9a4e46878a20f695fb0de65abb94a98eeb69295fa3567446aed424",
+        "sha256_in_prefix": "77c40eaf0a9a4e46878a20f695fb0de65abb94a98eeb69295fa3567446aed424",
+        "size_in_bytes": 8139
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/aligned_space.h",
+        "path_type": "hardlink",
+        "sha256": "ec9633f70aae6e97aaa4879c572677486fcb72d0f35419bfad60fdfd2aaaea99",
+        "sha256_in_prefix": "ec9633f70aae6e97aaa4879c572677486fcb72d0f35419bfad60fdfd2aaaea99",
+        "size_in_bytes": 1395
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/atomic.h",
+        "path_type": "hardlink",
+        "sha256": "a266444b51769285d20011e2ff4716be52a7fb2aed458c2223b2e9249d4e883c",
+        "sha256_in_prefix": "a266444b51769285d20011e2ff4716be52a7fb2aed458c2223b2e9249d4e883c",
+        "size_in_bytes": 21132
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/blocked_range.h",
+        "path_type": "hardlink",
+        "sha256": "48f302ef71d416cb65d5b3050ba2d79637cb17db08f6fb85b75224813a7cb365",
+        "sha256_in_prefix": "48f302ef71d416cb65d5b3050ba2d79637cb17db08f6fb85b75224813a7cb365",
+        "size_in_bytes": 6609
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/blocked_range2d.h",
+        "path_type": "hardlink",
+        "sha256": "68b8abf96a476d678817b9ebd398184ed0fa6f0842aa207f88992e20925d5c32",
+        "sha256_in_prefix": "68b8abf96a476d678817b9ebd398184ed0fa6f0842aa207f88992e20925d5c32",
+        "size_in_bytes": 3237
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/blocked_range3d.h",
+        "path_type": "hardlink",
+        "sha256": "5084f9c3e0500daabc167764cb5ad9069b0c366dfb9ab8db62f228701ea9e5d7",
+        "sha256_in_prefix": "5084f9c3e0500daabc167764cb5ad9069b0c366dfb9ab8db62f228701ea9e5d7",
+        "size_in_bytes": 4317
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/blocked_rangeNd.h",
+        "path_type": "hardlink",
+        "sha256": "aa2c1a9d3ffba4b6de9dde62a81b81cae196d3503e70ba6452b26f8f9f9ae4eb",
+        "sha256_in_prefix": "aa2c1a9d3ffba4b6de9dde62a81b81cae196d3503e70ba6452b26f8f9f9ae4eb",
+        "size_in_bytes": 5735
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/cache_aligned_allocator.h",
+        "path_type": "hardlink",
+        "sha256": "c4e2a21e5e0cb8dec19320630432899d933ad6f55dc8b601f6bf94ec50c7e11a",
+        "sha256_in_prefix": "c4e2a21e5e0cb8dec19320630432899d933ad6f55dc8b601f6bf94ec50c7e11a",
+        "size_in_bytes": 7732
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/combinable.h",
+        "path_type": "hardlink",
+        "sha256": "1a0ef0278c8db2736eaa3b453c2ef01c32723dbe9888e400a3c861097c791b58",
+        "sha256_in_prefix": "1a0ef0278c8db2736eaa3b453c2ef01c32723dbe9888e400a3c861097c791b58",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/compat/condition_variable",
+        "path_type": "hardlink",
+        "sha256": "ba2413f7216a56a51bab23f723eff07cd8d1a8e79b09020dd52eead8aeeef21f",
+        "sha256_in_prefix": "ba2413f7216a56a51bab23f723eff07cd8d1a8e79b09020dd52eead8aeeef21f",
+        "size_in_bytes": 15474
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/compat/ppl.h",
+        "path_type": "hardlink",
+        "sha256": "84f79884d15b7089cfa08669ad04f7f75b3ef2ec5bb80a92dbe86479fa8e4ac4",
+        "sha256_in_prefix": "84f79884d15b7089cfa08669ad04f7f75b3ef2ec5bb80a92dbe86479fa8e4ac4",
+        "size_in_bytes": 1659
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/compat/thread",
+        "path_type": "hardlink",
+        "sha256": "a0502c27dff1155632e69246580ebd78c8610bc21b305cd8dabf6eb588bd8ad0",
+        "sha256_in_prefix": "a0502c27dff1155632e69246580ebd78c8610bc21b305cd8dabf6eb588bd8ad0",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/compat/tuple",
+        "path_type": "hardlink",
+        "sha256": "25ac3f2f3650523d53daabde6d6c882b4f09d7662f331d05bcb63e8799c9e7a8",
+        "sha256_in_prefix": "25ac3f2f3650523d53daabde6d6c882b4f09d7662f331d05bcb63e8799c9e7a8",
+        "size_in_bytes": 17969
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_hash_map.h",
+        "path_type": "hardlink",
+        "sha256": "60d676ddd807ad0b3d2cc6e4ee4ba278965d3a798a2366f1385fdd563312e911",
+        "sha256_in_prefix": "60d676ddd807ad0b3d2cc6e4ee4ba278965d3a798a2366f1385fdd563312e911",
+        "size_in_bytes": 71051
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_lru_cache.h",
+        "path_type": "hardlink",
+        "sha256": "06a48350fe0f8f00a33810d0009c460ce5fa6078c5a6d4b04a981b8111476d0d",
+        "sha256_in_prefix": "06a48350fe0f8f00a33810d0009c460ce5fa6078c5a6d4b04a981b8111476d0d",
+        "size_in_bytes": 12737
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_map.h",
+        "path_type": "hardlink",
+        "sha256": "c74b6cdac0bdc38f38051ec610feb6a1faa6e3643950d6fe6859254167da88a6",
+        "sha256_in_prefix": "c74b6cdac0bdc38f38051ec610feb6a1faa6e3643950d6fe6859254167da88a6",
+        "size_in_bytes": 14258
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_priority_queue.h",
+        "path_type": "hardlink",
+        "sha256": "77bd8cf3480ced3e97e09273b9c515286f5100eff4510c98809f13f7098db74c",
+        "sha256_in_prefix": "77bd8cf3480ced3e97e09273b9c515286f5100eff4510c98809f13f7098db74c",
+        "size_in_bytes": 21767
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_queue.h",
+        "path_type": "hardlink",
+        "sha256": "4341b4f44ba71bf4c3b5859bac07ff9c0ce3a48e98a0a95f10ebed3d7bd31ff7",
+        "sha256_in_prefix": "4341b4f44ba71bf4c3b5859bac07ff9c0ce3a48e98a0a95f10ebed3d7bd31ff7",
+        "size_in_bytes": 16683
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_set.h",
+        "path_type": "hardlink",
+        "sha256": "0c9d7c6c8defe93791f5a0cd03840ea6faa9378ef12b89f00069506873ebdde4",
+        "sha256_in_prefix": "0c9d7c6c8defe93791f5a0cd03840ea6faa9378ef12b89f00069506873ebdde4",
+        "size_in_bytes": 11187
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_unordered_map.h",
+        "path_type": "hardlink",
+        "sha256": "095c46d03962fcb606b263750a93582cd0520f16ad6bddde93f9d3d10f5e1fd5",
+        "sha256_in_prefix": "095c46d03962fcb606b263750a93582cd0520f16ad6bddde93f9d3d10f5e1fd5",
+        "size_in_bytes": 19376
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_unordered_set.h",
+        "path_type": "hardlink",
+        "sha256": "45854866b9f1ca302a3c2405c91e80f07fdc9b311c55ecfb68003305612c44a9",
+        "sha256_in_prefix": "45854866b9f1ca302a3c2405c91e80f07fdc9b311c55ecfb68003305612c44a9",
+        "size_in_bytes": 17861
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/concurrent_vector.h",
+        "path_type": "hardlink",
+        "sha256": "87f4f60babf0bc558a14daefe2876c805ce6282855bcf7529d860a767ddc2708",
+        "sha256_in_prefix": "87f4f60babf0bc558a14daefe2876c805ce6282855bcf7529d860a767ddc2708",
+        "size_in_bytes": 60051
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/critical_section.h",
+        "path_type": "hardlink",
+        "sha256": "cf63faf88c4256568f20d17feaae623e56a7366cdcbf85d2d4986f83367279d7",
+        "sha256_in_prefix": "cf63faf88c4256568f20d17feaae623e56a7366cdcbf85d2d4986f83367279d7",
+        "size_in_bytes": 3694
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/enumerable_thread_specific.h",
+        "path_type": "hardlink",
+        "sha256": "cad0c48a12238150fb1f6290f7e0b84725a59debcac2d141b24e72be00353b2c",
+        "sha256_in_prefix": "cad0c48a12238150fb1f6290f7e0b84725a59debcac2d141b24e72be00353b2c",
+        "size_in_bytes": 48092
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/flow_graph.h",
+        "path_type": "hardlink",
+        "sha256": "4cad14729a16e30ae486592d4d864bbb0c051b348f0b87804098c557ecb2df11",
+        "sha256_in_prefix": "4cad14729a16e30ae486592d4d864bbb0c051b348f0b87804098c557ecb2df11",
+        "size_in_bytes": 153871
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/flow_graph_abstractions.h",
+        "path_type": "hardlink",
+        "sha256": "679d221dd987e5e63cf941a0169f5f4a5b93fd291b0ff6b22fbe4a7924f266ae",
+        "sha256_in_prefix": "679d221dd987e5e63cf941a0169f5f4a5b93fd291b0ff6b22fbe4a7924f266ae",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/flow_graph_opencl_node.h",
+        "path_type": "hardlink",
+        "sha256": "a70b27615f275afdbbe9a075792101b94366b35a3a15fb587addec47cda282e8",
+        "sha256_in_prefix": "a70b27615f275afdbbe9a075792101b94366b35a3a15fb587addec47cda282e8",
+        "size_in_bytes": 57769
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/gfx_factory.h",
+        "path_type": "hardlink",
+        "sha256": "58511cad39ca85663a22ad8edaecfff52c38500e442e9538520c5c251eb144dd",
+        "sha256_in_prefix": "58511cad39ca85663a22ad8edaecfff52c38500e442e9538520c5c251eb144dd",
+        "size_in_bytes": 10588
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/global_control.h",
+        "path_type": "hardlink",
+        "sha256": "8f84fa3d6c0cd4fc8b009abdfeb6a4e49dae0117db24b32c79199e0d64ccfc8e",
+        "sha256_in_prefix": "8f84fa3d6c0cd4fc8b009abdfeb6a4e49dae0117db24b32c79199e0d64ccfc8e",
+        "size_in_bytes": 2495
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/index.html",
+        "path_type": "hardlink",
+        "sha256": "4c7f0c53678f0d26a4d5a0c3197e4a85bf756f7b4fe4f94395bf5e2301951fad",
+        "sha256_in_prefix": "4c7f0c53678f0d26a4d5a0c3197e4a85bf756f7b4fe4f94395bf5e2301951fad",
+        "size_in_bytes": 901
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_aggregator_impl.h",
+        "path_type": "hardlink",
+        "sha256": "92d7954b2579c59050d8a19d92663bce5ae9e1f18bc84ef105fff71b33823ae6",
+        "sha256_in_prefix": "92d7954b2579c59050d8a19d92663bce5ae9e1f18bc84ef105fff71b33823ae6",
+        "size_in_bytes": 7772
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_allocator_traits.h",
+        "path_type": "hardlink",
+        "sha256": "30f314b367d607d30f774ceedeeaf88a9cf5da2875398f8d171337836cca0367",
+        "sha256_in_prefix": "30f314b367d607d30f774ceedeeaf88a9cf5da2875398f8d171337836cca0367",
+        "size_in_bytes": 5946
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_concurrent_queue_impl.h",
+        "path_type": "hardlink",
+        "sha256": "b0866f0a2772c5e33dfa1839fb5baf1de7aa54ecc4488b5295faad7ba635005b",
+        "sha256_in_prefix": "b0866f0a2772c5e33dfa1839fb5baf1de7aa54ecc4488b5295faad7ba635005b",
+        "size_in_bytes": 36965
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_concurrent_skip_list_impl.h",
+        "path_type": "hardlink",
+        "sha256": "31cc8cbc2ae7c778f68764358ade949f4e33e2068d61f0b96b218b1e549d3208",
+        "sha256_in_prefix": "31cc8cbc2ae7c778f68764358ade949f4e33e2068d61f0b96b218b1e549d3208",
+        "size_in_bytes": 36311
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_concurrent_unordered_impl.h",
+        "path_type": "hardlink",
+        "sha256": "4e03f26eb1c68f4d4fb1ea5347d4a84046a7b0529cc8833caab9975d4953b1ab",
+        "sha256_in_prefix": "4e03f26eb1c68f4d4fb1ea5347d4a84046a7b0529cc8833caab9975d4953b1ab",
+        "size_in_bytes": 62113
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_async_msg_impl.h",
+        "path_type": "hardlink",
+        "sha256": "569eccbdd00c0dfb9a0e85545678012fbd1a84916f43b00ea07f83c8bce98a06",
+        "sha256_in_prefix": "569eccbdd00c0dfb9a0e85545678012fbd1a84916f43b00ea07f83c8bce98a06",
+        "size_in_bytes": 4673
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_body_impl.h",
+        "path_type": "hardlink",
+        "sha256": "1c11344931f9df3943bfa97d0e11bbfdd9af78a46b9d1bbd22c32a67b7a32388",
+        "sha256_in_prefix": "1c11344931f9df3943bfa97d0e11bbfdd9af78a46b9d1bbd22c32a67b7a32388",
+        "size_in_bytes": 15339
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_cache_impl.h",
+        "path_type": "hardlink",
+        "sha256": "f70991f7ee6b4adabaaa824b84aa69af00903a4d43a72f63fddf1c9fc62c46a8",
+        "sha256_in_prefix": "f70991f7ee6b4adabaaa824b84aa69af00903a4d43a72f63fddf1c9fc62c46a8",
+        "size_in_bytes": 17930
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_impl.h",
+        "path_type": "hardlink",
+        "sha256": "2e00e4295fd126537fd4e15d61022e900e6e498ba30946df85b175a3276254b1",
+        "sha256_in_prefix": "2e00e4295fd126537fd4e15d61022e900e6e498ba30946df85b175a3276254b1",
+        "size_in_bytes": 17064
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_indexer_impl.h",
+        "path_type": "hardlink",
+        "sha256": "b5f87762e534e478568ddd1d5ae304545dbefb2693c1610a018aeaaadbc15c67",
+        "sha256_in_prefix": "b5f87762e534e478568ddd1d5ae304545dbefb2693c1610a018aeaaadbc15c67",
+        "size_in_bytes": 22276
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_item_buffer_impl.h",
+        "path_type": "hardlink",
+        "sha256": "ebe77e8ca62f5b971635dca98087aaa19e8f7a8ec8a1d0c3cc2448087dc72dd7",
+        "sha256_in_prefix": "ebe77e8ca62f5b971635dca98087aaa19e8f7a8ec8a1d0c3cc2448087dc72dd7",
+        "size_in_bytes": 11209
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_join_impl.h",
+        "path_type": "hardlink",
+        "sha256": "455993ecaedb18e21601827f3be6ccf53a627acc5f99d63b165d57e75879d510",
+        "sha256_in_prefix": "455993ecaedb18e21601827f3be6ccf53a627acc5f99d63b165d57e75879d510",
+        "size_in_bytes": 97489
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_node_impl.h",
+        "path_type": "hardlink",
+        "sha256": "0d6a45d14b20430b7a33f99e5d250239671e262607bcf8bf95e23961c7e511f6",
+        "sha256_in_prefix": "0d6a45d14b20430b7a33f99e5d250239671e262607bcf8bf95e23961c7e511f6",
+        "size_in_bytes": 35459
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_streaming_node.h",
+        "path_type": "hardlink",
+        "sha256": "ae5fc3b98133a49d1f2143ccaa8aa7e16fd6d39522cb0cb9928495baff6e86ff",
+        "sha256_in_prefix": "ae5fc3b98133a49d1f2143ccaa8aa7e16fd6d39522cb0cb9928495baff6e86ff",
+        "size_in_bytes": 31134
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_tagged_buffer_impl.h",
+        "path_type": "hardlink",
+        "sha256": "9dec7d7c8f0cfbbe07e0752e4e67380f6f574041603fa709b9d6a80e9fd989da",
+        "sha256_in_prefix": "9dec7d7c8f0cfbbe07e0752e4e67380f6f574041603fa709b9d6a80e9fd989da",
+        "size_in_bytes": 9978
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_trace_impl.h",
+        "path_type": "hardlink",
+        "sha256": "0b82ef98efbb1f7bfbaaaf5b5ab1dbc1609f8f4c6e70813e7d4da84284382384",
+        "sha256_in_prefix": "0b82ef98efbb1f7bfbaaaf5b5ab1dbc1609f8f4c6e70813e7d4da84284382384",
+        "size_in_bytes": 14584
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_flow_graph_types_impl.h",
+        "path_type": "hardlink",
+        "sha256": "66e25819490c4171917bc5b6f823ef2f637ac90fa875d0f4f46ed94bbef8cb94",
+        "sha256_in_prefix": "66e25819490c4171917bc5b6f823ef2f637ac90fa875d0f4f46ed94bbef8cb94",
+        "size_in_bytes": 34056
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_mutex_padding.h",
+        "path_type": "hardlink",
+        "sha256": "75c7177e0415cb4afac787b5035eae703e931d829deca186dc9128cf822ade11",
+        "sha256_in_prefix": "75c7177e0415cb4afac787b5035eae703e931d829deca186dc9128cf822ade11",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_node_handle_impl.h",
+        "path_type": "hardlink",
+        "sha256": "2c1590850d05a963ccb2ce8e03009b3a2bb0f1a038dae1e9eaeb90ff17c53f3d",
+        "sha256_in_prefix": "2c1590850d05a963ccb2ce8e03009b3a2bb0f1a038dae1e9eaeb90ff17c53f3d",
+        "size_in_bytes": 5232
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_range_iterator.h",
+        "path_type": "hardlink",
+        "sha256": "c9aa0c3f6a85ccbcb1aa282bb387f867539906966b703e17e067d6a410b3361a",
+        "sha256_in_prefix": "c9aa0c3f6a85ccbcb1aa282bb387f867539906966b703e17e067d6a410b3361a",
+        "size_in_bytes": 2292
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_tbb_hash_compare_impl.h",
+        "path_type": "hardlink",
+        "sha256": "6e97761605b6d8d1de157a9a1f9ce34c5a03548a8a7cfa8e90bf6de8371755b3",
+        "sha256_in_prefix": "6e97761605b6d8d1de157a9a1f9ce34c5a03548a8a7cfa8e90bf6de8371755b3",
+        "size_in_bytes": 3046
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_tbb_strings.h",
+        "path_type": "hardlink",
+        "sha256": "d5d295f183b0ffb3c2472ab8570891bdc3e63d8bc8e45d2175b56326f02a0e54",
+        "sha256_in_prefix": "d5d295f183b0ffb3c2472ab8570891bdc3e63d8bc8e45d2175b56326f02a0e54",
+        "size_in_bytes": 4001
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_tbb_trace_impl.h",
+        "path_type": "hardlink",
+        "sha256": "18f3dcf59857242b8406827b08358882b5dce391d73fe916bd46ea4998236dcc",
+        "sha256_in_prefix": "18f3dcf59857242b8406827b08358882b5dce391d73fe916bd46ea4998236dcc",
+        "size_in_bytes": 2144
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_tbb_windef.h",
+        "path_type": "hardlink",
+        "sha256": "304c15d83d20ef86cbcdcb9cdc931b2eafccc5a2ef284a5b6a9c1dc586e66d20",
+        "sha256_in_prefix": "304c15d83d20ef86cbcdcb9cdc931b2eafccc5a2ef284a5b6a9c1dc586e66d20",
+        "size_in_bytes": 2358
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_template_helpers.h",
+        "path_type": "hardlink",
+        "sha256": "414fbbbb22651100833787363e4ca2961ab73b089af5de63a57e9b72ac80d955",
+        "sha256_in_prefix": "414fbbbb22651100833787363e4ca2961ab73b089af5de63a57e9b72ac80d955",
+        "size_in_bytes": 11425
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_x86_eliding_mutex_impl.h",
+        "path_type": "hardlink",
+        "sha256": "bc50ab27722ae9517989af0db8251206aeba31c480f20978994d93d80039965f",
+        "sha256_in_prefix": "bc50ab27722ae9517989af0db8251206aeba31c480f20978994d93d80039965f",
+        "size_in_bytes": 4474
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/internal/_x86_rtm_rw_mutex_impl.h",
+        "path_type": "hardlink",
+        "sha256": "8dce2df11f40e14c10c1a061044c3e10fa5b9e2d57309f469f4e489e14acb22d",
+        "sha256_in_prefix": "8dce2df11f40e14c10c1a061044c3e10fa5b9e2d57309f469f4e489e14acb22d",
+        "size_in_bytes": 8328
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/iterators.h",
+        "path_type": "hardlink",
+        "sha256": "88e5bf2591b9bbfd921f2956414ea7422278b619433c64f09af74145b515d30f",
+        "sha256_in_prefix": "88e5bf2591b9bbfd921f2956414ea7422278b619433c64f09af74145b515d30f",
+        "size_in_bytes": 12451
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/gcc_arm.h",
+        "path_type": "hardlink",
+        "sha256": "ab80b271ed236648addbb1a6a9c9e7ecf9a94155d13812dc7ab4cfc077e63710",
+        "sha256_in_prefix": "ab80b271ed236648addbb1a6a9c9e7ecf9a94155d13812dc7ab4cfc077e63710",
+        "size_in_bytes": 6876
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/gcc_armv7.h",
+        "path_type": "hardlink",
+        "sha256": "540f5f81fbd4392bde99ff912790f59c4f31708a49c84d47f2a2591b71b009e6",
+        "sha256_in_prefix": "540f5f81fbd4392bde99ff912790f59c4f31708a49c84d47f2a2591b71b009e6",
+        "size_in_bytes": 6752
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/gcc_generic.h",
+        "path_type": "hardlink",
+        "sha256": "95c1a9094d51b76291923ca68d3676a7646c0f4b991480bb3977ee8ace445ee0",
+        "sha256_in_prefix": "95c1a9094d51b76291923ca68d3676a7646c0f4b991480bb3977ee8ace445ee0",
+        "size_in_bytes": 9860
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/gcc_ia32_common.h",
+        "path_type": "hardlink",
+        "sha256": "9963e3047875bf2b516de15e59befbca951279d13ad46ec1e6d49401df734a62",
+        "sha256_in_prefix": "9963e3047875bf2b516de15e59befbca951279d13ad46ec1e6d49401df734a62",
+        "size_in_bytes": 3789
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/gcc_itsx.h",
+        "path_type": "hardlink",
+        "sha256": "52233388cb58a4bc1e5d5b97f6ee193a59f4d0df771c0845b9cf6e472c09b9f0",
+        "sha256_in_prefix": "52233388cb58a4bc1e5d5b97f6ee193a59f4d0df771c0845b9cf6e472c09b9f0",
+        "size_in_bytes": 4041
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/ibm_aix51.h",
+        "path_type": "hardlink",
+        "sha256": "b594cdc249e5d211a5c3f4d04b93b12f35281ec18146d6ab675062f6a6ae0f4a",
+        "sha256_in_prefix": "b594cdc249e5d211a5c3f4d04b93b12f35281ec18146d6ab675062f6a6ae0f4a",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/icc_generic.h",
+        "path_type": "hardlink",
+        "sha256": "23721209e557cc2613c9c9d2ecff409f952fddd50262dbed22c9fddca165e214",
+        "sha256_in_prefix": "23721209e557cc2613c9c9d2ecff409f952fddd50262dbed22c9fddca165e214",
+        "size_in_bytes": 10373
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/linux_common.h",
+        "path_type": "hardlink",
+        "sha256": "c72a18591085459dbcc51ee2d301dd35d711e32a23d9e86c7ecadc495f4eebde",
+        "sha256_in_prefix": "c72a18591085459dbcc51ee2d301dd35d711e32a23d9e86c7ecadc495f4eebde",
+        "size_in_bytes": 2975
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/linux_ia32.h",
+        "path_type": "hardlink",
+        "sha256": "c6938b70c7abe70b01b96323460b796d9ddacf4964b221e51db85408a11a31fb",
+        "sha256_in_prefix": "c6938b70c7abe70b01b96323460b796d9ddacf4964b221e51db85408a11a31fb",
+        "size_in_bytes": 9770
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/linux_ia64.h",
+        "path_type": "hardlink",
+        "sha256": "ea7bbde6826edc1e4f0a051d48d8451de8976fe3bf31211e95358e7c62aa5852",
+        "sha256_in_prefix": "ea7bbde6826edc1e4f0a051d48d8451de8976fe3bf31211e95358e7c62aa5852",
+        "size_in_bytes": 9590
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/linux_intel64.h",
+        "path_type": "hardlink",
+        "sha256": "9f68da2e1cfb3fb0d3cd07bba6418eef765d2c8aa6415a0644cf0b68a027a146",
+        "sha256_in_prefix": "9f68da2e1cfb3fb0d3cd07bba6418eef765d2c8aa6415a0644cf0b68a027a146",
+        "size_in_bytes": 5010
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/mac_ppc.h",
+        "path_type": "hardlink",
+        "sha256": "6f9b69ce24c39cc30cb8eb15d3bc75feb9bccf9081d4f7e902853ee2db873cce",
+        "sha256_in_prefix": "6f9b69ce24c39cc30cb8eb15d3bc75feb9bccf9081d4f7e902853ee2db873cce",
+        "size_in_bytes": 17198
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/macos_common.h",
+        "path_type": "hardlink",
+        "sha256": "f9f13131f97afc57bbea3a627e9ef08b2dc6553e759852c8b7a4f37330d8b1a4",
+        "sha256_in_prefix": "f9f13131f97afc57bbea3a627e9ef08b2dc6553e759852c8b7a4f37330d8b1a4",
+        "size_in_bytes": 4924
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/mic_common.h",
+        "path_type": "hardlink",
+        "sha256": "169b8dee09bb4f5613e46c33a6f3339d7a7ed2c9e7b72c55b1a14d4f6c4ada6c",
+        "sha256_in_prefix": "169b8dee09bb4f5613e46c33a6f3339d7a7ed2c9e7b72c55b1a14d4f6c4ada6c",
+        "size_in_bytes": 1898
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/msvc_armv7.h",
+        "path_type": "hardlink",
+        "sha256": "55064b959a2b455950ed78b19d3051745fb4eb7976f73a059d1d7398af936d49",
+        "sha256_in_prefix": "55064b959a2b455950ed78b19d3051745fb4eb7976f73a059d1d7398af936d49",
+        "size_in_bytes": 6023
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/msvc_ia32_common.h",
+        "path_type": "hardlink",
+        "sha256": "456044b21e18091772b08ced8e2cd5f216897e3c40de2355fb98467093c973d9",
+        "sha256_in_prefix": "456044b21e18091772b08ced8e2cd5f216897e3c40de2355fb98467093c973d9",
+        "size_in_bytes": 10536
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/sunos_sparc.h",
+        "path_type": "hardlink",
+        "sha256": "a1a44a0b201af1d89e474925bdf7ffc50cda57778f5b1af9c4fc049cab0d99fc",
+        "sha256_in_prefix": "a1a44a0b201af1d89e474925bdf7ffc50cda57778f5b1af9c4fc049cab0d99fc",
+        "size_in_bytes": 8677
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/windows_api.h",
+        "path_type": "hardlink",
+        "sha256": "0aad6d53624e4f71505874b75b474cc1b5d176aba1c577d73cc22b2a2ee2914f",
+        "sha256_in_prefix": "0aad6d53624e4f71505874b75b474cc1b5d176aba1c577d73cc22b2a2ee2914f",
+        "size_in_bytes": 2593
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/windows_ia32.h",
+        "path_type": "hardlink",
+        "sha256": "593ff604a7e7738a77ee6a4cbf4290827eca2864fb77a22fb062805e37219ed3",
+        "sha256_in_prefix": "593ff604a7e7738a77ee6a4cbf4290827eca2864fb77a22fb062805e37219ed3",
+        "size_in_bytes": 3549
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/machine/windows_intel64.h",
+        "path_type": "hardlink",
+        "sha256": "d8a85609127e330edf5952cba022112d2f80d34c2663e3a88bf7c284e49fc827",
+        "sha256_in_prefix": "d8a85609127e330edf5952cba022112d2f80d34c2663e3a88bf7c284e49fc827",
+        "size_in_bytes": 3164
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/memory_pool.h",
+        "path_type": "hardlink",
+        "sha256": "04e8ef8b5fe54a4cbe4dceb7d81ebad990b59b701bae08819836bc8c351582f5",
+        "sha256_in_prefix": "04e8ef8b5fe54a4cbe4dceb7d81ebad990b59b701bae08819836bc8c351582f5",
+        "size_in_bytes": 10594
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/mutex.h",
+        "path_type": "hardlink",
+        "sha256": "c05ebd449a9798eaa3bebac8b71ac2a16142517d21f0eba1f50047b5dd5e23bc",
+        "sha256_in_prefix": "c05ebd449a9798eaa3bebac8b71ac2a16142517d21f0eba1f50047b5dd5e23bc",
+        "size_in_bytes": 6121
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/null_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "3c9c4926597b9983e45f46501ec299d3034e24c336569ecd0352f5468b08d759",
+        "sha256_in_prefix": "3c9c4926597b9983e45f46501ec299d3034e24c336569ecd0352f5468b08d759",
+        "size_in_bytes": 1440
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/null_rw_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "531f03be42d06eec7522dcfde87a8ebd822f75e4932b4609376c15ba48940333",
+        "sha256_in_prefix": "531f03be42d06eec7522dcfde87a8ebd822f75e4932b4609376c15ba48940333",
+        "size_in_bytes": 1640
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_do.h",
+        "path_type": "hardlink",
+        "sha256": "90333d23b2e8a800c23003d48db343a8fb52d8a01255f15c6d3fc3f84b8144eb",
+        "sha256_in_prefix": "90333d23b2e8a800c23003d48db343a8fb52d8a01255f15c6d3fc3f84b8144eb",
+        "size_in_bytes": 19897
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_for.h",
+        "path_type": "hardlink",
+        "sha256": "8eebbaa423d243d109ee8620b2187bf001749966f7d4d80b837e83d4349d6591",
+        "sha256_in_prefix": "8eebbaa423d243d109ee8620b2187bf001749966f7d4d80b837e83d4349d6591",
+        "size_in_bytes": 20970
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_for_each.h",
+        "path_type": "hardlink",
+        "sha256": "185f01b2a8dc74392b8322024d21020e1bef68ae0c6b82ca6795aee6d195644a",
+        "sha256_in_prefix": "185f01b2a8dc74392b8322024d21020e1bef68ae0c6b82ca6795aee6d195644a",
+        "size_in_bytes": 5062
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_invoke.h",
+        "path_type": "hardlink",
+        "sha256": "067bd739cbb3432725b7874183f455f2db46bc7b67674bda9e21cff7f2860e29",
+        "sha256_in_prefix": "067bd739cbb3432725b7874183f455f2db46bc7b67674bda9e21cff7f2860e29",
+        "size_in_bytes": 18011
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_reduce.h",
+        "path_type": "hardlink",
+        "sha256": "60e166b6d99473cacf05c8de6ae301063f8d0736a1386278d3236ae9ee094876",
+        "sha256_in_prefix": "60e166b6d99473cacf05c8de6ae301063f8d0736a1386278d3236ae9ee094876",
+        "size_in_bytes": 32841
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_scan.h",
+        "path_type": "hardlink",
+        "sha256": "6d8c5ecd1ccc738f86b7382d74a0b2a86b6eb1e45db7d202702e9568d02e3b3d",
+        "sha256_in_prefix": "6d8c5ecd1ccc738f86b7382d74a0b2a86b6eb1e45db7d202702e9568d02e3b3d",
+        "size_in_bytes": 16429
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_sort.h",
+        "path_type": "hardlink",
+        "sha256": "5fce9050d450f96347690ab4b1c7be72c91a4b0f1e29576df33be7993ff49aed",
+        "sha256_in_prefix": "5fce9050d450f96347690ab4b1c7be72c91a4b0f1e29576df33be7993ff49aed",
+        "size_in_bytes": 9145
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/parallel_while.h",
+        "path_type": "hardlink",
+        "sha256": "c39db144ecab98567837e6bf18115274a370d3ac92d77a673b4923dbe0663be4",
+        "sha256_in_prefix": "c39db144ecab98567837e6bf18115274a370d3ac92d77a673b4923dbe0663be4",
+        "size_in_bytes": 5997
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/partitioner.h",
+        "path_type": "hardlink",
+        "sha256": "8a58dce380ebad9aca5795e8f67ea9e6235e0300c1f25b9ccff1bf7cb0abf05d",
+        "sha256_in_prefix": "8a58dce380ebad9aca5795e8f67ea9e6235e0300c1f25b9ccff1bf7cb0abf05d",
+        "size_in_bytes": 28567
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/pipeline.h",
+        "path_type": "hardlink",
+        "sha256": "4763aa71ce3900013a612c93216afeaf043cde4fea1f2f99fadabf770a58c7f3",
+        "sha256_in_prefix": "4763aa71ce3900013a612c93216afeaf043cde4fea1f2f99fadabf770a58c7f3",
+        "size_in_bytes": 23585
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/queuing_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "9caf5331fd7edcc5a220388d289da4032db65ed6bc21d750714e965ece1f5cfc",
+        "sha256_in_prefix": "9caf5331fd7edcc5a220388d289da4032db65ed6bc21d750714e965ece1f5cfc",
+        "size_in_bytes": 3159
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/queuing_rw_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "d9790ec1737388284516efed04f87631dc57bd87c27292ed549a0967eb21f772",
+        "sha256_in_prefix": "d9790ec1737388284516efed04f87631dc57bd87c27292ed549a0967eb21f772",
+        "size_in_bytes": 4640
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/reader_writer_lock.h",
+        "path_type": "hardlink",
+        "sha256": "d9a03d7860c149e7cd081e8b6f97bdd9ea4905138c6e9f78165f53d378eb5a21",
+        "sha256_in_prefix": "d9a03d7860c149e7cd081e8b6f97bdd9ea4905138c6e9f78165f53d378eb5a21",
+        "size_in_bytes": 8262
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/recursive_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "7327a5cdae106ae3a35baf3b51a9929ccde27b86ec7108dde392d30f5666f030",
+        "sha256_in_prefix": "7327a5cdae106ae3a35baf3b51a9929ccde27b86ec7108dde392d30f5666f030",
+        "size_in_bytes": 6620
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/runtime_loader.h",
+        "path_type": "hardlink",
+        "sha256": "5bbef62cb3befb78472c801462c878fea08955c03fdf08c7ea87c9fe3725a24c",
+        "sha256_in_prefix": "5bbef62cb3befb78472c801462c878fea08955c03fdf08c7ea87c9fe3725a24c",
+        "size_in_bytes": 6081
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/scalable_allocator.h",
+        "path_type": "hardlink",
+        "sha256": "55ee9ff8666fbf64b8b00e31de29c15d875339c0dffa891022d3ad85c08a4486",
+        "sha256_in_prefix": "55ee9ff8666fbf64b8b00e31de29c15d875339c0dffa891022d3ad85c08a4486",
+        "size_in_bytes": 12988
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/spin_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "a78eb08ccbf7a14f1cc28fe6fedf166a8feae57405808335574263a0e6d7412c",
+        "sha256_in_prefix": "a78eb08ccbf7a14f1cc28fe6fedf166a8feae57405808335574263a0e6d7412c",
+        "size_in_bytes": 6751
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/spin_rw_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "dff4f8bf7981463c0c03c911f8701b8dc1d4417081475cf787f1af0da0a77dca",
+        "sha256_in_prefix": "dff4f8bf7981463c0c03c911f8701b8dc1d4417081475cf787f1af0da0a77dca",
+        "size_in_bytes": 8929
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/task.h",
+        "path_type": "hardlink",
+        "sha256": "35adae944f0ea5f1dbcb6173c06f825281973804b8b6d27924de24169e245962",
+        "sha256_in_prefix": "35adae944f0ea5f1dbcb6173c06f825281973804b8b6d27924de24169e245962",
+        "size_in_bytes": 44177
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/task_arena.h",
+        "path_type": "hardlink",
+        "sha256": "33d84c208f79cd7ddf5e72b7221f2095d8297f07d37277e23efdc283ff3d59b1",
+        "sha256_in_prefix": "33d84c208f79cd7ddf5e72b7221f2095d8297f07d37277e23efdc283ff3d59b1",
+        "size_in_bytes": 15405
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/task_group.h",
+        "path_type": "hardlink",
+        "sha256": "7129741474a31edc3faf1fa8321738415cf0fbfe170f442520513da3d0f62a87",
+        "sha256_in_prefix": "7129741474a31edc3faf1fa8321738415cf0fbfe170f442520513da3d0f62a87",
+        "size_in_bytes": 7306
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/task_scheduler_init.h",
+        "path_type": "hardlink",
+        "sha256": "c1d577c1cd8f107991b2319ec1402e45fcffc7e9c11e7b0b643282856fac7230",
+        "sha256_in_prefix": "c1d577c1cd8f107991b2319ec1402e45fcffc7e9c11e7b0b643282856fac7230",
+        "size_in_bytes": 7115
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/task_scheduler_observer.h",
+        "path_type": "hardlink",
+        "sha256": "79e912699f877b428bad8d420407a73c8c26c5a2c6ad294e5dc9c2efbfd75a88",
+        "sha256_in_prefix": "79e912699f877b428bad8d420407a73c8c26c5a2c6ad294e5dc9c2efbfd75a88",
+        "size_in_bytes": 6387
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb.h",
+        "path_type": "hardlink",
+        "sha256": "df23a1b34a5589adb3a48a22d36e7de1641d0f7793b56c8aa4541cccd4eaf5f3",
+        "sha256_in_prefix": "df23a1b34a5589adb3a48a22d36e7de1641d0f7793b56c8aa4541cccd4eaf5f3",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_allocator.h",
+        "path_type": "hardlink",
+        "sha256": "5ace6b08363b2f43be080036b1b7f40ce245e4130fdae06d024837c3fc18c706",
+        "sha256_in_prefix": "5ace6b08363b2f43be080036b1b7f40ce245e4130fdae06d024837c3fc18c706",
+        "size_in_bytes": 7601
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_config.h",
+        "path_type": "hardlink",
+        "sha256": "1a5792b9b79ec5ac26509b026b33adbc0eb8adab9553beb09f93e677da1b6339",
+        "sha256_in_prefix": "1a5792b9b79ec5ac26509b026b33adbc0eb8adab9553beb09f93e677da1b6339",
+        "size_in_bytes": 45812
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_disable_exceptions.h",
+        "path_type": "hardlink",
+        "sha256": "23f091fc86752eef3b35f24e6cdb71c4c5532b608272a53020aa8288da122519",
+        "sha256_in_prefix": "23f091fc86752eef3b35f24e6cdb71c4c5532b608272a53020aa8288da122519",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_exception.h",
+        "path_type": "hardlink",
+        "sha256": "d157deef89e33449897359feb4e1cc7609f449beba0ff90074272efeb037e313",
+        "sha256_in_prefix": "d157deef89e33449897359feb4e1cc7609f449beba0ff90074272efeb037e313",
+        "size_in_bytes": 13148
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_machine.h",
+        "path_type": "hardlink",
+        "sha256": "b53de576f30ff74f6886fa3329fd34df28a892c47403400d140717b8ee4e4f7d",
+        "sha256_in_prefix": "b53de576f30ff74f6886fa3329fd34df28a892c47403400d140717b8ee4e4f7d",
+        "size_in_bytes": 40947
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_profiling.h",
+        "path_type": "hardlink",
+        "sha256": "9e33fe33f664464de0618e8fb564b307e2614c4d19feae6220e2a273ccf05553",
+        "sha256_in_prefix": "9e33fe33f664464de0618e8fb564b307e2614c4d19feae6220e2a273ccf05553",
+        "size_in_bytes": 15502
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_stddef.h",
+        "path_type": "hardlink",
+        "sha256": "af61c33656fa1e8edcbd25b251d16ad04274e3517584d90582ed039ee791c3fc",
+        "sha256_in_prefix": "af61c33656fa1e8edcbd25b251d16ad04274e3517584d90582ed039ee791c3fc",
+        "size_in_bytes": 20028
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbb_thread.h",
+        "path_type": "hardlink",
+        "sha256": "fb1fbbb7f7d32e7f9cb218c207b2ba99f4f91895aa836450bc91483f0f81ae3b",
+        "sha256_in_prefix": "fb1fbbb7f7d32e7f9cb218c207b2ba99f4f91895aa836450bc91483f0f81ae3b",
+        "size_in_bytes": 12500
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tbbmalloc_proxy.h",
+        "path_type": "hardlink",
+        "sha256": "5158659d46d6ce29942c7f944ac60c1622670320c506240d037122713a5d4716",
+        "sha256_in_prefix": "5158659d46d6ce29942c7f944ac60c1622670320c506240d037122713a5d4716",
+        "size_in_bytes": 1900
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tbb/tick_count.h",
+        "path_type": "hardlink",
+        "sha256": "fb061452bd0a27c595aec40ce169565daca488f178f5515f1d47391819587775",
+        "sha256_in_prefix": "fb061452bd0a27c595aec40ce169565daca488f178f5515f1d47391819587775",
+        "size_in_bytes": 4496
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tthread/fast_mutex.h",
+        "path_type": "hardlink",
+        "sha256": "b97b2296a786fabb667fa93cfc2de06579d9ae6f09134faaca18e9c9bc102c1c",
+        "sha256_in_prefix": "b97b2296a786fabb667fa93cfc2de06579d9ae6f09134faaca18e9c9bc102c1c",
+        "size_in_bytes": 6940
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tthread/tinythread.h",
+        "path_type": "hardlink",
+        "sha256": "89bbd3f124ca952e82f9007dfa471fb552c55d5ca4f48b0f52322d6f1f173cc1",
+        "sha256_in_prefix": "89bbd3f124ca952e82f9007dfa471fb552c55d5ca4f48b0f52322d6f1f173cc1",
+        "size_in_bytes": 29101
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/include/tthread/tinythread.inl",
+        "path_type": "hardlink",
+        "sha256": "0fca3f998c9d775487717b5d3f3cdb0df3f56d00c5bf2ec604fe99a759dbc046",
+        "sha256_in_prefix": "0fca3f998c9d775487717b5d3f3cdb0df3f56d00c5bf2ec604fe99a759dbc046",
+        "size_in_bytes": 8618
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/lib/libtbb.so",
+        "path_type": "hardlink",
+        "sha256": "37b507cef26b47b7d1c2beefc91ec1e30d61b0e94073bebca780ac6870a62878",
+        "sha256_in_prefix": "37b507cef26b47b7d1c2beefc91ec1e30d61b0e94073bebca780ac6870a62878",
+        "size_in_bytes": 20
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/lib/libtbb.so.2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/r-rcppparallel_1620121505645/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "59709f6eb3f893a38a997f95d6622aeb729d493f61d96548268a904a9adc69d2",
+        "sha256_in_prefix": "a52ea32ffce907b6b60e50b9fa3b4ff9fb400de2d34f64694efcbcd4434c3b0b",
+        "size_in_bytes": 332376
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/lib/libtbbmalloc.so",
+        "path_type": "hardlink",
+        "sha256": "448b633cc462b2fa3310154652c853715b0ae6d9f16bae04b0806a8e7bd42bdb",
+        "sha256_in_prefix": "448b633cc462b2fa3310154652c853715b0ae6d9f16bae04b0806a8e7bd42bdb",
+        "size_in_bytes": 26
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/lib/libtbbmalloc.so.2",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/r-rcppparallel_1620121505645/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "d648d14a3c3021cfa474cd71988bc994cdaadf881c430ce49fa854d0c91fc054",
+        "sha256_in_prefix": "2527b5175bb07e931de47d424cd628639764927fac102583c5e7d3acae343e62",
+        "size_in_bytes": 162840
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/lib/libtbbmalloc_proxy.so",
+        "path_type": "hardlink",
+        "sha256": "7299a1b4c0770f59b55f4e1a1163d7212b07bd0160aaea1e1e6ffa4168b6f5b9",
+        "sha256_in_prefix": "7299a1b4c0770f59b55f4e1a1163d7212b07bd0160aaea1e1e6ffa4168b6f5b9",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/lib/libtbbmalloc_proxy.so.2",
+        "path_type": "hardlink",
+        "sha256": "0f33a01835d4df3d407a5cba7caab80a4ea63688319e43bd537219ee440629cd",
+        "sha256_in_prefix": "0f33a01835d4df3d407a5cba7caab80a4ea63688319e43bd537219ee440629cd",
+        "size_in_bytes": 22984
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/libs/RcppParallel.so",
+        "path_type": "hardlink",
+        "sha256": "801126377c45e75d34e179c3087a0b37e1057eba7e5c1aacdd58b0f40416afe3",
+        "sha256_in_prefix": "801126377c45e75d34e179c3087a0b37e1057eba7e5c1aacdd58b0f40416afe3",
+        "size_in_bytes": 24112
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/presentations/header.tex",
+        "path_type": "hardlink",
+        "sha256": "173c9496ff97eba76f8831b8673d8a987a0d1a88b5ba0cb6ce76db5d38646841",
+        "sha256_in_prefix": "173c9496ff97eba76f8831b8673d8a987a0d1a88b5ba0cb6ce76db5d38646841",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/presentations/images/big-data-big-machine-tweet.png",
+        "path_type": "hardlink",
+        "sha256": "5e8b89df6d2a9c9d6e1d48c777267bc435472d183fd2ca0491a132fdfcb86b09",
+        "sha256_in_prefix": "5e8b89df6d2a9c9d6e1d48c777267bc435472d183fd2ca0491a132fdfcb86b09",
+        "size_in_bytes": 61105
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/presentations/rcpp_parallel_talk_jan2015.Rmd",
+        "path_type": "hardlink",
+        "sha256": "35adb91e40fdc1cfd1f4d26e9d8a154f0c5e3e3e03ae671e208e865ebaa1e32c",
+        "sha256_in_prefix": "35adb91e40fdc1cfd1f4d26e9d8a154f0c5e3e3e03ae671e208e865ebaa1e32c",
+        "size_in_bytes": 10834
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/rstudio/templates/project/RcppParallel.package.skeleton.dcf",
+        "path_type": "hardlink",
+        "sha256": "5b32d65cb767051f4d6037bcfdedd52a6273eab9ec1ce7cce05524294390c90a",
+        "sha256_in_prefix": "5b32d65cb767051f4d6037bcfdedd52a6273eab9ec1ce7cce05524294390c90a",
+        "size_in_bytes": 315
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/skeleton/vector-sum.Rd",
+        "path_type": "hardlink",
+        "sha256": "c5aa6733e78d5fd51bfebc4ef43644b10428a6cf96f8b2814506b2a7346c03ed",
+        "sha256_in_prefix": "c5aa6733e78d5fd51bfebc4ef43644b10428a6cf96f8b2814506b2a7346c03ed",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/skeleton/vector-sum.cpp",
+        "path_type": "hardlink",
+        "sha256": "f0d946b353b813baf46a51543e52fcc82b20cf989a4b871bb0fbc8dbe7f12396",
+        "sha256_in_prefix": "f0d946b353b813baf46a51543e52fcc82b20cf989a4b871bb0fbc8dbe7f12396",
+        "size_in_bytes": 1428
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/cpp/distance.cpp",
+        "path_type": "hardlink",
+        "sha256": "4337f1992ac3ff6f837de16a082d45f75028571ab73a4d9f005f4a5a69ceb0c2",
+        "sha256_in_prefix": "4337f1992ac3ff6f837de16a082d45f75028571ab73a4d9f005f4a5a69ceb0c2",
+        "size_in_bytes": 4097
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/cpp/innerproduct.cpp",
+        "path_type": "hardlink",
+        "sha256": "6432c69159d18d74b652170a7d13c99cb427ad87ba99b34b5faa33d15d5aad87",
+        "sha256_in_prefix": "6432c69159d18d74b652170a7d13c99cb427ad87ba99b34b5faa33d15d5aad87",
+        "size_in_bytes": 1676
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/cpp/sum.cpp",
+        "path_type": "hardlink",
+        "sha256": "45bdd134c5c59301058cde86ce4e8022a31ee29eca629a02b4ab51422970f023",
+        "sha256_in_prefix": "45bdd134c5c59301058cde86ce4e8022a31ee29eca629a02b4ab51422970f023",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/cpp/transform.cpp",
+        "path_type": "hardlink",
+        "sha256": "a857367b764bf9c30da66d66a5f5e5919dd6e78811d3f951b7799abd14238df1",
+        "sha256_in_prefix": "a857367b764bf9c30da66d66a5f5e5919dd6e78811d3f951b7799abd14238df1",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/runit.distance.R",
+        "path_type": "hardlink",
+        "sha256": "b07b746bdcb97ac400fdb5ed35a0674c72c18a397d7a90c59ca98522d2ed2a52",
+        "sha256_in_prefix": "b07b746bdcb97ac400fdb5ed35a0674c72c18a397d7a90c59ca98522d2ed2a52",
+        "size_in_bytes": 273
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/runit.innerproduct.R",
+        "path_type": "hardlink",
+        "sha256": "0bc8feacc6cc7efbcd912bafc2bfb1447d1ce53ce91bddf1bac73da7bb667569",
+        "sha256_in_prefix": "0bc8feacc6cc7efbcd912bafc2bfb1447d1ce53ce91bddf1bac73da7bb667569",
+        "size_in_bytes": 252
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/runit.sum.R",
+        "path_type": "hardlink",
+        "sha256": "6d0defa5c5592bef628607ff36a64b9cced59840aa2cded85947b0f85a8c6640",
+        "sha256_in_prefix": "6d0defa5c5592bef628607ff36a64b9cced59840aa2cded85947b0f85a8c6640",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "lib/R/library/RcppParallel/tests/runit.transform.R",
+        "path_type": "hardlink",
+        "sha256": "1102f60cbc191dcbb0f524f608bb16d536db6514743abca245649f73b2fc36b8",
+        "sha256_in_prefix": "1102f60cbc191dcbb0f524f608bb16d536db6514743abca245649f73b2fc36b8",
+        "size_in_bytes": 260
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7af7feb7e262b592e87585340b590bf489bf3b7d51a876a1e747d99d658320a3",
+  "size": 582443,
+  "subdir": "linux-64",
+  "timestamp": 1620121777000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rcppparallel-5.1.4-r36h03ef668_0.tar.bz2",
+  "version": "5.1.4"
+}

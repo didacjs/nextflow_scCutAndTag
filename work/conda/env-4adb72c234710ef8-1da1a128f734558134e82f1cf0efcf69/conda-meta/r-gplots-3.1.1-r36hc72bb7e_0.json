@@ -1,0 +1,278 @@
+{
+  "build": "r36hc72bb7e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "r-catools",
+    "r-gtools",
+    "r-kernsmooth"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-gplots-3.1.1-r36hc72bb7e_0",
+  "files": [
+    "lib/R/library/gplots/ChangeLog",
+    "lib/R/library/gplots/DESCRIPTION",
+    "lib/R/library/gplots/INDEX",
+    "lib/R/library/gplots/Meta/Rd.rds",
+    "lib/R/library/gplots/Meta/data.rds",
+    "lib/R/library/gplots/Meta/features.rds",
+    "lib/R/library/gplots/Meta/hsearch.rds",
+    "lib/R/library/gplots/Meta/links.rds",
+    "lib/R/library/gplots/Meta/nsInfo.rds",
+    "lib/R/library/gplots/Meta/package.rds",
+    "lib/R/library/gplots/Meta/vignette.rds",
+    "lib/R/library/gplots/NAMESPACE",
+    "lib/R/library/gplots/NEWS",
+    "lib/R/library/gplots/NEWS.md",
+    "lib/R/library/gplots/R/gplots",
+    "lib/R/library/gplots/R/gplots.rdb",
+    "lib/R/library/gplots/R/gplots.rdx",
+    "lib/R/library/gplots/TODO",
+    "lib/R/library/gplots/data/rtPCR.rda",
+    "lib/R/library/gplots/doc/index.html",
+    "lib/R/library/gplots/doc/venn.R",
+    "lib/R/library/gplots/doc/venn.Rnw",
+    "lib/R/library/gplots/doc/venn.pdf",
+    "lib/R/library/gplots/help/AnIndex",
+    "lib/R/library/gplots/help/aliases.rds",
+    "lib/R/library/gplots/help/gplots.rdb",
+    "lib/R/library/gplots/help/gplots.rdx",
+    "lib/R/library/gplots/help/paths.rds",
+    "lib/R/library/gplots/html/00Index.html",
+    "lib/R/library/gplots/html/R.css"
+  ],
+  "fn": "r-gplots-3.1.1-r36hc72bb7e_0.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-gplots-3.1.1-r36hc72bb7e_0",
+    "type": 1
+  },
+  "md5": "12ea49f6b2cc97d5069d64a26dd3ac9d",
+  "name": "r-gplots",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-gplots-3.1.1-r36hc72bb7e_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/gplots/ChangeLog",
+        "path_type": "hardlink",
+        "sha256": "7953e9e89f563adebb556f902a431e8276cc578f281c414767918eeb4861276d",
+        "sha256_in_prefix": "7953e9e89f563adebb556f902a431e8276cc578f281c414767918eeb4861276d",
+        "size_in_bytes": 46281
+      },
+      {
+        "_path": "lib/R/library/gplots/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "689fd3e6881ac200a3d5ddb49062d07122f231ae64c7d1a75578b68e034ed10c",
+        "sha256_in_prefix": "689fd3e6881ac200a3d5ddb49062d07122f231ae64c7d1a75578b68e034ed10c",
+        "size_in_bytes": 2627
+      },
+      {
+        "_path": "lib/R/library/gplots/INDEX",
+        "path_type": "hardlink",
+        "sha256": "6d9be7e89315b5b89533b71616168bc31584e178f93b2dbb621620432207110b",
+        "sha256_in_prefix": "6d9be7e89315b5b89533b71616168bc31584e178f93b2dbb621620432207110b",
+        "size_in_bytes": 2120
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f5b317e31ac380af50815ec555ecf5ddf83a66c60a859a823872764f16ed58de",
+        "sha256_in_prefix": "f5b317e31ac380af50815ec555ecf5ddf83a66c60a859a823872764f16ed58de",
+        "size_in_bytes": 1617
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "940f6368282c70d80c54ef1240ad6880614ccd35ab2ff1fd8d6eaa39559f713a",
+        "sha256_in_prefix": "940f6368282c70d80c54ef1240ad6880614ccd35ab2ff1fd8d6eaa39559f713a",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "0bdf91c7ee278bfd5bf81bb7b9e059c72a2a4e6ec29c5f50a510a6c532fdfdc8",
+        "sha256_in_prefix": "0bdf91c7ee278bfd5bf81bb7b9e059c72a2a4e6ec29c5f50a510a6c532fdfdc8",
+        "size_in_bytes": 1686
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "310317e6aa58c7200f43a0a558bc9493d067d9362644d52d4ff1b73d43881aa2",
+        "sha256_in_prefix": "310317e6aa58c7200f43a0a558bc9493d067d9362644d52d4ff1b73d43881aa2",
+        "size_in_bytes": 633
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "01f46b46174f81d8816da86e030b91d058dd574e741a34061179d42d98551be8",
+        "sha256_in_prefix": "01f46b46174f81d8816da86e030b91d058dd574e741a34061179d42d98551be8",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "e7ad8575cd01a5d92ddf05305409a6895cf86da325036320df5a3d5e9819bb0b",
+        "sha256_in_prefix": "e7ad8575cd01a5d92ddf05305409a6895cf86da325036320df5a3d5e9819bb0b",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "lib/R/library/gplots/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "3573a8aaa1f41a6e8831c140371adeec369b07588342aaac0c930abd1346dce1",
+        "sha256_in_prefix": "3573a8aaa1f41a6e8831c140371adeec369b07588342aaac0c930abd1346dce1",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "lib/R/library/gplots/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0856d2ac2d0acefbb85570e9b506e589a5eb86ce58ae9fd1e79643887646811f",
+        "sha256_in_prefix": "0856d2ac2d0acefbb85570e9b506e589a5eb86ce58ae9fd1e79643887646811f",
+        "size_in_bytes": 2390
+      },
+      {
+        "_path": "lib/R/library/gplots/NEWS",
+        "path_type": "hardlink",
+        "sha256": "d39d58149e3d8d18212968deb42483938a9dd16560843525377e300bf75da13f",
+        "sha256_in_prefix": "d39d58149e3d8d18212968deb42483938a9dd16560843525377e300bf75da13f",
+        "size_in_bytes": 17373
+      },
+      {
+        "_path": "lib/R/library/gplots/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "2e9f91f538bbcb74941e2a555261403b2b98d6fb287feefad5633afc1e34b409",
+        "sha256_in_prefix": "2e9f91f538bbcb74941e2a555261403b2b98d6fb287feefad5633afc1e34b409",
+        "size_in_bytes": 17196
+      },
+      {
+        "_path": "lib/R/library/gplots/R/gplots",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/gplots/R/gplots.rdb",
+        "path_type": "hardlink",
+        "sha256": "92bca9fa211c16f9454aae0e011336de2481de490e8a8aec68349e0480eb828f",
+        "sha256_in_prefix": "92bca9fa211c16f9454aae0e011336de2481de490e8a8aec68349e0480eb828f",
+        "size_in_bytes": 204102
+      },
+      {
+        "_path": "lib/R/library/gplots/R/gplots.rdx",
+        "path_type": "hardlink",
+        "sha256": "dc7cb347f3276ce1270aa3e66763d45063387eba1ff4806a1074aacec3b5f3a5",
+        "sha256_in_prefix": "dc7cb347f3276ce1270aa3e66763d45063387eba1ff4806a1074aacec3b5f3a5",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "lib/R/library/gplots/TODO",
+        "path_type": "hardlink",
+        "sha256": "61139394efb8a23977cf11164c9b1a492c58636f5bb303b8882a4ef362773630",
+        "sha256_in_prefix": "61139394efb8a23977cf11164c9b1a492c58636f5bb303b8882a4ef362773630",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "lib/R/library/gplots/data/rtPCR.rda",
+        "path_type": "hardlink",
+        "sha256": "ad31a3a2e297f6be0d7e83864031d8253fd5941a4cd988f7224d8f7cb2ea7cff",
+        "sha256_in_prefix": "ad31a3a2e297f6be0d7e83864031d8253fd5941a4cd988f7224d8f7cb2ea7cff",
+        "size_in_bytes": 27760
+      },
+      {
+        "_path": "lib/R/library/gplots/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "18c2a748ade06ae1619ad23a806cf58ca841d282a3be67b2eefdba2688b557aa",
+        "sha256_in_prefix": "18c2a748ade06ae1619ad23a806cf58ca841d282a3be67b2eefdba2688b557aa",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "lib/R/library/gplots/doc/venn.R",
+        "path_type": "hardlink",
+        "sha256": "431b14ca7d057d39bb5aa70078df843d36dc4b7a846239d2a7e062d77d3ef81b",
+        "sha256_in_prefix": "431b14ca7d057d39bb5aa70078df843d36dc4b7a846239d2a7e062d77d3ef81b",
+        "size_in_bytes": 687
+      },
+      {
+        "_path": "lib/R/library/gplots/doc/venn.Rnw",
+        "path_type": "hardlink",
+        "sha256": "91658eb81e3700c2eaa48d3b7c37bfaef9d58eedaf550e1af9c0ba7dab5befd8",
+        "sha256_in_prefix": "91658eb81e3700c2eaa48d3b7c37bfaef9d58eedaf550e1af9c0ba7dab5befd8",
+        "size_in_bytes": 2450
+      },
+      {
+        "_path": "lib/R/library/gplots/doc/venn.pdf",
+        "path_type": "hardlink",
+        "sha256": "1a77ff07332e5971bae3fb3706c3bdeb97f6d5c5eac3964dccda53faf1b925f2",
+        "sha256_in_prefix": "1a77ff07332e5971bae3fb3706c3bdeb97f6d5c5eac3964dccda53faf1b925f2",
+        "size_in_bytes": 183426
+      },
+      {
+        "_path": "lib/R/library/gplots/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "9206b3d5cfd14531e22b85ee84a72ee9b66e0db4257349b8ac0041b26b64e517",
+        "sha256_in_prefix": "9206b3d5cfd14531e22b85ee84a72ee9b66e0db4257349b8ac0041b26b64e517",
+        "size_in_bytes": 1058
+      },
+      {
+        "_path": "lib/R/library/gplots/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a9b8a614c07cf2dc395e5eed0fb1818787bff90dede8b52ab7316f101e6dffe7",
+        "sha256_in_prefix": "a9b8a614c07cf2dc395e5eed0fb1818787bff90dede8b52ab7316f101e6dffe7",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "lib/R/library/gplots/help/gplots.rdb",
+        "path_type": "hardlink",
+        "sha256": "1625caa723292b1b9e6c7338db118f8f95e9346af4165490816692a7503d5160",
+        "sha256_in_prefix": "1625caa723292b1b9e6c7338db118f8f95e9346af4165490816692a7503d5160",
+        "size_in_bytes": 147215
+      },
+      {
+        "_path": "lib/R/library/gplots/help/gplots.rdx",
+        "path_type": "hardlink",
+        "sha256": "ff5dd3ceb01041400eeeead462e4f475767e111e8ba5995f204c205c24f27408",
+        "sha256_in_prefix": "ff5dd3ceb01041400eeeead462e4f475767e111e8ba5995f204c205c24f27408",
+        "size_in_bytes": 761
+      },
+      {
+        "_path": "lib/R/library/gplots/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "cd3f6d2d6a01d1827e452cf748b77634197d13ed16bdb2a210d907290cd862c5",
+        "sha256_in_prefix": "cd3f6d2d6a01d1827e452cf748b77634197d13ed16bdb2a210d907290cd862c5",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "lib/R/library/gplots/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "bca8a1719d7088b4c4ad98f888e4a45e9cd94d8e9bc5e77ccfaf7fa8c5388c3f",
+        "sha256_in_prefix": "bca8a1719d7088b4c4ad98f888e4a45e9cd94d8e9bc5e77ccfaf7fa8c5388c3f",
+        "size_in_bytes": 7902
+      },
+      {
+        "_path": "lib/R/library/gplots/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a7441a642b5394570ef11ea374cf61adbe8d94c732574b215230950c5a48371c",
+  "size": 617827,
+  "subdir": "noarch",
+  "timestamp": 1606579207000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/r-gplots-3.1.1-r36hc72bb7e_0.tar.bz2",
+  "version": "3.1.1"
+}

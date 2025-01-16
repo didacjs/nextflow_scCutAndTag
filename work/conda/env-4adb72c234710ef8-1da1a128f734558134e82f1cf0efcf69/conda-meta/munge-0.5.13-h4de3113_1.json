@@ -1,0 +1,310 @@
+{
+  "build": "h4de3113_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "libgcc-ng >=9.4.0",
+    "openssl >=1.1.1l,<1.1.2a",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/munge-0.5.13-h4de3113_1",
+  "files": [
+    "bin/munge",
+    "bin/remunge",
+    "bin/unmunge",
+    "etc/rc.d/init.d/munge",
+    "etc/sysconfig/munge",
+    "include/munge.h",
+    "lib/libmunge.a",
+    "lib/libmunge.so",
+    "lib/libmunge.so.2",
+    "lib/libmunge.so.2.0.0",
+    "lib/pkgconfig/munge.pc",
+    "lib/systemd/system/munge.service",
+    "lib/tmpfiles.d/munge.conf",
+    "sbin/munged",
+    "share/man/man1/munge.1",
+    "share/man/man1/remunge.1",
+    "share/man/man1/unmunge.1",
+    "share/man/man3/munge.3",
+    "share/man/man3/munge_ctx.3",
+    "share/man/man3/munge_ctx_copy.3",
+    "share/man/man3/munge_ctx_create.3",
+    "share/man/man3/munge_ctx_destroy.3",
+    "share/man/man3/munge_ctx_get.3",
+    "share/man/man3/munge_ctx_set.3",
+    "share/man/man3/munge_ctx_strerror.3",
+    "share/man/man3/munge_decode.3",
+    "share/man/man3/munge_encode.3",
+    "share/man/man3/munge_enum.3",
+    "share/man/man3/munge_enum_int_to_str.3",
+    "share/man/man3/munge_enum_is_valid.3",
+    "share/man/man3/munge_enum_str_to_int.3",
+    "share/man/man3/munge_strerror.3",
+    "share/man/man7/munge.7",
+    "share/man/man8/munged.8"
+  ],
+  "fn": "munge-0.5.13-h4de3113_1.tar.bz2",
+  "license": "LGPL-3.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/munge-0.5.13-h4de3113_1",
+    "type": 1
+  },
+  "md5": "72375051558b668406def3e0c4e97a6c",
+  "name": "munge",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/munge-0.5.13-h4de3113_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/munge",
+        "path_type": "hardlink",
+        "sha256": "7931b077c19617b490075c9f5627e4cebfbc3b57340fd09ffe5bf03b3752dd3b",
+        "sha256_in_prefix": "7931b077c19617b490075c9f5627e4cebfbc3b57340fd09ffe5bf03b3752dd3b",
+        "size_in_bytes": 37192
+      },
+      {
+        "_path": "bin/remunge",
+        "path_type": "hardlink",
+        "sha256": "d663a46f717cdf904b24c7aff3d39ecb1459836c58c4323853436c1c8d064951",
+        "sha256_in_prefix": "d663a46f717cdf904b24c7aff3d39ecb1459836c58c4323853436c1c8d064951",
+        "size_in_bytes": 50632
+      },
+      {
+        "_path": "bin/unmunge",
+        "path_type": "hardlink",
+        "sha256": "f01cb7f43d86dc36fb0454b52f6378e9b7d96e6f202b1c98619599e63416f2f1",
+        "sha256_in_prefix": "f01cb7f43d86dc36fb0454b52f6378e9b7d96e6f202b1c98619599e63416f2f1",
+        "size_in_bytes": 36880
+      },
+      {
+        "_path": "etc/rc.d/init.d/munge",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "698f6f8dea302196aa15117578ac670a5c1e735be65cdea260636d8fdeef22ba",
+        "sha256_in_prefix": "22150245ccfcb61bdd40098ca7e5b385bfffb61aabf2cc8c519c22cb809e7d1e",
+        "size_in_bytes": 16085
+      },
+      {
+        "_path": "etc/sysconfig/munge",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "293aa1165d1c956eed0ea422989ea2f0c53fd767d41700f49fec0f1beec56147",
+        "sha256_in_prefix": "c8bc424461ecae0b45d143a6fa9fcdff44330806202f80673f36cf28242d82a2",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "include/munge.h",
+        "path_type": "hardlink",
+        "sha256": "80d1ab00e0d90d352a7ba556d5497308ec8e5251dc1b7ecd2abe05e30c0a56f4",
+        "sha256_in_prefix": "80d1ab00e0d90d352a7ba556d5497308ec8e5251dc1b7ecd2abe05e30c0a56f4",
+        "size_in_bytes": 13760
+      },
+      {
+        "_path": "lib/libmunge.a",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "7e3001f873883451d29e2cbd55dc012e54a29c509a1fa0ad3669f2583921460d",
+        "sha256_in_prefix": "eef6e36f01792892734b65d23e1d1b274d5e9b554944c8fe7ad9608352f514b5",
+        "size_in_bytes": 83830
+      },
+      {
+        "_path": "lib/libmunge.so",
+        "path_type": "softlink",
+        "sha256": "12b5f1fa8a7ef42da42099a79078179121913bbff69477d9a882f0ca92a9a0cc",
+        "size_in_bytes": 39176
+      },
+      {
+        "_path": "lib/libmunge.so.2",
+        "path_type": "softlink",
+        "sha256": "12b5f1fa8a7ef42da42099a79078179121913bbff69477d9a882f0ca92a9a0cc",
+        "size_in_bytes": 39176
+      },
+      {
+        "_path": "lib/libmunge.so.2.0.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "12b5f1fa8a7ef42da42099a79078179121913bbff69477d9a882f0ca92a9a0cc",
+        "sha256_in_prefix": "a993d47ec458dfcc7f31fca1b24a230eb967a9d7aab706bccb14f55b29bd761f",
+        "size_in_bytes": 39176
+      },
+      {
+        "_path": "lib/pkgconfig/munge.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "f02724ff0d08e4e3a6bcbbe20717827b659bd47882676ed16fda390a1106ca68",
+        "sha256_in_prefix": "69046d5db5d63f3b59834d022c392cbbb0605ee7a931fd1ba4dd6cef630fc62e",
+        "size_in_bytes": 1236
+      },
+      {
+        "_path": "lib/systemd/system/munge.service",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8aedd95ae69f1643795ba8541b543e812db80c0c33ea23d0fdc288b2acdf1100",
+        "sha256_in_prefix": "6f4433fb952afd36702657ccd57a5eaddfa114a6e9f76bebd97af538e668a107",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "lib/tmpfiles.d/munge.conf",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e3da959a1543d2e33fdfaa8785f2209db4b61525efbd7a4d656d57a82b1634e6",
+        "sha256_in_prefix": "ec68d100dfb9ffd744b2ffc5410f8a8adf05761af0b85ff6ecc99c04ca5023e9",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "sbin/munged",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/munge_1632386913048/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "472fbd187fd49400639296daf1350cf89c09c058a4cef3cc9e76534b6911065c",
+        "sha256_in_prefix": "30ffe0c3d2798f5ebb26d15799fe86beb8bd4bb295e5ed2acbd765f4df73c7f4",
+        "size_in_bytes": 127248
+      },
+      {
+        "_path": "share/man/man1/munge.1",
+        "path_type": "hardlink",
+        "sha256": "7b9c8db86425edc6e56fc1755f6a8bb187d47c8cde4dfd1075fa1135d7bcdd1c",
+        "sha256_in_prefix": "7b9c8db86425edc6e56fc1755f6a8bb187d47c8cde4dfd1075fa1135d7bcdd1c",
+        "size_in_bytes": 5334
+      },
+      {
+        "_path": "share/man/man1/remunge.1",
+        "path_type": "hardlink",
+        "sha256": "49a143eba5a13510ffdd1a012b43b470915fd72e21e9f602d861f7102e39c00e",
+        "sha256_in_prefix": "49a143eba5a13510ffdd1a012b43b470915fd72e21e9f602d861f7102e39c00e",
+        "size_in_bytes": 5925
+      },
+      {
+        "_path": "share/man/man1/unmunge.1",
+        "path_type": "hardlink",
+        "sha256": "f506faafc4132d0976ebae6a067448aab24f0a38152a4f5070f8e83e8406c7ae",
+        "sha256_in_prefix": "f506faafc4132d0976ebae6a067448aab24f0a38152a4f5070f8e83e8406c7ae",
+        "size_in_bytes": 5161
+      },
+      {
+        "_path": "share/man/man3/munge.3",
+        "path_type": "hardlink",
+        "sha256": "c8ebf0beb46e839232c9e33d6f9b85f0bb9f848703e3f7faab758ebe4a8fd331",
+        "sha256_in_prefix": "c8ebf0beb46e839232c9e33d6f9b85f0bb9f848703e3f7faab758ebe4a8fd331",
+        "size_in_bytes": 7962
+      },
+      {
+        "_path": "share/man/man3/munge_ctx.3",
+        "path_type": "hardlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "sha256_in_prefix": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_ctx_copy.3",
+        "path_type": "softlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_ctx_create.3",
+        "path_type": "softlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_ctx_destroy.3",
+        "path_type": "softlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_ctx_get.3",
+        "path_type": "softlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_ctx_set.3",
+        "path_type": "softlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_ctx_strerror.3",
+        "path_type": "softlink",
+        "sha256": "91e5dde65914cdb44a3870b023f97cd8518fdb3b1975f22e5ded29a03e9337e7",
+        "size_in_bytes": 14454
+      },
+      {
+        "_path": "share/man/man3/munge_decode.3",
+        "path_type": "softlink",
+        "sha256": "c8ebf0beb46e839232c9e33d6f9b85f0bb9f848703e3f7faab758ebe4a8fd331",
+        "size_in_bytes": 7962
+      },
+      {
+        "_path": "share/man/man3/munge_encode.3",
+        "path_type": "softlink",
+        "sha256": "c8ebf0beb46e839232c9e33d6f9b85f0bb9f848703e3f7faab758ebe4a8fd331",
+        "size_in_bytes": 7962
+      },
+      {
+        "_path": "share/man/man3/munge_enum.3",
+        "path_type": "hardlink",
+        "sha256": "7917ae6a70a9a028ec08a7f563abdaaf10a62601bc68e7674a42261ed7eb0f7d",
+        "sha256_in_prefix": "7917ae6a70a9a028ec08a7f563abdaaf10a62601bc68e7674a42261ed7eb0f7d",
+        "size_in_bytes": 4850
+      },
+      {
+        "_path": "share/man/man3/munge_enum_int_to_str.3",
+        "path_type": "softlink",
+        "sha256": "7917ae6a70a9a028ec08a7f563abdaaf10a62601bc68e7674a42261ed7eb0f7d",
+        "size_in_bytes": 4850
+      },
+      {
+        "_path": "share/man/man3/munge_enum_is_valid.3",
+        "path_type": "softlink",
+        "sha256": "7917ae6a70a9a028ec08a7f563abdaaf10a62601bc68e7674a42261ed7eb0f7d",
+        "size_in_bytes": 4850
+      },
+      {
+        "_path": "share/man/man3/munge_enum_str_to_int.3",
+        "path_type": "softlink",
+        "sha256": "7917ae6a70a9a028ec08a7f563abdaaf10a62601bc68e7674a42261ed7eb0f7d",
+        "size_in_bytes": 4850
+      },
+      {
+        "_path": "share/man/man3/munge_strerror.3",
+        "path_type": "softlink",
+        "sha256": "c8ebf0beb46e839232c9e33d6f9b85f0bb9f848703e3f7faab758ebe4a8fd331",
+        "size_in_bytes": 7962
+      },
+      {
+        "_path": "share/man/man7/munge.7",
+        "path_type": "hardlink",
+        "sha256": "f022ea11ebd7139847110f451cc70b460da3230ea82a6dfad34e6e97d44e5751",
+        "sha256_in_prefix": "f022ea11ebd7139847110f451cc70b460da3230ea82a6dfad34e6e97d44e5751",
+        "size_in_bytes": 5972
+      },
+      {
+        "_path": "share/man/man8/munged.8",
+        "path_type": "hardlink",
+        "sha256": "a0788c06f797c52770a558481607b7f232ae944372dfe5965cb5c852d08458d9",
+        "sha256_in_prefix": "a0788c06f797c52770a558481607b7f232ae944372dfe5965cb5c852d08458d9",
+        "size_in_bytes": 8134
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f3b53e99c54e921d0d95ef74de5a5e88fb8e30b8a517dd9846d76c2d695dd553",
+  "size": 127943,
+  "subdir": "linux-64",
+  "timestamp": 1632387077000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/munge-0.5.13-h4de3113_1.tar.bz2",
+  "version": "0.5.13"
+}

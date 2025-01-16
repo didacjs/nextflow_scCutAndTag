@@ -1,0 +1,315 @@
+{
+  "build": "r36hcfec24a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-xml2"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-rbibutils-2.1.1-r36hcfec24a_0",
+  "files": [
+    "lib/R/library/rbibutils/DESCRIPTION",
+    "lib/R/library/rbibutils/INDEX",
+    "lib/R/library/rbibutils/Meta/Rd.rds",
+    "lib/R/library/rbibutils/Meta/features.rds",
+    "lib/R/library/rbibutils/Meta/hsearch.rds",
+    "lib/R/library/rbibutils/Meta/links.rds",
+    "lib/R/library/rbibutils/Meta/nsInfo.rds",
+    "lib/R/library/rbibutils/Meta/package.rds",
+    "lib/R/library/rbibutils/NAMESPACE",
+    "lib/R/library/rbibutils/NEWS.md",
+    "lib/R/library/rbibutils/R/rbibutils",
+    "lib/R/library/rbibutils/R/rbibutils.rdb",
+    "lib/R/library/rbibutils/R/rbibutils.rdx",
+    "lib/R/library/rbibutils/R/sysdata.rdb",
+    "lib/R/library/rbibutils/R/sysdata.rdx",
+    "lib/R/library/rbibutils/REFERENCES.bib",
+    "lib/R/library/rbibutils/auto/REFERENCES.el",
+    "lib/R/library/rbibutils/bib/auto/latin1accents_utf8.el",
+    "lib/R/library/rbibutils/bib/auto/latin1accents_utf8c.el",
+    "lib/R/library/rbibutils/bib/cyr_utf8.bib",
+    "lib/R/library/rbibutils/bib/eaf_Grunert01.bib",
+    "lib/R/library/rbibutils/bib/ex0.biblatex",
+    "lib/R/library/rbibutils/bib/ex0.bibtex",
+    "lib/R/library/rbibutils/bib/ex0.xml",
+    "lib/R/library/rbibutils/bib/latin1accents_utf8.bib",
+    "lib/R/library/rbibutils/bib/latin1accents_utf8a.bib",
+    "lib/R/library/rbibutils/bib/latin1accents_utf8b.bib",
+    "lib/R/library/rbibutils/help/AnIndex",
+    "lib/R/library/rbibutils/help/aliases.rds",
+    "lib/R/library/rbibutils/help/paths.rds",
+    "lib/R/library/rbibutils/help/rbibutils.rdb",
+    "lib/R/library/rbibutils/help/rbibutils.rdx",
+    "lib/R/library/rbibutils/html/00Index.html",
+    "lib/R/library/rbibutils/html/R.css",
+    "lib/R/library/rbibutils/libs/rbibutils.so"
+  ],
+  "fn": "r-rbibutils-2.1.1-r36hcfec24a_0.tar.bz2",
+  "license": "GPL-2.0-only",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-rbibutils-2.1.1-r36hcfec24a_0",
+    "type": 1
+  },
+  "md5": "3272c84ff4d340306cfac9beb7941b60",
+  "name": "r-rbibutils",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-rbibutils-2.1.1-r36hcfec24a_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/rbibutils/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "7fc6ef58fe78ddaf69e1147947ef8fa17ef68a83b5c093d6da3f295eabdf8661",
+        "sha256_in_prefix": "7fc6ef58fe78ddaf69e1147947ef8fa17ef68a83b5c093d6da3f295eabdf8661",
+        "size_in_bytes": 2100
+      },
+      {
+        "_path": "lib/R/library/rbibutils/INDEX",
+        "path_type": "hardlink",
+        "sha256": "bfeebd97c48c4adf53e5a96a417cb826706ca8559e17c6affd87ad2e0f7acda3",
+        "sha256_in_prefix": "bfeebd97c48c4adf53e5a96a417cb826706ca8559e17c6affd87ad2e0f7acda3",
+        "size_in_bytes": 228
+      },
+      {
+        "_path": "lib/R/library/rbibutils/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "882f7a8f2218ff6f9d8e225ba64c9d2731aea5248f1cab8eccd664b5556cc906",
+        "sha256_in_prefix": "882f7a8f2218ff6f9d8e225ba64c9d2731aea5248f1cab8eccd664b5556cc906",
+        "size_in_bytes": 385
+      },
+      {
+        "_path": "lib/R/library/rbibutils/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/rbibutils/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "b7e1c06d7dd0736f5da9c3722597afe090436da1ee51b9cf60c7d54965c7fe16",
+        "sha256_in_prefix": "b7e1c06d7dd0736f5da9c3722597afe090436da1ee51b9cf60c7d54965c7fe16",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/R/library/rbibutils/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "fe04cba4a8e6ef3755b7a054f32b6ec78cabf7f9a80dc189bc5a946642bc047b",
+        "sha256_in_prefix": "fe04cba4a8e6ef3755b7a054f32b6ec78cabf7f9a80dc189bc5a946642bc047b",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "lib/R/library/rbibutils/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d68167153bd85d35c06a45f7290170fdda592f917f173568757c3dd671735fca",
+        "sha256_in_prefix": "d68167153bd85d35c06a45f7290170fdda592f917f173568757c3dd671735fca",
+        "size_in_bytes": 360
+      },
+      {
+        "_path": "lib/R/library/rbibutils/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "a91eb80ab1887e35bf6a0689ebd0b078995a3a741e98de9e17cfadf4682afb73",
+        "sha256_in_prefix": "a91eb80ab1887e35bf6a0689ebd0b078995a3a741e98de9e17cfadf4682afb73",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "lib/R/library/rbibutils/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "08886fe01e060f8e44ea54d67691a54432c6218c5abc44ed073a54319390c33e",
+        "sha256_in_prefix": "08886fe01e060f8e44ea54d67691a54432c6218c5abc44ed073a54319390c33e",
+        "size_in_bytes": 285
+      },
+      {
+        "_path": "lib/R/library/rbibutils/NEWS.md",
+        "path_type": "hardlink",
+        "sha256": "3576923eaf3d71c5fff2fdbbfc9d490963068adae2f89b83a38689e293581b78",
+        "sha256_in_prefix": "3576923eaf3d71c5fff2fdbbfc9d490963068adae2f89b83a38689e293581b78",
+        "size_in_bytes": 3825
+      },
+      {
+        "_path": "lib/R/library/rbibutils/R/rbibutils",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/rbibutils/R/rbibutils.rdb",
+        "path_type": "hardlink",
+        "sha256": "620b696dffcda356eff7f3541d764c95d5e0ccb76846582bd76b283330b60877",
+        "sha256_in_prefix": "620b696dffcda356eff7f3541d764c95d5e0ccb76846582bd76b283330b60877",
+        "size_in_bytes": 17022
+      },
+      {
+        "_path": "lib/R/library/rbibutils/R/rbibutils.rdx",
+        "path_type": "hardlink",
+        "sha256": "e20484e2676cef01cf5e0f22609287b276428d0fa0f061323cf97e6fbbe0b3ae",
+        "sha256_in_prefix": "e20484e2676cef01cf5e0f22609287b276428d0fa0f061323cf97e6fbbe0b3ae",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "lib/R/library/rbibutils/R/sysdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "d207f584ee883300954c3e1a19baca29582f9e49a418218c4e8d652a929cc731",
+        "sha256_in_prefix": "d207f584ee883300954c3e1a19baca29582f9e49a418218c4e8d652a929cc731",
+        "size_in_bytes": 2542
+      },
+      {
+        "_path": "lib/R/library/rbibutils/R/sysdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "77fed97e8e933639988c385baf29a0b30dbad3995816b8439db9e6448c9b1e80",
+        "sha256_in_prefix": "77fed97e8e933639988c385baf29a0b30dbad3995816b8439db9e6448c9b1e80",
+        "size_in_bytes": 157
+      },
+      {
+        "_path": "lib/R/library/rbibutils/REFERENCES.bib",
+        "path_type": "hardlink",
+        "sha256": "927fc929417c2b057abaa09c96262f110ba8122fce4a8a40aed43bdfc946186b",
+        "sha256_in_prefix": "927fc929417c2b057abaa09c96262f110ba8122fce4a8a40aed43bdfc946186b",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "lib/R/library/rbibutils/auto/REFERENCES.el",
+        "path_type": "hardlink",
+        "sha256": "1b241fc9d29ce4956542fa11f226db614823079c770a255ef2772c596dbb7197",
+        "sha256_in_prefix": "1b241fc9d29ce4956542fa11f226db614823079c770a255ef2772c596dbb7197",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/auto/latin1accents_utf8.el",
+        "path_type": "hardlink",
+        "sha256": "c3383cdc1c14948227c223677a774ae7800d32ec978410ba1506e017848c0ee8",
+        "sha256_in_prefix": "c3383cdc1c14948227c223677a774ae7800d32ec978410ba1506e017848c0ee8",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/auto/latin1accents_utf8c.el",
+        "path_type": "hardlink",
+        "sha256": "1a4c1ecb7afb216a627a7eb2b43e98c13764c9c1be9684f70a656b4710481e9d",
+        "sha256_in_prefix": "1a4c1ecb7afb216a627a7eb2b43e98c13764c9c1be9684f70a656b4710481e9d",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/cyr_utf8.bib",
+        "path_type": "hardlink",
+        "sha256": "f3690a89a63d797940638f52b20310fbb9c18f0fac1e59cfd8e4257d84aced7e",
+        "sha256_in_prefix": "f3690a89a63d797940638f52b20310fbb9c18f0fac1e59cfd8e4257d84aced7e",
+        "size_in_bytes": 402
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/eaf_Grunert01.bib",
+        "path_type": "hardlink",
+        "sha256": "79dcd28e5bb1252b62effa491925761a98f2913340b24e425a734d78c609bd9a",
+        "sha256_in_prefix": "79dcd28e5bb1252b62effa491925761a98f2913340b24e425a734d78c609bd9a",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/ex0.biblatex",
+        "path_type": "hardlink",
+        "sha256": "421a117dd2276cbb12a8dca4873f8960d19f1d9a6bec64495b7ea448a1f4a7b4",
+        "sha256_in_prefix": "421a117dd2276cbb12a8dca4873f8960d19f1d9a6bec64495b7ea448a1f4a7b4",
+        "size_in_bytes": 908
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/ex0.bibtex",
+        "path_type": "hardlink",
+        "sha256": "20abc73fc6dabd2a102a5f0c321445821a4f03fe2a77324312efa1cf38527c1d",
+        "sha256_in_prefix": "20abc73fc6dabd2a102a5f0c321445821a4f03fe2a77324312efa1cf38527c1d",
+        "size_in_bytes": 743
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/ex0.xml",
+        "path_type": "hardlink",
+        "sha256": "ba6e934338dde66fa36a77d9034b4e47e7ff107f05873f0314a459a420bcc7ee",
+        "sha256_in_prefix": "ba6e934338dde66fa36a77d9034b4e47e7ff107f05873f0314a459a420bcc7ee",
+        "size_in_bytes": 3883
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/latin1accents_utf8.bib",
+        "path_type": "hardlink",
+        "sha256": "c5f8968363600f534886bfa26a31a96baf36bba6bed38fd86d5ed80e080fe3b5",
+        "sha256_in_prefix": "c5f8968363600f534886bfa26a31a96baf36bba6bed38fd86d5ed80e080fe3b5",
+        "size_in_bytes": 391
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/latin1accents_utf8a.bib",
+        "path_type": "hardlink",
+        "sha256": "3e88b57194ac30ed5d2155f11de31f8d6e54e2a6daa921eddcada079c94577d0",
+        "sha256_in_prefix": "3e88b57194ac30ed5d2155f11de31f8d6e54e2a6daa921eddcada079c94577d0",
+        "size_in_bytes": 395
+      },
+      {
+        "_path": "lib/R/library/rbibutils/bib/latin1accents_utf8b.bib",
+        "path_type": "hardlink",
+        "sha256": "faffe5637e4574fafa9eb60f7a2f92bfdf8ee3b29bec8d02dfc4d1bd5878d639",
+        "sha256_in_prefix": "faffe5637e4574fafa9eb60f7a2f92bfdf8ee3b29bec8d02dfc4d1bd5878d639",
+        "size_in_bytes": 398
+      },
+      {
+        "_path": "lib/R/library/rbibutils/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "114f3bff4bb5e63c9451948999377aed174ad5eb5d6911109e946c78c1b83462",
+        "sha256_in_prefix": "114f3bff4bb5e63c9451948999377aed174ad5eb5d6911109e946c78c1b83462",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "lib/R/library/rbibutils/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "4c63682969ed7d88335abfb495f7b36c2a03244c8be2db9e268b26ae2a74d408",
+        "sha256_in_prefix": "4c63682969ed7d88335abfb495f7b36c2a03244c8be2db9e268b26ae2a74d408",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/R/library/rbibutils/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "a42dcb633b130d853cf185a244b28a0fbb62c06852f99f5d515b5162ef35576f",
+        "sha256_in_prefix": "a42dcb633b130d853cf185a244b28a0fbb62c06852f99f5d515b5162ef35576f",
+        "size_in_bytes": 200
+      },
+      {
+        "_path": "lib/R/library/rbibutils/help/rbibutils.rdb",
+        "path_type": "hardlink",
+        "sha256": "f34de084b5d236112a15d4faee3ae5fda19bbde21b02dbd6c8624277b6c90f56",
+        "sha256_in_prefix": "f34de084b5d236112a15d4faee3ae5fda19bbde21b02dbd6c8624277b6c90f56",
+        "size_in_bytes": 28932
+      },
+      {
+        "_path": "lib/R/library/rbibutils/help/rbibutils.rdx",
+        "path_type": "hardlink",
+        "sha256": "72090007cff0676f918940c73e693ba29cb32946e634d1966f8699b15db2767c",
+        "sha256_in_prefix": "72090007cff0676f918940c73e693ba29cb32946e634d1966f8699b15db2767c",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "lib/R/library/rbibutils/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "e18cf455c9aebd51bb1f5b5df71876ba9e55e2a1277bae13202454c2daba3049",
+        "sha256_in_prefix": "e18cf455c9aebd51bb1f5b5df71876ba9e55e2a1277bae13202454c2daba3049",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/R/library/rbibutils/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/rbibutils/libs/rbibutils.so",
+        "path_type": "hardlink",
+        "sha256": "237723a1745cbda4ab206d09a2589b736edabaf2afae2157f87d34b7661fa750",
+        "sha256_in_prefix": "237723a1745cbda4ab206d09a2589b736edabaf2afae2157f87d34b7661fa750",
+        "size_in_bytes": 2548888
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d01ad250f2325b77f146e26efe78794da5a8170ade1af46ac93f6c1170fed3c7",
+  "size": 737456,
+  "subdir": "linux-64",
+  "timestamp": 1619756450000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-rbibutils-2.1.1-r36hcfec24a_0.tar.bz2",
+  "version": "2.1.1"
+}

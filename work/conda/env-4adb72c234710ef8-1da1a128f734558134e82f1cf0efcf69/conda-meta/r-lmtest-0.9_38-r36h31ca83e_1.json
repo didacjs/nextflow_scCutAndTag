@@ -1,0 +1,285 @@
+{
+  "build": "r36h31ca83e_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libgfortran-ng",
+    "libgfortran4 >=7.5.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-zoo"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-lmtest-0.9_38-r36h31ca83e_1",
+  "files": [
+    "lib/R/library/lmtest/CITATION",
+    "lib/R/library/lmtest/DESCRIPTION",
+    "lib/R/library/lmtest/INDEX",
+    "lib/R/library/lmtest/Meta/Rd.rds",
+    "lib/R/library/lmtest/Meta/data.rds",
+    "lib/R/library/lmtest/Meta/features.rds",
+    "lib/R/library/lmtest/Meta/hsearch.rds",
+    "lib/R/library/lmtest/Meta/links.rds",
+    "lib/R/library/lmtest/Meta/nsInfo.rds",
+    "lib/R/library/lmtest/Meta/package.rds",
+    "lib/R/library/lmtest/Meta/vignette.rds",
+    "lib/R/library/lmtest/NAMESPACE",
+    "lib/R/library/lmtest/NEWS",
+    "lib/R/library/lmtest/R/lmtest",
+    "lib/R/library/lmtest/R/lmtest.rdb",
+    "lib/R/library/lmtest/R/lmtest.rdx",
+    "lib/R/library/lmtest/data/Rdata.rdb",
+    "lib/R/library/lmtest/data/Rdata.rds",
+    "lib/R/library/lmtest/data/Rdata.rdx",
+    "lib/R/library/lmtest/doc/index.html",
+    "lib/R/library/lmtest/doc/lmtest-intro.R",
+    "lib/R/library/lmtest/doc/lmtest-intro.Rnw",
+    "lib/R/library/lmtest/doc/lmtest-intro.pdf",
+    "lib/R/library/lmtest/help/AnIndex",
+    "lib/R/library/lmtest/help/aliases.rds",
+    "lib/R/library/lmtest/help/lmtest.rdb",
+    "lib/R/library/lmtest/help/lmtest.rdx",
+    "lib/R/library/lmtest/help/paths.rds",
+    "lib/R/library/lmtest/html/00Index.html",
+    "lib/R/library/lmtest/html/R.css",
+    "lib/R/library/lmtest/libs/lmtest.so"
+  ],
+  "fn": "r-lmtest-0.9_38-r36h31ca83e_1.tar.bz2",
+  "license": "GPL-2 | GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-lmtest-0.9_38-r36h31ca83e_1",
+    "type": 1
+  },
+  "md5": "d9ef09838c2b9923969484289f36659a",
+  "name": "r-lmtest",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-lmtest-0.9_38-r36h31ca83e_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/lmtest/CITATION",
+        "path_type": "hardlink",
+        "sha256": "5f0b76cb8fc449a034fcded56951e0c07c7aabe3ffa2d3250f1b4bde0595a92b",
+        "sha256_in_prefix": "5f0b76cb8fc449a034fcded56951e0c07c7aabe3ffa2d3250f1b4bde0595a92b",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "lib/R/library/lmtest/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "b2b48600d76cbb0885b1e3a2f2764c7d6b587d6b6620fffab03df366449fea40",
+        "sha256_in_prefix": "b2b48600d76cbb0885b1e3a2f2764c7d6b587d6b6620fffab03df366449fea40",
+        "size_in_bytes": 1659
+      },
+      {
+        "_path": "lib/R/library/lmtest/INDEX",
+        "path_type": "hardlink",
+        "sha256": "44d8ecb19d19f41141b2844670b804d560ad90dbfb1e438ec9ad873939f9cc9e",
+        "sha256_in_prefix": "44d8ecb19d19f41141b2844670b804d560ad90dbfb1e438ec9ad873939f9cc9e",
+        "size_in_bytes": 1403
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "d73e9005d269d0d300fc116615a17d16405e9463cea940c34241d5c35d924257",
+        "sha256_in_prefix": "d73e9005d269d0d300fc116615a17d16405e9463cea940c34241d5c35d924257",
+        "size_in_bytes": 1264
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "89f315450817b8c621a96f9abe0aa45dfa68d2bf43190f3fea4b0c77dc32f47f",
+        "sha256_in_prefix": "89f315450817b8c621a96f9abe0aa45dfa68d2bf43190f3fea4b0c77dc32f47f",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "dd324efebc3311ece1bfdff8e84e3977b8c70e42f365594ea1184e212bcc8039",
+        "sha256_in_prefix": "dd324efebc3311ece1bfdff8e84e3977b8c70e42f365594ea1184e212bcc8039",
+        "size_in_bytes": 1295
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ef1a5d9db21b63e2faa6a09602191874bf9df3cf5c11475728fdff71e1f553f5",
+        "sha256_in_prefix": "ef1a5d9db21b63e2faa6a09602191874bf9df3cf5c11475728fdff71e1f553f5",
+        "size_in_bytes": 650
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "fdc883871fe11cc033a1b6649520318c43919e2e65372965c3d40936b6441fb5",
+        "sha256_in_prefix": "fdc883871fe11cc033a1b6649520318c43919e2e65372965c3d40936b6441fb5",
+        "size_in_bytes": 480
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "55115e0c446dcd32650393d9689e46308915b298e24d4cc9d93262f0f029d4b9",
+        "sha256_in_prefix": "55115e0c446dcd32650393d9689e46308915b298e24d4cc9d93262f0f029d4b9",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "lib/R/library/lmtest/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "0f50b8a4c00fe598613e500226285aca063f8d0d7df6803d474248d9d9ef4b23",
+        "sha256_in_prefix": "0f50b8a4c00fe598613e500226285aca063f8d0d7df6803d474248d9d9ef4b23",
+        "size_in_bytes": 292
+      },
+      {
+        "_path": "lib/R/library/lmtest/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "84d47a8775e6690ef371eca93f8658613a48d4ea1aeb726bfbe4ebaf27addbbe",
+        "sha256_in_prefix": "84d47a8775e6690ef371eca93f8658613a48d4ea1aeb726bfbe4ebaf27addbbe",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/R/library/lmtest/NEWS",
+        "path_type": "hardlink",
+        "sha256": "d05d131a3ba306ede378a646a499b1d567730c068608f661c406af45fcf306d9",
+        "sha256_in_prefix": "d05d131a3ba306ede378a646a499b1d567730c068608f661c406af45fcf306d9",
+        "size_in_bytes": 7422
+      },
+      {
+        "_path": "lib/R/library/lmtest/R/lmtest",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/lmtest/R/lmtest.rdb",
+        "path_type": "hardlink",
+        "sha256": "1982b37618dc0d7a2bbacd4692391db2308037f338d914e1ecaf16b9124748b2",
+        "sha256_in_prefix": "1982b37618dc0d7a2bbacd4692391db2308037f338d914e1ecaf16b9124748b2",
+        "size_in_bytes": 109350
+      },
+      {
+        "_path": "lib/R/library/lmtest/R/lmtest.rdx",
+        "path_type": "hardlink",
+        "sha256": "e8208d6b5f03bbe2967e1b7e84614347c1b6690a889345d2f4fac09ba7c1dc2c",
+        "sha256_in_prefix": "e8208d6b5f03bbe2967e1b7e84614347c1b6690a889345d2f4fac09ba7c1dc2c",
+        "size_in_bytes": 767
+      },
+      {
+        "_path": "lib/R/library/lmtest/data/Rdata.rdb",
+        "path_type": "hardlink",
+        "sha256": "6f91c74ba6fc9e25cae3f8b7b3761f38a2e250505cec3241902166dff1557d3e",
+        "sha256_in_prefix": "6f91c74ba6fc9e25cae3f8b7b3761f38a2e250505cec3241902166dff1557d3e",
+        "size_in_bytes": 31535
+      },
+      {
+        "_path": "lib/R/library/lmtest/data/Rdata.rds",
+        "path_type": "hardlink",
+        "sha256": "2445d3b89175c209b00899abf20447577de1cd8e84f39397459901d232f173e3",
+        "sha256_in_prefix": "2445d3b89175c209b00899abf20447577de1cd8e84f39397459901d232f173e3",
+        "size_in_bytes": 270
+      },
+      {
+        "_path": "lib/R/library/lmtest/data/Rdata.rdx",
+        "path_type": "hardlink",
+        "sha256": "ba48fc81be662722cc678041feccdb4d39a165d53d4587a811bdaa55dfb2f589",
+        "sha256_in_prefix": "ba48fc81be662722cc678041feccdb4d39a165d53d4587a811bdaa55dfb2f589",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "lib/R/library/lmtest/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "420de2bc4bca251c5a5b37f64d5f23d6b49efc96fdca0cedf97dbbab881e633f",
+        "sha256_in_prefix": "420de2bc4bca251c5a5b37f64d5f23d6b49efc96fdca0cedf97dbbab881e633f",
+        "size_in_bytes": 1376
+      },
+      {
+        "_path": "lib/R/library/lmtest/doc/lmtest-intro.R",
+        "path_type": "hardlink",
+        "sha256": "40e9d554dc86ded9d4de01473340d4d73866be8dab95e7950a53009e4ad2d595",
+        "sha256_in_prefix": "40e9d554dc86ded9d4de01473340d4d73866be8dab95e7950a53009e4ad2d595",
+        "size_in_bytes": 3692
+      },
+      {
+        "_path": "lib/R/library/lmtest/doc/lmtest-intro.Rnw",
+        "path_type": "hardlink",
+        "sha256": "aca737cc814cabc5576b4c16c4bb9064435323a59aba2233d0b73557bd1f8c53",
+        "sha256_in_prefix": "aca737cc814cabc5576b4c16c4bb9064435323a59aba2233d0b73557bd1f8c53",
+        "size_in_bytes": 12218
+      },
+      {
+        "_path": "lib/R/library/lmtest/doc/lmtest-intro.pdf",
+        "path_type": "hardlink",
+        "sha256": "2b6456ca75d17920cd35a477f1cfd33d4aab303383e7c94aa56768138750e00b",
+        "sha256_in_prefix": "2b6456ca75d17920cd35a477f1cfd33d4aab303383e7c94aa56768138750e00b",
+        "size_in_bytes": 132364
+      },
+      {
+        "_path": "lib/R/library/lmtest/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "6b64ece7594af68d6e1ad0649354e6b138c1eb328d80bc75913df6dba6f8fa7a",
+        "sha256_in_prefix": "6b64ece7594af68d6e1ad0649354e6b138c1eb328d80bc75913df6dba6f8fa7a",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "lib/R/library/lmtest/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "e6635c2ec3bc636d63e177dd1372f7f21eaf3a44f12524a946c80b3fa7f3b0e1",
+        "sha256_in_prefix": "e6635c2ec3bc636d63e177dd1372f7f21eaf3a44f12524a946c80b3fa7f3b0e1",
+        "size_in_bytes": 513
+      },
+      {
+        "_path": "lib/R/library/lmtest/help/lmtest.rdb",
+        "path_type": "hardlink",
+        "sha256": "e955f3e7b78244b80bebdcc389b124fa768b1e2cb0aea4388404cdcb0ea396b8",
+        "sha256_in_prefix": "e955f3e7b78244b80bebdcc389b124fa768b1e2cb0aea4388404cdcb0ea396b8",
+        "size_in_bytes": 104936
+      },
+      {
+        "_path": "lib/R/library/lmtest/help/lmtest.rdx",
+        "path_type": "hardlink",
+        "sha256": "b1cbb46be7a399867eb46431fc2c8f6be63c8117ccaf8216a93a2017de818983",
+        "sha256_in_prefix": "b1cbb46be7a399867eb46431fc2c8f6be63c8117ccaf8216a93a2017de818983",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/R/library/lmtest/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "3b7c59166c625497f01946dcaa3ec1cfdd3be980d2b1663c4b1daf6b161b2a48",
+        "sha256_in_prefix": "3b7c59166c625497f01946dcaa3ec1cfdd3be980d2b1663c4b1daf6b161b2a48",
+        "size_in_bytes": 378
+      },
+      {
+        "_path": "lib/R/library/lmtest/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "9d1fd887b458d5e5d8ef970228f7ac0105bd5047c9937c6674843223e0446f5e",
+        "sha256_in_prefix": "9d1fd887b458d5e5d8ef970228f7ac0105bd5047c9937c6674843223e0446f5e",
+        "size_in_bytes": 7878
+      },
+      {
+        "_path": "lib/R/library/lmtest/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/lmtest/libs/lmtest.so",
+        "path_type": "hardlink",
+        "sha256": "d5415a1bb5f3063755d67ba172371c709a599c7edea485482b8f101898b58567",
+        "sha256_in_prefix": "d5415a1bb5f3063755d67ba172371c709a599c7edea485482b8f101898b58567",
+        "size_in_bytes": 16496
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5697d920d4e5c116026cacb463626aa042b08d709c087cebc17735384af33d18",
+  "size": 419656,
+  "subdir": "linux-64",
+  "timestamp": 1603187973000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-lmtest-0.9_38-r36h31ca83e_1.tar.bz2",
+  "version": "0.9_38"
+}

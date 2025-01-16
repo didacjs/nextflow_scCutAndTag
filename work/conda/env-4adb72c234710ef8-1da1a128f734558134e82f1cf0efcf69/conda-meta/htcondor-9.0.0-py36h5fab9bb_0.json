@@ -1,0 +1,36 @@
+{
+  "build": "py36h5fab9bb_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "htcondor-classads 9.0.0 hd3c618e_0",
+    "htcondor-utils 9.0.0 hc20c069_0",
+    "libcondor_utils 9.0.0 h722fe0d_0",
+    "python >=3.6,<3.7.0a0",
+    "python-htcondor 9.0.0 py36hb9b8252_0",
+    "python_abi 3.6.* *_cp36m"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/htcondor-9.0.0-py36h5fab9bb_0",
+  "files": [],
+  "fn": "htcondor-9.0.0-py36h5fab9bb_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/htcondor-9.0.0-py36h5fab9bb_0",
+    "type": 1
+  },
+  "md5": "6b87c5d2665e94059946a0a6192e4f74",
+  "name": "htcondor",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/htcondor-9.0.0-py36h5fab9bb_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "htcondor",
+  "sha256": "c848c5fc8bad1f776dc73cc5f70b059824db522f87f4ce0a52d65c717e7e051c",
+  "size": 14641,
+  "subdir": "linux-64",
+  "timestamp": 1618501727000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/htcondor-9.0.0-py36h5fab9bb_0.tar.bz2",
+  "version": "9.0.0"
+}

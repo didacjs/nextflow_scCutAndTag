@@ -1,0 +1,262 @@
+{
+  "build": "r36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-s4vectors >=0.24.0,<0.25.0",
+    "bioconductor-biocgenerics >=0.32.0,<0.33.0",
+    "bioconductor-summarizedexperiment >=1.16.0,<1.17.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-singlecellexperiment-1.8.0-r36_0",
+  "files": [
+    "lib/R/library/SingleCellExperiment/DESCRIPTION",
+    "lib/R/library/SingleCellExperiment/INDEX",
+    "lib/R/library/SingleCellExperiment/Meta/Rd.rds",
+    "lib/R/library/SingleCellExperiment/Meta/features.rds",
+    "lib/R/library/SingleCellExperiment/Meta/hsearch.rds",
+    "lib/R/library/SingleCellExperiment/Meta/links.rds",
+    "lib/R/library/SingleCellExperiment/Meta/nsInfo.rds",
+    "lib/R/library/SingleCellExperiment/Meta/package.rds",
+    "lib/R/library/SingleCellExperiment/Meta/vignette.rds",
+    "lib/R/library/SingleCellExperiment/NAMESPACE",
+    "lib/R/library/SingleCellExperiment/NEWS.Rd",
+    "lib/R/library/SingleCellExperiment/R/SingleCellExperiment",
+    "lib/R/library/SingleCellExperiment/R/SingleCellExperiment.rdb",
+    "lib/R/library/SingleCellExperiment/R/SingleCellExperiment.rdx",
+    "lib/R/library/SingleCellExperiment/doc/devel.R",
+    "lib/R/library/SingleCellExperiment/doc/devel.Rmd",
+    "lib/R/library/SingleCellExperiment/doc/devel.html",
+    "lib/R/library/SingleCellExperiment/doc/index.html",
+    "lib/R/library/SingleCellExperiment/doc/intro.R",
+    "lib/R/library/SingleCellExperiment/doc/intro.Rmd",
+    "lib/R/library/SingleCellExperiment/doc/intro.html",
+    "lib/R/library/SingleCellExperiment/help/AnIndex",
+    "lib/R/library/SingleCellExperiment/help/SingleCellExperiment.rdb",
+    "lib/R/library/SingleCellExperiment/help/SingleCellExperiment.rdx",
+    "lib/R/library/SingleCellExperiment/help/aliases.rds",
+    "lib/R/library/SingleCellExperiment/help/paths.rds",
+    "lib/R/library/SingleCellExperiment/html/00Index.html",
+    "lib/R/library/SingleCellExperiment/html/R.css"
+  ],
+  "fn": "bioconductor-singlecellexperiment-1.8.0-r36_0.tar.bz2",
+  "license": "GPL-3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-singlecellexperiment-1.8.0-r36_0",
+    "type": 1
+  },
+  "md5": "88ee3e84b9804b10b1f02b0fe9f9a4b7",
+  "name": "bioconductor-singlecellexperiment",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-singlecellexperiment-1.8.0-r36_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/SingleCellExperiment/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "f607740c5838d5fc2a11ca35a92f2968af332b3e931abceb16dc5d7ce8392c3a",
+        "sha256_in_prefix": "f607740c5838d5fc2a11ca35a92f2968af332b3e931abceb16dc5d7ce8392c3a",
+        "size_in_bytes": 1521
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/INDEX",
+        "path_type": "hardlink",
+        "sha256": "2764382f3481de9dbad90d86ff9da108e0ec053829ec1a776246a94527d93314",
+        "sha256_in_prefix": "2764382f3481de9dbad90d86ff9da108e0ec053829ec1a776246a94527d93314",
+        "size_in_bytes": 1101
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "bab36192aa56ebef0f442f2164a5879dc076dc96e1ed241114d2e1ee5743865c",
+        "sha256_in_prefix": "bab36192aa56ebef0f442f2164a5879dc076dc96e1ed241114d2e1ee5743865c",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "sha256_in_prefix": "089daaae5486cc1074c39a757afd136d3d84260e0a5f18983d66281ab3463a33",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "90b6930b2d298347a47f6fa18dab732368bd005b7069324e22dba22e7ae263ed",
+        "sha256_in_prefix": "90b6930b2d298347a47f6fa18dab732368bd005b7069324e22dba22e7ae263ed",
+        "size_in_bytes": 1737
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "01959335b346df18d879edd6f288bef364327b1914b2e127d0c9eded65d9cdcc",
+        "sha256_in_prefix": "01959335b346df18d879edd6f288bef364327b1914b2e127d0c9eded65d9cdcc",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "d559d83746bf0b18686a96a8b918266391c6650f75110c180571f9f3d048e01c",
+        "sha256_in_prefix": "d559d83746bf0b18686a96a8b918266391c6650f75110c180571f9f3d048e01c",
+        "size_in_bytes": 1000
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "91a255728e288be0b23147f805bba0a415e6413e82d549b6e0c4c11a58d22935",
+        "sha256_in_prefix": "91a255728e288be0b23147f805bba0a415e6413e82d549b6e0c4c11a58d22935",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "285a9e5b2ae5e66e468fa16bc80aa8cb773752e5abea4479095ce00d9c8d2541",
+        "sha256_in_prefix": "285a9e5b2ae5e66e468fa16bc80aa8cb773752e5abea4479095ce00d9c8d2541",
+        "size_in_bytes": 262
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "0a3d9cba63ce1b60946c2d6285042f3ccc2d9d5fe88ee06df5666922562059b3",
+        "sha256_in_prefix": "0a3d9cba63ce1b60946c2d6285042f3ccc2d9d5fe88ee06df5666922562059b3",
+        "size_in_bytes": 3925
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/NEWS.Rd",
+        "path_type": "hardlink",
+        "sha256": "28486f035a157e3aa785865031a478fbf83838ca2b5e970948193ab72651bac6",
+        "sha256_in_prefix": "28486f035a157e3aa785865031a478fbf83838ca2b5e970948193ab72651bac6",
+        "size_in_bytes": 2045
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/R/SingleCellExperiment",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/R/SingleCellExperiment.rdb",
+        "path_type": "hardlink",
+        "sha256": "399e9e1d80bd8a0e904e6d845d43dce970f715f97baa253db072ac86cc6210c7",
+        "sha256_in_prefix": "399e9e1d80bd8a0e904e6d845d43dce970f715f97baa253db072ac86cc6210c7",
+        "size_in_bytes": 1105487
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/R/SingleCellExperiment.rdx",
+        "path_type": "hardlink",
+        "sha256": "2000494583d66d5d1d763f3b7269f03dc4d31a34369b900b8fedbe0fa8b0c5f9",
+        "sha256_in_prefix": "2000494583d66d5d1d763f3b7269f03dc4d31a34369b900b8fedbe0fa8b0c5f9",
+        "size_in_bytes": 4540
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/devel.R",
+        "path_type": "hardlink",
+        "sha256": "96baab7d79b6a34ff8ab98221ed17105f8ee0e95c78e9e16fcd79da43bb77acd",
+        "sha256_in_prefix": "96baab7d79b6a34ff8ab98221ed17105f8ee0e95c78e9e16fcd79da43bb77acd",
+        "size_in_bytes": 2185
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/devel.Rmd",
+        "path_type": "hardlink",
+        "sha256": "87e27e3afe0b9c313e2e22f1532300b33e2af6c9a5baafed6615cc4d79817956",
+        "sha256_in_prefix": "87e27e3afe0b9c313e2e22f1532300b33e2af6c9a5baafed6615cc4d79817956",
+        "size_in_bytes": 7843
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/devel.html",
+        "path_type": "hardlink",
+        "sha256": "22b2474f69436e2b93c40a3a488e2b44deeea5aedb595319f4eebe69fdc07546",
+        "sha256_in_prefix": "22b2474f69436e2b93c40a3a488e2b44deeea5aedb595319f4eebe69fdc07546",
+        "size_in_bytes": 885665
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "0b35e3e4e5c666f365f2bab1a329b342e58adc85a07a332085b4e750f3339851",
+        "sha256_in_prefix": "0b35e3e4e5c666f365f2bab1a329b342e58adc85a07a332085b4e750f3339851",
+        "size_in_bytes": 1987
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/intro.R",
+        "path_type": "hardlink",
+        "sha256": "33129508511d9b1f3df4d3d2fedf95779dba5b7dc9ea8b7d1596a7a075db96d1",
+        "sha256_in_prefix": "33129508511d9b1f3df4d3d2fedf95779dba5b7dc9ea8b7d1596a7a075db96d1",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/intro.Rmd",
+        "path_type": "hardlink",
+        "sha256": "bec0a1a93127943dace76792efcb5a7075d1881321d558b96a971211fbd62e2b",
+        "sha256_in_prefix": "bec0a1a93127943dace76792efcb5a7075d1881321d558b96a971211fbd62e2b",
+        "size_in_bytes": 6606
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/doc/intro.html",
+        "path_type": "hardlink",
+        "sha256": "6571a5aab0ee29d1839e1a03672e73ae23cbdf5028f029e0dcc39da202d9276c",
+        "sha256_in_prefix": "6571a5aab0ee29d1839e1a03672e73ae23cbdf5028f029e0dcc39da202d9276c",
+        "size_in_bytes": 888005
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "3ed04331dbf84d8aaf86438cd9058ff8f91a523e16db05583a32171038aea3e1",
+        "sha256_in_prefix": "3ed04331dbf84d8aaf86438cd9058ff8f91a523e16db05583a32171038aea3e1",
+        "size_in_bytes": 6053
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/help/SingleCellExperiment.rdb",
+        "path_type": "hardlink",
+        "sha256": "2f26177674ab4458b61a2d810ebc2e50488f512be213f38f97039159d1c245c4",
+        "sha256_in_prefix": "2f26177674ab4458b61a2d810ebc2e50488f512be213f38f97039159d1c245c4",
+        "size_in_bytes": 61197
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/help/SingleCellExperiment.rdx",
+        "path_type": "hardlink",
+        "sha256": "7606e4bec43d726062312178d9fc746c47ead0f2177552776feb5621f4729fd6",
+        "sha256_in_prefix": "7606e4bec43d726062312178d9fc746c47ead0f2177552776feb5621f4729fd6",
+        "size_in_bytes": 589
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "e63995baefa4b782c4bae9a5142cbd37a3d7934b2884d945078eba028ffa9c43",
+        "sha256_in_prefix": "e63995baefa4b782c4bae9a5142cbd37a3d7934b2884d945078eba028ffa9c43",
+        "size_in_bytes": 1310
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "0d21beee8c5e867c136778a9367b574d068ea48572eb410ec80c9b24f1ac77b9",
+        "sha256_in_prefix": "0d21beee8c5e867c136778a9367b574d068ea48572eb410ec80c9b24f1ac77b9",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "f6b0a7ac41f3139d141f1670f712a8d7761bc983a9e09d3cacb3a8202ba590cd",
+        "sha256_in_prefix": "f6b0a7ac41f3139d141f1670f712a8d7761bc983a9e09d3cacb3a8202ba590cd",
+        "size_in_bytes": 19575
+      },
+      {
+        "_path": "lib/R/library/SingleCellExperiment/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-singlecellexperiment",
+  "sha256": "cd7623fbdb21ba5b6bf168c8a678aaa8f990ce9f7aad13543ea786dcc82debbf",
+  "size": 1416203,
+  "subdir": "noarch",
+  "timestamp": 1572738922000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-singlecellexperiment-1.8.0-r36_0.tar.bz2",
+  "version": "1.8.0"
+}

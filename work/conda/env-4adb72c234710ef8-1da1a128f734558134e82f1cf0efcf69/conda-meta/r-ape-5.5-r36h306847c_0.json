@@ -1,0 +1,440 @@
+{
+  "build": "r36h306847c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libblas >=3.8.0,<4.0a0",
+    "libgcc-ng >=9.3.0",
+    "liblapack >=3.8.0,<4.0a0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0",
+    "r-lattice",
+    "r-nlme",
+    "r-rcpp >=0.12.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-ape-5.5-r36h306847c_0",
+  "files": [
+    "lib/R/library/ape/CITATION",
+    "lib/R/library/ape/DESCRIPTION",
+    "lib/R/library/ape/INDEX",
+    "lib/R/library/ape/Meta/Rd.rds",
+    "lib/R/library/ape/Meta/data.rds",
+    "lib/R/library/ape/Meta/features.rds",
+    "lib/R/library/ape/Meta/hsearch.rds",
+    "lib/R/library/ape/Meta/links.rds",
+    "lib/R/library/ape/Meta/nsInfo.rds",
+    "lib/R/library/ape/Meta/package.rds",
+    "lib/R/library/ape/Meta/vignette.rds",
+    "lib/R/library/ape/NAMESPACE",
+    "lib/R/library/ape/NEWS",
+    "lib/R/library/ape/R/ape",
+    "lib/R/library/ape/R/ape.rdb",
+    "lib/R/library/ape/R/ape.rdx",
+    "lib/R/library/ape/data/HP.links.rda",
+    "lib/R/library/ape/data/bird.families.rda",
+    "lib/R/library/ape/data/bird.orders.rda",
+    "lib/R/library/ape/data/carnivora.csv.gz",
+    "lib/R/library/ape/data/chiroptera.rda",
+    "lib/R/library/ape/data/cynipids.rda",
+    "lib/R/library/ape/data/gopher.D.rda",
+    "lib/R/library/ape/data/hivtree.newick.rda",
+    "lib/R/library/ape/data/hivtree.table.txt.gz",
+    "lib/R/library/ape/data/lice.D.rda",
+    "lib/R/library/ape/data/lmorigin.ex1.rda",
+    "lib/R/library/ape/data/lmorigin.ex2.rda",
+    "lib/R/library/ape/data/mat3.RData",
+    "lib/R/library/ape/data/mat5M3ID.RData",
+    "lib/R/library/ape/data/mat5Mrand.RData",
+    "lib/R/library/ape/data/woodmouse.rda",
+    "lib/R/library/ape/doc/DrawingPhylogenies.R",
+    "lib/R/library/ape/doc/DrawingPhylogenies.Rnw",
+    "lib/R/library/ape/doc/DrawingPhylogenies.pdf",
+    "lib/R/library/ape/doc/MoranI.R",
+    "lib/R/library/ape/doc/MoranI.Rnw",
+    "lib/R/library/ape/doc/MoranI.pdf",
+    "lib/R/library/ape/doc/RandomTopologies.R",
+    "lib/R/library/ape/doc/RandomTopologies.Rnw",
+    "lib/R/library/ape/doc/RandomTopologies.pdf",
+    "lib/R/library/ape/doc/index.html",
+    "lib/R/library/ape/help/AnIndex",
+    "lib/R/library/ape/help/aliases.rds",
+    "lib/R/library/ape/help/ape.rdb",
+    "lib/R/library/ape/help/ape.rdx",
+    "lib/R/library/ape/help/paths.rds",
+    "lib/R/library/ape/html/00Index.html",
+    "lib/R/library/ape/html/R.css",
+    "lib/R/library/ape/libs/ape.so"
+  ],
+  "fn": "r-ape-5.5-r36h306847c_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-ape-5.5-r36h306847c_0",
+    "type": 1
+  },
+  "md5": "0376fb7438b79425f86fa2e92d294b4b",
+  "name": "r-ape",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-ape-5.5-r36h306847c_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/ape/CITATION",
+        "path_type": "hardlink",
+        "sha256": "eae6cd4b827a638592c04b2c33d862b45f36ca5418bbe18190aeb92e96d4ad7f",
+        "sha256_in_prefix": "eae6cd4b827a638592c04b2c33d862b45f36ca5418bbe18190aeb92e96d4ad7f",
+        "size_in_bytes": 654
+      },
+      {
+        "_path": "lib/R/library/ape/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "a599f576b13df21c61906e73c12e5b0d3876bd9c6dd5688cf7e4d02d4b5f8d59",
+        "sha256_in_prefix": "a599f576b13df21c61906e73c12e5b0d3876bd9c6dd5688cf7e4d02d4b5f8d59",
+        "size_in_bytes": 6193
+      },
+      {
+        "_path": "lib/R/library/ape/INDEX",
+        "path_type": "hardlink",
+        "sha256": "c2fa9502aaa4ba50d0f99b5b0552a261ed515e1de6bd2ca2d02a63bc0bcabd3f",
+        "sha256_in_prefix": "c2fa9502aaa4ba50d0f99b5b0552a261ed515e1de6bd2ca2d02a63bc0bcabd3f",
+        "size_in_bytes": 11670
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "ec1f1ae08ea959406e2018ed42482dfa2a1c0935fad9f2ed56dd6f81c81dd2a2",
+        "sha256_in_prefix": "ec1f1ae08ea959406e2018ed42482dfa2a1c0935fad9f2ed56dd6f81c81dd2a2",
+        "size_in_bytes": 8065
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/data.rds",
+        "path_type": "hardlink",
+        "sha256": "0185c3381fdcfb457efbe689ee60b48b133121692d1c254b1bfbdbf8c647c2d6",
+        "sha256_in_prefix": "0185c3381fdcfb457efbe689ee60b48b133121692d1c254b1bfbdbf8c647c2d6",
+        "size_in_bytes": 474
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "ee16d0bdae0d56c4e57c33198dd6f63ef9ffaa00c18ec6f6385c7f5ff58feece",
+        "sha256_in_prefix": "ee16d0bdae0d56c4e57c33198dd6f63ef9ffaa00c18ec6f6385c7f5ff58feece",
+        "size_in_bytes": 7833
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "ccafc33ba9569a04cb13f37d56a80bed604bad2a72b097b11de992ab438734e3",
+        "sha256_in_prefix": "ccafc33ba9569a04cb13f37d56a80bed604bad2a72b097b11de992ab438734e3",
+        "size_in_bytes": 4329
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "622d7da7f107f853dd92226285385432e63e608bc2a2e81f97fa778e032064c2",
+        "sha256_in_prefix": "622d7da7f107f853dd92226285385432e63e608bc2a2e81f97fa778e032064c2",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "baa45a4f8b2b6425c55c09671b22178ffb2daeacbd50d07b56d2460f6b142444",
+        "sha256_in_prefix": "baa45a4f8b2b6425c55c09671b22178ffb2daeacbd50d07b56d2460f6b142444",
+        "size_in_bytes": 2524
+      },
+      {
+        "_path": "lib/R/library/ape/Meta/vignette.rds",
+        "path_type": "hardlink",
+        "sha256": "b435ddcb7bc835d932f587015534177c4810b572b371fdc551937577be8c029a",
+        "sha256_in_prefix": "b435ddcb7bc835d932f587015534177c4810b572b371fdc551937577be8c029a",
+        "size_in_bytes": 259
+      },
+      {
+        "_path": "lib/R/library/ape/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "16cf91f113816d20aba9298698e2c4e4db3a206991e570f2c9fac0ea507fdefc",
+        "sha256_in_prefix": "16cf91f113816d20aba9298698e2c4e4db3a206991e570f2c9fac0ea507fdefc",
+        "size_in_bytes": 11279
+      },
+      {
+        "_path": "lib/R/library/ape/NEWS",
+        "path_type": "hardlink",
+        "sha256": "0666296c24584d1efc1c52e2c5555a9fe7b32ce770813ce7f586e215b7ba4915",
+        "sha256_in_prefix": "0666296c24584d1efc1c52e2c5555a9fe7b32ce770813ce7f586e215b7ba4915",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/R/library/ape/R/ape",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/ape/R/ape.rdb",
+        "path_type": "hardlink",
+        "sha256": "895061ea734e180168a0d3474786d7adee5fede777d5593ec84b25af65c65e4f",
+        "sha256_in_prefix": "895061ea734e180168a0d3474786d7adee5fede777d5593ec84b25af65c65e4f",
+        "size_in_bytes": 1048445
+      },
+      {
+        "_path": "lib/R/library/ape/R/ape.rdx",
+        "path_type": "hardlink",
+        "sha256": "9ae068fec91eb635b67c6e42f4fa3b29d1a189e53119231ad2fd1232b97ef00c",
+        "sha256_in_prefix": "9ae068fec91eb635b67c6e42f4fa3b29d1a189e53119231ad2fd1232b97ef00c",
+        "size_in_bytes": 6698
+      },
+      {
+        "_path": "lib/R/library/ape/data/HP.links.rda",
+        "path_type": "hardlink",
+        "sha256": "d45037b7fa5da2ecdd409c9268ab3ea12f03710ecffa4fb735b44c59c3d96602",
+        "sha256_in_prefix": "d45037b7fa5da2ecdd409c9268ab3ea12f03710ecffa4fb735b44c59c3d96602",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/R/library/ape/data/bird.families.rda",
+        "path_type": "hardlink",
+        "sha256": "0640e73375c81c97f912c0308e330c040fbbccc8ef2a30258c914977a2734f6f",
+        "sha256_in_prefix": "0640e73375c81c97f912c0308e330c040fbbccc8ef2a30258c914977a2734f6f",
+        "size_in_bytes": 2509
+      },
+      {
+        "_path": "lib/R/library/ape/data/bird.orders.rda",
+        "path_type": "hardlink",
+        "sha256": "84bebb57b7d74849863b5ee5f2dc5e538aa5c3d10b8b6f5f1582450326af11f6",
+        "sha256_in_prefix": "84bebb57b7d74849863b5ee5f2dc5e538aa5c3d10b8b6f5f1582450326af11f6",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "lib/R/library/ape/data/carnivora.csv.gz",
+        "path_type": "hardlink",
+        "sha256": "aa2c4a22821738faaaeb79ab2e542701db8afbd13a68570f56ad4863aac68b18",
+        "sha256_in_prefix": "aa2c4a22821738faaaeb79ab2e542701db8afbd13a68570f56ad4863aac68b18",
+        "size_in_bytes": 3544
+      },
+      {
+        "_path": "lib/R/library/ape/data/chiroptera.rda",
+        "path_type": "hardlink",
+        "sha256": "df4bbe2c38cb6082fc480dcc5d9eea7499d9ebdc9b2b3b263c1d25dc6ff503ff",
+        "sha256_in_prefix": "df4bbe2c38cb6082fc480dcc5d9eea7499d9ebdc9b2b3b263c1d25dc6ff503ff",
+        "size_in_bytes": 11971
+      },
+      {
+        "_path": "lib/R/library/ape/data/cynipids.rda",
+        "path_type": "hardlink",
+        "sha256": "0a151769d9b5561a80caa22e445cbcde37d85140b91da15ea65a1dd3b3a5fa62",
+        "sha256_in_prefix": "0a151769d9b5561a80caa22e445cbcde37d85140b91da15ea65a1dd3b3a5fa62",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/R/library/ape/data/gopher.D.rda",
+        "path_type": "hardlink",
+        "sha256": "736057b57f89ead1fea6736230b0b0715e3aa7247f3b2c4029ae6468d80a83d7",
+        "sha256_in_prefix": "736057b57f89ead1fea6736230b0b0715e3aa7247f3b2c4029ae6468d80a83d7",
+        "size_in_bytes": 1255
+      },
+      {
+        "_path": "lib/R/library/ape/data/hivtree.newick.rda",
+        "path_type": "hardlink",
+        "sha256": "5d5d420a473ff35f9e35e2be9a9def82b13268bd6b19f2e5eec55f52c73f5a5c",
+        "sha256_in_prefix": "5d5d420a473ff35f9e35e2be9a9def82b13268bd6b19f2e5eec55f52c73f5a5c",
+        "size_in_bytes": 2189
+      },
+      {
+        "_path": "lib/R/library/ape/data/hivtree.table.txt.gz",
+        "path_type": "hardlink",
+        "sha256": "b58bf99044bca16f5cb371ce57e628ef16adcf93f166c5ae6549a4053e1e9080",
+        "sha256_in_prefix": "b58bf99044bca16f5cb371ce57e628ef16adcf93f166c5ae6549a4053e1e9080",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "lib/R/library/ape/data/lice.D.rda",
+        "path_type": "hardlink",
+        "sha256": "f612edd604545b07a71a2d96434cd4d502c9581c52cb26adb0fa6a81f8aacbb5",
+        "sha256_in_prefix": "f612edd604545b07a71a2d96434cd4d502c9581c52cb26adb0fa6a81f8aacbb5",
+        "size_in_bytes": 1544
+      },
+      {
+        "_path": "lib/R/library/ape/data/lmorigin.ex1.rda",
+        "path_type": "hardlink",
+        "sha256": "552d7cab8da00189412d7f731f8523cdcdfb6c9bb3ee8ec62febf37c864bd13b",
+        "sha256_in_prefix": "552d7cab8da00189412d7f731f8523cdcdfb6c9bb3ee8ec62febf37c864bd13b",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "lib/R/library/ape/data/lmorigin.ex2.rda",
+        "path_type": "hardlink",
+        "sha256": "583938dc153b8141a89876b529744d1f8223a19f20b04a1f5fde6942fbcc5bf1",
+        "sha256_in_prefix": "583938dc153b8141a89876b529744d1f8223a19f20b04a1f5fde6942fbcc5bf1",
+        "size_in_bytes": 455
+      },
+      {
+        "_path": "lib/R/library/ape/data/mat3.RData",
+        "path_type": "hardlink",
+        "sha256": "25daa4bc4148920e1b8e8666fa13b79ba3a81586ae1420ebfe46db8e4355c01e",
+        "sha256_in_prefix": "25daa4bc4148920e1b8e8666fa13b79ba3a81586ae1420ebfe46db8e4355c01e",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "lib/R/library/ape/data/mat5M3ID.RData",
+        "path_type": "hardlink",
+        "sha256": "ca9926b091b3b49757210dd7dbdc6a5fadefb319fa3d1ae9e584cec6bedba271",
+        "sha256_in_prefix": "ca9926b091b3b49757210dd7dbdc6a5fadefb319fa3d1ae9e584cec6bedba271",
+        "size_in_bytes": 49717
+      },
+      {
+        "_path": "lib/R/library/ape/data/mat5Mrand.RData",
+        "path_type": "hardlink",
+        "sha256": "0dcf48513ca98007c192db170fb3f64a3097d0eb8322433271bd8c8fc0894a54",
+        "sha256_in_prefix": "0dcf48513ca98007c192db170fb3f64a3097d0eb8322433271bd8c8fc0894a54",
+        "size_in_bytes": 49548
+      },
+      {
+        "_path": "lib/R/library/ape/data/woodmouse.rda",
+        "path_type": "hardlink",
+        "sha256": "b3ac9bee622802f334b3fd01e7fd66a0e6c1b4d9da77077bed742a41f7c9cfe6",
+        "sha256_in_prefix": "b3ac9bee622802f334b3fd01e7fd66a0e6c1b4d9da77077bed742a41f7c9cfe6",
+        "size_in_bytes": 1160
+      },
+      {
+        "_path": "lib/R/library/ape/doc/DrawingPhylogenies.R",
+        "path_type": "hardlink",
+        "sha256": "81c0a160a3f2524f877ce902f4725d7441b0119af7e345aa1eac36ea59317801",
+        "sha256_in_prefix": "81c0a160a3f2524f877ce902f4725d7441b0119af7e345aa1eac36ea59317801",
+        "size_in_bytes": 15440
+      },
+      {
+        "_path": "lib/R/library/ape/doc/DrawingPhylogenies.Rnw",
+        "path_type": "hardlink",
+        "sha256": "a9ec1cbed5223bc6da21e2eb5ea23630e06e4ba14d3aa70bd1db4e7eb16169b2",
+        "sha256_in_prefix": "a9ec1cbed5223bc6da21e2eb5ea23630e06e4ba14d3aa70bd1db4e7eb16169b2",
+        "size_in_bytes": 42279
+      },
+      {
+        "_path": "lib/R/library/ape/doc/DrawingPhylogenies.pdf",
+        "path_type": "hardlink",
+        "sha256": "1994ce4a4aa7e829547aac827fd6c66ba00019436e739a5686a9941361cd9ab0",
+        "sha256_in_prefix": "1994ce4a4aa7e829547aac827fd6c66ba00019436e739a5686a9941361cd9ab0",
+        "size_in_bytes": 758144
+      },
+      {
+        "_path": "lib/R/library/ape/doc/MoranI.R",
+        "path_type": "hardlink",
+        "sha256": "5a6fa396971bd8cda8af5f4216f673d45265152ce55fbd17c8534ee4ec2a60a1",
+        "sha256_in_prefix": "5a6fa396971bd8cda8af5f4216f673d45265152ce55fbd17c8534ee4ec2a60a1",
+        "size_in_bytes": 2766
+      },
+      {
+        "_path": "lib/R/library/ape/doc/MoranI.Rnw",
+        "path_type": "hardlink",
+        "sha256": "3b557d1a43b183cc6be9f4e0391e3de0cb74d0a968c69bc01a9e46b285dc020e",
+        "sha256_in_prefix": "3b557d1a43b183cc6be9f4e0391e3de0cb74d0a968c69bc01a9e46b285dc020e",
+        "size_in_bytes": 13096
+      },
+      {
+        "_path": "lib/R/library/ape/doc/MoranI.pdf",
+        "path_type": "hardlink",
+        "sha256": "5551c24dcd576ab3c0833d0e089996d8bba16b98f63de0fc6ee27174ec8d891d",
+        "sha256_in_prefix": "5551c24dcd576ab3c0833d0e089996d8bba16b98f63de0fc6ee27174ec8d891d",
+        "size_in_bytes": 215592
+      },
+      {
+        "_path": "lib/R/library/ape/doc/RandomTopologies.R",
+        "path_type": "hardlink",
+        "sha256": "8574fe5101280e1eb56eb5a5e7646243100d994030f7a9e0054048002300376b",
+        "sha256_in_prefix": "8574fe5101280e1eb56eb5a5e7646243100d994030f7a9e0054048002300376b",
+        "size_in_bytes": 8220
+      },
+      {
+        "_path": "lib/R/library/ape/doc/RandomTopologies.Rnw",
+        "path_type": "hardlink",
+        "sha256": "d305b1b6d7e77c95213fef26e3dc944cf6f0808c3b0e7fb863d2c01c6bfbcca9",
+        "sha256_in_prefix": "d305b1b6d7e77c95213fef26e3dc944cf6f0808c3b0e7fb863d2c01c6bfbcca9",
+        "size_in_bytes": 21666
+      },
+      {
+        "_path": "lib/R/library/ape/doc/RandomTopologies.pdf",
+        "path_type": "hardlink",
+        "sha256": "45c16d18bc8903f32f2c5b3521a6bcff90648eb8e75eaed41358719a1dd77594",
+        "sha256_in_prefix": "45c16d18bc8903f32f2c5b3521a6bcff90648eb8e75eaed41358719a1dd77594",
+        "size_in_bytes": 248146
+      },
+      {
+        "_path": "lib/R/library/ape/doc/index.html",
+        "path_type": "hardlink",
+        "sha256": "2e012e4b7307a9ff71e2c56d13bddd1015120345ebb96d793be8301803206e58",
+        "sha256_in_prefix": "2e012e4b7307a9ff71e2c56d13bddd1015120345ebb96d793be8301803206e58",
+        "size_in_bytes": 2274
+      },
+      {
+        "_path": "lib/R/library/ape/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "9bb1c73a5a1606f3405557f29711b2a10c8f50759929fb386d9e8eba3d72bf12",
+        "sha256_in_prefix": "9bb1c73a5a1606f3405557f29711b2a10c8f50759929fb386d9e8eba3d72bf12",
+        "size_in_bytes": 10339
+      },
+      {
+        "_path": "lib/R/library/ape/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "a770b4f3ff7def152e0ea4d702613ef737be2643425072016ed95d00c0d5e750",
+        "sha256_in_prefix": "a770b4f3ff7def152e0ea4d702613ef737be2643425072016ed95d00c0d5e750",
+        "size_in_bytes": 3701
+      },
+      {
+        "_path": "lib/R/library/ape/help/ape.rdb",
+        "path_type": "hardlink",
+        "sha256": "f73988853e303ce6732f06b998c5eaa07b161c397360c1c6194a8eca03281b21",
+        "sha256_in_prefix": "f73988853e303ce6732f06b998c5eaa07b161c397360c1c6194a8eca03281b21",
+        "size_in_bytes": 695719
+      },
+      {
+        "_path": "lib/R/library/ape/help/ape.rdx",
+        "path_type": "hardlink",
+        "sha256": "fb156e1ca257edd605ac5a530c08732639888f8803dc1e90c4237ea95e56207d",
+        "sha256_in_prefix": "fb156e1ca257edd605ac5a530c08732639888f8803dc1e90c4237ea95e56207d",
+        "size_in_bytes": 4146
+      },
+      {
+        "_path": "lib/R/library/ape/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "2892371edead982a35e1550b5e1a8b9b9037c366eff77cd7e18c5f24849f1b22",
+        "sha256_in_prefix": "2892371edead982a35e1550b5e1a8b9b9037c366eff77cd7e18c5f24849f1b22",
+        "size_in_bytes": 1715
+      },
+      {
+        "_path": "lib/R/library/ape/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "dab16b7b97fb562b6bed68589b9ff87510de0265728fb0a9a5b42a4420217a9a",
+        "sha256_in_prefix": "dab16b7b97fb562b6bed68589b9ff87510de0265728fb0a9a5b42a4420217a9a",
+        "size_in_bytes": 56350
+      },
+      {
+        "_path": "lib/R/library/ape/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/ape/libs/ape.so",
+        "path_type": "hardlink",
+        "sha256": "5c5274de3fa90caac749ac7c1459213c9cf55417a6fcd4cdc92f597a40627896",
+        "sha256_in_prefix": "5c5274de3fa90caac749ac7c1459213c9cf55417a6fcd4cdc92f597a40627896",
+        "size_in_bytes": 313904
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9736260a50e5d2a2f4eddfa426b78456ac33538f82ee3681b85be8067161d376",
+  "size": 3279295,
+  "subdir": "linux-64",
+  "timestamp": 1619350288000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-ape-5.5-r36h306847c_0.tar.bz2",
+  "version": "5.5"
+}

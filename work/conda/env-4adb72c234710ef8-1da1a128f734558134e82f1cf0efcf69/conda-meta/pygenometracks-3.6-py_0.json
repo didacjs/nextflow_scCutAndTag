@@ -1,0 +1,438 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "numpy >=1.16",
+    "pybedtools >=0.8.1",
+    "gffutils >=0.9",
+    "pysam >=0.14",
+    "intervaltree >=2.1.0",
+    "future >=0.17.0",
+    "hicmatrix >=15",
+    "tqdm >=4.20",
+    "pybigwig >=0.3.16",
+    "matplotlib-base >=3.1.1,<=3.3.2"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/pygenometracks-3.6-py_0",
+  "files": [
+    "bin/make_tracks_file",
+    "bin/pgt",
+    "bin/pyGenomeTracks",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/LICENSE",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/METADATA",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/RECORD",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/pyGenomeTracks-3.6.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pygenometracks/__init__.py",
+    "lib/python3.6/site-packages/pygenometracks/_version.py",
+    "lib/python3.6/site-packages/pygenometracks/getAllDefaultsAndPossible.py",
+    "lib/python3.6/site-packages/pygenometracks/makeTracksFile.py",
+    "lib/python3.6/site-packages/pygenometracks/plotTracks.py",
+    "lib/python3.6/site-packages/pygenometracks/readBed.py",
+    "lib/python3.6/site-packages/pygenometracks/readGtf.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/BedGraphMatrixTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/BedGraphTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/BedTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/BigWigTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/EpilogosTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/GenomeTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/GtfTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/HLinesTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/HiCMatrixTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/LinksTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/NarrowPeakTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/ScaleBarTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/TADsTrack.py",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__init__.py",
+    "lib/python3.6/site-packages/pygenometracks/tracksClass.py",
+    "lib/python3.6/site-packages/pygenometracks/utilities.py",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/getAllDefaultsAndPossible.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/makeTracksFile.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/plotTracks.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/readBed.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/readGtf.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BedGraphMatrixTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BedGraphTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BedTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BigWigTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/EpilogosTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/GenomeTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/GtfTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/HLinesTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/HiCMatrixTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/LinksTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/NarrowPeakTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/ScaleBarTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/TADsTrack.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/tracksClass.cpython-36.pyc",
+    "lib/python3.6/site-packages/pygenometracks/__pycache__/utilities.cpython-36.pyc"
+  ],
+  "fn": "pygenometracks-3.6-py_0.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/pygenometracks-3.6-py_0",
+    "type": 1
+  },
+  "md5": "8741d861ad85b10068cb6d2d9cbee454",
+  "name": "pygenometracks",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/pygenometracks-3.6-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/make_tracks_file",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pygenometracks_1605201062148/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "819cb344ae4e64a6fc18df93f904d28bda9bdd8bd2d3bc170a5986be5525b8b6",
+        "sha256_in_prefix": "00f5b187746a1b607e63483cac41c87f0032471f7e33a3268e2f2923a15452ac",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "python-scripts/pgt",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pygenometracks_1605201062148/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "ebc318ed5c0b3f62e7eaf30b95e97c3bf6133a2467e8b12c497da86c1b665870",
+        "sha256_in_prefix": "b652a0bea59586ebe48b1e609623dfc8acd5aeb0a5ab5b1fe17f4020fb025740",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "python-scripts/pyGenomeTracks",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/pygenometracks_1605201062148/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "ebc318ed5c0b3f62e7eaf30b95e97c3bf6133a2467e8b12c497da86c1b665870",
+        "sha256_in_prefix": "b652a0bea59586ebe48b1e609623dfc8acd5aeb0a5ab5b1fe17f4020fb025740",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8cd31a5e277fccb38fb09e695a3c2baba07944d1496e7c34f3a46e1cb7d736e2",
+        "sha256_in_prefix": "8cd31a5e277fccb38fb09e695a3c2baba07944d1496e7c34f3a46e1cb7d736e2",
+        "size_in_bytes": 8356
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "87fcdec077b3fdd56e416850c1bd17af3ba7861079b812a2b624706581278266",
+        "sha256_in_prefix": "87fcdec077b3fdd56e416850c1bd17af3ba7861079b812a2b624706581278266",
+        "size_in_bytes": 4482
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "sha256_in_prefix": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1566fe3d053d7f69da1d6fbdbb9eec977f5e735af9a326410d38950976b1dab9",
+        "sha256_in_prefix": "1566fe3d053d7f69da1d6fbdbb9eec977f5e735af9a326410d38950976b1dab9",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/pyGenomeTracks-3.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f598e4096ecb1814afca6f81f13760c67c222ba89321f57e6c35e3297fc3840a",
+        "sha256_in_prefix": "f598e4096ecb1814afca6f81f13760c67c222ba89321f57e6c35e3297fc3840a",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/pygenometracks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2f02f1d1a8daf51cabe6377eb4d5fba785bdda82f039f118409e4f65089ad17d",
+        "sha256_in_prefix": "2f02f1d1a8daf51cabe6377eb4d5fba785bdda82f039f118409e4f65089ad17d",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/pygenometracks/_version.py",
+        "path_type": "hardlink",
+        "sha256": "70ec675138a2bbf04d1416ec774e9ff3cac6bb5e12bfe6274c10fc28c57488f9",
+        "sha256_in_prefix": "70ec675138a2bbf04d1416ec774e9ff3cac6bb5e12bfe6274c10fc28c57488f9",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "site-packages/pygenometracks/getAllDefaultsAndPossible.py",
+        "path_type": "hardlink",
+        "sha256": "810d9737b6b19bcbf9d7627e74ca8e56c355a0da6cc8e8cf47bbd157cfcbbc05",
+        "sha256_in_prefix": "810d9737b6b19bcbf9d7627e74ca8e56c355a0da6cc8e8cf47bbd157cfcbbc05",
+        "size_in_bytes": 11207
+      },
+      {
+        "_path": "site-packages/pygenometracks/makeTracksFile.py",
+        "path_type": "hardlink",
+        "sha256": "5181c75ce66be6abc01984fc37006b27725bf820b3de8298443c2f52b86a39cf",
+        "sha256_in_prefix": "5181c75ce66be6abc01984fc37006b27725bf820b3de8298443c2f52b86a39cf",
+        "size_in_bytes": 2621
+      },
+      {
+        "_path": "site-packages/pygenometracks/plotTracks.py",
+        "path_type": "hardlink",
+        "sha256": "8aa4c6f3fe7530cb30cdcdd0077c796e31d36dc17cf72808f4052110f17ac7d1",
+        "sha256_in_prefix": "8aa4c6f3fe7530cb30cdcdd0077c796e31d36dc17cf72808f4052110f17ac7d1",
+        "size_in_bytes": 12883
+      },
+      {
+        "_path": "site-packages/pygenometracks/readBed.py",
+        "path_type": "hardlink",
+        "sha256": "cbf111b27e6a3f2dc610b7abaf7a3eee9503725e6c9a396e7fb7586b92371a7c",
+        "sha256_in_prefix": "cbf111b27e6a3f2dc610b7abaf7a3eee9503725e6c9a396e7fb7586b92371a7c",
+        "size_in_bytes": 15526
+      },
+      {
+        "_path": "site-packages/pygenometracks/readGtf.py",
+        "path_type": "hardlink",
+        "sha256": "666a94472885f776636d2e28396b66790b5c289826119c938dcae391fb46b54a",
+        "sha256_in_prefix": "666a94472885f776636d2e28396b66790b5c289826119c938dcae391fb46b54a",
+        "size_in_bytes": 6036
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/BedGraphMatrixTrack.py",
+        "path_type": "hardlink",
+        "sha256": "95bd74c4a76186fc29cae1f0a9ee4fd4ac116d616a063249876337dac888c225",
+        "sha256_in_prefix": "95bd74c4a76186fc29cae1f0a9ee4fd4ac116d616a063249876337dac888c225",
+        "size_in_bytes": 7014
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/BedGraphTrack.py",
+        "path_type": "hardlink",
+        "sha256": "6938c72f3ce49280750d20731381c6100bf86fc4395597374cd776a49c2fa5af",
+        "sha256_in_prefix": "6938c72f3ce49280750d20731381c6100bf86fc4395597374cd776a49c2fa5af",
+        "size_in_bytes": 23537
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/BedTrack.py",
+        "path_type": "hardlink",
+        "sha256": "c44ec6504f44bd27a4facb5190229070bbfb7039aebaf2d7a90990bb3da51816",
+        "sha256_in_prefix": "c44ec6504f44bd27a4facb5190229070bbfb7039aebaf2d7a90990bb3da51816",
+        "size_in_bytes": 44719
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/BigWigTrack.py",
+        "path_type": "hardlink",
+        "sha256": "559415472ee526d9011351aa8ce500b82f16c28d6a97e8238012090bb2eccf00",
+        "sha256_in_prefix": "559415472ee526d9011351aa8ce500b82f16c28d6a97e8238012090bb2eccf00",
+        "size_in_bytes": 13804
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/EpilogosTrack.py",
+        "path_type": "hardlink",
+        "sha256": "03169771393c5c874c1e44d2a9c81a7f9e5303b31a821d7f4501d283b867300b",
+        "sha256_in_prefix": "03169771393c5c874c1e44d2a9c81a7f9e5303b31a821d7f4501d283b867300b",
+        "size_in_bytes": 5546
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/GenomeTrack.py",
+        "path_type": "hardlink",
+        "sha256": "aa54141faf462f5951c2881e47609ef74f43a3a99dd119d101e9b06911f10e0c",
+        "sha256_in_prefix": "aa54141faf462f5951c2881e47609ef74f43a3a99dd119d101e9b06911f10e0c",
+        "size_in_bytes": 23626
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/GtfTrack.py",
+        "path_type": "hardlink",
+        "sha256": "48c3942ed638ebb96235593e7a58532678fd1ef2ad625219ba8bd005493af69c",
+        "sha256_in_prefix": "48c3942ed638ebb96235593e7a58532678fd1ef2ad625219ba8bd005493af69c",
+        "size_in_bytes": 7320
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/HLinesTrack.py",
+        "path_type": "hardlink",
+        "sha256": "070f308f2ca497a64e00a7737b1cad7c31a233213effc5157a5fac23d90513e4",
+        "sha256_in_prefix": "070f308f2ca497a64e00a7737b1cad7c31a233213effc5157a5fac23d90513e4",
+        "size_in_bytes": 3255
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/HiCMatrixTrack.py",
+        "path_type": "hardlink",
+        "sha256": "19c5704b510a5b9b8afb4564bd8711ff9495e49e8351d49773ac47772135b38a",
+        "sha256_in_prefix": "19c5704b510a5b9b8afb4564bd8711ff9495e49e8351d49773ac47772135b38a",
+        "size_in_bytes": 18300
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/LinksTrack.py",
+        "path_type": "hardlink",
+        "sha256": "de4684e1b1e8f3cf7f0875f1612aae78b5e9c76ae98a55b3ddb96bc89c3cbcf2",
+        "sha256_in_prefix": "de4684e1b1e8f3cf7f0875f1612aae78b5e9c76ae98a55b3ddb96bc89c3cbcf2",
+        "size_in_bytes": 16667
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/NarrowPeakTrack.py",
+        "path_type": "hardlink",
+        "sha256": "3b3c73773ff79f1bb4d208243a210f383ce4ba43973f0a3f29dce4300a146c61",
+        "sha256_in_prefix": "3b3c73773ff79f1bb4d208243a210f383ce4ba43973f0a3f29dce4300a146c61",
+        "size_in_bytes": 8352
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/ScaleBarTrack.py",
+        "path_type": "hardlink",
+        "sha256": "d229afc3a933d7879d307c287c63fc650dd2a5c7b2c2de77afb94b993d311217",
+        "sha256_in_prefix": "d229afc3a933d7879d307c287c63fc650dd2a5c7b2c2de77afb94b993d311217",
+        "size_in_bytes": 13309
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/TADsTrack.py",
+        "path_type": "hardlink",
+        "sha256": "c89d92f9055f47c1189b21a81bdfe55e8c1b41eeb781204c3285c6fa592073f6",
+        "sha256_in_prefix": "c89d92f9055f47c1189b21a81bdfe55e8c1b41eeb781204c3285c6fa592073f6",
+        "size_in_bytes": 2958
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracks/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8c7c174c33731912c1eaff1df3e3fe22b574f122316ad8a0a441037a315b1ec9",
+        "sha256_in_prefix": "8c7c174c33731912c1eaff1df3e3fe22b574f122316ad8a0a441037a315b1ec9",
+        "size_in_bytes": 399
+      },
+      {
+        "_path": "site-packages/pygenometracks/tracksClass.py",
+        "path_type": "hardlink",
+        "sha256": "350aeeaa47a781f3794a9d70a77a0a1774dac546244a3021e1b8decc37c87fe0",
+        "sha256_in_prefix": "350aeeaa47a781f3794a9d70a77a0a1774dac546244a3021e1b8decc37c87fe0",
+        "size_in_bytes": 32170
+      },
+      {
+        "_path": "site-packages/pygenometracks/utilities.py",
+        "path_type": "hardlink",
+        "sha256": "70e7394a7d6408ae1adf43ebf3a8b68ffa8dd4b2c403565db79706bf63ad5fea",
+        "sha256_in_prefix": "70e7394a7d6408ae1adf43ebf3a8b68ffa8dd4b2c403565db79706bf63ad5fea",
+        "size_in_bytes": 12399
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/_version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/getAllDefaultsAndPossible.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/makeTracksFile.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/plotTracks.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/readBed.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/readGtf.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BedGraphMatrixTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BedGraphTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BedTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/BigWigTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/EpilogosTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/GenomeTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/GtfTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/HLinesTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/HiCMatrixTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/LinksTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/NarrowPeakTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/ScaleBarTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/TADsTrack.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/tracks/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/tracksClass.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pygenometracks/__pycache__/utilities.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pygenometracks",
+  "sha256": "efcfdc89df94b14a36b44c9c4e08ff5917c3da3b79dc37c4c30aa8858ac91196",
+  "size": 75573,
+  "subdir": "noarch",
+  "timestamp": 1605201293000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/pygenometracks-3.6-py_0.tar.bz2",
+  "version": "3.6"
+}

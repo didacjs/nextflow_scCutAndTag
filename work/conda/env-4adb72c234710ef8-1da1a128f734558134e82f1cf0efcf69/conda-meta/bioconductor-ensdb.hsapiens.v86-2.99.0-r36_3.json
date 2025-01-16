@@ -1,0 +1,53 @@
+{
+  "build": "r36_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "curl",
+    "r-base >=3.6,<3.7.0a0",
+    "bioconductor-ensembldb >=2.10.0,<2.11.0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/bioconductor-ensdb.hsapiens.v86-2.99.0-r36_3",
+  "files": [
+    "bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh",
+    "bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh"
+  ],
+  "fn": "bioconductor-ensdb.hsapiens.v86-2.99.0-r36_3.tar.bz2",
+  "license": "Artistic-2.0",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/bioconductor-ensdb.hsapiens.v86-2.99.0-r36_3",
+    "type": 1
+  },
+  "md5": "c9a070b5c93017b5eca628efa89c23c2",
+  "name": "bioconductor-ensdb.hsapiens.v86",
+  "noarch": "generic",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/bioconductor-ensdb.hsapiens.v86-2.99.0-r36_3.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.bioconductor-ensdb.hsapiens.v86-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "1575d2fb1e242a7836631f66e167ba37ef1a31c447c1836d2863e97aa01cecd5",
+        "sha256_in_prefix": "1575d2fb1e242a7836631f66e167ba37ef1a31c447c1836d2863e97aa01cecd5",
+        "size_in_bytes": 1473
+      },
+      {
+        "_path": "bin/.bioconductor-ensdb.hsapiens.v86-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "b9b0240f7402479fc7edcf2520f2d7f23381fd8c9d3959c95dbdbf3403407807",
+        "sha256_in_prefix": "b9b0240f7402479fc7edcf2520f2d7f23381fd8c9d3959c95dbdbf3403407807",
+        "size_in_bytes": 65
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconductor-ensdb.hsapiens.v86",
+  "sha256": "b9a5f4fbce377022cb557a4908fdb1e9c39cfb79c0603d15f6e27a3706e7c765",
+  "size": 7301,
+  "subdir": "noarch",
+  "timestamp": 1572884657000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/bioconductor-ensdb.hsapiens.v86-2.99.0-r36_3.tar.bz2",
+  "version": "2.99.0"
+}

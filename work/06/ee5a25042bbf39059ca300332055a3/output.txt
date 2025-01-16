@@ -1,0 +1,1 @@
+/home/didac/Work/Misc/CutAndTag/nextflow_scCutAndTag/work/1a/9bbc9dcaf6aba99d46d62dd2b28851/output.txt

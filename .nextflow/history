@@ -1,0 +1,50 @@
+2025-01-16 11:04:14	-	sick_golick	-	b979b6c15f050dd8ce4f4ff313f9471e	0ee6f71e-4116-4077-afaa-25aa12c40491	nextflow run scCutAndTag.nf
+2025-01-16 11:04:36	2.2s	small_venter	OK	cf2e420665c62a02bc0e220b9a76a64a	73d43ff4-a919-48f2-968f-4b4986e232f2	nextflow run scCutAndTag.nf
+2025-01-16 11:06:46	1.9s	goofy_cajal	OK	a9a786f073fc904fd0f82830a2bcd448	9d64f4ec-96c6-4a06-a7df-d26c1de38548	nextflow run scCutAndTag.nf
+2025-01-16 11:08:15	2s	awesome_kare	OK	73420d7538afdbef7adf8e2dc6c8ae10	3226a50a-9f85-43e1-afe0-f859ab75528b	nextflow run scCutAndTag.nf
+2025-01-16 11:10:54	2.8s	fabulous_lorenz	OK	80a95a0a73306c3ced1461f42d32db36	62729a62-90f6-46f6-a3a5-578951e5bf78	nextflow run scCutAndTag.nf
+2025-01-16 11:11:43	-	lethal_golick	-	bf326ba030ab7ed40e46339928c25ca9	cb3eae50-57fc-4543-9817-d1e91b1ce5e8	nextflow run scCutAndTag.nf
+2025-01-16 11:12:20	2.7s	naughty_wescoff	OK	57163682ef067399c0469cd167ef3e5e	ee81a97a-2c43-4d13-9167-94f45ef4a1b1	nextflow run scCutAndTag.nf --g yea
+2025-01-16 11:14:46	2.8s	stoic_liskov	OK	e86bb7f99bab7387ab647f9a2d17c148	92833767-1951-46f0-bf3c-9be0363ec7d9	nextflow run scCutAndTag.nf --g yea
+2025-01-16 11:16:33	2.8s	mighty_lovelace	OK	bfda925c6052ed73ef2cdab548df188c	4c3be0e8-a287-47a0-bfab-69e92bb76a00	nextflow run scCutAndTag.nf --g yea
+2025-01-16 11:17:48	2.9s	awesome_kilby	ERR	a992d834da9fd387a0a4d8286fecd6ef	84ca50b6-c59f-4811-baad-e421c66aed7c	nextflow run scCutAndTag.nf
+2025-01-16 11:18:16	3s	lethal_saha	ERR	a60ced5c12295c92d0e2ad1fc8644512	ca1ebaa2-ed8d-4d17-83dd-c112879655b6	nextflow run scCutAndTag.nf
+2025-01-16 11:18:44	2.8s	desperate_mcnulty	ERR	dbbfdc2f02b65d485edb9bcd47d9beac	b320085d-71b5-435a-a14d-71ddbeb494dd	nextflow run scCutAndTag.nf
+2025-01-16 11:19:47	2s	wise_rutherford	OK	379c895df50eecd7d803713cc3efc3fe	90f6d2c0-4a28-491c-9fac-6e2b55c1df08	nextflow run scCutAndTag.nf
+2025-01-16 11:24:23	2.4s	crazy_wiles	ERR	91084de81a068ea08e8e386cdfac9497	b172865d-ccb0-40b0-9680-e2915c13828b	nextflow run scCutAndTag.nf
+2025-01-16 11:24:44	2.6s	sad_kimura	OK	b106faf6ae182646c8c75ea89361f4fe	43daf861-4c21-4014-ba1b-2011983ec8aa	nextflow run scCutAndTag.nf
+2025-01-16 11:28:52	3.3s	romantic_bardeen	ERR	9855ad37915c61d61c2acdd0dc55353f	f8c792c7-73a8-431d-a572-9742b2ff3a88	nextflow run scCutAndTag.nf
+2025-01-16 12:00:13	-	modest_crick	-	940af22951bc91661663b6a5f6d8ca6e	e13b90ce-4795-4767-acd1-cc002f30dcce	nextflow run scCutAndTag.nf
+2025-01-16 12:00:29	-	infallible_aryabhata	-	940af22951bc91661663b6a5f6d8ca6e	f214c80a-6372-4bd0-9803-7644a45d0230	nextflow run scCutAndTag.nf
+2025-01-16 12:04:11	-	condescending_almeida	-	695e41f34fdef07922ae5ee700b35a6e	457a61fa-93a2-4b02-a15c-7001ada00e47	nextflow run scCutAndTag.nf
+2025-01-16 12:04:55	-	awesome_torvalds	-	7377d5ff875d5470c5893bccce12a1db	cfc06d75-3475-45e6-b02d-6c75cca74194	nextflow run scCutAndTag.nf
+2025-01-16 12:05:27	-	festering_brattain	-	dfc21298c8761dfc17d696e4659ae69c	cc72cd42-7efb-49cf-8040-d2858963fba0	nextflow run scCutAndTag.nf
+2025-01-16 12:07:52	-	angry_shockley	-	ccc3a42cef62e3dd280e9b25577725a5	3151981c-43a5-45c6-81ad-17fbc085f5e5	nextflow run scCutAndTag.nf
+2025-01-16 12:08:08	1m 25s	festering_shaw	ERR	edd6f3cfb37e6d34e1b61f3cb92d847e	a77f3479-1100-497b-b05f-ba008ccffc6c	nextflow run scCutAndTag.nf
+2025-01-16 12:10:43	38s	dreamy_goldberg	ERR	ad84798e8d9949ff4707431554a2936d	6af89e58-ed78-438b-819a-3c2eb9366d5b	nextflow run scCutAndTag.nf
+2025-01-16 13:29:50	38.7s	boring_davinci	ERR	c124d42973805e2ae6d7f7416a55bef8	533a81b1-99dc-44f9-98a8-cdc7140fdc39	nextflow run scCutAndTag.nf
+2025-01-16 13:31:16	2.4s	hungry_carson	ERR	0a9212d8f9c4ec527b6bff55bf368d29	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf
+2025-01-16 13:35:00	1.7s	trusting_hawking	ERR	892b337aacbfd2e313add5ad780837a6	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:39:04	2.7s	big_khorana	ERR	ba402a7215aa2ebec40f5e6048db1df2	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:40:19	1.5s	naughty_mcnulty	ERR	615138f7fd3a1808acba82c4f25862f5	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:40:50	2.1s	reverent_stonebraker	ERR	34c05bba04ea74c64790d8576353b876	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:42:47	2.1s	stupefied_volhard	ERR	4982d748108a6e2c9bd2d98e05ffcaae	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:47:00	2s	intergalactic_poitras	ERR	6e3bb39c7b57b4fc51f969772c055a81	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:47:48	1.9s	focused_allen	ERR	68f82c5228427c7acce11cfa24241288	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:48:15	2.2s	trusting_albattani	ERR	d31a558e4b02ffdafee07e634fdd9251	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 13:48:53	1.7s	insane_wilson	ERR	85c7992f75fb2fe67a119031629a2ffc	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 14:01:08	-	compassionate_goodall	-	b88d8bc6d65a4513b15fb682c3a37714	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 14:02:14	2s	dreamy_ptolemy	ERR	85c7992f75fb2fe67a119031629a2ffc	161dde9d-e38d-4b08-862b-9337ed8a3b47	nextflow run scCutAndTag.nf -resume
+2025-01-16 14:06:06	1.2s	thirsty_bose	ERR	41ff23adc8ad1c1b5a0ec20eda9c4772	f3a09186-f3e3-4739-8c4d-627485794f1d	nextflow scCutAndTag.nf
+2025-01-16 14:07:58	1.1s	disturbed_einstein	ERR	12fe15ed5a9a31883ef61a2bdeae86ee	2f89a141-17e4-4cbd-b036-75ce1070eb1f	nextflow scCutAndTag.nf
+2025-01-16 14:10:12	1.7s	hungry_boyd	ERR	55e72e1331c99f9aabfe85756ac3aab4	1e3291c9-4bfb-4e78-82d7-5ef7c40902f7	nextflow scCutAndTag.nf
+2025-01-16 14:10:58	2.8s	elegant_cajal	ERR	ec40c940a5cd2b928942a01baed55dd1	a4ffc10e-adf9-4c8e-a634-e9ac701c96bd	nextflow scCutAndTag.nf
+2025-01-16 14:12:40	3s	small_lumiere	ERR	11d55e15556494aa00d0c23180d843bb	3769b58a-cdaa-4d63-8423-00891f08d5df	nextflow scCutAndTag.nf
+2025-01-16 14:18:06	2.2s	maniac_northcutt	ERR	e337f0109e2cb8d59ebac26804372cfd	0dc8a7e9-c04c-4f56-bc29-b22830a709eb	nextflow scCutAndTag.nf
+2025-01-16 14:27:25	-	trusting_rubens	-	9d9dfd064de3223b44f58fbf28120a1a	7a9a9fcd-2f39-426e-981c-87ad62d7eaf5	nextflow scCutAndTag.nf
+2025-01-16 14:28:03	4m 4s	desperate_magritte	OK	73bd34e47bcc208cef5bdad4f8e14218	fca8d4be-29e9-4dbf-99e2-898246b59858	nextflow scCutAndTag.nf
+2025-01-16 14:46:27	-	prickly_kay	-	ccd962e9a83de1f3d1e743bdac0962a9	c2db7ae8-ffd3-420d-ba99-c0f8bbd43950	nextflow scCutAndTag.nf
+2025-01-16 14:46:33	-	cheeky_colden	-	ccd962e9a83de1f3d1e743bdac0962a9	c2db7ae8-ffd3-420d-ba99-c0f8bbd43950	nextflow scCutAndTag.nf -resume
+2025-01-16 14:46:41	40.1s	agitated_rutherford	ERR	ccd962e9a83de1f3d1e743bdac0962a9	26c34bc9-a26f-4afd-911f-85eec59ed286	nextflow scCutAndTag.nf
+2025-01-16 14:52:07	20m 27s	loving_stallman	ERR	f5c3d201e2aa1116f7b06f1f77fff8e1	d3b2c157-a1bc-4868-a09b-37ff875015bf	nextflow scCutAndTag.nf
+2025-01-16 15:12:46	-	astonishing_mccarthy	-	9983edc1002ec3d916936a54b0413ebd	d3b2c157-a1bc-4868-a09b-37ff875015bf	nextflow scCutAndTag.nf -resume

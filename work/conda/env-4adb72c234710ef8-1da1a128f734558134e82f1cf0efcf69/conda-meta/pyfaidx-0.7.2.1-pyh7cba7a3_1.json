@@ -1,0 +1,143 @@
+{
+  "build": "pyh7cba7a3_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "biopython",
+    "six",
+    "packaging",
+    "setuptools",
+    "pyvcf3"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/pyfaidx-0.7.2.1-pyh7cba7a3_1",
+  "files": [
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/REQUESTED",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/direct_url.json",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/entry_points.txt",
+    "lib/python3.6/site-packages/pyfaidx-0.7.2.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pyfaidx/__init__.py",
+    "lib/python3.6/site-packages/pyfaidx/cli.py",
+    "lib/python3.6/site-packages/pyfaidx/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyfaidx/__pycache__/cli.cpython-36.pyc",
+    "bin/faidx"
+  ],
+  "fn": "pyfaidx-0.7.2.1-pyh7cba7a3_1.tar.bz2",
+  "license": "BSD License",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/pyfaidx-0.7.2.1-pyh7cba7a3_1",
+    "type": 1
+  },
+  "md5": "71c5879674dee2e5e8c6e51e60d4acd6",
+  "name": "pyfaidx",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/pyfaidx-0.7.2.1-pyh7cba7a3_1.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "682c5e69e42f297b30d083d602c18b0403696beeaf714ff714f3f0da96a96534",
+        "sha256_in_prefix": "682c5e69e42f297b30d083d602c18b0403696beeaf714ff714f3f0da96a96534",
+        "size_in_bytes": 1770
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c0ae365003dec969ad13c3d793198ee6cc2633a77cd37dcd116cbd98526a3be3",
+        "sha256_in_prefix": "c0ae365003dec969ad13c3d793198ee6cc2633a77cd37dcd116cbd98526a3be3",
+        "size_in_bytes": 25323
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "060ea4c7b42e3704faf76c9f3f18dc401b5a8f4959d84d2313a27dd9bab4acd9",
+        "sha256_in_prefix": "060ea4c7b42e3704faf76c9f3f18dc401b5a8f4959d84d2313a27dd9bab4acd9",
+        "size_in_bytes": 1093
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "sha256_in_prefix": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6553a1e7d740740b4eafd7e4620a74b2383448b93c5ff4aa807e963e12ffefe5",
+        "sha256_in_prefix": "6553a1e7d740740b4eafd7e4620a74b2383448b93c5ff4aa807e963e12ffefe5",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "9b9835667decdf655d508930a93ffcbe9a085988cbdd8d877e0999171cd56308",
+        "sha256_in_prefix": "9b9835667decdf655d508930a93ffcbe9a085988cbdd8d877e0999171cd56308",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/pyfaidx-0.7.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8953205b9f1896db2dd92bf9afe40e5bef4d75dbdebaed86b3cd7feaf1cfa5f2",
+        "sha256_in_prefix": "8953205b9f1896db2dd92bf9afe40e5bef4d75dbdebaed86b3cd7feaf1cfa5f2",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/pyfaidx/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "eeb847e4c0de144fa3391cc92ff2dc2debb7231dde88290116a0f78ec0b577f1",
+        "sha256_in_prefix": "eeb847e4c0de144fa3391cc92ff2dc2debb7231dde88290116a0f78ec0b577f1",
+        "size_in_bytes": 54037
+      },
+      {
+        "_path": "site-packages/pyfaidx/cli.py",
+        "path_type": "hardlink",
+        "sha256": "aef9c854a9282f57810b5c91ae62521831db5adbbe67afd7e096abd0c30edc2b",
+        "sha256_in_prefix": "aef9c854a9282f57810b5c91ae62521831db5adbbe67afd7e096abd0c30edc2b",
+        "size_in_bytes": 16444
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyfaidx/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyfaidx/__pycache__/cli.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/faidx",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "efc210ae9c68769a3f7f53e12aeea3b30fd72fb6d4fe8c1c935899fda662d8ab",
+  "size": 32982,
+  "subdir": "noarch",
+  "timestamp": 1677512707000,
+  "url": "https://conda.anaconda.org/bioconda/noarch/pyfaidx-0.7.2.1-pyh7cba7a3_1.tar.bz2",
+  "version": "0.7.2.1"
+}

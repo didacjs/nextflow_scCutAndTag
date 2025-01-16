@@ -1,0 +1,2 @@
+usage: An example usage is:$ bamCoverage -b reads.bam -o coverage.bw
+bamCoverage: error: argument --outFileName/-o: /home/didac/Work/Misc/CutAndTag/Code/S1_bigwig/ file can't be opened for writing

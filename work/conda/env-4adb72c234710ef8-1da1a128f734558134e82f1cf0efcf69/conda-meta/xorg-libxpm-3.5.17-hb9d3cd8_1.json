@@ -1,0 +1,100 @@
+{
+  "build": "hb9d3cd8_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "gettext",
+    "libasprintf >=0.22.5,<1.0a0",
+    "libgcc >=13",
+    "libgettextpo >=0.22.5,<1.0a0",
+    "xorg-libx11 >=1.8.10,<2.0a0",
+    "xorg-libxext >=1.3.6,<2.0a0",
+    "xorg-libxt >=1.3.0,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/xorg-libxpm-3.5.17-hb9d3cd8_1",
+  "files": [
+    "bin/cxpm",
+    "bin/sxpm",
+    "include/X11/xpm.h",
+    "lib/libXpm.so",
+    "lib/libXpm.so.4",
+    "lib/libXpm.so.4.11.0",
+    "lib/pkgconfig/xpm.pc"
+  ],
+  "fn": "xorg-libxpm-3.5.17-hb9d3cd8_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/xorg-libxpm-3.5.17-hb9d3cd8_1",
+    "type": 1
+  },
+  "md5": "f35bec7fface97f67f44ca952fc740b7",
+  "name": "xorg-libxpm",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/xorg-libxpm-3.5.17-hb9d3cd8_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cxpm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxpm_1727801047578/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "52df91723ea367480d9000dde4f3741641d4498a37f5fafd93d7f5113f64fba8",
+        "sha256_in_prefix": "b7949f0c188ceae2ff1b59d493313480f12a54f3f2378d8373cb412918a34cdd",
+        "size_in_bytes": 34848
+      },
+      {
+        "_path": "bin/sxpm",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxpm_1727801047578/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "f3733fac265c076126305d5dc128ad050fab04b19ac7d8c9593ee7766639b8e8",
+        "sha256_in_prefix": "f1ba84f0cd77cf4e3d6d6220a2caeedf86392999d7419ece1d53bea9bdcb7e54",
+        "size_in_bytes": 30816
+      },
+      {
+        "_path": "include/X11/xpm.h",
+        "path_type": "hardlink",
+        "sha256": "6e8a35f087c8d7574cf225175e9edc4881660b66b60631d4f888d5445fd148cd",
+        "sha256_in_prefix": "6e8a35f087c8d7574cf225175e9edc4881660b66b60631d4f888d5445fd148cd",
+        "size_in_bytes": 16362
+      },
+      {
+        "_path": "lib/libXpm.so",
+        "path_type": "softlink",
+        "sha256": "1b867b3fa146073d2f29de87ef080ed82cacb53bc0e5826a2adc58a51f5e4e06",
+        "size_in_bytes": 92656
+      },
+      {
+        "_path": "lib/libXpm.so.4",
+        "path_type": "softlink",
+        "sha256": "1b867b3fa146073d2f29de87ef080ed82cacb53bc0e5826a2adc58a51f5e4e06",
+        "size_in_bytes": 92656
+      },
+      {
+        "_path": "lib/libXpm.so.4.11.0",
+        "path_type": "hardlink",
+        "sha256": "1b867b3fa146073d2f29de87ef080ed82cacb53bc0e5826a2adc58a51f5e4e06",
+        "sha256_in_prefix": "1b867b3fa146073d2f29de87ef080ed82cacb53bc0e5826a2adc58a51f5e4e06",
+        "size_in_bytes": 92656
+      },
+      {
+        "_path": "lib/pkgconfig/xpm.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxpm_1727801047578/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "2a606f2d6952291e8160316a40d8e0c948bea4f5aaf30f230682fee3e3058db0",
+        "sha256_in_prefix": "c651240b2e1d0d61098410c3c60209b3357ebc0443708dc29ec0a69652deb0b9",
+        "size_in_bytes": 481
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8ce7ae21dcbbb759c6fb9e5ad2a2f2f4e54172adf160ea59e11712598edbb75c",
+  "size": 64764,
+  "subdir": "linux-64",
+  "timestamp": 1727801210000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxpm-3.5.17-hb9d3cd8_1.conda",
+  "version": "3.5.17"
+}

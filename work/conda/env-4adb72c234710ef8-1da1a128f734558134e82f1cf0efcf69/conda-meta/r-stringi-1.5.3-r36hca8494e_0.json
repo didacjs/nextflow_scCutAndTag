@@ -1,0 +1,244 @@
+{
+  "build": "r36hca8494e_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "icu >=67.1,<68.0a0",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "r-base >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/didac/.local/anaconda3/pkgs/r-stringi-1.5.3-r36hca8494e_0",
+  "files": [
+    "lib/R/library/stringi/AUTHORS",
+    "lib/R/library/stringi/CITATION",
+    "lib/R/library/stringi/DESCRIPTION",
+    "lib/R/library/stringi/INDEX",
+    "lib/R/library/stringi/LICENSE",
+    "lib/R/library/stringi/Meta/Rd.rds",
+    "lib/R/library/stringi/Meta/features.rds",
+    "lib/R/library/stringi/Meta/hsearch.rds",
+    "lib/R/library/stringi/Meta/links.rds",
+    "lib/R/library/stringi/Meta/nsInfo.rds",
+    "lib/R/library/stringi/Meta/package.rds",
+    "lib/R/library/stringi/NAMESPACE",
+    "lib/R/library/stringi/NEWS",
+    "lib/R/library/stringi/R/stringi",
+    "lib/R/library/stringi/R/stringi.rdb",
+    "lib/R/library/stringi/R/stringi.rdx",
+    "lib/R/library/stringi/help/AnIndex",
+    "lib/R/library/stringi/help/aliases.rds",
+    "lib/R/library/stringi/help/paths.rds",
+    "lib/R/library/stringi/help/stringi.rdb",
+    "lib/R/library/stringi/help/stringi.rdx",
+    "lib/R/library/stringi/html/00Index.html",
+    "lib/R/library/stringi/html/R.css",
+    "lib/R/library/stringi/include/stringi.cpp",
+    "lib/R/library/stringi/include/stringi.h",
+    "lib/R/library/stringi/libs/stringi.so"
+  ],
+  "fn": "r-stringi-1.5.3-r36hca8494e_0.tar.bz2",
+  "license": "FOSS",
+  "link": {
+    "source": "/home/didac/.local/anaconda3/pkgs/r-stringi-1.5.3-r36hca8494e_0",
+    "type": 1
+  },
+  "md5": "d6e93548944017e4a571646c28e0c56e",
+  "name": "r-stringi",
+  "package_tarball_full_path": "/home/didac/.local/anaconda3/pkgs/r-stringi-1.5.3-r36hca8494e_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/R/library/stringi/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "21e5a622e2212c0d44aa91b1bd7b6b0022c4588a4f824e57c904ae4ecbf15ad8",
+        "sha256_in_prefix": "21e5a622e2212c0d44aa91b1bd7b6b0022c4588a4f824e57c904ae4ecbf15ad8",
+        "size_in_bytes": 1980
+      },
+      {
+        "_path": "lib/R/library/stringi/CITATION",
+        "path_type": "hardlink",
+        "sha256": "1a54ca2e3174cc7aaec6f436fd0762a497738835b84d5f39457de9a34a418239",
+        "sha256_in_prefix": "1a54ca2e3174cc7aaec6f436fd0762a497738835b84d5f39457de9a34a418239",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "lib/R/library/stringi/DESCRIPTION",
+        "path_type": "hardlink",
+        "sha256": "19b43d22cb339914f52d23088177f127fd475ecbb00a88edc2b61fc8e2ce53b6",
+        "sha256_in_prefix": "19b43d22cb339914f52d23088177f127fd475ecbb00a88edc2b61fc8e2ce53b6",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/R/library/stringi/INDEX",
+        "path_type": "hardlink",
+        "sha256": "56f3a369844f1d0b6ff40bf08f7c77407fde9f4a548deb1029f86c2ff53cc74d",
+        "sha256_in_prefix": "56f3a369844f1d0b6ff40bf08f7c77407fde9f4a548deb1029f86c2ff53cc74d",
+        "size_in_bytes": 6317
+      },
+      {
+        "_path": "lib/R/library/stringi/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "1b2660331e66fff781e483656925177827dd87f91340ab2be3e67733931966da",
+        "sha256_in_prefix": "1b2660331e66fff781e483656925177827dd87f91340ab2be3e67733931966da",
+        "size_in_bytes": 22022
+      },
+      {
+        "_path": "lib/R/library/stringi/Meta/Rd.rds",
+        "path_type": "hardlink",
+        "sha256": "f98dcbbd0b5287418f98e5be23a1bdbd15eca654e01eb56eb2c4e5a1cbf2f9a7",
+        "sha256_in_prefix": "f98dcbbd0b5287418f98e5be23a1bdbd15eca654e01eb56eb2c4e5a1cbf2f9a7",
+        "size_in_bytes": 4600
+      },
+      {
+        "_path": "lib/R/library/stringi/Meta/features.rds",
+        "path_type": "hardlink",
+        "sha256": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "sha256_in_prefix": "87c7b4e0fade02de84f817353ea7774cef71c4cfc1c1a132820b565617c738db",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/R/library/stringi/Meta/hsearch.rds",
+        "path_type": "hardlink",
+        "sha256": "7891668116d145b34a43fd96ecbb3dc21d7854238468f06a7f8144adba73eb05",
+        "sha256_in_prefix": "7891668116d145b34a43fd96ecbb3dc21d7854238468f06a7f8144adba73eb05",
+        "size_in_bytes": 4515
+      },
+      {
+        "_path": "lib/R/library/stringi/Meta/links.rds",
+        "path_type": "hardlink",
+        "sha256": "313a34be963f4d605ebd84d6e5156ee6e8d1d116f30b2045908891b0077dad00",
+        "sha256_in_prefix": "313a34be963f4d605ebd84d6e5156ee6e8d1d116f30b2045908891b0077dad00",
+        "size_in_bytes": 2378
+      },
+      {
+        "_path": "lib/R/library/stringi/Meta/nsInfo.rds",
+        "path_type": "hardlink",
+        "sha256": "093ac824b7ef83c15c0fdc616d58df46f35acf1904f217806f18b54fa6bb25fe",
+        "sha256_in_prefix": "093ac824b7ef83c15c0fdc616d58df46f35acf1904f217806f18b54fa6bb25fe",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "lib/R/library/stringi/Meta/package.rds",
+        "path_type": "hardlink",
+        "sha256": "5822feac65b9d3973791b272908e68aea869339a8d8ce8817b0f906ba2e484c0",
+        "sha256_in_prefix": "5822feac65b9d3973791b272908e68aea869339a8d8ce8817b0f906ba2e484c0",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "lib/R/library/stringi/NAMESPACE",
+        "path_type": "hardlink",
+        "sha256": "ad37aaaf8bbdd010411373fff3a64afad1f4d14305bd67e1033ab21b8ceb1188",
+        "sha256_in_prefix": "ad37aaaf8bbdd010411373fff3a64afad1f4d14305bd67e1033ab21b8ceb1188",
+        "size_in_bytes": 6611
+      },
+      {
+        "_path": "lib/R/library/stringi/NEWS",
+        "path_type": "hardlink",
+        "sha256": "02768668bce18056f54431f8dc17a061d6ea92d5af8989fe5699515b055ce6a3",
+        "sha256_in_prefix": "02768668bce18056f54431f8dc17a061d6ea92d5af8989fe5699515b055ce6a3",
+        "size_in_bytes": 31781
+      },
+      {
+        "_path": "lib/R/library/stringi/R/stringi",
+        "path_type": "hardlink",
+        "sha256": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "sha256_in_prefix": "2fb8b16be23c820daf2e51b7ddfef61ca4978e561b1d228d546d1b356041f79e",
+        "size_in_bytes": 1056
+      },
+      {
+        "_path": "lib/R/library/stringi/R/stringi.rdb",
+        "path_type": "hardlink",
+        "sha256": "279b11e41b1caad6427ff9ebfddc9843c41c6273b1a638b1a5d3a11a220914bf",
+        "sha256_in_prefix": "279b11e41b1caad6427ff9ebfddc9843c41c6273b1a638b1a5d3a11a220914bf",
+        "size_in_bytes": 131854
+      },
+      {
+        "_path": "lib/R/library/stringi/R/stringi.rdx",
+        "path_type": "hardlink",
+        "sha256": "33a19106a158a9a5e531319e15e084faf0edf6ff5f88251e4c37cc4ad4b935ee",
+        "sha256_in_prefix": "33a19106a158a9a5e531319e15e084faf0edf6ff5f88251e4c37cc4ad4b935ee",
+        "size_in_bytes": 3257
+      },
+      {
+        "_path": "lib/R/library/stringi/help/AnIndex",
+        "path_type": "hardlink",
+        "sha256": "01f108912c9f69e22e9e70362dedb8cee5e4202c2371aa9e9f61b23a6ac9973e",
+        "sha256_in_prefix": "01f108912c9f69e22e9e70362dedb8cee5e4202c2371aa9e9f61b23a6ac9973e",
+        "size_in_bytes": 9299
+      },
+      {
+        "_path": "lib/R/library/stringi/help/aliases.rds",
+        "path_type": "hardlink",
+        "sha256": "5c0fc620ea4eebf9c43d970dd86fb5ae452e72f869876692988919a5ab8339d0",
+        "sha256_in_prefix": "5c0fc620ea4eebf9c43d970dd86fb5ae452e72f869876692988919a5ab8339d0",
+        "size_in_bytes": 1908
+      },
+      {
+        "_path": "lib/R/library/stringi/help/paths.rds",
+        "path_type": "hardlink",
+        "sha256": "863971980f26fb9da0e19191dccc8c26e7a1f60cee56ddd46f07f494cb47e910",
+        "sha256_in_prefix": "863971980f26fb9da0e19191dccc8c26e7a1f60cee56ddd46f07f494cb47e910",
+        "size_in_bytes": 934
+      },
+      {
+        "_path": "lib/R/library/stringi/help/stringi.rdb",
+        "path_type": "hardlink",
+        "sha256": "11ff748c55987454e0fcfd74cd71559c67784fbfa999c864c02ffc5a65759e7c",
+        "sha256_in_prefix": "11ff748c55987454e0fcfd74cd71559c67784fbfa999c864c02ffc5a65759e7c",
+        "size_in_bytes": 402456
+      },
+      {
+        "_path": "lib/R/library/stringi/help/stringi.rdx",
+        "path_type": "hardlink",
+        "sha256": "9d81f603d3119d34d6bbc0396876a96b94764df5127c7c0581bfbe05c2d65f3e",
+        "sha256_in_prefix": "9d81f603d3119d34d6bbc0396876a96b94764df5127c7c0581bfbe05c2d65f3e",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "lib/R/library/stringi/html/00Index.html",
+        "path_type": "hardlink",
+        "sha256": "4af72e870a0ba94d2ff1d1156f850522dd04e745b032ede882ec5eec6b014f23",
+        "sha256_in_prefix": "4af72e870a0ba94d2ff1d1156f850522dd04e745b032ede882ec5eec6b014f23",
+        "size_in_bytes": 40976
+      },
+      {
+        "_path": "lib/R/library/stringi/html/R.css",
+        "path_type": "hardlink",
+        "sha256": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "sha256_in_prefix": "0f4849ab1757247808d54da2c371e992364371c942ad7d629dae8d62327ed068",
+        "size_in_bytes": 1335
+      },
+      {
+        "_path": "lib/R/library/stringi/include/stringi.cpp",
+        "path_type": "hardlink",
+        "sha256": "10c934ea41b0dfbef4d8e1dec3e1e5627222c3f8f59cbd9d24fcac83871b6058",
+        "sha256_in_prefix": "10c934ea41b0dfbef4d8e1dec3e1e5627222c3f8f59cbd9d24fcac83871b6058",
+        "size_in_bytes": 41967
+      },
+      {
+        "_path": "lib/R/library/stringi/include/stringi.h",
+        "path_type": "hardlink",
+        "sha256": "5eafaf858ae17277f4e5baf5ff30cc24de4d7517e3124fa5476819867a0f9051",
+        "sha256_in_prefix": "5eafaf858ae17277f4e5baf5ff30cc24de4d7517e3124fa5476819867a0f9051",
+        "size_in_bytes": 18586
+      },
+      {
+        "_path": "lib/R/library/stringi/libs/stringi.so",
+        "path_type": "hardlink",
+        "sha256": "1e9d3064cfc7217a7655c97fac1a9d7fd8b0ef6d1edb5545636fdf7034abdad2",
+        "sha256_in_prefix": "1e9d3064cfc7217a7655c97fac1a9d7fd8b0ef6d1edb5545636fdf7034abdad2",
+        "size_in_bytes": 581816
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a6d78194b4839521dc37e0b2432c0b58dd4bf5ae7200756da74e6c8b28c9beb6",
+  "size": 819845,
+  "subdir": "linux-64",
+  "timestamp": 1610699711000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/r-stringi-1.5.3-r36hca8494e_0.tar.bz2",
+  "version": "1.5.3"
+}
