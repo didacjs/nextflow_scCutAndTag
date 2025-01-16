@@ -1,0 +1,41 @@
+name: CT_snakemake
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - htslib=1.9
+  - samtools=1.9
+  - picard=2.22.0
+  - macs2=2.2.7.1
+  - deeptools=3.4.3
+  - python=3.6
+  - bedtools=2.29.2
+  - htcondor
+  - yaml
+  - cookiecutter
+  - graphviz
+  - pyyaml
+  - snakemake
+  - pygenometracks
+  - tqdm
+  - r-base=3.6.3
+  - r-seurat=3.1.5
+  - r-dplyr=0.8.5
+  - r-argparse
+  - r-viridis
+  - r-devtools
+  - r-rcpparmadillo
+  - r-pheatmap
+  - r-hdf5r
+  - r-matrix.utils
+  - r-ggthemes
+  - r-loom
+  - bioconductor-topgo
+  - bioconductor-org.mm.eg.db
+  - bioconductor-singlecellexperiment
+  - bioconductor-bsgenome.mmusculus.ucsc.mm10
+  - bioconductor-ensdb.mmusculus.v79
+  - bioconductor-ensdb.hsapiens.v86
+  
